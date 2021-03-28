@@ -1,0 +1,722 @@
+def euler002():	関数euler002の定義
+fib = [1, 2]	fibに1と2からなるリストを代入
+while fib[-1] < 4000000:	fibの末尾要素が4000000未満の間繰り返し
+fib.append(fib[-1] + fib[-2])	fibの末尾要素とその次の要素を足してfibの末尾に追加する
+s = 0	sに0を代入
+for x in fib:	fibの各要素を前から順にxとして
+if x % 2 == 0:	xが2でわりきれるなら
+s += x	sにxを足す
+return s	sを返す
+def euler002_divide_2(n):	nを引数とする関数euler002_divide_2の定義
+return n % 2 == 0	nが2で割り切れる場合True、そうでなければFalseを返す
+def euler002_add_param(a, b):	aとbを引数とする関数euler002_add_paramの定義
+return a + b	aとbの和を返す
+def euler002_sum_list(l):	lを引数とする関数euler002_sum_listの定義
+s = 0	sに0を代入
+for x in l:	lの各要素を順にxとして
+s += x	sにxを足す
+return s	sを返す
+def euler002_sum_list_a(l):	lを引数とする関数euler002_sum_list_aの定義
+return sum(l)	lの全要素の総和を返す
+def euler002_n_fibnocci_sequence(n):	nを引数とする関数euler002_n_fibonacci_sequenceの定義
+fibs = [0, 1]	fibsに0と1からなるリストを代入
+a = n - 2	aにnから2を引いた数を代入
+if n == 1:	もしnが1であれば
+return [0]	0のみからなるリストを返す
+else:	そうでなければ
+while a > 0:	aが0より大きい間
+fibs.append(fibs[-1] + fibs[-2])	fibsの末尾要素とその次の要素を足してfibsの末尾に追加
+a -= 1	aから1を引く
+return fibs	fibsを返す
+def euler002_n_fibnocci_number(n):	nを引数とする関数euler002_n_fibonacci_numberの定義
+fibs = [0, 1]	fibsに0と1からなるリストを代入
+if 0 < n <= 2:	もしnが0より大きく、かつ2以下であるなら
+return fibs[n - 1]	fibsのn-1番目の要素を返す
+else:	そうでなければ
+a = n - 2 	aにnから2を引いた数を代入
+while a > 0:	aが0より大きい間
+fibs.append(fibs[-1] + fibs[-2])	fibsの末尾要素とその次の要素を足してfibsの末尾に追加
+a -= 1	aから1を引く
+return fibs[-1]	fibsの末尾要素を返す
+def euler003():	関数euler003の定義
+n = 600851475143	nに600851475143を代入
+i = 2	iに2を代入
+while i * i < n:	iの自乗がn未満の間
+while n % i == 0:	nがiで割り切れる間
+n = n / i	nをiで割る
+i = i + 1	iに1を足す
+return int(n)	nを整数にした結果を返す
+def euler003_n_morethan_square(a, n):	aとnを引数とする関数euler003_n_morethan_squareの定義
+return a * a < n	aの自乗がnより小さければTrue、そうでなければFalseを返す
+def euler003_n_divide_a(n, a):	nとaを引数とする関数euler003_n_divide_aの定義
+while n % a == 0:	nがaで割り切れる間
+n /= a	nをaで割る
+return int(n)	nを整数にした結果を返す
+def euler004():	関数euler004の定義
+ans = 0	ansに0を代入
+for j in range(999, 99, -1):	99より大きく999以下の整数を大きい方から順にjとして
+for i in range(999, 99, -1):	99より大きく999以下の整数を大きい方から順にiとして
+s = (str)(j * i)	sにjとiの積の文字列表現を代入
+a = ""	aに空文字列を代入
+b = ""	bに空文字列を代入
+sep = (int)(len(s) / 2) + (len(s) % 2)	sepにsの長さを2で割った商とsを2で割った余りの和を代入
+for k in range(sep):	sep未満の非負整数を順にkとして
+a += s[k]	aにsのk番目の要素を足す
+b += s[len(s) - k - 1]	bにsの後ろからk番目の要素を足す
+if a == b:	もしaとbが等しければ
+ans = max(ans, i * j)	ansと、iとjの積の大きい方を新しいansとする
+return ans	ansを返す
+def euler004_n_slice(s, n):	sとnを引数とする関数euler004_n_sliceの定義
+ret = ""	retに空文字列を代入
+for i in range(n):	n未満の非負整数を順にiとして
+ret += s[i]	retにsのi番目の要素を足す
+return ret	retを返す
+def euler004_n_bslice(s, n):	sとnを引数とする関数euler004_n_bsliceの定義
+ret = ""	retに空文字列を代入
+for i in range(n):	n未満の非負整数を順にiとして
+ret += s[len(s) - 1 - i]	retにsの後ろからi番目の要素を足す
+return ret	retを返す
+def euler004_is_equal(a, b):	aとbを引数とする関数euler004_is_equalの定義
+return a == b	aとbが等しければTrue、そうでなければFalseを返す
+def euler004_half_digit(n):	nを引数とする関数euler004_half_digitの定義
+s = (str)(n)	sにnの文字列表現を代入
+a = len(s)	aにsの長さを代入
+return (int)(a / 2) + (a % 2)	aを2で割った商とsを2で割った余りの和を返す
+def euler004_multiple(a, b):	aとbを引数とする関数euler004_multipleを定義
+return a * b	aとbの積を返す
+def euler004_multiple_a(a, b):	aとbを引数とする関数euler004_multiple_aの定義
+res = 0	resに0を代入
+for i in range(b):	以下の処理をb回繰り返す
+res += a	resにaを足す
+return res	resを返す
+def euler004_string_reverse(s):	sを引数とする関数euler004_string_reverseの定義
+ret = ""	retに空文字列を代入
+for ch in reversed(s):	sの各要素を後ろから順にchとして
+ret += ch	retにchを足す
+return ret	retを返す
+def euler004_is_palindromic(s):	sを引数とする関数euler004_is_palindromicの定義
+rs = ""	rsに空文字列を代入
+for ch in reversed(s):	sの各要素を後ろから順にchとして
+rs += ch	rsにchを足す
+return s == rs	sとrsが等しければTrue、そうでなければFalseを返す
+def euler005():	関数euler005の定義
+prime = []	primeに空のリストを代入
+for i in range(2, 20):	2から20未満の整数を順にiとして
+l = []	lに空リストを代入
+for y in prime:	primeの各要素をyとして
+if i % y == 0:	もしiがyで割り切れるなら
+l.append(y)	lにyを追加する
+if len(l) == 0:	もしlの長さが0であれば
+prime.append(i)	primeにiを追加する
+a = 1	aに1を代入
+for p in prime:	primeの各要素をpとして
+for i in range(int(20**(1/p))):	20の1/p乗未満の非負整数を順にiとして
+a = a * p	aにpを掛ける
+return a	aを返す
+def euler005_enum_prime(n):	nを引数とする関数euler005_enum_primeの定義
+prime = []	primeに空リストを代入
+for i in range(2, n + 1):	2からnまでの各整数を順にiとして
+f = True	fにTrueを代入
+for j in prime:	prime内の各要素をjとして
+if i % j == 0:	iがjで割り切れるなら
+f = False	fをFalseにする
+break	ループから抜ける
+if f:	fがTrueであれば
+prime.append(i)	primeにiを追加する
+return prime	primeを返す
+def euler005_enum_prime_a(n):	nを引数とする関数euler005_enum_prime_aの定義
+primes = []	primesを空リストとする
+for i in range(2, n + 1):	2からnまでの各整数を順にiとして
+if i == 2:	iが2であれば
+primes.append(i)	primesにiを追加する
+else:	そうでなければ
+for j in range(2, int(i**0.5) + 1):	2からiの平方根までの整数をjとして
+if i % j == 0:	iがjで割り切れるなら
+break	ループを抜ける
+else:	ループが正常に終了した場合
+primes.append(i)	primesにiを追加する
+return primes	primesを返す
+def euler005_enum_prime_b(n):	nを引数とする関数euler005_enum_prime_bの定義
+primes = [True] * (n + 1)	primesをTrueがn+1個繋がったリストとする
+ret = []	retを空リストとする
+for i in range(2, int(n**0.5) + 1):	2からnの平方根までの整数をiとして
+if primes[i]:	もしprimesのi番目がTrueであれば
+for j in range(i + i, n + 1, i):	iの自乗からnまでのi個飛ばしの整数をjとして
+primes[j] = False	primesのj番目をFalseにする
+for i in range(2, n + 1):	2からn+1までの整数を順にiとして
+if primes[i]:	もしprimesのi番目がTrueであれば
+ret.append(i)	retにiを追加する
+return ret	retを返す
+def euler005_expmax(p, n):	pとnを引数とする関数euler005_expmaxの定義
+a = 1	aに1を代入
+while a < n:	aがnより小さい間
+a *= p	aにpを掛ける
+return int(a / p)	a割るpの整数部分を返す
+def euler005_expmax_a(p, n):	pとnを引数とする関数euler005_expmax_aの定義
+return p**int(n**(1/p))	pの(nのp乗根の整数部分)乗を返す
+def euler006():	関数euler006の定義
+sumofsq = 0	sumofsqに0を代入
+for i in range(100):	100未満の非負整数を小さい方から順にiとして
+sumofsq += (i + 1) * (i + 1)	sumofsqにi+1の自乗を足す
+sqofsum = 101 * 50	sqofsumに101と50の積を代入
+return sumofsq - sqofsum	sumofsqとsqofsumの差を返す
+def euler006_make_common_diff_sequence(s, d, n):	sとdとnを引数とする関数euler006_make_common_diff_sequenceの定義
+ret = [s]	retにsのみからなるリストを代入
+for i in range(n - 1):	以下の処理をn-1回繰り返す
+ret.append(ret[-1] + d)	retの末尾要素にdを加えたものをretの末尾に追加する
+return ret	retを返す
+def euler006_make_common_diff_sequence_a(s, d, n):	sとdとnを引数とする関数euler006_make_common_dif_sequence_aの定義
+ret = []	retを空リストとする
+for i in range(s, s + (d * n), d):	sからd個飛ばしでn個の整数をiとして
+ret.append(i)	retにiを追加
+return ret	retを返す
+def euler006_n_square(n):	nを引数とする関数euler006_n_sequenceの定義
+return n * n	nの自乗を返す
+def euler006_n_square_a(n):	nを引数とする関数euler006_n_square_aの定義
+ret = 0	retに0を代入
+for i in range(n):	以下の処理をn回繰り返す
+ret += n	retにnを足す
+return ret	retを返す
+def euler006_sum_a_to_b(a, b):	aとbを引数とする関数euler006_sum_a_to_bの定義
+s = 0	sに0を代入
+while a < b:	aがbより小さい間
+s += a	sにaを足す
+a += 1	aに1を足す
+return s	sを返す
+def euler006_sum_a_to_b_a(a, b):	aとbを引数とする関数euler006_sum_a_to_b_aの定義
+return sum(range(a, b))	a以上b未満の整数の総和を返す
+def euler007():	関数euler007の定義
+count = 0	countを0とする
+p = 1	pを1とする
+pl = []	plを空のリストとする
+while count < 10001:	countが10001未満である間
+p += 1	pに1を足す
+l = [ i for i in range(2, int(math.sqrt(p)) + 1) if p % i == 0 ]	2からpの平方根までの整数iのうち、pを割り切ることができるもののリストをlに代入
+if len(l) == 0:	もしlが空なら
+count += 1	countに1を足す
+return p	pを返す
+def euler007_n_division(a, n):	aとnを引数とする関数euler007_n_difisionの定義
+return a % n == 0	aがnで割り切れるならTrue、そうでないならFalseを返す
+def euler007_n_division_a(a, n):	aとnを引数とする関数euler007_n_division_aの定義
+while a > 0:	aが0より大きい間
+a -= n	aからnを引く
+return a == 0	aが0であればTrue、そうでなければFalseを返す
+def euler007_is_prime(a):	aを引数とする関数euler007_is_primeの定義
+dl = []	dlを空リストとする
+for i in range(2, a):	2以上a未満の整数を順にiとして
+if a % i == 0:	aがiで割り切れるなら
+dl.append(i)	dlにiを追加
+return len(dl) == 0	dlが空であればTrue、そうでなければFalseを返す
+def euler007_is_prime_a(a):	aを引数とする関数euler007_is_prime_aの定義
+if a < 2:	もしaが2未満であれば
+return False	Falseを返す
+elif a == 2:	そうでなく、もしaが2であれば
+return True	Trueを返す
+else:	いずれでもなければ
+for i in range(2, int(a**0.5) + 1):	2からaの平方根までの整数を順にiとして
+if a % i == 0:	もしaがiで割り切れれば
+return False	Falseを返す
+return True	Trueを返す
+def euler007_succ(a):	aを引数とする関数euler007_succの定義
+return a + 1	aに1を足した数を返す
+def euler007_is_less(a, b):	aとbを引数とする関数euler007_is_lessの定義
+return a < b	aがbより小さければTrue、そうでなければFalseを返す
+def euler007_is_equale_zero(a):	aを引数とする関数euler007_is_equale_zeroの定義
+return a == 0	aが0であればTrue、そうでなければFalseを返す
+def euler008():	関数euler008の定義
+sl = []	slを空リストとする
+for i in range(5):	5未満の非負整数iについて
+sl.append(int(s[i]))	slにsのi番目の要素の表す整数を追加
+m = 1	mを1とする
+for i in sl:	sl内の各要素をiとして
+m *= i	mにiを掛ける
+for i in range(5, len(s)):	5からsの要素数未満の整数iについて
+sl.append(int(s[i]))	slにsのi番目の要素の表す整数を追加
+sl.pop(0)	slの最初の要素を削除する
+a = 1	aを1とする
+for j in sl:	sl内の各要素をjとして
+a *= j	aにjを掛ける
+m = max(m, a)	mとaの大きい方を新しいmとする
+return m	mを返す
+def euler008_all_product(l):	lを引数とする関数euler008_all_productの定義
+ret = 1	retを1とする
+for x in l:	l内の全ての要素xについて
+ret *= x	retにxを掛ける
+return ret	retを返す
+def euler008_list_slice(l, s, c):	lとsとcを引数とする関数euler008_list_sliceの定義
+ret = []	retを空のリストとする
+for i in range(c):	c未満の非負整数iについて
+ret.append(l[s + i])	lのs+i番目の要素をretに追加する
+return ret	retを返す
+def euler008_elem_max(a, b):	aとbを引数とする関数euler008_elem_maxの定義
+return b if a < b else a	bがaより大きければb、そうでなければaを返す
+def euler008_elem_max_a(a, b):	aとbを引数とする関数euler008_elem_max_aの定義
+return max(a, b)	aとbの大きい方を返す
+def euler008_list_add(l, a):	lとaを引数とする関数euler008_list_addの定義
+tmp = [a]	tmpをaのみからなるリストとする
+l += tmp	lの末尾にtmpを結合する
+return l	lを返す
+def euler008_list_add_a(l, a):	lとaを引数とする関数euler008_list_add_aの定義
+l.append(a)	lの末尾にaを追加する
+return l	lを返す
+def euler009():	関数euler009の定義
+for i in range(1, 1000):	1以上1000未満の整数iについて
+for j in range(i, 1000):	i以上1000未満の整数jについて
+for k in range(j, 1000):	j以上1000未満の整数kについて
+p = i * i + j * j	pにiの自乗とjの自乗の和を代入
+if p == k * k and i + j + k == 1000:	もしpがkの自乗と等しく、かつiとjとkの和が1000であれば
+return i * j * k	iとjとkの積を返す
+def euler009_is_pythagoras(a, b, c):	aとbとcを引数とする関数euler009_is_pythagorasの定義
+return a * a + b * b == c * c	aの自乗とbの自乗がcの自乗と等しければTrue、そうでなければFalseを返す
+def euler009_n_square(n):	nを引数とする関数euler009_n_squareの定義
+return n * n	nの自乗を返す
+def euler009_n_square_a(n):	nを引数とする関数euler009_n_square_aの定義
+ret = 0	retに0を代入する
+for i in range(n):	以下の処理をn回繰り返す
+ret += n	retにnを足す
+return ret	retを返す
+def euler009_is_sum_equation1000(tp):	tpを引数とする関数euler009_is_sum_equation1000の定義
+s = 0	sに0を代入
+for x in tp:	tpの各要素をxとして
+s += x	sにxを足す
+return s == 1000	sが1000ならばTrue、そうでなければFalseを返す
+def euler009_is_sum_equation1000_a(tp):	tpを引数とする関数euler009_is_sum_equation1000_aの定義
+return sum(tp) == 1000	tpの各要素の総和が1000と等しければTrue、そうでなければFalseを返す
+def euler009_all_product(l):	lを引数とする関数euler009_all_productの定義
+ret = 1	retを1とする
+for a in l:	l内の全要素aについて
+ret *= a	aをretに掛ける
+return ret	retを返す
+def euler010():	関数euler010の定義
+p = [True] * 2000000	pにTrueのみからなるリストを代入
+for x in range(2, int(2000000**0.5) + 1):	xを2から2000000の0.5乗までの間で変化させて繰り返し
+if p[x]:	もしpのx番目が真であれば
+for i in range(2 * x, len(p), x):	iをxの2倍からpの長さ未満までxごとに変化させて繰り返し
+p[i] = False	pのi番目にFalseを代入
+ret = []	retに空のリストを代入
+for i in range(2, 2000000):	iを2から2000000まで変化させて繰り返し
+if p[i]:	もしpのi番目が真であれば
+ret.append(i)	retの末尾にiを追加
+return sum(ret)	retの要素の総和を返す
+def euler010_enum_prime(n):	引数nを取る関数euler010_enum_primeの定義
+p = [True] * n	Trueがn個並んでいるリストをpに代入
+for x in range(2, int(n**0.5) + 1):	xを2からnの平方根の範囲で変化させて繰り返し
+if p[x]:	pのx番目が真であれば
+for i in range(2 * x, len(p), x):	iをxの2倍からpの長さまでx単位で変化させて繰り返し
+p[i] = False	pのi番目をFalseにする
+ret = []	retに空のリストを代入
+for i in range(2, n):	iを2以上n未満の間で増加させながら繰り返し
+if p[i]:	もしpのi番目が真であれば
+ret.append(i)	retの末尾にiを追加
+return ret	retを返す
+def euler010_n_is_prime(n):	nを引数とする関数euler010_n_is_primeの定義
+judge = True	judgeにTrueを代入
+if n < 2:	もしnが2より小さければ
+return False	Falseを返す
+elif n == 2:	そうでなくて、もしnが2であれば
+return True	Trueを返す
+for i in range(2, int(n**0.5) + 1):	iを2以上nの平方根以下の間で繰り返し
+if judge and n % i == 0:	もしjudgeが真でかつnがiで割り切れるなら
+judge = False	judgeをFalseにする
+return judge	judgeを返す
+def euler010_list_sum(l):	lを引数とする関数euler010_list_sumの定義
+s = 0	sに0を代入
+for x in l:	lに含まれる各要素をxに代入して繰り返し
+s += x	sにxを足す
+return s	sを返す
+def euler010_list_sum_a(l):	lを引数とする関数euler010_list_sum_aの定義
+return sum(l)	l内の要素の総和を返す
+def euler010_n_multiple_list(s, e, d):	s,e,dを引数とする関数euler010_n_multiple_listの定義
+ret = []	retに空のリストを代入
+while s < e:	sがeより小さい間繰り返し
+ret.append(s)	retの末尾にsを追加する
+s += d	sにdを足す
+return ret	retを返す
+def euler011():	関数euler001の定義
+grid = """""".split()	gridに文字列を空白文字で分割したリストを代入
+q = []	qに空リストを代入
+for ch in grid:	grid中の各要素を順にchとして
+q.append(int(ch))	qの末尾にchの表す数値を追加
+m = 0	mを0にする
+for i in range(20):	0から20未満の整数を順にiとして
+for j in range(20):	0から20未満の整数を順にjとして
+if j <= 16:	もしjが16以下であれば
+m = max(m, q[i*20+j] * q[i*20+j+1] * q[i*20+j+2] * q[i*20+j+3])	現在のmと(q[i*20+j] * q[i*20+j+1] * q[i*20+j+2] * q[i*20+j+3])のうち大きい方を新しいmとする
+if i <= 16:	もしiが16以下であれば
+m = max(m, q[i*20+j] * q[(i+1)*20+j+1] * q[(i+2)*20+j+2] * q[(i+3)*20+j+3])	現在のmと(q[i*20+j] * q[(i+1)*20+j+1] * q[(i+2)*20+j+2] * q[(i+3)*20+j+3])のうち大きい方を新しいmとする
+if 4 <= j and i <= 16:	もしjが4以上でiが16以下であれば
+m = max(m, q[i*20+j] * q[(i+1)*20+j-1] * q[(i+2)*20+j-2] * q[(i+3)*20+j-3])	現在のmと(q[i*20+j] * q[(i+1)*20+j-1] * q[(i+2)*20+j-2] * q[(i+3)*20+j-3])のうち大きい方を新しいmとする
+if i <= 16:	もしiが16以下であれば
+m = max(m, q[i*20+j] * q[(i+1)*20+j] * q[(i+2)*20+j] * q[(i+3)*20+j])	現在のmと(q[i*20+j] * q[(i+1)*20+j] * q[(i+2)*20+j] * q[(i+3)*20+j])のうち大きい方を新しいmとする
+return m	mを返す
+def euler011_less_or_equal(a, b):	aとbを引数とする関数euler011_less_or_equalの定義
+return a <= b	aがb以下であればTrue、そうでなければFalseを返す
+def euler011_less_or_equal_a(a, b):	aとbを引数とする関数euler011_less_or_equal_aの定義
+res = b - a	resにbとaの差を代入
+return res >= 0	resが0以上であればTrue、そうでなければFalseを返す
+def euler011_over_or_equal(a, b):	aとbを引数とする関数euler011_over_or_equalの定義
+return b <= a	bがa以下であればTrue、そうでなければFalseを返す
+def euler011_over_or_equal_a(a, b):	aとbを引数とする関数euler011_ver_or_equal_aの定義
+res = b - a	resにbとaの差を代入
+return res <= 0	resが0以下であればTrue、そうでなければFalseを返す
+def euler011_string_space_split(s):	sを引数とする関数euler011_string_space_splitの定義
+sl = []	slに空リストを代入
+buf = ""	bufに空文字列を代入
+for ch in s:	s内の全ての要素を順にchとして
+if ch == " ":	もしchが半角スペースなら
+sl.append(buf)	slの末尾にbufを追加
+buf = ""	bufを空文字列にする
+else:	そうでなければ
+buf += ch	bufにchを加える
+sl.append(buf)	slの末尾にbufを追加
+return sl	slを返す
+def euler011_zero_to_n_list(n):	nを引数とする関数euler011_zero_to_n_listの定義
+ret = []	retに空リストを代入
+a = 0	aに0を代入
+while a < n:	aがn未満の間
+ret.append(a)	retの末尾にaを追加
+a += 1	aに1を足す
+return ret	retを返す
+def euler011_zero_to_n_list_a(n):	nを引数とする関数euler011_zero_to_n_list_aの定義
+return list(range(n))	0からn-1までを順に要素として持つリストを返す
+def euler011_upward_point(x, y):	x,yを引数とする関数euler011_upward_pointの定義
+return (x, y - 1)	xとy-1の組を返す
+def euler011_downward_point(x, y):	x,yを引数とする関数euler011_downward_pointの定義
+return (x, y + 1)	xとy+1の組を返す
+def euler011_left_point(x, y):	x,yを引数とする関数euler011_left_pointの定義
+return (x - 1, y)	x-1とyの組を返す
+def euler011_right_point(x, y):	x,yを引数とする関数euler011_right_pointの定義
+return (x + 1, y)	x+1とyの組を返す
+def euler011_upper_left_point(x, y):	x,yを引数とする関数euler011_upper_left_pointの定義
+return (x - 1, y - 1)	x-1とy-1の組を返す
+def euler011_upper_right_point(x, y):	x,yを引数とする関数euler011_upper_right_pointの定義
+return (x + 1, y - 1)	x+1とy-1の組を返す
+def euler011_lower_left_point(x, y):	x,yを引数とする関数euler011_lower_left_pointの定義
+return (x - 1, y + 1)	x-1とy+1の組を返す
+def euler011_lower_right_point(x, y):	x,yを引数とする関数euler011_lower_right_pointの定義
+return (x + 1, y + 1)	x+1とy+1の組を返す
+def euler012():	関数euler012の定義
+s = 1	sに1を代入
+c = 0	cに0を代入
+pl = [2]	plに2のみからなるリストを代入
+fl = [1] * 4 + [0] * 96	flに1が4個と0が96個繋がったリストを代入
+while c < 500:	cが500未満である間
+tn = sum(range(1, s + 1))	tnに1からsの総和を代入
+if not s % 2:	もしsが2で割り切れるなら
+t = (int(s / 2), s + 1)	tにsを2で割った商とs+1の組を代入
+else:	そうでなければ
+t = (s, int((s + 1) / 2))	tにsとs+1を2で割った商の組を代入
+fc = 1	fcに1を代入
+for x in t:	t内の各要素をxとして
+if len(fl) < x:	もしflの長さがxより小さければ
+l = [0] * (x - len(fl) + 1)	lに0を(x-flの長さ+1)回繰り返したリストを代入
+fl += l	flにlを代入
+if not fl[x]:	もしflのx番目が偽であれば
+nc = 1	ncに1を代入
+for i in range(pl[-1], x + 1):	plの末尾要素からxまでの数を順にiとして
+for j in range(2, int(x**0.5) + 1):	2からxの平方根までの数を順にjとして
+if i % j == 0:	もしiがjで割り切れるなら
+break	ループから抜ける
+else:	ループが最後まで処理された場合
+if not i in pl:	plにiが含まれていなければ
+pl.append(i)	plにiを追加する
+for i in pl:	pl内の各要素をiとして
+if i > int(tn / 2):	もしiがtnの半分よりも大きければ
+break	ループから抜ける
+if x % i == 0:	もしxがiで割り切れるなら
+j = 1	jを1にする
+a = tn	aをtnにする
+while a % i == 0:	aがiで割り切れる間
+a /= i	aをiで割る
+j += 1	jに1を足す
+else:	ループが正常に終了した場合
+nc *= j	ncにjを掛ける
+fl[x] = nc	flのx番目の要素をncにする
+fc *= fl[x]	fcにflのx番目の要素を掛ける
+s += 1	sに1を足す
+c = fc	cをfcにする
+return tn	tnを返す
+def euler012_a_over_b(a, b):	aとbを引数とする関数euler012_a_over_bの定義
+return b < a	bがaより小さければTrue、そうでなければFalseを返す
+def euler012_range_prime_enumerate(s, e):	sとeを引数とする関数euler012_range_prime_enumerateの定義
+pl = []	plに空リストを代入
+if s <= 1:	もしsが1以下であれば
+s = 2	sを2にする
+for i in range(s, e + 1):	sからeまでの数を順にiとして
+f = True	fにTrueを代入
+for j in range(2, int(i**0.5) + 1):	2からiの平方根までの数を順にjとして
+if i % j == 0:	もしiがjで割り切れるなら
+break	ループを抜ける
+else:	ループが正常に終了した場合
+pl.append(i)	plにiを追加する
+return pl	plを返す
+def euler012_is_coprime(a, b):	aとbを引数とする関数euler012_is_coprimeの定義
+while b != 0:	bが0でない間
+a, b = b, a % b	aにbを、bにaをbで割った余りを代入
+return a == 1	aが1であればTrue、そうでなければFalseを返す
+def euler012_count_division(n, a):	nとaを引数とする関数euler012_count_divisionの定義
+ret = 0	retに0を代入
+while n % a == 0:	nがaで割り切れる間
+n /= a	nをaで割る
+ret += 1	retに1を足す
+return ret	retを返す
+def euler012_prime_factorize(n):	nを引数とする関数euler012_prime_factorizeの定義
+primes = [True] * (n + 1)	primesにn+1個のTrueからなるリストを代入
+p = []	pに空リストを代入
+for i in range(2, int(n**0.5) + 1):	2からnの平方根までの数を順にiとして
+if primes[i]:	もしprimesのi番目が真であれば
+for j in range(i + i, n + 1, i):	iの倍からnまでの数をi個飛ばしで順にjとして
+primes[j] = False	primesのj番目をFalseにする
+for i in range(2, n + 1):	2からnまでの数を順にiとして
+if primes[i]:	もしprimesのi番目が真なら
+p.append(i)	pの末尾にiを追加する
+fl = []	flに空リストを代入
+for x in p:	p内の各要素を順にxとして
+if n % x == 0:	もしnがxで割り切れるなら
+a = n	aをnとする
+c = 0	cを0とする
+while a % x == 0:	aがxで割り切れる間
+a /= x	aをxで割る
+c += 1	cに1を足す
+else:	ループが終了したら
+fl.append((x, c))	xとcの組をflに追加する
+return fl	flを返す
+def euler012_nth_triangular_number(n):	nを引数とする関数euler012_nth_triangular_numberを定義
+return sum(range(1, n + 1))	1からnまでの整数の総和を返す
+def euler012_next_triangular_number(tn):	tnを引数とする関数euler012_next_triangular_numberを定義
+ret = 0	retに0を代入
+c = 1	cに1を代入
+while ret <= tn:	retがtn以下の間繰り返し
+ret += c	retにcを足す
+c += 1	cに1を足す
+return ret	retを返す
+def euler012_count_divisor(expl):	explを引数とする関数euler012_count_divisorを定義
+ret = 1	retに1を代入
+for x in expl:	explの各要素をxとして
+ret *= (x + 1)	retにx+1を掛ける
+return ret	retを返す
+def euler012_is_list_empty(l):	lを引数とする関数euler012_is_list_emptyを定義
+return not l	lが偽であればTrue、そうでなければFalseを返す
+def euler012_is_list_empty_a(l):	lを引数とする関数euler012_is_list_empty_aを定義
+return len(l) == 0	lの長さが0であればTrue、そうでなければFalseを返す
+def euler013():	関数euler013の定義
+q = []	qに空のリストを代入
+a = str(sum(q))	aにqの要素の総和の文字列表現を代入
+ret = ""	retに空文字列を代入
+for i, ch in enumerate(a):	chをaの各要素、iをその番号として
+if i < 10:	もしiが10未満であれば
+ret += ch	retにchを追加
+return ret	retを返す
+def euler013_front_n_slice(s, n):	sとnを引数とする関数euler013_front_n_sliceを定義
+ret = ""	retに空文字列を代入
+for i, ch in enumerate(s):	chをsの各要素、iをその番号として
+if i < n:	もしiがn未満であれば
+ret += ch	retにchを追加
+return ret	retを返す
+def euler013_query_n_sum(q, n):	qとnを引数とする関数euler013_query_n_sumを定義
+s = 0	sに0を代入
+for i in range(n):	n未満の非負整数を順にiとして
+s += q[i]	sにqのi番目を足す
+return s	sを返す
+def euler014():	関数euler014の定義
+N = 10**6	Nに10の6乗を代入
+cl = [-1] * N	clにN個の-1を要素とするリストを代入
+cl[1] = 0	clの2番目の要素を0とする
+for n in range(2, N):	2からN未満の各数を順にnとして
+b = []	bに空リストを代入
+while n >= N or cl[n] == -1:	nがN以上かclのn番目が-1である間
+b.append(n)	bの末尾にnを追加
+n = int(n / 2) if n % 2 == 0 else n * 3 + 1	nが2で割り切れる場合nを2で割った商を、そうでない場合nの3倍に1を足した数をnに代入
+l = cl[n]	lにclのn番目の要素を代入
+for m in reversed(b):	bの要素を末尾から順にmとして繰り返し
+l += 1	lに1を足す
+if m < N:	もしmがN未満なら
+cl[m] = l	clのm番目をlにする
+m = 0	mに0を代入
+ret = 0	retに0を代入
+for i, n in enumerate(cl):	clの各要素をn、iを番号として繰り返し
+if m < n:	もしmがnより小さい場合
+m = n	mをnにする
+ret = i	retをiにする
+return ret	retを返す
+def euler014_collatz_calc(n):	nを引数とする関数euler014_collatz_calcを定義
+return int(n / 2) if n % 2 == 0 else n * 3 + 1	nが2で割り切れるならnを2で割った商を、そうでないならnの3倍に1を足した数を返す
+def euler014_collatz_problem_count(n):	nを引数とする関数euler014_collatz_problem_countを定義
+c = 0	cに0を代入
+while n != 1:	nが1でない間
+n = int(n / 2) if n % 2 == 0 else n * 3 + 1	nが2で割り切れるならnを2で割った商を、そうでないならnの3倍に1を足した数を新しいnとする
+c += 1	cに1を足す
+return c	cを返す
+def euler014_list_init(l, n):	lとnを引数とする関数euler014_list_initを定義
+ret = []	retを空リストとする
+for i in range(l):	以下の処理をl回繰り返す
+ret.append(n)	retの末尾にnを追加する
+return ret	retを返す
+def euler014_list_enum(l):	lを引数とする関数euler014_list_enumを定義
+ret = []	retを空リストとする
+for i in range(len(l)):	lの各要素の番号を順にiとして
+ret.append((i, l[i]))	retにiとlのi番目からなる組を追加する
+return ret	retを返す
+def euler014_list_reverse(l):	lを引数とする関数euler014_list_reverseを定義
+ret = []	retを空リストとする
+for i in reversed(l):	lの末尾要素から順にiとして
+ret.append(i)	retの末尾にiを追加する
+return ret	retを返す
+def euler014_make_range_list(s, e):	sとeを引数とする関数euler014_make_range_listを定義
+ret = []	retを空とする
+for i in range(s, e):	s以上e未満の整数を小さい方からiとして
+ret.append(i)	retの末尾にiを追加する
+return ret	retを返す
+def euler015():	関数euler015の定義
+facts = [1] * 21	factsを21個の1からなるリストとする
+for i in range(20):	20未満の非負整数を小さい方から順にiとして
+facts[i + 1] = facts[i] * (i + 1)	factsのi+1番目にfactsのi番目とi+1の積を代入
+dinomials = [0] * 21	dinominalsを0が21個並んだリストとする
+for i in range(21):	21未満の非負整数を小さい方から順にiとして
+dinomials[i] = int(facts[20] / (facts[i] * facts[20 - i]))	factsの20番目の要素をi番目の要素と20-i番目の要素の積で割った結果をdinominalsのi番目に格納する
+for i in range(20):	20未満の非負整数iを小さい方から順に調べる
+for j in range(20):	20未満の非負整数jを小さい方から順に調べる
+dinomials[j] += dinomials[j + 1]	dinominalsのj番目にj+1番目の要素を足す
+return dinomials[0]	dinominalsの最初の要素を返す
+def euler015_combination(n, r):	nとrを引数とする関数euler015_combinationの定義
+facts = [1] * (n + 1)	factsを1がn+1個並んだリストとする
+for x in range(n):	n未満の非負整数nを小さい方から順に
+facts[x + 1] = facts[x] * (x + 1)	factsのx+1番目の要素にx番目の要素とx+1の積を代入
+return int(facts[n] / (facts[r] * facts[n - r]))	factsのn番目の要素をr番目とn-r番目の要素の積で割った結果を返す
+def euler015_all_factorials(n):	nを引数とする関数euler015_all_factorialsの定義
+facts = [1] * (n + 1)	factsに1がn+1個繋がったリストを格納
+for x in range(n):	n未満の非負整数xを小さい方から順に
+facts[x + 1] = facts[x] * (x + 1)	factsのx+1番目の要素にx番目の要素とx+1積を代入する
+return facts	factsを返す
+def euler015_pascal_triangle(n):	nを引数とする関数euler015_pascal_triangleの定義
+if n == 1:	もしnが1と等しければ
+return [1]	1のみからなるリストを返す
+else:	そうでなければ
+l = euler015_pascal_triangle(n - 1)	euler015_pascal_triangleにn-1を渡した結果をlとする
+ret = [l[0], l[-1]]	retをlの最初の要素と末尾の要素からなるリストとする
+for i in range(n - 2):	n-2未満の非負整数iを小さい方から順に調べる
+ret.insert(i + 1, l[i] + l[i + 1])	retのi+1番目にlのi番目とi+1番目の要素の和を追加する
+return ret	retを返す
+def euler016():	関数euler016の定義
+q = str(2**1000)	qに2の1000乗の文字列表現を格納
+s = 0	sに0を代入
+for x in q:	qの各要素を前から順にxとして
+s += int(x)	sにxを表す整数を足す
+return s	sを返す
+def euler016_all_digit_sum(n):	nを引数とする関数euler016_all_digit_sumの定義
+q = str(n)	qにnの文字列表現を格納
+s = 0	sに0を代入
+for ch in q:	qの各要素を前から順にchとして
+s += int(ch)	sにchの表す整数を足す
+return s	sを返す
+def euler016_n_separate_digit(n):	nを引数とする関数euler016_n_separate_digitの定義
+ret = [n % 10]	retをnを10で割った余りのみからなるリストとする
+while int(n / 10) > 0:	nを10で割った整数部分が0でない間繰り返し
+n = int(n / 10)	nを10で割った整数部分を新しいnとする
+ret.insert(0, n % 10)	retの先頭にnを10で割った余りを追加する
+return ret	retを返す
+def euler016_a_exp_b(a, b):	aとbを引数とする関数euler016_a_exp_bの定義
+res = 1	resを1とする
+c = 0	cを0とする
+while c < b:	cがbより小さい間
+res *= a	resにaを掛ける
+c += 1	cに1を足す
+return res	resを返す
+def euler016_a_exp_b_a(a, b):	aとbを引数とする関数euler016_a_exp_b_aの定義
+return a**b	aのb乗を返す
+def euler017():	関数euler017の定義
+ret = 0	retに0を代入
+for n in range(1, 1001):	1から1001未満の数を順にnとして
+if n <= 20:	もしnが20以下であれば
+ret += len(word[n])	retにwordのn番目の要素の長さを足す
+elif len(str(n)) == 2:	そうでなくて、もしnの文字列表現の長さが2であれば
+ret += len(twoword[int(n / 10)])	towordのn/10番目の要素の長さをretに足す
+ret += len(word[n % 10])	wordのn%10番目の要素の長さをretに足す
+elif len(str(n)) == 3:	そうでなくて、もしnの文字列表現の長さが3であれば
+ret += len(word[int(n / 100)])	wordのn/100番目の要素の長さをretに足す
+ret += len("hundredand")	hundredandの文字数をretに足す
+a = n % 100	aにnを100で割った余りを代入
+if a != 0 and a <= 20:	もしaが0でなくて、かつaが20以下であれば
+ret += len(word[a])	retにwordのa番目の要素の長さを足す
+elif a == 0:	そうでなくて、もしaが0であれば
+ret -= 3	retから3を引く
+else:	いずれでもなければ
+ret += len(twoword[int(a / 10)])	retにtowordのa/10番目の要素の長さを足す
+ret += len(word[a % 10])	retにwordのa%10番目の要素の長さを足す
+else:	上記のいずれでもなければ
+ret += len("onethousand")	retに"onethousand"の文字数を足す
+return ret	retを返す
+def euler017_digit_separate(n):	nを引数とする関数euler017_digit_separateの定義
+q = str(n)	qをnの文字列表現とする
+ret = []	retを空リストとする
+for ch in q:	qの各要素を前から順にchとして
+ret.append(int(ch))	retの末尾にchの表す整数を追加
+return ret	retを返す
+def euler017_digit_count(n):	nを引数とする関数euler017_digit_countを定義
+c = 1	cに1を代入
+while int(n / 10) > 0:	nを10で割った整数部分が0より大きい間
+n /= 10	nを10で割る
+c += 1	cに1を足す
+return c	cを返す
+def euler017_ones_to_string(n):	nを引数とする関数euler017_ones_to_stringを定義
+return word[n % 10]	wordのn%10番目を返す
+def euler017_is_equal(a, b):	aとbを引数とする関数euler017_is_equalの定義
+return a == b	aとbが等しければTrue、そうでなければFalseを返す
+def euler017_divid_integer_part(a, b):	aとbを引数とする関数euler-17_divid_inateger_partを定義
+return int(a / b)	aをbで割った整数部分を返す
+def euler017_string_length(s):	sを引数とする関数euler017_string_lengthの定義
+c = 0	cに0を代入
+for ch in s:	s内の各要素をchとして
+c += 1	cに1を足す
+return c	cを返す
+def euler017_string_length_a(s):	sを引数とする関数euler017_string_length_aを定義
+return len(s)	sの長さを返す
+def euler018():	関数euler018の定義
+for i in reversed(range(len(tri) - 1)):	triの長さ-1未満の非負整数を大きい方からiとして
+for j in range(len(tri[i])):	triのi番目の長さ未満の非負整数を小さい方からjとして
+tri[i][j] += max(tri[i + 1][j], tri[i + 1][j + 1])	tri[i+1][j]とtri[i+1][j+1]の大きい方をtri[i][j]に足す
+return tri[0][0]	triの先頭要素の先頭要素を返す
+def euler019():	関数euler019の定義
+d = 365	dに365を代入
+sd = 0	sdに0を代入
+for y in range(1901, 2001):	1901以上2001未満の整数を順にyとして
+for i, day in enumerate(days):	dayをdaysの各要素、iをその番号として
+if d % 7 == 6:	もしdを7で割った余りが6であれば
+sd += 1	sdに1を足す
+d += day 	dにdayを足す
+if (y % 400 == 0 or ((not y % 100 == 0) and y % 4 == 0)) and i == 1:	yが400で割り切れるか、100で割り切れずに4で割り切れ、さらにiが1である場合、
+d += 1	dに1を足す
+return sd	sdを返す
+def euler019_is_leap_year(y):	yを引数とする関数euler019_is_leap_yearを定義
+return y % 400 == 0 or ((not y % 100 == 0) and y % 4 == 0)	yが400で割り切れるか、100で割り切れずに4で割り切れる場合True、そうでない場合Falseを返す。
+def euler019_names_of_the_day(y, m, d):	yとmとdを引数とする関数euler019_names_of_the_dayを定義
+if m <= 2:	もしmが2以下であれば
+m += 12	mに12を足す
+y -= 1	yから1を引く
+gamma = 0	gammaに0を代入
+if 1582 <= y:	もしyが1582以上であれば
+gamma = -2 * int(y / 100) + int( int(y / 100) / 4 )	gammaにy/100の整数部分の-2倍とy/100の整数部分を4で割った整数部分の和を代入
+else:	そうでなければ
+gamma = -1 * int(y / 100) + 5	gammaにyを100で割った整数部分の-1倍に5を足したものを代入
+h = (d + int(26 * (m + 1) / 10) + (y % 100) + int((y % 100) / 4) + gamma) % 7	hにd、26(m+1)/10の整数部分、yyを100で割った余り、y%100/4の整数部分、gammaを足した結果を代入
+return name[h]	nameのh番目を返す
+def euler020():	関数euler020の定義
+fact = 1	factに1を代入
+for i in range(100):	100未満の非負整数を小さい方から順にiとして
+fact *= (i + 1)	factにi+1を掛ける
+s = str(fact)	sにfactの文字列表現を代入
+q = []	qに空リストを代入
+for ch in s:	sの各要素を順にchとして
+q.append(int(ch))	qの末尾ににchの表す整数を追加
+return sum(q)	qの全要素の総和を返す
+def euler020_factorial(n):	nを引数とする関数euler020_factorialの定義
+ret = 1	retに1を代入
+for x in range(n):	n未満の非負整数を小さい方から順にxとして
+ret *= (x + 1)	retにx+1を掛ける
+return ret	retを返す
+def euler020_digit_sum(n):	nを引数とする関数euler020_digit_sumの定義
+q = str(n)	qにnの文字列表現を代入
+s = 0	sに0を代入
+for x in q:	qの各要素を順にxとして
+s += int(x)	sにxの表す整数を足す
+return s	sを返す

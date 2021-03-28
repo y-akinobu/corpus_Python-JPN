@@ -1,0 +1,48 @@
+while fib [ -1 ] <  4000000 : <blk> fib . append ( fib [ -1 ] + fib [ -2 ] ) </blk>	fib の末尾要素が 4000000 未満の間、 fib の末尾要素とその次の要素を足して fib の末尾に追加する
+for x in fib : <blk> if x % 2 == 0 : <blk> s += x </blk> </blk>	fib の各要素を前から順に x として、 x が 2 でわりきれるなら、 s に x を足す
+for x in l : <blk> s += x </blk>	l の各要素を順に x として、 s に x を足す
+if n == 1 : <blk> return [ 0 ] </blk> <sep> else : <blk> while a >  0 : <blk> fibs . append ( fibs [ -1 ] + fibs [ -2 ] ) </blk> </blk>	もし n が 1 であれば、 0 のみからなるリストを返す。そうでなければ、 a が 0 より大きい間、 fibs の末尾要素とその次の要素を足して fibs の末尾に追加
+if 0 <  n <= 2 : <blk> return fibs [ n - 1 ] </blk>	もし n が 0 より大きく、かつ 2 以下であるなら、 fibs の n -1 番目の要素を返す
+else : <blk> a = n - 2 <sep> while a >  0 : <blk> fibs . append ( fibs [ -1 ] + fibs [ -2 ] ) </blk> </blk>	そうでなければ、 a に n から 2 を引いた数を代入し、 a が 0 より大きい間、 fibs の末尾要素とその次の要素を足して fibs の末尾に追加
+while n % i == 0 : <blk> n = n / i </blk>	n が i で割り切れる間、 n を i で割る
+while i * i <  n : <blk> i = i + 1 </blk>	i の二乗が n 未満の間、 i に 1 を足す
+for i in range ( 100 ) : <blk> fact *= ( i + 1 ) </blk>	100 未満の非負整数を小さい方から順に i として、 fact に i + 1 を掛ける
+for ch in s : <blk> q . append ( int ( ch ) ) </blk>	s の各要素を順に ch として、 q の末尾にに ch の表す整数を追加
+for x in range ( n ) : <blk> ret *= ( x + 1 ) </blk>	n 未満の非負整数を小さい方から順に x として、 ret に x + 1 を掛ける
+for x in q : <blk> s += int ( x ) </blk>	q の各要素を順に x として、 s に x の表す整数を足す
+for y in range ( 1901 , 2001 ) : <blk> for i , day in enumerate ( days ) : <blk> if d % 7 == 6 : <blk> sd += 1 </blk> </blk> </blk>	1901 以上 2001 未満の整数を順に y として day を days の各要素、 i をその番号としたとき、もし d を 7 で割った余りが 6 であれば sd に 1 を足す
+if ( y % 400 == 0 or ( ( not y % 100 == 0 ) and y % 4 == 0 ) ) and i == 1 : <blk> d += 1 </blk>	y が 400 で割り切れるか、 100 で割り切れずに 4 で割り切れ、さらに i が 1 である場合、 d に 1 を足す
+if m <= 2 : <blk> m += 12 <sep> y -= 1 </blk>	もし m が 2 以下であれば、 m に 12 を足して y から 1 を引く
+if 1582 <= y : <blk> gamma = -2 * int ( y / 100 ) + int ( int ( y / 100 ) / 4 ) </blk> <sep> else : <blk> gamma = -1 * int ( y / 100 ) + 5 </blk>	もし y が 1582 以上であれば gamma に y / 100 の整数部分の -2 倍と y / 100 の整数部分を 4 で割った整数部分の和を代入し、そうでなければ gamma に y を 100 で割った整数部分の -1 倍に 5 を足したものを代入
+for i in reversed ( range ( len ( tri ) - 1 ) ) : <blk> for j in range ( len ( tri [ i ] ) ) : <blk> tri [ i ] [ j ] += max ( tri [ i + 1 ] [ j ] , tri [ i + 1 ] [ j + 1 ] ) </blk> </blk>	tri の長さ -1 未満の非負整数を大きい方から i 、 tri の i 番目の長さ未満の非負整数を小さい方から j として、 tri [ i + 1 ] [ j ] と tri [ i + 1 ] [ j + 1 ] の大きい方を tri [ i ] [ j ] に足す
+if a ! = 0 and a <= 20 : <blk> ret += len ( word [ a ] ) </blk> <sep> elif a == 0 : <blk> ret -= 3 </blk> <sep> else : <blk> ret += len ( twoword [ int ( a / 10 ) ] ) <sep> ret += len ( word [ a % 10 ] ) </blk>	もし a が 0 でなくて、かつ a が 20 以下であれば、 ret に word の a 番目の要素の長さを足す。そうでなくて、もし a が 0 であれば ret から 3 を引く。いずれでもなければ ret に toword の a / 10 番目の要素の長さを足し、 ret に word の a % 10 番目の要素の長さを足す
+while int ( n / 10 ) >  0 : <blk> n /= 10 <sep> c += 1 </blk>	n を 10 で割った整数部分が 0 より大きい間、 n を 10 で割って c に 1 を足す
+for ch in s : <blk> c += 1 </blk>	s 内の各要素を ch として、 c に 1 を足す
+while c <  b : <blk> res *= a </blk>	c が b より小さい間、 res に a を掛ける
+for i in range ( 20 ) : <blk> facts [ i + 1 ] = facts [ i ] * ( i + 1 ) </blk>	20 未満の非負整数を小さい方から順に i として、 facts の i + 1 番目に facts の i 番目と i + 1 の積を代入
+for i in range ( n - 2 ) : <blk> ret . insert ( i + 1 , l [ i ] + l [ i + 1 ] ) </blk>	n -2 未満の非負整数 i を小さい方から順に調べ、 ret の i + 1 番目に l の i 番目と i + 1 番目の要素の和を追加する
+while n >= N or cl [ n ] == -1 : <blk> b . append ( n ) </blk>	n が N 以上か cl の n 番目が -1 である間、 b の末尾に n を追加
+if m <  N : <blk> cl [ m ] = l </blk>	もし m が N 未満なら、 cl の m 番目を l にする
+for i in range ( l ) : <blk> ret . append ( n ) </blk>	et の末尾に n を追加する処理を l 回繰り返す
+for i in reversed ( l ) : <blk> ret . append ( i ) </blk>	l の末尾要素から順に i として、 ret の末尾に i を追加する
+for i in range ( s , e ) : <blk> ret . append ( i ) </blk>	s 以上 e 未満の整数を小さい方から i として、 ret の末尾に i を追加する
+for i , ch in enumerate ( a ) : <blk> if i <  10 : <blk> ret += ch </blk> </blk>	ch を a の各要素、 i をその番号として、もし i が 10 未満であれば ret に ch を追加
+for i in range ( n ) : <blk> s += q [ i ] </blk>	n 未満の非負整数を順に i として、 s に q の i 番目を足す
+while c <  500 : <blk> tn = sum ( range ( 1 , s + 1 ) ) </blk>	c が 500 未満である間、 tn に 1 から s の総和を代入
+if not s % 2 : <blk> t = ( int ( s / 2 ) , s + 1 ) </blk> <sep> else : <blk> t = ( s , int ( ( s + 1 ) / 2 ) ) </blk>	もし s が 2 で割り切れるなら、 t に s を 2 で割った商と s + 1 の組を代入し、そうでなければ、 t に s と s + 1 を 2 で割った商の組を代入
+if len ( fl ) <  x : <blk> l = [ 0 ] * ( x - len ( fl ) + 1 ) </blk>	もし fl の長さが x より小さければ、 l に 0 を ( x - fl の長さ + 1 ) 回繰り返したリストを代入
+if not fl [ x ] : <blk> nc = 1 </blk>	もし fl の x 番目が偽であれば、 nc に 1 を代入
+if i % j == 0 : <blk> break </blk>	もし i が j で割り切れるなら、ループから抜ける
+if s <= 1 : <blk> s = 2 </blk>	もし s が 1 以下であれば、 s を 2 にする
+for j in range ( 2 , int ( i ** 0.5 ) + 1 ) : <blk> if i % j == 0 : <blk> break </blk> </blk>	2 から i の平方根までの数を順に j として、もし i が j で割り切れるならループを抜ける
+while b ! = 0 : <blk> a , b = b , a % b </blk>	b が 0 でない間、 a に b を、 b に a を b で割った余りを代入
+while n % a == 0 : <blk> n /= a <sep> ret += 1 </blk>	n が a で割り切れる間、 n を a で割り ret に 1 を足す
+if ch == " " : <blk> sl . append ( buf ) <sep> buf = "" </blk>	もし ch が半角スペースなら、 sl の末尾に buf を追加し buf を空文字列にする
+else : <blk> buf += ch </blk>	そうでなければ buf に ch を加える
+while s <  e : <blk> ret . append ( s ) <sep> s += d </blk>	s が e より小さい間、 ret の末尾に s を追加し s に d を足す
+for x in l : <blk> s += x </blk>	l に含まれる各要素を x に代入して s に x を繰り返し足す
+if judge and n % i == 0 : <blk> judge = False </blk>	もし judge が真でかつ n が i で割り切れるなら、 judge を False にする
+if p [ i ] : <blk> ret . append ( i ) </blk>	もし p の i 番目が真であれば、 ret の末尾に i を追加
+for i in range ( 2 , 2000000 ) : <blk> if p [ i ] : <blk> ret . append ( i ) </blk> </blk>	i を 2 から 2000000 まで変化させ繰り返した時、もし p の i 番目が真であれば ret の末尾に i を追加
+for i in range ( n ) : <blk> ret += n </blk>	ret に n を足す処理を n 回繰り返す
+for a in l : <blk> ret *= a </blk>	l 内の全要素 a について a を ret に掛ける

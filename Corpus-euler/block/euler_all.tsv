@@ -1,0 +1,48 @@
+while <A> [ -1 ] <  <B> : <blk> <A> . append ( <A> [ -1 ] + <A> [ -2 ] ) </blk>	<A> の末尾要素が <B> 未満の間、 <A> の末尾要素とその次の要素を足して <A> の末尾に追加する
+for <A> in <B> : <blk> if <A> % <C> == 0 : <blk> <D> += <A> </blk> </blk>	<B> の各要素を前から順に <A> として、 <A> が <C> でわりきれるなら、 <D> に <A> を足す
+for <A> in <B> : <blk> <C> += <A> </blk>	<B> の各要素を順に <A> として、 <C> に <A> を足す
+if <A> == <B> : <blk> return [ <C> ] </blk> <sep> else : <blk> while <D> >  <C> : <blk> <E> . append ( <E> [ -1 ] + <E> [ -2 ] ) </blk> </blk>	もし <A> が <B> であれば、 <C> のみからなるリストを返す。そうでなければ、 <D> が <C> より大きい間、 <E> の末尾要素とその次の要素を足して <E> の末尾に追加
+if <A> <  <B> <= <C> : <blk> return <D> [ <B> - 1 ] </blk>	もし <B> が <A> より大きく、かつ <C> 以下であるなら、 <D> の <B> -1 番目の要素を返す
+else : <blk> <A> = <B> - <C> <sep> while <A> >  <D> : <blk> <E> . append ( <E> [ -1 ] + <E> [ -2 ] ) </blk> </blk>	そうでなければ、 <A> に <B> から <C> を引いた数を代入し、 <A> が <D> より大きい間、 <E> の末尾要素とその次の要素を足して <E> の末尾に追加
+while <A> % <B> == 0 : <blk> <A> = <A> / <B> </blk>	<A> が <B> で割り切れる間、 <A> を <B> で割る
+while <A> * <A> <  <B> : <blk> <A> = <A> + <C> </blk>	<A> の二乗が <B> 未満の間、 <A> に <C> を足す
+for <A> in range ( <B> ) : <blk> <C> *= ( <A> + <D> ) </blk>	<B> 未満の非負整数を小さい方から順に <A> として、 <C> に <A> + <D> を掛ける
+for <A> in <B> : <blk> <C> . append ( int ( <A> ) ) </blk>	<B> の各要素を順に <A> として、 <C> の末尾にに <A> の表す整数を追加
+for <A> in range ( <B> ) : <blk> <C> *= ( <A> + <D> ) </blk>	<B> 未満の非負整数を小さい方から順に <A> として、 <C> に <A> + <D> を掛ける
+for <A> in <B> : <blk> <C> += int ( <A> ) </blk>	<B> の各要素を順に <A> として、 <C> に <A> の表す整数を足す
+for <A> in range ( <B> , <C> ) : <blk> for <D> , <E> in enumerate ( <F> ) : <blk> if <E> % <G> == <H> : <blk> <I> += <J> </blk> </blk> </blk>	<B> 以上 <C> 未満の整数を順に <A> として <E> を <F> の各要素、 <D> をその番号としたとき、もし <E> を <G> で割った余りが <H> であれば <I> に <J> を足す
+if ( <A> % <B> == 0 or ( ( not <A> % <C> == 0 ) and <A> % <D> == 0 ) ) and <E> == <F> : <blk> <E> += <F> </blk>	<A> が <B> で割り切れるか、 <C> で割り切れずに <D> で割り切れ、さらに <E> が <F> である場合、 <E> に <F> を足す
+if <A> <= <B> : <blk> <A> += <C> <sep> <D> -= <E> </blk>	もし <A> が <B> 以下であれば、 <A> に <C> を足して <D> から <E> を引く
+if <A> <= <B> : <blk> <C> = <D> * int ( <B> / <E> ) + int ( int ( <B> / <E> ) / <F> ) </blk> <sep> else : <blk> <C> = <E> * int ( <B> / <E> ) + <G> </blk>	もし <B> が <A> 以上であれば <C> に <B> / <E> の整数部分の <D> 倍と <B> / <E> の整数部分を <F> で割った整数部分の和を代入し、そうでなければ <C> に <B> を <E> で割った整数部分の <E> 倍に <G> を足したものを代入
+for <A> in reversed ( range ( len ( <B> ) - <C> ) ) : <blk> for <D> in range ( len ( <B> [ <A> ] ) ) : <blk> <B> [ <A> ] [ <D> ] += max ( <B> [ <A> + <C> ] [ <D> ] , <B> [ <A> + <C> ] [ <D> + <C> ] ) </blk> </blk>	<B> の長さ -1 未満の非負整数を大きい方から <A> 、 <B> の <A> 番目の長さ未満の非負整数を小さい方から <D> として、 <B> [ <A> + <C> ] [ <D> ] と <B> [ <A> + <C> ] [ <D> + <C> ] の大きい方を <B> [ <A> ] [ <D> ] に足す
+if <A> ! = <B> and <A> <= <C> : <blk> <D> += len ( <E> [ <A> ] ) </blk> <sep> elif <A> == <B> : <blk> <D> -= <F> </blk> <sep> else : <blk> <D> += len ( twoword [ int ( <A> / <E> ) ] ) <sep> <D> += len ( <E> [ <A> % <E> ] ) </blk>	もし <A> が <B> でなくて、かつ <A> が <C> 以下であれば、 <D> に <E> の <A> 番目の要素の長さを足す。そうでなくて、もし <A> が <B> であれば <D> から <F> を引く。いずれでもなければ <D> に toword の <A> / <E> 番目の要素の長さを足し、 <D> に <E> の <A> % <E> 番目の要素の長さを足す
+while int ( <A> / <B> ) >  <C> : <blk> <A> /= <B> <sep> <D> += <E> </blk>	<A> を <B> で割った整数部分が <C> より大きい間、 <A> を <B> で割って <D> に <E> を足す
+for <A> in <B> : <blk> <C> += <D> </blk>	<B> 内の各要素を <A> として、 <C> に <D> を足す
+while <A> <  <B> : <blk> <C> *= <D> </blk>	<A> が <B> より小さい間、 <C> に <D> を掛ける
+for <A> in range ( <B> ) : <blk> <C> [ <A> + <D> ] = <C> [ <A> ] * ( <A> + <D> ) </blk>	<B> 未満の非負整数を小さい方から順に <A> として、 <C> の <A> + <D> 番目に <C> の <A> 番目と <A> + <D> の積を代入
+for <A> in range ( <B> - 2 ) : <blk> <C> . insert ( <A> + <D> , <E> [ <A> ] + <E> [ <A> + <D> ] ) </blk>	<B> -2 未満の非負整数 <A> を小さい方から順に調べ、 <C> の <A> + <D> 番目に <E> の <A> 番目と <A> + <D> 番目の要素の和を追加する
+while <A> >= <B> or <C> [ <A> ] == <D> : <blk> <E> . append ( <A> ) </blk>	<A> が <B> 以上か <C> の <A> 番目が <D> である間、 <E> の末尾に <A> を追加
+if <A> <  <B> : <blk> <C> [ <A> ] = <D> </blk>	もし <A> が <B> 未満なら、 <C> の <A> 番目を <D> にする
+for i in range ( <A> ) : <blk> ret . append ( <B> ) </blk>	et の末尾に <B> を追加する処理を <A> 回繰り返す
+for <A> in reversed ( <B> ) : <blk> <C> . append ( <A> ) </blk>	<B> の末尾要素から順に <A> として、 <C> の末尾に <A> を追加する
+for <A> in range ( <B> , <C> ) : <blk> <D> . append ( <A> ) </blk>	<B> 以上 <C> 未満の整数を小さい方から <A> として、 <D> の末尾に <A> を追加する
+for <A> , <B> in enumerate ( <C> ) : <blk> if <A> <  <D> : <blk> <E> += <B> </blk> </blk>	<B> を <C> の各要素、 <A> をその番号として、もし <A> が <D> 未満であれば <E> に <B> を追加
+for <A> in range ( <B> ) : <blk> <C> += <D> [ <A> ] </blk>	<B> 未満の非負整数を順に <A> として、 <C> に <D> の <A> 番目を足す
+while <A> <  <B> : <blk> <C> = sum ( range ( <D> , <E> + <D> ) ) </blk>	<A> が <B> 未満である間、 <C> に <D> から <E> の総和を代入
+if not <A> % <B> : <blk> <C> = ( int ( <A> / <B> ) , <A> + <D> ) </blk> <sep> else : <blk> <C> = ( <A> , int ( ( <A> + <D> ) / <B> ) ) </blk>	もし <A> が <B> で割り切れるなら、 <C> に <A> を <B> で割った商と <A> + <D> の組を代入し、そうでなければ、 <C> に <A> と <A> + <D> を <B> で割った商の組を代入
+if len ( <A> ) <  <B> : <blk> <C> = [ <D> ] * ( <B> - len ( <A> ) + <E> ) </blk>	もし <A> の長さが <B> より小さければ、 <C> に <D> を ( <B> - <A> の長さ + <E> ) 回繰り返したリストを代入
+if not <A> [ <B> ] : <blk> <C> = <D> </blk>	もし <A> の <B> 番目が偽であれば、 <C> に <D> を代入
+if <A> % <B> == 0 : <blk> break </blk>	もし <A> が <B> で割り切れるなら、ループから抜ける
+if <A> <= <B> : <blk> <A> = <C> </blk>	もし <A> が <B> 以下であれば、 <A> を <C> にする
+for <A> in range ( <B> , int ( <C> ** 0.5 ) + 1 ) : <blk> if <C> % <A> == 0 : <blk> break </blk> </blk>	<B> から <C> の平方根までの数を順に <A> として、もし <C> が <A> で割り切れるならループを抜ける
+while <A> ! = <B> : <blk> <C> , <A> = <A> , <C> % <A> </blk>	<A> が <B> でない間、 <C> に <A> を、 <A> に <C> を <A> で割った余りを代入
+while <A> % <B> == 0 : <blk> <A> /= <B> <sep> <C> += <D> </blk>	<A> が <B> で割り切れる間、 <A> を <B> で割り <C> に <D> を足す
+if <A> == " " : <blk> <B> . append ( <C> ) <sep> <C> = "" </blk>	もし <A> が半角スペースなら、 <B> の末尾に <C> を追加し <C> を空文字列にする
+else : <blk> <A> += <B> </blk>	そうでなければ <A> に <B> を加える
+while <A> <  <B> : <blk> <C> . append ( <A> ) <sep> <A> += <D> </blk>	<A> が <B> より小さい間、 <C> の末尾に <A> を追加し <A> に <D> を足す
+for <A> in <B> : <blk> <C> += <A> </blk>	<B> に含まれる各要素を <A> に代入して <C> に <A> を繰り返し足す
+if <A> and <B> % <C> == 0 : <blk> <A> = <D> </blk>	もし <A> が真でかつ <B> が <C> で割り切れるなら、 <A> を <D> にする
+if <A> [ <B> ] : <blk> <C> . append ( <B> ) </blk>	もし <A> の <B> 番目が真であれば、 <C> の末尾に <B> を追加
+for <A> in range ( <B> , <C> ) : <blk> if <D> [ <A> ] : <blk> <E> . append ( <A> ) </blk> </blk>	<A> を <B> から <C> まで変化させ繰り返した時、もし <D> の <A> 番目が真であれば <E> の末尾に <A> を追加
+for i in range ( <A> ) : <blk> <B> += <A> </blk>	<B> に <A> を足す処理を <A> 回繰り返す
+for <A> in <B> : <blk> <C> *= <A> </blk>	<B> 内の全要素 <A> について <A> を <C> に掛ける
