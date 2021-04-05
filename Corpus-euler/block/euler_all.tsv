@@ -15,7 +15,7 @@ if ( <A> % <B> == 0 or ( ( not <A> % <C> == 0 ) and <A> % <D> == 0 ) ) and <E> =
 if <A> <= <B> : <blk> <A> += <C> <sep> <D> -= <E> </blk>	もし <A> が <B> 以下であれば、 <A> に <C> を足して <D> から <E> を引く
 if <A> <= <B> : <blk> <C> = <D> * int ( <B> / <E> ) + int ( int ( <B> / <E> ) / <F> ) </blk> <sep> else : <blk> <C> = <E> * int ( <B> / <E> ) + <G> </blk>	もし <B> が <A> 以上であれば <C> に <B> / <E> の整数部分の <D> 倍と <B> / <E> の整数部分を <F> で割った整数部分の和を代入し、そうでなければ <C> に <B> を <E> で割った整数部分の <E> 倍に <G> を足したものを代入
 for <A> in reversed ( range ( len ( <B> ) - <C> ) ) : <blk> for <D> in range ( len ( <B> [ <A> ] ) ) : <blk> <B> [ <A> ] [ <D> ] += max ( <B> [ <A> + <C> ] [ <D> ] , <B> [ <A> + <C> ] [ <D> + <C> ] ) </blk> </blk>	<B> の長さ -1 未満の非負整数を大きい方から <A> 、 <B> の <A> 番目の長さ未満の非負整数を小さい方から <D> として、 <B> [ <A> + <C> ] [ <D> ] と <B> [ <A> + <C> ] [ <D> + <C> ] の大きい方を <B> [ <A> ] [ <D> ] に足す
-if <A> ! = <B> and <A> <= <C> : <blk> <D> += len ( <E> [ <A> ] ) </blk> <sep> elif <A> == <B> : <blk> <D> -= <F> </blk> <sep> else : <blk> <D> += len ( twoword [ int ( <A> / <E> ) ] ) <sep> <D> += len ( <E> [ <A> % <E> ] ) </blk>	もし <A> が <B> でなくて、かつ <A> が <C> 以下であれば、 <D> に <E> の <A> 番目の要素の長さを足す。そうでなくて、もし <A> が <B> であれば <D> から <F> を引く。いずれでもなければ <D> に toword の <A> / <E> 番目の要素の長さを足し、 <D> に <E> の <A> % <E> 番目の要素の長さを足す
+if <A> != <B> and <A> <= <C> : <blk> <D> += len ( <E> [ <A> ] ) </blk> <sep> elif <A> == <B> : <blk> <D> -= <F> </blk> <sep> else : <blk> <D> += len ( twoword [ int ( <A> / <E> ) ] ) <sep> <D> += len ( <E> [ <A> % <E> ] ) </blk>	もし <A> が <B> でなくて、かつ <A> が <C> 以下であれば、 <D> に <E> の <A> 番目の要素の長さを足す。そうでなくて、もし <A> が <B> であれば <D> から <F> を引く。いずれでもなければ <D> に toword の <A> / <E> 番目の要素の長さを足し、 <D> に <E> の <A> % <E> 番目の要素の長さを足す
 while int ( <A> / <B> ) >  <C> : <blk> <A> /= <B> <sep> <D> += <E> </blk>	<A> を <B> で割った整数部分が <C> より大きい間、 <A> を <B> で割って <D> に <E> を足す
 for <A> in <B> : <blk> <C> += <D> </blk>	<B> 内の各要素を <A> として、 <C> に <D> を足す
 while <A> <  <B> : <blk> <C> *= <D> </blk>	<A> が <B> より小さい間、 <C> に <D> を掛ける
@@ -35,7 +35,7 @@ if not <A> [ <B> ] : <blk> <C> = <D> </blk>	もし <A> の <B> 番目が偽で�
 if <A> % <B> == 0 : <blk> break </blk>	もし <A> が <B> で割り切れるなら、ループから抜ける
 if <A> <= <B> : <blk> <A> = <C> </blk>	もし <A> が <B> 以下であれば、 <A> を <C> にする
 for <A> in range ( <B> , int ( <C> ** 0.5 ) + 1 ) : <blk> if <C> % <A> == 0 : <blk> break </blk> </blk>	<B> から <C> の平方根までの数を順に <A> として、もし <C> が <A> で割り切れるならループを抜ける
-while <A> ! = <B> : <blk> <C> , <A> = <A> , <C> % <A> </blk>	<A> が <B> でない間、 <C> に <A> を、 <A> に <C> を <A> で割った余りを代入
+while <A> != <B> : <blk> <C> , <A> = <A> , <C> % <A> </blk>	<A> が <B> でない間、 <C> に <A> を、 <A> に <C> を <A> で割った余りを代入
 while <A> % <B> == 0 : <blk> <A> /= <B> <sep> <C> += <D> </blk>	<A> が <B> で割り切れる間、 <A> を <B> で割り <C> に <D> を足す
 if <A> == " " : <blk> <B> . append ( <C> ) <sep> <C> = "" </blk>	もし <A> が半角スペースなら、 <B> の末尾に <C> を追加し <C> を空文字列にする
 else : <blk> <A> += <B> </blk>	そうでなければ <A> に <B> を加える
