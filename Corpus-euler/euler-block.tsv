@@ -1,0 +1,53 @@
+while fib[-1] < 4000000: <blk>fib.append(fib[-1] + fib[-2])</blk>	fibの末尾要素が4000000未満の間、fibの末尾要素とその次の要素を足してfibの末尾に追加する
+for x in fib: <blk>if x % 2 == 0: <blk>s += x</blk></blk>	fibの各要素を前から順にxとして、xが2でわりきれるなら、sにxを足す
+for x in l: <blk>s += x</blk>	lの各要素を順にxとして、sにxを足す
+if n == 1: <blk>return [0]</blk>;else: <blk>while a > 0: <blk>fibs.append(fibs[-1] + fibs[-2])</blk></blk>	もしnが1であれば、0のみからなるリストを返す。そうでなければ、aが0より大きい間、fibsの末尾要素とその次の要素を足してfibsの末尾に追加
+if 0 < n <= 2: <blk>return fibs[n - 1]</blk>	もしnが0より大きく、かつ2以下であるなら、fibsのn-1番目の要素を返す
+else: <blk>a = n - 2;while a > 0: <blk>fibs.append(fibs[-1] + fibs[-2])</blk></blk>	そうでなければ、aにnから2を引いた数を代入し、aが0より大きい間、fibsの末尾要素とその次の要素を足してfibsの末尾に追加
+while n % i == 0: <blk>n = n / i</blk>	nがiで割り切れる間、nをiで割る
+while i * i < n: <blk>i = i + 1</blk>	iの二乗がn未満の間、iに1を足す
+for i in range(100): <blk>fact *= (i + 1)</blk>	100未満の非負整数を小さい方から順にiとして、factにi+1を掛ける
+for ch in s: <blk>q.append(int(ch))</blk>	sの各要素を順にchとして、qの末尾ににchの表す整数を追加
+for x in range(n): <blk>ret *= (x + 1)</blk>	n未満の非負整数を小さい方から順にxとして、retにx+1を掛ける
+for x in q: <blk>s += int(x)</blk>	qの各要素を順にxとして、sにxの表す整数を足す
+for y in range(1901, 2001): <blk>for i, day in enumerate(days): <blk>if d % 7 == 6: <blk>sd += 1</blk></blk></blk>	1901以上2001未満の整数を順にyとしてdayをdaysの各要素、iをその番号としたとき、もしdを7で割った余りが6であればsdに1を足す
+if (y % 400 == 0 or ((not y % 100 == 0) and y % 4 == 0)) and i == 1: <blk>d += 1</blk>	yが400で割り切れるか、100で割り切れずに4で割り切れ、さらにiが1である場合、dに1を足す
+if m <= 2: <blk>m += 12;y -= 1</blk>	もしmが2以下であれば、mに12を足してyから1を引く
+if 1582 <= y: <blk>gamma = -2 * int(y / 100) + int( int(y / 100) / 4 )</blk>;else: <blk>gamma = -1 * int(y / 100) + 5</blk>	もしyが1582以上であればgammaにy/100の整数部分の-2倍とy/100の整数部分を4で割った整数部分の和を代入し、そうでなければgammaにyを100で割った整数部分の-1倍に5を足したものを代入
+for i in reversed(range(len(tri) - 1)): <blk>for j in range(len(tri[i])): <blk>tri[i][j] += max(tri[i + 1][j], tri[i + 1][j + 1])</blk></blk>	triの長さ-1未満の非負整数を大きい方からi、triのi番目の長さ未満の非負整数を小さい方からjとして、tri[i+1][j]とtri[i+1][j+1]の大きい方をtri[i][j]に足す
+if a != 0 and a <= 20: <blk>ret += len(word[a])</blk>;elif a == 0: <blk>ret -= 3</blk>;else: <blk>ret += len(twoword[int(a / 10)]);ret += len(word[a % 10])</blk>	もしaが0でなくて、かつaが20以下であれば、retにwordのa番目の要素の長さを足す。そうでなくて、もしaが0であればretから3を引く。いずれでもなければretにtowordのa/10番目の要素の長さを足し、retにwordのa%10番目の要素の長さを足す
+while int(n / 10) > 0: <blk>n /= 10;c += 1</blk>	nを10で割った整数部分が0より大きい間、nを10で割ってcに1を足す
+for ch in s: <blk>c += 1</blk>	s内の各要素をchとして、cに1を足す
+while c < b: <blk>res *= a</blk>	cがbより小さい間、resにaを掛ける
+for i in range(20): <blk>facts[i + 1] = facts[i] * (i + 1)</blk>	20未満の非負整数を小さい方から順にiとして、factsのi+1番目にfactsのi番目とi+1の積を代入
+for i in range(n - 2): <blk>ret.insert(i + 1, l[i] + l[i + 1])</blk>	n-2未満の非負整数iを小さい方から順に調べ、retのi+1番目にlのi番目とi+1番目の要素の和を追加する
+while n >= N or cl[n] == -1: <blk>b.append(n)</blk>	nがN以上かclのn番目が-1である間、bの末尾にnを追加
+if m < N: <blk>cl[m] = l</blk>	もしmがN未満なら、clのm番目をlにする
+for i in range(l): <blk>ret.append(n)</blk>	etの末尾にnを追加する処理をl回繰り返す
+for i in reversed(l): <blk>ret.append(i)</blk>	lの末尾要素から順にiとして、retの末尾にiを追加する
+for i in range(s, e): <blk>ret.append(i)</blk>	s以上e未満の整数を小さい方からiとして、retの末尾にiを追加する
+for i, ch in enumerate(a): <blk>if i < 10: <blk>ret += ch</blk></blk>	chをaの各要素、iをその番号として、もしiが10未満であればretにchを追加
+for i in range(n): <blk>s += q[i]</blk>	n未満の非負整数を順にiとして、sにqのi番目を足す
+while c < 500: <blk>tn = sum(range(1, s + 1))</blk>	cが500未満である間、tnに1からsの総和を代入
+if not s % 2: <blk>t = (int(s / 2), s + 1)</blk>;else: <blk>t = (s, int((s + 1) / 2))</blk>	もしsが2で割り切れるなら、tにsを2で割った商とs+1の組を代入し、そうでなければ、tにsとs+1を2で割った商の組を代入
+if len(fl) < x: <blk>l = [0] * (x - len(fl) + 1)</blk>	もしflの長さがxより小さければ、lに0を(x-flの長さ+1)回繰り返したリストを代入
+if not fl[x]: <blk>nc = 1</blk>	もしflのx番目が偽であれば、ncに1を代入
+if i % j == 0: <blk>break</blk>	もしiがjで割り切れるなら、ループから抜ける
+if s <= 1: <blk>s = 2</blk>	もしsが1以下であれば、sを2にする
+for j in range(2, int(i**0.5) + 1): <blk>if i % j == 0: <blk>break</blk></blk>	2からiの平方根までの数を順にjとして、もしiがjで割り切れるならループを抜ける
+while b != 0: <blk>a, b = b, a % b</blk>	bが0でない間、aにbを、bにaをbで割った余りを代入
+while n % a == 0: <blk>n /= a;ret += 1</blk>	nがaで割り切れる間、nをaで割りretに1を足す
+if ch == " ": <blk>sl.append(buf);buf = ""</blk>	もしchが半角スペースなら、slの末尾にbufを追加しbufを空文字列にする
+else: <blk>buf += ch</blk>	そうでなければbufにchを加える
+while s < e: <blk>ret.append(s);s += d</blk>	sがeより小さい間、retの末尾にsを追加しsにdを足す
+for x in l: <blk>s += x</blk>	lに含まれる各要素をxに代入してsにxを繰り返し足す
+if judge and n % i == 0: <blk>judge = False</blk>	もしjudgeが真でかつnがiで割り切れるなら、judgeをFalseにする
+if p[i]: <blk>ret.append(i)</blk>	もしpのi番目が真であれば、retの末尾にiを追加
+for i in range(2, 2000000): <blk>if p[i]: <blk>ret.append(i)</blk></blk>	iを2から2000000まで変化させ繰り返した時、もしpのi番目が真であればretの末尾にiを追加
+for i in range(n): <blk>ret += n</blk>	retにnを足す処理をn回繰り返す
+for a in l: <blk>ret *= a</blk>	l内の全要素aについてaをretに掛ける
+
+
+
+
+<blk></blk>
