@@ -5,9 +5,8 @@ NMT モデル構築にあたって必要なデータ置き場
 * SentencePiece モデル
 * 学習済みNMT モデル (Terrier 実験用)
 
----
 ## 対訳コーパス一覧
----
+
 ### AOJ (JPN)
 * AOJ から集めたソースコードをKotonoha で変換したもの
 
@@ -24,10 +23,9 @@ NMT モデル構築にあたって必要なデータ置き場
 * Project Euler4 の問題を解くためのPython コードに対して擬似コードを付与したもの
 * https://ahcweb01.naist.jp/pseudogen/
 
----
 
 ## ディレクトリ構成 (抜粋)
----
+
 ```
 .
 ├── AOJ-all2.pt (Terrier 実験用の仮NMT モデル)
