@@ -1,0 +1,275 @@
+import pandas as pd	pandas を pd としてインポートする
+df = pd .read_csv ( './data/lunch_box.csv' , sep = ',' )	. / data / lunch_box .csv 'をカンマ区切りで読み込み、 df とする
+df .head ( 3 )	df の上 3 行を表示する
+df .head ( )	df の上 5 行を表示する
+df .tail ( )	df の下 5 行を表示する
+df .shape	df の行数と列数を確認する
+df .index	df のインデックスを確認する
+df .columns	df のカラムを確認する
+df .dtypes	df のデータ型を確認する
+df [ [ 'name' , 'kcal' ] ] .head ( )	df の 'name' 列と 'kcal' 列だけ上 5 行を表示する
+df [ 100 : 106 ]	df の 100 行目から 105 行目を抽出する
+df .loc [ 100 ]	df のインデックスが 100 の行を抽出する
+df .iloc [ [ 1 , 2 , 4 ] , [ 0 , 2 ] ]	df の 1 , 2 , 4 行目と 0 , 2 列目を抽出する
+df [ df [ 'kcal' ] >  450 ]	df の 'kcal' 列が 450 より大きいものを抽出する
+"df [ [ 'name' , 'kcal' ] ] .query ( 'kcal > 450 and name == ""豚肉の生姜焼""' )"	"kcak '列が450より大きい、かつ' name '列が""豚肉の生姜焼""にあてはまる行の' name '列と' kcal '列を df から抽出する"
+df [ 'remarks' ] .unique ( )	df の 'remarks' 列に含まれるデータを確認する
+df .drop_duplicates ( )	重複している行を df から削除する
+df .describe ( )	df の統計情報を取得する
+df .set_index ( 'datetime' , inplace = True )	datetime '列を df のインデックスとする
+df .rename ( columns = { 'y' : 'sales' } , inplace = True )	df の 'y' 列を 'sales' 列とする
+"df .sort_values ( by = ""sales"" , ascending = True ) .head ( )"	sales '列が昇順になるよう df をソートし、上 5 行を表示する
+df .sort_values ( [ 'sales' , 'temperature' ] , ascending = False ) .head ( )	sales '列と' temperature '列が降順になるよう df をソートし、上 5 行を表示する
+df .index = pd .to_datetime ( df .index , format = '%Y-%m-%d' )	df のインデックスを datetime 型に変換する
+df .isnull ( ) .sum ( )	df の欠損値の個数を列単位で確認する
+df [ df .isnull ( ) .any ( axis = 1 ) ] .head ( )	df の欠損値が含まれている行を抽出し、上 5 行を表示する
+df [ df .isnull ( ) .any ( axis = 1 ) ] .shape	df の欠損値が含まれている行を抽出し、その列数と行数を確認する
+df .fillna ( value = { 'payday' : 0.0 } , inplace = True )	df の 'paypay' 列に含まれる欠損値を 0.0 に置き換える
+df .dropna ( subset = [ 'kcal' ] , axis = 0 , inplace = True )	df の 'kcal' 列に欠損値がある行を削除する
+df [ 'precipitation' ] = df [ 'precipitation' ] .str .replace ( '--' , 0 ) .astype ( float )	df の 'percipitation' 列内の '--' を 0.0 に置き換える
+pd .DataFrame ( df [ 'sales' ] .mask ( df [ 'sales' ] >  80 , 100 ) ) .head ( )	df の 'sales' 列が 80 より大きければ 100 に置換し、上 5 行を表示する
+df .drop ( [ 'remarks' ] , axis = 1 , inplace = True )	df の 'remarks' 列を削除する
+df [ 'weather' ] .value_counts ( )	df の 'wether' 列の値をカウントする
+df .groupby ( [ 'week' ] ) [ 'soldout' ] .count ( )	df の 'week' 列ごとに 'soldout' 列の値をカウントする
+df .groupby ( [ 'month' , 'period' ] ) [ 'sales' ] .sum ( )	df の 'month' 列と 'period' 列ごとに 'sales' 列の値の和を計算する
+df .groupby ( [ 'weather' ] ) [ 'temperature' ] .mean ( )	df の 'weather' 列ごとに 'temperature' 列の値の平均を計算する
+df [ 'temperature_diff' ] = df [ 'temperature' ] .diff ( periods = 1 )	df の 'temperature' 列内の前の行との差を計算し、 'temperature_diff' 列とする
+df [ [ 'temperature' , 'temperature_diff' ] ] .head ( )	df の 'temperature' 列と 'temperature_diff' 列の上 5 行を表示する
+df [ 'temperature_rolling_mean' ] = df [ 'temperature' ] .rolling ( window = 3 ) .mean ( )	df の 'temperature' 列の移動平均を window サイズを 3 として計算し、 'temperature_rolling_mean' 列とする
+df .dropna ( subset = [ 'temperature_diff' , 'temperature_rolling_mean' , 'temperature_pct_change' ] , axis = 0 , inplace = True )	df の 'temperature_diff' 列、 'temperature_rolling_mean' 列、 'temperature_pct_change' 列に欠損値がある行を削除する
+import matplotlib .pyplot as plt	matplotlib .pyplot を plt としてインポートする
+df [ 'sales' ] .plot ( )	df の 'sales' 列の値を折れ線グラフとして表示する
+df .plot ( y = [ 'temperature' , 'temperature_rolling_mean' , 'temperature_pct_change' ] , figsize = ( 16 , 4 ) , alpha = 0.5 )	df の 'temperature' 列、 'temperature_rolling' 列、 'temperature_pct_change' 列の値を、横 16 縦 4 のサイズで透過率が 0.5 の折れ線グラフとして表示する
+plt .title ( 'figure' )	グラフのタイトルを 'figure' とする
+df .plot ( kind = 'hist' , y = 'sales'   , bins = 10 , figsize = ( 16 , 4 ) , alpha = 0.5 )	df の 'sales' 列の値を横 16 縦 4 のサイズで透過率が 0.5 のヒストグラムとして表示する
+df .plot ( kind = 'scatter' , x = 'kcal' , y = 'sales' )	df の 'kcal' 列を x 軸、 'sales' 列を y 軸とした散布図を表示する
+df [ [ 'kcal' , 'sales' ] ] .corr ( )	df の 'kcal' 列と 'sales' 列の相関を求める
+pivot_monthly_df .plot ( kind = 'bar' , alpha = 0.6 , figsize = ( 12 , 3 ) )	monthly_df のインデックスをリセットし、 'month' 列をインデックス、 'period' 列をカラム、 'sales' 列を値としたピボットテーブルを表示する
+dummy_df = pd .get_dummies ( df , columns = [ 'week' , 'name' , 'event' , 'weather' , 'period' ] )	df の 'week' 列、 'name' 列、 'event' 列、 'weather' 列、 'period' 列をダミー化したものを dummy_df とする
+pd .set_option ( 'display.max_columns' , 160 )	160 番目までの列を表示させる
+dummy_df .to_csv ( './data/processed_datamart.csv' , encoding = 'utf-8' )	dummy_df を './data/processed_datamart.csv' に utf -8 で保存する
+"plt .plot ( x , y , label = ""test"" )"	ラベルを 'test' とし、 x , y の値を折れ線グラフとして表示する
+plt .legend ( )	凡例を表示する
+plt .show ( )	プロットを表示する
+plt .plot ( x , y , color = ( 0 , 0 , 1 ) )	色を RGB = ( 0 , 0 , 1 ) とし、 x , y の値を折れ線グラフとして表示する
+"plt .plot ( x , y , color = ""#0F0F0F"" )"	色を '#0F0F0F' とし、 x , y の値を折れ線グラフとして表示する
+"plt .savefig ( ""foo.png"" )"	"プロットを ""foo.png"" として保存する"
+import numpy as np	numpy を np としてインポートする
+import numpy .random as random	numpy の random モジュールを random としてインポートする
+import scipy as sp	scipy を sp としてインポートする
+from pandas import Series , DataFrame	pandas の Series と DataFrame をインポートする
+import matplotlib .pyplot as plt	matplotlib .pyplot を plt としてインポートする
+import matplotlib as mpl	matplotlib を mpl としてインポートする
+import seaborn as sns	seaborn を sns としてインポートする
+sns .set ( )	seaboen のデフォルトスタイルを適用する
+random .seed ( 0 )	シード値を 0 とする
+plt .title ( 'Title Name' )	グラフタイトルを 'Title Name' とする
+plt .xlabel ( 'X' )	x 座標のラベルを 'X' とする
+plt .ylabel ( 'Y' )	y 座標のラベルを 'Y' とする
+plt .grid ( True )	グリッドを表示する
+plt .figure ( figsize = ( 20 , 6 ) )	グラフの大きさを横 20 縦 6 とする
+plt .subplot ( 2 , 1 , 1 )	2 行 1 列のグラフの 1 つ目を指定
+plt .subplot ( 2 , 1 , 2 )	2 行 1 列のグラフの 2 つ目を指定
+plt .bar ( x , y , align = 'center' , width = 0.5 )	横軸を x 、縦軸を y として、幅 0.5 の棒グラフを表示する
+plt .xticks ( x , [ 'A Class' , 'B Class' , 'C Class' ] )	x 軸のラベルをそれぞれ 'A Class' , 'B Class' , 'C Class' とする
+plt .barh ( x , y , align = 'center' )	横軸を x 、縦軸を y として、幅 0.5 の棒グラフを横向きに表示する
+plt .yticks ( x , [ 'A Class' , 'B Class' , 'C Class' ] )	y 軸のラベルをそれぞれ 'A Class' , 'B Class' , 'C Class' とする
+plt .legend ( loc = 'best' )	凡例を最適な位置に表示する
+from sklearn import linear_model	sklearn から linear_model をインポートする
+student_data_math = pd .read_csv ( 'student-mat.csv' )	student - mat .csv 'を student_data_math として読み込む
+plt .hist ( student_data_math [ 'absences' ] )	student_data_math の 'absences' 列を値としたヒストグラムを表示する
+import pandas as pd	pandas を pd としてインポートする
+df = pd .read_csv ( './data/lunch_box.csv' , sep = ',' )	. / data / lunch_box .csv 'をカンマ区切りで読み込んで、 df とする
+df .head ( 3 )	df の初めの 3 行を表示する
+df .head ( )	df の初めの 5 行を表示する
+df .tail ( )	df の最後の 5 行を表示する
+df .shape	df の形状を表示する
+df .index	df の index を表示する
+df .columns	df の列の名前を取得する。
+df .dtypes	df の形状を取得する。
+df [ [ 'name' , 'kcal' ] ] .head ( )	df の 'name' , 'kcal' の列の初めの 5 行を表示する
+df [ 100 : 106 ]	df の 100 行目から 105 行目を表示する
+df .loc [ 100 ]	df の 100 列目を取得する
+df .iloc [ [ 1 , 2 , 4 ] , [ 0 , 2 ] ]	df の 1 、 2 、 4 行目の 0 、 2 列目であるものを取得する
+df [ df [ 'kcal' ] >  450 ]	df の 'kcal' 列を参照し、 450 より大きいものだけ表示する。
+"df [ [ 'name' , 'kcal' ] ] .query ( 'kcal > 450 and name == ""豚肉の生姜焼""' )"	"’ name 'と' kcal 'の列の、' kcal 'が450より大きいかつ、' name 'が ""豚肉の生姜焼き"" である行を取得する。"
+df [ 'remarks' ] .unique ( )	remarks 'の中身を重複を除いて取得する。
+df .drop_duplicates ( )	df から重複した行を削除したデータを取得する。
+df .describe ( )	df のそれぞれの行に対して重複を bool 値で取得する。
+df .set_index ( 'datetime' , inplace = True )	datetime 列を index に設定する。
+df .rename ( columns = { 'y' : 'sales' } , inplace = True )	列の名前を 'y' から’ sales ’に変更する。
+"df .sort_values ( by = ""sales"" , ascending = True ) .head ( )"	’ sales ’を参照して昇順に並び替えた後、 df の初めの 5 行を表示する。
+df .sort_values ( [ 'sales' , 'temperature' ] , ascending = False ) .head ( )	sales '、' temperature 'をそれぞれ降順に並び替えた後、カッコ内の列の初めの 5 行を表示する。
+df .index = pd .to_datetime ( df .index , format = '%Y-%m-%d' )	df .index を参照し、年月日をハイフン区切りの形式に変更する。
+df .isnull ( ) .sum ( )	df のそれぞれの列に対して欠損値の個数をカウントする。
+df [ df .isnull ( ) .any ( axis = 1 ) ] .head ( )	df のそれぞれの行に対して欠損値を含むか否か bool 値で取得し、 True 限定で初めの 5 行を表示する。
+df [ df .isnull ( ) .any ( axis = 1 ) ] .shape	df のそれぞれの行に対して欠損値を含むか否か bool 値で取得し、 True だけを抽出したときに形状を取得する。
+df .fillna ( value = { 'payday' : 0.0 } , inplace = True )	列 'payday' に欠損値があれば 0.0 に置換する
+df .dropna ( subset = [ 'kcal' ] , axis = 0 , inplace = True )	列 'kcal' の列に欠損値がある行を削除する
+df [ 'precipitation' ] = df [ 'precipitation' ] .str .replace ( '--' , 0 ) .astype ( float )	列 'precipitationの要素をstr型にした後に' - - ' を  0 に置き換えて、 float 型にデータ型を変換する。
+pd .DataFrame ( df [ 'sales' ] .mask ( df [ 'sales' ] >  80 , 100 ) ) .head ( )	列 'sales' の値が 0 より大きいとき 100 に置き換えて、初めの 5 行を表示する。
+df .drop ( [ 'remarks' ] , axis = 1 , inplace = True )	remarks 'の行を削除する
+df [ 'weather' ] .value_counts ( )	df の 'weather' を参照し、各要素の出現回数を取得する
+df .groupby ( [ 'week' ] ) [ 'soldout' ] .count ( )	week 'を軸に' soldout 'の個数をカウントする。
+df .groupby ( [ 'month' , 'period' ] ) [ 'sales' ] .sum ( )	month '、' period 'を2軸として' sales 'の合計値を求める。
+df .groupby ( [ 'weather' ] ) [ 'temperature' ] .mean ( )	weather 'を軸に' temperature 'の平均値を求める。
+df [ 'temperature_diff' ] = df [ 'temperature' ] .diff ( periods = 1 )	temperature 'を参照して1行前の値との差分を算出し、' temperature_diff 'という列に代入する。
+df [ [ 'temperature' , 'temperature_diff' ] ] .head ( )	df の 'temperature' , 'temperature_diff' の列の初めの 5 行を表示する
+df [ 'temperature_rolling_mean' ] = df [ 'temperature' ] .rolling ( window = 3 ) .mean ( )	列 'temperature' を参照において、自身も含めた後ろ 3 つの要素の平均値を、列 'temperature_rolling_mean' に格納する。
+df .dropna ( subset = [ 'temperature_diff' , 'temperature_rolling_mean' , 'temperature_pct_change' ] , axis = 0 , inplace = True )	temperature_diff ', ' temperature_rolling_mean ', ' temperature_pct_change 'の行のいずれかに欠損値がある列は削除する。
+import matplotlib .pyplot as plt	matplotlib .pyplot 'を' plt 'としてインポートする。
+df [ 'sales' ] .plot ( )	sales 'の値を二次元グラフにプロットする
+df .plot ( y = [ 'temperature' , 'temperature_rolling_mean' , 'temperature_pct_change' ] , figsize = ( 16 , 4 ) , alpha = 0.5 )	y 軸 = [ 'temperature' , 'temperature_rolling_mean' , 'temperature_pct_change' ] 、サイズ = ( 16 , 4 ) 、透過率 = 0.5 の折れ線グラフを描く。
+plt .title ( 'figure' )	グラフのタイトルを 'figure' とする。
+df .plot ( kind = 'hist' , y = 'sales'   , bins = 10 , figsize = ( 16 , 4 ) , alpha = 0.5 )	y 軸 = 'sales' 、階級数 = 10 、サイズ = ( 16 , 4 ) 、透過率 = 0.5 のヒストグラムを描く。
+df .plot ( kind = 'scatter' , x = 'kcal' , y = 'sales' )	x 軸に 'kcal' 、 y 軸に 'sales' と設定した df の散布図を描く。
+df [ [ 'kcal' , 'sales' ] ] .corr ( )	[ 'kcal' , 'sales' ] の相関係数を取得する。
+pivot_monthly_df .plot ( kind = 'bar' , alpha = 0.6 , figsize = ( 12 , 3 ) )	pivot_monthly_df を参照して透過率 = 0.6 、サイズ = ( 12 , 3 ) の垂直棒グラフを描く。
+dummy_df = pd .get_dummies ( df , columns = [ 'week' , 'name' , 'event' , 'weather' , 'period' ] )	df を参照して、列 = [ 'week' , 'name' , 'event' , 'weather' , 'period' ] のダミー変数を生成する。
+pd .set_option ( 'display.max_columns' , 160 )	最大表示列数を 160 列に設定する。
+dummy_df .to_csv ( './data/processed_datamart.csv' , encoding = 'utf-8' )	dummy_df を、文字コードを utf -8 で './data/processed_datamart.csv' という名前の csv ファイルにして保存する。
+"plt .plot ( x , y , label = ""test"" )"	"ラベル名を ""test"" と定義し、 x と y からグラフをプロットする。"
+plt .legend ( )	グラフ内に凡例を表示する。
+plt .show ( )	プロットしたグラフを表示する
+plt .plot ( x , y , color = ( 0 , 0 , 1 ) )	グラフの色を RGB で ( 0 , 0 , 1 ) の色に指定して、 x と y からグラフをプロットする。
+"plt .plot ( x , y , color = ""#0F0F0F"" )"	"グラフの色をカラーコードで ""#0F0F0F"" の色に指定して、 x と y からグラフをプロットする。"
+"plt .savefig ( ""foo.png"" )"	"グラフを ""foo.png"" という名前で保存する。"
+import numpy as np	numpy を np としてインポートする。
+import numpy .random as random	numpy .random を random としてインポートする。
+import scipy as sp	scipy を sp という名前でインポートする。
+from pandas import Series , DataFrame	pandas の Series , DataFrame をインポートする。
+import matplotlib .pyplot as plt	matplotlib .pyplot を plt という名前でインポートする。
+import matplotlib as mpl	matplotlib を mpl としてインポートする。
+import seaborn as sns	seaborn を sns としてインポートする。
+sns .set ( )	グラフのデザインを seaborn のスタイルに適用する
+random .seed ( 0 )	ランダムシードを 0 に設定する。
+plt .title ( 'Title Name' )	グラフのタイトルを 'Title Name' と設定する。
+plt .xlabel ( 'X' )	x 軸に 'X' という軸ラベルをつける。
+plt .ylabel ( 'Y' )	y 軸に 'Y' という軸ラベルをつける。
+plt .grid ( True )	グラフにグリッドを表示させる。
+plt .figure ( figsize = ( 20 , 6 ) )	グラフのサイズを figsize = ( 20 , 6 ) に設定する。
+plt .subplot ( 2 , 1 , 1 )	複数のグラフを 1 つにまとめて表示して、これは 2 行 1 列の 1 番目の位置にプロットする
+plt .subplot ( 2 , 1 , 2 )	複数のグラフを 1 つにまとめて表示して、これは 2 行 1 列の 2 番目の位置にプロットする
+from sklearn import linear_model	sklearn の linear_model をインポートする。
+import pandas as pd	pandas を pd と名前を付けてインポート
+df = pd .read_csv ( './data/lunch_box.csv' , sep = ',' )	. / data / lunch_box .csv 'をカンマ区切りで読み込んだものを df に代入
+df .head ( 3 )	df の先頭の 3 行を表示
+df .head ( )	df の先頭の 5 行を表示
+df .tail ( )	df の最後の 5 行を表示
+df .shape	df の行数・列数を確認
+df .index	df の index を確認
+df .columns	df の column を確認
+df .dtypes	df の各列のデータ型を確認
+df [ [ 'name' , 'kcal' ] ] .head ( )	df の列  'name' 、列  'kcal' の最初の５行を表示
+df [ 100 : 106 ]	df の 100 行目から 105 行目までを取得
+df .loc [ 100 ]	df のうち、 index が 100 の行のみを取得
+df .iloc [ [ 1 , 2 , 4 ] , [ 0 , 2 ] ]	df のうち、 1 , 2 , 4 行目の 0 ~ 2 列目を取得
+df [ df [ 'kcal' ] >  450 ]	df のうち、列 'kcal' が 450 よりも大きい行のみを取得
+"df [ [ 'name' , 'kcal' ] ] .query ( 'kcal > 450 and name == ""豚肉の生姜焼""' )"	"df のうち、列 'kcal' が 450 よりも大きく、列 'name' の値が ""豚肉の生姜焼"" の行のみを取得"
+df [ 'remarks' ] .unique ( )	df の列 'remarks' に存在する値を重複を省いて取得
+df .drop_duplicates ( )	df のうち、重複した行を削除
+df .describe ( )	df の各列の要約統計量を取得
+df .set_index ( 'datetime' , inplace = True )	df の列 'datatime' をインデックスとして設定
+df .rename ( columns = { 'y' : 'sales' } , inplace = True )	df の列 'y' のカラム名を 'sales' に変更
+"df .sort_values ( by = ""sales"" , ascending = True ) .head ( )"	df の列 'sales' を降順で並び替え、最初の５行を表示
+df .sort_values ( [ 'sales' , 'temperature' ] , ascending = False ) .head ( )	df の列 'sales' と列 'temprature' を照準で並び替え、最初の 5 行を表示
+df .index = pd .to_datetime ( df .index , format = '%Y-%m-%d' )	df のインデックスを datetime64 [ ns ] 型の年月日をハイフン区切りにしたものに変更
+df .isnull ( ) .sum ( )	df に含まれる欠損値の個数を列ごとに算出
+df [ df .isnull ( ) .any ( axis = 1 ) ] .head ( )	df に含まれる欠損値の有無を行ごとに判定し、初めの５行について結果を表示
+df [ df .isnull ( ) .any ( axis = 1 ) ] .shape	df に含まれる欠損値の有無を行ごとに判定し、欠損値が含まれるもののみを抽出したときの形状を取得
+df .fillna ( value = { 'payday' : 0.0 } , inplace = True )	df の列 'payday' にある欠損値を '0.0' に置換
+df .dropna ( subset = [ 'kcal' ] , axis = 0 , inplace = True )	df の列 'kcal' に欠損値がある行を削除する
+df [ 'precipitation' ] = df [ 'precipitation' ] .str .replace ( '--' , 0 ) .astype ( float )	df の列 'precipitation'  の型タイプを float に変更すると同時に、  '--'  を  0 に置換
+pd .DataFrame ( df [ 'sales' ] .mask ( df [ 'sales' ] >  80 , 100 ) ) .head ( )	データフレームの 'sales' の値が 80 よりも大きければ、その値を 100 に置換し、最初の５行を出力
+df .drop ( [ 'remarks' ] , axis = 1 , inplace = True )	df から列 'remarks' を削除
+df [ 'weather' ] .value_counts ( )	df の列 'weather' について、値の集計をとる
+df .groupby ( [ 'week' ] ) [ 'soldout' ] .count ( )	df について、列 'week' の値ごとに 'soldout' の数をカウント
+df .groupby ( [ 'month' , 'period' ] ) [ 'sales' ] .sum ( )	df について、列 'month' , 列 'period' の値ごとに 'soldout' の数をカウント
+df .groupby ( [ 'weather' ] ) [ 'temperature' ] .mean ( )	df について、列 'weather' の値ごとに 'temperature' の平均を算出
+df [ [ 'temperature' , 'temperature_diff' ] ] .head ( )	df の列 'temperature' , 列 'temperature_diff' について最初の５行を表示
+df [ 'temperature_rolling_mean' ] = df [ 'temperature' ] .rolling ( window = 3 ) .mean ( )	df の列 'temperature' について、頭から window サイズ 3 で移動平均を算出
+df .dropna ( subset = [ 'temperature_diff' , 'temperature_rolling_mean' , 'temperature_pct_change' ] , axis = 0 , inplace = True )	df のうち、列 'temperature_diff' , 'temperature_rolling_mean' , 'temperature_pct_change' に１つでも欠損値がある行は削除
+import matplotlib .pyplot as plt	matplotlib .pyplot を plt と名前を付けてインポート
+df [ 'sales' ] .plot ( )	df の列 'sales' の値を折れ線グラフとしてプロット
+df .plot ( y = [ 'temperature' , 'temperature_rolling_mean' , 'temperature_pct_change' ] , figsize = ( 16 , 4 ) , alpha = 0.5 )	列’ temperature ', 列' temperature_rolling_mean ', 列' temperature_pct_change 'の値をサイズ 16 × 4 、透過度 0.5 の折れ線グラフで表示
+plt .title ( 'figure' )	グラフのタイトルを 'figure' とする
+df .plot ( kind = 'hist' , y = 'sales'   , bins = 10 , figsize = ( 16 , 4 ) , alpha = 0.5 )	y 軸を 'sales' として、図のサイズ 16 × 4 、ビンのサイズ 10 、透過率 0.5 のヒストグラムを表示
+df .plot ( kind = 'scatter' , x = 'kcal' , y = 'sales' )	x 軸を 'kcal' 、 y 軸を 'sales' とした散布図を表示
+df [ [ 'kcal' , 'sales' ] ] .corr ( )	kcal 'と' sales 'の相関係数を算出
+dummy_df = pd .get_dummies ( df , columns = [ 'week' , 'name' , 'event' , 'weather' , 'period' ] )	列 'week' , 列 'name' , 列 'event' , 列 'weather' , 列 'period' を全てダミー化したものを dummy_df とする
+dummy_df .to_csv ( './data/processed_datamart.csv' , encoding = 'utf-8' )	dummy_df を './data/processed_datamart.csv' に utf -8 で保存
+"plt .plot ( x , y , label = ""test"" )"	"ラベルを ""test"" として、 x と y の値からプロット"
+plt .legend ( )	凡例の表示
+plt .show ( )	プロット表示 ( 設定の反映 )
+plt .plot ( x , y , color = ( 0 , 0 , 1 ) )	RGB を ( 0 , 0 , 1 ) と指定して、 x と y の値からプロット
+"plt .plot ( x , y , color = ""#0F0F0F"" )"	"16 進数表記のカラーコードを ""#0F0F0F"" と指定して、 x と y の値からプロット"
+"plt .savefig ( ""foo.png"" )"	"作ったグラフを ""foo.png"" として保存"
+import numpy as np	numpy を np と名前を付けてインポート
+import numpy .random as random	numpy .random を random と名前を付けてインポート
+import scipy as sp	scipy を sp と名前を付けてインポート
+from pandas import Series , DataFrame	pandas から Series と DataFrame をインポート
+import matplotlib .pyplot as plt	matplotlib .pyplot を plt と名前を付けてインポート
+import matplotlib as mpl	matplotlib を mpl と名前を付けてインポート
+import seaborn as sns	seaborn を sns と名前を付けてインポート
+sns .set ( )	グラフのスタイルを seaborn に変更
+random .seed ( 0 )	シード値を 0 として固定
+plt .title ( 'Title Name' )	グラフタイトルを 'Title Name' とする
+plt .xlabel ( 'X' )	グラフの x 軸のラベルを 'X' とする
+plt .ylabel ( 'Y' )	グラフの x 軸のラベルを 'Y' とする
+plt .grid ( True )	グラフにグリッドを表示する
+plt .figure ( figsize = ( 20 , 6 ) )	グラフの大きさを 20 × 6 に指定
+plt .subplot ( 2 , 1 , 1 )	グラフを 2 行 1 列のグラフの 1 つ目として指定
+plt .subplot ( 2 , 1 , 2 )	グラフを 2 行 1 列のグラフの 2 つ目として指定
+plt .bar ( x , y , align = 'center' , width = 0.5 )	x 軸を x 、 y 軸を y として幅 0.5 の棒グラフを x のメモリの真ん中の位置に来るように配置
+plt .xticks ( x , [ 'A Class' , 'B Class' , 'C Class' ] )	グラフの x 軸の目盛り文字列を x から [ 'A Class' , 'B Class' , 'C Class' ] に変更
+plt .barh ( x , y , align = 'center' )	x の軸と y の軸を入れ替えた棒グラフを x のメモリの真ん中の位置に来るように配置
+plt .yticks ( x , [ 'A Class' , 'B Class' , 'C Class' ] )	グラフの y 軸の目盛り文字列を x から [ 'A Class' , 'B Class' , 'C Class' ] に変更
+plt .legend ( loc = 'best' )	凡例を最適な位置に配置
+from sklearn import linear_model	sklearn から liner_model をインポート
+student_data_math = pd .read_csv ( 'student-mat.csv' )	student - mat .csv 'のデータを読み込み、 student_data_math とする
+plt .hist ( student_data_math [ 'absences' ] )	データ student_data_math の absences についてのヒストグラムを表示
+student_data_math [ 'absences' ] .median ( )	データ student_data_math の absences についての中央値を取得
+student_data_math [ 'absences' ] .mode ( )	データ student_data_math の absences についての最頻値を取得
+student_data_math [ 'absences' ] .var ( )	データ student_data_math の absences についての分散を取得
+student_data_math [ 'absences' ] .std ( )	データ student_data_math の absences についての標準偏差を取得
+student_data_math [ 'absences' ] .describe ( )	データ student_data_math の absences についての要約統計量を取得
+plt .boxplot ( student_data_math [ 'G1' ] )	データ student_data_math の G1 についての箱ひげ図を表示
+plt .boxplot ( [ student_data_math [ 'G1' ] , student_data_math [ 'G2' ] , student_data_math [ 'G3' ] ] )	データ student_data_math の G1 , G2 , G3 についての箱ひげ図を表示
+plt .plot ( student_data_math [ 'G1' ] , student_data_math [ 'G3' ] , 'o' )	データ student_data_math の G1 , G3 についての散布図をプロットを 'o' として表示
+np .cov ( student_data_math [ 'G1' ] , student_data_math [ 'G3' ] )	データ student_data_math の G1 , G3 について共分散行列を算出
+sp .stats .pearsonr ( student_data_math [ 'G1' ] , student_data_math [ 'G3' ] )	データ student_data_math の G1 , G3 について相関係数を算出
+np .corrcoef ( [ student_data_math [ 'G1' ] , student_data_math [ 'G3' ] ] )	データ student_data_math の G1 , G3 について相関行列を算出
+sns .pairplot ( student_data_math [ [ 'Dalc' , 'Walc' , 'G1' , 'G3' ] ] )	データ student_data_math の Dalc , Walc , G1 , G3 について各変数のヒストグラムをすべて表示
+reg = linear_model .LinearRegression ( )	線形回帰のインスタンスを生成し、 reg とする
+reg .coef_	回帰係数を算出
+reg .intercept_	切片を算出
+plt .plot ( X , reg .predict ( X ) )	線形回帰直線を引く
+reg .score ( X , Y )	決定係数を算出する
+auto = auto [ [ 'price' , 'horsepower' , 'width' , 'height' ] ]	auto から列 'price' , 列 'horsepower' , 列 'width' , 列 'height' を抽出して、 auto とする
+auto .isin ( [ '?' ] ) .sum ( )	auto のそれぞれのカラムに存在する '?' の個数の合計値を算出
+auto = auto .replace ( '?' , np .nan ) .dropna ( )	auto に存在する '?' を欠損値に置換し、欠損値がある行を削除
+auto = auto .assign ( price = pd .to_numeric ( auto .price ) )	auto の列 'price' を数値型に変換
+from sklearn .linear_model import LinearRegression	sklearn_linear から LinearRegression をインポート
+X = auto .drop ( 'price' , axis = 1 )	列 'price' 以外の auto を X とする
+import sklearn	sklearn をインポート
+adult .groupby ( 'flg-50K' ) .size ( )	列 'flg-50K' の値ごとのデータの数を表示
+from sklearn .linear_model import LogisticRegression	sklearn .linear_model から LogisticRegression をインポート
+from sklearn .linear_model import Ridge	sklearn .linear_model から Ridge をインポート
+import pandas as pd	pandas を pd としてインポート
+df = pd .read_csv ( './data/lunch_box.csv' , sep = ',' )	. / data / lunch_box .csv 'をカンマ区切りで読み、 df とする
+df .head ( 3 )	df の最初の 3 行を表示させる
+df .head ( )	df の最初の 5 行を表示させる
+df .tail ( )	df の最後の 5 行を表示させる
+df .shape	df の行数および列数を表示
+df .index	df のインデックスを表示
+df .columns	df のカラムを表示
+df .dtypes	df のデータ型を表示
+import pandas as pd	pandas をインポートし以降 pd として扱う
+df = pd .read_csv ( './data/lunch_box.csv' , sep = ',' )	. / data / lunch_box .csv をカンマ区切りで読み込み、 df として扱う
+df .head ( 3 )	df の先頭 3 行を表示する
+df .head ( )	df の先頭 5 行を表示する
+df .tail ( )	df の末尾 5 行を表示する
+df .shape	df の大きさを表示する
+df .index	df の index を表示する
+df .columns	df の columns を表示する
+df [ [ 'name' , 'kcal' ] ] .head ( )	df の name と kcal を抽出し、先頭 5 行を表示する
