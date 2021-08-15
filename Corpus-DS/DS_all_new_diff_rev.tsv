@@ -1,0 +1,418 @@
+import <A> as <B>	<A> を <B> としてインポートする
+import <B> as <A>	<B> を <A> としてインポートする
+<A> = pd . read_csv ( './data/lunch_box.csv' , sep = ',' )	. / data / lunch_box .csv 'をカンマ区切りで読み込み、 <A> とする
+<A> . head ( <b> )	<A> の上 <b> 行を表示する
+<B> . head ( <a> )	<B> の上 <a> 行を表示する
+<A> . head ( )	<A> の上 5 行を表示する
+<A> . tail ( )	<A> の下 5 行を表示する
+<A> . shape	<A> の行数と列数を確認する
+<A> . index	<A> のインデックスを確認する
+<A> . columns	<A> のカラムを確認する
+<A> . dtypes	<A> のデータ型を確認する
+<A> [ [ <b> , <c> ] ] . head ( )	<A> の <b> 列と <c> 列だけ上 5 行を表示する
+<C> [ [ <b> , <a> ] ] . head ( )	<C> の <b> 列と <a> 列だけ上 5 行を表示する
+<A> [ <b> : 106 ]	<A> の <b> 行目から 105 行目を抽出する
+<B> [ <a> : 106 ]	<B> の <a> 行目から 105 行目を抽出する
+<A> . loc [ <b> ]	<A> のインデックスが <b> の行を抽出する
+<B> . loc [ <a> ]	<B> のインデックスが <a> の行を抽出する
+<A> . iloc [ [ <b> , <c> , <d> ] , [ <e> , <c> ] ]	<A> の <b> , <c> , <d> 行目と <e> , <c> 列目を抽出する
+<E> . iloc [ [ <d> , <c> , <b> ] , [ <a> , <c> ] ]	<E> の <d> , <c> , <b> 行目と <a> , <c> 列目を抽出する
+<A> [ <A> [ <b> ] >  <c> ]	<A> の <b> 列が <c> より大きいものを抽出する
+<C> [ <C> [ <b> ] >  <a> ]	<C> の <b> 列が <a> より大きいものを抽出する
+"<A> [ [ 'name' , 'kcal' ] ] . query ( 'kcal > 450 and name == ""豚肉の生姜焼""' )"	"kcak '列が450より大きい、かつ' name '列が""豚肉の生姜焼""にあてはまる行の' name '列と' kcal '列を <A> から抽出する"
+<A> [ <b> ] . unique ( )	<A> の <b> 列に含まれるデータを確認する
+<B> [ <a> ] . unique ( )	<B> の <a> 列に含まれるデータを確認する
+<A> . drop_duplicates ( )	重複している行を <A> から削除する
+<A> . describe ( )	<A> の統計情報を取得する
+<A> . set_index ( 'datetime' , inplace = True )	datetime '列を <A> のインデックスとする
+<A> . rename ( columns = { <b> : <c> } , inplace = True )	<A> の <b> 列を <c> 列とする
+<C> . rename ( columns = { <b> : <a> } , inplace = True )	<C> の <b> 列を <a> 列とする
+"<A> . sort_values ( by = ""sales"" , ascending = True ) . head ( )"	sales '列が昇順になるよう <A> をソートし、上 5 行を表示する
+<A> . sort_values ( [ 'sales' , 'temperature' ] , ascending = False ) . head ( )	sales '列と' temperature '列が降順になるよう <A> をソートし、上 5 行を表示する
+<A> . index = pd . to_datetime ( <A> . index , format = '%Y-%m-%d' )	<A> のインデックスを datetime 型に変換する
+<A> . isnull ( ) . sum ( )	<A> の欠損値の個数を列単位で確認する
+<A> [ <A> . isnull ( ) . any ( axis = 1 ) ] . head ( )	<A> の欠損値が含まれている行を抽出し、上 5 行を表示する
+<A> [ <A> . isnull ( ) . any ( axis = 1 ) ] . shape	<A> の欠損値が含まれている行を抽出し、その列数と行数を確認する
+<A> . fillna ( value = { 'payday' : <b> } , inplace = True )	<A> の 'paypay' 列に含まれる欠損値を <b> に置き換える
+<B> . fillna ( value = { 'payday' : <a> } , inplace = True )	<B> の 'paypay' 列に含まれる欠損値を <a> に置き換える
+<A> . dropna ( subset = [ <b> ] , axis = 0 , inplace = True )	<A> の <b> 列に欠損値がある行を削除する
+<B> . dropna ( subset = [ <a> ] , axis = 0 , inplace = True )	<B> の <a> 列に欠損値がある行を削除する
+<A> [ 'precipitation' ] = <A> [ 'precipitation' ] . str . replace ( <b> , 0 ) . astype ( float )	<A> の 'percipitation' 列内の <b> を 0.0 に置き換える
+<B> [ 'precipitation' ] = <B> [ 'precipitation' ] . str . replace ( <a> , 0 ) . astype ( float )	<B> の 'percipitation' 列内の <a> を 0.0 に置き換える
+pd . DataFrame ( <A> [ <b> ] . mask ( <A> [ <b> ] >  <c> , <d> ) ) . head ( )	<A> の <b> 列が <c> より大きければ <d> に置換し、上 5 行を表示する
+pd . DataFrame ( <D> [ <c> ] . mask ( <D> [ <c> ] >  <b> , <a> ) ) . head ( )	<D> の <c> 列が <b> より大きければ <a> に置換し、上 5 行を表示する
+<A> . drop ( [ <b> ] , axis = 1 , inplace = True )	<A> の <b> 列を削除する
+<B> . drop ( [ <a> ] , axis = 1 , inplace = True )	<B> の <a> 列を削除する
+<A> [ 'weather' ] . value_counts ( )	<A> の 'wether' 列の値をカウントする
+<A> . groupby ( [ <b> ] ) [ <c> ] . count ( )	<A> の <b> 列ごとに <c> 列の値をカウントする
+<C> . groupby ( [ <b> ] ) [ <a> ] . count ( )	<C> の <b> 列ごとに <a> 列の値をカウントする
+<A> . groupby ( [ <b> , <c> ] ) [ <d> ] . sum ( )	<A> の <b> 列と <c> 列ごとに <d> 列の値の和を計算する
+<D> . groupby ( [ <c> , <b> ] ) [ <a> ] . sum ( )	<D> の <c> 列と <b> 列ごとに <a> 列の値の和を計算する
+<A> . groupby ( [ <b> ] ) [ <c> ] . mean ( )	<A> の <b> 列ごとに <c> 列の値の平均を計算する
+<C> . groupby ( [ <b> ] ) [ <a> ] . mean ( )	<C> の <b> 列ごとに <a> 列の値の平均を計算する
+<A> [ <b> ] = <A> [ <c> ] . diff ( periods = 1 )	<A> の <c> 列内の前の行との差を計算し、 <b> 列とする
+<C> [ <b> ] = <C> [ <a> ] . diff ( periods = 1 )	<C> の <a> 列内の前の行との差を計算し、 <b> 列とする
+<A> [ [ <b> , <c> ] ] . head ( )	<A> の <b> 列と <c> 列の上 5 行を表示する
+<C> [ [ <b> , <a> ] ] . head ( )	<C> の <b> 列と <a> 列の上 5 行を表示する
+<A> [ <b> ] = <A> [ <c> ] . rolling ( <D> = <e> ) . mean ( )	<A> の <c> 列の移動平均を <D> サイズを <e> として計算し、 <b> 列とする
+<E> [ <d> ] = <E> [ <c> ] . rolling ( <B> = <a> ) . mean ( )	<E> の <c> 列の移動平均を <B> サイズを <a> として計算し、 <d> 列とする
+<A> . dropna ( subset = [ <b> , <c> , <d> ] , axis = 0 , inplace = True )	<A> の <b> 列、 <c> 列、 <d> 列に欠損値がある行を削除する
+<D> . dropna ( subset = [ <c> , <b> , <a> ] , axis = 0 , inplace = True )	<D> の <c> 列、 <b> 列、 <a> 列に欠損値がある行を削除する
+import <A> <B> as <C>	<A> <B> を <C> としてインポートする
+import <C> <B> as <A>	<C> <B> を <A> としてインポートする
+<A> [ <b> ] . plot ( )	<A> の <b> 列の値を折れ線グラフとして表示する
+<B> [ <a> ] . plot ( )	<B> の <a> 列の値を折れ線グラフとして表示する
+<A> . plot ( y = [ <b> , 'temperature_rolling_mean' , <c> ] , figsize = ( <d> , <e> ) , alpha = <f> )	<A> の <b> 列、 'temperature_rolling' 列、 <c> 列の値を、横 <d> 縦 <e> のサイズで透過率が <f> の折れ線グラフとして表示する
+<F> . plot ( y = [ <e> , 'temperature_rolling_mean' , <d> ] , figsize = ( <c> , <b> ) , alpha = <a> )	<F> の <e> 列、 'temperature_rolling' 列、 <d> 列の値を、横 <c> 縦 <b> のサイズで透過率が <a> の折れ線グラフとして表示する
+plt . title ( <a> )	グラフのタイトルを <a> とする
+<A> . plot ( kind = 'hist' , y = <b>   , bins = 10 , figsize = ( <c> , <d> ) , alpha = <e> )	<A> の <b> 列の値を横 <c> 縦 <d> のサイズで透過率が <e> のヒストグラムとして表示する
+<E> . plot ( kind = 'hist' , y = <d>   , bins = 10 , figsize = ( <c> , <b> ) , alpha = <a> )	<E> の <d> 列の値を横 <c> 縦 <b> のサイズで透過率が <a> のヒストグラムとして表示する
+<A> . plot ( kind = 'scatter' , <B> = <c> , <D> = <e> )	<A> の <c> 列を <B> 軸、 <e> 列を <D> 軸とした散布図を表示する
+<E> . plot ( kind = 'scatter' , <D> = <c> , <B> = <a> )	<E> の <c> 列を <D> 軸、 <a> 列を <B> 軸とした散布図を表示する
+<A> [ [ <b> , <c> ] ] . corr ( )	<A> の <b> 列と <c> 列の相関を求める
+<C> [ [ <b> , <a> ] ] . corr ( )	<C> の <b> 列と <a> 列の相関を求める
+pivot_monthly_df . plot ( kind = 'bar' , alpha = 0.6 , figsize = ( 12 , 3 ) )	monthly_df のインデックスをリセットし、 'month' 列をインデックス、 'period' 列をカラム、 'sales' 列を値としたピボットテーブルを表示する
+<A> = pd . get_dummies ( <B> , columns = [ <c> , <d> , <e> , <f> , <g> ] )	<B> の <c> 列、 <d> 列、 <e> 列、 <f> 列、 <g> 列をダミー化したものを <A> とする
+<G> = pd . get_dummies ( <F> , columns = [ <e> , <d> , <c> , <b> , <a> ] )	<F> の <e> 列、 <d> 列、 <c> 列、 <b> 列、 <a> 列をダミー化したものを <G> とする
+pd . set_option ( 'display.max_columns' , <a> )	<a> 番目までの列を表示させる
+<A> . to_csv ( <b> , encoding = 'utf-8' )	<A> を <b> に utf -8 で保存する
+<B> . to_csv ( <a> , encoding = 'utf-8' )	<B> を <a> に utf -8 で保存する
+plt . plot ( <A> , <B> , label = <c> )	ラベルを <c> とし、 <A> , <B> の値を折れ線グラフとして表示する
+plt . plot ( <C> , <B> , label = <a> )	ラベルを <a> とし、 <C> , <B> の値を折れ線グラフとして表示する
+plt . legend ( )	凡例を表示する
+plt . show ( )	プロットを表示する
+plt . plot ( <A> , <B> , color = ( <c> , <c> , <d> ) )	色を RGB = ( <c> , <c> , <d> ) とし、 <A> , <B> の値を折れ線グラフとして表示する
+plt . plot ( <D> , <C> , color = ( <b> , <b> , <a> ) )	色を RGB = ( <b> , <b> , <a> ) とし、 <D> , <C> の値を折れ線グラフとして表示する
+plt . plot ( <A> , <B> , color = <c> )	色を <c> とし、 <A> , <B> の値を折れ線グラフとして表示する
+plt . plot ( <C> , <B> , color = <a> )	色を <a> とし、 <C> , <B> の値を折れ線グラフとして表示する
+plt . savefig ( <a> )	プロットを <a> として保存する
+import <A> as <B>	<A> を <B> としてインポートする
+import <B> as <A>	<B> を <A> としてインポートする
+import <A> . random as <B>	<A> の <B> モジュールを <B> としてインポートする
+import <B> . random as <A>	<B> の <A> モジュールを <A> としてインポートする
+import <A> as <B>	<A> を <B> としてインポートする
+import <B> as <A>	<B> を <A> としてインポートする
+from <A> import <B> , <C>	<A> の <B> と <C> をインポートする
+from <C> import <B> , <A>	<C> の <B> と <A> をインポートする
+import <A> <B> as <C>	<A> <B> を <C> としてインポートする
+import <C> <B> as <A>	<C> <B> を <A> としてインポートする
+import <A> as <B>	<A> を <B> としてインポートする
+import <B> as <A>	<B> を <A> としてインポートする
+import <A> as <B>	<A> を <B> としてインポートする
+import <B> as <A>	<B> を <A> としてインポートする
+sns . set ( )	seaboen のデフォルトスタイルを適用する
+random . seed ( <a> )	シード値を <a> とする
+plt . title ( <a> )	グラフタイトルを <a> とする
+plt . xlabel ( <a> )	x 座標のラベルを <a> とする
+plt . ylabel ( <a> )	y 座標のラベルを <a> とする
+plt . grid ( True )	グリッドを表示する
+plt . figure ( figsize = ( <a> , <b> ) )	グラフの大きさを横 <a> 縦 <b> とする
+plt . figure ( figsize = ( <b> , <a> ) )	グラフの大きさを横 <b> 縦 <a> とする
+plt . subplot ( <a> , <b> , <b> )	<a> 行 <b> 列のグラフの <b> つ目を指定
+plt . subplot ( <b> , <a> , <a> )	<b> 行 <a> 列のグラフの <a> つ目を指定
+plt . subplot ( <a> , <b> , <a> )	<a> 行 <b> 列のグラフの <a> つ目を指定
+plt . subplot ( <b> , <a> , <b> )	<b> 行 <a> 列のグラフの <b> つ目を指定
+plt . bar ( <A> , <B> , align = 'center' , width = <c> )	横軸を <A> 、縦軸を <B> として、幅 <c> の棒グラフを表示する
+plt . bar ( <C> , <B> , align = 'center' , width = <a> )	横軸を <C> 、縦軸を <B> として、幅 <a> の棒グラフを表示する
+plt . xticks ( <A> , [ <b> , <c> , <d> ] )	<A> 軸のラベルをそれぞれ <b> , <c> , <d> とする
+plt . xticks ( <D> , [ <c> , <b> , <a> ] )	<D> 軸のラベルをそれぞれ <c> , <b> , <a> とする
+plt . barh ( <A> , <B> , align = 'center' )	横軸を <A> 、縦軸を <B> として、幅 0.5 の棒グラフを横向きに表示する
+plt . barh ( <B> , <A> , align = 'center' )	横軸を <B> 、縦軸を <A> として、幅 0.5 の棒グラフを横向きに表示する
+plt . yticks ( x , [ <a> , <b> , <c> ] )	y 軸のラベルをそれぞれ <a> , <b> , <c> とする
+plt . yticks ( x , [ <c> , <b> , <a> ] )	y 軸のラベルをそれぞれ <c> , <b> , <a> とする
+plt . legend ( loc = 'best' )	凡例を最適な位置に表示する
+from <A> import <B>	<A> から <B> をインポートする
+from <B> import <A>	<B> から <A> をインポートする
+<A> = pd . read_csv ( 'student-mat.csv' )	student - mat .csv 'を <A> として読み込む
+plt . hist ( <A> [ <b> ] )	<A> の <b> 列を値としたヒストグラムを表示する
+plt . hist ( <B> [ <a> ] )	<B> の <a> 列を値としたヒストグラムを表示する
+import <A> as <B>	<A> を <B> としてインポートする
+import <B> as <A>	<B> を <A> としてインポートする
+<A> = pd . read_csv ( './data/lunch_box.csv' , sep = ',' )	. / data / lunch_box .csv 'をカンマ区切りで読み込んで、 <A> とする
+<A> . head ( <b> )	<A> の初めの <b> 行を表示する
+<B> . head ( <a> )	<B> の初めの <a> 行を表示する
+<A> . head ( )	<A> の初めの 5 行を表示する
+<A> . tail ( )	<A> の最後の 5 行を表示する
+<A> . shape	<A> の形状を表示する
+<A> . index	<A> の index を表示する
+<A> . columns	<A> の列の名前を取得する。
+<A> . dtypes	<A> の形状を取得する。
+<A> [ [ <b> , <c> ] ] . head ( )	<A> の <b> , <c> の列の初めの 5 行を表示する
+<C> [ [ <b> , <a> ] ] . head ( )	<C> の <b> , <a> の列の初めの 5 行を表示する
+<A> [ <b> : 106 ]	<A> の <b> 行目から 105 行目を表示する
+<B> [ <a> : 106 ]	<B> の <a> 行目から 105 行目を表示する
+<A> . loc [ <b> ]	<A> の <b> 列目を取得する
+<B> . loc [ <a> ]	<B> の <a> 列目を取得する
+<A> . iloc [ [ <b> , <c> , <d> ] , [ <e> , <c> ] ]	<A> の <b> 、 <c> 、 <d> 行目の <e> 、 <c> 列目であるものを取得する
+<E> . iloc [ [ <d> , <c> , <b> ] , [ <a> , <c> ] ]	<E> の <d> 、 <c> 、 <b> 行目の <a> 、 <c> 列目であるものを取得する
+<A> [ <A> [ <b> ] >  <c> ]	<A> の <b> 列を参照し、 <c> より大きいものだけ表示する。
+<C> [ <C> [ <b> ] >  <a> ]	<C> の <b> 列を参照し、 <a> より大きいものだけ表示する。
+"df [ [ 'name' , 'kcal' ] ] . query ( 'kcal > 450 and name == ""豚肉の生姜焼""' )"	"’ name 'と' kcal 'の列の、' kcal 'が450より大きいかつ、' name 'が ""豚肉の生姜焼き"" である行を取得する。"
+df [ 'remarks' ] . unique ( )	remarks 'の中身を重複を除いて取得する。
+<A> . drop_duplicates ( )	<A> から重複した行を削除したデータを取得する。
+<A> . describe ( )	<A> のそれぞれの行に対して重複を bool 値で取得する。
+df . set_index ( 'datetime' , inplace = True )	datetime 列を index に設定する。
+df . rename ( columns = { <a> : 'sales' } , inplace = True )	列の名前を <a> から’ sales ’に変更する。
+"<A> . sort_values ( by = ""sales"" , ascending = True ) . head ( )"	’ sales ’を参照して昇順に並び替えた後、 <A> の初めの 5 行を表示する。
+df . sort_values ( [ 'sales' , 'temperature' ] , ascending = False ) . head ( )	sales '、' temperature 'をそれぞれ降順に並び替えた後、カッコ内の列の初めの 5 行を表示する。
+<A> <B> = pd . to_datetime ( <A> <B> , format = '%Y-%m-%d' )	<A> <B> を参照し、年月日をハイフン区切りの形式に変更する。
+<B> <A> = pd . to_datetime ( <B> <A> , format = '%Y-%m-%d' )	<B> <A> を参照し、年月日をハイフン区切りの形式に変更する。
+<A> . isnull ( ) . sum ( )	<A> のそれぞれの列に対して欠損値の個数をカウントする。
+<A> [ <A> . isnull ( ) . any ( axis = 1 ) ] . head ( )	<A> のそれぞれの行に対して欠損値を含むか否か bool 値で取得し、 True 限定で初めの 5 行を表示する。
+<A> [ <A> . isnull ( ) . any ( axis = 1 ) ] . shape	<A> のそれぞれの行に対して欠損値を含むか否か bool 値で取得し、 True だけを抽出したときに形状を取得する。
+df . fillna ( value = { <a> : <b> } , inplace = True )	列 <a> に欠損値があれば <b> に置換する
+df . fillna ( value = { <b> : <a> } , inplace = True )	列 <b> に欠損値があれば <a> に置換する
+df . dropna ( subset = [ <a> ] , axis = 0 , inplace = True )	列 <a> の列に欠損値がある行を削除する
+df [ 'precipitation' ] = df [ 'precipitation' ] . str . replace ( '--' , <a> ) . astype ( <B> )	列 'precipitationの要素をstr型にした後に' - - ' を  <a> に置き換えて、 <B> 型にデータ型を変換する。
+df [ 'precipitation' ] = df [ 'precipitation' ] . str . replace ( '--' , <b> ) . astype ( <A> )	列 'precipitationの要素をstr型にした後に' - - ' を  <b> に置き換えて、 <A> 型にデータ型を変換する。
+pd . DataFrame ( df [ <a> ] . mask ( df [ <a> ] >  80 , <b> ) ) . head ( )	列 <a> の値が 0 より大きいとき <b> に置き換えて、初めの 5 行を表示する。
+pd . DataFrame ( df [ <b> ] . mask ( df [ <b> ] >  80 , <a> ) ) . head ( )	列 <b> の値が 0 より大きいとき <a> に置き換えて、初めの 5 行を表示する。
+df . drop ( [ 'remarks' ] , axis = 1 , inplace = True )	remarks 'の行を削除する
+<A> [ <b> ] . value_counts ( )	<A> の <b> を参照し、各要素の出現回数を取得する
+<B> [ <a> ] . value_counts ( )	<B> の <a> を参照し、各要素の出現回数を取得する
+df . groupby ( [ 'week' ] ) [ 'soldout' ] . count ( )	week 'を軸に' soldout 'の個数をカウントする。
+df . groupby ( [ 'month' , 'period' ] ) [ 'sales' ] . sum ( )	month '、' period 'を2軸として' sales 'の合計値を求める。
+df . groupby ( [ 'weather' ] ) [ 'temperature' ] . mean ( )	weather 'を軸に' temperature 'の平均値を求める。
+df [ 'temperature_diff' ] = df [ 'temperature' ] . diff ( periods = 1 )	temperature 'を参照して1行前の値との差分を算出し、' temperature_diff 'という列に代入する。
+<A> [ [ <b> , <c> ] ] . head ( )	<A> の <b> , <c> の列の初めの 5 行を表示する
+<C> [ [ <b> , <a> ] ] . head ( )	<C> の <b> , <a> の列の初めの 5 行を表示する
+df [ <a> ] = df [ <b> ] . rolling ( window = <c> ) . mean ( )	列 <b> を参照において、自身も含めた後ろ <c> つの要素の平均値を、列 <a> に格納する。
+df [ <c> ] = df [ <b> ] . rolling ( window = <a> ) . mean ( )	列 <b> を参照において、自身も含めた後ろ <a> つの要素の平均値を、列 <c> に格納する。
+df . dropna ( subset = [ 'temperature_diff' , 'temperature_rolling_mean' , 'temperature_pct_change' ] , axis = 0 , inplace = True )	temperature_diff ', ' temperature_rolling_mean ', ' temperature_pct_change 'の行のいずれかに欠損値がある列は削除する。
+import <A> <B> as <C>	<A> <B> 'を' <C> 'としてインポートする。
+import <C> <B> as <A>	<C> <B> 'を' <A> 'としてインポートする。
+df [ 'sales' ] . plot ( )	sales 'の値を二次元グラフにプロットする
+df . plot ( <A> = [ <b> , <c> , <d> ] , figsize = ( <e> , <f> ) , alpha = <g> )	<A> 軸 = [ <b> , <c> , <d> ] 、サイズ = ( <e> , <f> ) 、透過率 = <g> の折れ線グラフを描く。
+df . plot ( <G> = [ <f> , <e> , <d> ] , figsize = ( <c> , <b> ) , alpha = <a> )	<G> 軸 = [ <f> , <e> , <d> ] 、サイズ = ( <c> , <b> ) 、透過率 = <a> の折れ線グラフを描く。
+plt . title ( <a> )	グラフのタイトルを <a> とする。
+df . plot ( kind = 'hist' , <A> = <b>   , bins = <c> , figsize = ( <d> , <e> ) , alpha = <f> )	<A> 軸 = <b> 、階級数 = <c> 、サイズ = ( <d> , <e> ) 、透過率 = <f> のヒストグラムを描く。
+df . plot ( kind = 'hist' , <F> = <e>   , bins = <d> , figsize = ( <c> , <b> ) , alpha = <a> )	<F> 軸 = <e> 、階級数 = <d> 、サイズ = ( <c> , <b> ) 、透過率 = <a> のヒストグラムを描く。
+<A> . plot ( kind = 'scatter' , <B> = <c> , <D> = <e> )	<B> 軸に <c> 、 <D> 軸に <e> と設定した <A> の散布図を描く。
+<E> . plot ( kind = 'scatter' , <D> = <c> , <B> = <a> )	<D> 軸に <c> 、 <B> 軸に <a> と設定した <E> の散布図を描く。
+df [ [ <a> , <b> ] ] . corr ( )	[ <a> , <b> ] の相関係数を取得する。
+df [ [ <b> , <a> ] ] . corr ( )	[ <b> , <a> ] の相関係数を取得する。
+<A> . plot ( kind = 'bar' , alpha = <b> , figsize = ( <c> , <d> ) )	<A> を参照して透過率 = <b> 、サイズ = ( <c> , <d> ) の垂直棒グラフを描く。
+<D> . plot ( kind = 'bar' , alpha = <c> , figsize = ( <b> , <a> ) )	<D> を参照して透過率 = <c> 、サイズ = ( <b> , <a> ) の垂直棒グラフを描く。
+dummy_df = pd . get_dummies ( <A> , columns = [ <b> , <c> , <d> , <e> , <f> ] )	<A> を参照して、列 = [ <b> , <c> , <d> , <e> , <f> ] のダミー変数を生成する。
+dummy_df = pd . get_dummies ( <F> , columns = [ <e> , <d> , <c> , <b> , <a> ] )	<F> を参照して、列 = [ <e> , <d> , <c> , <b> , <a> ] のダミー変数を生成する。
+pd . set_option ( 'display.max_columns' , <a> )	最大表示列数を <a> 列に設定する。
+<A> . to_csv ( <b> , encoding = 'utf-8' )	<A> を、文字コードを utf -8 で <b> という名前の csv ファイルにして保存する。
+<B> . to_csv ( <a> , encoding = 'utf-8' )	<B> を、文字コードを utf -8 で <a> という名前の csv ファイルにして保存する。
+plt . plot ( <A> , <B> , label = <c> )	ラベル名を <c> と定義し、 <A> と <B> からグラフをプロットする。
+plt . plot ( <C> , <B> , label = <a> )	ラベル名を <a> と定義し、 <C> と <B> からグラフをプロットする。
+plt . legend ( )	グラフ内に凡例を表示する。
+plt . show ( )	プロットしたグラフを表示する
+plt . plot ( <A> , <B> , color = ( <c> , <c> , <d> ) )	グラフの色を RGB で ( <c> , <c> , <d> ) の色に指定して、 <A> と <B> からグラフをプロットする。
+plt . plot ( <D> , <C> , color = ( <b> , <b> , <a> ) )	グラフの色を RGB で ( <b> , <b> , <a> ) の色に指定して、 <D> と <C> からグラフをプロットする。
+plt . plot ( <A> , <B> , color = <c> )	グラフの色をカラーコードで <c> の色に指定して、 <A> と <B> からグラフをプロットする。
+plt . plot ( <C> , <B> , color = <a> )	グラフの色をカラーコードで <a> の色に指定して、 <C> と <B> からグラフをプロットする。
+plt . savefig ( <a> )	グラフを <a> という名前で保存する。
+import <A> as <B>	<A> を <B> としてインポートする。
+import <B> as <A>	<B> を <A> としてインポートする。
+import <A> <B> as <C>	<A> <B> を <C> としてインポートする。
+import <C> <B> as <A>	<C> <B> を <A> としてインポートする。
+import <A> as <B>	<A> を <B> という名前でインポートする。
+import <B> as <A>	<B> を <A> という名前でインポートする。
+from <A> import <B> , <C>	<A> の <B> , <C> をインポートする。
+from <C> import <B> , <A>	<C> の <B> , <A> をインポートする。
+import <A> <B> as <C>	<A> <B> を <C> という名前でインポートする。
+import <C> <B> as <A>	<C> <B> を <A> という名前でインポートする。
+import <A> as <B>	<A> を <B> としてインポートする。
+import <B> as <A>	<B> を <A> としてインポートする。
+import <A> as <B>	<A> を <B> としてインポートする。
+import <B> as <A>	<B> を <A> としてインポートする。
+sns . set ( )	グラフのデザインを seaborn のスタイルに適用する
+random . seed ( <a> )	ランダムシードを <a> に設定する。
+plt . title ( <a> )	グラフのタイトルを <a> と設定する。
+plt . xlabel ( <a> )	x 軸に <a> という軸ラベルをつける。
+plt . ylabel ( <a> )	y 軸に <a> という軸ラベルをつける。
+plt . grid ( True )	グラフにグリッドを表示させる。
+plt . figure ( <A> = ( <b> , <c> ) )	グラフのサイズを <A> = ( <b> , <c> ) に設定する。
+plt . figure ( <C> = ( <b> , <a> ) )	グラフのサイズを <C> = ( <b> , <a> ) に設定する。
+plt . subplot ( <a> , <b> , <b> )	複数のグラフを <b> つにまとめて表示して、これは <a> 行 <b> 列の <b> 番目の位置にプロットする
+plt . subplot ( <b> , <a> , <a> )	複数のグラフを <a> つにまとめて表示して、これは <b> 行 <a> 列の <a> 番目の位置にプロットする
+plt . subplot ( <a> , <b> , <a> )	複数のグラフを <b> つにまとめて表示して、これは <a> 行 <b> 列の <a> 番目の位置にプロットする
+plt . subplot ( <b> , <a> , <b> )	複数のグラフを <a> つにまとめて表示して、これは <b> 行 <a> 列の <b> 番目の位置にプロットする
+from <A> import <B>	<A> の <B> をインポートする。
+from <B> import <A>	<B> の <A> をインポートする。
+import <A> as <B>	<A> を <B> と名前を付けてインポート
+import <B> as <A>	<B> を <A> と名前を付けてインポート
+<A> = pd . read_csv ( './data/lunch_box.csv' , sep = ',' )	. / data / lunch_box .csv 'をカンマ区切りで読み込んだものを <A> に代入
+<A> . head ( <b> )	<A> の先頭の <b> 行を表示
+<B> . head ( <a> )	<B> の先頭の <a> 行を表示
+<A> . head ( )	<A> の先頭の 5 行を表示
+<A> . tail ( )	<A> の最後の 5 行を表示
+<A> . shape	<A> の行数・列数を確認
+<A> . index	<A> の index を確認
+<A> . columns	<A> の column を確認
+<A> . dtypes	<A> の各列のデータ型を確認
+<A> [ [ <b> , <c> ] ] . head ( )	<A> の列  <b> 、列  <c> の最初の５行を表示
+<C> [ [ <b> , <a> ] ] . head ( )	<C> の列  <b> 、列  <a> の最初の５行を表示
+<A> [ <b> : 106 ]	<A> の <b> 行目から 105 行目までを取得
+<B> [ <a> : 106 ]	<B> の <a> 行目から 105 行目までを取得
+<A> . loc [ <b> ]	<A> のうち、 index が <b> の行のみを取得
+<B> . loc [ <a> ]	<B> のうち、 index が <a> の行のみを取得
+<A> . iloc [ [ <b> , <c> , <d> ] , [ <e> , <c> ] ]	<A> のうち、 <b> , <c> , <d> 行目の <e> ~ <c> 列目を取得
+<E> . iloc [ [ <d> , <c> , <b> ] , [ <a> , <c> ] ]	<E> のうち、 <d> , <c> , <b> 行目の <a> ~ <c> 列目を取得
+<A> [ <A> [ <b> ] >  <c> ]	<A> のうち、列 <b> が <c> よりも大きい行のみを取得
+<C> [ <C> [ <b> ] >  <a> ]	<C> のうち、列 <b> が <a> よりも大きい行のみを取得
+"<A> [ [ <b> , <c> ] ] . query ( 'kcal > 450 and name == ""豚肉の生姜焼""' )"	"<A> のうち、列 <c> が 450 よりも大きく、列 <b> の値が ""豚肉の生姜焼"" の行のみを取得"
+"<C> [ [ <b> , <a> ] ] . query ( 'kcal > 450 and name == ""豚肉の生姜焼""' )"	"<C> のうち、列 <a> が 450 よりも大きく、列 <b> の値が ""豚肉の生姜焼"" の行のみを取得"
+<A> [ <b> ] . unique ( )	<A> の列 <b> に存在する値を重複を省いて取得
+<B> [ <a> ] . unique ( )	<B> の列 <a> に存在する値を重複を省いて取得
+<A> . drop_duplicates ( )	<A> のうち、重複した行を削除
+<A> . describe ( )	<A> の各列の要約統計量を取得
+<A> . set_index ( 'datetime' , inplace = True )	<A> の列 'datatime' をインデックスとして設定
+<A> . rename ( columns = { <b> : <c> } , inplace = True )	<A> の列 <b> のカラム名を <c> に変更
+<C> . rename ( columns = { <b> : <a> } , inplace = True )	<C> の列 <b> のカラム名を <a> に変更
+<A> . sort_values ( by = <b> , ascending = True ) . head ( )	<A> の列 <b> を降順で並び替え、最初の５行を表示
+<B> . sort_values ( by = <a> , ascending = True ) . head ( )	<B> の列 <a> を降順で並び替え、最初の５行を表示
+<A> . sort_values ( [ <b> , 'temperature' ] , ascending = False ) . head ( )	<A> の列 <b> と列 'temprature' を照準で並び替え、最初の 5 行を表示
+<B> . sort_values ( [ <a> , 'temperature' ] , ascending = False ) . head ( )	<B> の列 <a> と列 'temprature' を照準で並び替え、最初の 5 行を表示
+<A> . index = pd . to_datetime ( <A> . index , format = '%Y-%m-%d' )	<A> のインデックスを datetime64 [ ns ] 型の年月日をハイフン区切りにしたものに変更
+<A> . isnull ( ) . sum ( )	<A> に含まれる欠損値の個数を列ごとに算出
+<A> [ <A> . isnull ( ) . any ( axis = 1 ) ] . head ( )	<A> に含まれる欠損値の有無を行ごとに判定し、初めの５行について結果を表示
+<A> [ <A> . isnull ( ) . any ( axis = 1 ) ] . shape	<A> に含まれる欠損値の有無を行ごとに判定し、欠損値が含まれるもののみを抽出したときの形状を取得
+<A> . fillna ( value = { <b> : 0.0 } , inplace = True )	<A> の列 <b> にある欠損値を '0.0' に置換
+<B> . fillna ( value = { <a> : 0.0 } , inplace = True )	<B> の列 <a> にある欠損値を '0.0' に置換
+<A> . dropna ( subset = [ <b> ] , axis = 0 , inplace = True )	<A> の列 <b> に欠損値がある行を削除する
+<B> . dropna ( subset = [ <a> ] , axis = 0 , inplace = True )	<B> の列 <a> に欠損値がある行を削除する
+<A> [ <b> ] = <A> [ <b> ] . str . replace ( <c> , <d> ) . astype ( <E> )	<A> の列 <b>  の型タイプを <E> に変更すると同時に、  <c>  を  <d> に置換
+<E> [ <d> ] = <E> [ <d> ] . str . replace ( <c> , <b> ) . astype ( <A> )	<E> の列 <d>  の型タイプを <A> に変更すると同時に、  <c>  を  <b> に置換
+pd . DataFrame ( df [ <a> ] . mask ( df [ <a> ] >  <b> , <c> ) ) . head ( )	データフレームの <a> の値が <b> よりも大きければ、その値を <c> に置換し、最初の５行を出力
+pd . DataFrame ( df [ <c> ] . mask ( df [ <c> ] >  <b> , <a> ) ) . head ( )	データフレームの <c> の値が <b> よりも大きければ、その値を <a> に置換し、最初の５行を出力
+<A> . drop ( [ <b> ] , axis = 1 , inplace = True )	<A> から列 <b> を削除
+<B> . drop ( [ <a> ] , axis = 1 , inplace = True )	<B> から列 <a> を削除
+<A> [ <b> ] . value_counts ( )	<A> の列 <b> について、値の集計をとる
+<B> [ <a> ] . value_counts ( )	<B> の列 <a> について、値の集計をとる
+<A> . groupby ( [ <b> ] ) [ <c> ] . count ( )	<A> について、列 <b> の値ごとに <c> の数をカウント
+<C> . groupby ( [ <b> ] ) [ <a> ] . count ( )	<C> について、列 <b> の値ごとに <a> の数をカウント
+<A> . groupby ( [ <b> , <c> ] ) [ 'sales' ] . sum ( )	<A> について、列 <b> , 列 <c> の値ごとに 'soldout' の数をカウント
+<C> . groupby ( [ <b> , <a> ] ) [ 'sales' ] . sum ( )	<C> について、列 <b> , 列 <a> の値ごとに 'soldout' の数をカウント
+<A> . groupby ( [ <b> ] ) [ <c> ] . mean ( )	<A> について、列 <b> の値ごとに <c> の平均を算出
+<C> . groupby ( [ <b> ] ) [ <a> ] . mean ( )	<C> について、列 <b> の値ごとに <a> の平均を算出
+<A> [ [ <b> , <c> ] ] . head ( )	<A> の列 <b> , 列 <c> について最初の５行を表示
+<C> [ [ <b> , <a> ] ] . head ( )	<C> の列 <b> , 列 <a> について最初の５行を表示
+<A> [ 'temperature_rolling_mean' ] = <A> [ <b> ] . rolling ( <C> = <d> ) . mean ( )	<A> の列 <b> について、頭から <C> サイズ <d> で移動平均を算出
+<D> [ 'temperature_rolling_mean' ] = <D> [ <c> ] . rolling ( <B> = <a> ) . mean ( )	<D> の列 <c> について、頭から <B> サイズ <a> で移動平均を算出
+<A> . dropna ( subset = [ <b> , <c> , <d> ] , axis = 0 , inplace = True )	<A> のうち、列 <b> , <c> , <d> に１つでも欠損値がある行は削除
+<D> . dropna ( subset = [ <c> , <b> , <a> ] , axis = 0 , inplace = True )	<D> のうち、列 <c> , <b> , <a> に１つでも欠損値がある行は削除
+import <A> <B> as <C>	<A> <B> を <C> と名前を付けてインポート
+import <C> <B> as <A>	<C> <B> を <A> と名前を付けてインポート
+<A> [ <b> ] . plot ( )	<A> の列 <b> の値を折れ線グラフとしてプロット
+<B> [ <a> ] . plot ( )	<B> の列 <a> の値を折れ線グラフとしてプロット
+df . plot ( y = [ 'temperature' , 'temperature_rolling_mean' , 'temperature_pct_change' ] , figsize = ( <a> , <b> ) , alpha = <c> )	列’ temperature ', 列' temperature_rolling_mean ', 列' temperature_pct_change 'の値をサイズ <a> × <b> 、透過度 <c> の折れ線グラフで表示
+df . plot ( y = [ 'temperature' , 'temperature_rolling_mean' , 'temperature_pct_change' ] , figsize = ( <c> , <b> ) , alpha = <a> )	列’ temperature ', 列' temperature_rolling_mean ', 列' temperature_pct_change 'の値をサイズ <c> × <b> 、透過度 <a> の折れ線グラフで表示
+plt . title ( <a> )	グラフのタイトルを <a> とする
+df . plot ( kind = 'hist' , <A> = <b>   , bins = <c> , figsize = ( <d> , <e> ) , alpha = <f> )	<A> 軸を <b> として、図のサイズ <d> × <e> 、ビンのサイズ <c> 、透過率 <f> のヒストグラムを表示
+df . plot ( kind = 'hist' , <F> = <e>   , bins = <d> , figsize = ( <c> , <b> ) , alpha = <a> )	<F> 軸を <e> として、図のサイズ <c> × <b> 、ビンのサイズ <d> 、透過率 <a> のヒストグラムを表示
+df . plot ( kind = 'scatter' , <A> = <b> , <C> = <d> )	<A> 軸を <b> 、 <C> 軸を <d> とした散布図を表示
+df . plot ( kind = 'scatter' , <D> = <c> , <B> = <a> )	<D> 軸を <c> 、 <B> 軸を <a> とした散布図を表示
+df [ [ 'kcal' , 'sales' ] ] . corr ( )	kcal 'と' sales 'の相関係数を算出
+<A> = pd . get_dummies ( df , columns = [ <b> , <c> , <d> , <e> , <f> ] )	列 <b> , 列 <c> , 列 <d> , 列 <e> , 列 <f> を全てダミー化したものを <A> とする
+<F> = pd . get_dummies ( df , columns = [ <e> , <d> , <c> , <b> , <a> ] )	列 <e> , 列 <d> , 列 <c> , 列 <b> , 列 <a> を全てダミー化したものを <F> とする
+<A> . to_csv ( <b> , encoding = 'utf-8' )	<A> を <b> に utf -8 で保存
+<B> . to_csv ( <a> , encoding = 'utf-8' )	<B> を <a> に utf -8 で保存
+plt . plot ( <A> , <B> , label = <c> )	ラベルを <c> として、 <A> と <B> の値からプロット
+plt . plot ( <C> , <B> , label = <a> )	ラベルを <a> として、 <C> と <B> の値からプロット
+plt . legend ( )	凡例の表示
+plt . show ( )	プロット表示 ( 設定の反映 )
+plt . plot ( <A> , <B> , color = ( <c> , <c> , <d> ) )	RGB を ( <c> , <c> , <d> ) と指定して、 <A> と <B> の値からプロット
+plt . plot ( <D> , <C> , color = ( <b> , <b> , <a> ) )	RGB を ( <b> , <b> , <a> ) と指定して、 <D> と <C> の値からプロット
+plt . plot ( <A> , <B> , color = <c> )	16 進数表記のカラーコードを <c> と指定して、 <A> と <B> の値からプロット
+plt . plot ( <C> , <B> , color = <a> )	16 進数表記のカラーコードを <a> と指定して、 <C> と <B> の値からプロット
+plt . savefig ( <a> )	作ったグラフを <a> として保存
+import <A> as <B>	<A> を <B> と名前を付けてインポート
+import <B> as <A>	<B> を <A> と名前を付けてインポート
+import <A> <B> as <C>	<A> <B> を <C> と名前を付けてインポート
+import <C> <B> as <A>	<C> <B> を <A> と名前を付けてインポート
+import <A> as <B>	<A> を <B> と名前を付けてインポート
+import <B> as <A>	<B> を <A> と名前を付けてインポート
+from <A> import <B> , <C>	<A> から <B> と <C> をインポート
+from <C> import <B> , <A>	<C> から <B> と <A> をインポート
+import <A> <B> as <C>	<A> <B> を <C> と名前を付けてインポート
+import <C> <B> as <A>	<C> <B> を <A> と名前を付けてインポート
+import <A> as <B>	<A> を <B> と名前を付けてインポート
+import <B> as <A>	<B> を <A> と名前を付けてインポート
+import <A> as <B>	<A> を <B> と名前を付けてインポート
+import <B> as <A>	<B> を <A> と名前を付けてインポート
+sns . set ( )	グラフのスタイルを seaborn に変更
+random . seed ( <a> )	シード値を <a> として固定
+plt . title ( <a> )	グラフタイトルを <a> とする
+plt . xlabel ( <a> )	グラフの x 軸のラベルを <a> とする
+plt . ylabel ( <a> )	グラフの x 軸のラベルを <a> とする
+plt . grid ( True )	グラフにグリッドを表示する
+plt . figure ( figsize = ( <a> , <b> ) )	グラフの大きさを <a> × <b> に指定
+plt . figure ( figsize = ( <b> , <a> ) )	グラフの大きさを <b> × <a> に指定
+plt . subplot ( <a> , <b> , <b> )	グラフを <a> 行 <b> 列のグラフの <b> つ目として指定
+plt . subplot ( <b> , <a> , <a> )	グラフを <b> 行 <a> 列のグラフの <a> つ目として指定
+plt . subplot ( <a> , <b> , <a> )	グラフを <a> 行 <b> 列のグラフの <a> つ目として指定
+plt . subplot ( <b> , <a> , <b> )	グラフを <b> 行 <a> 列のグラフの <b> つ目として指定
+plt . bar ( <A> , <B> , align = 'center' , width = <c> )	<A> 軸を <A> 、 <B> 軸を <B> として幅 <c> の棒グラフを <A> のメモリの真ん中の位置に来るように配置
+plt . bar ( <C> , <B> , align = 'center' , width = <a> )	<C> 軸を <C> 、 <B> 軸を <B> として幅 <a> の棒グラフを <C> のメモリの真ん中の位置に来るように配置
+plt . xticks ( <A> , [ <b> , <c> , <d> ] )	グラフの <A> 軸の目盛り文字列を <A> から [ <b> , <c> , <d> ] に変更
+plt . xticks ( <D> , [ <c> , <b> , <a> ] )	グラフの <D> 軸の目盛り文字列を <D> から [ <c> , <b> , <a> ] に変更
+plt . barh ( <A> , <B> , align = 'center' )	<A> の軸と <B> の軸を入れ替えた棒グラフを <A> のメモリの真ん中の位置に来るように配置
+plt . barh ( <B> , <A> , align = 'center' )	<B> の軸と <A> の軸を入れ替えた棒グラフを <B> のメモリの真ん中の位置に来るように配置
+plt . yticks ( <A> , [ <b> , <c> , <d> ] )	グラフの y 軸の目盛り文字列を <A> から [ <b> , <c> , <d> ] に変更
+plt . yticks ( <D> , [ <c> , <b> , <a> ] )	グラフの y 軸の目盛り文字列を <D> から [ <c> , <b> , <a> ] に変更
+plt . legend ( loc = 'best' )	凡例を最適な位置に配置
+from <A> import linear_model	<A> から liner_model をインポート
+<A> = pd . read_csv ( 'student-mat.csv' )	student - mat .csv 'のデータを読み込み、 <A> とする
+plt . hist ( <A> [ 'absences' ] )	データ <A> の absences についてのヒストグラムを表示
+<A> [ 'absences' ] . median ( )	データ <A> の absences についての中央値を取得
+<A> [ 'absences' ] . mode ( )	データ <A> の absences についての最頻値を取得
+<A> [ 'absences' ] . var ( )	データ <A> の absences についての分散を取得
+<A> [ 'absences' ] . std ( )	データ <A> の absences についての標準偏差を取得
+<A> [ 'absences' ] . describe ( )	データ <A> の absences についての要約統計量を取得
+plt . boxplot ( <A> [ 'G1' ] )	データ <A> の G1 についての箱ひげ図を表示
+plt . boxplot ( [ <A> [ 'G1' ] , <A> [ 'G2' ] , <A> [ 'G3' ] ] )	データ <A> の G1 , G2 , G3 についての箱ひげ図を表示
+plt . plot ( <A> [ 'G1' ] , <A> [ 'G3' ] , <b> )	データ <A> の G1 , G3 についての散布図をプロットを <b> として表示
+plt . plot ( <B> [ 'G1' ] , <B> [ 'G3' ] , <a> )	データ <B> の G1 , G3 についての散布図をプロットを <a> として表示
+np . cov ( <A> [ 'G1' ] , <A> [ 'G3' ] )	データ <A> の G1 , G3 について共分散行列を算出
+sp . stats . pearsonr ( <A> [ 'G1' ] , <A> [ 'G3' ] )	データ <A> の G1 , G3 について相関係数を算出
+np . corrcoef ( [ <A> [ 'G1' ] , <A> [ 'G3' ] ] )	データ <A> の G1 , G3 について相関行列を算出
+sns . pairplot ( <A> [ [ 'Dalc' , 'Walc' , 'G1' , 'G3' ] ] )	データ <A> の Dalc , Walc , G1 , G3 について各変数のヒストグラムをすべて表示
+<A> = linear_model . LinearRegression ( )	線形回帰のインスタンスを生成し、 <A> とする
+reg . coef_	回帰係数を算出
+reg . intercept_	切片を算出
+plt . plot ( X , reg . predict ( X ) )	線形回帰直線を引く
+reg . score ( X , Y )	決定係数を算出する
+<A> = <A> [ [ <b> , <c> , <d> , <e> ] ]	<A> から列 <b> , 列 <c> , 列 <d> , 列 <e> を抽出して、 <A> とする
+<E> = <E> [ [ <d> , <c> , <b> , <a> ] ]	<E> から列 <d> , 列 <c> , 列 <b> , 列 <a> を抽出して、 <E> とする
+<A> . isin ( [ <b> ] ) . sum ( )	<A> のそれぞれのカラムに存在する <b> の個数の合計値を算出
+<B> . isin ( [ <a> ] ) . sum ( )	<B> のそれぞれのカラムに存在する <a> の個数の合計値を算出
+<A> = <A> . replace ( <b> , np . nan ) . dropna ( )	<A> に存在する <b> を欠損値に置換し、欠損値がある行を削除
+<B> = <B> . replace ( <a> , np . nan ) . dropna ( )	<B> に存在する <a> を欠損値に置換し、欠損値がある行を削除
+<A> = <A> . assign ( price = pd . to_numeric ( <A> . price ) )	<A> の列 'price' を数値型に変換
+from sklearn . linear_model import <A>	sklearn_linear から <A> をインポート
+<A> = <B> . drop ( <c> , axis = 1 )	列 <c> 以外の <B> を <A> とする
+<C> = <B> . drop ( <a> , axis = 1 )	列 <a> 以外の <B> を <C> とする
+import <A>	<A> をインポート
+adult . groupby ( <a> ) . size ( )	列 <a> の値ごとのデータの数を表示
+from <A> <B> import <C>	<A> <B> から <C> をインポート
+from <C> <B> import <A>	<C> <B> から <A> をインポート
+from <A> <B> import <C>	<A> <B> から <C> をインポート
+from <C> <B> import <A>	<C> <B> から <A> をインポート
+import <A> as <B>	<A> を <B> としてインポート
+import <B> as <A>	<B> を <A> としてインポート
+<A> = pd . read_csv ( './data/lunch_box.csv' , sep = ',' )	. / data / lunch_box .csv 'をカンマ区切りで読み、 <A> とする
+<A> . head ( <b> )	<A> の最初の <b> 行を表示させる
+<B> . head ( <a> )	<B> の最初の <a> 行を表示させる
+<A> . head ( )	<A> の最初の 5 行を表示させる
+<A> . tail ( )	<A> の最後の 5 行を表示させる
+<A> . shape	<A> の行数および列数を表示
+<A> . index	<A> のインデックスを表示
+<A> . columns	<A> のカラムを表示
+<A> . dtypes	<A> のデータ型を表示
+import <A> as <B>	<A> をインポートし以降 <B> として扱う
+import <B> as <A>	<B> をインポートし以降 <A> として扱う
+<A> = pd . read_csv ( './data/lunch_box.csv' , sep = ',' )	. / data / lunch_box .csv をカンマ区切りで読み込み、 <A> として扱う
+<A> . head ( <b> )	<A> の先頭 <b> 行を表示する
+<B> . head ( <a> )	<B> の先頭 <a> 行を表示する
+<A> . head ( )	<A> の先頭 5 行を表示する
+<A> . tail ( )	<A> の末尾 5 行を表示する
+<A> . shape	<A> の大きさを表示する
+<A> . index	<A> の index を表示する
+<A> . columns	<A> の columns を表示する
+<A> [ [ 'name' , 'kcal' ] ] . head ( )	<A> の name と kcal を抽出し、先頭 5 行を表示する
