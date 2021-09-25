@@ -1,0 +1,1595 @@
+表データ <A> の <b> と <c> ごとに <d> コラムの値の合計を求める	<A> . groupby ( [ <b> , <c> ] ) [ <d> ] . sum ( )	 <A> . groupby ( [ <b> , <c> ] ) [ <d> ] . sum ( ) 
+データフレームを <a> ファイルからカンマ区切りで読み込む	pd . read_csv ( <a> , sep = ',' )	 <B> pd . read_csv ( <a> , sep = ',' ) 
+<B> の前と <A> を末尾から取り除く	<B> . strip ( <A> )	 <A> . strip ( <B> ) 
+<A> の表属性 <b> についてのヒストグラムをプロットする	plt . hist ( <A> [ <b> ] )	 tuple plt . hist ( <A> [ <b> ] ) 
+リスト <A> のそれぞれを文字列に変換し、文字列 <B> でジョインする	<B> . join ( str ( x ) for x in <A> )	 <A> . join ( str ( x ) for x in <B> ) 
+データフレーム <B> の <a> についての標準偏差を表示する	<B> [ <a> ] . std ( )	 <B> [ <a> ] . std ( ) 
+<A> が <B> で発見される間	while <B> . find ( <A> ) >= 0 :	 >= <B> . find ( <A> ) >= 0 : 
+ファイル名 <b> から <a> 区切りで表を読む	pd . read_csv ( <b> , sep = <a> )	 pd . read_csv ( <b> , sep = <a> ) 
+y 軸のラベルを <a> と指定する	plt . ylabel ( <a> )	 plt . ylabel ( <a> ) 
+文字列 <A> を <B> 区切り文字で右分割する	<A> . rsplit ( <B> )	 <A> . rsplit ( <B> ) 
+表 <C> の <b> 列と <a> を逆順に並べる	<C> . sort_values ( [ <b> , <a> ] , ascending = False )	 <D> . sort_values ( [ <C> , <b> , <a> ] ] , ascending = False ) 
+ビンの名前を <D> リストとして、 <A> の <b> コラムを分割数を <C> としてビン分割する	pd . cut ( <A> [ <b> ] , <C> , label = <D> )	 <D> . cut ( <A> [ <b> ] , <C> , label = <D> ) 
+もし <B> が <A> で出現した場合	if <A> . find ( <B> ) >= 0 :	 if <A> . find ( <B> ) >= 0 : 
+表データ <A> の <b> カラムを位置に設定する	<A> . set_index ( <b> )	 <A> . set_index ( <b> ) 
+もし <A> が <B> 文字列にマッチしなかった場合	if not re . match ( <A> , <B> ) :	 while not re . match ( <A> , <B> ) : 
+表データ <A> の列の名前を <b> から <c> に、 <d> から <e> に変更する	<A> . rename ( columns = { <b> : <c> , <d> : <e> } )	 <B> . rename ( columns = { <d> : <c> , <b> : <e> } ) 
+<A> をバイナリ用にオープンする	open ( <A> , 'b' )	 sorted ( <A> , 'b' ) 
+<B> が <A> 文字列内で出現すれば	if <A> . find ( <B> ) >= 0 :	 if <A> . find ( <B> ) >= 0 : 
+もし文字列 <B> が <A> で開始すれば	if <B> . startswith ( <A> ) :	 if <B> . startswith ( <A> ) : 
+<b> 進数文字列 <A> から整数に変換する	int ( <A> , <b> )	 float . fromhex ( <A> , <b> ) 
+オブジェクト <B> に属性 <A> があるか	hasattr ( <B> , <A> )	 getattr ( <B> , <A> ) 
+文字列 <A> に対し、正規表現 <B> でスプリットする	re . split ( <B> , <A> )	 <B> re . split ( <A> , <B> ) 
+<A> のオブジェクトデータの要約統計量	<A> . describe ( include = "O" )	 <A> . describe ( include = "O" ) 
+<A> の始まりが suffix か	<A> . startswith ( prefix )	 prefix . startswith ( prefix ) 
+表 <B> 中のそれぞれのカラムに存在する <a> の個数の合計値	<B> . isin ( [ <a> ] ) . sum ( )	 map ( <B> , <a> ] ) . sum ( ) 
+<A> のデータ型	<A> . dtypes	 sorted ( <A> ) 
+ビンの名前を 0 始まりの連番として、 <A> 表データの <b> をビン数を <C> 整数値として分割する	pd . cut ( <A> [ <b> ] , <C> , label = False )	 pd . cut ( <A> [ <b> ] , <C> , label = False ) 
+左外部結合で表データ <A> と表データ <B> を一つにまとめる	pd . merge ( <A> , <B> , how = 'left' )	 plt . pd . merge ( <A> , <B> , how = 'left' ) 
+<D> の <c> と <b> ごとにカラム <a> の値の合計を求める	<D> . groupby ( [ <c> , <b> ] ) [ <a> ] . sum ( )	 <D> . groupby ( [ <c> , <b> ] ) [ <a> ] . sum ( ) 
+もし <A> が <B> 文字列中になくなかったら	if <B> . find ( <A> ) == -1 :	 if <B> . find ( <A> ) == -1 : 
+<A> が小数点数でない場合	if not isinstance ( <A> , float ) :	 while not isinstance ( <A> , float ) : 
+<D> の <c> と <b> と <a> について関係性を一気に描く	sns . pairplot ( <D> [ [ <c> , <b> , <a> ] ] )	 <E> . pairplot ( <D> [ [ <c> , <b> , <a> ] ] ) 
+表データ <A> の末尾 5 行を調べる	<A> . tail ( )	 not <A> . tail ( ) 
+全結合で <B> と表データ <A> をマージする	pd . merge ( <B> , <A> , how = 'outer' )	 pd . merge ( <B> , <A> , how = 'outer' ) 
+文字列 <B> に対し、正規表現 <A> で区切る	re . split ( <A> , <B> )	 re . split ( <A> , <B> ) 
+<A> が奇数か	<A> % 2 == 1	 <A> % 2 == 0 
+表 <A> の内容を見る	<A> . head ( )	 <A> . head ( ) 
+<B> を <A> から番号付けする	enumerate ( <B> , <A> )	 enumerate ( <B> , <A> ) 
+表 <C> の <b> と列 <a> を降順に並び替える	<C> . sort_values ( [ <b> , <a> ] , ascending = False )	 <D> . sort_values ( <C> , <b> , <a> ) 
+表 <D> の <c> と <b> と <a> について関係性を一気に表示する	sns . pairplot ( <D> [ [ <c> , <b> , <a> ] ] )	 sns . pairplot ( <D> [ [ <c> , <b> , <a> ] ] ) 
+<B> で部分文字列 <A> を右から探す	<B> . rfind ( <A> )	 not <B> . rfind ( <A> ) 
+データフレーム <D> の <c> と <b> ごとに <a> の値の合計を求める	<D> . groupby ( [ <c> , <b> ] ) [ <a> ] . sum ( )	 <D> . groupby ( [ <c> , <b> ] ) [ <a> ] . sum ( ) 
+<A> の始まりが suffix である場合	if <A> . startswith ( prefix ) :	 if <A> . startswith ( prefix ) : 
+<A> から <D> 内で <C> の位置を <B> まで探す	<D> . rfind ( <C> , <B> , <A> )	 sns . rfind ( <D> , <C> , <B> , <A> ) 
+文字列 <B> 内に <A> がなくなければ	if <B> . find ( <A> ) == -1 :	 if <B> . find ( <A> ) == -1 : 
+データフレーム <B> と表データ <A> を縦結合する	pd . concat ( [ <B> , <A> ] )	 pd . concat ( [ <B> , <A> ] ) 
+<B> が <A> 内になくなければ	if <A> . find ( <B> ) == -1 :	 <A> . find ( <B> ) == -1 : 
+<A> が空であるか否か	len ( <A> ) == 0	 len ( <A> ) != 0 
+<B> と <A> 身長から BMI	<B> / ( <A> / 100 ) ** 2	 <A> / ( <B> / 100 ) ** 2 
+オブジェクト <A> がリストまたはタプルでないかどうか	not isinstance ( <A> , ( list , tuple ) )	 not isinstance ( <A> , ( list , tuple ) ) 
+もし文字列 <A> が <B> で始まれば	if <A> . startswith ( <B> ) :	 if <A> . startswith ( <B> ) : 
+表 <A> の NaN を含む行を消す	<A> . dropna ( )	 <B> . dropna ( ) 
+<B> の <a> を確認する	<B> [ <a> ]	 math . <B> [ <a> ] 
+文字列 <C> で <B> 部分文字列を末尾から <A> まで探す	<C> . rfind ( <B> , <A> )	 <D> . rfind ( <C> , <B> , <A> ) 
+データフレーム <A> の <b> カラムと <c> と <d> について関係性を一気に描画する	sns . pairplot ( <A> [ [ <b> , <c> , <d> ] ] )	 plt . pairplot ( <A> [ [ <b> , <c> , <d> ] ] ) 
+x 軸に <a> というラベルをつける	plt . xlabel ( <a> )	 plt . xlabel ( <a> ) 
+<A> の少数部を切り捨てた整数	math . trunc ( <A> )	 math . ceil ( <A> ) 
+<A> と <B> データフレームをマージする	pd . merge ( <A> , <B> )	 math . merge ( <A> , <B> ) 
+データフレーム <A> の <b> をグループ化して、値ごとのデータ数を調べる	<A> . groupby ( <b> ) . size ( )	 <A> . groupby ( <b> ) . size ( ) 
+データフレーム <C> の <b> コラムを分割数を <A> 整数値としてビン分割する	pd . cut ( <C> [ <b> ] , <A> )	 pd . cut ( <C> [ <b> ] , <A> ) 
+<A> を並べ変える	sorted ( <A> )	 <A> . sort_values ( ) 
+<D> から <A> 文字列内で <B> 部分文字列を <C> まで探す	<A> . rfind ( <B> , <C> , <D> )	 rfind <A> . rfind ( <B> , <C> , <D> ) 
+データフレーム <C> の <b> ごとに表属性 <a> の平均を計算する	<C> . groupby ( [ <b> ] ) [ <a> ] . mean ( )	 <C> . groupby ( [ <b> ] ) [ <a> ] . mean ( ) 
+表 <B> のカラム <a> をソートする	<B> . sort_values ( <a> )	 <B> . sort_values ( <a> ) 
+文字列 <B> をセパレータ <A> で区切った最後の文字列	<B> . split ( <A> ) [ -1 ]	 <C> . split ( <B> [ -1 ] ) [ -1 ] 
+データフレーム <B> の <a> 行目から末尾まで	<B> [ <a> : ]	 <B> [ <a> : ] 
+文字列 <A> 中で末尾から <B> を探す	<A> . rfind ( <B> )	 not <A> . rfind ( <B> ) 
+<c> 表属性をキーとして、 <A> と表 <B> をマージする	pd . merge ( <A> , <B> , on = <c> )	 sns pd . merge ( <A> , <B> , on = <c> ) 
+<A> を <B> ビット、左シフトする	<A> << = <B>	 pd . merge ( <A> , <B> , << = True ) 
+文字列 <A> の <B> を末尾から削除する	<A> . rstrip ( <B> )	 <A> . rstrip ( <B> ) 
+<B> , <C> , <D> で <A> を整形する	<A> . format ( <B> , <C> , <D> )	 min ( <D> , <B> , <A> ) 
+<A> を右から <B> 文字列内で探す	<B> . rfind ( <A> )	 <A> . rfind ( <B> ) 
+後ろから <C> 文字列で <B> 部分文字列の位置を <A> まで探す	<C> . rfind ( <B> , <A> )	 <D> . rfind ( <C> , <B> , <A> ) 
+文字列 <B> の終わりが <A> であるでない間	while not <B> . endswith ( <A> ) :	 for while not <B> . endswith ( <A> ) : 
+表 <A> の <b> 列内の前後の行の差分を計算	<A> [ <b> ] . diff ( periods = 1 )	 <A> [ <b> ] . diff ( periods = 1 ) 
+<A> の列の名前を <b> から <c> に、 <d> から <e> に変更する	<A> . rename ( columns = { <b> : <c> , <d> : <e> } )	 plt . rename ( columns = { <d> : <c> , <b> : <e> } ) 
+<A> が <B> 中に含まれないか	<A> not in <B>	 <B> not in <A> 
+<b> 進数表記 <A> から自然数に変換する	int ( <A> , <b> )	 float . fromhex ( <A> , <b> ) 
+<B> 全体に <A> 正規表現がマッチすれば	if re . fullmatch ( <A> , <B> ) :	 if re . fullmatch ( <A> , <B> ) : 
+<A> の最初と末尾から不要な空白を除去する	<A> . strip ( )	 not <A> . strip ( ) 
+<A> の <B> 属性の値	getattr ( <A> , <B> )	 getattr ( <A> , <B> ) 
+もしオブジェクト <A> がリストあるいはタプルでなならば	if not isinstance ( <A> , ( list , tuple ) ) :	 plt . isinstance ( <A> , ( list , tuple ) ) 
+<B> が文字列 <A> で最初に見つかった位置	<A> . index ( <B> )	 <A> . index ( <B> ) 
+<B> のカラム <a> のユニークな要素の個数	<B> [ <a> ] . nunique ( )	 not <B> [ <a> ] . nunique ( ) 
+<A> が <B> で割り切れたなら	if <A> % <B> == 0 :	 while <A> % <B> == 0 : 
+もしオブジェクト <A> が数でな場合	if not isinstance ( <A> , float ) :	 while not isinstance ( <A> , float ) : 
+<A> にある <b> を欠損値に置換する	<A> . replace ( <b> , np . nan )	 int ( <A> , <b> ) 
+オブジェクト <A> に <B> フィールドがあらないかどうか	not hasattr ( <A> , <B> )	 not hasattr ( <A> , <B> ) 
+表データ <B> の <a> コラムについての標準偏差	<B> [ <a> ] . std ( )	 std <B> [ <a> ] . std ( ) 
+区切り文字 <A> で <B> を右から区切る	<B> . rsplit ( <A> )	 not <A> . rsplit ( <B> ) 
+データフレーム <A> の末尾の <b> 行を表示する	<A> . tail ( <b> )	 <A> . tail ( <b> ) 
+表 <D> の <c> と <b> カラムとカラム <a> についての箱ひげ図をプロットする	plt . boxplot ( [ <D> [ <c> ] , <D> [ <b> ] , <D> [ <a> ] ] )	 int . boxplot ( [ <D> [ <c> ] , <D> [ <b> ] , <D> [ <a> ] ] ) 
+<A> の順序列	enumerate ( <A> )	 math . tan ( <A> ) 
+ビンの名前を整数値として、データフレーム <C> の <b> コラムをビン数を <A> 整数値として分割する	pd . cut ( <C> [ <b> ] , <A> , label = False )	 sns . cut ( <A> [ <b> ] , <C> , label = False ) 
+ハッシュ表 <A> に <B> を加える	<A> | = <B>	 map ( <B> , <A> ) 
+文字列 <B> の先頭と <A> を最後から削除する	<B> . strip ( <A> )	 <A> . strip ( <B> ) 
+<B> 中のタブ記号を <A> 文字の空白で置換する	<B> . expandtabs ( <A> )	 <B> . expandtabs ( <A> ) 
+<C> の <b> が <a> 以上のデータを抽出する	<C> [ <C> [ <b> ] >= <a> ]	 <D> [ <C> [ <b> ] >= <a> ] 
+データフレーム <B> の <a> 行から最後まで	<B> [ <a> : ]	 <B> [ <a> : ] 
+<B> を区切り記号 <A> で右から分ける	<B> . rsplit ( <A> )	 not <B> . rsplit ( <A> ) 
+文字列 <B> を幅 <A> で中央寄せする	<B> . center ( <A> )	 center <B> . center ( <A> ) 
+データフレーム <B> の <a> 表属性のユニークな要素数	<B> [ <a> ] . nunique ( )	 not <B> [ <a> ] . nunique ( ) 
+左外部結合で表 <A> と <B> を一つにまとめる	pd . merge ( <A> , <B> , how = 'left' )	 plt . pd . merge ( <A> , <B> , how = 'left' ) 
+<b> から <a> 区切りで表を読み込む	pd . read_csv ( <b> , sep = <a> )	 pd . read_csv ( <b> , sep = <a> ) 
+表データ <B> の <a> のユニークな要素の個数	<B> [ <a> ] . nunique ( )	 not <B> [ <a> ] . nunique ( ) 
+表 <A> の <b> コラムが <c> 以上のデータを抽出する	<A> [ <A> [ <b> ] >= <c> ]	 <D> [ <A> [ <b> ] >= <c> ] 
+グラフのサイズを横 <a> 縦 <b> と設定する	plt . figure ( figsize = ( <a> , <b> ) )	 sns . pairplot ( <D> [ [ <c> , <b> , <a> ] ] ) 
+文字列 <B> 内の <A> の出現回数	<B> . count ( <A> )	 <A> . count ( <B> ) 
+<A> の最初から <B> 文字列を除去する	<A> . removeprefix ( <B> )	 <A> . removeprefix ( <B> ) 
+<C> で文字列 <B> のマッチした部分を <A> にリプレースする	re . sub ( <C> , <B> , <A> )	 re . sub ( <C> , <B> , <A> ) 
+表データ <A> の欠損値が存在する行を消す	<A> . dropna ( )	 <A> . dropna ( ) 
+表 <A> の <b> ごとに <c> カラムの数を数える	<A> . groupby ( [ <b> ] ) [ <c> ] . count ( )	 <A> . groupby ( [ <b> ] ) [ <c> ] . count ( ) 
+書き込みモードで <A> をオープンする	open ( <A> , 'w' )	 open ( <A> , 'w' ) 
+もう一回、繰り返す	continue	 time . sleep ( <a> ) 
+データフレーム <B> 中にある <a> を NaN とする	<B> . replace ( <a> , np . nan )	 pd . replace ( <B> , <a> ] ) 
+データフレーム <A> にある <b> を NaN に置き換える	<A> . replace ( <b> , np . nan )	 <B> . replace ( <A> , <b> ) 
+表 <A> のカラム <b> 、 <c> 、 <d> 、 <e> を抽出する	<A> [ [ <b> , <c> , <d> , <e> ] ]	 <A> [ [ <b> , <c> , <d> , <e> ] ] 
+2 を底とする <A> の対数を確認する	math . log2 ( <A> )	 math . log ( <A> , <B> ) 
+<B> の <a> を削除して、置き換える	<B> . drop ( <a> , axis = 1 , inplace = True )	 axis <B> . drop ( <a> , axis = 1 , inplace = True ) 
+正規表現 <B> で <A> を分割する	re . split ( <B> , <A> )	 <A> . partition ( <B> ) 
+データフレーム <B> と <A> を結合する	pd . merge ( <B> , <A> )	 math . merge ( <B> , <A> ) 
+文字列 "X" を <a> 回繰り返す	X * <a>	 abc + <b> + <a> 
+<a> をキーとして、 <C> と <B> をマージする	pd . merge ( <C> , <B> , on = <a> )	 os pd . merge ( <C> , <B> , on = <a> ) 
+<b> から <a> 区切りでデータフレームを読み込む	pd . read_csv ( <b> , sep = <a> )	 pd . read_csv ( <b> , sep = <a> ) 
+表 <A> の欠損値がある行を削除する	<A> . dropna ( )	 <B> . dropna ( ) 
+もし <B> が <A> と同一でないならば	if <B> is not <A> :	 with if not <B> . endswith ( <A> ) : 
+<B> の大きさを <A> にする	<B> . zfill ( <A> )	 <A> . zfill ( <B> ) 
+パス <A> をバイナリモードでオープンする	open ( <A> , 'b' )	 'b' ( <A> , 'b' ) 
+<B> 内の <A> の出現回数	<B> . count ( <A> )	 <A> . count ( <B> ) 
+データフレーム <B> の <a> をドロップする	<B> . drop ( <a> , axis = 1 )	 delattr ( <B> , <a> ) 
+表データを <c> 区切りでファイル名 <b> から読んで、 <A> とする	<A> = pd . read_csv ( <b> , sep = <c> )	 <B> = pd . read_csv ( <A> , sep = <c> ) 
+空行をプリントする	print ( )	 print ( "Hello World" ) 
+表 <A> の中から重複している行をドロップする	<A> . drop_duplicates ( )	 <B> . drop_duplicates ( <A> ) 
+<B> の <a> を位置に設定する	<B> . set_index ( <a> )	 <B> . set_index ( <a> ) 
+データフレーム <B> の <a> についての箱ひげ図を描画する	plt . boxplot ( <B> [ <a> ] )	 plt . boxplot ( <B> [ <a> ] ) 
+文字列 <B> が <A> で終了しなかったなら	if not <B> . endswith ( <A> ) :	 while not <B> . endswith ( <A> ) : 
+ハッシュ表 <A> の <B> キーを取り出す	<A> . pop ( <B> )	 <A> . pop ( <B> ) 
+<A> に現れる <B> をカウントする	<A> . count ( <B> )	 <A> . count ( <B> ) 
+<A> のプロパティ <B> の値を <C> にする	setattr ( <A> , <B> , <C> )	 getattr ( <A> , <B> , <C> ) 
+ファイルパス <A> がファイルでないか	not os . path . isfile ( <A> )	 not os . path . isfile ( <A> ) 
+データフレーム <C> の <b> と <a> を大きい順に整列する	<C> . sort_values ( [ <b> , <a> ] , ascending = False )	 <D> . sort_values ( [ <C> , <b> , <a> ] , ascending = False ) 
+表 <C> の <b> を分割数を整数値 <A> としてビン分割する	pd . cut ( <C> [ <b> ] , <A> )	 pd . cut ( <C> [ <b> ] , <A> ) 
+表データ <D> の表属性 <c> と <b> と <a> についての箱ひげ図を描写する	plt . boxplot ( [ <D> [ <c> ] , <D> [ <b> ] , <D> [ <a> ] ] )	 int . boxplot ( [ <D> [ <c> ] , <D> [ <b> ] , <D> [ <a> ] ] ) 
+表 <A> の <b> を消して、置き換える	<A> = <A> . drop ( <b> , axis = 1 )	 list ( <A> , <b> , axis = 1 , inplace = True ) 
+表データ <A> の表属性 <b> と表属性 <c> ごとに <d> の値の合計を計算する	<A> . groupby ( [ <b> , <c> ] ) [ <d> ] . sum ( )	 sns . pairplot ( <A> [ [ <b> , <c> , <d> ] ] ) 
+文字列 <A> の最初と末尾から空白を除去する	<A> . strip ( )	 not <A> . strip ( ) 
+文字列 <A> で <B> が見つからないならば	if <A> . find ( <B> ) == -1 :	 if <A> . find ( <B> ) == -1 : 
+データフレーム <B> の <a> コラムを削除して、置き換える	<B> . drop ( <a> , axis = 1 , inplace = True )	 axis <B> . drop ( <a> , axis = 1 , inplace = True ) 
+正規表現 <A> が <B> 全体にマッチする場合	if re . fullmatch ( <A> , <B> ) :	 while re . fullmatch ( <A> , <B> ) : 
+<A> が <B> 内に含まれないか否か	<A> not in <B>	 <B> not in <A> 
+もし <A> が英小文字ならば	if <A> . islower ( ) :	 lower . if ( <A> ) : 
+表 <E> のカラム <d> 、 <c> 、 <b> 、 <a>	<E> [ [ <d> , <c> , <b> , <a> ] ]	 sns . pairplot ( <E> [ [ <c> , <b> , <a> ] ] ) 
+<A> を 8 進数表現にする	oct ( <A> )	 int ( <A> , <B> ) 
+<B> 中で <A> が見つからない場合	if <B> . find ( <A> ) == -1 :	 if <B> . find ( <A> ) == -1 : 
+<B> について、正規表現 <C> にマッチした箇所を <A> にリプレースする	re . subn ( <C> , <B> , <A> )	 sns . re . subn ( <C> , <B> , <A> ) 
+データフレーム <B> の <a> をドロップし、置き換える	<B> = <B> . drop ( <a> , axis = 1 )	 <B> . drop ( <a> , axis = 1 , inplace = True ) 
+<A> の <b> と表属性 <c> ごとに <d> の値の合計を算出する	<A> . groupby ( [ <b> , <c> ] ) [ <d> ] . sum ( )	 sns . pairplot ( <A> [ [ <b> , <c> , <d> ] ] ) 
+空白で <A> を区切る	<A> . split ( )	 <B> . split ( <A> ) 
+<A> から部分文字列 <B> の位置を文字列 <C> 内で探す	<C> . find ( <B> , <A> )	 re . sub ( <A> , <B> , <C> ) 
+データフレーム <D> の表属性 <c> と <b> ごとに <a> の値の合計値を求める	<D> . groupby ( [ <c> , <b> ] ) [ <a> ] . sum ( )	 os . groupby ( [ <D> [ <c> , <b> ] ] ) [ <a> ] . sum ( ) 
+データフレーム <A> の <b> 行目から <c> 行目まで	<A> [ <b> : <c> ]	 <A> [ <b> : <c> ] 
+サイコロの出目	random . randint ( 1 , 6 )	 os . mkdir ( <a> ) 
+<B> 中に <A> がないかどうか	<B> . find ( <A> ) == -1	 <B> . find ( <A> ) == -1 
+表 <A> の先頭の <b> 行を調べる	<A> . head ( <b> )	 <A> . head ( <b> ) 
+オブジェクト <B> に属性 <A> があった場合	if hasattr ( <B> , <A> ) :	 for if not hasattr ( <B> , <A> ) : 
+<A> で <C> から <B> を探す	<A> . find ( <B> , <C> )	 <C> . find ( <B> , <A> ) 
+オブジェクト <B> にフィールド <A> があらなければ	if not hasattr ( <B> , <A> ) :	 while not hasattr ( <B> , <A> ) : 
+<B> のそれぞれを文字列に変換し、 <A> で連結する	<A> . join ( str ( x ) for x in <B> )	 <A> . join ( str ( x ) for x in <B> ) 
+全結合で <A> と表 <B> を結合する	pd . merge ( <A> , <B> , how = 'outer' )	 os . pd . merge ( <A> , <B> , how = 'outer' ) 
+<a> で文字列 <B> を分割した文字列のリスト	<B> . split ( <a> )	 re . split ( <B> , <a> ) 
+<B> の後ろから <A> を取り除く	<B> . removesuffix ( <A> )	 <A> . rstrip ( <B> ) 
+ファイル <A> をオープンする	open ( <A> )	 id ( <A> ) 
+表データ <A> の <b> と <c> と <d> についての箱ひげ図をプロットする	plt . boxplot ( [ <A> [ <b> ] , <A> [ <c> ] , <A> [ <d> ] ] )	 int ( <A> [ <b> , <c> ] , <d> ] ] ) 
+表データ <B> の <a> を選択する	<B> [ <a> ]	 <B> [ <a> ] 
+データフレーム <C> の <b> ごとに <a> コラムの平均値を算出する	<C> . groupby ( [ <b> ] ) [ <a> ] . mean ( )	 <C> . groupby ( [ <b> ] ) [ <a> ] . mean ( ) 
+<B> を幅 <A> で中央寄せする	<B> . center ( <A> )	 <B> . center ( <A> ) 
+読み込み用にで <A> ファイル名をオープンする	open ( <A> , 'r' )	 with open ( <A> , 'r' ) 
+もし <A> が NaN とき	if math . isnan ( <A> ) :	 if <A> . dropna ( ) : 
+身長 <B> と <A> から BMI を確認する	<A> / ( <B> / 100 ) ** 2	 <A> / ( <B> / 100 ) ** 2 
+もし文字列 <B> が <A> で始まったならば	if <B> . startswith ( <A> ) :	 prefix . if ( <B> , <A> ) : 
+表データ <A> の前から <b> 行までを表示する	<A> [ : <b> ]	 [ <A> : <b> ] 
+表データ <D> の <c> と <b> と <a> 列について関係性を一気に描写する	sns . pairplot ( <D> [ [ <c> , <b> , <a> ] ] )	 plt . pairplot ( <D> [ [ <c> , <b> , <a> ] ] ) 
+文字列 <B> を <A> 区切り記号で区切った最初の部分	<B> . split ( <A> ) [ 0 ]	 <B> . split ( <A> ) [ 0 ] 
+<b> 区切りで <a> からデータフレームを読み込む	pd . read_csv ( <a> , sep = <b> )	 pd . read_csv ( <a> , sep = <b> ) 
+表データ <A> とデータフレーム <B> を縦結合する	pd . concat ( [ <A> , <B> ] )	 pd . concat ( [ <A> , <B> ] ) 
+<C> の <b> ごとに <a> の平均を求める	<C> . groupby ( [ <b> ] ) [ <a> ] . mean ( )	 <C> . groupby ( [ <b> ] ) [ <a> ] . mean ( ) 
+<B> が <A> のインスタンスならば	if isinstance ( <B> , <A> ) :	 while isinstance ( <B> , <A> ) : 
+表データ <A> の形状	<A> . shape	 <A> . shape 
+<c> 区切りで <b> から表を読み、 <A> に代入する	<A> = pd . read_csv ( <b> , sep = <c> )	 <B> = pd . read_csv ( <A> , sep = <b> ) 
+<A> のカラム <b> と <c>	<A> [ [ <b> , <c> ] ]	 [ <A> [ [ <b> , <c> ] ] 
+データフレーム <A> の NaN をデータフレーム <A> の平均値で埋める	<A> . fillna ( <A> . mean ( ) )	 math . <A> . fillna ( <A> . mean ( ) ) 
+<a> 才未満、または <b> 才以上の場合	if age <  <a> or age >= <b> :	 <a> if age < <b> or age >= <a> : 
+もし <A> がリストあるいは組ならば	if isinstance ( <A> , ( list , tuple ) ) :	 while isinstance ( <A> , ( list , tuple ) ) : 
+もし <A> が <B> 内で見つからないならば	if <B> . find ( <A> ) == -1 :	 nan . find ( <A> , <B> ) == -1 : 
+文字列 <A> 全体に <B> 正規表現がマッチしたならば	if re . fullmatch ( <B> , <A> ) :	 if re . fullmatch ( <B> , <A> ) : 
+もし <B> と <A> が等しいとみなせなかった場合	if not math . isclose ( <B> , <A> ) :	 isclose not math . isclose ( <B> , <A> ) : 
+<B> 文字の空白で <A> 内のタブ記号を置換する	<A> . expandtabs ( <B> )	 <B> . expandtabs ( <A> ) 
+もし <A> が <B> 文字列中で発見されるならば	if <B> . find ( <A> ) >= 0 :	 . if <B> . find ( <A> ) >= 0 : 
+辞書 <B> に <A> 項目名が含まれているか	<A> in <B>	 <B> in <A> 
+文字列 <A> の先頭が suffix の場合	if <A> . startswith ( prefix ) :	 if <A> . startswith ( prefix ) : 
+表データ <B> 内の <a> を欠損に置換し、欠損がある行を消す	<B> . replace ( <a> , np . nan ) . dropna ( )	 <B> . replace ( <a> , np . nan ) . dropna ( ) 
+<A> の全てが真か否か	all ( <A> )	 class1 . all ( <A> ) 
+表データ <B> の表属性 <a> のユニークな要素数	<B> [ <a> ] . nunique ( )	 not <B> [ <a> ] . nunique ( ) 
+<A> 中に <B> がないとき	if <A> . find ( <B> ) == -1 :	 with if <A> . find ( <B> ) == -1 : 
+辞書 <B> から項目名 <A> の値を得る	<B> . get ( <A> )	 <A> . get ( <B> ) 
+凡例を最適な位置に加える	plt . legend ( loc = 'best' )	 <B> . legend ( loc = 'best' ) 
+<A> にマッチした <B> の部分をリストにする	re . findall ( <A> , <B> )	 re . findall ( <A> , <B> ) 
+Matplotlib ライブラリを <A> としてインポートする	from matplotlib import pyplot as <A>	 pd . merge ( <A> , <B> , on = <c> ) 
+部分文字列 <B> を文字列 <A> 内で右から探す	<A> . rfind ( <B> )	 <A> . rfind ( <B> ) 
+<A> がプロパティ <B> を持つ間	while hasattr ( <A> , <B> ) :	 while hasattr ( <A> , <B> ) : 
+整数 <A> のビット数	<A> . bit_length ( )	 int ( <A> , ) 
+表 <B> の <a> をドロップする	<B> . drop ( [ <a> ] )	 delattr ( <B> , <a> ) 
+文字列 <A> で <B> が見つからないかどうか	<A> . find ( <B> ) == -1	 <B> . find ( <A> ) == -1 
+もしオブジェクト <A> が実数ならば	if isinstance ( <A> , float ) :	 while isinstance float ( <A> , float ) : 
+ハッシュ表 <B> のキー <A> のデータを参照する	<B> [ <A> ]	 map ( <B> , <A> ) 
+ビンの名前を <D> として、 <A> 表の <b> を分割数を整数値 <C> として分割する	pd . cut ( <A> [ <b> ] , <C> , label = <D> )	 int ( <A> , <b> , <C> , label = <D> ) 
+<C> の <b> と <a> を降順に並び替える	<C> . sort_values ( [ <b> , <a> ] , ascending = False )	 <D> . sort_values ( <C> , <b> , <a> ) 
+全結合で <A> と <B> を一つにまとめる	pd . merge ( <A> , <B> , how = 'outer' )	 pd . merge ( <A> , <B> , how = 'outer' ) 
+<A> のカラム <b> を消して、インプレースする	<A> . drop ( <b> , axis = 1 , inplace = True )	 pd . drop ( <A> , axis = 1 , inplace = True ) 
+<A> の末尾から <B> を取り除く	<A> . removesuffix ( <B> )	 <A> . removesuffix ( <B> ) 
+タブ区切りで <b> を読み、 <A> とする	<A> = pd . read_csv ( <b> , sep = '\\\\t' )	 <B> = pd . read_csv ( <A> , sep = '\\\\t' ) 
+<A> を切り上げた整数	math . floor ( <A> )	 math . ceil ( <A> ) 
+y 軸のラベルを <a> にする	plt . ylabel ( <a> )	 plt . ylabel ( <a> ) 
+<C> の <b> 列と <a> 列を大きい順に整列する	<C> . sort_values ( [ <b> , <a> ] , ascending = False )	 <D> . sort_values ( <C> , [ <b> , <a> ] ] , ascending = False ) 
+値のレンジを <b> から <a> として、 <C> のヒストグラムをプロットする	plt . hist ( <C> , range = ( <b> , <a> ) )	 plt . hist ( <C> , range = ( <b> , <a> ) ) 
+正規表現 <A> で文字列 <B> をスプリットする	re . split ( <A> , <B> )	 re . split ( <A> , <B> ) 
+「ハローワールド」とプリントする	print ( "Hello World" )	 print ( "Hello World" ) 
+データフレームを <a> から <b> 区切りで読み込む	pd . read_csv ( <a> , sep = <b> )	 pd . read_csv ( <a> , sep = <b> ) 
+<A> の位置が <b> の行を抽出する	<A> . loc [ <b> ]	 <D> . loc [ <b> ] 
+文字列 <A> の前と空白を最後から取り除く	<A> . strip ( )	 <A> . strip ( ) 
+<B> に対し、 <A> でマッチした部分を <C> に置換する	re . sub ( <A> , <B> , <C> )	 re . subn ( <A> , <B> , <C> ) 
+データフレーム <A> の <b> と <c> ごとに列 <d> の値の和を求める	<A> . groupby ( [ <b> , <c> ] ) [ <d> ] . sum ( )	 sns . pairplot ( <A> [ [ <b> , <c> , <d> ] ] ) 
+ビンの名前を <D> リストとして、データフレーム <A> の <b> コラムをビン数を整数値 <C> として分割する	pd . cut ( <A> [ <b> ] , <C> , label = <D> )	 <D> . cut ( <A> [ <b> ] , <C> , label = <D> ) 
+<A> の <b> 行から最後までを調べる	<A> [ <b> : ]	 os [ <A> <b> : ] 
+色を e00RGB 値として、 <B> と <A> のグラフをプロットする	plt . plot ( <B> , <A> , color = ( e00 ) )	 plt . plot ( <A> , <B> , color = ( e00 ) ) 
+表データ <A> の <b> と <c> カラムと <d> について関係性を一気に描く	sns . pairplot ( <A> [ [ <b> , <c> , <d> ] ] )	 plt . pairplot ( <A> [ [ <b> , <c> , <d> ] ] ) 
+プラットホーム依存せずに <B> パスと <A> を結合する	os . path . join ( <B> , <A> )	 pd . merge ( <B> , <A> , how = 'left' ) 
+<B> の <a> を消し、 <C> にする	<C> = <B> . drop ( <a> , axis = 1 )	 <E> = <B> . drop ( <a> , axis = 1 ) 
+後ろから <C> 中で部分文字列 <B> の位置を <A> まで探す	<C> . rfind ( <B> , <A> )	 <D> . rfind ( <C> , <B> , <A> ) 
+<a> 進数として <B> を自然数にする	int ( <B> , <a> )	 random . int ( <B> , <a> ) 
+<A> が <b> 未満、または <c> 以上であるならば	if <A> <  <b> or <A> >= <c> :	 >= <A> < <b> or <A> >= <c> : 
+もしオブジェクト <A> に属性 <B> があらなければ	if not hasattr ( <A> , <B> ) :	 while not hasattr ( <A> , <B> ) : 
+グラフのサイズを横 <b> 縦 <a> に指定する	plt . figure ( figsize = ( <b> , <a> ) )	 age . figure ( figsize = ( <b> , <a> ) ) 
+表データ <C> のインデックス名を <b> から <a> にリネームする	<C> . rename ( index = { <b> : <a> } )	 <E> . rename ( columns = { <d> : <a> } ) 
+グラフを描画する	plt . show ( )	 plt . show ( ) 
+表 <B> と <A> を結合する	pd . merge ( <B> , <A> )	 math . merge ( <B> , <A> ) 
+データフレーム <A> の欠損がある行を落とす	<A> . dropna ( )	 <B> . dropna ( ) 
+オブジェクト <A> が実数か	isinstance ( <A> , float )	 isinstance ( <A> , float ) 
+<B> が <A> 以上でない間	while not <B> >= <A> :	 if not <B> >= <A> : 
+<A> が <B> で終われば	if <A> . endswith ( <B> ) :	 if <A> . endswith ( <B> ) : 
+タブ区切りで <b> を読み込んで、 <A> にする	<A> = pd . read_csv ( <b> , sep = '\\\\t' )	 pd . read_csv ( <b> , sep = '\\\\t' ) 
+<B> の接尾辞が <A> であるでないならば	if not <B> . endswith ( <A> ) :	 if not <B> . endswith ( <A> ) : 
+もし <A> が非数場合	if math . isnan ( <A> ) :	 if math . isnan ( <A> ) : 
+<A> の位置を末尾から文字列 <B> 中で探す	<B> . rfind ( <A> )	 <A> . rfind ( <B> ) 
+Python を終了する	quit ( )	 print ( "Hello World" ) 
+<B> の位置を <C> 文字列内で末尾から <A> まで探す	<C> . rfind ( <B> , <A> )	 <A> . rfind ( <B> , <C> ) 
+文字列 <A> の空白を先頭から消す	<A> . lstrip ( )	 <A> . lstrip ( ) 
+もし数 <A> が自然数でない場合	if not <A> . is_integer ( ) :	 while not <A> . is_integer ( ) : 
+<A> が偶数か否か	<A> % 2 == 0	 <A> % 2 != 0 
+ビンの名前を 0 始まりの連番として、 <A> のカラム <b> を分割数を整数値 <C> として分割する	pd . cut ( <A> [ <b> ] , <C> , label = False )	 pd . cut ( <A> [ <b> ] , <C> , label = False ) 
+<B> の <a> を落として、インプレースする	<B> . drop ( <a> , axis = 1 , inplace = True )	 <B> . drop ( <a> , axis = 1 , inplace = True ) 
+エンコーディングを shift_jis として <a> を読む	pd . read_csv ( <a> , encoding = "shift_jis" )	 pd . read_csv ( <a> , encoding = "shift_jis" ) 
+表 <C> の <b> が <a> より大きいデータを抽出する	<C> [ <C> [ <b> ] >  <a> ]	 <D> [ <C> [ <b> ] > <a> ] 
+データフレーム <C> のコラム <b> とコラム <a> を削除する	<C> . drop ( [ <b> , <a> ] , axis = 1 )	 <D> . drop ( [ <C> , <b> , <a> ] ] ) 
+辞書 <B> における <A> ( キー ) に対応した値	<B> . get ( <A> )	 if <A> in <B> : 
+<A> と <B> の値を入れ替える	<A> , <B> = <B> , <A>	 max ( <A> , <B> , <A> , end = '' ) 
+<A> の <b> についての標準偏差	<A> [ <b> ] . std ( )	 std <A> [ <b> ] . std ( ) 
+<B> を <A> とする	<B> = <A>	 map ( <B> , <A> ) 
+<A> で列 <B> をマップする	map ( <A> , <B> )	 filter ( <A> , <B> ) 
+表データ <A> 中の NaN を表 <A> の平均値で補う	<A> . fillna ( <A> . mean ( ) )	 math . <A> . fillna ( <A> . mean ( ) ) 
+<A> から文字列 <D> で <C> を <B> まで探す	<D> . rfind ( <C> , <B> , <A> )	 <D> . rfind ( <C> , <B> , <A> ) 
+<A> を読み込み用にでオープンする	open ( <A> , 'r' )	 with open ( <A> , 'r' ) 
+<C> の <b> 列ごとに <a> の数を数える	<C> . groupby ( [ <b> ] ) [ <a> ] . count ( )	 <D> . groupby ( [ <b> ] ) [ <a> ] . count ( ) 
+オブジェクト <A> がリストあるいはタプルでないか否か	not isinstance ( <A> , ( list , tuple ) )	 isinstance ( list , <A> , ( list , tuple ) ) 
+<B> において、 <A> にマッチした部分文字列を <C> に置換する	re . subn ( <A> , <B> , <C> )	 sns . re . subn ( <A> , <B> , <C> ) 
+<A> が <B> 文字列全体にマッチしたとき	if re . fullmatch ( <A> , <B> ) :	 if re . fullmatch ( <A> , <B> ) : 
+表 <A> の <b> とコラム <c> の相関係数	<A> [ [ <b> , <c> ] ] . corr ( )	 <A> [ [ <b> , <c> ] ] . corr ( ) 
+データフレーム <C> の <b> が <a> より小さいデータを抽出する	<C> [ <C> [ <b> ] <  <a> ]	 <D> [ <C> [ <b> ] < <a> ] 
+表データ <B> の <a> を落とす	<B> . drop ( [ <a> ] )	 <C> . drop ( <B> [ <a> ] ) 
+後ろから文字列 <C> 内で <B> の位置を <A> まで探す	<C> . rfind ( <B> , <A> )	 <D> . rfind ( <C> , <B> , <A> ) 
+文字列 <A> を空白でスプリットする	<A> . split ( )	 <B> . split ( <A> ) 
+<A> の先頭から <B> 文字列を除去する	<A> . removeprefix ( <B> )	 re . removeprefix ( <A> , <B> ) 
+表 <A> をインデックスでソートする	<A> . sort_index ( )	 <A> . sort_index ( ) 
+もし <A> が <B> 内で見つからなかったら	if <B> . find ( <A> ) == -1 :	 nan . find ( <A> , <B> ) == -1 : 
+データフレーム <B> 中の欠損を <A> に置換する	<B> . fillna ( <A> )	 <B> . fillna ( <A> ) 
+<B> の <a> 行から後ろまで	<B> [ <a> : ]	 <B> [ <a> : ] 
+ファイル <A> を追加用にオープンする	open ( <A> , 'a' )	 'a' ( <A> , 'a' ) 
+<b> から表を <a> 区切りで読み、 <C> にする	<C> = pd . read_csv ( <b> , sep = <a> )	 pd . read_csv ( <b> , sep = <a> ) 
+データフレーム <A> と <B> を縦結合する	pd . concat ( [ <A> , <B> ] )	 pd . concat ( [ <A> , <B> ] ) 
+無限大	math . inf	 math . isinf ( isinf ) 
+もし <A> が <B> 文字列内で出現した場合	if <B> . find ( <A> ) >= 0 :	 if <B> . find ( <A> ) >= 0 : 
+表 <B> の <a> を中央値でビン分割する	pd . qcut ( <B> [ <a> ] , 2 )	 sns . pd . qcut ( <B> [ <a> ] , 2 ) 
+データフレーム <C> の <b> 列ごとに <a> 列の数を数える	<C> . groupby ( [ <b> ] ) [ <a> ] . count ( )	 <C> . groupby ( [ <b> ] ) [ <a> ] . count ( ) 
+表データ <A> の中から重複している行をドロップする	<A> . drop_duplicates ( )	 <B> . drop_duplicates ( <A> ) 
+<B> 内に現れる <A> を数える	<B> . count ( <A> )	 <A> . count ( <B> ) 
+<B> と <A> が等しいとみなせる場合	if math . isclose ( <B> , <A> ) :	 while math . isclose ( <B> , <A> ) : 
+表属性 <a> を項目名として、 <C> と <B> をマージする	pd . merge ( <C> , <B> , on = <a> )	 pd . merge ( <C> , <B> , on = <a> ) 
+データフレーム <A> のそれぞれのカラムに存在する <b> の個数の合計値を見る	<A> . isin ( [ <b> ] ) . sum ( )	 len ( <A> [ <b> ] ) . sum ( ) 
+表 <A> 中にある <b> を欠損値とする	<A> . replace ( <b> , np . nan )	 os . replace ( <A> , <b> ) 
+表 <A> の <b> を datetime 型に変換する	pd . to_datetime ( <A> [ <b> ] , format = '%Y-%m-%d' )	 float ( <A> [ <b> ] , format = '%Y-%m-%d' ) 
+もし <A> が <B> 全体にマッチするならば	if re . fullmatch ( <A> , <B> ) :	 fullmatch if re . fullmatch ( <A> , <B> ) : 
+データフレーム <D> の <c> コラムと <b> と <a> について関係性を一度に描画する	sns . pairplot ( <D> [ [ <c> , <b> , <a> ] ] )	 plt . pairplot ( <D> [ [ <c> , <b> , <a> ] ] ) 
+<D> の <c> と <b> と <a> コラムについて関係性を一度に描画する	sns . pairplot ( <D> [ [ <c> , <b> , <a> ] ] )	 <E> . pairplot ( <D> [ [ <c> , <b> , <a> ] ] ) 
+データフレーム <C> のカラム <b> とカラム <a> の相関係数	<C> [ [ <b> , <a> ] ] . corr ( )	 [ <C> [ <b> , <a> ] ] . corr ( ) 
+<A> の余分な改行を取り除く	<A> . strip ( )	 math . strip ( <A> ) 
+もし文字列 <A> の先頭が suffix でないならば	if not <A> . startswith ( prefix ) :	 if not <A> . startswith ( prefix ) : 
+ビンのラベルをインデックスとして、 <C> の表属性 <b> をビン数を <A> 整数値としてビン分割する	pd . cut ( <C> [ <b> ] , <A> , label = False )	 pd . cut ( <C> [ <b> ] , <A> , label = False ) 
+<B> の位置を <A> で後ろから <C> まで探す	<A> . rfind ( <B> , <C> )	 <A> . rfind ( <B> , <C> ) 
+正規表現 <C> で <B> 文字列のマッチした部分文字列を <A> に置換する	re . sub ( <C> , <B> , <A> )	 for re . sub ( <C> , <B> , <A> ) 
+表 <B> と <A> データフレームを縦結合する	pd . concat ( [ <B> , <A> ] )	 pd . concat ( [ <B> , <A> ] ) 
+ビンの名前をリスト <D> として、データフレーム <A> の <b> をビン数を <C> として分割する	pd . cut ( <A> [ <b> ] , <C> , label = <D> )	 <D> . cut ( <A> [ <b> ] , <C> , label = <D> ) 
+データフレーム <C> の表属性 <b> の名前を <a> に変更する	<C> . rename ( columns = { <b> : <a> } )	 <D> . rename ( <C> [ <b> ] , <a> ] ) 
+<a> をキーとして、表データ <C> と <B> 表データを結合する	pd . merge ( <C> , <B> , on = <a> )	 pd . merge ( <C> , <B> , on = <a> ) 
+<c> を項目名として、表データ <A> と <B> を結合する	pd . merge ( <A> , <B> , on = <c> )	 pd . merge ( <A> , <B> , on = <c> ) 
+とりあえずデータフレーム <A> の内容を表示してみる	<A> . head ( )	 <A> . head ( ) 
+表データ <B> 内に存在する <a> を欠損に置き換える	<B> . replace ( <a> , np . nan )	 pd . replace ( <B> , <a> ] ) 
+データフレーム <A> の <b> コラムと <c> とコラム <d> についての箱ひげ図を表示する	plt . boxplot ( [ <A> [ <b> ] , <A> [ <c> ] , <A> [ <d> ] ] )	 int ( <A> [ <b> , <c> ] , <d> ] ] ) 
+表 <A> の <b> ごとに表属性 <c> の数をカウントする	<A> . groupby ( [ <b> ] ) [ <c> ] . count ( )	 list ( <A> [ <b> ] ) . count ( ) 
+<B> と <A> が十分に近い場合	if math . isclose ( <B> , <A> ) :	 while math . isclose ( <B> , <A> ) : 
+<A> のハッシュ値	hash ( <A> )	 <A> . items ( ) 
+表 <B> の <a> 行から最後までを見る	<B> [ <a> : ]	 <B> [ <a> : ] 
+16 進文字列に浮動小数点数 <A> をする	<A> . hex ( )	 '' . hex ( <A> ) 
+データフレーム <D> の <c> と <b> ごとに <a> の値の合計値を求める	<D> . groupby ( [ <c> , <b> ] ) [ <a> ] . sum ( )	 <D> . groupby ( [ <c> , <b> ] ) [ <a> ] . sum ( ) 
+<A> が印字できたなら	if <A> . isprintable ( ) :	 if <A> . isprintable ( ) : 
+<A> 中で <B> が最初に見つかった位置	<A> . index ( <B> )	 if <A> . index ( <B> ) : 
+プログラムを <a> 秒、停止する	time . sleep ( <a> )	 sleep . sleep ( <a> ) 
+カンマで <A> ( 文字列を分割した文字列のリスト	<A> . split ( ',' )	 <A> . split ( ',' ) 
+表 <A> の <b> を年月日の形式に変換する	pd . to_datetime ( <A> [ <b> ] , format = '%Y-%m-%d' )	 pd . to_datetime ( <A> [ <b> ] , format = '%Y-%m-%d' ) 
+<A> を開く	open ( <A> )	 'a' ( <A> ) 
+<A> の <b> についてのヒストグラムを描画する	plt . hist ( <A> [ <b> ] )	 tuple plt . hist ( <A> [ <b> ] ) 
+棒グラフの位置を真ん中として、 <A> 軸を <A> とした <B> の棒グラフをプロットする	plt . barh ( <A> , <B> , align = 'center' )	 pd . merge ( <A> , <B> , align = 'center' ) 
+ファイル <A> を読み込みモードでで開く	open ( <A> , 'r' )	 round ( <A> , 'r' ) 
+位置と <a> カラムを項目名として <C> データフレームと <B> を結合する	pd . merge ( <C> , <B> , left_index = True , right_on = <a> )	 pd . merge ( <C> , <B> , left_index = True , right_on = <a> ) 
+<B> が <A> と同一でないか	<B> is not <A>	 <C> is not <B> . endswith ( <A> ) 
+<A> の始端が suffix か	<A> . startswith ( prefix )	 prefix . startswith ( prefix ) 
+<A> の終端が <B> であるでないとき	if not <A> . endswith ( <B> ) :	 if not <A> . endswith ( <B> ) : 
+<B> を末尾から <A> 内で探す	<A> . rfind ( <B> )	 <A> . rfind ( <B> ) 
+グラフのサイズを横 <b> 縦 <a> と設定する	plt . figure ( figsize = ( <b> , <a> ) )	 sns . pairplot ( <D> [ [ <c> , <b> , <a> ] ] ) 
+文字列 <A> の不要な空白を先頭から取り除く	<A> . lstrip ( )	 <A> . lstrip ( ) 
+表を <a> 区切りで <b> ファイル名から読む	pd . read_csv ( <b> , sep = <a> )	 pd . read_csv ( <a> , sep = <b> ) 
+<A> が <B> 文字列で最後に見つかった位置	<B> . rindex ( <A> )	 <A> . rindex ( <B> ) 
+表データ <B> の <a> のユニークな要素	<B> [ <a> ] . unique ( )	 <C> [ <B> [ <a> ] . unique ( ) 
+<A> を四捨五入した整数	round ( <A> )	 if round ( <A> ) : 
+データフレーム <A> 中に存在する <b> を欠損に置換する	<A> . replace ( <b> , np . nan )	 os . path . replace ( <A> , <b> ) 
+ビンのラベルをリスト <D> として、 <A> の <b> 表属性をビン数を <C> としてビン分割する	pd . cut ( <A> [ <b> ] , <C> , label = <D> )	 <D> . cut ( <A> [ <b> ] , <C> , label = <D> ) 
+もし <B> 全体に <A> 正規表現がマッチした場合	if re . fullmatch ( <A> , <B> ) :	 while re . fullmatch ( <A> , <B> ) : 
+文字列 <A> 内で <B> が見つかった位置	<A> . index ( <B> )	 if <A> . index ( <B> ) : 
+文字列 <B> を <a> 進数として整数値にする	int ( <B> , <a> )	 int ( <B> , <a> ) 
+表データ <B> の最初の <a> 行	<B> . head ( <a> )	 <B> . head ( <a> ) 
+<A> が <B> で割り切れるならば	if <A> % <B> == 0 :	 while <A> . endswith ( <B> ) : 
+文字列 <B> に対し、 <A> 正規表現にマッチした部分を <C> に置換する	re . subn ( <A> , <B> , <C> )	 sns . re . subn ( <A> , <B> , <C> ) 
+もしファイルパス <A> がフォルダでなとき	if not os . path . isdir ( <A> ) :	 while not os . path . isdir ( <A> ) : 
+<B> の前と末尾から <A> を取り除く	<B> . strip ( <A> )	 not <B> . strip ( <A> ) 
+データフレーム <A> の <b> カラムを確認する	<A> [ <b> ]	 list ( <A> [ <b> ] ) 
+<C> 中に <B> 項目がなければ、その項目を <A> にする	<C> . setdefault ( <B> , <A> )	 <D> . setdefault ( <C> , <B> , <A> ) 
+文字列 <A> を <b> 進数として整数にする	int ( <A> , <b> )	 int ( <A> , <b> ) 
+<C> の位置を <A> から <D> 文字列内で <B> まで探す	<D> . rfind ( <C> , <B> , <A> )	 pd . rfind ( <D> , <C> , <B> , <A> ) 
+テンプレ <A> を <B> と <C> で整形する	<A> . format ( <B> , <C> )	 <C> . format ( <B> , <A> ) 
+ビンの名前を整数値として、表データ <C> の列 <b> をビン数を整数値 <A> として分割する	pd . cut ( <C> [ <b> ] , <A> , label = False )	 int ( <A> , <b> , <C> , label = False ) 
+表 <C> の <b> を分割数を <A> 整数値としてビンに含まれる個数が等しくなるようにビン分割する	pd . qcut ( <C> [ <b> ] , <A> )	 pd . qcut ( <C> [ <b> ] , <A> ) 
+<A> のサフィックスが <B> か否か	<A> . endswith ( <B> )	 not <A> . endswith ( <B> ) 
+正規表現 <B> が <A> 文字列全体にマッチするか	re . fullmatch ( <B> , <A> )	 re . fullmatch ( <B> , <A> ) 
+<B> がプロパティ <A> を持ったならば	if hasattr ( <B> , <A> ) :	 if hasattr ( <B> , <A> ) : 
+文字列 <A> の改行を取り除く	<A> . strip ( )	 <A> . strip ( ) 
+値のレンジを <b> から <c> として、 <A> のヒストグラムを描画する	plt . hist ( <A> , range = ( <b> , <c> ) )	 plt . hist ( <A> , range = ( <b> , <c> ) ) 
+<B> が <A> にほぼ等しいならば	if math . isclose ( <B> , <A> ) :	 while math . isclose ( <B> , <A> ) : 
+データフレーム <D> の <c> と <b> カラムと <a> カラムについての箱ひげ図を描画する	plt . boxplot ( [ <D> [ <c> ] , <D> [ <b> ] , <D> [ <a> ] ] )	 int . boxplot ( [ <D> [ <c> ] , <D> [ <b> ] , <D> [ <a> ] ] ) 
+データフレーム <A> の <b> のユニークな要素数	<A> [ <b> ] . nunique ( )	 not <A> [ <b> ] . nunique ( ) 
+<B> に <A> 属性があるか否か	hasattr ( <B> , <A> )	 getattr ( <B> , <A> ) 
+グラフの色を RGB 値 <C> として、 <A> と <B> のグラフを描く	plt . plot ( <A> , <B> , color = ( <C> ) )	 plt . plot ( <A> , <B> , color = ( <C> ) ) 
+表データ <D> の <c> と <b> 表属性と表属性 <a> についての箱ひげ図をプロットする	plt . boxplot ( [ <D> [ <c> ] , <D> [ <b> ] , <D> [ <a> ] ] )	 int . boxplot ( [ <D> [ <c> ] , <D> [ <b> ] , <D> [ <a> ] ] ) 
+文字列 <B> に正規表現 <A> がマッチしたら	if re . match ( <A> , <B> ) :	 while re . match ( <A> , <B> ) : 
+<B> が <A> の倍数か	<B> % <A> == 0	 <B> % <A> == 0 
+正規表現 <A> が <B> 文字列にマッチした場合	if re . match ( <A> , <B> ) :	 while re . match ( <A> , <B> ) : 
+<A> のそれぞれを文字列 <B> で連結する	<B> . join ( <A> )	 '' . join ( <B> , <A> ) 
+大きさ <A> の配列	[ 0 ] * <A>	 os . path . getsize ( <A> ) 
+<B> に <A> 正規表現がマッチする最初の位置	re . search ( <A> , <B> )	 search re . search ( <A> , <B> ) 
+表データ <A> の <b> を分割数を <C> 整数値として要素数が等しくなるようにビン分割する	pd . qcut ( <A> [ <b> ] , <C> )	 pd . qcut ( <A> [ <b> ] , <C> ) 
+<C> で <A> から <B> を end まで探す	<C> . find ( <B> , <A> )	 <D> . find ( <C> , <B> , <A> ) 
+<B> を少数部 <A> 桁まで四捨五入する	round ( <B> , <A> )	 getattr ( <B> , <A> ) 
+<A> の要約統計量	<A> . describe ( )	 <A> . describe ( ) 
+0 から <A> までの数列	range ( <A> )	 random . randint ( <A> ) 
+大きい順に <A> を並べ変えた列	sorted ( <A> , reverse = True )	 sorted ( <A> , reverse = True ) 
+文字列 <B> の終端が <A> であるでないかどうか	not <B> . endswith ( <A> )	 not <B> . endswith ( <A> ) 
+文字列 <B> の後ろから <A> を消す	<B> . rstrip ( <A> )	 <A> . rstrip ( <B> ) 
+データフレーム <A> の <b> を消す	<A> . drop ( <b> , axis = 1 )	 list ( <A> , <b> ) 
+文字列 <A> が数字でないか	not <A> . isdigit ( )	 <A> not . isdecimal ( ) 
+<A> の要素数	len ( <A> )	 float ( <A> ) 
+もし <B> と <A> が近かったなら	if math . isclose ( <B> , <A> ) :	 while math . isclose ( <B> , <A> ) : 
+<A> が有限でない間	while not math . isfinite ( <A> ) :	 while not math . isfinite ( <A> ) : 
+<B> の <a> を消す	<B> . drop ( <a> , axis = 1 )	 delattr ( <B> , <a> ) 
+データフレーム <C> の <b> 表属性を分割数を <A> 整数値として要素数が等しくなるように分割する	pd . qcut ( <C> [ <b> ] , <A> )	 pd . qcut ( <C> [ <b> ] , <A> ) 
+データフレーム <A> の <b> カラムを分割数を整数値 <C> としてビンに含まれる個数が等しくなるようにビン分割する	pd . qcut ( <A> [ <b> ] , <C> )	 pd . qcut ( <A> [ <b> ] , <C> ) 
+表 <A> 中の <b> を NaN に置換し、 NaN が存在する行をドロップする	<A> . replace ( <b> , np . nan ) . dropna ( )	 <B> . replace ( <A> , np . nan ) . dropna ( ) 
+身長 <A> と <B> 体重から BMI を表示する	<B> / ( <A> / 100 ) ** 2	 <A> / ( <B> / 100 ) ** 2 
+文字列 <B> の最後から <A> を消す	<B> . removesuffix ( <A> )	 <A> . rstrip ( <B> ) 
+式 <A> を評価した結果	eval ( <A> )	 os . mkdir = ( <A> ) 
+グラフの題名を <a> にする	plt . title ( <a> )	 plt . title ( <a> ) 
+文字列 <A> がタイトルケース文字列でないか	not <A> . istitle ( )	 not <A> . istitle ( ) 
+表 <C> の <b> 行から <a> 行までを確認する	<C> [ <b> : <a> ]	 <b> [ <a> : ] 
+オブジェクト <A> に属性 <B> があった場合	if hasattr ( <A> , <B> ) :	 while not hasattr ( <A> , <B> ) : 
+<A> のカラム <b> を消して、置き換える	<A> = <A> . drop ( <b> , axis = 1 )	 os . drop ( <A> , axis = 1 , inplace = True ) 
+辞書 <A> における <B> ( キー ) に対応した値	<A> . get ( <B> )	 if <A> in <B> : 
+表 <A> の 5 行を確認する	<A> . head ( )	 <B> . head ( <A> ) 
+項目名 <B> が <A> にあるか	<B> in <A>	 re . find ( <B> , <A> ) >= 0 
+<B> の <a> を昇順に並べ直す	<B> . sort_values ( <a> )	 <B> . sort_values ( <a> ) 
+文字列 <A> の先頭が suffix であるでないか	not <A> . startswith ( prefix )	 while not <A> . startswith ( prefix ) : 
+オブジェクト <A> がプロパティ <B> を持たない間	while not hasattr ( <A> , <B> ) :	 not while hasattr ( <A> , <B> ) : 
+<A> のひとつでも真かどうか	any ( <A> )	 any ( <A> ) 
+部分文字列 <B> を <A> 文字列で <C> から探す	<A> . find ( <B> , <C> )	 re . find ( <A> , <B> , <C> ) 
+<B> に対し、正規表現 <A> でマッチした部分文字列を <C> にリプレースする	re . sub ( <A> , <B> , <C> )	 not re . sub ( <A> , <B> , <C> ) 
+文字列 <B> 内に現れる <A> を数える	<B> . count ( <A> )	 <A> . count ( <B> ) 
+表データ <A> の <b> 列と <c> ごとに <d> の値の合計を計算する	<A> . groupby ( [ <b> , <c> ] ) [ <d> ] . sum ( )	 <A> . groupby ( [ <b> , <c> ] ) [ <d> ] . sum ( ) 
+カラム <A> の標準偏差を見る	<A> . std ( )	 <B> . std ( <A> ) 
+<B> が <A> 内にあるか	<A> . find ( <B> ) >= 0	 <B> . find ( <A> ) >= 0 
+<D> の表属性 <c> と <b> と <a> 表属性についての箱ひげ図をプロットする	plt . boxplot ( [ <D> [ <c> ] , <D> [ <b> ] , <D> [ <a> ] ] )	 int . boxplot ( [ <D> [ <c> ] , <D> [ <b> ] , <D> [ <a> ] ] ) 
+右から部分文字列 <B> を <A> で <C> まで探す	<A> . rfind ( <B> , <C> )	 <C> . rfind ( <B> , <A> ) 
+もし文字列 <A> で <B> が見つからないならば	if <A> . find ( <B> ) == -1 :	 if <A> . find ( <B> ) == -1 : 
+表 <A> の相関	<A> . corr ( )	 <A> . corr ( ) 
+表データ <A> の <b> をビン数を整数値 <C> として分割する	pd . cut ( <A> [ <b> ] , <C> )	 pd . cut ( <A> [ <b> ] , <C> ) 
+<A> が <B> の倍数か否か	<A> % <B> == 0	 <B> % <A> == 0 
+データフレーム <E> の <d> 列の名前を <c> に、 <b> 列の名前を <a> にリネームする	<E> . rename ( columns = { <d> : <c> , <b> : <a> } )	 <D> . rename ( columns = { <d> : <c> , <b> : <a> } ) 
+文字列 <A> の最初と <B> を末尾から削除する	<A> . strip ( <B> )	 not <A> . strip ( <B> ) 
+表データ <B> の列 <a> を確認する	<B> [ <a> ]	 <B> [ <a> ] 
+列 <B> の各要素を <A> 関数でフィルタする	filter ( <A> , <B> )	 filter ( <A> , <B> ) 
+後ろから <A> の位置を <B> 文字列内で探す	<B> . rfind ( <A> )	 <A> . rfind ( <B> ) 
+<A> を <B> 増加させる	<A> += <B>	 <B> += <A> 
+正規表現 <A> で文字列 <B> のマッチした部分を <C> に置換する	re . sub ( <A> , <B> , <C> )	 for re . sub ( <A> , <B> , <C> ) 
+表データ <B> の <a> 表属性をドロップする	<B> . drop ( <a> , axis = 1 )	 delattr ( <B> , <a> ) 
+文字列 <B> に対し、 <C> でマッチした部分を <A> にリプレースする	re . sub ( <C> , <B> , <A> )	 re . sub ( <C> , <B> , <A> ) 
+<a> からカンマ区切りで表を読み込む	pd . read_csv ( <a> , sep = ',' )	 pd . read_csv ( <a> , sep = ',' ) 
+<D> の <c> 列が <b> もしくは <a> のデータを抽出する	<D> [ <D> [ <c> ] . isin ( [ <b> , <a> ] ) ]	 <D> [ <D> [ <c> ] . isin ( [ <b> , <a> ] ) ] 
+<A> で列 <B> をフィルタする	filter ( <A> , <B> )	 enumerate ( <A> , <B> ) 
+<A> の先頭から <B> を除去する	<A> . removeprefix ( <B> )	 <A> . removeprefix ( <B> ) 
+ピボット操作で表 <A> の列を行に変更する	<A> . stack ( )	 <A> . stack ( ) 
+ファイルパス <a> からデータフレームをカンマ区切りで読み込んで、 <B> とする	<B> = pd . read_csv ( <a> , sep = ',' )	 <B> = pd . read_csv ( <a> , sep = ',' ) 
+<a> ファイルのバイト数	os . path . getsize ( <a> )	 os . getsize ( <a> ) 
+<B> が <A> にほぼ等しくないとき	if not math . isclose ( <B> , <A> ) :	 while not math . isclose ( <B> , <A> ) : 
+表 <A> の <b> の一意の値	<A> [ <b> ] . unique ( )	 <D> [ <A> [ <b> ] . unique ( ) 
+ビンの名前をインデックスとして、表 <C> の <b> カラムをビン数を <A> として分割する	pd . cut ( <C> [ <b> ] , <A> , label = False )	 pd . cut ( <C> [ <b> ] , <A> , label = False ) 
+部分文字列 <C> の位置を <A> から <D> 内で <B> まで探す	<D> . rfind ( <C> , <B> , <A> )	 rfind <D> . rfind ( <C> , <B> , <A> ) 
+<a> を項目名として、 <C> 表データと <B> 表データをマージする	pd . merge ( <C> , <B> , on = <a> )	 pd . merge ( <C> , <B> , on = <a> ) 
+もしオブジェクト <B> にフィールド <A> があらなかったら	if not hasattr ( <B> , <A> ) :	 while not hasattr ( <B> , <A> ) : 
+<B> の <a> のそれぞれのデータの出現頻度	<B> [ <a> ] . value_counts ( )	 <B> [ <a> ] . value_counts ( ) 
+<A> を <B> で区切る	<A> . partition ( <B> )	 <B> . partition ( <A> ) 
+幅 <A> で <B> を右寄せする	<B> . ljust ( <A> )	 filter ( <A> , <B> ) 
+<B> にキー <A> があるか否か	<A> in <B>	 pd . merge ( <B> , <A> ) 
+もし <A> 中に <B> がないならば	if <A> . find ( <B> ) == -1 :	 if <A> . find ( <B> ) == -1 : 
+<A> の <b> 列の出現回数	<A> [ <b> ] . value_counts ( )	 <A> [ <b> ] . value_counts ( ) 
+<A> が <B> に近いか	math . isclose ( <A> , <B> )	 math . isclose ( <A> , <B> ) 
+カンマ区切りで表を <a> から読み込む	pd . read_csv ( <a> , sep = ',' )	 pd . read_csv ( <a> , sep = ',' ) 
+表 <A> の行の名前を <b> から <c> に変更する	<A> . rename ( index = { <b> : <c> } )	 re . rename ( <A> index = { <b> : <c> } ) 
+データフレーム <B> の <a> を消す	<B> . drop ( <a> , axis = 1 )	 delattr ( <B> , <a> ) 
+<A> のいずれかが真か	any ( <A> )	 if any ( <A> ) : 
+表データ <A> の <b> が <c> 以上のデータを抽出する	<A> [ <A> [ <b> ] >= <c> ]	 <D> [ <A> [ <b> ] >= <c> ] 
+文字列 <B> でリスト <A> の各要素を連結する	<B> . join ( <A> )	 map ( <A> , <B> ) 
+ビンの名前をインデックスとして、 <A> の <b> をビン数を整数値 <C> として分割する	pd . cut ( <A> [ <b> ] , <C> , label = False )	 pd . cut ( <A> [ <b> ] , <C> , label = False ) 
+<B> と <A> が近い間	while math . isclose ( <B> , <A> ) :	 math . isclose ( <B> , <A> ) : 
+<A> が整数でないか	not <A> . is_integer ( )	 int ( <A> , int ) 
+<A> の双曲線正接	math . tanh ( <A> )	 os . path . atanh ( <A> ) 
+<B> で区切って文字列 <A> をリストにする	<A> . split ( <B> )	 '' . split ( <B> , <A> ) 
+<A> から <D> 中で <C> を <B> まで探す	<D> . rfind ( <C> , <B> , <A> )	 os . rfind ( <A> , <B> , <C> , <D> ) 
+<B> の最初から <A> を除去する	<B> . lstrip ( <A> )	 <B> . removeprefix ( <A> ) 
+インデックスと <c> をキーとしてデータフレーム <A> とデータフレーム <B> をマージする	pd . merge ( <A> , <B> , left_index = True , right_on = <c> )	 pd . merge ( <A> , <B> , left_index = True , right_on = <c> ) 
+棒グラフの位置を真ん中として、 <A> 軸を <A> とした <B> の棒グラフを描画する	plt . bar ( <A> , <B> , align = 'center' )	 sns . barh ( <A> , <B> , align = 'center' ) 
+表データ <C> の <b> 表属性ごとに表属性 <a> の数を数える	<C> . groupby ( [ <b> ] ) [ <a> ] . count ( )	 <C> . groupby ( [ <b> ] ) [ <a> ] . count ( ) 
+表データ <A> のコラム <b> をドロップして、再代入する	<A> = <A> . drop ( <b> , axis = 1 )	 = <A> . drop ( <b> , axis = 1 , inplace = True ) 
+<A> が属性 <B> を持たないか	not hasattr ( <A> , <B> )	 not hasattr ( <A> , <B> ) 
+ビンの名前を <D> リストとして、 <A> の <b> 列を分割数を <C> としてビン分割する	pd . cut ( <A> [ <b> ] , <C> , label = <D> )	 <D> . cut ( <A> [ <b> ] , <C> , label = <D> ) 
+<A> の最後から <B> を消す	<A> . rstrip ( <B> )	 <A> . removesuffix ( <B> ) 
+表 <B> の <a> を見る	<B> [ <a> ]	 <B> [ <a> ] 
+ファイル <A> をバイナリモードでオープンする	open ( <A> , 'b' )	 'b' ( <A> , 'b' ) 
+全結合で <A> 表データと <B> 表データをマージする	pd . merge ( <A> , <B> , how = 'outer' )	 plt . pd . merge ( <A> , <B> , how = 'outer' ) 
+<A> の <b> と表属性 <c> ごとに <d> 表属性の値の合計を計算する	<A> . groupby ( [ <b> , <c> ] ) [ <d> ] . sum ( )	 sns . pairplot ( <A> [ [ <b> , <c> , <d> ] ] ) 
+<A> を <B> 減少させる	<A> -= <B>	 list ( <A> , <B> ) 
+ビンのラベルを整数値として、表データ <C> の <b> をビン数を <A> として分割する	pd . cut ( <C> [ <b> ] , <A> , label = False )	 int ( <A> , <b> , <C> , label = False ) 
+オブジェクト <A> が整数ならば	if isinstance ( <A> , int ) :	 if isinstance ( <A> , int ) : 
+データフレーム <A> の末尾の <b> 行	<A> . tail ( <b> )	 <b> . tail ( <A> ) 
+インデックスと <c> をキーとして <A> 表と <B> をマージする	pd . merge ( <A> , <B> , left_index = True , right_on = <c> )	 pd . merge ( <A> , <B> , left_index = True , right_on = <c> ) 
+<A> の順序を数える	enumerate ( <A> )	 random . count ( <A> ) 
+<c> をキーとして、表 <A> と <B> を一つにまとめる	pd . merge ( <A> , <B> , on = <c> )	 pd . merge ( <A> , <B> , on = <c> ) 
+幅 <A> で <B> をセンタリングする	<B> . center ( <A> )	 <B> . center ( <A> ) 
+<A> の少数部を <B> 桁まで四捨五入した整数	round ( <A> , <B> )	 max ( <A> , <B> ) 
+セパレータ <A> で文字列 <B> を右スプリットする	<B> . rsplit ( <A> )	 not <A> . rsplit ( <B> ) 
+<a> ファイル名から <b> 区切りで表データを読む	pd . read_csv ( <a> , sep = <b> )	 pd . read_csv ( <a> , sep = <b> ) 
+<A> で <B> ( テンプレを整形する	<B> . format ( <A> )	 map ( <A> , <B> ) 
+オブジェクト <A> が <B> また <C> かどうか	isinstance ( <A> , ( <B> , <C> ) )	 not isinstance ( <A> , ( <B> , <C> ) ) 
+データフレーム <A> の <b> を昇順に整列する	<A> . sort_values ( <b> )	 sorted ( <A> , <b> ) 
+表 <D> の <c> と <b> コラムと <a> について関係性を一気に描画する	sns . pairplot ( <D> [ [ <c> , <b> , <a> ] ] )	 plt . pairplot ( <D> [ [ <c> , <b> , <a> ] ] ) 
+<a> から表データを <b> 区切りで読み込む	pd . read_csv ( <a> , sep = <b> )	 plt . pd ( <a> , sep = <b> ) 
+<A> にキー <B> があるとき	if <B> in <A> :	 if <A> in <B> : 
+<A> から文字列 <C> 内で <B> 部分文字列の位置を探す	<C> . find ( <B> , <A> )	 setattr ( <A> , <B> , <C> ) 
+範囲を <b> から <c> として、 <A> のヒストグラムを描画する	plt . hist ( <A> , range = ( <b> , <c> ) )	 plt . hist ( <A> , range = ( <b> , <c> ) ) 
+<A> が <B> 中にあるとき	if <A> in <B> :	 if <B> . find ( <A> ) >= 0 : 
+グラフの大きさを横 <a> 縦 <b> にする	plt . figure ( figsize = ( <a> , <b> ) )	 sns . figure ( figsize = ( <a> , <b> ) ) 
+表 <C> のインデックス <b> の名前を <a> にリネームする	<C> . rename ( index = { <b> : <a> } )	 <D> . rename ( index = { <b> : <a> } ) 
+<C> 行 <B> 列の <a> つ目のグラフ指定	plt . subplot ( <C> , <B> , <a> )	 <C> . groupby ( <B> , <a> ) [ <a> ] . sum ( ) 
+もし文字列 <B> に <A> がマッチしなかったら	if not re . match ( <A> , <B> ) :	 while not re . match ( <A> , <B> ) : 
+もしファイルパス <A> があらなかった場合	if not os . path . exists ( <A> ) :	 if not os . path . exists ( <A> ) : 
+<B> の位置を後ろから文字列 <C> 中で <A> まで探す	<C> . rfind ( <B> , <A> )	 <A> . rfind ( <B> , <C> ) 
+文字列 <A> の終端が <B> であるでない場合	if not <A> . endswith ( <B> ) :	 while not <A> . endswith ( <B> ) : 
+オブジェクト <B> が <A> でなならば	if not isinstance ( <B> , <A> ) :	 while not isinstance ( <B> , <A> ) : 
+表データ <A> のコラム <b> についての分散	<A> [ <b> ] . var ( )	 var <A> [ <b> ] . var ( ) 
+ビンの名前をインデックスとして、 <A> 表データの <b> を分割数を <C> として分割する	pd . cut ( <A> [ <b> ] , <C> , label = False )	 re . cut ( <A> , <B> , <C> , label = False ) 
+<a> 区切りで <b> を読み込んで、 <C> とする	<C> = pd . read_csv ( <b> , sep = <a> )	 <E> = pd . read_csv ( <b> , sep = <a> ) 
+ビンのラベルを <D> リストとして、データフレーム <A> の <b> を分割数を <C> 整数値としてビン分割する	pd . cut ( <A> [ <b> ] , <C> , label = <D> )	 <D> . cut ( <A> [ <b> ] , <C> , label = <D> ) 
+<B> の <a> についての最頻値を表示する	<B> [ <a> ] . mode ( )	 <C> [ <B> [ <a> ] . mode ( ) 
+<A> の前後の空白を除去する	<A> . strip ( )	 <A> . strip ( ) 
+<A> 内に存在する <b> を欠損に置換する	<A> . replace ( <b> , np . nan )	 <B> . replace ( <A> , <b> ) 
+表 <C> の列名を <b> から <a> にリネームする	<C> . rename ( columns = { <b> : <a> } )	 <C> . rename ( columns = { <b> : <a> } ) 
+インデックスとコラム <c> を項目名として <A> と <B> をマージする	pd . merge ( <A> , <B> , left_index = True , right_on = <c> )	 pd . merge ( <A> , <B> , left_index = True , right_on = <c> ) 
+位置と <c> をキーとして <A> と表 <B> を一つにまとめる	pd . merge ( <A> , <B> , left_index = True , right_on = <c> )	 pd . merge ( <A> , <B> , left_index = True , right_on = <c> ) 
+<A> が数のとき	if isinstance ( <A> , float ) :	 while isinstance float ( <A> , float ) : 
+表データ <A> の <b> と <c> 表属性ごとに <d> の値の合計を算出する	<A> . groupby ( [ <b> , <c> ] ) [ <d> ] . sum ( )	 <A> . groupby ( [ <b> , <c> ] ) [ <d> ] . sum ( ) 
+もし <A> が <B> 中で出現したとき	if <B> . find ( <A> ) >= 0 :	 if <B> . find ( <A> ) >= 0 : 
+<A> の最後から空白を除去する	<A> . rstrip ( )	 <A> . rstrip ( ) 
+データフレーム <A> のインデックス名を <b> から <c> に変更する	<A> . rename ( index = { <b> : <c> } )	 list . rename ( <A> index = { <b> : <c> } ) 
+<A> 中の <b> を欠損に置換し、欠損が存在する行を落とす	<A> . replace ( <b> , np . nan ) . dropna ( )	 <B> . replace ( <A> , np . nan ) . dropna ( ) 
+表 <A> から重複している行をドロップする	<A> . drop_duplicates ( )	 <B> . drop_duplicates ( <A> ) 
+表データ <A> の <b> カラムの名前を <c> にリネームする	<A> . rename ( columns = { <b> : <c> } )	 pd . rename ( <A> [ <b> ] , <c> ] , ascending = False ) 
+全結合で <B> と表 <A> を結合する	pd . merge ( <B> , <A> , how = 'outer' )	 pd . merge ( <B> , <A> , how = 'outer' ) 
+<B> のそれぞれを <A> でフィルタする	filter ( <A> , <B> )	 filter ( <A> , <B> ) 
+<B> が <A> と同じか	<B> is <A>	 math . <B> , <A> ) 
+<a> をキーとして、 <C> とデータフレーム <B> を一つにまとめる	pd . merge ( <C> , <B> , on = <a> )	 pd . merge ( <C> , <B> , on = <a> ) 
+インデックスと <c> を項目名として <A> 表データと <B> を一つにまとめる	pd . merge ( <A> , <B> , left_index = True , right_on = <c> )	 pd . merge ( <A> , <B> , left_index = True , right_on = <c> ) 
+ビンのラベルを 0 始まりの連番として、 <C> の <b> をビン数を <A> 整数値として分割する	pd . cut ( <C> [ <b> ] , <A> , label = False )	 cut ( <A> [ <b> ] , <C> , label = False ) 
+表データ <A> に存在する <b> を欠損値に置換する	<A> . replace ( <b> , np . nan )	 int ( <A> , <b> ) 
+文字列 <A> のプレフィックスが suffix でないか	not <A> . startswith ( prefix )	 if not <A> . startswith ( prefix ) : 
+表 <A> の <b> カラムを削除し、インプレースする	<A> . drop ( <b> , axis = 1 , inplace = True )	 pd . drop ( <A> , axis = 1 , inplace = True ) 
+<A> を丸める	round ( <A> )	 <A> . 'a' ( ) 
+末尾から <A> を <B> 中で探す	<B> . rfind ( <A> )	 <A> . rfind ( <B> ) 
+データ解析用のライブラリをインポートする	import pandas as pd	 import pandas as pd . read_csv ( <a> , axis = 1 ) 
+部分文字列 <B> の位置を末尾から文字列 <A> 内で探す	<A> . rfind ( <B> )	 <A> . rfind ( <B> ) 
+<C> の <b> を分割数を <A> 整数値としてビン分割する	pd . cut ( <C> [ <b> ] , <A> )	 round ( <C> [ <b> ] , <A> ) 
+<A> のコラム <b>	<A> [ <b> ]	 list ( <A> [ <b> ] ) 
+表データ <D> の <c> とコラム <b> ごとに <a> コラムの値の合計を求める	<D> . groupby ( [ <c> , <b> ] ) [ <a> ] . sum ( )	 <D> . groupby ( [ <c> , <b> ] ) [ <a> ] . sum ( ) 
+<c> をキーとして、表データ <A> と <B> を結合する	pd . merge ( <A> , <B> , on = <c> )	 <B> pd . merge ( <A> , <B> , on = <c> ) 
+表を <a> からタブ区切りで読んで、 <B> とする	<B> = pd . read_csv ( <a> , sep = '\\\\t' )	 <A> = pd . read_csv ( <B> , sep = '\\\\t' ) 
+データフレーム <B> の <a> 表属性を四分位数ごとで分割する	pd . qcut ( <B> [ <a> ] , 4 )	 pd . qcut ( <B> [ <a> ] , 4 ) 
+部分文字列 <B> の位置を文字列 <A> 内で探す	<A> . find ( <B> )	 plt . find ( <B> , <A> ) 
+正規表現 <A> が文字列 <B> にマッチすれば	if re . match ( <A> , <B> ) :	 while re . match ( <A> , <B> ) : 
+もし <A> が <B> 文字列にマッチしなければ	if not re . match ( <A> , <B> ) :	 while not re . match ( <A> , <B> ) : 
+表 <B> 内の <a> を欠損値に置換し、欠損値がある行を消す	<B> . replace ( <a> , np . nan ) . dropna ( )	 <B> . replace ( <a> , np . nan ) . dropna ( ) 
+<A> のデータの性質を表示してみる	<A> . info ( )	 <A> . info ( ) 
+<B> のそれぞれを <A> で連結する	<A> . join ( <B> )	 map ( <A> , <B> ) 
+ビンの名前を 0 始まりの連番として、表データ <A> のコラム <b> を分割数を <C> 整数値としてビン分割する	pd . cut ( <A> [ <b> ] , <C> , label = False )	 pd . cut ( <A> [ <b> ] , <C> , label = False ) 
+データフレーム <A> と表データ <B> を縦結合する	pd . concat ( [ <A> , <B> ] )	 pd . concat ( [ <A> , <B> ] ) 
+<B> のカラム <a> を落として、置き換える	<B> = <B> . drop ( <a> , axis = 1 )	 map ( <B> , <a> , axis = 1 , inplace = True ) 
+もし文字列 <A> が印字可能ならば	if <A> . isprintable ( ) :	 if <A> . isprintable ( ) : 
+表データ <B> のコラム <a> のユニークな要素	<B> [ <a> ] . unique ( )	 <C> [ <B> [ <a> ] . unique ( ) 
+<A> のカラム <b> についての標準偏差を調べる	<A> [ <b> ] . std ( )	 <A> [ <b> ] . std ( ) 
+もし <B> 中に <A> がなくなかったならば	if <B> . find ( <A> ) == -1 :	 if <B> . find ( <A> ) == -1 : 
+位置とコラム <a> を項目名として <C> と <B> を結合する	pd . merge ( <C> , <B> , left_index = True , right_on = <a> )	 pd . merge ( <C> , <B> , left_index = True , right_on = <a> ) 
+ビンのラベルを <A> リストとして、データフレーム <D> のコラム <c> を分割数を整数値 <B> として分割する	pd . cut ( <D> [ <c> ] , <B> , label = <A> )	 pd . cut ( <D> [ <c> ] , <B> , label = <A> ) 
+<C> , <B> , <A> で <D> 書式をフォーマットする	<D> . format ( <C> , <B> , <A> )	 <D> . format ( <C> , <B> , <A> ) 
+ビンのラベルを <D> リストとして、 <A> 表のコラム <b> を分割数を整数値 <C> として分割する	pd . cut ( <A> [ <b> ] , <C> , label = <D> )	 <D> . cut ( <A> [ <b> ] , <C> , label = <D> ) 
+データフレーム <A> の NaN を直前の行の値で埋める	<A> . fillna ( method = 'ffill' )	 <A> . fillna ( method = 'ffill' ) 
+表 <B> 中の <a> を NaN に置換し、 NaN が存在する行をドロップする	<B> . replace ( <a> , np . nan ) . dropna ( )	 <C> . replace ( <B> , <a> ) . dropna ( ) 
+表 <A> の <b> 表属性を調べる	<A> [ <b> ]	 list ( <A> [ <b> ] ) 
+<A> から <C> 文字列内で <B> の位置を end まで探す	<C> . find ( <B> , <A> )	 setattr ( <C> , <B> , <A> ) 
+自然数 <A> を <B> ビット長のバイト列に変換する	<A> . to_bytes ( <B> )	 <A> . to_bytes ( <B> ) 
+データフレーム <E> のカラム <d> 、 <c> 、 <b> 、 <a> を調べる	<E> [ [ <d> , <c> , <b> , <a> ] ]	 sns . pairplot ( <E> [ [ <c> , <b> , <a> ] ] ) 
+ビンのラベルを <A> として、表 <D> の <c> をビン数を <B> として分割する	pd . cut ( <D> [ <c> ] , <B> , label = <A> )	 pd . cut ( <D> [ <c> ] , <B> , label = <A> ) 
+文字列 <B> の最初と <A> を末尾から削除する	<B> . strip ( <A> )	 <A> . strip ( <B> ) 
+ハッシュ表 <A> の値一覧	<A> . values ( )	 <A> . items ( ) 
+<A> を降順に並べ直した列	sorted ( <A> , reverse = True )	 sorted ( <A> , reverse = True ) 
+<A> の欠損値を直前の行の値で埋める	<A> . fillna ( method = 'ffill' )	 <A> . fillna ( method = 'ffill' ) 
+<A> の順番を数える	enumerate ( <A> )	 plt . count ( <A> ) 
+オブジェクト <A> に属性 <B> があらない間	while not hasattr ( <A> , <B> ) :	 not while not hasattr ( <A> , <B> ) : 
+<a> 進数文字列 <B> から整数値に変換する	int ( <B> , <a> )	 random . int ( <B> , <a> ) 
+辞書 <A> の <B> 項目名の値、もしなければ <C> を得る	<A> . get ( <B> , <C> )	 not <A> . get ( <B> , <C> ) 
+<a> 進数表記 <B> から変換した整数	int ( <B> , <a> )	 int ( <a> , <B> ) 
+<A> が実数か	isinstance ( <A> , float )	 isinstance ( <A> , float ) 
+表データ <A> の <b> を年月日の形式に変換する	pd . to_datetime ( <A> [ <b> ] , format = '%Y-%m-%d' )	 pd . to_datetime ( <A> [ <b> ] , format = '%Y-%m-%d' ) 
+コラム <A> の平均値を見る	<A> . mean ( )	 sum ( <A> ) / len ( <A> ) 
+<B> 内のそれぞれのカラムにある <a> の個数の合計値	<B> . isin ( [ <a> ] ) . sum ( )	 map ( <B> , <a> ] ) . sum ( ) 
+<A> 中で部分文字列 <B> の位置を <D> から <C> まで探す	<A> . rfind ( <B> , <C> , <D> )	 os . rfind ( <A> , <B> , <C> , <D> ) 
+<a> という軸ラベルを x 軸に付ける	plt . xlabel ( <a> )	 plt . xlabel ( <a> ) 
+インデックスとカラム <c> を項目名として <A> 表と <B> を一つにまとめる	pd . merge ( <A> , <B> , left_index = True , right_on = <c> )	 pd . merge ( <A> , <B> , left_index = True , right_on = <c> ) 
+グラフの色を <C> として、 <A> と <B> のグラフを描写する	plt . plot ( <A> , <B> , color = ( <C> ) )	 plt . plot ( <A> , <B> , color = ( <C> ) ) 
+「こんにちは世界」と出力する	print ( "Hello World" )	 time . print ( "Hello World" ) 
+もし <B> が <A> 文字列全体にマッチしなかったら	if not re . fullmatch ( <B> , <A> ) :	 while not re . fullmatch ( <B> , <A> ) : 
+表 <B> と表 <A> を縦方向でマージする	pd . concat ( [ <B> , <A> ] )	 pd . concat ( [ <B> , <A> ] ) 
+データフレーム <B> 内のそれぞれのカラムにある <a> の個数の合計値	<B> . isin ( [ <a> ] ) . sum ( )	 map ( <B> , <a> ] ) . sum ( ) 
+<A> と <B> が等しいとみなせる間	while math . isclose ( <A> , <B> ) :	 while math . isclose ( <A> , <B> ) : 
+もしオブジェクト <A> が <B> のインスタンスでない場合	if not isinstance ( <A> , <B> ) :	 while not isinstance ( <A> , <B> ) : 
+表 <D> の <c> と <b> コラムと <a> について関係性を一気にプロットする	sns . pairplot ( <D> [ [ <c> , <b> , <a> ] ] )	 plt . pairplot ( <D> [ [ <c> , <b> , <a> ] ] ) 
+文字列 <A> の先頭と末尾から空白を消す	<A> . strip ( )	 <A> . strip ( ) 
+表 <C> の <b> をビン数を整数値 <A> として分割する	pd . cut ( <C> [ <b> ] , <A> )	 pd . cut ( <C> [ <b> ] , <A> ) 
+<D> の <c> が <b> もしくは <a> のデータを抽出する	<D> [ <D> [ <c> ] . isin ( [ <b> , <a> ] ) ]	 <D> [ <D> [ <c> ] . isin ( [ <b> , <a> ] ) ] 
+<B> の <a> のユニークな要素数	<B> [ <a> ] . nunique ( )	 not <B> [ <a> ] . nunique ( ) 
+表データ <B> の先頭の <a> 行を表示する	<B> . head ( <a> )	 <B> . head ( <a> ) 
+<A> に対し、 <B> で分割する	re . split ( <B> , <A> )	 partition ( <B> , <A> ) 
+もし <B> が属性 <A> を持たなかったなら	if not hasattr ( <B> , <A> ) :	 while not hasattr ( <B> , <A> ) : 
+データフレーム <B> に存在する <a> を欠損に置換する	<B> . replace ( <a> , np . nan )	 map ( <B> , <a> ) 
+もし <A> 内に <B> があったとき	if <A> . find ( <B> ) >= 0 :	 if <A> . find ( <B> ) >= 0 : 
+表属性 <A> の要約統計量	<A> . describe ( )	 <A> . describe ( ) 
+表データ <A> の <b> についてのヒストグラムをプロットする	plt . hist ( <A> [ <b> ] )	 sns . plt ( <A> [ <b> ] ) 
+<B> にマッチした <A> の部分をリストにする	re . findall ( <B> , <A> )	 re . findall ( <B> , <A> ) 
+<A> の <b> を境界値を <C> リストとして分割する	pd . cut ( <A> [ <b> ] , <C> )	 <A> . cut ( <b> , <C> ) 
+<A> の <b> のバリュー	<A> [ <b> ] . values	 <A> [ <b> ] . values 
+表属性 <A> の最頻値を見る	<A> . mode ( )	 getattr ( <A> , mode ) 
+<B> と <A> データフレームを結合する	pd . merge ( <B> , <A> )	 os . path . join ( <B> , <A> ) 
+もしオブジェクト <A> にフィールド <B> があらなかったら	if not hasattr ( <A> , <B> ) :	 round ( if not hasattr ( <A> , <B> ) : 
+表データ <B> の <a> を落とし、 <C> とする	<C> = <B> . drop ( <a> , axis = 1 )	 <E> = <B> . drop ( <a> , axis = 1 ) 
+表データ <B> の末尾 <a> 行	<B> . tail ( <a> )	 <a> . tail ( <B> ) 
+ハッシュ表 <B> の <A> キーを取り出す	<B> . pop ( <A> )	 <A> . pop ( <B> ) 
+表 <A> 内の NaN を直前の行の値で埋める	<A> . fillna ( method = 'ffill' )	 method . fillna ( <A> . mean ( ) ) 
+文字列 <B> の終わりが <A> であるか	<B> . endswith ( <A> )	 not <B> . endswith ( <A> ) 
+<A> が存在したら	if os . path . exists ( <A> ) :	 while os . path . exists ( <A> ) : 
+<B> にキー <A> があるとき	if <A> in <B> :	 if <B> in <A> : 
+<A> がリストまたはタプルでないか	not isinstance ( <A> , ( list , tuple ) )	 not isinstance ( <A> , ( list , tuple ) ) 
+オブジェクト <A> が <B> フィールドを持てば	if hasattr ( <A> , <B> ) :	 if hasattr ( <A> , <B> ) : 
+表 <C> の <b> を境界値をリスト <A> として分割する	pd . cut ( <C> [ <b> ] , <A> )	 cut ( <C> [ <b> ] , <A> ) 
+文字列 <B> をセパレータ <A> で右から区切る	<B> . rsplit ( <A> )	 <A> . rsplit ( <B> ) 
+表 <C> の <b> カラムをビン数を <A> 整数値として要素数が等しくなるようにビン分割する	pd . qcut ( <C> [ <b> ] , <A> )	 pd . qcut ( <C> [ <b> ] , <A> ) 
+オブジェクト <A> がリストあるいはタプルかどうか	isinstance ( <A> , ( list , tuple ) )	 not isinstance ( <A> , ( list , tuple ) ) 
+<A> のサフィックスが <B> でない間	while not <A> . endswith ( <B> ) :	 while not <A> . endswith ( <B> ) : 
+オブジェクト <B> にプロパティ <A> があらないか	not hasattr ( <B> , <A> )	 not hasattr ( <B> , <A> ) 
+辞書 <B> の項目名 <A> を取り出す	<B> . pop ( <A> )	 <A> . pop ( <B> ) 
+<A> を <B> 区切り文字で区切った最後の部分	<A> . split ( <B> ) [ -1 ]	 os . split ( <A> , <B> ) [ -1 ] 
+カンマ区切りで表を <a> ファイル名から読んで、 <B> に代入する	<B> = pd . read_csv ( <a> , sep = ',' )	 pd . read_csv ( <a> , <B> , sep = ',' ) 
+データフレーム <B> 内に存在する <a> を欠損に置き換える	<B> . replace ( <a> , np . nan )	 os . replace ( <B> , <a> ] ) 
+表 <A> の末尾の <b> 行を見る	<A> . tail ( <b> )	 <A> . tail ( <b> ) 
+データフレーム <A> の <b> カラムと <c> と <d> カラムについての箱ひげ図を描画する	plt . boxplot ( [ <A> [ <b> ] , <A> [ <c> ] , <A> [ <d> ] ] )	 int ( <A> [ <b> , <c> ] , <d> ] ] ) 
+文字コード <A> で <B> 文字列をバイト列に変換する	<B> . encode ( <A> )	 <B> . encode ( <A> ) 
+文字列 <A> の接頭辞が suffix でない間	while not <A> . startswith ( prefix ) :	 not while <A> . startswith ( prefix ) : 
+表データ <A> の欠損を <B> に置き換える	<A> . fillna ( <B> )	 <B> . fillna ( <A> ) 
+表 <A> のカラム名	<A> . columns	 list ( <A> ) 
+<A> を <B> 文字コードでバイト列に変換する	<A> . encode ( <B> )	 <B> . encode ( <A> ) 
+もし <B> 中に <A> がなくなければ	if <B> . find ( <A> ) == -1 :	 if <B> . find ( <A> ) == -1 : 
+文字列 <A> の先頭と余分な空白を最後から取り除く	<A> . strip ( )	 <A> . strip ( ) 
+文字列 <A> を小文字化する	<A> . lower ( )	 <A> . lower ( ) 
+データフレーム <A> の <b> を落とす	<A> . drop ( <b> , axis = 1 )	 os . drop ( <A> [ <b> ] ) 
+文字列 <C> 内で <B> を右から <A> まで探す	<C> . rfind ( <B> , <A> )	 <D> . rfind ( <C> , <B> , <A> ) 
+表 <A> の <b> 列が <c> より少ないデータを抽出する	<A> [ <A> [ <b> ] <  <c> ]	 <B> [ <A> [ <b> ] < <c> ] 
+全結合で <B> と <A> データフレームを結合する	pd . merge ( <B> , <A> , how = 'outer' )	 os . pd . merge ( <B> , <A> , how = 'outer' ) 
+データフレーム <B> の <a> 列についてのヒストグラムを表示する	plt . hist ( <B> [ <a> ] )	 [ plt . hist ( <B> [ <a> ] ) 
+文字列 <A> に正規表現 <B> がマッチしたら	if re . match ( <B> , <A> ) :	 while re . match ( <B> , <A> ) : 
+<B> が <A> で割り切れるならば	if <B> % <A> == 0 :	 if <B> % <A> == 0 : 
+<c> をキーとして、データフレーム <A> と <B> データフレームを一つにまとめる	pd . merge ( <A> , <B> , on = <c> )	 <B> pd . merge ( <A> , <B> , on = <c> ) 
+<B> 文字の空白で <A> 文字列内のタブ記号を置換する	<A> . expandtabs ( <B> )	 <B> . expandtabs ( <A> ) 
+表データ <C> の <b> 列ごとに <a> の平均を算出する	<C> . groupby ( [ <b> ] ) [ <a> ] . mean ( )	 <C> . groupby ( [ <b> ] ) [ <a> ] . mean ( ) 
+データフレーム <B> の <a> 中の前後の行の差分を算出	<B> [ <a> ] . diff ( periods = 1 )	 <A> [ <B> [ <a> ] . diff ( periods = 1 ) 
+表 <C> の <b> コラムが <a> より大きいデータを抽出する	<C> [ <C> [ <b> ] >  <a> ]	 <D> [ <C> [ <b> ] > <a> ] 
+表 <A> の <b> ごとに <c> の平均を算出する	<A> . groupby ( [ <b> ] ) [ <c> ] . mean ( )	 <A> . groupby ( [ <b> ] ) [ <c> ] . mean ( ) 
+もし <A> が <B> にマッチしなかったら	if not re . match ( <A> , <B> ) :	 while not re . match ( <A> , <B> ) : 
+データフレーム <A> の <b> と <c> と <d> について関係性を一度に描画する	sns . pairplot ( <A> [ [ <b> , <c> , <d> ] ] )	 plt . pairplot ( <A> [ [ <b> , <c> , <d> ] ] ) 
+<A> の NaN がある行を削除する	<A> . dropna ( )	 os . dropna ( ) 
+<C> 中で <B> 部分文字列の位置を <A> から探す	<C> . find ( <B> , <A> )	 <D> . find ( <C> , <B> , <A> ) 
+<a> を項目名として、データフレーム <C> とデータフレーム <B> を一つにまとめる	pd . merge ( <C> , <B> , on = <a> )	 merge pd . merge ( <C> , <B> , on = <a> ) 
+オブジェクト <A> がリストまたは組か否か	isinstance ( <A> , ( list , tuple ) )	 not isinstance ( <A> , ( list , tuple ) ) 
+オブジェクト <B> が <A> 属性を持つかどうか	hasattr ( <B> , <A> )	 getattr ( <B> , <A> ) 
+<A> が奇数でない間	while <A> % 2 != 1 :	 % <A> != 1 : 
+<A> から <C> 文字列で部分文字列 <B> の位置を探す	<C> . find ( <B> , <A> )	 setattr ( <A> , <B> , <C> ) 
+<b> から <a> 区切りで表を読み込んで、 <C> とする	<C> = pd . read_csv ( <b> , sep = <a> )	 pd . read_csv ( <b> , sep = <a> ) 
+文字列 <A> の最初と最後から <B> を取り除く	<A> . strip ( <B> )	 <A> . strip ( <B> ) 
+カラム <c> をキーとして、 <A> 表データと <B> 表データを結合する	pd . merge ( <A> , <B> , on = <c> )	 <B> pd . merge ( <A> , <B> , on = <c> ) 
+<B> から <A> までの整数乱数	random . randrange ( <B> , <A> )	 int ( <B> , <A> ) 
+データフレーム <B> の <a> についての要約統計量を見る	<B> [ <a> ] . describe ( )	 <D> [ <B> [ <a> ] . describe ( ) 
+<c> 区切りで <b> からデータフレームを読み、 <A> とする	<A> = pd . read_csv ( <b> , sep = <c> )	 <A> = pd . read_csv ( <b> , sep = <c> ) 
+左外部結合で <B> 表と表 <A> を一つにまとめる	pd . merge ( <B> , <A> , how = 'left' )	 plt . pd . merge ( <B> , <A> , how = 'left' ) 
+もし <B> の終端が <A> であるとき	if <B> . endswith ( <A> ) :	 if <B> . endswith ( <A> ) : 
+文字列 <A> が空白でないか	not <A> . isspace ( )	 <A> not . isspace ( ) 
+表 <C> の列の名前を <b> から <a> に変更する	<C> . rename ( columns = { <b> : <a> } )	 <D> . rename ( columns = { <b> : <a> } ) 
+辞書 <A> の全エントリを消去する	<A> . clear ( )	 <B> . clear ( <A> ) 
+<B> と <A> が等しいか	<B> == <A>	 <A> == <B> 
+オブジェクト <A> が <B> フィールドを持つのとき	if hasattr ( <A> , <B> ) :	 with if hasattr ( <A> , <B> ) : 
+<A> と <B> がほぼ等しくないかどうか	not math . isclose ( <A> , <B> )	 not math . isclose ( <A> , <B> ) 
+ビンのラベルを <A> リストとして、データフレーム <D> の <c> を分割数を <B> 整数値としてビン分割する	pd . cut ( <D> [ <c> ] , <B> , label = <A> )	 pd . cut ( <D> [ <c> ] , <B> , label = <A> ) 
+<B> の位置を <C> で後ろから <A> まで探す	<C> . rfind ( <B> , <A> )	 <A> . rfind ( <B> , <C> ) 
+ビンの名前をリスト <A> として、 <D> データフレームの <c> をビン数を <B> 整数値として分割する	pd . cut ( <D> [ <c> ] , <B> , label = <A> )	 pd . cut ( <D> [ <c> ] , <B> , label = <A> ) 
+もし <A> が <B> 全体にマッチしなかったなら	if not re . fullmatch ( <A> , <B> ) :	 while not re . fullmatch ( <A> , <B> ) : 
+ビンの名前を <A> として、 <D> の列 <c> をビン数を <B> としてビン分割する	pd . cut ( <D> [ <c> ] , <B> , label = <A> )	 pd . cut ( <D> [ <c> ] , <B> , label = <A> ) 
+文字列 <B> に <A> がマッチする最初の位置	re . search ( <A> , <B> )	 re . search ( <A> , <B> ) 
+データフレーム <C> の <b> 列と <a> 列を降順に並べる	<C> . sort_values ( [ <b> , <a> ] , ascending = False )	 <D> . sort_values ( <C> , [ <b> , <a> ] ] , ascending = False ) 
+表 <B> 内のそれぞれのカラムにある <a> の個数の合計値を表示する	<B> . isin ( [ <a> ] ) . sum ( )	 map ( <B> , <a> ] ) . sum ( ) 
+<A> で文字列 <B> の文字を変換する	<B> . translate ( <A> )	 <A> . translate ( <B> ) 
+ラベルを <a> として、 <C> と <B> のグラフをプロットする	plt . plot ( <C> , <B> , label = <a> )	 pd . cut ( <C> [ <B> , <a> ] , label = <a> ) 
+表 <B> の <a> 行から末尾までを表示する	<B> [ <a> : ]	 <B> [ <a> : ] 
+<A> の <b> についての分散を表示する	<A> [ <b> ] . var ( )	 len <A> [ <b> ] . var ( ) 
+リスト <A> の後ろに <B> を追加する	<A> . append ( <B> )	 <A> . append ( <B> ) 
+インデックスと列 <c> を項目名として <A> と <B> データフレームを一つにまとめる	pd . merge ( <A> , <B> , left_index = True , right_on = <c> )	 pd . merge ( <A> , <B> , left_index = True , right_on = <c> ) 
+<A> について、 <B> でマッチした部分文字列をリストにする	re . findall ( <B> , <A> )	 re . findall ( <B> , <A> ) 
+正規表現 <C> で文字列 <B> のマッチした部分を <A> に置換する	re . sub ( <C> , <B> , <A> )	 re . subn ( <C> , <B> , <A> ) 
+正規表現 <A> が文字列 <B> にマッチしないかどうか	not re . match ( <A> , <B> )	 not re . match ( <A> , <B> ) 
+<A> のサイズを <B> にする	<A> . zfill ( <B> )	 <A> . zfill ( <B> ) 
+プログラムを正しく終了する	sys . exit ( )	 quit ( ) 
+データフレーム <C> の <b> と <a> カラムの相関	<C> [ [ <b> , <a> ] ] . corr ( )	 [ <C> [ <b> , <a> ] ] . corr ( ) 
+文字列 <B> の <A> を	<B> . replace ( <A> , s2 )	 <C> . replace ( <B> , <A> ) 
+正規表現 <A> で <B> のマッチした箇所を <C> に置き換える	re . sub ( <A> , <B> , <C> )	 title re . sub ( <A> , <B> , <C> ) 
+<A> のカラム <b> と <c> ごとに <d> カラムの値の合計値を計算する	<A> . groupby ( [ <b> , <c> ] ) [ <d> ] . sum ( )	 plt . groupby ( [ <A> [ <b> , <c> ] ) [ <d> ] . sum ( ) 
+辞書 <C> の <B> 項目名の値、もしなければ <A> を得る	<C> . get ( <B> , <A> )	 not <C> . get ( <B> , <A> ) 
+もし <A> が <b> 未満、また <c> 以上のとき	if <A> <  <b> or <A> >= <c> :	 >= <A> < <b> or <A> >= <c> : 
+<A> がリストまたは組でないか	not isinstance ( <A> , ( list , tuple ) )	 not isinstance ( <A> , ( list , tuple ) ) 
+ピボット操作で <A> 表データの行を列に変更する	<A> . unstack ( )	 <B> . unstack ( <A> ) 
+整数に <A> を変換する	int ( <A> )	 plt . int ( <A> ) 
+文字列 <B> の先頭から <A> を取り除く	<B> . removeprefix ( <A> )	 <A> . lstrip ( <B> ) 
+表データ <A> の <b> 行から <c> 行まで	<A> [ <b> : <c> ]	 <D> [ <b> : <c> ] 
+<a> を項目名として、表データ <C> と <B> を結合する	pd . merge ( <C> , <B> , on = <a> )	 pd . merge ( <C> , <B> , on = <a> ) 
+<A> の <B> を先頭から取り除く	<A> . lstrip ( <B> )	 <A> . lstrip ( <B> ) 
+色を RGB 値 <A> として、 <C> と <B> のグラフをプロットする	plt . plot ( <C> , <B> , color = ( <A> ) )	 <C> . plot ( <B> , color = ( <A> ) ) ) 
+棒グラフの位置を真ん中として、 <A> 軸を <A> とした <B> の棒グラフを描写する	plt . bar ( <A> , <B> , align = 'center' )	 pd . merge ( <A> , <B> , align = 'center' ) 
+<B> が <A> プロパティを持つか否か	hasattr ( <B> , <A> )	 getattr ( <B> , <A> ) 
+表データ <A> の <b> を NaN に置換し、 NaN がある行を落とす	<A> . replace ( <b> , np . nan ) . dropna ( )	 <B> . replace ( <A> , np . nan ) . dropna ( ) 
+部分文字列 <B> の位置を <A> で末尾から探す	<A> . rfind ( <B> )	 <A> . rfind ( <B> ) 
+表データ <A> の要約統計量	<A> . describe ( )	 <B> . describe ( <A> ) 
+<A> から <B> を <C> 文字列中で end まで探す	<C> . find ( <B> , <A> )	 setattr ( <A> , <B> , <C> ) 
+文字列 <A> で <B> が最初に見つかった位置	<A> . index ( <B> )	 if <A> . index ( <B> ) : 
+<B> を右から <C> 文字列内で <A> まで探す	<C> . rfind ( <B> , <A> )	 <A> . rfind ( <B> , <C> ) 
+正規表現 <A> で <B> を分割する	re . split ( <A> , <B> )	 . re ( <A> , <B> ) 
+表データ <A> の数値データ以外の統計情報	<A> . describe ( include = "O" )	 <B> . describe ( include = "O" ) 
+<B> を <A> から順序付けする	enumerate ( <B> , <A> )	 <A> enumerate ( <B> , <A> ) 
+<B> の位置を <C> 文字列で <A> から探す	<C> . find ( <B> , <A> )	 <D> . find ( <C> , <B> , <A> ) 
+表データ <A> の <b> と <c> の相関係数	<A> [ [ <b> , <c> ] ] . corr ( )	 <A> [ [ <b> , <c> ] ] . corr ( ) 
+文字列 <A> 内で <B> 部分文字列の位置を探す	<A> . find ( <B> )	 list ( <A> , <B> ) 
+<B> 中で <A> の位置を末尾から探す	<B> . rfind ( <A> )	 <A> . rfind ( <B> ) 
+表データ <A> の <b> をビン数を <C> 整数値として分割する	pd . cut ( <A> [ <b> ] , <C> )	 re . sub ( <A> , <b> ] , <C> ) 
+<B> の <a> 列の出現回数	<B> [ <a> ] . value_counts ( )	 <B> [ <a> ] . value_counts ( ) 
+表 <B> 中に存在する <a> を欠損とする	<B> . replace ( <a> , np . nan )	 os . replace ( <B> , <a> ] ) 
+文字列 <C> 内で <A> から <B> 部分文字列を探す	<C> . find ( <B> , <A> )	 setattr ( <C> , <B> , <A> ) 
+文字列 <A> で <C> から部分文字列 <B> の位置を探す	<A> . find ( <B> , <C> )	 <D> . find ( <C> , <B> , <A> ) 
+Python を正しく終了する	sys . exit ( )	 sys . exit ( ) 
+<A> のキー <B> のデータ	<A> [ <B> ]	 list ( <A> , <B> ) 
+表 <A> の形状	<A> . shape	 <A> . shape 
+表データ <B> の <a> 行から最後までを調べる	<B> [ <a> : ]	 <B> [ <a> : ] 
+<B> で文字列 <A> を変換する	<A> . translate ( <B> )	 <A> . translate ( <B> ) 
+<B> のコラム <a> 内の前後の行の差分を計算	<B> [ <a> ] . diff ( periods = 1 )	 <E> [ <B> [ <a> ] . diff ( periods = 1 ) 
+位置と <a> を項目名として <C> と表データ <B> をマージする	pd . merge ( <C> , <B> , left_index = True , right_on = <a> )	 pd . merge ( <C> , <B> , left_index = True , right_on = <a> ) 
+インデックスと <a> をキーとして <C> データフレームとデータフレーム <B> を結合する	pd . merge ( <C> , <B> , left_index = True , right_on = <a> )	 pd . merge ( <C> , <B> , left_index = True , right_on = <a> ) 
+文字列 <A> 内に <B> がある間	while <A> . find ( <B> ) >= 0 :	 <A> . find ( <B> ) >= 0 : 
+表 <A> の前から <b> 行目まで	<A> [ : <b> ]	 continue : <A> [ <b> ] 
+データフレーム <B> のカラム <a> を削除して、置き換える	<B> . drop ( <a> , axis = 1 , inplace = True )	 <B> = <B> . drop ( <a> , axis = 1 ) 
+全アルファベット	string . ascii_letters	 string . whitespace 
+<a> から 70 を引く	<a> -70	 plt . title ( <a> ) 
+ビンの名前を <D> として、 <A> データフレームの <b> コラムを分割数を整数値 <C> として分割する	pd . cut ( <A> [ <b> ] , <C> , label = <D> )	 <D> . cut ( <A> [ <b> ] , <C> , label = <D> ) 
+データフレーム <A> の <b> についての最頻値	<A> [ <b> ] . mode ( )	 <A> [ <b> ] . mode ( ) 
+文字列 <A> の接頭辞が suffix であるでないか	not <A> . startswith ( prefix )	 while not <A> . startswith ( prefix ) : 
+<B> において、正規表現 <A> でマッチした箇所を <C> に置き換える	re . sub ( <A> , <B> , <C> )	 title re . sub ( <A> , <B> , <C> ) 
+もし <C> が <b> 未満、あるいは <a> 以上であるならば	if <C> <  <b> or <C> >= <a> :	 if <C> < <b> or <C> >= <a> : 
+表 <A> の <b> をドロップし、置き換える	<A> . drop ( <b> , axis = 1 , inplace = True )	 <B> . drop ( <A> , axis = 1 , inplace = True ) 
+<A> の各要素を文字列に変換し、 <B> 文字列で結合する	<B> . join ( str ( x ) for x in <A> )	 '' . join ( str ( x ) for x in <A> , <B> ) 
+ファイルパス <A> をバイナリ用に開く	open ( <A> , 'b' )	 'b' ( <A> , 'b' ) 
+<A> が <B> で出現するならば	if <B> . find ( <A> ) >= 0 :	 >= <B> . find ( <A> ) >= 0 : 
+<B> を <C> 中で <A> から end まで探す	<C> . find ( <B> , <A> )	 <D> . find ( <C> , <B> , <A> ) 
+追加用に <A> パスをオープンする	open ( <A> , 'a' )	 open ( <A> , 'a' ) 
+最初のプログラム	print ( "Hello World" )	 print ( "Hello World" ) 
+<A> を <b> モードででオープンする	open ( <A> , <b> )	 int ( <A> , <b> ) 
+<A> 内の欠損値の合計	<A> . isnull ( ) . sum ( )	 <A> . isnull ( ) . sum ( ) 
+オブジェクト <A> の <B> 属性の値	getattr ( <A> , <B> )	 getattr ( <A> , <B> ) 
+データフレーム <A> の <b> 行	<A> . head ( <b> )	 <A> . head ( <b> ) 
+データフレーム <A> の内容を表示してみる	<A> . head ( )	 <A> . head ( ) 
+<B> に対し、 <A> 正規表現にマッチした部分を <C> にリプレースする	re . subn ( <A> , <B> , <C> )	 title re . subn ( <A> , <B> , <C> ) 
+<B> が文字列 <A> にあるか	<A> . find ( <B> ) >= 0	 isinstance ( <B> , <A> ) 
+もし <B> が <A> より大きくない場合	if not <B> >  <A> :	 > not <B> > <A> : 
+<c> コラムをキーとして、 <A> 表と <B> 表をマージする	pd . merge ( <A> , <B> , on = <c> )	 <B> pd . merge ( <A> , <B> , on = <c> ) 
+データフレーム <A> についてダミー変数を生成する	pd . get_dummies ( <A> )	 plt . get_dummies ( <A> ) 
+表 <C> の <b> を分割数を <A> としてビン分割する	pd . cut ( <C> [ <b> ] , <A> )	 sns . cut ( <C> [ <b> ] , <A> ) 
+ビンの名前を <A> リストとして、 <D> 表の <c> をビン数を整数値 <B> としてビン分割する	pd . cut ( <D> [ <c> ] , <B> , label = <A> )	 pd . cut ( <D> [ <c> ] , <B> , label = <A> ) 
+文字列 <B> 内で <A> を右から探す	<B> . rfind ( <A> )	 <A> . rfind ( <B> ) 
+<B> と <A> が等しい間	while <B> == <A> :	 > <B> == <A> : 
+文字列 <B> に対し、正規表現 <C> にマッチした箇所を <A> に置き換える	re . subn ( <C> , <B> , <A> )	 title re . subn ( <C> , <B> , <A> ) 
+文字列 <B> 内で <A> が出現するか否か	<B> . find ( <A> ) >= 0	 <B> . find ( <A> ) >= 0 
+<A> の接頭辞が suffix である間	while <A> . startswith ( prefix ) :	 > <A> . startswith ( prefix ) : 
+もし <A> が <B> また <C> のインスタンスならば	if isinstance ( <A> , ( <B> , <C> ) ) :	 while isinstance isinstance ( <A> , ( <B> , <C> ) ) : 
+<A> 内の欠損値を <B> とする	<A> . fillna ( <B> )	 os . fillna ( <A> , <B> ) 
+文字列 <B> の接尾辞が <A> でないか	not <B> . endswith ( <A> )	 not <B> . endswith ( <A> ) 
+<C> のコラム <b> が <a> 以上のデータを抽出する	<C> [ <C> [ <b> ] >= <a> ]	 <D> [ <C> [ <b> ] >= <a> ] 
+<B> の位置を後ろから <A> 内で <C> まで探す	<A> . rfind ( <B> , <C> )	 <A> . rfind ( <B> , <C> ) 
+<a> 秒間、プログラムの実行を停止する	time . sleep ( <a> )	 sleep . sleep ( <a> ) 
+データフレーム <C> の <b> と <a> を落とす	<C> . drop ( [ <b> , <a> ] , axis = 1 )	 <D> . drop ( [ <C> , <b> ] , <a> ] ] ) 
+<A> と <B> が等しいとみなせたとき	if math . isclose ( <A> , <B> ) :	 with if math . isclose ( <A> , <B> ) : 
+<B> のカラム <a> を落とし、置き換える	<B> . drop ( <a> , axis = 1 , inplace = True )	 <B> . drop ( <a> , axis = 1 , inplace = True ) 
+文字列 <B> の最初と <A> を末尾から取り除く	<B> . strip ( <A> )	 <A> . strip ( <B> ) 
+x 軸のラベルを <a> にセットする	plt . xlabel ( <a> )	 plt . xlabel ( <a> ) 
+ビンの名前を <A> として、 <D> 表の <c> をビン数を <B> 整数値としてビン分割する	pd . cut ( <D> [ <c> ] , <B> , label = <A> )	 pd . cut ( <D> [ <c> ] , <B> , label = <A> ) 
+<A> のクラス	type ( <A> )	 getattr ( <A> ) 
+データフレーム <A> の <b> についてのヒストグラムを描く	plt . hist ( <A> [ <b> ] )	 <b> plt . hist ( <A> [ <b> ] ) 
+グラフの色を e00RGB 値として、 <B> と <A> の折れ線グラフを描く	plt . plot ( <B> , <A> , color = ( e00 ) )	 plt . plot ( <B> , <A> , color = ( e00 ) ) 
+表 <A> の <b> と <c> と <d> について関係性を一度に描画する	sns . pairplot ( <A> [ [ <b> , <c> , <d> ] ] )	 plt . pairplot ( <A> [ [ <b> , <c> , <d> ] ] ) 
+文字列 <A> 内で末尾から <B> を <C> まで探す	<A> . rfind ( <B> , <C> )	 <A> . rfind ( <B> , <C> ) 
+もし正規表現 <A> が <B> 文字列にマッチしなかったら	if not re . match ( <A> , <B> ) :	 while not re . match ( <A> , <B> ) : 
+データフレーム <A> の表属性 <b> をドロップし、再代入する	<A> = <A> . drop ( <b> , axis = 1 )	 len ( <A> , <b> , axis = 1 , inplace = True ) 
+表 <B> のそれぞれのカラムにある <a> の個数の合計値を確認する	<B> . isin ( [ <a> ] ) . sum ( )	 map ( <B> , <a> ] ) . sum ( ) 
+<A> の全てが真でない間	while not all ( <A> ) :	 if not all ( <A> ) : 
+表データ <B> と <A> を結合する	pd . merge ( <B> , <A> )	 math . merge ( <B> , <A> ) 
+身長 <A> と <B> から BMI を確認する	<B> / ( <A> / 100 ) ** 2	 <A> / ( <B> / 100 ) ** 2 
+表 <A> のカラム <b> と <c> を調べる	<A> [ [ <b> , <c> ] ]	 os . drop ( [ <A> , <b> , <c> ] ] ) 
+<A> の印字可能な文字列	repr ( <A> )	 isprintable ( <A> ) 
+ビンのラベルを <D> リストとして、データフレーム <A> のコラム <b> を分割数を整数値 <C> として分割する	pd . cut ( <A> [ <b> ] , <C> , label = <D> )	 <D> . cut ( <A> [ <b> ] , <C> , label = <D> ) 
+データフレーム <D> の <c> 表属性と <b> と <a> について関係性を一気にプロットする	sns . pairplot ( <D> [ [ <c> , <b> , <a> ] ] )	 pd . sns ( <D> [ [ <c> , <b> , <a> ] ] ) 
+<D> から <A> 中で <B> を <C> まで探す	<A> . rfind ( <B> , <C> , <D> )	 <B> . rfind ( <A> , <C> , <D> ) 
+データフレーム <A> の <b> をドロップする	<A> . drop ( <b> , axis = 1 )	 list ( <A> , <b> ) 
+<B> を <A> から文字列 <C> 内で end まで探す	<C> . find ( <B> , <A> )	 setattr ( <A> , <B> , <C> ) 
+もし文字列 <A> 内で <B> が出現するならば	if <A> . find ( <B> ) >= 0 :	 >= <A> . find ( <B> ) >= 0 : 
+<A> 内で <B> が出現する間	while <A> . find ( <B> ) >= 0 :	 sorted <A> . find ( <B> ) >= 0 : 
+表 <B> の <a> のユニークな要素の個数	<B> [ <a> ] . nunique ( )	 not <B> [ <a> ] . nunique ( ) 
+データフレーム <A> の表属性 <b> と <c> ごとに <d> の値の合計値を求める	<A> . groupby ( [ <b> , <c> ] ) [ <d> ] . sum ( )	 pd . groupby ( [ <A> [ <b> ] , <c> ] . sum ( ) 
+辞書 <C> の <B> の値、もし存在しなければ <A> を得る	<C> . get ( <B> , <A> )	 not <C> . get ( <B> , <A> ) 
+もし <A> の全てが真でないならば	if not all ( <A> ) :	 not if all ( <A> ) : 
+表データ <B> と <A> を縦結合する	pd . concat ( [ <B> , <A> ] )	 <B> . concat ( [ <A> , <B> ] ) 
+<a> から <b> 区切りで表データを読み込む	pd . read_csv ( <a> , sep = <b> )	 plt . pd ( <a> , sep = <b> ) 
+データフレーム <A> の <b> についての平均値	<A> [ <b> ] . mean ( )	 ] <A> [ <b> ] . mean ( ) 
+<A> の少数を切り捨てる	math . ceil ( <A> )	 math . trunc ( <A> ) 
+文字列 <B> に <A> があるとき	if <B> . find ( <A> ) >= 0 :	 if <B> . find ( <A> ) >= 0 : 
+表 <A> の <b> と <c> ごとに <d> の値の合計を計算する	<A> . groupby ( [ <b> , <c> ] ) [ <d> ] . sum ( )	 <A> . groupby ( [ <b> , <c> ] ) [ <d> ] . sum ( ) 
+データフレーム <B> の列 <a> をグループ化して、値ごとのデータ数	<B> . groupby ( <a> ) . size ( )	 <B> . groupby ( <a> ) . size ( ) 
+表データ <A> の <b> を境界値を <C> として分割する	pd . cut ( <A> [ <b> ] , <C> )	 re . sub ( <A> , <b> ] , <C> ) 
+<B> 中で <A> が最初に見つかった位置	<B> . index ( <A> )	 if <B> . index ( <A> ) : 
+<B> が <A> 文字列にマッチするならば	if re . match ( <B> , <A> ) :	 while re . match ( <B> , <A> ) : 
+表 <C> の <b> と <a> を逆順にソートする	<C> . sort_values ( [ <b> , <a> ] , ascending = False )	 <D> . sort_values ( [ <C> , <b> , <a> ] , ascending = False ) 
+文字列 <A> において、 <B> 正規表現でマッチした部分を抽出する	re . findall ( <B> , <A> )	 re . findall ( <B> , <A> ) 
+もし <A> に <B> プロパティがあれば	if hasattr ( <A> , <B> ) :	 if hasattr ( <A> , <B> ) : 
+<A> が <b> 未満、あるいは <c> 以上であるならば	if <A> <  <b> or <A> >= <c> :	 >= <A> < <b> or <A> >= <c> : 
+<A> のコピー	<A> . copy ( )	 <A> . copy ( ) 
+<A> 内で <C> から部分文字列 <B> を探す	<A> . find ( <B> , <C> )	 list ( <A> , <B> , <C> ) 
+<A> が <B> プロパティを持つならば	if hasattr ( <A> , <B> ) :	 while hasattr ( <A> , <B> ) : 
+文字列 <A> の接頭辞が suffix でないか	not <A> . startswith ( prefix )	 while not <A> . startswith ( prefix ) : 
+文字列 <B> について、 <A> にマッチした部分を <C> に置換する	re . subn ( <A> , <B> , <C> )	 sns . re . subn ( <A> , <B> , <C> ) 
+自然数に <A> をする	int ( <A> )	 random . int ( <A> ) 
+リスト <B> の後ろに <A> を追加する	<B> . append ( <A> )	 <A> . append ( <B> ) 
+<B> と <C> で <A> をフォーマットする	<A> . format ( <B> , <C> )	 isinstance ( <C> , ( <B> , <A> ) ) 
+表データ <A> 内のそれぞれのカラムに存在する <b> の個数の合計値	<A> . isin ( [ <b> ] ) . sum ( )	 len ( <A> [ <b> ] ) . sum ( ) 
+表 <D> の <c> と <b> ごとに <a> の値の和を計算する	<D> . groupby ( [ <c> , <b> ] ) [ <a> ] . sum ( )	 <D> . groupby ( [ <c> , <b> ] ) [ <a> ] . sum ( ) 
+部分文字列 <C> を <A> から文字列 <D> で <B> まで探す	<D> . rfind ( <C> , <B> , <A> )	 rfind <D> . rfind ( <C> , <B> , <A> ) 
+<A> の <b> と <c> 表属性を落とす	<A> . drop ( [ <b> , <c> ] , axis = 1 )	 os . drop ( <A> , [ <b> ] , <c> ] ) 
+表 <B> をファイル名 <a> に書き込む	<B> . to_csv ( <a> )	 <B> . to_csv ( <a> ) 
+文字列 <A> で <B> のそれぞれを連結する	<A> . join ( <B> )	 list ( <A> , <B> ) 
+表データ <A> の <b> コラムの各要素の出現回数	<A> [ <b> ] . value_counts ( )	 <B> [ <A> [ <b> ] . value_counts ( ) 
+ビンの名前をリスト <D> として、 <A> の <b> カラムをビン数を <C> 整数値としてビン分割する	pd . cut ( <A> [ <b> ] , <C> , label = <D> )	 <D> . cut ( <A> [ <b> ] , <C> , label = <D> ) 
+何もしない	pass	 sys not in date : 
+文字列 <A> 内に含まれる <B> の数を数える	<A> . count ( <B> )	 <A> . count ( <B> ) 
+後ろから文字列 <A> 中で <B> 部分文字列の位置を探す	<A> . rfind ( <B> )	 <A> . rfind ( <B> ) 
+文字列 <B> の終わりが <A> であるでないならば	if not <B> . endswith ( <A> ) :	 if not <B> . endswith ( <A> ) : 
+表 <A> の表属性 <b> ごとに <c> の数を数える	<A> . groupby ( [ <b> ] ) [ <c> ] . count ( )	 <A> . groupby ( [ <b> ] ) [ <c> ] . count ( ) 
+データフレーム <A> の <b> 中の前後の行の差分を算出	<A> [ <b> ] . diff ( periods = 1 )	 list ( <A> [ <b> ] ) [ <a> ] . diff ( periods = 1 ) 
+<A> 内の <b> を欠損値に置換し、欠損値がある行を削除する	<A> . replace ( <b> , np . nan ) . dropna ( )	 <B> . replace ( <A> , np . nan ) . dropna ( ) 
+<A> 全体に <B> がマッチするとき	if re . fullmatch ( <B> , <A> ) :	 while re . fullmatch ( <B> , <A> ) : 
+もし <A> に <B> がマッチした場合	if re . match ( <B> , <A> ) :	 while re . match ( <B> , <A> ) : 
+辞書 <B> のキー <A> のデータ	<B> [ <A> ]	 list ( <A> , <B> ) 
+オブジェクト <A> に <B> プロパティがあらない間	while not hasattr ( <A> , <B> ) :	 not while not hasattr ( <A> , <B> ) : 
+表 <D> の <c> と表属性 <b> ごとに <a> の値の合計を求める	<D> . groupby ( [ <c> , <b> ] ) [ <a> ] . sum ( )	 <D> . groupby ( [ <c> , <b> ] ) [ <a> ] . sum ( ) 
+表 <D> のカラム <c> 、 <b> 、 <a>	<D> [ [ <c> , <b> , <a> ] ]	 for <D> [ [ <c> , <b> , <a> ] ] ] 
+もし文字列 <B> に正規表現 <A> がマッチするならば	if re . match ( <A> , <B> ) :	 while re . match ( <A> , <B> ) : 
+<a> をキーとして、 <C> と <B> を一つにまとめる	pd . merge ( <C> , <B> , on = <a> )	 pd . merge ( <C> , <B> , on = <a> ) 
+文字列 <B> に対し、正規表現 <C> でマッチした部分文字列を <A> に置き換える	re . sub ( <C> , <B> , <A> )	 for re . sub ( <C> , <B> , <A> ) 
+もし <A> が <B> で終了したならば	if not <A> . endswith ( <B> ) :	 if not <A> . endswith ( <B> ) : 
+文字列 <A> がアルファベットか	<A> . isalpha ( )	 not <A> . isalpha ( ) 
+<A> が文字列 <B> にマッチしないか	not re . match ( <A> , <B> )	 <B> not re . match ( <A> , <B> ) 
+<A> 中に <B> エントリが存在しなければ、そのエントリを <C> にする	<A> . setdefault ( <B> , <C> )	 not <A> . setdefault ( <B> , <C> ) 
+文字列 <B> を <A> セパレータで区切る	<B> . split ( <A> )	 delattr ( <B> , <A> ) 
+もし正規表現 <A> が <B> 全体にマッチしたとき	if re . fullmatch ( <A> , <B> ) :	 if re . fullmatch ( <A> , <B> ) : 
+後ろから文字列 <A> 内で部分文字列 <B> の位置を <C> まで探す	<A> . rfind ( <B> , <C> )	 <D> . rfind ( <A> , <B> , <C> ) 
+文字列 <B> のタブ記号を <A> 文字の空白で置き換える	<B> . expandtabs ( <A> )	 <B> . expandtabs ( <A> ) 
+列 <C> , <B> , <A> の各要素のタプル	zip ( <C> , <B> , <A> )	 max ( <C> , <B> , <A> ) 
+データフレーム <B> の <a> コラムをドロップする	<B> . drop ( <a> , axis = 1 )	 delattr ( <B> , <a> ) 
+部分文字列 <B> の位置を <C> 文字列で <A> から探す	<C> . find ( <B> , <A> )	 <D> . find ( <C> , <B> , <A> ) 
+表 <A> の <b> コラムと <c> コラムとコラム <d> について関係性を一度にプロットする	sns . pairplot ( <A> [ [ <b> , <c> , <d> ] ] )	 pd . merge ( <A> [ <b> , <c> , <d> ] ] ) 
+<B> が <A> と等しい間	while <B> == <A> :	 > <B> == <A> : 
+<A> の <B> 属性を削除する	delattr ( <A> , <B> )	 getattr ( <A> , <B> ) 
+<B> が <A> で見つかった位置	<A> . index ( <B> )	 if <B> . index ( <A> ) : 
+<B> の終端が <A> であるでない間	while not <B> . endswith ( <A> ) :	 > not <B> . endswith ( <A> ) : 
+データフレーム <C> の <b> 行目から <a> 行目までを調べる	<C> [ <b> : <a> ]	 <b> [ <a> : ] 
+グラフの色を <C> として、 <A> と <B> の折れ線グラフをプロットする	plt . plot ( <A> , <B> , color = ( <C> ) )	 plt . plot ( <A> , <B> , color = ( <C> ) ) 
+データフレーム <C> の <b> 表属性と <a> を逆順に並べる	<C> . sort_values ( [ <b> , <a> ] , ascending = False )	 <D> . sort_values ( [ <C> , <b> , <a> ] ] , ascending = False ) 
+もしオブジェクト <B> が <A> のインスタンス場合	if isinstance ( <B> , <A> ) :	 while isinstance ( <B> , <A> ) : 
+文字列 <B> 全体に正規表現 <A> がマッチしなかったなら	if not re . fullmatch ( <A> , <B> ) :	 while not re . fullmatch ( <A> , <B> ) : 
+もし <A> が大文字ならば	if <A> . isupper ( ) :	 if <A> . isupper ( ) : 
+表を <a> ファイルからタブ区切りで読み込んで、 <B> とする	<B> = pd . read_csv ( <a> , sep = '\\\\t' )	 <A> = pd . read_csv ( <B> , sep = '\\\\t' ) 
+<A> の属性 <B> の値を <C> にする	setattr ( <A> , <B> , <C> )	 re . sub ( <A> , <B> , <C> ) 
+とりあえず <A> の内容を調べる	<A> . head ( )	 <A> . head ( ) 
+<B> と <A> が近くないか	not math . isclose ( <B> , <A> )	 math . not ( <B> , <A> ) 
+<A> から <B> 個、ランダムに選ぶ	random . sample ( <A> , <B> )	 int ( <A> , <B> ) 
+<B> と <A> の論理積	<B> &  <A>	 zip ( <B> , <B> , <A> ) 
+位置と <c> を項目名として <A> と <B> 表をマージする	pd . merge ( <A> , <B> , left_index = True , right_on = <c> )	 pd . merge ( <A> , <B> , left_index = True , right_on = <c> ) 
+もし <a> 才未満、または <b> 才以上ならば	if age <  <a> or age >= <b> :	 if age < <a> or age >= <b> : 
+文字列 <A> の最後から <B> を取り除く	<A> . removesuffix ( <B> )	 <A> . removesuffix ( <B> ) 
+<C> で <A> から <B> を探す	<C> . find ( <B> , <A> )	 isinstance ( <C> , ( <B> , <A> ) ) 
+<A> と <B> 身長から BMI を確認する	<A> / ( <B> / 100 ) ** 2	 <A> / ( <B> / 100 ) ** 2 
+表 <D> の <c> と <b> と <a> について関係性を一度にプロットする	sns . pairplot ( <D> [ [ <c> , <b> , <a> ] ] )	 <E> . pairplot ( <D> [ [ <c> , <b> , <a> ] ] ) 
+<A> の <b> と <c> と <d> についての箱ひげ図を描く	plt . boxplot ( [ <A> [ <b> ] , <A> [ <c> ] , <A> [ <d> ] ] )	 int ( <A> [ <b> , <c> ] , <d> ] ] ) 
+正規表現 <B> にマッチした <A> の部分を抽出する	re . findall ( <B> , <A> )	 sns . re . findall ( <B> , <A> ) 
+<B> を <A> との排他論理和にする	<B> ^ = <A>	 <B> | = <A> 
+<b> と <a> の和	<b> + <a>	 <C> [ [ <b> , <a> ] ] 
+<B> と <A> がほぼ等しくないかどうか	not math . isclose ( <B> , <A> )	 is not math . isclose ( <B> , <A> ) 
+もし <b> 才未満、または <a> 才以上であるならば	if age <  <b> or age >= <a> :	 if age < <b> or age >= <a> : 
+幅 <B> で <A> をセンタリングする	<A> . center ( <B> )	 <B> . center ( <A> ) 
+ビンのラベルをインデックスとして、 <C> データフレームの表属性 <b> をビン数を <A> として分割する	pd . cut ( <C> [ <b> ] , <A> , label = False )	 pd . cut ( <C> [ <b> ] , <A> , label = False ) 
+もし <A> が <B> にマッチするならば	if re . match ( <A> , <B> ) :	 while re . match ( <A> , <B> ) : 
+オブジェクト <A> が <B> プロパティを持たないか	not hasattr ( <A> , <B> )	 not hasattr ( <A> , <B> ) 
+データフレーム <A> の <b> 行から後ろまで	<A> [ <b> : ]	 <A> [ <b> : ] 
+データフレーム <A> の <b> が <c> か <d> のデータを抽出する	<A> [ <A> [ <b> ] . isin ( [ <c> , <d> ] ) ]	 <D> [ <A> [ <b> ] . isin ( [ <c> , <d> ] ) ] 
+正規表現 <A> にマッチした <B> の箇所を抽出する	re . findall ( <A> , <B> )	 math . re . findall ( <A> , <B> ) 
+文字列 <A> が <B> で開始したら	if <A> . startswith ( <B> ) :	 if <A> . startswith ( <B> ) : 
+データフレーム <B> のコラム <c> を落とし、 <A> にする	<A> = <B> . drop ( <c> , axis = 1 )	 <c> = <B> . drop ( <A> , axis = <c> ) 
+文字列 <A> の前から <B> を取り除く	<A> . lstrip ( <B> )	 <A> . removeprefix ( <B> ) 
+<a> ファイル名からカンマ区切りで表データを読む	pd . read_csv ( <a> , sep = ',' )	 pd . read_csv ( <a> , sep = ',' ) 
+<B> 内で部分文字列 <A> の位置を末尾から探す	<B> . rfind ( <A> )	 <A> . rfind ( <B> ) 
+文字列 <A> の <B> を末尾から取り除く	<A> . rstrip ( <B> )	 <A> . rstrip ( <B> ) 
+<C> の列 <b> をビン数を <A> 整数値として要素数が等しくなるようにビン分割する	pd . qcut ( <C> [ <b> ] , <A> )	 pd . qcut ( <C> [ <b> ] , <A> ) 
+表データを <b> から <a> 区切りで読み込んで、 <C> にする	<C> = pd . read_csv ( <b> , sep = <a> )	 pd . read_csv ( <a> , sep = <b> ) 
+表データ <B> の <a> の出現頻度	<B> [ <a> ] . value_counts ( )	 <B> [ <a> ] . value_counts ( ) 
+<A> のひとつでも真でないか	not any ( <A> )	 not any ( <A> ) 
+<C> 中で部分文字列 <B> の位置を <A> から探す	<C> . find ( <B> , <A> )	 <D> . find ( <C> , <B> , <A> ) 
+<A> の <b> 列目を取得する	<A> . loc [ <b> ]	 pd . cut ( <A> [ <b> ] , <c> ] ) 
+<A> が <B> 中に存在しないか	<A> not in <B>	 not <A> in <B> : 
+もし文字列 <A> 内に <B> があるならば	if <A> . find ( <B> ) >= 0 :	 >= <A> . find ( <B> ) >= 0 : 
+もし <A> が <B> に存在するならば	if <A> in <B> :	 if <A> in <B> : 
+表 <D> の <c> と <b> と <a> について関係性を一気に描く	sns . pairplot ( <D> [ [ <c> , <b> , <a> ] ] )	 plt . pairplot ( <D> [ [ <c> , <b> , <a> ] ] ) 
+表データ <D> の <c> と <b> と <a> について関係性を一度にプロットする	sns . pairplot ( <D> [ [ <c> , <b> , <a> ] ] )	 plt . pairplot ( <D> [ [ <c> , <b> , <a> ] ] ) 
+表 <B> の <a> 表属性についての標準偏差を確認する	<B> [ <a> ] . std ( )	 <B> [ <a> ] . std ( ) 
+<C> 内に <B> 項目が存在しなければ、その項目を <A> にする	<C> . setdefault ( <B> , <A> )	 <D> . setdefault ( <C> , <B> , <A> ) 
+<B> を <a> 回繰り返す	<B> * <a>	 <a> * ( <B> , <a> ) 
+表 <B> 中にある <a> を欠損値に置換する	<B> . replace ( <a> , np . nan )	 pd . replace ( <B> , <a> ] ) 
+部分文字列 <B> を <C> から <A> 文字列中で探す	<A> . find ( <B> , <C> )	 <D> . find ( <C> , <B> , <A> ) 
+区切り記号 <A> で <B> をスプリットする	<B> . split ( <A> )	 plt . split ( <B> , <A> ) 
+表データ <C> のコラム <b> をビン数を <A> 整数値として分割する	pd . cut ( <C> [ <b> ] , <A> )	 re . sub ( <C> , <b> ] , <A> ) 
+<A> が <B> に十分に近くないか	not math . isclose ( <A> , <B> )	 <B> not math . isclose ( <A> , <B> ) 
+もし文字列 <B> 内で <A> が出現するならば	if <B> . find ( <A> ) >= 0 :	 >= <B> . find ( <A> ) >= 0 : 
+表データ <A> の先頭の 5 行	<A> . head ( )	 math . head ( <A> ) 
+<B> の <a> を削除して、 <C> にする	<C> = <B> . drop ( <a> , axis = 1 )	 print ( <B> , <C> = <B> , <a> ) 
+ファイル名 <b> から <c> 区切りで表データを読み込んで、 <A> にする	<A> = pd . read_csv ( <b> , sep = <c> )	 <B> = pd . read_csv ( <A> , sep = <c> ) 
+プログラムを中断する	quit ( )	 sys . quit ( ) 
+<B> と <A> が十分に近くない場合	if not math . isclose ( <B> , <A> ) :	 for not math . isclose ( <B> , <A> ) : 
+<A> で <B> の各要素を連結する	<A> . join ( <B> )	 map ( <A> , <B> ) 
+<a> から <b> 区切りで表を読み込む	pd . read_csv ( <a> , sep = <b> )	 pd . read_csv ( <a> , sep = <b> ) 
+もし <A> の始まりが suffix であるでない場合	if not <A> . startswith ( prefix ) :	 != if not <A> . startswith ( prefix ) : 
+<C> の <b> が <a> より少ないデータを抽出する	<C> [ <C> [ <b> ] <  <a> ]	 <D> [ <C> [ <b> ] < <a> ] 
+表 <B> の <a> を四分位数ごとでビン分割する	pd . qcut ( <B> [ <a> ] , 4 )	 pd . qcut ( <B> [ <a> ] , 4 ) 
+<B> が <A> で始まらないとき	if not <B> . startswith ( <A> ) :	 while not <B> . startswith ( <A> ) : 
+<B> において、 <C> 正規表現にマッチした部分文字列を <A> にリプレースする	re . subn ( <C> , <B> , <A> )	 sns . re . subn ( <C> , <B> , <A> ) 
+左外部結合で <A> 表データと表データ <B> を一つにまとめる	pd . merge ( <A> , <B> , how = 'left' )	 plt . pd . merge ( <A> , <B> , how = 'left' ) 
+表データ <C> の表属性 <b> を境界値を <A> リストとしてビン分割する	pd . cut ( <C> [ <b> ] , <A> )	 string . cut ( <C> [ <b> ] , <A> ) 
+表 <A> の <b> についての平均値を調べる	<A> [ <b> ] . mean ( )	 len <A> [ <b> ] . mean ( ) 
+文字列 <B> において、 <C> 正規表現にマッチした箇所を <A> に置換する	re . subn ( <C> , <B> , <A> )	 re . subn ( <C> , <B> , <A> ) 
+表データ <A> の <b> をグループ化して、値ごとのデータの数	<A> . groupby ( <b> ) . size ( )	 <A> . groupby ( <b> ) . size ( ) 
+辞書 <C> の <B> 項目名の値、もし存在しなければ <A> を得る	<C> . get ( <B> , <A> )	 not <C> . get ( <B> , <A> ) 
+<A> を	print ( <A> , end = '' )	 <A> . partition ( ) 
+表 <A> の <b>	<A> [ <b> ]	 list ( <A> [ <b> ] ) 
+<B> の <a> 行目から後ろまで	<B> [ <a> : ]	 <B> [ <a> : ] 
+<A> の <B> 乗	pow ( <A> , <B> )	 enumerate ( <A> , <B> ) 
+<A> を切り上げた整数値	math . floor ( <A> )	 math . ceil ( <A> ) 
+表をファイルパス <b> から <a> 区切りで読む	pd . read_csv ( <b> , sep = <a> )	 pd . read_csv ( <a> , sep = <b> ) 
+オブジェクト <B> にフィールド <A> があらないか	not hasattr ( <B> , <A> )	 not hasattr ( <B> , <A> ) 
+表 <A> 中の欠損値を直前の行の値で埋める	<A> . fillna ( method = 'ffill' )	 fillna . fillna ( <A> . method = 'ffill' ) 
+オブジェクト <A> にフィールド <B> があらないか	not hasattr ( <A> , <B> )	 not hasattr ( <A> , <B> ) 
+<A> と <B> 体重から BMI	<B> / ( <A> / 100 ) ** 2	 <A> / ( <B> / 100 ) ** 2 
+表データ <A> を <b> パスに書き出す	<A> . to_csv ( <b> )	 <A> . to_csv ( <b> ) 
+グラフの色を e00RGB 値として、 <B> と <A> の折れ線グラフを描画する	plt . plot ( <B> , <A> , color = ( e00 ) )	 plt . plot ( <B> , <A> , color = ( e00 ) ) 
+位置と <c> を項目名として表データ <A> と <B> 表データを一つにまとめる	pd . merge ( <A> , <B> , left_index = True , right_on = <c> )	 pd . merge ( <A> , <B> , left_index = True , right_on = <c> ) 
+<D> の <c> と <b> カラムと <a> カラムについての箱ひげ図を描画する	plt . boxplot ( [ <D> [ <c> ] , <D> [ <b> ] , <D> [ <a> ] ] )	 int . boxplot ( [ <D> [ <c> ] , <D> [ <b> ] , <D> [ <a> ] ] ) 
+<A> の合計	sum ( <A> )	 math . sum ( <A> ) 
+データフレーム <D> の <c> と <b> ごとに <a> の値の和を算出する	<D> . groupby ( [ <c> , <b> ] ) [ <a> ] . sum ( )	 os . groupby ( [ <D> [ <c> , <b> ] ] ) [ <a> ] . sum ( ) 
+辞書 <A> のキー <B> の値、もしなければ <C> を得る	<A> . get ( <B> , <C> )	 not <A> . get ( <B> , <C> ) 
+文字列 <A> に <B> 正規表現がマッチしないかどうか	not re . match ( <B> , <A> )	 not re . match ( <B> , <A> ) 
+表データ <B> の最初の <a> 行	<B> . tail ( <a> )	 <B> . head ( <a> ) 
+ビンのラベルをインデックスとして、 <A> の <b> を分割数を <C> としてビン分割する	pd . cut ( <A> [ <b> ] , <C> , label = False )	 pd . cut ( <A> [ <b> ] , <C> , label = False ) 
+<A> が <B> 文字列にマッチすれば	if re . match ( <A> , <B> ) :	 while re . match ( <A> , <B> ) : 
+位置と <a> コラムをキーとして表データ <C> と <B> 表データを結合する	pd . merge ( <C> , <B> , left_index = True , right_on = <a> )	 pd . merge ( <C> , <B> , left_index = True , right_on = <a> ) 
+列 <A> の最頻値を表示する	<A> . mode ( )	 <A> . mode ( ) 
+ビンのラベルを整数値として、表データ <A> の <b> をビン数を <C> として分割する	pd . cut ( <A> [ <b> ] , <C> , label = False )	 pd . cut ( <A> [ <b> ] , <C> , label = False ) 
+ファイル名 <B> を <a> モードででオープンする	open ( <B> , <a> )	 nan . open ( <B> , <a> ) 
+正規表現 <B> にマッチした <A> の部分文字列を抽出する	re . findall ( <B> , <A> )	 sns . re . findall ( <B> , <A> ) 
+左外部結合で <A> 表と表 <B> を一つにまとめる	pd . merge ( <A> , <B> , how = 'left' )	 <A> . pd . merge ( <A> , <B> , how = 'left' ) 
+<a> カラムを項目名として、 <C> データフレームとデータフレーム <B> を一つにまとめる	pd . merge ( <C> , <B> , on = <a> )	 pd . merge ( <C> , <B> , on = <a> ) 
+SJIS コードで <A> をバイト列に変換する	<A> . encode ( 'shift-jis' )	 <A> . encode ( 'shift-jis' ) 
+<A> のいずれかが真の場合	if any ( <A> ) :	 if any ( <A> ) : 
+データフレーム <A> の <b> を分割数を <C> 整数値として要素数が等しくなるようにビン分割する	pd . qcut ( <A> [ <b> ] , <C> )	 pd . qcut ( <A> [ <b> ] , <C> ) 
+正規表現 <B> にマッチした <A> の箇所を抽出する	re . findall ( <B> , <A> )	 math . re . findall ( <B> , <A> ) 
+表 <A> と <B> を縦方向でマージする	pd . concat ( [ <A> , <B> ] )	 pd . concat ( [ <A> , <B> ] ) 
+ビンの名前を 0 始まりの連番として、 <A> データフレームの <b> 列をビン数を <C> としてビン分割する	pd . cut ( <A> [ <b> ] , <C> , label = False )	 pd . cut ( <A> [ <b> ] , <C> , label = False ) 
+とりあえず表データ <A> の内容を表示してみる	<A> . head ( )	 <B> . head ( <A> ) 
+表データ <A> の <b> コラムが <c> より小さいデータを抽出する	<A> [ <A> [ <b> ] <  <c> ]	 not <A> [ <A> [ <b> ] < <c> ] 
+<A> の <b> を確認する	<A> [ <b> ]	 list ( <A> [ <b> ] ) 
+データフレーム <A> と <B> 表を一つにまとめる	pd . merge ( <A> , <B> )	 math . merge ( <A> , <B> ) 
+Pandas を 'pd' としてインポートする	import pandas as pd	 as import pandas as pd 
+<A> の <b> コラムと <c> をドロップする	<A> . drop ( [ <b> , <c> ] , axis = 1 )	 sns . drop ( <A> [ <b> , <c> ] , axis = 1 ) 
+<a> から <b> 区切りでデータフレームを読み込む	pd . read_csv ( <a> , sep = <b> )	 pd . read_csv ( <a> , sep = <b> ) 
+<A> の TAB を空白で置換する	<A> . expandtabs ( )	 <B> . expandtabs ( <A> ) 
+データフレーム <B> の <a> カラム	<B> [ <a> ]	 columns <B> [ <a> ] 
+もし <B> が文字列 <A> 中で見つからなかった場合	if <A> . find ( <B> ) == -1 :	 if <A> . find ( <B> ) == -1 : 
+<B> について、正規表現 <A> でマッチした部分文字列を抽出する	re . findall ( <A> , <B> )	 findall re . findall ( <A> , <B> ) 
+<A> が <b> 未満、また <c> 以上であれば	if <A> <  <b> or <A> >= <c> :	 < <A> >= <b> or <A> >= <c> : 
+<A> の末尾 <b> 行を見る	<A> . tail ( <b> )	 <A> . tail ( <b> ) 
+データフレーム <A> 中の <b> を欠損に置換し、欠損が存在する行を削除する	<A> . replace ( <b> , np . nan ) . dropna ( )	 <B> . replace ( <A> , np . nan ) . dropna ( ) 
+<A> から <B> 部分文字列の位置を文字列 <C> 内で探す	<C> . find ( <B> , <A> )	 setattr ( <A> , <B> , <C> ) 
+データフレーム <A> 内の NaN の合計	<A> . isnull ( ) . sum ( )	 math . isnull ( <A> ) . sum ( ) 
+<A> と <B> が十分に近いならば	if math . isclose ( <A> , <B> ) :	 while math . isclose ( <A> , <B> ) : 
+もし文字列 <B> 中で <A> が発見されるならば	if <B> . find ( <A> ) >= 0 :	 if <B> . find ( <A> ) >= 0 : 
+<D> 軸のラベルを <D> から <c> 、 <b> 、 <a> へ変更する	plt . yticks ( <D> , [ <c> , <b> , <a> ] )	 plt . xticks ( <D> , [ <c> , <b> , <a> ] ) 
+実数 <A> が自然数か	<A> . is_integer ( )	 <A> . is_integer ( ) 
+文字列 <B> に対し、正規表現 <C> でマッチした箇所を <A> に置換する	re . sub ( <C> , <B> , <A> )	 title re . sub ( <C> , <B> , <A> ) 
+<B> を <A> 文字コードでバイト列に変換する	<B> . encode ( <A> )	 <B> . encode ( <A> ) 
+データフレーム <C> の <b> と表属性 <a> を削除する	<C> . drop ( [ <b> , <a> ] , axis = 1 )	 <E> . drop ( [ <C> , <b> , <a> ] ] ) 
+<C> が <b> 未満、あるいは <a> 以上のとき	if <C> <  <b> or <C> >= <a> :	 if <C> < <b> or <C> >= <a> : 
+<A> が <B> より大きいか否か	<A> >  <B>	 <B> > <A> 
+データフレーム <A> の <b> と <c> と <d> コラムについて関係性を一度に表示する	sns . pairplot ( <A> [ [ <b> , <c> , <d> ] ] )	 pd . sns ( <A> [ [ <b> , <c> , <d> ] ] ) 
+<A> を大文字化する	<A> . upper ( )	 <A> . upper ( ) 
+もし <A> がリストまたタプルでないならば	if not isinstance ( <A> , ( list , tuple ) ) :	 not isinstance ( <A> , ( list , tuple ) ) 
+データフレーム <B> のそれぞれのカラムに存在する <a> の個数の合計値	<B> . isin ( [ <a> ] ) . sum ( )	 map ( <B> , <a> ) . sum ( ) 
+表データ <C> の列名を <b> から <a> に変更する	<C> . rename ( columns = { <b> : <a> } )	 <D> . rename ( columns = { <b> : <a> } ) 
+表 <A> の <b> の名前を <c> にリネームする	<A> . rename ( index = { <b> : <c> } )	 pd . rename ( <A> [ <b> ] , <c> ] , ascending = False ) 
+データフレーム <B> 中にある <a> を欠損値とする	<B> . replace ( <a> , np . nan )	 map ( <B> , <a> ) 
+<C> を <A> から <D> 文字列中で <B> まで探す	<D> . rfind ( <C> , <B> , <A> )	 <B> . rfind ( <A> , <C> , <D> ) 
+<A> と <B> の最大公約数	math . gcd ( <A> , <B> )	 min ( <A> , <B> ) 
+データフレーム <A> の <b> と <c> 表属性と <d> 表属性について関係性を一度に描写する	sns . pairplot ( <A> [ [ <b> , <c> , <d> ] ] )	 pd . merge ( <A> [ <b> , <c> , <d> ] ] ) 
+<C> の <B> フィールドの値を <A> に設定する +	setattr ( <C> , <B> , <A> )	 getattr ( <C> , <B> , <A> ) 
+表 <A> にある <b> を欠損とする	<A> . replace ( <b> , np . nan )	 os . replace ( <A> , <b> ) 
+文字列 <A> が小文字でないか	not <A> . islower ( )	 <A> not . islower ( ) 
+<A> を関数 <B> でフィルタする	filter ( <B> , <A> )	 filter ( <B> , <A> ) 
+<b> で <A> を区切る	<A> . split ( <b> )	 open ( <A> , <b> ) 
+表 <A> の <b> 列を分割数を <C> として要素数が等しくなるように分割する	pd . qcut ( <A> [ <b> ] , <C> )	 re . qcut ( <A> [ <b> ] , <C> ) 
+<B> の <a> 列目を取得する	<B> . loc [ <a> ]	 map ( <B> , <a> ) 
+<A> が <B> 文字列にマッチしない場合	if not re . match ( <A> , <B> ) :	 while not re . match ( <A> , <B> ) : 
+表 <A> の <b> と <c> カラムを大きい順に並び替える	<A> . sort_values ( [ <b> , <c> ] , ascending = False )	 pd . sort_values ( [ <A> , <b> , <c> ] , ascending = False ) 
+<A> の <B> を最後から除去する	<A> . rstrip ( <B> )	 <A> . rstrip ( <B> ) 
+文字列 <A> 内で右から部分文字列 <B> を探す	<A> . rfind ( <B> )	 not <A> . rfind ( <B> ) 
+<C> の行の名前を <b> から <a> にリネームする	<C> . rename ( index = { <b> : <a> } )	 <D> . rename ( index = { <b> : <a> } ) 
+文字列 <A> の先頭が suffix でない間	while not <A> . startswith ( prefix ) :	 > not <A> . startswith ( prefix ) : 
+<B> 中で <A> が最後に見つかった位置	<B> . rindex ( <A> )	 <A> . rindex ( <B> ) 
+<B> と <A> のノルムを表示する	math . hypot ( <B> , <A> )	 math . hypot ( <B> , <A> ) 
+<A> の <b> コラムと <c> コラムの相関係数	<A> [ [ <b> , <c> ] ] . corr ( )	 [ <A> [ <b> , <c> ] ] . corr ( ) 
+データフレーム <A> のコラム <b> と <c> コラムごとに <d> の値の合計を算出する	<A> . groupby ( [ <b> , <c> ] ) [ <d> ] . sum ( )	 <A> . groupby ( [ <b> , <c> ] ) [ <d> ] . sum ( ) 
+文字列 <B> を <A> 区切り文字で区切った最後の部分	<B> . split ( <A> ) [ -1 ]	 <C> . split ( <B> [ -1 ] ) [ -1 ] 
+表データ <A> の <b> の出現回数	<A> [ <b> ] . value_counts ( )	 <b> <A> [ <a> ] . value_counts ( ) 
+<A> のカラム <b> のユニークな要素数	<A> [ <b> ] . nunique ( )	 not <A> [ <b> ] . nunique ( ) 
+新しく <a> のディレクトリを作る	os . mkdir ( <a> )	 os . mkdir ( <a> ) 
+<B> を <a> つ減らす	<B> -= <a>	 map ( <B> , <a> ) 
+コードポイント <A> を文字に変換する	chr ( <A> )	 chr ( <A> ) 
+表 <D> の <c> と <b> と <a> についての箱ひげ図をプロットする	plt . boxplot ( [ <D> [ <c> ] , <D> [ <b> ] , <D> [ <a> ] ] )	 <D> . boxplot ( [ <D> [ <c> ] , <D> [ <b> ] , <D> [ <a> ] ] ) 
+もし <B> に <A> プロパティがあらなければ	if not hasattr ( <B> , <A> ) :	 while not hasattr ( <B> , <A> ) : 
+表データ <A> の <b> をグループ化して、値ごとのデータの数を調べる	<A> . groupby ( <b> ) . size ( )	 <A> . groupby ( <b> ) . size ( ) 
+ビンを <b> として、 <A> のヒストグラムを描写する	plt . hist ( <A> , bins = <b> )	 sns . hist ( <A> , bins = <b> ) 
+<A> に対し、 <B> でマッチした箇所をリストにする	re . findall ( <B> , <A> )	 re . findall ( <B> , <A> ) 
+<A> で <B> を <C> から end まで探す	<A> . find ( <B> , <C> )	 pd . find ( <A> , <B> , <C> ) 
+もし <A> が <b> 未満、かつ 160 以上のとき	if <A> <  <b> and <A> >= 60 :	 if <A> < <b> and <A> >= 60 : 
+降順に <A> を整列した列	sorted ( <A> , reverse = True )	 sorted ( <A> , reverse = True ) 
+ファイル名 <A> を読み込みモードででオープンする	open ( <A> , 'r' )	 round ( <A> , 'r' ) 
+<A> と <B> が十分に近くなかったなら	if not math . isclose ( <A> , <B> ) :	 for not math . isclose ( <A> , <B> ) : 
+文字列 <B> が <A> で終了しないか	not <B> . endswith ( <A> )	 if not <B> . endswith ( <A> ) : 
+<A> の <b> のユニーク値	<A> [ <b> ] . unique ( )	 <A> [ <b> ] . unique ( ) 
+オブジェクト <A> がリストまたは組ならば	if isinstance ( <A> , ( list , tuple ) ) :	 while isinstance ( <A> , ( list , tuple ) ) : 
+<B> が属性 <A> を持った場合	if hasattr ( <B> , <A> ) :	 while hasattr ( <B> , <A> ) : 
+<a> をタブ区切りで読み込み、 <B> とする	<B> = pd . read_csv ( <a> , sep = '\\\\t' )	 pd . read_csv ( <a> , <B> , sep = '\\\\t' ) 
+<C> の <b> をビン数を <A> として分割する	pd . cut ( <C> [ <b> ] , <A> )	 cut ( <C> [ <b> ] , <A> ) 
+表データ <A> と <B> データフレームを縦方向で一つにまとめる	pd . concat ( [ <A> , <B> ] )	 pd . concat ( [ <A> , <B> ] ) 
+<B> の最初と <A> を最後から削除する	<B> . strip ( <A> )	 <A> . strip ( <B> ) 
+ランダムにリスト <A> をシャッフルする	random . shuffle ( <A> )	 random . shuffle ( <A> ) 
+データフレーム <D> の <c> と <b> 表属性と <a> 表属性について関係性を一度に描写する	sns . pairplot ( <D> [ [ <c> , <b> , <a> ] ] )	 pd . sns ( <D> [ <c> , <b> , <a> ] ] ) 
+表データ <A> の列 <b> についてのヒストグラムをプロットする	plt . hist ( <A> [ <b> ] )	 tuple plt . hist ( <A> [ <b> ] ) 
+<A> の始端が suffix であるでな場合	if not <A> . startswith ( prefix ) :	 while not <A> . startswith ( prefix ) : 
+オブジェクト <A> が <B> フィールドを持たない間	while not hasattr ( <A> , <B> ) :	 not while hasattr ( <A> , <B> ) : 
+グラフのサイズを横 <a> 縦 <b> とする	plt . figure ( figsize = ( <a> , <b> ) )	 sns . figure ( figsize = ( <a> , <b> ] ) ) 
+表 <B> の <a> をグループ化して、値ごとのデータ数を調べる	<B> . groupby ( <a> ) . size ( )	 <B> . groupby ( <a> ) . size ( ) 
+y 軸 = y 軸	x 軸 = x 軸|グラフの x 軸| x 座標	 plt . ylabel ( <a> ) 
+キー <B> が <A> に存在するか	<B> in <A>	 <B> in <A> 
+データフレーム <A> の NaN を消す	<A> . dropna ( )	 os . . dropna ( ) 
+<A> が <B> 内で最初に見つかった位置	<B> . index ( <A> )	 <A> . index ( <B> ) 
+<A> で <B> 文字列の文字を変換する	<B> . translate ( <A> )	 <A> . translate ( <B> ) 
+<B> のカラム <c> を消し、 <A> とする	<A> = <B> . drop ( <c> , axis = 1 )	 print ( <A> , <B> , <c> , end = '' ) 
+<A> の列 <b> のユニークな要素	<A> [ <b> ] . unique ( )	 not <A> [ <b> ] . unique ( ) 
+<A> の最大値	max ( <A> )	 max ( <A> ) 
+ファイルパス <a> のファイル一覧	os . listdir ( <a> )	 os . listdir ( <a> ) 
+テンプレ <D> を <C> , <B> , <A> でフォーマットする	<D> . format ( <C> , <B> , <A> )	 <B> . format ( <A> , <C> , <D> ) 
+部分文字列 <C> を <A> から <D> 中で <B> まで探す	<D> . rfind ( <C> , <B> , <A> )	 rfind <D> . rfind ( <C> , <B> , <A> ) 
+<A> が <B> でないか	<A> != <B>	 not <A> . endswith ( <B> ) 
+<b> で文字列 <A> を分割した文字列のリスト	<A> . split ( <b> )	 pd . split ( <A> , <b> ) 
+表 <C> の表属性 <b> と <a> を大きい順に並べる	<C> . sort_values ( [ <b> , <a> ] , ascending = False )	 sort_values . sort_values ( <C> , [ <b> , <a> ] ] , ascending = False ) 
+文字列 <A> 内の <B> の出現回数	<A> . count ( <B> )	 <A> . count ( <B> ) 
+もし <B> が <A> より小さくなければ	if not <B> <  <A> :	 if not <B> < <A> : 
+文字列 <A> から空白を除去する	<A> . strip ( )	 <A> . strip ( ) 
+表 <A> 中の NaN を直前の行の値で埋める	<A> . fillna ( method = 'ffill' )	 method . fillna ( <A> . mean ( ) ) 
+<A> を 16 進数表現にする	hex ( <A> )	 <A> . hex ( ) 
+ビンの名前を <D> として、 <A> の <b> を分割数を <C> として分割する	pd . cut ( <A> [ <b> ] , <C> , label = <D> )	 pd . cut ( <A> [ <b> ] , <C> , label = <D> ) 
+表データ <B> の欠損を <A> に置換する	<B> . fillna ( <A> )	 <B> . fillna ( <A> ) 
+<B> において、 <A> にマッチした箇所を <C> に置き換える	re . subn ( <A> , <B> , <C> )	 sns . re . subn ( <A> , <B> , <C> ) 
+ビンのラベルをインデックスとして、データフレーム <C> の <b> を分割数を整数値 <A> として分割する	pd . cut ( <C> [ <b> ] , <A> , label = False )	 sns . cut ( <A> [ <b> ] , <C> , label = False ) 
+文字列 <A> が <B> で始まる場合	if <A> . startswith ( <B> ) :	 if <A> . startswith ( <B> ) : 
+文字列 <A> が ASCII 文字かどうか	<A> . isascii ( )	 not <A> . isascii ( ) 
+<A> の <b> 行から <c> 行まで	<A> [ <b> : <c> ]	 <A> [ <b> : <c> ] 
+ビンのラベルを <A> として、 <D> 表の <c> をビン数を整数値 <B> としてビン分割する	pd . cut ( <D> [ <c> ] , <B> , label = <A> )	 <D> . cut ( <D> [ <c> ] , <B> , label = <A> ) 
+<c> 列を項目名として、 <A> と <B> をマージする	pd . merge ( <A> , <B> , on = <c> )	 pd . merge ( <A> , <B> , on = <c> ) 
+もしオブジェクト <B> が <A> フィールドを持ったら	if hasattr ( <B> , <A> ) :	 while hasattr ( <B> , <A> ) : 
+ビンの名前を <D> として、 <A> 表の <b> をビン数を <C> 整数値としてビン分割する	pd . cut ( <A> [ <b> ] , <C> , label = <D> )	 <D> . cut ( <A> [ <b> ] , <C> , label = <D> ) 
+<A> のインデックス <b> の名前を <c> にリネームする	<A> . rename ( index = { <b> : <c> } )	 pd . rename ( <A> [ <b> ] , <c> ] , ascending = False ) 
+データフレーム <A> の <b> をインデックスに設定する	<A> . set_index ( <b> )	 <A> . set_index ( <b> ) 
+<A> 内の欠損を <A> の平均値で補う	<A> . fillna ( <A> . mean ( ) )	 <D> . fillna ( <A> . mean ( ) ) 
+<B> の <a> カラムを削除して、置き換える	<B> = <B> . drop ( <a> , axis = 1 )	 <B> = <B> . drop ( <a> , axis = 1 ) 
+もし <A> が <B> で出現した場合	if <B> . find ( <A> ) >= 0 :	 if <A> . find ( <B> ) >= 0 : 
+列 <A> , <B> , <C> の各要素の組	zip ( <A> , <B> , <C> )	 complex ( <A> , <B> , <C> ) 
+<a> 区切りで <b> から表データを読んで、 <C> とする	<C> = pd . read_csv ( <b> , sep = <a> )	 <B> = pd . read_csv ( <b> , sep = <a> ) 
+<B> の位置を <C> 文字列中で <A> から探す	<C> . find ( <B> , <A> )	 <D> . find ( <C> , <B> , <A> ) 
+関数 <B> で <A> をマップする	map ( <B> , <A> )	 filter ( <B> , <A> ) 
+<C> の列 <b> をビン数を整数値 <A> としてビン分割する	pd . cut ( <C> [ <b> ] , <A> )	 pd . cut ( <C> [ <b> ] , <A> ) 
+オブジェクト <A> に <B> フィールドがあれば	if hasattr ( <A> , <B> ) :	 if hasattr ( <A> , <B> ) : 
+<A> の <B> フィールドを削除する	delattr ( <A> , <B> )	 getattr ( <A> , <B> ) 
+文字列 <A> の最初から空白を取り除く	<A> . lstrip ( )	 <A> . lstrip ( ) 
+位置と <a> 表属性を項目名として <C> と <B> 表をマージする	pd . merge ( <C> , <B> , left_index = True , right_on = <a> )	 pd . merge ( <C> , <B> , left_index = True , right_on = <a> ) 
+部分文字列 <A> を <B> 中で探す	<B> . find ( <A> )	 <C> . find ( <B> , <A> ) 
+ファイルパス <A> がファイルでない場合	if not os . path . isfile ( <A> ) :	 while not os . path . isfile ( <A> ) : 
+<B> の <a> をドロップして、置き換える	<B> . drop ( <a> , axis = 1 , inplace = True )	 <B> = <B> . drop ( <a> , axis = 1 ) 
+文字列 <A> について、正規表現 <B> でスプリットする	re . split ( <B> , <A> )	 print ( <B> , <A> ) 
+<a> 進数表記 <B> から整数に変換する	int ( <B> , <a> )	 float . int ( <B> , <a> ) 
+<A> 内で <B> を探す	<A> . find ( <B> )	 list ( <A> , <B> ) 
+<A> のプレフィックスが suffix 間	while <A> . startswith ( prefix ) :	 if <A> . startswith ( prefix ) : 
+オブジェクト <B> に属性 <A> があらないか	not hasattr ( <B> , <A> )	 not hasattr ( <B> , <A> ) 
+インデックスと <c> をキーとして表 <A> と <B> 表を結合する	pd . merge ( <A> , <B> , left_index = True , right_on = <c> )	 pd . merge ( <A> , <B> , left_index = True , right_on = <c> ) 
+<A> 中で部分文字列 <B> の位置を <C> から探す	<A> . find ( <B> , <C> )	 pd . cut ( <A> [ <B> , <C> ) 
+<A> の <b> が <c> より多いデータを抽出する	<A> [ <A> [ <b> ] >  <c> ]	 <D> [ <A> [ <b> ] > <c> ] 
+<A> でマッチした <B> の部分を <C> に置き換える	re . subn ( <A> , <B> , <C> )	 subn re . subn ( <A> , <B> , <C> ) 
+<B> が <A> より大きくなければ	if not <B> >  <A> :	 > not <B> > <A> : 
+もし文字列 <A> 全体に <B> 正規表現がマッチしなかったなら	if not re . fullmatch ( <B> , <A> ) :	 while not re . fullmatch ( <B> , <A> ) : 
+表データ <C> の <b> が <a> 以上のデータを抽出する	<C> [ <C> [ <b> ] >= <a> ]	 <D> [ <C> [ <b> ] >= <a> ] 
+表データ <A> の末尾の 5 行を表示する	<A> . tail ( )	 not <A> . tail ( ) 
+<A> の欠損値を含む行を消す	<A> . dropna ( )	 <B> . dropna ( ) 
+<B> が <A> 内で見つかった位置	<A> . index ( <B> )	 <A> . index ( <B> ) 
+文字列 <A> 内の <B> をカウントする	<A> . count ( <B> )	 <A> . count ( <B> ) 
+もしオブジェクト <A> がリストでないならば	if not isinstance ( <A> , list ) :	 open ( <A> , list ) : 
+もし <C> が <B> あるいは <A> ならば	if isinstance ( <C> , ( <B> , <A> ) ) :	 while isinstance . ( <C> , ( <B> , <A> ) ) : 
+もし <b> 才未満、また <a> 才以上のとき	if age <  <b> or age >= <a> :	 if age < <b> or age >= <a> : 
+本日の日付	datetime . date . today ( )	 datetime . now ( ) 
+もし <A> が偶数ならば	if <A> % 2 == 0 :	 if <A> % 2 == 0 : 
+ファイル名 <b> から <a> 区切りでデータフレームを読み込み、 <C> にする	<C> = pd . read_csv ( <b> , sep = <a> )	 pd . read_csv ( <b> , sep = <a> ) 
+<B> に対し、正規表現 <C> でマッチした部分を <A> に置き換える	re . sub ( <C> , <B> , <A> )	 title re . sub ( <C> , <B> , <A> ) 
+もしオブジェクト <A> がリストまたはタプルでないならば	if not isinstance ( <A> , ( list , tuple ) ) :	 while not isinstance ( list , ( <A> , tuple ) ) : 
+文字列 <A> の <B> を先頭から除去する	<A> . lstrip ( <B> )	 <A> . lstrip ( <B> ) 
+全結合で <A> と表データ <B> をマージする	pd . merge ( <A> , <B> , how = 'outer' )	 plt . pd . merge ( <A> , <B> , how = 'outer' ) 
+リスト <B> のそれぞれを文字列に変換し、文字列 <A> でジョインする	<A> . join ( str ( x ) for x in <B> )	 <A> . join ( str ( x ) for x in <B> ) 
+表 <A> の <b> と <c> ごとに <d> の値の和を計算する	<A> . groupby ( [ <b> , <c> ] ) [ <d> ] . sum ( )	 <A> . groupby ( [ <b> , <c> ] ) [ <d> ] . sum ( ) 
+表データ <A> 中の NaN の数	<A> . isnull ( ) . sum ( )	 math . isnull ( <A> ) . sum ( ) 
+<B> に <A> を加える	<B> | = <A>	 enumerate ( <A> , <B> ) 
+文字列 <B> が <A> で終わったら	if <B> . endswith ( <A> ) :	 if <B> . endswith ( <A> ) : 
+<A> 中に <B> がないかどうか	<A> . find ( <B> ) == -1	 <B> . find ( <A> ) == -1 
+表 <D> の <c> とカラム <b> ごとに <a> カラムの値の和を計算する	<D> . groupby ( [ <c> , <b> ] ) [ <a> ] . sum ( )	 <D> . groupby ( [ <c> , <b> ] ) [ <a> ] . sum ( ) 
+ビンのラベルを整数値として、 <C> の <b> をビン数を整数値 <A> としてビン分割する	pd . cut ( <C> [ <b> ] , <A> , label = False )	 pd . cut ( <C> [ <b> ] , <A> , label = False ) 
+<A> から <C> を <D> で <B> まで探す	<D> . rfind ( <C> , <B> , <A> )	 <D> . rfind ( <C> , <B> , <A> ) 
+<A> の始端が suffix であるでないか否か	not <A> . startswith ( prefix )	 not <A> . startswith ( prefix ) 
+リスト <A> からひとつランダムに選ぶ	random . choice ( <A> )	 random . choice ( <A> ) 
+数に <A> をする	float ( <A> )	 float ( <A> ) 
+表 <A> の <b> とカラム <c> と <d> について関係性を一度に描画する	sns . pairplot ( <A> [ [ <b> , <c> , <d> ] ] )	 plt . pairplot ( <A> [ [ <b> , <c> , <d> ] ] ) 
+表 <B> の <a> 行を表示する	<B> . head ( <a> )	 <B> . head ( <a> ) 
+<A> から部分文字列 <C> の位置を <D> 文字列内で <B> まで探す	<D> . rfind ( <C> , <B> , <A> )	 rfind <D> . rfind ( <C> , <B> , <A> ) 
+データフレーム <A> の <b> カラムと <c> を大きい順に整列する	<A> . sort_values ( [ <b> , <c> ] , ascending = False )	 pd . sort_values ( [ <A> , <b> , <c> ] , ascending = False ) 
+文字列 <A> 内で <B> が出現するか否か	<A> . find ( <B> ) >= 0	 if <A> . find ( <B> ) >= 0 : 
+表データ <A> の <b> コラムと <c> と <d> について関係性を一気に描く	sns . pairplot ( <A> [ [ <b> , <c> , <d> ] ] )	 plt . pairplot ( <A> [ [ <b> , <c> , <d> ] ] ) 
+表データ <C> の <b> 表属性と <a> を削除する	<C> . drop ( [ <b> , <a> ] , axis = 1 )	 <E> . drop ( [ <C> , <b> , <a> ] ] ) 
+位置と <a> をキーとして表データ <C> と <B> をマージする	pd . merge ( <C> , <B> , left_index = True , right_on = <a> )	 pd . merge ( <C> , <B> , left_index = True , right_on = <a> ) 
+<A> から <B> までの整数乱数	random . randrange ( <A> , <B> )	 int ( <A> , <B> ) 
+<B> が <A> 文字列内で出現するか否か	<A> . find ( <B> ) >= 0	 <B> . find ( <A> ) >= 0 
+データフレーム <B> のそれぞれのカラムにある <a> の個数の合計値を表示する	<B> . isin ( [ <a> ] ) . sum ( )	 <B> . isin ( [ <a> ] ) . sum ( ) 
+表 <B> の <a> をインデックスに設定する	<B> . set_index ( <a> )	 <B> . set_index ( <a> ) 
+グラフの色を"	plt . plot ( x , y , color = "	 all ( <A> ) 
+データフレーム <B> のカラム <a> を削除する	<B> . drop ( <a> , axis = 1 )	 map ( <B> , <a> ) 
+データフレーム <C> の <b> をビン数を整数値 <A> として要素数が等しくなるように分割する	pd . qcut ( <C> [ <b> ] , <A> )	 pd . qcut ( <C> [ <b> ] , <A> ) 
+表データ <D> の <c> と <b> と <a> について関係性を一気にプロットする	sns . pairplot ( <D> [ [ <c> , <b> , <a> ] ] )	 plt . pairplot ( <D> [ [ <c> , <b> , <a> ] ] ) 
+<A> 文字の空白で <B> 内のタブ記号を置換する	<B> . expandtabs ( <A> )	 <A> . expandtabs ( <B> ) 
+表 <A> のインデックス名を <b> から <c> にリネームする	<A> . rename ( index = { <b> : <c> } )	 <B> . rename ( index = { <b> : <c> } ) 
+<A> のそれぞれを文字列に変換し、 <B> で連結する	<B> . join ( str ( x ) for x in <A> )	 <A> . join ( str ( x ) for x in <B> ) 
+<B> のキー <A> のデータ	<B> [ <A> ]	 pow ( <A> , <B> ) 
+<A> を <B> で右から分ける	<A> . rsplit ( <B> )	 not <A> . rsplit ( <B> ) 
+<B> , <C> , <D> で書式 <A> を整形する	<A> . format ( <B> , <C> , <D> )	 <D> . format ( <C> , <B> , <A> ) 
+左外部結合で <A> 表と <B> を一つにまとめる	pd . merge ( <A> , <B> , how = 'left' )	 plt . pd . merge ( <A> , <B> , how = 'left' ) 
+<A> の上 <b> 行	<A> . head ( <b> )	 <A> . head ( <b> ) 
+<A> から <B> までのランダムな整数	random . randrange ( <A> , <B> )	 int ( <A> , <B> ) 
+<B> の <a> についての分散を表示する	<B> [ <a> ] . var ( )	 var <B> [ <a> ] . var ( ) 
+データフレーム <A> の <b> 表属性が <c> より少ないデータを抽出する	<A> [ <A> [ <b> ] <  <c> ]	 plt <A> [ <A> [ <b> ] < <c> ] 
+データフレーム <A> と <B> をマージする	pd . merge ( <A> , <B> )	 math . merge ( <A> , <B> ) 
+変換表 <A> で <B> の文字を変換する	<B> . translate ( <A> )	 <A> . translate ( <B> ) 
+表 <B> のコラム <a> を表示する	<B> [ <a> ]	 plt . hist ( <B> [ <a> ] ) 
+表データ <A> の表属性 <b> が <c> より小さいデータを抽出する	<A> [ <A> [ <b> ] <  <c> ]	 len <A> [ <A> [ <b> ] < <c> ] 
+もし <B> が <A> 中にあるならば	if <A> . find ( <B> ) >= 0 :	 >= <A> . find ( <B> ) >= 0 : 
+変換表 <B> で <A> の文字を翻訳する	<A> . translate ( <B> )	 <A> . translate ( <B> ) 
+表 <A> の NaN を <A> 表の平均値で埋める	<A> . fillna ( <A> . mean ( ) )	 math . <A> . fillna ( <A> . mean ( ) ) 
+色を e00RGB 値として、 <A> と <B> のグラフをプロットする	plt . plot ( <A> , <B> , color = ( e00 ) )	 plt . plot ( <A> , <B> , color = ( e00 ) ) 
+データフレーム <B> 中にある <a> を欠損値に置き換える	<B> . replace ( <a> , np . nan )	 pd . replace ( <B> , <a> ] , np . nan ) 
+表 <D> のコラム <c> と <b> ごとに <a> の値の合計を計算する	<D> . groupby ( [ <c> , <b> ] ) [ <a> ] . sum ( )	 <D> . groupby ( [ <c> , <b> ] ) [ <a> ] . sum ( ) 
+ヘッダーを指定せずに <a> を読む	pd . read_csv ( <a> , header = None )	 pd . read_csv ( <a> , header = None ) 
+区切り文字 <B> で <A> を分ける	<A> . split ( <B> )	 re . split ( <B> , <A> ) 
+表 <A> のコラム <b> と <c> を降順に整列する	<A> . sort_values ( [ <b> , <c> ] , ascending = False )	 pd . sort_values ( [ <A> , <b> , <c> ] , ascending = False ) 
+表 <A> の <b> コラムと <c> の相関	<A> [ [ <b> , <c> ] ] . corr ( )	 <A> [ [ <b> , <c> ] ] . corr ( ) 
+<A> 内で <C> から <B> の位置を探す	<A> . find ( <B> , <C> )	 isinstance ( <A> , ( <B> , <C> ) ) 
+<A> の表属性 <b> と <c> の相関係数	<A> [ [ <b> , <c> ] ] . corr ( )	 [ <A> [ <b> , <c> ] ] . corr ( ) 
+表データ <B> の <a> コラムを昇順に整列する	<B> . sort_values ( <a> )	 <B> . sort_values ( <a> ) 
+ビンのラベルを <A> として、データフレーム <D> の <c> コラムをビン数を <B> としてビン分割する	pd . cut ( <D> [ <c> ] , <B> , label = <A> )	 pd . cut ( <D> [ <c> ] , <B> , label = <A> ) 
+表データ <C> の <b> 列をビン数を <A> として要素数が等しくなるように分割する	pd . qcut ( <C> [ <b> ] , <A> )	 sns . qcut ( <C> [ <b> ] , <A> ) 
+<A> を <B> で分割する	<A> . split ( <B> )	 <A> . partition ( <B> ) 
+データフレーム <B> の最初の <a> 行	<B> . tail ( <a> )	 <B> . tail ( <a> ) 
+表 <B> の <a> のバリュー	<B> [ <a> ] . values	 <C> [ <B> [ <a> ] . values 
+表データ <A> の末尾 <b> 行を表示する	<A> . tail ( <b> )	 <A> . tail ( <b> ) 
+オブジェクト <A> が <B> プロパティを持つ間	while hasattr ( <A> , <B> ) :	 while hasattr ( <A> , <B> ) : 
+表 <B> 中にある <a> を欠損値に置き換える	<B> . replace ( <a> , np . nan )	 pd . replace ( <B> , <a> ] , np . nan ) 
+<B> が <A> 中にないか否か	<A> . find ( <B> ) == -1	 <B> . find ( <A> ) == -1 
+ビンの名前をリスト <D> として、 <A> の <b> コラムを分割数を <C> としてビン分割する	pd . cut ( <A> [ <b> ] , <C> , label = <D> )	 <D> . cut ( <A> [ <b> ] , <C> , label = <D> ) 
+表 <A> の <b> 列と <c> 列と列 <d> について関係性を一度に描写する	sns . pairplot ( <A> [ [ <b> , <c> , <d> ] ] )	 pd . pairplot ( <A> [ [ <b> , <c> , <d> ] ] ) 
+ファイル名 <a> からデータフレームをタブ区切りで読み込む	pd . read_csv ( <a> , sep = '\\\\t' )	 os . pd . read_csv ( <a> , sep = '\\\\t' ) 
+表 <C> のコラム <b> を分割数を整数値 <A> として分割する	pd . cut ( <C> [ <b> ] , <A> )	 re . sub ( <C> , <b> ] , <A> ) 
+表データ <B> の <a> を昇順に並べ直す	<B> . sort_values ( <a> )	 <B> . sort_values ( <a> ) 
+表 <A> の <b> と <c> を逆順にソートする	<A> . sort_values ( [ <b> , <c> ] , ascending = False )	 math . sort_values ( [ <A> , <b> , <c> ] , ascending = False ) 
+データフレーム <C> の列の名前を <b> から <a> に変更する	<C> . rename ( columns = { <b> : <a> } )	 <D> . rename ( columns = { <b> : <a> } ) 
+ビンの名前を <D> として、 <A> 表データのカラム <b> をビン数を整数値 <C> として分割する	pd . cut ( <A> [ <b> ] , <C> , label = <D> )	 <D> . cut ( <A> [ <b> ] , <C> , label = <D> ) 
+<B> 中で <A> が見つからなければ	if <B> . find ( <A> ) == -1 :	 <B> if <A> . find ( <A> ) == -1 : 
+ファイル <a> から <b> 区切りで表を読む	pd . read_csv ( <a> , sep = <b> )	 pd . read_csv ( <a> , sep = <b> ) 
+文字列 <A> 中で <B> 部分文字列を右から <C> まで探す	<A> . rfind ( <B> , <C> )	 pd . rfind ( <A> , <B> , <C> ) 
+<a> 区切りで表を <b> から読み、 <C> とする	<C> = pd . read_csv ( <b> , sep = <a> )	 pd . read_csv ( <C> , sep = <b> , sep = <a> ) 
+<C> 内に値 <B> が存在しなければ、その値を <A> にする	<C> . setdefault ( <B> , <A> )	 <D> . setdefault ( <C> , <B> , <A> ) 
+末尾から文字列 <B> 内で <A> の位置を探す	<B> . rfind ( <A> )	 <A> . rfind ( <B> ) 
+表 <B> にある <a> を NaN に置換する	<B> . replace ( <a> , np . nan )	 pd . replace ( <B> , <a> ] ) 
+保存用にファイルパス <A> を開く	open ( <A> , 'w' )	 'w' ( <A> , 'w' ) 
+文字列 <A> 内に <B> がないかどうか	<A> . find ( <B> ) == -1	 <B> . find ( <A> ) == -1 
+<B> を幅 <A> で右寄せする	<B> . ljust ( <A> )	 filter ( <B> , <A> ) 
+後ろから文字列 <A> 内で <B> 部分文字列を探す	<A> . rfind ( <B> )	 <A> . rfind ( <B> ) 
+<A> を整列した列	sorted ( <A> )	 min ( <A> ) 
+表 <D> の <c> が <b> または <a> のデータを抽出する	<D> [ <D> [ <c> ] . isin ( [ <b> , <a> ] ) ]	 <D> [ <D> [ <c> ] . isin ( [ <b> , <a> ] ) ] 
+<A> の <b> と <c> と <d> コラムについて関係性を一度にプロットする	sns . pairplot ( <A> [ [ <b> , <c> , <d> ] ] )	 plt . pairplot ( <A> [ [ <b> , <c> , <d> ] ] ) 
+もし <B> が <A> になくなかったら	if <A> . find ( <B> ) == -1 :	 if <A> . find ( <B> ) == -1 : 
+<B> が <A> に十分に近くないか	not math . isclose ( <B> , <A> )	 while not math . isclose ( <B> , <A> ) : 
+<A> の末尾 5 行を見る	<A> . tail ( )	 <A> . tail ( ) 
+ユーザが入力した文字列を <A> とする	<A> = input ( )	 input ( <A> ) 
+表データ <A> の <b> 列を中央値で分割する	pd . qcut ( <A> [ <b> ] , 2 )	 sns . pd . qcut ( <A> [ <b> ] , 2 ) 
+<B> の <a> をドロップする	<B> . drop ( [ <a> ] )	 delattr ( <B> , <a> ) 
+<C> から部分文字列 <B> を <A> 文字列内で end まで探す	<A> . find ( <B> , <C> )	 pd . find ( <C> , <B> , <A> ) 
+左外部結合で表 <A> と表 <B> をマージする	pd . merge ( <A> , <B> , how = 'left' )	 plt . pd . merge ( <A> , <B> , how = 'left' ) 
+<A> が浮動小数点数のとき	if isinstance ( <A> , float ) :	 while isinstance float ( <A> , float ) : 
+データフレーム <B> の <a> 列の出現回数	<B> [ <a> ] . value_counts ( )	 <a> <B> [ <a> ] . value_counts ( ) 
+表 <A> の <b> と表属性 <c> と <d> について関係性を一気に表示する	sns . pairplot ( <A> [ [ <b> , <c> , <d> ] ] )	 plt . pairplot ( <A> [ [ <b> , <c> , <d> ] ] ) 
+<A> が <B> 文字列中で最後に見つかった位置	<B> . rindex ( <A> )	 <A> . rindex ( <B> ) 
+<A> のカラム <b> が <c> より小さいデータを抽出する	<A> [ <A> [ <b> ] <  <c> ]	 <D> [ <A> [ <b> ] < <c> ] 
+<b> からカンマ区切りで表を読み込み、 <A> とする	<A> = pd . read_csv ( <b> , sep = ',' )	 <B> = pd . read_csv ( <A> , sep = ',' ) 
+書式 <D> を <C> , <B> , <A> で整形する	<D> . format ( <C> , <B> , <A> )	 <D> . format ( <D> , <C> , <B> , <A> ) 
+<B> を <A> 文字列内で後ろから探す	<A> . rfind ( <B> )	 <A> . rfind ( <B> ) 
+表データ <A> の欠損値がある行を消す	<A> . dropna ( )	 <B> . dropna ( ) 
+ビンの名前を <D> として、 <A> データフレームの <b> を分割数を整数値 <C> として分割する	pd . cut ( <A> [ <b> ] , <C> , label = <D> )	 <D> . cut ( <A> [ <b> ] , <C> , label = <D> ) 
+左外部結合で <A> と <B> 表データを一つにまとめる	pd . merge ( <A> , <B> , how = 'left' )	 'left' . pd . merge ( <A> , <B> , how = 'left' ) 
+<A> から <B> までの整数乱数	random . randint ( <A> , <B> )	 int ( <A> , <B> ) 
+関数 <A> で <B> の各要素をマップする	map ( <A> , <B> )	 filter ( <A> , <B> ) 
+<A> の正弦を確認する	math . sin ( <A> )	 math . sin ( <A> ) 
+<A> の順序を <B> から数える	enumerate ( <A> , <B> )	 random . count ( <A> , <B> ) 
+<B> の各要素を文字列 <A> で連結する	<A> . join ( <B> )	 '' . join ( <A> , <B> ) 
+ビンの名前を整数値として、 <C> 表の <b> をビン数を <A> 整数値としてビン分割する	pd . cut ( <C> [ <b> ] , <A> , label = False )	 pd . cut ( <C> [ <b> ] , <A> , label = False ) 
+<C> 中にエントリ <B> がなければ、そのエントリを <A> にする	<C> . setdefault ( <B> , <A> )	 <D> . setdefault ( <C> , <B> , <A> ) 
+レンジを <b> から <a> として、 <C> のヒストグラムを描く	plt . hist ( <C> , range = ( <b> , <a> ) )	 plt . hist ( <C> , range = ( <b> , <a> ) ) 
+<A> の接頭辞が suffix であるかどうか	<A> . startswith ( prefix )	 prefix . startswith ( prefix ) 
+ビンの名前をインデックスとして、表 <A> の <b> 列をビン数を <C> 整数値としてビン分割する	pd . cut ( <A> [ <b> ] , <C> , label = False )	 pd . cut ( <A> [ <b> ] , <C> , label = False ) 
+表データ <B> の前から <a> 行目まで	<B> [ : <a> ]	 <A> [ : <B> ] 
+表 <A> の表属性 <b> と <c> ごとに <d> の値の合計値を算出する	<A> . groupby ( [ <b> , <c> ] ) [ <d> ] . sum ( )	 sns . pairplot ( <A> [ [ <b> , <c> , <d> ] ] ) 
+辞書 <B> の <A> キーの値	<B> [ <A> ]	 divmod ( <B> , <A> ) [ 0 ] 
+ビンのラベルを <D> リストとして、 <A> 表の <b> コラムを分割数を整数値 <C> として分割する	pd . cut ( <A> [ <b> ] , <C> , label = <D> )	 <D> . cut ( <A> [ <b> ] , <C> , label = <D> ) 
+文字列 <B> が <A> で終わるならば	if <B> . endswith ( <A> ) :	 if <B> . endswith ( <A> ) : 
+<A> が真でない間	while not bool ( <A> ) :	 if not bool ( <A> ) : 
+データフレーム <B> の <a> 表属性をグループ化して、値ごとのデータの数	<B> . groupby ( <a> ) . size ( )	 <B> . groupby ( <a> ) . size ( ) 
+幅 <B> で <A> を中央寄せする	<A> . center ( <B> )	 <B> . center ( <A> ) 
+表データ <A> の列 <b> と列 <c> を降順に並べ直す	<A> . sort_values ( [ <b> , <c> ] , ascending = False )	 <B> . sort_values ( <A> [ <b> ] , <c> ] , ascending = False ) 
+文字列 <A> 中の <B> の数を数える	<A> . count ( <B> )	 <A> . count ( <B> ) 
+表データを <a> から <b> 区切りで読み込む	pd . read_csv ( <a> , sep = <b> )	 pd . read_csv ( <a> , sep = <b> ) 
+オブジェクト <A> にフィールド <B> があらなければ	if not hasattr ( <A> , <B> ) :	 while not hasattr ( <A> , <B> ) : 
+部分文字列 <B> を文字列 <A> で後ろから探す	<A> . rfind ( <B> )	 <A> . rfind ( <B> ) 
+オブジェクト <B> に <A> プロパティがある間	while hasattr ( <B> , <A> ) :	 while hasattr ( <B> , <A> ) : 
+表データ <A> の前から <b> 行目まで	<A> [ : <b> ]	 <A> [ : <b> ] 
+<A> が <B> 以下でないか	not <A> <= <B>	 if not <A> <= <B> : 
+棒グラフの位置を真ん中として、 <B> 軸を <B> とした <A> の棒グラフを描写する	plt . bar ( <B> , <A> , align = 'center' )	 pd . merge ( <B> , <A> , align = 'center' ) 
+<A> が属性 <B> を持つならば	if hasattr ( <A> , <B> ) :	 while hasattr ( <A> , <B> ) : 
+0 から <A> までの部分列	slice ( <A> )	 id ( <A> ) 
+部分文字列 <B> を <A> から <C> 文字列内で探す	<C> . find ( <B> , <A> )	 re . find ( <A> , <B> , <C> ) 
+もし <B> が <A> で発見されたなら	if <A> . find ( <B> ) >= 0 :	 if <A> . find ( <B> ) >= 0 : 
+<A> の少数を <B> 桁で丸めた整数値	round ( <A> , <B> )	 max ( <A> , <B> ) 
+文字列 <a> の文字数	len ( <a> )	 <D> . len ( <a> ) 
+データフレーム <B> 内のそれぞれのカラムにある <a> の個数の合計値を見る	<B> . isin ( [ <a> ] ) . sum ( )	 map ( <B> , <a> ] ) . sum ( ) 
+表データ <C> の列 <b> をビン数を整数値 <A> として要素数が等しくなるように分割する	pd . qcut ( <C> [ <b> ] , <A> )	 sns . qcut ( <C> [ <b> ] , <A> ) 
+もし <C> が <b> 未満、また <a> 以上であれば	if <C> <  <b> or <C> >= <a> :	 if <C> < <b> or <C> >= <a> : 
+もし <b> 才未満、あるいは <a> 才以上であるならば	if age <  <b> or age >= <a> :	 if age < <b> or age >= <a> : 
+もし <A> が <B> 文字列全体にマッチしなかったら	if not re . fullmatch ( <A> , <B> ) :	 while not re . fullmatch ( <A> , <B> ) : 
+インデックスと <a> 表属性をキーとして <C> と <B> を結合する	pd . merge ( <C> , <B> , left_index = True , right_on = <a> )	 pd . merge ( <C> , <B> , left_index = True , right_on = <a> ) 
+キー <A> が <B> 辞書にあるとき	if <A> in <B> :	 if <A> in <B> : 
+<B> について、 <C> 正規表現にマッチした箇所を <A> に置き換える	re . subn ( <C> , <B> , <A> )	 sns . re . subn ( <C> , <B> , <A> ) 
+表データ <C> の <b> カラムの名前を <a> にリネームする	<C> . rename ( columns = { <b> : <a> } )	 <D> . rename ( <C> [ <b> ] , <a> ] ) 
+文字列 <B> が <A> で終了するとき	if <B> . endswith ( <A> ) :	 if <B> . endswith ( <A> ) : 
+部分文字列 <B> の位置を <D> から文字列 <A> 内で <C> まで探す	<A> . rfind ( <B> , <C> , <D> )	 plt . rfind ( <A> , <B> , <C> , <D> ) 
+<B> が文字列 <A> にマッチするか否か	re . match ( <B> , <A> )	 re . match ( <B> , <A> ) 
+ファイル <A> を <b> モードででオープンする	open ( <A> , <b> )	 <A> open ( <b> , <a> ) 
+<A> の <b> 列と <c> 列の相関	<A> [ [ <b> , <c> ] ] . corr ( )	 [ <A> [ <b> , <c> ] ] . corr ( ) 
+正規表現 <B> が文字列 <A> にマッチすれば	if re . match ( <B> , <A> ) :	 while re . match ( <B> , <A> ) : 
+位置と <a> 列を項目名として <C> と <B> をマージする	pd . merge ( <C> , <B> , left_index = True , right_on = <a> )	 pd . merge ( <C> , <B> , left_index = True , right_on = <a> ) 
+表データ <A> 内の欠損値の数	<A> . isnull ( ) . sum ( )	 <A> . isnull ( ) . sum ( ) 
+表 <A> 内の NaN を <A> の平均値で埋める	<A> . fillna ( <A> . mean ( ) )	 math . <A> . fillna ( <A> . mean ( ) ) 
+<B> が <A> に等しいならば	if <B> == <A> :	 if <A> . == ( <B> ) : 
+<A> を読み込みモードでで開く	open ( <A> , 'r' )	 with open ( <A> , 'r' ) 
+<B> に属性 <A> があったなら	if hasattr ( <B> , <A> ) :	 while hasattr ( <B> , <A> ) : 
+<A> が有限か	math . isfinite ( <A> )	 math . isfinite ( <A> ) 
+表 <C> の <b> を境界値を <A> としてビン分割する	pd . cut ( <C> [ <b> ] , <A> )	 pd . cut ( <C> [ <b> ] , <A> ) 
+表 <A> 内にある <b> を NaN とする	<A> . replace ( <b> , np . nan )	 os . replace ( <A> , <b> ) 
+文字列 <A> 内で <C> から <B> 部分文字列を探す	<A> . find ( <B> , <C> )	 <D> . find ( <C> , <B> , <A> ) 
+<A> の文字を <B> で翻訳する	<A> . translate ( <B> )	 <A> . translate ( <B> ) 
+表 <D> のコラム <c> と <b> と <a> について関係性を一気に描く	sns . pairplot ( <D> [ [ <c> , <b> , <a> ] ] )	 plt . pairplot ( <D> [ [ <c> , <b> , <a> ] ] ) 
+<A> を並べる	sorted ( <A> )	 <A> . sort_index ( ) 
+<A> 中にある <b> を欠損とする	<A> . replace ( <b> , np . nan )	 list ( <A> , <b> ) 
+文字列 <B> 中で <A> が見つかるかどうか	<B> . find ( <A> ) >= 0	 <B> . find ( <A> ) >= 0 
+<A> 中に存在する <b> を NaN とする	<A> . replace ( <b> , np . nan )	 os . replace ( <A> , <b> ) 
+文字列 <B> 内に <A> がないかどうか	<B> . find ( <A> ) == -1	 <B> . find ( <A> ) == -1 
+表 <A> の最初の <b> 行を確認する	<A> . head ( <b> )	 <A> . head ( <b> ) 
+<B> を <A> だけ減少させる	<B> -= <A>	 map ( <A> , <B> ) 
+表 <C> の表属性 <b> ごとに <a> の個数をカウントする	<C> . groupby ( [ <b> ] ) [ <a> ] . count ( )	 <C> . groupby ( [ <b> ] ) [ <a> ] . count ( ) 
+ネイピア数	math . e	 os . mkdir ( <A> ) 
+データフレーム <B> の <a> を削除する	<B> . drop ( [ <a> ] )	 delattr ( <B> , <a> ) 
+表 <B> の <a> のそれぞれのデータの出現頻度	<B> [ <a> ] . value_counts ( )	 <B> [ <a> ] . value_counts ( ) 
+<A> の常用対数	math . log10 ( <A> )	 math . log10 ( <A> ) 
+ビンの名前を <A> リストとして、 <D> の <c> を分割数を <B> として分割する	pd . cut ( <D> [ <c> ] , <B> , label = <A> )	 pd . cut ( <D> [ <c> ] , <B> , label = <A> ) 
+表 <C> の表属性 <b> をビン数を <A> としてビンに含まれる個数が等しくなるようにビン分割する	pd . qcut ( <C> [ <b> ] , <A> )	 pd . qcut ( <C> [ <b> ] , <A> ) 
+データフレーム <A> の <b> についてのヒストグラムを描画する	plt . hist ( <A> [ <b> ] )	 sns . plt ( <A> [ <b> ] ) 
+表 <A> にある <b> を NaN とする	<A> . replace ( <b> , np . nan )	 os . replace ( <A> , <b> ) 
+表 <B> の <a> を消して、インプレースする	<B> . drop ( <a> , axis = 1 , inplace = True )	 <C> . drop ( <B> , <a> , inplace = True ) 
+データフレーム <A> 内の <b> を欠損値に置換し、欠損値が存在する行を消す	<A> . replace ( <b> , np . nan ) . dropna ( )	 <B> . replace ( <A> , np . nan ) . dropna ( ) 
+データフレーム <B> と <A> を縦方向で一つにまとめる	pd . concat ( [ <B> , <A> ] )	 <B> . concat ( [ <A> , <B> ] ) 
+文字列 <D> 中で <A> から <C> の位置を <B> まで探す	<D> . rfind ( <C> , <B> , <A> )	 rfind <D> . rfind ( <C> , <B> , <A> ) 
+文字列 <B> に対し、正規表現 <C> でマッチした部分文字列を <A> に置換する	re . sub ( <C> , <B> , <A> )	 title re . sub ( <C> , <B> , <A> ) 
+16 進文字列に <A> をする	<A> . hex ( )	 '' . hex ( <A> ) 
+データフレーム <A> のコラム <b> と <c> コラムを大きい順に並べ変える	<A> . sort_values ( [ <b> , <c> ] , ascending = False )	 sns . sort_values ( <A> [ <b> , <c> ] , ascending = False ) 
+<B> を区切り文字 <A> で区切った最初の部分	<B> . split ( <A> ) [ 0 ]	 <B> . split ( <A> ) [ 0 ] 
+文字列 <A> の接尾辞が <B> でない間	while not <A> . endswith ( <B> ) :	 x not <A> . endswith ( <B> ) : 
+表データ <A> の <b> カラムと <c> と <d> について関係性を一度にプロットする	sns . pairplot ( <A> [ [ <b> , <c> , <d> ] ] )	 pd . sns ( <A> [ [ <b> , <c> , <d> ] ] ) 
+部分文字列 <C> を <A> から <D> 文字列で <B> まで探す	<D> . rfind ( <C> , <B> , <A> )	 rfind <D> . rfind ( <C> , <B> , <A> ) 
+<A> の末尾の <b> 行を表示する	<A> . tail ( <b> )	 <A> . tail ( <b> ) 
+表データ <B> の <a> 列をドロップし、インプレースする	<B> . drop ( <a> , axis = 1 , inplace = True )	 <B> . drop ( <a> , axis = 1 , inplace = True ) 
+文字列 <B> の <A> を最後から取り除く	<B> . rstrip ( <A> )	 <A> . rstrip ( <B> ) 
+<A> を半分にする	<A> // = 2	 float ( <A> ) 
+データフレーム <C> の <b> ごとに <a> の平均値を計算する	<C> . groupby ( [ <b> ] ) [ <a> ] . mean ( )	 <C> . groupby ( [ <b> ] ) [ <a> ] . mean ( ) 
+<A> 内で <D> から <B> を <C> まで探す	<A> . rfind ( <B> , <C> , <D> )	 os . rfind ( <A> , <B> , <C> , <D> ) 
+<B> を <A> セパレータで分ける	<B> . split ( <A> )	 map ( <A> , <B> ) 
+部分文字列 <B> の位置を文字列 <A> 内で末尾から探す	<A> . rfind ( <B> )	 not <A> . rfind ( <B> ) 
+<B> がプロパティ <A> を持てば	if hasattr ( <B> , <A> ) :	 while hasattr ( <B> , <A> ) : 
+データフレーム <D> のコラム <c> が <b> または <a> のデータを抽出する	<D> [ <D> [ <c> ] . isin ( [ <b> , <a> ] ) ]	 <D> [ <D> [ <c> ] . isin ( [ <b> , <a> ] ) ] 
+データフレーム <A> のカラム名を <b> から <c> にリネームする	<A> . rename ( columns = { <b> : <c> } )	 re . rename ( <A> [ <b> ] , <c> ] ) 
+<A> の <b> が <c> より小さいデータを抽出する	<A> [ <A> [ <b> ] <  <c> ]	 len <A> [ <A> [ <b> ] < <c> ] 
+表 <C> の行名を <b> から <a> に変更する	<C> . rename ( index = { <b> : <a> } )	 <D> . rename ( index = { <b> : <a> } ) 
+<B> と <A> のノルム	math . hypot ( <B> , <A> )	 math . hypot ( <B> , <A> ) 
+<B> を <D> から <A> 中で <C> まで探す	<A> . rfind ( <B> , <C> , <D> )	 <B> . rfind ( <A> , <C> , <D> ) 
+<A> を <B> から番号付けする	enumerate ( <A> , <B> )	 enumerate ( <A> , <B> ) 
+<A> の少数部を切り捨てた整数値	math . trunc ( <A> )	 os . ceil ( <A> ) 
+<A> の前と末尾から <B> を取り除く	<A> . strip ( <B> )	 <A> . strip ( <B> ) 
+もし文字列 <A> に <B> 正規表現がマッチしなかったら	if not re . match ( <B> , <A> ) :	 while not re . match ( <B> , <A> ) : 
+<A> 中の NaN を <B> に置き換える	<A> . fillna ( <B> )	 <B> . fillna ( <A> ) 
+<b> を <a> 区切りで読み込み、 <C> に代入する	<C> = pd . read_csv ( <b> , sep = <a> )	 <C> = pd . read_csv ( <b> , sep = <a> ) 
+表データ <D> の <c> と <b> ごとにコラム <a> の値の和を求める	<D> . groupby ( [ <c> , <b> ] ) [ <a> ] . sum ( )	 os . groupby ( [ <D> [ <c> , <b> ] ] ) [ <a> ] . sum ( ) 
+<B> 内で右から部分文字列 <A> の位置を探す	<B> . rfind ( <A> )	 <B> . rfind ( <A> ) 
+<c> を項目名として、表データ <A> と <B> 表データをマージする	pd . merge ( <A> , <B> , on = <c> )	 pd . merge ( <A> , <B> , on = <c> ) 
+右から部分文字列 <B> の位置を文字列 <C> で <A> まで探す	<C> . rfind ( <B> , <A> )	 <D> . rfind ( <C> , <B> , <A> ) 
+<B> について、 <A> にマッチした部分を <C> に置換する	re . subn ( <A> , <B> , <C> )	 for re . subn ( <A> , <B> , <C> ) 
+文字列 <B> に対し、正規表現 <A> でマッチした部分を抽出する	re . findall ( <A> , <B> )	 not re . findall ( <A> , <B> ) 
+データフレーム <A> 内の NaN を <B> に置換する	<A> . fillna ( <B> )	 <B> . fillna ( <A> ) 
+ビンのラベルを <D> として、 <A> 表の <b> 列をビン数を <C> 整数値として分割する	pd . cut ( <A> [ <b> ] , <C> , label = <D> )	 <D> . cut ( <A> [ <b> ] , <C> , label = <D> ) 
+もし <A> が <b> 未満、あるいは <c> 以上であるならば	if <A> <  <b> or <A> >= <c> :	 >= <A> < <b> or <A> >= <c> : 
+文字列 <B> に <A> がマッチしないか	not re . match ( <A> , <B> )	 not re . match ( <A> , <B> ) 
+正規表現 <C> でマッチした <B> の部分文字列を <A> に置換する	re . subn ( <C> , <B> , <A> )	 re . subn ( <C> , <B> , <A> ) 
+リスト <A> から <b> 番目の要素を削除する	del ( <A> [ <b> ] )	 random . del ( <A> [ <b> ] ) 
+データフレーム <B> の <a> についての最頻値を調べる	<B> [ <a> ] . mode ( )	 <D> [ <B> [ <a> ] . mode ( ) 
+<A> と <B> が等しいとみなせるか否か	math . isclose ( <A> , <B> )	 not math . isclose ( <A> , <B> ) 
+<A> の <b> コラムの名前を <c> に、 <d> の名前を <e> に変更する	<A> . rename ( columns = { <b> : <c> , <d> : <e> } )	 re . rename ( <A> , <b> , <c> , <d> : <e> } ) 
+<A> 中の欠損値を直前の行の値で埋める	<A> . fillna ( method = 'ffill' )	 <A> . fillna ( method = 'ffill' ) 
+もし <B> に属性 <A> があった場合	if not hasattr ( <B> , <A> ) :	 for if not hasattr ( <B> , <A> ) : 
+オブジェクト <A> が <B> また <C> ならば	if isinstance ( <A> , ( <B> , <C> ) ) :	 min ( isinstance ( <A> , ( <B> , <C> ) ) 
+<A> が関数かどうか	callable ( <A> )	 math . gamma ( <A> ) 
+プログラムを実行した年	datetime . date . today ( ) . year	 datetime . datetime . date . today ( ) . year 
+表 <A> の <b> と <c> コラムごとに <d> の値の和を計算する	<A> . groupby ( [ <b> , <c> ] ) [ <d> ] . sum ( )	 <A> . groupby ( [ <b> , <c> ] ) [ <d> ] . sum ( ) 
+<B> の <a> を四分位数ごとで分割する	pd . qcut ( <B> [ <a> ] , 4 )	 pd . qcut ( <B> [ <a> ] , 4 ) 
+キー <B> が <A> 辞書にあるか	<B> in <A>	 <B> in <A> 
+表を <b> ファイルパスから <a> 区切りで読み込んで、 <C> とする	<C> = pd . read_csv ( <b> , sep = <a> )	 pd . read_csv ( <b> , sep = <a> ) 
+整数 <A> の <B> ビット長バイト列	<A> . to_bytes ( <B> )	 <A> . to_bytes ( <B> ) 
+プラットホーム依存せずにファイルパス <B> と <A> を結合する	os . path . join ( <B> , <A> )	 pd . merge ( <A> , <B> , how = 'left' ) 
+もし <B> が <A> フィールドを持てば	if hasattr ( <B> , <A> ) :	 if hasattr ( <B> , <A> ) : 
+<A> が英小文字か否か	<A> . islower ( )	 not <A> . islower ( ) 
+データフレーム <B> と <A> データフレームを一つにまとめる	pd . merge ( <B> , <A> )	 merge <B> . merge ( <A> , <B> ) 
+表 <D> の <c> と <b> とコラム <a> について関係性を一度に描く	sns . pairplot ( <D> [ [ <c> , <b> , <a> ] ] )	 plt . pairplot ( <D> [ [ <c> , <b> , <a> ] ] ) 
+ヘッダーを指定せずに <a> ファイル名を読む	pd . read_csv ( <a> , header = None )	 pd . read_csv ( <a> , header = None ) 
+ビンの名前を <A> リストとして、 <D> の列 <c> を分割数を <B> として分割する	pd . cut ( <D> [ <c> ] , <B> , label = <A> )	 pd . cut ( <D> [ <c> ] , <B> , label = <A> ) 
+<B> 全体に <A> 正規表現がマッチするか	re . fullmatch ( <A> , <B> )	 re . fullmatch ( <A> , <B> ) 
+<A> を 2 進数文字列にする	bin ( <A> )	 int ( <A> ) 
+位置と <a> を項目名として表 <C> と <B> を一つにまとめる	pd . merge ( <C> , <B> , left_index = True , right_on = <a> )	 pd . merge ( <C> , <B> , left_index = True , right_on = <a> ) 
+文字列 <A> の始端が suffix のとき	if <A> . startswith ( prefix ) :	 if <A> . startswith ( prefix ) : 
+インデックスと <a> を項目名としてデータフレーム <C> と <B> データフレームをマージする	pd . merge ( <C> , <B> , left_index = True , right_on = <a> )	 pd . merge ( <C> , <B> , left_index = True , right_on = <a> ) 
+文字列 <A> が識別子文字の場合	if <A> . isidentifier ( ) :	 if <A> . isidentifier ( ) : 
+標準入力から <a> 文字読む	sys . stdin . read ( <a> )	 sys . stdin . read ( <a> ) 
+表データ <A> の列 <b> をグループ化して、値ごとのデータの数を見る	<A> . groupby ( <b> ) . size ( )	 <A> . groupby ( <b> ) . size ( ) 
+<D> の <c> と <b> コラムと <a> についての箱ひげ図を描画する	plt . boxplot ( [ <D> [ <c> ] , <D> [ <b> ] , <D> [ <a> ] ] )	 int . boxplot ( [ <D> [ <c> ] , <D> [ <b> ] , <D> [ <a> ] ] ) 
+<b> ファイル名から <a> 区切りで表データを読んで、 <C> に代入する	<C> = pd . read_csv ( <b> , sep = <a> )	 <B> = pd . read_csv ( <a> , sep = <b> ) 
+<B> と <C> で <A> を整形する	<A> . format ( <B> , <C> )	 isinstance ( <C> , ( <B> , <A> ) ) 
+表データ <B> の <a> の各要素の出現頻度	<B> [ <a> ] . value_counts ( )	 <B> [ <a> ] . value_counts ( ) 
+データフレーム <B> の <a> を四分位数ごとでビン分割する	pd . qcut ( <B> [ <a> ] , 4 )	 pd . qcut ( <B> [ <a> ] , 4 ) 
+文字列 <A> で <B> 部分文字列を末尾から探す	<A> . rfind ( <B> )	 not <A> . rfind ( <B> ) 
+表 <A> 中にある <b> を欠損値に置換する	<A> . replace ( <b> , np . nan )	 int ( <A> , <b> ) 
+もし <A> が無限大でないとき	if not math . isinf ( <A> ) :	 while not math . isinf ( <A> ) : 
+<a> ファイル名のバイト数	os . path . getsize ( <a> )	 os . path . getsize ( <a> ) 
+<B> のそれぞれを <A> 文字列でジョインする	<A> . join ( <B> )	 map ( <A> , <B> ) 
+ビンのラベルをインデックスとして、 <A> のコラム <b> を分割数を <C> 整数値として分割する	pd . cut ( <A> [ <b> ] , <C> , label = False )	 pd . cut ( <A> [ <b> ] , <C> , label = False ) 
+表 <A> の <b> 列を四分位数ごとで分割する	pd . qcut ( <A> [ <b> ] , 4 )	 pd . qcut ( <A> [ <b> ] , 4 ) 
+<B> において、 <A> 正規表現にマッチした部分文字列を <C> にリプレースする	re . subn ( <A> , <B> , <C> )	 sns . re . subn ( <A> , <B> , <C> ) 
+<a> と <b> の和	<a> + <b>	 time . sleep ( <a> ) 
+<B> を <A> 文字列内で <C> から end まで探す	<A> . find ( <B> , <C> )	 re . find ( <A> , <B> , <C> ) 
+<C> の列名を <b> から <a> に変更する	<C> . rename ( columns = { <b> : <a> } )	 <C> . rename ( columns = { <b> : <a> } ) 
+<A> 内に <B> がある間	while <A> . find ( <B> ) >= 0 :	 <A> . find ( <B> ) >= 0 : 
+ユーザから入力された文字列	x = input ( )	 enumerate ( <A> ) 
+x 軸の軸ラベルを <a> とする	plt . xlabel ( <a> )	 plt . xlabel ( <a> ) 
+<A> を <b> 進数として自然数にする	int ( <A> , <b> )	 int ( <A> , <b> ) 
+文字列 <B> 全体に <A> がマッチするならば	if re . fullmatch ( <A> , <B> ) :	 if re . fullmatch ( <A> , <B> ) : 
+文字列 <A> の <B> の出現回数	<A> . count ( <B> )	 <A> . count ( <B> ) 
+表データ <B> の <a> を並べ変える	<B> . sort_values ( <a> )	 <B> . fillna ( <a> ) 
+データフレーム <A> 中の NaN を <A> の平均値で補う	<A> . fillna ( <A> . mean ( ) )	 fillna <A> . fillna ( <A> . mean ( ) ) 
+データフレーム <B> の <a> を NaN に置換し、 NaN が存在する行を消す	<B> . replace ( <a> , np . nan ) . dropna ( )	 <D> . replace ( <B> , <a> ] ) . dropna ( ) 
+表データ <A> 中の NaN を <B> とする	<A> . fillna ( <B> )	 os . fillna ( <A> , <B> ) 
+もし <A> が非数でないとき	if not math . isnan ( <A> ) :	 round ( <A> ) : 
+表データ <A> の <b> と列 <c> と <d> について関係性を一度に描画する	sns . pairplot ( <A> [ [ <b> , <c> , <d> ] ] )	 sns . pairplot ( <A> [ [ <b> , <c> , <d> ] ] ) 
+<A> のコラム <b> と <c> コラムとコラム <d> について関係性を一度に描画する	sns . pairplot ( <A> [ [ <b> , <c> , <d> ] ] )	 <E> . iloc [ [ <d> , <c> , <b> ] ] . pairplot ( ) 
+オブジェクト <B> にフィールド <A> がある間	while hasattr ( <B> , <A> ) :	 while hasattr ( <B> , <A> ) : 
+文字列 <A> を SJIS コードでバイト列に変換する	<A> . encode ( 'shift-jis' )	 <A> . encode ( 'shift-jis' ) 
+<A> の少数を切り上げた整数値	math . floor ( <A> )	 int ( <A> , <B> ) 
+カンマで <A> 文字列を区切る	<A> . split ( ',' )	 re . split ( <A> , ',' ) 
+<C> が <B> また <A> でないか	not isinstance ( <C> , ( <B> , <A> ) )	 not isinstance ( <C> , ( <B> , <A> ) ) 
+<a> 列を項目名として、 <C> と <B> をマージする	pd . merge ( <C> , <B> , on = <a> )	 pd . merge ( <C> , <B> , on = <a> ) 
+表 <B> の <a> を年月日の形式に変換する	pd . to_datetime ( <B> [ <a> ] , format = '%Y-%m-%d' )	 float ( <B> [ <a> ] , format = '%Y-%m-%d' ) 
+データフレーム <B> の <a> を整列する	<B> . sort_values ( <a> )	 <B> . sort_values ( <a> ) 
+文字列 <B> を <A> セパレータで右から分ける	<B> . rsplit ( <A> )	 <A> . rsplit ( <B> ) 
+<A> と <B> が等しくないかどうか	<A> != <B>	 math . isclose ( <A> , <B> ) 
+ファイルパス <A> があるならば	if os . path . exists ( <A> ) :	 if os . path . exists ( <A> ) : 
+データフレーム <A> の <b> コラムが <c> のデータを抽出する	<A> [ <A> [ <b> ] == <c> ]	 math <A> [ <A> [ <b> ] == <c> ] 
+表 <D> の <c> 列と <b> ごとに <a> の値の和を求める	<D> . groupby ( [ <c> , <b> ] ) [ <a> ] . sum ( )	 <D> . groupby ( [ <c> , <b> ] ) [ <a> ] . sum ( ) 
+辞書 <A> に <B> があるか否か	<B> in <A>	 <B> in <A> 
+z 座標	x 軸 = x 軸|グラフの x 軸| x 座標	 軸 = x 軸|グラフの x 軸| x 座標 
+表 <C> の <b> カラムの名前を <a> に変更する	<C> . rename ( columns = { <b> : <a> } )	 <C> . rename ( columns = { <b> : <a> } ) 
+もし <B> が <A> に近くないならば	if not math . isclose ( <B> , <A> ) :	 while not math . isclose ( <B> , <A> ) : 
+ビンのラベルをリスト <A> として、 <D> の <c> 列をビン数を整数値 <B> として分割する	pd . cut ( <D> [ <c> ] , <B> , label = <A> )	 <D> . cut ( <D> [ <c> ] , <B> , label = <A> ) 
+データフレーム <A> の <b> 列を四分位数ごとでビン分割する	pd . qcut ( <A> [ <b> ] , 4 )	 pd . qcut ( <A> [ <b> ] , 4 ) 
+表データ <A> の <b> と <c> をドロップする	<A> . drop ( [ <b> , <c> ] , axis = 1 )	 os . drop ( [ <A> , <b> , <c> ] , axis = 1 ) 
+<B> を幅 <A> でセンタリングする	<B> . center ( <A> )	 <B> . center ( <A> ) 
+表データ <A> の <b> のそれぞれのデータの出現回数	<A> [ <b> ] . value_counts ( )	 <A> [ <b> ] . value_counts ( ) 
+<B> の <A> から順序を数える	enumerate ( <B> , <A> )	 plt . enumerate ( <B> , <A> ) 
+表データ <A> のカラム <b> と <c> カラムとカラム <d> についての箱ひげ図を描く	plt . boxplot ( [ <A> [ <b> ] , <A> [ <c> ] , <A> [ <d> ] ] )	 int ( <A> [ <b> , <c> ] , <d> ] ] ) 
+<A> のコラム <b> ごとにコラム <c> の平均を求める	<A> . groupby ( [ <b> ] ) [ <c> ] . mean ( )	 list ( <A> [ <b> ] ) [ <c> ] . mean ( ) 
+グラフのサイズを <a> x6 と指定する	plt . figure ( figsize = ( <a> , 6 ) )	 sns . figure ( <D> [ <c> , <a> ] ] ) 
+文字列 <B> で <A> が見つからないかどうか	<B> . find ( <A> ) == -1	 <B> . find ( <A> ) == -1 
+<A> について、 <B> 正規表現でマッチした部分を抽出する	re . findall ( <B> , <A> )	 re . findall ( <B> , <A> ) 
+<B> , <C> , <D> でテンプレ <A> をフォーマットする	<A> . format ( <B> , <C> , <D> )	 <B> . format ( <A> , <C> , <D> ) 
+文字列 <B> 内で <A> 部分文字列の位置を末尾から探す	<B> . rfind ( <A> )	 <A> . rfind ( <B> ) 
+<A> を <B> セパレータで分ける	<A> . split ( <B> )	 re . split ( <A> , <B> ) 
+<a> から表データをタブ区切りで読み、 <B> とする	<B> = pd . read_csv ( <a> , sep = '\\\\t' )	 <A> = pd . read_csv ( <B> , sep = '\\\\t' ) 
+もし <a> 才未満、または <b> 才以上であるならば	if age <  <a> or age >= <b> :	 age if age < <a> or age >= <b> : 
+<A> 内の欠損を <A> 表データの平均値で補う	<A> . fillna ( <A> . mean ( ) )	 <D> . fillna ( <A> . mean ( ) ) 
+<B> が <A> に等しいとみなせるか	math . isclose ( <B> , <A> )	 math . isclose ( <B> , <A> ) 
+ファイルパス <A> を書き込みモードで開く	open ( <A> , 'w' )	 with open ( <A> , 'w' ) 
+<b> から表をカンマ区切りで読み込み、 <A> にする	<A> = pd . read_csv ( <b> , sep = ',' )	 <B> = pd . read_csv ( <A> , sep = ',' ) 
+もし <A> が <B> で終了しな場合	if not <A> . endswith ( <B> ) :	 while not <A> . endswith ( <B> ) : 
+部分文字列 <B> を <A> 中で探す	<A> . find ( <B> )	 <D> . find ( <B> , <A> ) 
+文字列 <A> 中で <D> から <B> 部分文字列の位置を <C> まで探す	<A> . rfind ( <B> , <C> , <D> )	 math . rfind ( <A> , <B> , <C> , <D> ) 
+<C> の <b> ごとに <a> 表属性の数をカウントする	<C> . groupby ( [ <b> ] ) [ <a> ] . count ( )	 setattr ( <C> [ <b> ] , <a> ] ) 
+<B> の位置を <A> 中で探す	<A> . find ( <B> )	 list ( <A> , <B> ) 
+表データ <B> の <a> 表属性のバリュー	<B> [ <a> ] . values	 <C> [ <B> [ <a> ] . values 
+文字列 <B> で <A> を末尾から探す	<B> . rfind ( <A> )	 <A> . rfind ( <B> ) 
+<B> にプロパティ <A> があるか	hasattr ( <B> , <A> )	 getattr ( <B> , <A> ) 
+<B> の末尾の <a> 行	<B> . tail ( <a> )	 <a> . tail ( <B> ) 
+文字列 <B> 内の <A> を全て	<B> . replace ( <A> , s2 )	 s2 . replace ( <A> , <B> , s2 ) 
+データフレーム <A> とデータフレーム <B> を結合する	pd . merge ( <A> , <B> )	 math . merge ( <A> , <B> ) 
+<A> から文字列 <C> 内で <B> 部分文字列を end まで探す	<C> . find ( <B> , <A> )	 setattr ( <C> , <B> , <A> ) 
+右から <A> 文字列中で <B> の位置を探す	<A> . rfind ( <B> )	 rfind <A> . rfind ( <B> ) 
+表 <B> の末尾の <a> 行	<B> . tail ( <a> )	 <a> . tail ( <B> ) 
+<B> が <A> で割り切れたなら	if <B> % <A> == 0 :	 if <B> % <A> != 0 : 
+データフレーム <B> のカラム <a> のユニークな要素の個数	<B> [ <a> ] . nunique ( )	 not <B> [ <a> ] . nunique ( ) 
+表 <A> のカラム <b> を中央値で分割する	pd . qcut ( <A> [ <b> ] , 2 )	 pd . qcut ( <A> [ <b> ] , 2 ) 
+文字列 <A> を SJIS コードでバイト列にする	<A> . encode ( 'shift-jis' )	 <A> . encode ( 'shift-jis' ) 
+<B> と <A> が等しくなかった場合	if <B> != <A> :	 nan if <B> != <A> : 
+サイコロを振った値	random . randint ( 1 , 6 )	 round ( 1 , 6 ) 
+辞書 <A> のエントリ数	len ( <A> )	 <A> . len ( ) 
+データフレーム <A> の 5 行	<A> . head ( )	 math . head ( <A> ) 
+表データ <A> の <b> と <c> ごとに <d> の値の合計値を求める	<A> . groupby ( [ <b> , <c> ] ) [ <d> ] . sum ( )	 <A> . groupby ( [ <b> , <c> ] ) [ <d> ] . sum ( ) 
+データフレーム <C> の <b> をビン数を整数値 <A> として分割する	pd . cut ( <C> [ <b> ] , <A> )	 pd . cut ( <C> [ <b> ] , <A> ) 
+<A> 内に現れる <B> を数える	<A> . count ( <B> )	 <A> . count ( <B> ) 
+<A> のカラム <b> をグループ化して、値ごとのデータ数	<A> . groupby ( <b> ) . size ( )	 <A> . groupby ( <b> ) . size ( ) 
+表 <A> の <b> 列を位置とする	<A> . set_index ( <b> )	 <A> . set_index ( <b> ) 
+<a> をキーとして、データフレーム <C> と <B> データフレームを一つにまとめる	pd . merge ( <C> , <B> , on = <a> )	 pd . merge ( <C> , <B> , on = <a> ) 
+<A> が <B> 文字列にマッチしないか	not re . match ( <A> , <B> )	 <B> not re . match ( <A> , <B> ) 
+<A> の始まりが suffix であるでない間	while not <A> . startswith ( prefix ) :	 != <A> . startswith ( prefix ) : 
+<A> の <b> についてのヒストグラムをプロットする	plt . hist ( <A> [ <b> ] )	 tuple plt . hist ( <A> [ <b> ] ) 
+ハッシュ表 <A> に項目名 <B> があるとき	if <B> in <A> :	 if <A> in <B> : 
+もし <b> 才未満、または <a> 才以上ならば	if age <  <b> or age >= <a> :	 if age < <b> or age >= <a> : 
+0 から <A> 未満までのランダム整数	random . randrange ( <A> )	 int . randrange ( <A> ) 
+もし <B> が <A> で終了すれば	if <B> . endswith ( <A> ) :	 if not <B> . endswith ( <A> ) : 
+表 <B> の <a> の各要素の出現頻度	<B> [ <a> ] . value_counts ( )	 <B> [ <a> ] . value_counts ( ) 
+<A> 中にある <b> を NaN とする	<A> . replace ( <b> , np . nan )	 os . replace ( <A> , <b> ) 
+グラフのサイズを横 <a> 縦 <b> に変更する	plt . figure ( figsize = ( <a> , <b> ) )	 age . figure ( figsize = ( <a> , <b> ) ) 
+ビンの名前をリスト <A> として、 <D> の列 <c> をビン数を <B> として分割する	pd . cut ( <D> [ <c> ] , <B> , label = <A> )	 pd . cut ( <D> [ <c> ] , <B> , label = <A> ) 
+<A> の年	<A> . year	 id ( <A> ) 
+表 <A> とデータフレーム <B> をマージする	pd . merge ( <A> , <B> )	 sns . pd . merge ( <A> , <B> ) 
+<A> を切り捨てた整数値	math . trunc ( <A> )	 math . ceil ( <A> ) 
+Python を正常に終了する	sys . exit ( )	 print ( "Hello World" ) 
+後ろから <B> 中で <A> を探す	<B> . rfind ( <A> )	 <A> . rfind ( <B> ) 
+整数値 <B> の <A> ビット長バイト列	<B> . to_bytes ( <A> )	 <A> . to_bytes ( <B> ) 
+データフレーム <A> のカラム <b> と <c> と <d> について関係性を一度に描画する	sns . pairplot ( <A> [ [ <b> , <c> , <d> ] ] )	 plt . pairplot ( <A> [ [ <b> , <c> , <d> ] ] ) 
+カンマ区切りで <b> ファイル名から表を読み込んで、 <A> とする	<A> = pd . read_csv ( <b> , sep = ',' )	 <B> = pd . read_csv ( <A> , sep = ',' ) 
+文字列 <B> に対し、 <A> で分ける	re . split ( <A> , <B> )	 if re . split ( <A> , <B> ) : 
+データフレーム <A> の <b> と <c> を逆順に並べる	<A> . sort_values ( [ <b> , <c> ] , ascending = False )	 math . sort_values ( [ <A> , <b> , <c> ] , ascending = False ) 
+文字列 <A> を空白で区切った最初の文字列	<A> . split ( ) [ 0 ]	 <B> . split ( <A> ) [ 0 ] 
+数 <A> が整数かどうか	<A> . is_integer ( )	 <A> . is_integer ( ) 
+<C> の <b> コラムと <a> を大きい順に並べる	<C> . sort_values ( [ <b> , <a> ] , ascending = False )	 <D> . sort_values ( <C> , [ <b> , <a> ] ] , ascending = False ) 
+文字列 <B> から接尾辞 <A> を取り除く	<B> . removesuffix ( <A> )	 <A> . removesuffix ( <B> ) 
+データフレーム <C> の <b> 列ごとに <a> の平均値を算出する	<C> . groupby ( [ <b> ] ) [ <a> ] . mean ( )	 <C> . groupby ( [ <b> ] ) [ <a> ] . mean ( ) 
+ハッシュ表 <A> の項目名一覧	<A> . keys ( )	 <A> . items ( ) 
+<a> ファイル名からカンマ区切りで表データを読み、 <B> にする	<B> = pd . read_csv ( <a> , sep = ',' )	 <B> = pd . read_csv ( <a> , sep = ',' ) 
+バイナリモードでファイル <A> をオープンする	open ( <A> , 'b' )	 'b' ( <A> , 'b' ) 
+データフレーム <A> の <b> 行を見る	<A> . head ( <b> )	 <A> . head ( <b> ) 
+<A> が <B> より小さいかどうか	<A> <  <B>	 <B> < <A> 
+<B> が <A> 文字列中にあるか	<A> . find ( <B> ) >= 0	 isinstance ( <B> , <A> ) 
+<A> の総和	sum ( <A> )	 type ( <A> ) 
+表データ <A> のカラム <b> と <c> カラムと <d> について関係性を一度に描写する	sns . pairplot ( <A> [ [ <b> , <c> , <d> ] ] )	 pd . sns ( <A> [ [ <b> , <c> , <d> ] ] ) 
+<B> の <a> をダミー変数化する	pd . get_dummies ( <B> [ <a> ] )	 os . pd . get_dummies ( <B> [ <a> ] ) 
+データフレーム <B> の <a> を抽出する	<B> [ <a> ]	 <A> [ <B> ] 
+<C> の <b> と <a> を降順にソートする	<C> . sort_values ( [ <b> , <a> ] , ascending = False )	 <D> . sort_values ( <C> [ <b> , <a> ] , ascending = False ) 
+書き込み用にファイル名 <A> を開く	open ( <A> , 'w' )	 open ( <A> , 'w' ) 
+文字列 <A> について、 <B> 正規表現で分ける	re . split ( <B> , <A> )	 print ( <B> , <A> ) 
+文字列 <A> 中で <B> が見つかった位置	<A> . index ( <B> )	 if <A> . index ( <B> ) : 
+<D> の <c> 表属性と表属性 <b> と <a> について関係性を一気にプロットする	sns . pairplot ( <D> [ [ <c> , <b> , <a> ] ] )	 pd . sns ( <D> [ [ <c> , <b> , <a> ] ] ) 
+パス <A> がディレクトリでないならば	if not os . path . isdir ( <A> ) :	 if not os . path . isdir ( <A> ) : 
+表データ <E> のカラム名を <d> から <c> に、 <b> から <a> にリネームする	<E> . rename ( columns = { <d> : <c> , <b> : <a> } )	 <C> . rename ( columns = { <b> : <c> , <a> } ) 
+<A> の <b> と <c> と <d> についての箱ひげ図をプロットする	plt . boxplot ( [ <A> [ <b> ] , <A> [ <c> ] , <A> [ <d> ] ] )	 int ( <A> [ <b> , <c> ] , <d> ] ] ) 
+表 <A> 中の欠損値をデータフレーム <A> の平均値で埋める	<A> . fillna ( <A> . mean ( ) )	 <B> . fillna ( <A> . mean ( ) ) 
+<A> にある <b> を NaN とする	<A> . replace ( <b> , np . nan )	 os . replace ( <A> , <b> ) 
+文字列 <B> 中の <A> の数をカウントする	<B> . count ( <A> )	 <A> . count ( <B> ) 
+<B> 中で <A> が見つからないか	<B> . find ( <A> ) == -1	 <B> . find ( <A> ) == -1 
+<A> と <B> を改行せず出力する	print ( <A> , <B> , end = '' )	 , print = <A> , <B> , end = '' ) 
+<A> を幅 <B> で中央寄せする	<A> . center ( <B> )	 math . center ( <A> , <B> ) 
+ハッシュ表 <A> の項目一覧	<A> . items ( )	 <A> . items ( ) 
+<A> を <B> との排他論理和にする	<A> ^ = <B>	 <A> | = <B> . drop ( <a> , axis = 1 ) 
+<A> が <B> にマッチしないか	not re . match ( <A> , <B> )	 <B> not re . match ( <A> , <B> ) 
+表データ <A> の <b> についての中央値	<A> [ <b> ] . median ( )	 <A> [ <b> ] . median ( ) 
+<A> が <B> 内にないか否か	<B> . find ( <A> ) == -1	 <B> . find ( <A> ) == -1 
+部分文字列 <A> を文字列 <B> で後ろから探す	<B> . rfind ( <A> )	 <A> . rfind ( <B> ) 
+<A> の平均値	<A> . mean ( )	 len ( <A> ) / len ( <A> ) 
+表 <D> の <c> と <b> 列と <a> について関係性を一気に描く	sns . pairplot ( <D> [ [ <c> , <b> , <a> ] ] )	 plt . pairplot ( <D> [ [ <c> , <b> , <a> ] ] ) 
+<b> 才未満、または <a> 才以上の場合	if age <  <b> or age >= <a> :	 if age < <b> or age >= <a> : 
+<B> の <a> についての箱ひげ図を描画する	plt . boxplot ( <B> [ <a> ] )	 plt . boxplot ( <B> [ <a> ] ) 
+ビンの名前を <A> として、表 <D> の <c> を分割数を整数値 <B> として分割する	pd . cut ( <D> [ <c> ] , <B> , label = <A> )	 pd . cut ( <D> [ <c> ] , <B> , label = <A> ) 
+もし <A> が文字列 <B> にマッチしないならば	if not re . match ( <A> , <B> ) :	 while not re . match ( <A> , <B> ) : 
+表 <D> の <c> と <b> と <a> 表属性について関係性を一気にプロットする	sns . pairplot ( <D> [ [ <c> , <b> , <a> ] ] )	 plt . pairplot ( <D> [ [ <c> , <b> , <a> ] ] ) 
+ビンのラベルを <D> として、 <A> データフレームのコラム <b> をビン数を整数値 <C> としてビン分割する	pd . cut ( <A> [ <b> ] , <C> , label = <D> )	 <D> . cut ( <A> [ <b> ] , <C> , label = <D> ) 
+表データ <C> の <b> をビン数を整数値 <A> として分割する	pd . cut ( <C> [ <b> ] , <A> )	 re . sub ( <C> , <b> ] , <A> ) 
+<A> の <B> から開始する順序付けされた列	enumerate ( <A> , <B> )	 random . enumerate ( <A> , <B> ) 
+部分文字列 <B> を <A> 内で後ろから <C> まで探す	<A> . rfind ( <B> , <C> )	 <A> . rfind ( <B> , <C> ) 
+<B> が <A> 文字列中で発見される間	while <A> . find ( <B> ) >= 0 :	 if <A> . find ( <B> ) >= 0 : 
+ファイル <b> から <c> 区切りで表を読み、 <A> とする	<A> = pd . read_csv ( <b> , sep = <c> )	 <A> = pd . read_csv ( <b> , sep = <c> ) 
+<c> をキーとして、 <A> と <B> をマージする	pd . merge ( <A> , <B> , on = <c> )	 sns . pd . merge ( <A> , <B> , on = <c> ) 
+もし文字列 <A> 内に <B> があるとき	if <A> . find ( <B> ) >= 0 :	 isclose <A> . find ( <B> ) >= 0 : 
+<C> の <b> カラムごとに <a> の平均を算出する	<C> . groupby ( [ <b> ] ) [ <a> ] . mean ( )	 <C> . groupby ( [ <b> ] ) [ <a> ] . mean ( ) 
+もし <A> が <b> 未満、かつ 160 以上であるならば	if <A> <  <b> and <A> >= 60 :	 < <A> >= <b> and <A> >= 60 : 
+<c> を項目名として、 <A> と <B> データフレームをマージする	pd . merge ( <A> , <B> , on = <c> )	 sns pd . merge ( <A> , <B> , on = <c> ) 
+表 <A> を位置で並べ変える	<A> . sort_index ( )	 <A> . sort_index ( ) 
+<A> の <b> をインデックスとして設定する	<A> . set_index ( <b> )	 <A> . set_index ( <b> ) 
+<B> が <A> で割り切れれば	if <B> % <A> == 0 :	 if <B> % <A> == 0 : 
+文字列 <A> が英大文字とき	if <A> . isupper ( ) :	 <A> . isupper ( ) 
+<A> の末尾が <B> であるか	<A> . endswith ( <B> )	 not <A> . endswith ( <B> ) 
+辞書 <A> の <B> 項目名を参照した値	<A> [ <B> ]	 dict <A> [ <B> ] 
+データフレーム <A> の <b> と <c> 列と <d> について関係性を一度に描く	sns . pairplot ( <A> [ [ <b> , <c> , <d> ] ] )	 pd . sns ( <A> [ [ <b> , <c> , <d> ] ] ) 
+区切り文字 <B> で <A> を右から分ける	<A> . rsplit ( <B> )	 not <A> . rsplit ( <B> ) 
+<B> 中の <A> の出現回数	<B> . count ( <A> )	 <A> . count ( <B> ) 
+コラム <A> の中央値を確認する	<A> . median ( )	 <A> . median ( ) 
+データフレーム <A> を位置でソートする	<A> . sort_index ( )	 <A> . sort_index ( ) 
+データフレーム <A> の <b> が <c> 以上のデータを抽出する	<A> [ <A> [ <b> ] >= <c> ]	 <D> [ <A> [ <b> ] >= <c> ] 
+文字列 <A> に正規表現 <B> がマッチしなければ	if not re . match ( <B> , <A> ) :	 while not re . match ( <B> , <A> ) : 
+<B> の <A> を全て	<B> . replace ( <A> , s2 )	 all ( <A> , <B> ) 
+表データ <A> に重複があるか確認する	<A> . duplicated ( )	 <A> . duplicated ( ) 
+表データ <A> の <b> 表属性についてのヒストグラムを描写する	plt . hist ( <A> [ <b> ] )	 tuple plt . hist ( <A> [ <b> ] ) 
+x 軸の軸ラベルを <a> と設定する	plt . xlabel ( <a> )	 plt . xlabel ( <a> ) 
+<B> の終端が <A> であるでないとき	if not <B> . endswith ( <A> ) :	 if not <B> . endswith ( <A> ) : 
+<A> を SJIS コードでバイト列に変換する	<A> . encode ( 'shift-jis' )	 map . encode ( <A> , <B> ) 
+<A> の接頭辞が suffix であるでないかどうか	not <A> . startswith ( prefix )	 while not <A> . startswith ( prefix ) : 
+<D> の <c> と <b> ごとに <a> の値の合計値を算出する	<D> . groupby ( [ <c> , <b> ] ) [ <a> ] . sum ( )	 <D> . groupby ( [ <c> , <b> ] ) [ <a> ] . sum ( ) 
+列 <B> の各要素を関数 <A> でフィルタする	filter ( <A> , <B> )	 filter ( <A> , <B> ) 
+リスト <B> のそれぞれを文字列に変換し、 <A> でジョインする	<A> . join ( str ( x ) for x in <B> )	 <B> . join ( str ( x ) for x in <A> ) 
+色を <A> として、 <C> と <B> のグラフを描く	plt . plot ( <C> , <B> , color = ( <A> ) )	 plt . plot ( <C> , <B> , color = ( <A> ) ) 
+文字列 <A> 中に <B> があるならば	if <A> . find ( <B> ) >= 0 :	 if <A> . find ( <B> ) >= 0 : 
+<B> に属性 <A> がある間	while hasattr ( <B> , <A> ) :	 while hasattr ( <B> , <A> ) : 
+<B> と体重 <A> から BMI を調べる	<A> / ( <B> / 100 ) ** 2	 <A> / ( <B> / 100 ) ** 2 
+文字列 <A> の最初から文字列 <B> を取り除く	<A> . removeprefix ( <B> )	 <A> . removeprefix ( <B> ) 
+表データ <D> の <c> コラムと <b> と <a> について関係性を一気に描く	sns . pairplot ( <D> [ [ <c> , <b> , <a> ] ] )	 plt . pairplot ( <D> [ [ <c> , <b> , <a> ] ] ) 
+<A> が小文字か	<A> . islower ( )	 if <A> . islower ( ) : 
+列番号 <b> を位置として <a> ファイル名を読み込む	pd . read_csv ( <a> , index_col = <b> )	 pd . read_csv ( <b> , index_col = <a> ) 
+<a> 区切りで <b> からデータフレームを読み込み、 <C> とする	<C> = pd . read_csv ( <b> , sep = <a> )	 <E> = pd . read_csv ( <b> , sep = <a> ) 
+リスト <A> のそれぞれを <B> 文字列で連結する	<B> . join ( <A> )	 '' . join ( <B> , <A> ) 
+逆順に <A> を並べ直した列	sorted ( <A> , reverse = True )	 reversed ( <A> , reverse = True ) 
+表データ <A> のカラム <b> を位置とする	<A> . set_index ( <b> )	 <A> . set_index ( <b> ) 
+表データ <A> の列 <b> と <c> 列を降順に整列する	<A> . sort_values ( [ <b> , <c> ] , ascending = False )	 pd . merge ( <A> [ <b> , <c> ] , ascending = False ) 
+表 <B> の <a> コラムを中央値で分割する	pd . qcut ( <B> [ <a> ] , 2 )	 <B> . pd . qcut ( <a> , 2 ) 
+データフレーム <A> の <b> を分割数を <C> として分割する	pd . cut ( <A> [ <b> ] , <C> )	 re . sub ( <A> , <b> ] , <C> ) 
+文字列 <A> を空白で区切った最初の部分	<A> . split ( ) [ 0 ]	 math . split ( <A> ) [ 0 ] 
+もし <A> と <B> が等しいとみなせなかった場合	if not math . isclose ( <A> , <B> ) :	 isclose not math . isclose ( <A> , <B> ) : 
+表データ <A> 中の欠損値を <A> の平均値で補う	<A> . fillna ( <A> . mean ( ) )	 math . <A> . fillna ( <A> . mean ( ) ) 
+<C> , <B> , <A> で <D> を整形する	<D> . format ( <C> , <B> , <A> )	 min ( <D> , <C> , <B> , <A> ) 
+ビンの名前をリスト <D> として、表データ <A> の <b> を分割数を <C> として分割する	pd . cut ( <A> [ <b> ] , <C> , label = <D> )	 <D> . cut ( <A> [ <b> ] , <C> , label = <D> ) 
+<A> と <B> が近似できる場合	if math . isclose ( <A> , <B> ) :	 while math . isclose ( <A> , <B> ) : 
+<B> の <a> をグループ化して、値ごとのデータ数を調べる	<B> . groupby ( <a> ) . size ( )	 <B> . groupby ( <a> ) . size ( ) 
+文字列 <A> に <B> がある間	while <A> . find ( <B> ) >= 0 :	 if <A> . find ( <B> ) >= 0 : 

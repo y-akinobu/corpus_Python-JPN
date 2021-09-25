@@ -1,0 +1,58 @@
+<A> [ <B> : 106 ]	 <A> [ <B> : 106 ] 
+<A> [ <B> ] = <A> [ <C> ] . rolling ( <D> = <E> ) . mean ( )	 <A> = <A> [ <B> , <C> ] . mean ( ) 
+plt . show ( )	 plt . savefig ( <A> ) 
+<A> . head ( <B> )	 <A> . head ( <B> ) 
+<A> . describe ( )	 <A> . groupby ( [ <B> , <A> ] ) 
+<A> [ <B> ] . unique ( )	 <A> [ <B> ] . unique ( ) 
+<E> . iloc [ [ <D> , <C> , <B> ] , [ <A> , <C> ] ]	 <E> . iloc [ [ [ <C> , <B> , <D> , <D> ] , <C> , <E> , <E> , <A> ] ]
+<B> = <B> . replace ( <A> , np . nan ) . dropna ( )	 <B> . dropna ( subset = [ <A> ] , axis = 0 , inplace = True ) 
+<A> . to_csv ( <B> , encoding = 'utf-8' )	 <A> . to_csv ( <B> , encoding = 'utf-8' ) 
+<A> = pd . read_csv ( './data/lunch_box.csv' , sep = ',' )	 <A> = pd . read_csv ( './data/lunch_box.csv' , sep = ',' ) 
+plt . title ( <A> )	 plt . xlabel ( <A> ) 
+dummy_df = pd . get_dummies ( <A> , columns = [ <B> , <C> , <D> , <E> , <F> ] )	 <A> = pd . get_dummies ( df , columns = [ <B> , <C> , <D> , <D> ] ) 
+<A> . dtypes	 <A> . columns 
+<A> . drop_duplicates ( )	 <A> . drop ( [ <B> ] , axis = 1 , inplace =
+<B> . head ( <A> )	 <B> . head ( <A> ) 
+<B> [ <A> ] . value_counts ( )	 <B> [ <A> ] . value_counts ( ) 
+plt . bar ( <A> , <B> , align = 'center' , width = <C> )	 plt . bar ( <C> , <B> , align = 'center' , width = 'center' , width = 'center' ) 
+<A> <B> = pd . to_datetime ( <A> <B> , format = '%Y-%m-%d' )	 <A> = <B> [ <A> ] . rolling ( <B> , <C> ) 
+plt . plot ( <A> , <B> , label = <C> )	 plt . plot ( <C> , <B> , label = <A> ) 
+import <C> <B> as <A>	 import <C> <B> as <A> 
+<A> . shape	 <A> . index ( ) 
+df . plot ( kind = 'hist' , <A> = <B>   , bins = <C> , figsize = ( <D> , <E> ) , alpha = <F> )	 df . plot ( kind = 'hist' , bins = <E> , figsize = ( <C> , <B> , alpha = <A> ) , alpha = <A> ) 
+import <A> as <B>	 import <A> as <B> 
+<A> . describe ( )	 <A> . index 
+<A> . index	 <A> . index 
+plt . plot ( <A> , <B> , color = ( <C> , <C> , <D> ) )	 plt . plot ( <C> , <B> , color = ( <C> , <D> , <D> ) 
+<A> [ <A> . isnull ( ) . any ( axis = 1 ) ] . head ( )	 <A> . isnull ( ) . head ( ) . head ( ) 
+<A> . columns	 <A> . dtypes 
+<A> . drop_duplicates ( )	 <A> . index ( ) 
+plt . xticks ( <A> , [ <B> , <C> , <D> ] )	 plt . subplot ( <A> , <B> , <C> , <D> ] ) 
+plt . xticks ( <D> , [ <C> , <B> , <A> ] )	 plt . plot ( <C> , <B> , <D> ] ) 
+<A> . plot ( kind = 'scatter' , <B> = <C> , <D> = <E> )	 df . plot ( kind = 'scatter' , <B> = <C> , <D> = <A> ) 
+plt . barh ( <A> , <B> , align = 'center' )	 plt . plot ( <C> , <B> , align = 'center' , align = 'center' , align = 'center' ) 
+from <B> import <A>	 from <B> import <A> 
+<A> [ <A> [ <B> ] >  <C> ]	 <C> [ <C> [ <B> ] > <A> ] 
+<B> . to_csv ( <A> , encoding = 'utf-8' )	 <B> . to_csv ( <A> , encoding = 'utf-8' ) 
+pd . set_option ( 'display.max_columns' , <A> )	 <A> . index ( ) 
+<A> . tail ( )	 <A> . tail ( ) 
+import <A> as <B>	 import <A> as <B> 
+plt . hist ( <A> [ <B> ] )	 plt . plot ( <B> , <A> ) 
+<A> . columns	 <A> . dtypes 
+<A> [ <B> ] . plot ( )	 plt . plot ( <A> [ <B> , <C> ] ) 
+<C> [ [ <B> , <A> ] ] . head ( )	 <C> [ [ <B> , <A> ] ] . head ( ) 
+sns . set ( )	 plt . legend ( ) 
+plt . legend ( loc = 'best' )	 plt . legend ( ) 
+df . dropna ( subset = [ <A> ] , axis = 0 , inplace = True )	 <A> . dropna ( subset = [ <B> ] , axis = 0 , inplace = True ) 
+plt . barh ( <B> , <A> , align = 'center' )	 plt . plot ( <C> , <B> , align = 'center' , align = 'center' , align = 'center' ) 
+df [ [ 'name' , 'kcal' ] ] . query ( 'kcal > 450 and name == "豚肉の生姜焼"' )	 <A> [ [ 'name' , 'kcal' ] ] . query ( 'kcal > 450 and name == "豚肉の生姜焼"' ) 
+plt . grid ( True )	 plt . figure ( <A> ) 
+from <B> import <A>	 from <B> import <A> 
+<A> [ <B> ] . value_counts ( )	 <A> [ <B> ] . value_counts ( ) 
+<A> . tail ( )	 <A> . head ( ) 
+import <A> <B> as <C>	 import <A> <B> as <C> 
+from sklearn . linear_model import <A>	 <A> . columns 
+<A> . rename ( columns = { <B> : <C> } , inplace = True )	 <A> . rename ( columns = { <B> : <C> } , inplace = True )
+<B> . loc [ <A> ]	 <B> . loc [ <A> ] 
+<A> . loc [ <B> ]	 <A> . index 
+<C> [ [ <B> , <A> ] ] . head ( )	 <C> [ [ <B> , <A> ] ] . head ( ) 

@@ -1,0 +1,39 @@
+<A> . plot ( kind = 'scatter' , <B> = <C> , <D> = <E> )	 df . plot ( kind = 'scatter' , <A> = <B> = <C> , <D> ) 
+<A> [ <A> . isnull ( ) . any ( axis = 1 ) ] . shape	 <A> [ <A> . isnull ( ) . any ( axis = 1 ) ] . shape 
+<A> [ 'temperature_rolling_mean' ] = <A> [ <B> ] . rolling ( <C> = <D> ) . mean ( )	 <A> [ <B> ] . plot ( <C> ] . rolling ( ) 
+plt . plot ( X , reg . predict ( X ) )	 reg . coef_ 
+plt . subplot ( <A> , <B> , <A> )	 plt . subplot ( <A> , <B> , <A> ) 
+plt . bar ( <A> , <B> , align = 'center' , width = <C> )	 plt . plot ( <A> , <B> , label = <C> ) 
+df . groupby ( [ 'weather' ] ) [ 'temperature' ] . mean ( )	 df . groupby ( [ 'sales' ] ) [ 'sales' ] . sum ( ) 
+<A> [ <B> : 106 ]	 <A> . head ( <B> ) 
+<A> . groupby ( [ <B> , <C> ] ) [ 'sales' ] . sum ( )	 <A> [ [ <B> ] . groupby ( ) . count ( ) . count ( ) 
+<A> [ <B> : 106 ]	 <A> [ <B> ] . value_counts ( ) 
+<A> = pd . read_csv ( 'student-mat.csv' )	 <A> = pd . read_csv ( './data/lunch_box.csv' , sep = ',' ) 
+plt . title ( <A> )	 plt . figure ( <A> ) 
+<A> <B> = pd . to_datetime ( <A> <B> , format = '%Y-%m-%d' )	 <A> . index = pd . read_csv ( <A> . head ( <B> ) 
+<A> = <A> [ [ <B> , <C> , <D> , <E> ] ]	 <A> [ <A> [ <B> , <C> ] ] . rolling ( <D> , <E> , <E> ) 
+plt . plot ( <A> , <B> , color = <C> )	 plt . plot ( <A> , <B> , label = <C> ) 
+plt . plot ( <A> , <B> , label = <C> )	 plt . plot ( <A> , <B> , <C> ) 
+<A> . drop ( [ <B> ] , axis = 1 , inplace = True )	 <A> . drop ( [ <B> ] , axis = 1 , inplace =
+df . plot ( kind = 'hist' , <A> = <B>   , bins = <C> , figsize = ( <D> , <E> ) , alpha = <F> )	 plt . plot ( <A> , <B> , <C> , <D> = ( <D> , <D> ) 
+np . corrcoef ( [ <A> [ 'G1' ] , <A> [ 'G3' ] ] )	 <A> [ [ [ ] ] . corr ( ) 
+dummy_df = pd . get_dummies ( <A> , columns = [ <B> , <C> , <D> , <E> , <F> ] )	 <A> . plot ( kind = [ <B> , <C> , <D> , <D> , <E> , <E> ) 
+df . plot ( y = [ 'temperature' , 'temperature_rolling_mean' , 'temperature_pct_change' ] , figsize = ( <A> , <B> ) , alpha = <C> )	 df . plot ( kind = [ <B> , 'temperature_rolling_mean' , <C> , figsize = True ) 
+from <A> import <B> , <C>	 from <A> import <B> as <C> 
+plt . xlabel ( <A> )	 plt . ylabel ( <A> ) 
+plt . xlabel ( <A> )	 plt . ylabel ( <A> ) 
+import <A> as <B>	 import <A> <B> as <C> 
+plt . savefig ( <A> )	 plt . show ( ) 
+<A> . isnull ( ) . sum ( )	 <A> . isnull ( ) . sum ( ) 
+<A> . isnull ( ) . sum ( )	 <A> . isnull ( ) . any ( ) 
+<A> . index	 <A> . index 
+<A> [ [ <B> , <C> ] ] . corr ( )	 <A> [ [ <B> ] . rolling ( ) 
+df [ 'temperature_diff' ] = df [ 'temperature' ] . diff ( periods = 1 )	 df . sort_values ( [ 'sales' , 'temperature' ] , ascending = False ) 
+plt . grid ( True )	 plt . grid ( True ) 
+df [ 'sales' ] . plot ( )	 plt . hist ( <A> [ <B> ] ) 
+<A> [ <A> . isnull ( ) . any ( axis = 1 ) ] . head ( )	 <A> [ <A> . isnull ( ) . head ( ) 
+<A> = linear_model . LinearRegression ( )	 <A> . columns 
+plt . legend ( )	 plt . show ( ) 
+import <A> as <B>	 import <A> as <B> 
+<A> [ 'absences' ] . describe ( )	 <A> [ 'absences' ] . median ( ) 
+plt . plot ( <A> [ 'G1' ] , <A> [ 'G3' ] , <B> )	 plt . boxplot ( <A> [ 'G1' ] , <A> [ 'G3' ] ) 
