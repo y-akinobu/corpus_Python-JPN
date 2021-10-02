@@ -1,0 +1,203 @@
+<A> に <A> と <B> の値を足して代入	<A> += <B>	<A> += <B>
+利用者が入力した整数データを取得する	int ( input ( ) )	float ( input ( ) )
+文字列 <A> を小文字に変換した文字列	<A> . lower ( )	<A> . lower ( )
+利用者が入力した整数を半角スペースで区切ってリストとして得、  <A> とする	<A> = list ( map ( int , input ( ) . split ( ) ) )	<A> = list ( map ( int , input ( ) . split ( ) ) )
+<A> を <B> で剰余を求める	<A> % <B>	print ( <A> , <B> )
+<A> 中の要素の順番を逆転する	<A> [ : : -1 ]	<A> [ : : : -1 ]
+ユーザから入力された自然数を半角スペースで区切ってリストとして受け取る	list ( map ( int , input ( ) . split ( ) ) )	<A> list ( map ( int , input ( ) . split ( ) ) )
+<A> と <B> の値を足して代入する	<A> += <B>	<A> += <B>
+<A> 中の全ての文字が英大文字のとき	if <A> . isupper ( ) :	if <A> . isupper ( ) :
+そこで、出力先として <A> を用いる	file = <A>	print ( <A> , end = '' )
+入力をスペース区切りで整数値としてリストで受け取る	list ( map ( int , input ( ) . split ( ) ) )	for list ( map ( int , input ( ) . split ( ) ) )
+データを入力する	input ( )	int input ( ) )
+<A> と <B> が等しい間	while <A> == <B> :	if <A> == <B> :
+<A> が <B> 以下でないか	not <A> <= <B>	not <A> <= <B>
+<A> が <B> の倍数間	while <A> % <B> == 0 :	<A> % <B> == 0 :
+入力を半角スペースごとに整数としてリストで受け取り、  <A> に代入する	<A> = list ( map ( int , input ( ) . split ( ) ) )	<A> = list ( map ( int , input ( ) . split ( ) ) )
+数値 <A> に <B> を代入する	<A> = <B>	sorted ( <A> , <B> )
+文字列 <B> の全ての英字を大文字にし、  <A> にする	<A> = <B> . upper ( )	<A> = <B> . upper ( )
+<A> の先頭の要素	<A> [ 0 ]	sum ( <A> ) <A> )
+<A> 全てが数字か否か	<A> . isdigit ( )	<A> . isdigit ( )
+<A> の小数点以下を 5 桁で丸める	print ( '{:.5f}' . format ( <A> ) )	print . format ( <A> ) )
+もし <A> が偶数ならば	if <A> % 2 == 0 :	print ( <A> ) :
+<A> から <B> の値を引いて代入する	<A> -= <B>	<A> -= <B>
+入力を半角スペース区切りで自然数としてリストに格納し、  <A> とする	<A> = list ( map ( int , input ( ) . split ( ) ) )	<A> = list ( map ( int , input ( ) . split ( ) ) )
+もし <A> が <B> 以上とき	if <A> >= <B> :	if <A> >= <B> :
+<A> の <B> から値を取り出す	<A> . pop ( <B> )	if <A> . pop ( <B> ) :
+利用者が入力した文字列を取得して、 <A> とする	<A> = input ( )	sorted ( <A> , input ( ) )
+<B> を全て小文字にして、  <A> とする	<A> = <B> . lower ( )	<A> = <B> . lower ( )
+入力された自然数を空白で区切ってリストとして得、  <A> に代入する	<A> = list ( map ( int , input ( ) . split ( ) ) )	<A> = list ( map ( int , input ( ) . split ( ) ) )
+<A> が奇数のとき	if <A> % 2 == 1 :	print ( <A> ) :
+ループを抜け出す	break	break
+<A> と <B> が等しいか	<A> == <B>	<A> == <B>
+リスト <A> に <B> を追加する	<A> . append ( <B> )	<A> . append ( <B> )
+<A> をプリントする	print ( <A> )	sorted ( <A> )
+大きい順に <A> を並べた列	sorted ( <A> , reverse = True )	sorted ( <A> , reverse = True )
+<A> が <B> 未満、また <C> 以上であったら	if <A> <  <B> or <A> >= <C> :	if <A> < <B> or <A> >= <C> :
+もし <A> が英大文字ならば	if <A> . isupper ( ) :	<A> . isupper ( ) :
+もし文字列 <A> が <B> で始まれば	if <A> . startswith ( <B> ) :	if <A> . startswith ( <B> ) :
+空白ごとに入力された整数を受け取り、 <A> 、 <B> 、 <C> とする	<A> , <B> , <C> = map ( int , input ( ) . split ( ) )	<A> , <B> , <C> = map ( int , input ( ) . split ( ) )
+入力された文字列をリストに変換する	list ( input ( ) )	print ( input ( ) )
+<A> を英小文字に変換した文字列	<A> . lower ( )	<A> . lower ( )
+空のリストを  <A> にする	<A> = [ ]	max ( <A> )
+ユーザから入力された数を  <A> とする	<A> = int ( input ( ) )	<A> = int ( input ( ) )
+ユーザから入力された整数を  <A> とする	<A> = int ( input ( ) )	<A> = int ( input ( ) )
+<A> が数字か	<A> . isdigit ( )	<A> . isdigit ( )
+<A> の長さを調べる	len ( <A> )	min ( <A> )
+<A> を整列した列	sorted ( <A> )	sorted ( <A> )
+<A> 、 <B> 、 <C> の最小値を計算する	min ( <A> , <B> , <C> )	max ( <A> , <B> , <C> )
+入力をスペース区切りで整数としてリストで受け取る	list ( map ( int , input ( ) . split ( ) ) )	for list ( map ( int , input ( ) . split ( ) ) )
+文字列 <B> を全て小文字にし、  <A> とする	<A> = <B> . lower ( )	<A> = <B> . lower ( )
+スペースで区切って入力文字列を受け取り、 <A> 、 <B> 、 <C> とする	<A> , <B> , <C> = input ( ) . split ( )	<A> , <B> , <C> = input ( ) . split ( )
+整数値を入力値として受け取り、  <A> にする	<A> = int ( input ( ) )	<A> = int ( input ( ) )
+もし <A> 才未満、また <B> 才以上であるならば	if age <  <A> or age >= <B> :	if age < <A> or age >= <B> :
+ユーザから入力された文字列をリストに変換し、  <A> とする	<A> = list ( input ( ) )	<A> = list ( input ( ) )
+そこで、セパレータとして <A> を使う	sep = <A>	end = <A>
+<A> の切り捨てを見る	math . floor ( <A> )	<A> . floor ( <B> )
+そこで、 <A> をする	encoding = <A>	end = <A>
+整数値に <A> を変換する	int ( <A> )	sorted ( <A> )
+そこで、フラッシュは行わない	flush = False	pass
+0 以上 <A> 未満で 1 ずつ増える数列	range ( <A> )	if range ( <A> ) :
+<A> に <B> を超えない値までの連続した数値を代入して、次の命令を繰り返す	for <A> in range ( <B> ) :	range ( <A> , <B> , <C> ) :
+<A> の二乗を確認する	<A> ** 2	<A> [ -1 ]
+<A> の二乗	<A> ** 2	min <A> ( <B> )
+スペース区切りで入力された整数をリストとして受け取り、  <A> にする	<A> = list ( map ( int , input ( ) . split ( ) ) )	<A> = list ( map ( int , input ( ) . split ( ) ) )
+もし文字列 <A> の先頭が <B> であるどうとき	if <A> . startswith ( <B> ) :	if <A> . startswith ( <B> ) :
+ユーザから入力された値をリストに変換する	list ( input ( ) )	max ( input ( ) )
+入力を半角スペースで区切って整数値としてリストで受け取る	list ( map ( int , input ( ) . split ( ) ) )	for list ( map ( int , input ( ) . split ( ) ) )
+文字列 <A> が <B> で開始したら	if <A> . startswith ( <B> ) :	if <A> . startswith ( <B> ) :
+<A> を実数に変換する	float ( <A> )	sorted ( <A> )
+<A> が <B> で終了するとき	if <A> . endswith ( <B> ) :	if <A> . startswith ( <B> ) :
+<A> 内の <B> を <C> に置き換えた文字列	<A> . replace ( <B> , <C> )	<A> . replace ( <B> , <C> )
+<A> の英字全てを大文字にして返す	<A> . upper ( )	<A> . upper ( )
+実数 <A> の小数点以下を 5 桁まで表示する	print ( '{:.5f}' . format ( <A> ) )	'{:.5f}' . format ( <A> ) )
+ユーザから入力された整数値を空白で区切ってリストとして受け取る	list ( map ( int , input ( ) . split ( ) ) )	<A> list ( map ( int , input ( ) . split ( ) ) )
+<A> を降順に並べる	sorted ( <A> , reverse = True )	float ( <A> , reverse = True )
+入力された文字列を <A> とする	<A> = input ( )	sorted ( <A> )
+<A> が <B> で割り切れないか	<A> % <B> != 0	not <A> <= <B>
+<A> が <B> で割り切れれば	if <A> % <B> == 0 :	if <A> . endswith ( <B> ) :
+ユーザが入力した整数値を取得する	int ( input ( ) )	list ( input ( ) )
+リスト <A> の最後に <B> を付加する	<A> . append ( <B> )	<A> . append ( <B> )
+数列 <A> の平均	sum ( <A> ) / len ( <A> )	len ( <A> ) / len ( <A> )
+入力された整数をスペースで区切ってリストとして受け取る	list ( map ( int , input ( ) . split ( ) ) )	i list ( map ( int , input ( ) . split ( ) ) )
+入力された文字列	input ( )	list ( input ( ) )
+<B> の中の大文字を小文字に変換して、  <A> とする	<A> = <B> . lower ( )	<A> = <B> . lower ( )
+<A> が <B> 次であるでない間	while not <A> <= <B> :	if not <A> <= <B> :
+<A> が <B> より大きい間	while <A> >  <B> :	if <A> > <B> :
+入力された値をリストに格納する	list ( input ( ) )	min ( input ( ) )
+利用者が入力した文字列をリストに格納する	list ( input ( ) )	print ( input ( ) )
+<A> の平均を表示する	sum ( <A> ) / len ( <A> )	len ( <A> ) / len ( <A> )
+もし <A> が <B> 以降であるならば	if <A> <= <B> :	if <A> <= <B> :
+<A> 、 <B> 、 <C> の最大の値	max ( <A> , <B> , <C> )	max ( <A> , <B> , <C> )
+<B> 以上 <C> 未満の数が並んだリストを  <A> とする	<A> = [ i for i in range ( <B> , <C> ) ]	print ( <A> , <B> , <C> )
+数列 <A> の総和を表示する	sum ( <A> )	sorted ( <A> )
+入力された整数を半角スペースで区切ってリストとして得る	list ( map ( int , input ( ) . split ( ) ) )	<A> list ( map ( int , input ( ) . split ( ) ) )
+<A> が <B> 以降であるでない間	while not <A> <= <B> :	!= not <A> <= <B> :
+数を入力値として受け取って、  <A> にする	<A> = int ( input ( ) )	<A> = int ( input ( ) )
+<A> と <B> を足して代入する	<A> += <B>	<A> += <B>
+<A> の二乗を算出する	<A> ** 2	max ( <A> )
+もし <A> が <B> で割り切れなければ	if <A> % <B> != 0 :	print ( <A> , <B> ) :
+<A> 、 <B> 、 <C> の最小の値を調べる	min ( <A> , <B> , <C> )	max ( <A> , <B> , <C> )
+もし文字列 <A> が <B> で終了すれば	if <A> . endswith ( <B> ) :	<A> . endswith ( <B> ) :
+もし <A> が <B> よりも大きくなかったとき	if not <A> >  <B> :	if <A> > <B> :
+<A> が <B> より小さいか	<A> <  <B>	<A> < <B>
+そこで、区切り記号は <A> にする	sep = <A>	end = <A>
+文字列 <B> を全て大文字にし、  <A> にする	<A> = <B> . upper ( )	<A> = <B> . upper ( )
+<A> と <B> の mod を表示する	<A> % <B>	print ( <A> , <B> )
+<A> と <B> を引いて代入する	<A> -= <B>	<A> -= <B>
+ユーザから入力された整数値	int ( input ( ) )	list ( input ( ) )
+<A> 中の全ての文字が小文字か	<A> . islower ( )	<A> . islower ( )
+利用者が入力した値をリスト化し、  <A> にする	<A> = list ( input ( ) )	max ( <A> , input ( ) )
+<A> 才未満、または <B> 才以上であったら	if age <  <A> or age >= <B> :	if age < <A> or age >= <B> :
+<B> を加える要素として <A> の末尾に値を付加する	<A> . append ( <B> )	<A> . append ( <B> )
+文字列 <B> を小文字に変換した文字列を  <A> とする	<A> = <B> . lower ( )	<A> = <B> . lower ( )
+入力された文字列をリストに格納して、  <A> にする	<A> = list ( input ( ) )	<A> = list ( map ( int , input ( ) . split ( ) ) )
+ユーザが入力した整数	int ( input ( ) )	list ( input ( ) )
+リスト <A> に <B> を付加する	<A> . append ( <B> )	<A> . append ( <B> )
+<A> が <B> 以降であるか否か	<A> <= <B>	<A> <= <B>
+文字列 <B> の全ての文字を大文字にして返して、  <A> とする	<A> = <B> . upper ( )	<A> = <B> . upper ( )
+一行から空白で区切って複数の入力値をリストとして得る	list ( map ( int , input ( ) . split ( ) ) )	<A> list ( map ( int , input ( ) . split ( ) ) )
+0 ~ <A> -1 の範囲の数列	range ( <A> )	range ( <A> )
+<B> の文字リストを  <A> とする	<A> = list ( <B> )	<A> = list ( input ( ) )
+降順に <A> を並べる	sorted ( <A> , reverse = True )	float ( <A> , reverse = True )
+そこで、 UTF8 をする	encoding = 'utf-8'	mode = 'utf-8'
+入力を半角スペースごとに整数としてリストで受け取る	list ( map ( int , input ( ) . split ( ) ) )	for list ( map ( int , input ( ) . split ( ) ) )
+入力された整数データを取得して、  <A> にする	<A> = int ( input ( ) )	<A> = int ( input ( ) )
+文字列 <A> を <B> で分割した文字列のリスト	<A> . split ( <B> )	<A> . split ( <B> )
+小さい順に <A> を並べ変える	sorted ( <A> )	sorted ( <A> )
+改行なしで <A> をプリントする	print ( <A> , end = '' )	file = <A> . end ( )
+<A> を改行なしで表示する	print ( <A> , end = '' )	print ( <A> , end = '' )
+もし <A> は <B> と等しいならば	if <A> == <B> :	if <A> == <B> :
+<A> に最も近い整数に切り上げを算出する	math . ciel ( <A> )	ciel ( <A> )
+<A> の一部分を取り出す	<A> [ start : end ]	<A> [ : end ]
+ユーザから入力された数値をスペースで区切ってリストとして受け取って、  <A> にする	<A> = list ( map ( int , input ( ) . split ( ) ) )	<A> = list ( map ( int , input ( ) . split ( ) ) )
+もし <A> が <B> 以降ならば	if <A> <= <B> :	if <A> <= <B> :
+<A> が <B> より小さい間	while <A> <  <B> :	if <A> < <B> :
+リスト <A> の <B> から値を取り出す	<A> . pop ( <B> )	<A> . pop ( <B> )
+文字列 <B> の全ての英字を小文字に変換して、  <A> に代入する	<A> = <B> . lower ( )	<A> = <B> . lower ( )
+利用者が入力した整数値を  <A> とする	<A> = int ( input ( ) )	<A> = int ( input ( ) )
+<A> 才未満、また <B> 才以上のとき	if age <  <A> or age >= <B> :	if age < <A> or age >= <B> :
+文字列 <A> の最初が <B> であるどうか	<A> . startswith ( <B> )	<A> . startswith ( <B> )
+<A> は <B> と等しくなかった場合	if <A> != <B> :	if <A> != <B> :
+<A> が小文字のとき	if <A> . islower ( ) :	islower ( <A> ) :
+<A> 引く <B> の値を代入する	<A> -= <B>	<A> -= <B>
+小数点数 <A> の小数部を 5 桁で揃える	print ( '{:.5f}' . format ( <A> ) )	'{:.5f}' . format ( <A> ) )
+一行から空白ごとに複数の入力値をリストとして得る	list ( map ( int , input ( ) . split ( ) ) )	<A> list ( map ( int , input ( ) . split ( ) ) )
+<A> 中の全ての英字が大文字か	<A> . isupper ( )	<A> . isupper ( )
+<A> が <B> より大きかったとき	if not <A> >  <B> :	if <A> > <B> :
+もし <A> が <B> より大きいならば	if <A> >  <B> :	if <A> > <B> :
+一行から複数の入力値をスペースで区切ってリストに格納する	list ( map ( int , input ( ) . split ( ) ) )	for list ( map ( int , input ( ) . split ( ) ) )
+<A> 才未満、または <B> 才以上の場合	if age <  <A> or age >= <B> :	if age < <A> or age >= <B> :
+<A> を <B> で剰余を見る	<A> % <B>	( <A> + <B> - 1 ) // <B>
+<B> の英字全てを大文字にして返して、  <A> とする	<A> = <B> . upper ( )	<A> = <B> . upper ( )
+もし <A> が <B> 未満、または <C> 以上ならば	if <A> <  <B> or <A> >= <C> :	if <A> < <B> or <A> >= <C> :
+<A> 中の全ての文字が大文字のとき	if <A> . isupper ( ) :	if <A> . isupper ( ) :
+<A> に 0 から 9 を代入して、以下のプログラムを繰り返す	for <A> in range ( 10 ) :	print ( '{:.5f}' . format ( <A> ) :
+<A> を変換した数値	int ( <A> )	sorted ( <A> )
+数値 <A> イコール <B> とする	<A> = <B>	<A> = <B>
+ユーザが入力した文字列をリストに変換する	list ( input ( ) )	max ( input ( ) )
+ユーザが入力した整数を半角スペースで区切ってリストとして得る	list ( map ( int , input ( ) . split ( ) ) )	<A> list ( map ( int , input ( ) . split ( ) ) )
+<A> 、 <B> 、 <C> の中で値を調べる	min ( <A> , <B> , <C> )	, <B> , <C> = <A> , <C> = input ( ) . split ( )
+入力値を得て、 <A> とする	<A> = input ( )	max ( <A> )
+入力された数値を半角スペースで区切ってリストとして得る	list ( map ( int , input ( ) . split ( ) ) )	<A> list ( map ( int , input ( ) . split ( ) ) )
+<A> が偶数であるか	<A> % 2 == 0	print ( <A> )
+ユーザから入力された数値を取得して、  <A> とする	<A> = int ( input ( ) )	<A> = int ( input ( ) )
+ユーザから入力された文字列をリスト化し、  <A> に代入する	<A> = list ( input ( ) )	<A> = list ( input ( ) )
+文字列 <A> の末尾が <B> であるどうか	<A> . endswith ( <B> )	<A> . endswith ( <B> )
+<A> 中の <B> の登場回数を確認する	<A> . count ( <B> )	<A> . count ( <B> )
+入力をスペース区切りで整数としてリストに格納して、  <A> にする	<A> = list ( map ( int , input ( ) . split ( ) ) )	<A> = list ( map ( int , input ( ) . split ( ) ) )
+<A> が <B> 以上間	while <A> >= <B> :	if <A> >= <B> :
+文字列 <A> 内の <B> を <C> に置き換えた文字列	<A> . replace ( <B> , <C> )	<A> . replace ( <B> , <C> )
+利用者が入力した整数を半角スペースで区切ってリストとして受け取る	list ( map ( int , input ( ) . split ( ) ) )	<A> list ( map ( int , input ( ) . split ( ) ) )
+入力された整数を取得する	int ( input ( ) )	<A> int ( input ( ) )
+そこで、区切り文字として <A> をする	sep = <A>	end = <A>
+入力を半角スペース区切りで整数としてリストで受け取る	list ( map ( int , input ( ) . split ( ) ) )	for list ( map ( int , input ( ) . split ( ) ) )
+半角スペースで区切って入力文字列を受け取り、 <A> 、 <B> 、 <C> 代入する	<A> , <B> , <C> = input ( ) . split ( )	<A> , <B> , <C> = input ( ) . split ( )
+そこで、エラー処理をしない	errors = 'ignore'	'ignore' = errors = errors
+<A> が <B> よりも大きいか	<A> >  <B>	<A> > <B>
+入力された自然数を空白で区切ってリストとして得る	list ( map ( int , input ( ) . split ( ) ) )	<A> list ( map ( int , input ( ) . split ( ) ) )
+<A> の合計値を求める	sum ( <A> )	max ( <A> )
+<A> 才未満、あるいは <B> 才以上の場合	if age <  <A> or age >= <B> :	if age < <A> or age >= <B> :
+利用者が入力した値をリスト化する	list ( input ( ) )	min ( input ( ) )
+<B> から 100 までの数が並んだリストを  <A> にする	<A> = [ i for i in range ( <B> , 101 ) ]	<A> = list ( map ( int , input ( ) . split ( ) ) )
+ユーザから入力された整数を半角スペースで区切ってリストとして受け取って、  <A> とする	<A> = list ( map ( int , input ( ) . split ( ) ) )	<A> = list ( map ( int , input ( ) . split ( ) ) )
+入力をスペース区切りで数値としてリストに格納して、  <A> にする	<A> = list ( map ( int , input ( ) . split ( ) ) )	<A> = list ( map ( int , input ( ) . split ( ) ) )
+<A> に <B> を代入する	<A> = <B>	sorted ( <A> , <B> )
+文字列 <A> の最後が <B> であるどうならば	if <A> . endswith ( <B> ) :	if <A> . startswith ( <B> ) :
+<A> に 0 から 9 を代入して、以下の命令を繰り返す	for <A> in range ( 10 ) :	range ( <A> ) :
+ユーザから入力された文字列をリストに格納する	list ( input ( ) )	print ( input ( ) )
+ユーザが入力した整数を半角スペースで区切ってリストとして得て、  <A> とする	<A> = list ( map ( int , input ( ) . split ( ) ) )	list ( map ( int , <A> , input ( ) . split ( ) ) )
+文字列 <A> の全ての英字を小文字に変換する	<A> . lower ( )	<A> . lower ( )
+そこで、バイナリモードを使う	mode = 'b'	mode = 'b'
+入力された数を空白で区切ってリストとして受け取って、  <A> にする	<A> = list ( map ( int , input ( ) . split ( ) ) )	<A> = list ( map ( int , input ( ) . split ( ) ) )
+<A> を降順にソートする	sorted ( <A> , reverse = True )	sorted ( <A> , reverse = True )
+そこで、フラッシュを行う	flush = True	byteorder = 'big'
+<A> 才未満、かつ@ 160 才以上のとき	if age <  <A> and age >= 60 :	print ( if age < <A> ) :
+整数を入力値として得る	int ( input ( ) )	list ( input ( ) )
+<A> が <B> 未満、または <C> 以上であれば	if <A> <  <B> or <A> >= <C> :	if <A> < <B> or <A> >= <C> :
+<A> を昇順に並べる	sorted ( <A> )	sorted ( <A> )
+<A> と <B> が等しくないかどうか	<A> != <B>	<A> != <B>
+大きい順に <A> を並べ直した列	sorted ( <A> , reverse = True )	sorted ( <A> , reverse = True )
+もし <A> が奇数であるとき	if <A> % 2 == 1 :	print ( <A> ) :
+数 <A> の小数点以下 5 桁までをプリントする	print ( '{:.5f}' . format ( <A> ) )	'{:.5f}' . format ( <A> ) )
+<A> の個数を調べる	len ( <A> )	sorted ( <A> )
