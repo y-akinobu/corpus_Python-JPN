@@ -1,0 +1,619 @@
+print("Hello World")	"Hello World"と表示する
+print("Hello World")	「ハローワールド」と表示する
+print("Hello World")	何か動かす
+print("Hello World")	最初のプログラム
+3+8	3足す8
+3+8	3に8を加算する
+3+8	3と8の和
+1+2+3	1足す2足す3
+1+2+3	1,2,3の和
+100-70	100から70を引く
+5 * 12	5かける12
+10 / 5	10を5で割る
+10 // 5	10を5で割った商
+10 % 5	10を5で割った余り
+10 ** 5	10の5乗
+"abc" + "ABC"	"abc"と"ABC"を結合する
+str(1)	1を文字列にする
+str(1)	1を変換した文字列
+"X" * 3	文字列"X"を3回繰り返す
+x = input()	ユーザから入力を得る
+x = input()	ユーザが入力した文字列をxとする
+x = input()	入力された文字列
+x = input("X")	"X"というプロンプトを表示し、ユーザに文字列を入力させる
+x = input("X")	"X"という問い合わせに対し、ユーザから入力を得る
+float(x)	xを浮動小数点数にする
+float(x)	xを変換した浮動小数点数
+int(x)	xを整数値にする
+int(x)	xを変換した数値
+x = int(input())	ユーザが入力した数値をxとする
+x = int(input())	入力された数値
+x = float(input())	ユーザが入力した浮動小数点数をxとする
+x = float(input())	入力された浮動小数点数
+type(x)	xの型
+type(x)	xの型を確認する
+a == b	aとbが等しいか
+if a == b:	aとbが等しいならば
+a != b	aとbが等しくないか
+if a != b :	もしaとbが等しくないとき
+while a != b :	aとbが等しくない間
+a == b	aがbと等しいかどうか
+if a == b:	aがbと等しいならば
+a != b	aがbと等しくないかどうか
+if a == b :	もしaがbと等しい場合
+if a == b :	aがbと等しければ
+if a == b :	もしaがbと等しかったならば
+if a != b :	もしaがbと等しくなかったなら
+a == b	aがbか否か
+if a == b:	もしaがbならば
+a != b	aがbでないかどうか
+if a == b :	aがbとき
+if a != b :	もしaがbでないとき
+while a == b :	aがb間
+a > b	aがbより大きいか否か
+if a > b:	aがbより大きいならば
+not a > b	aがbより大きくないかどうか
+if a > b :	aがbより大きければ
+if a > b :	もしaがbより大きかった場合
+if not a > b :	aがbより大きくなければ
+if not a > b :	もしaがbより大きくなかったならば
+while a > b :	aがbより大きい間
+while not a > b :	aがbより大きくない間
+a < b	aがbより小さいか否か
+if a < b:	aがbより小さい場合
+not a < b	aがbより小さくないか
+if a < b :	もしaがbより小さかった場合
+if not a < b :	aがbより小さくないならば
+if not a < b :	もしaがbより小さくなければ
+if not a < b :	もしaがbより小さくなかったとき
+a >= b	aがb以上か否か
+if a >= b:	もしaがb以上ならば
+not a >= b	aがb以上でないか
+if a >= b :	aがb以上場合
+if not a >= b :	もしaがb以上でない場合
+while a >= b :	aがb以上間
+while not a >= b :	aがb以上でない間
+a <= b	aがb以下か
+if a <= b:	aがb以下ならば
+not a <= b	aがb以下でないかどうか
+if a <= b :	aがb以下場合
+if not a <= b :	aがb以下でない場合
+while not a <= b :	aがb以下でない間
+a % 2 == 0	aが偶数か否か
+if a % 2 == 0:	aが偶数ならば
+a % 2 != 0	aが偶数でないか
+if a % 2 == 0 :	aが偶数とき
+if a % 2 != 0 :	もしaが偶数でない場合
+while a % 2 != 0 :	aが偶数でない間
+a % 2 == 1	aが奇数か
+if a % 2 == 1:	aが奇数のとき
+a % 2 != 1	aが奇数でないかどうか
+if a % 2 == 1 :	aが奇数とき
+if a % 2 != 1 :	aが奇数でない場合
+while a % 2 == 1 :	aが奇数間
+while a % 2 != 1 :	aが奇数でない間
+a % n == 0	aがnの倍数か否か
+if a % n == 0:	もしaがnの倍数ならば
+a % n != 0	aがnの倍数でないか
+if a % n == 0 :	aがnの倍数ならば
+if a % n != 0 :	aがnの倍数でない場合
+while a % n == 0 :	aがnの倍数間
+a % n == 0	aがnで割り切れるか
+if a % n == 0:	aがnで割り切れる場合
+a % n != 0	aがnで割り切れないか
+if a % n == 0 :	もしaがnで割り切れるならば
+if a % n == 0 :	aがnで割り切れたなら
+if a % n != 0 :	もしaがnで割り切れないとき
+if a % n != 0 :	もしaがnで割り切れなければ
+if a % n != 0 :	aがnで割り切れなかったら
+pass	何もしない
+pass	パスする
+quit()	プログラムの実行を途中で終了する
+quit()	プログラムの実行を中断する
+True	真
+False	偽
+if age < 6 or age >= 60:	もしageが6未満、または60以上のとき
+if age < 6 or age >= 60:	もし6才未満、または60才以上のとき
+if age < 6 and age >= 60:	もしageが6未満、かつ60以上のとき
+weight / (height / 100) ** 2	BMIを求めたい
+weight / (height / 100) ** 2	weightとheightからBMI
+weight / (height / 100) ** 2	weightとheightからBMIを計算する
+weight / (height / 100) ** 2	身長heightとweight体重からBMI
+weight / (height / 100) ** 2	身長heightとweight体重からBMIを算出する
+random.randint(1,6)	サイコロの目
+random.randint(1,6)	サイコロを振った値
+random.randint(1,6)	1から6までの乱数
+time.sleep(3)	3秒、プログラムの実行を停止する
+time.sleep(3)	3秒、待つ
+time.sleep(3)	3秒、止める
+while True: pass	無限ループ
+while True: pass	とりあえず、繰り返す
+for i in range(5):	５回、繰り返す
+break	繰り返しを中断する
+break	繰り返しから抜け出す
+continue	繰り返しの先頭に戻る
+continue	もう一度、ループする
+[0] * n	大きさnの配列
+for a in [1,2,3]:	リスト[1,2,3]の各要素を処理する
+for a in [1,2,3]:	リスト[1,2,3]の要素を繰り返すたびにaに代入する
+a.append(x)	リストaの末尾にxを追加する
+del(a[2])	リストaから2番目の要素を削除する
+a[start:end]	aの一部分を取り出す
+sum(a)	数列aの合計
+sum(a)	aの総和
+sum(a)/len(a)	aの平均値
+random.suffle(a)	リストaをシャッフルする
+d.keys()	dのキーの一覧を得る
+d[key]	辞書dのキーkeyの値
+for key in d.keys(): value = d[key]	辞書dに入っているデータを一つずつ処理する
+math.ceil(x)	実数xの小数点以下を切り上げる
+math.ceil(x)	xの小数点以下を切り上げた整数値
+key in d	dにkeyが含まれているか否か
+if key in d:	もしdにkeyが含まれているならば
+key not in date	辞書dにキーkeyが存在しないか
+if key not in date:	辞書dにキーkeyが存在しないとき
+s.strip()	文字列sの前後の空白を除去する
+s.strip()	sの余分な改行を取り除く
+s.split(',')	sをカンマで区切る
+s.split(',')	s(文字列をカンマで分割した文字列のリスト
+s.split(',')	sを','で区切る
+s.split(',')	sを','で分割した文字列のリスト
+sorted(a)	aを並べる
+sorted(a)	aを並べた列
+sorted(a, reverse=True)	aを降順に整列する
+sorted(a, reverse=True)	aを降順に並べ変えた列
+sum = 0	sumに0を入れる
+sum = 0	0をsumに入れる
+sum = 0	数値sumを0とする
+sum = 0	数値sumに0を入れる
+sum = 0	0をsum数値に入れる
+sum = 0	sumイコール0
+sum = 0	数値sumイコール0とする
+x ** 2	xの2乗
+x ** 2	xの2乗を見る
+x ** 2	xの2乗を計算する
+(x + y - 1) // y	xをyで割った結果の切り上げ
+(x + y - 1) // y	xをyで割った結果の切り上げを見る
+(x + y - 1) // y	xをyで割った結果の切り上げを求める
+(x + y - 1) // y	x割るyを切り上げる
+(x + y - 1) // y	xわるyの切り上げ
+(x + y - 1) // y	xわるyの切り上げを確認する
+(x + y - 1) // y	xわるyの切り上げを計算する
+x % y	xをyで割った余りを求める
+x % y	xをyで剰余を求める
+x % y	xとyのmodを求める
+x % y	xとyの割り算のあまりを求める
+x += y	xをyだけ増加させる
+x += y	xにyを足して代入
+x += y	xとyを足して代入する
+x += y	xたすyの値をxに代入する
+x -= y	xをyだけ減少させる
+x -= y	xからyを引いて代入する
+x -= y	xにxとyを引いて代入
+x -= y	xひくyの値をxに代入する
+abs(x)	xの絶対値
+abs(x)	xの絶対値を確認する
+abs(x)	xの絶対値を求める
+math.sqrt(x)	xの平方根
+math.sqrt(x)	xの平方根を確認する
+math.sqrt(x)	xの平方根を計算する
+math.sqrt(x)	xのルート
+math.sqrt(x)	xのルートを調べる
+math.sqrt(x)	xのルートを算出する
+math.ciel(x)	xの切り上げ
+math.ciel(x)	xの切り上げを確認する
+math.ciel(x)	xの切り上げを計算する
+math.ciel(x)	xに最も近い整数に切り上げ
+math.ciel(x)	xに最も近い整数に切り上げを見る
+math.ciel(x)	xに最も近い整数に切り上げを求める
+math.floor(x)	xの切り捨て
+math.floor(x)	xの切り捨てを見る
+math.floor(x)	xの切り捨てを計算する
+math.floor(x)	xに最も近い整数に切り捨て
+math.floor(x)	xに最も近い整数に切り捨てを調べる
+math.floor(x)	xに最も近い整数に切り捨てを算出する
+math.gcd(x, y)	xとyの最大公約数
+math.gcd(x, y)	xとyの最大公約数を表示する
+math.gcd(x, y)	xとyの最大公約数を求める
+max(x, y, z)	x、y、zの中で値
+max(x, y, z)	x、y、zの中で値を表示する
+max(x, y, z)	x、y、zの中で値を算出する
+max(x, y, z)	x、y、zの最大値
+max(x, y, z)	x、y、zの最大値を見る
+max(x, y, z)	x、y、zの最大値を計算する
+min(x, y, z)	x、y、zのうち][一番小さい値
+min(x, y, z)	x、y、zのうち][一番小さい値を見る
+min(x, y, z)	x、y、zのうち][一番小さい値を計算する
+min(x, y, z)	x、y、zの最小値
+min(x, y, z)	x、y、zの最小値を確認する
+min(x, y, z)	x、y、zの最小値を計算する
+for i in range(10):	以下の処理を10回繰り返す
+for i in range(10):	iに0から9を代入して、次の命令をループする
+for i in range(10):	iに10を超えない値までの連続した数値を代入して、次の命令をループする
+for i in range(10):	iを0から9まで1つずつ取り出しながら繰り返し処理を行う
+for i in range(10):	繰り返し処理を10回行う
+for i in range(10):	10回だけ繰り返し処理を行う
+for i in range(len(a)):	以下の処理をaの要素数分繰り返す
+print(sum)	sumを出力する
+print(sum)	sumを表示する
+print(sum)	sumを出力する
+print(sum, end='')	改行なしでsumを出力する
+print(sum, end='')	sumを改行なしでプリントする
+print(sum, end='')	sumの出力を改行しないで行う
+print('Hello World')	'Hello World'と出力する
+print('Hello World')	「こんにちは世界」と出力する
+print('Hello World')	試しに何か動かす
+print('Hello World')	最初のプログラム
+print('Hello World')	文章を出力する
+print('{:.5f}'.format(dist))	distの小数点以下5桁までをプリントする
+print('{:.5f}'.format(dist))	distの小数点以下を5桁まで出力する
+print('{:.5f}'.format(dist))	distの小数点以下を5桁で揃える
+print('{:.5f}'.format(dist))	distの小数部を5桁で揃える
+input()	ユーザから入力を得る
+x = input()	ユーザから入力を得、xに代入する
+input()	入力値を受け付ける
+x = input()	入力値を受け付けて、xに代入する
+input()	ユーザが入力した文字列
+x = input()	ユーザが入力した文字列をxとする
+input()	ユーザから入力された文字列
+x = input()	ユーザから入力された文字列をxとする
+input()	文字列を入力する
+x = input()	文字列を入力し、xにする
+input()	データを入力する
+x = input()	データを入力して、xとする
+input()	ユーザが入力した文字列を取得する
+x = input()	ユーザが入力した文字列を取得して、xに代入する
+input()	ユーザから入力された文字列を取得する
+x = input()	ユーザから入力された文字列を取得して、xとする
+int(input())	ユーザが入力した数
+ x = int(input())	ユーザが入力した数を xに代入する
+int(input())	数値を得る
+ x = int(input())	数値を得て、 xにする
+int(input())	ユーザから入力された整数
+ x = int(input())	ユーザから入力された整数を xとする
+int(input())	整数値を入力する
+ x = int(input())	整数値を入力し、 xとする
+int(input())	ユーザが入力した数データを取得する
+ x = int(input())	ユーザが入力した数データを取得して、 xにする
+int(input())	ユーザから入力された数値データを取得する
+ x = int(input())	ユーザから入力された数値データを取得し、 xにする
+list(input())	複数の入力値をリストとして得る
+ x = list(input())	複数の入力値をリストとして得て、 xに代入する
+list(input())	ユーザが入力した文字列をリストに格納する
+ x = list(input())	ユーザが入力した文字列をリストに格納して、 xにする
+list(input())	ユーザから入力された文字列をリストに格納する
+ x = list(input())	ユーザから入力された文字列をリストに格納して、 xとする
+list(input())	入力値をリスト型にする
+ x = list(input())	入力値をリスト型にし、 xとする
+list(input())	入力値をリストに変換する
+ x = list(input())	入力値をリストに変換して、 xにする
+list(input())	入力された文字列をリスト化する
+ x = list(input())	入力された文字列をリスト化して、 xとする
+list(input())	ユーザが入力した値をリスト化する
+ x = list(input())	ユーザが入力した値をリスト化して、 xに代入する
+list(input())	ユーザから入力されたデータをリストに変換する
+ x = list(input())	ユーザから入力されたデータをリストに変換して、 xとする
+list(input())	ユーザが入力したデータをリストに変換する
+ x = list(input())	ユーザが入力したデータをリストに変換して、 xとする
+list(map(int, input().split()))	空白で区切って入力された整数をリストとして受け取る
+ x = list(map(int, input().split()))	空白で区切って入力された整数をリストとして受け取り、 xとする
+list(map(int, input().split()))	入力を空白ごとに数値としてリストに格納する
+ x = list(map(int, input().split()))	入力を空白ごとに数値としてリストに格納し、 xにする
+list(map(int, input().split()))	一行から空白で区切って複数の入力値をリストとして得る
+ x = list(map(int, input().split()))	一行から空白で区切って複数の入力値をリストとして得、 xとする
+list(map(int, input().split()))	一行から複数の入力値を空白で区切ってリストに格納する
+ x = list(map(int, input().split()))	一行から複数の入力値を空白で区切ってリストに格納して、 xに代入する
+list(map(int, input().split()))	入力された数値をスペースで区切ってリストとして得る
+ x = list(map(int, input().split()))	入力された数値をスペースで区切ってリストとして得、 xにする
+list(map(int, input().split()))	ユーザが入力した整数値をスペースで区切ってリストとして受け取る
+ x = list(map(int, input().split()))	ユーザが入力した整数値をスペースで区切ってリストとして受け取り、 xにする
+a, b, c = input().split()	入力された文字列をスペースで分割し、a、b、c代入する
+a, b, c = input().split()	スペースごとに入力文字列を受け取り、a、b、c入れる
+a, b, c = input().split()	スペースで区切って入力文字列を受け取り、a、b、c代入する
+a, b, c = map(int, input().split())	一行で入力された整数を空白で分割し、a、b、cとする
+a, b, c = map(int, input().split())	スペースで区切って一行で入力された整数を受け取り、a、b、cとする
+a, b, c = map(int, input().split())	空白ごとに一行で入力された整数を受け取り、a、b、cとする
+float(x)	xを浮動小数点数にする
+float(x)	xを変換した浮動小数点数
+float(x)	xを浮動小数点数として取得する
+float(x)	xを浮動小数点数型に変換する
+int(x)	xを数値に変換する
+int(x)	xを変換した数
+int(x)	xを整数として取得する
+int(x)	xを整数型に変換する
+a == b	aとbが等しいかどうか
+if a == b:	aとbが等しいとき
+a != b	aとbが等しくないか
+if a == b :	aとbが等しければ
+if a != b :	aとbが等しくなければ
+while a == b :	aとbが等しい間
+while a != b :	aとbが等しくない間
+a == b	aがbと等しいか
+if a == b:	aがbと等しい場合
+a != b	aがbと等しくないか
+if a == b :	もしaがbと等しい場合
+if a == b :	aがbと等しければ
+if a == b :	aがbと等しかったならば
+if a != b :	aがbと等しくなければ
+while a == b :	aがbと等しい間
+while a != b :	aがbと等しくない間
+a == b	aはbと等しいか否か
+if a == b:	もしaはbと等しいならば
+a != b	aはbと等しくないか
+if a == b :	aはbと等しいならば
+if a == b :	もしaはbと等しければ
+if a != b :	aはbと等しくなければ
+while a != b :	aはbと等しくない間
+a == b	aがbか否か
+if a == b:	もしaがbならば
+a != b	aがbでないかどうか
+if a == b :	もしaがbとき
+if a != b :	aがbでないとき
+while a == b :	aがb間
+a > b	aがbより大きいか否か
+if a > b:	aがbより大きいとき
+not a > b	aがbより大きくないか
+if a > b :	もしaがbより大きいとき
+if a > b :	aがbより大きければ
+if a > b :	もしaがbより大きかったとき
+if not a > b :	aがbより大きくなければ
+if not a > b :	もしaがbより大きくなかったなら
+while a > b :	aがbより大きい間
+while not a > b :	aがbより大きくない間
+a > b	aがbよりも大きいか否か
+if a > b:	aがbよりも大きいならば
+not a > b	aがbよりも大きくないかどうか
+if a > b :	もしaがbよりも大きければ
+if not a > b :	aがbよりも大きくなかった場合
+while a > b :	aがbよりも大きい間
+a < b	aがbより小さいかどうか
+if a < b:	aがbより小さいとき
+not a < b	aがbより小さくないか
+if a < b :	aがbより小さいならば
+if not a < b :	aがbより小さくないならば
+if not a < b :	もしaがbより小さくなければ
+if not a < b :	aがbより小さくなかったならば
+while a < b :	aがbより小さい間
+a < b	aがbよりも小さいかどうか
+if a < b:	もしaがbよりも小さいならば
+not a < b	aがbよりも小さくないかどうか
+if a < b :	aがbよりも小さければ
+if a < b :	もしaがbよりも小さかった場合
+if not a < b :	aがbよりも小さくなかったならば
+a >= b	aがb以上か
+if a >= b:	aがb以上ならば
+not a >= b	aがb以上でないかどうか
+if a >= b :	もしaがb以上ならば
+if not a >= b :	aがb以上でない場合
+while not a >= b :	aがb以上でない間
+a >= b	aがb以上であるか
+if a >= b:	aがb以上であるとき
+not a >= b	aがb以上であるでないか
+if a >= b :	もしaがb以上であるならば
+if not a >= b :	aがb以上であるでないならば
+while a >= b :	aがb以上である間
+while not a >= b :	aがb以上であるでない間
+a <= b	aがb以降かどうか
+if a <= b:	aがb以降のとき
+not a <= b	aがb以降でないか
+if a <= b :	aがb以降ならば
+if not a <= b :	aがb以降でない場合
+while a <= b :	aがb以降間
+while not a <= b :	aがb以降でない間
+a <= b	aがb以下であるか
+if a <= b:	aがb以下であるならば
+not a <= b	aがb以下であるでないか
+if a <= b :	もしaがb以下であるとき
+if not a <= b :	もしaがb以下であるでないとき
+while not a <= b :	aがb以下であるでない間
+a % 2 == 0	aが偶数か否か
+if a % 2 == 0:	aが偶数のとき
+a % 2 != 0	aが偶数でないかどうか
+if a % 2 == 0 :	もしaが偶数ならば
+if a % 2 != 0 :	aが偶数でないならば
+while a % 2 == 0 :	aが偶数間
+while a % 2 != 0 :	aが偶数でない間
+a % 2 == 0	aが偶数であるか
+if a % 2 == 0:	aが偶数であるとき
+a % 2 != 0	aが偶数であるでないか
+if a % 2 == 0 :	もしaが偶数であるとき
+if a % 2 != 0 :	もしaが偶数であるでない場合
+while a % 2 == 0 :	aが偶数である間
+while a % 2 != 0 :	aが偶数であるでない間
+a % 2 == 0	aが2で割った時の余りが0であるか否か
+if a % 2 == 0:	aが2で割った時の余りが0であるならば
+a % 2 != 0	aが2で割った時の余りが0であるでないかどうか
+if a % 2 == 0 :	aが2で割った時の余りが0であるならば
+if a % 2 != 0 :	aが2で割った時の余りが0であるでない場合
+while a % 2 != 0 :	aが2で割った時の余りが0であるでない間
+a % 2 == 1	aが奇数か
+if a % 2 == 1:	aが奇数のとき
+a % 2 != 1	aが奇数でないか
+if a % 2 == 1 :	aが奇数場合
+if a % 2 != 1 :	aが奇数でないとき
+while a % 2 == 1 :	aが奇数間
+while a % 2 != 1 :	aが奇数でない間
+a % 2 == 1	aが奇数であるか
+if a % 2 == 1:	aが奇数である場合
+a % 2 != 1	aが奇数であるでないかどうか
+if a % 2 == 1 :	もしaが奇数である場合
+if a % 2 != 1 :	aが奇数であるでないとき
+a % 2 == 1	aが2で割った時の余りが1であるか否か
+if a % 2 == 1:	aが2で割った時の余りが1であるならば
+a % 2 != 1	aが2で割った時の余りが1であるでないかどうか
+if a % 2 == 1 :	aが2で割った時の余りが1であるならば
+if a % 2 != 1 :	aが2で割った時の余りが1であるでない場合
+while a % 2 != 1 :	aが2で割った時の余りが1であるでない間
+a % n == 0	aがnの倍数か
+if a % n == 0:	aがnの倍数の場合
+a % n != 0	aがnの倍数でないかどうか
+if a % n == 0 :	aがnの倍数とき
+if a % n != 0 :	もしaがnの倍数でないとき
+a % n == 0	aがnで割り切れるか
+if a % n == 0:	aがnで割り切れるとき
+a % n != 0	aがnで割り切れないか
+if a % n == 0 :	aがnで割り切れれば
+if a % n == 0 :	もしaがnで割り切れたならば
+while a % n == 0 :	aがnで割り切れる間
+pass	何もしない
+pass	何も行わない
+pass	パスする
+break	抜ける
+break	ループを終了する
+break	ループを抜ける
+break	ループ処理から抜ける
+break	ループ文を抜け出す
+break	ループから抜け出す
+break	繰り返し処理を終了する
+break	繰り返し処理から抜ける
+if age < 6 or age >= 60:	もしageが6未満、または60以上のとき
+if age < 6 or age >= 60:	もし6才未満、または60才以上のとき
+if age < 6 and age >= 60:	もしageが6未満、かつ60以上のとき
+if age < 6 and age >= 60:	もし6才未満、かつ60才以上のとき
+sorted(a)	aを整列する
+sorted(a)	aを並べ変えた列
+sorted(a, reverse=True)	aを降順に並べ変える
+sorted(a, reverse=True)	aを降順にソートした列
+a[0]	aの最初
+a[-1]	aの末尾の要素
+a[start:end]	aの一部分を取り出す
+a[start:end]	aのstart番目からend番目の値を取り出す
+a[start:]	aのstart番目から末尾までの要素を取り出す
+a[start:]	aのstart番目以降の要素を取り出す
+a[:end]	aの一部分を取り出す
+a[:end]	aの先頭からend番目の値を取り出す
+a[::-1]	aの逆順
+a[::-1]	a内の要素の順番を逆転する
+len(a)	aの要素数
+len(a)	aの要素数を調べる
+len(a)	aの要素数を算出する
+sum(a)	aの合計値
+sum(a)	aの合計値を見る
+sum(a)	aの合計値を求める
+sum(a)	数列aの総和
+sum(a)	数列aの総和を確認する
+sum(a)	数列aの総和を求める
+min(a)	リストaの最小値
+min(a)	リストaの最小値を見る
+min(a)	リストaの最小値を求める
+max(a)	リストaの最大値
+max(a)	リストaの最大値を調べる
+max(a)	リストaの最大値を計算する
+sum(a)/len(a)	数列aの平均値
+sum(a)/len(a)	数列aの平均値を調べる
+sum(a)/len(a)	数列aの平均値を計算する
+range(n)	0からn-1までの数列
+range(n)	0からn-1の範囲の数列
+range(n)	0からn-1の範囲で1ずつ増える数列
+range(n)	0~n-1の範囲の数列
+range(n)	0~n-1の範囲で1ずつ増える数列
+range(n)	0以上n未満で1ずつ増える数列
+range(n)	0以上n未満の範囲の数列
+range(1, n+1)	1からnまでの数列
+range(1, n+1)	1からnの範囲の数列
+range(1, n+1)	1からnの範囲で1ずつ増える数列
+range(1, n+1)	1~nの範囲の数列
+range(1, n+1)	1~nの範囲で1ずつ増える数列
+range(1, n+1)	1以上n+1未満の範囲で1ずつ増える数列
+[]	空のリストを作る
+ a = []	空のリストを作って、 aとする
+a.append(x)	リストaにxを加える
+a.append(x)	aの末尾にxを加える
+a.append(x)	xを追加する要素としてリストaの末尾に値を付加する
+a.pop()	aの末尾から要素を取り出す
+a.pop(i)	aのi番目から要素を取り出す
+[0 for i in range(n)]	n個の0が含まれるリスト
+ a = [0 for i in range(n)]	n個の0が含まれるリストを aに代入する
+[i for i in range(1, 101)]	1から100までの数が並んだリスト
+ a = [i for i in range(1, 101)]	1から100までの数が並んだリストを aとする
+[i for i in range(1, 101)]	1以上101未満の数が並んだリスト
+ a = [i for i in range(1, 101)]	1以上101未満の数が並んだリストを aにする
+s.replace(o, n)	文字列s内のoをnに置き換えた文字列
+ s2 = s.replace(o, n)	文字列s内のoをnに置き換えた文字列を s2とする
+s.upper()	sを英大文字に変換した文字列
+ s2 = s.upper()	sを英大文字に変換した文字列を s2とする
+s.upper()	文字列s内の小文字を大文字に変換する
+ s2 = s.upper()	文字列s内の小文字を大文字に変換し、 s2とする
+s.upper()	sを全て大文字に変換する
+ s2 = s.upper()	sを全て大文字に変換して、 s2にする
+s.upper()	sを全て大文字にする
+ s2 = s.upper()	sを全て大文字にし、 s2とする
+s.upper()	文字列sの全ての文字を大文字にする
+ s2 = s.upper()	文字列sの全ての文字を大文字にして、 s2に代入する
+s.upper()	sの全ての英字を大文字にする
+ s2 = s.upper()	sの全ての英字を大文字にし、 s2に代入する
+s.upper()	sの英字全てを大文字にする
+ s2 = s.upper()	sの英字全てを大文字にし、 s2とする
+s.lower()	文字列sを英小文字に変換した文字列
+ s2 = s.lower()	文字列sを英小文字に変換した文字列を s2とする
+s.lower()	文字列sの中の大文字を小文字に変換する
+ s2 = s.lower()	文字列sの中の大文字を小文字に変換して、 s2とする
+s.lower()	sを全て小文字に変換する
+ s2 = s.lower()	sを全て小文字に変換して、 s2とする
+s.lower()	sを全て小文字にする
+ s2 = s.lower()	sを全て小文字にして、 s2にする
+s.lower()	文字列sの全ての英字を小文字に変換する
+ s2 = s.lower()	文字列sの全ての英字を小文字に変換し、 s2とする
+s.lower()	sの全ての文字を小文字にして返す
+ s2 = s.lower()	sの全ての文字を小文字にして返して、 s2とする
+s.lower()	sの英字全てを小文字に変換する
+ s2 = s.lower()	sの英字全てを小文字に変換し、 s2にする
+list(s)	文字列sの文字リスト
+ s2 = list(s)	文字列sの文字リストを s2にする
+s.split(c)	文字列sをcで分割した文字列のリスト
+ s2 = s.split(c)	文字列sをcで分割した文字列のリストを s2とする
+s.split(c)	sをcで分割してリストを返す
+ s2 = s.split(c)	sをcで分割してリストを返して、 s2とする
+s.split(c)	cを区切り文字に指定してsを分割してリスト型にする
+ s2 = s.split(c)	cを区切り文字に指定してsを分割してリスト型にして、 s2に代入する
+s.count(x)	s内のxの出現回数
+s.count(x)	s内のxの出現回数を確認する
+s.count(x)	s内のxの登場回数
+s.count(x)	s内のxの登場回数を調べる
+s.startswith(x)	文字列sがxで始まるか
+if s.startswith(x):	もし文字列sがxで始まるならば
+if s.startswith(x) :	もし文字列sがxで始まれば
+if s.startswith(x) :	文字列sがxで始まったら
+s.startswith(x)	文字列sの先頭がxであるどうか
+if s.startswith(x) :	文字列sの先頭がxであるどう場合
+s.endswith(x)	sがxで終わるかどうか
+if s.endswith(x):	sがxで終わるとき
+if s.endswith(x) :	sがxで終われば
+s.endswith(x)	文字列sの末尾がxであるどうか
+if s.endswith(x) :	文字列sの末尾がxであるどうとき
+s.isupper()	文字列sが英大文字か
+if s.isupper():	文字列sが英大文字ならば
+if s.isupper() :	もし文字列sが英大文字ならば
+s.isupper()	s中の全ての文字が英大文字か
+if s.isupper():	もしs中の全ての文字が英大文字ならば
+if s.isupper() :	もしs中の全ての文字が英大文字とき
+s.isupper()	文字列s中の全ての英字が大文字か否か
+if s.isupper():	文字列s中の全ての英字が大文字のとき
+if s.isupper() :	文字列s中の全ての英字が大文字とき
+s.isupper()	文字列s中の英字全てが大文字か
+if s.isupper():	文字列s中の英字全てが大文字ならば
+if s.isupper() :	もし文字列s中の英字全てが大文字とき
+s.islower()	sが英小文字か
+if s.islower():	sが英小文字の場合
+if s.islower() :	sが英小文字場合
+s.islower()	s中の全ての文字が英小文字か否か
+if s.islower():	s中の全ての文字が英小文字のとき
+if s.islower() :	もしs中の全ての文字が英小文字とき
+s.islower()	文字列s中の全ての英字が小文字か
+if s.islower():	文字列s中の全ての英字が小文字の場合
+if s.islower() :	もし文字列s中の全ての英字が小文字ならば
+s.islower()	s中の英字全てが小文字か否か
+if s.islower():	もしs中の英字全てが小文字ならば
+if s.islower() :	もしs中の英字全てが小文字ならば
+s.isdigit()	sが数字かどうか
+if s.isdigit():	sが数字のとき
+if s.isdigit() :	もしsが数字場合
+s.isdigit()	文字列s中の全ての文字が数字か
+if s.isdigit():	文字列s中の全ての文字が数字ならば
+if s.isdigit() :	もし文字列s中の全ての文字が数字とき
+s.isdigit()	s全てが数字かどうか
+if s.isdigit():	s全てが数字の場合
+if s.isdigit() :	もしs全てが数字ならば
+s.isdigit()	文字列sが数字であるか
+if s.isdigit():	文字列sが数字である場合
+if s.isdigit() :	文字列sが数字である場合

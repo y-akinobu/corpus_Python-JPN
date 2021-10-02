@@ -1,0 +1,44 @@
+そうでなく、もし <A> が <B> であれば	elif <A> == <B> :	elif <A> == <B> <unk>	0
+<A> を <B> の文字列表現とする	<A> = str ( <B> )	for <A> in <unk> <unk> <B> <unk> <unk>	0
+<A> を <B> で割った整数部分が <C> でない間繰り返し	while int ( <A> / <B> ) >  <C> :	for <A> in <unk> <B> <unk> <unk> <C> / <D> <unk>	0
+<A> に <B> を <C> で割った商と <B> + <D> の組を代入	<A> = ( int ( <B> / <C> ) , <B> + <D> )	for <A> in <unk> <unk> <unk> <B> <unk> <unk> <C> + <D> <unk> <unk> <unk> <unk> <unk>	0
+<C> の各要素を <B> 、 <A> を番号として繰り返し	for <A> , <B> in enumerate ( <C> ) :	for <A> in <unk> <unk> <B> <unk> <C> <unk> <unk> <unk>	0
+<A> 割る <B> の整数部分を返す	return int ( <A> / <B> )	return <unk> <unk> <A> / <B> <unk>	0
+<A> の末尾にに <B> の表す整数を追加	<A> . append ( int ( <B> ) )	def <A> <unk> <unk> <unk> <B> <unk> <unk> <unk>	0
+<B> から <C> の平方根までの整数を順に <A> として	for <A> in range ( <B> , int ( <C> ** 0.5 ) + 1 ) :	for <A> in <unk> <unk> <B> <unk> <unk> <C> + 1 <unk> <unk> <unk> <unk> <unk> <unk> <unk>	0
+dinominals の最初の要素を返す	return dinomials [ 0 ]	else <unk> <unk>	0
+<A> に <B> と <C> の差を代入	<A> = <B> - <C>	<A> = <B> * <C>	0
+<B> から <C> 未満の各数を順に <A> として	for <A> in range ( <B> , <C> ) :	for <A> in <unk> <B> <unk> <C> <unk> <unk>	0
+もし <A> の長さが <B> であれば	if len ( <A> ) == <B> :	if <unk> <unk> <unk> <A> <unk> == <B> <unk>	0
+もし <A> の <B> 番目が偽であれば	if not <A> [ <B> ] :	return <unk> <unk> <A> <unk> <B> <unk>	0
+<A> を <B> とする	<A> = <B>	return <A> + <B>	0
+<A> の <B> 番目が真であれば	if <A> [ <B> ] :	elif <unk> <unk> <A> <unk> <B> <unk>	0
+<A> と <B> と <C> を引数とする関数 euler006_make_common_dif_sequence_a の定義	def euler006_make_common_diff_sequence_a ( <A> , <B> , <C> ) :	def <unk> <A> <unk> <B> <unk> <C> <unk> <unk> <unk>	0
+<A> の末尾に <B> を追加	<A> . append ( <B> )	<A> <unk> <unk> <unk> <unk> <B> <unk>	0
+<A> に <B> の <C> 乗の文字列表現を格納	<A> = str ( <B> ** <C> )	for <A> in <unk> <unk> <B> <unk> <C> <unk> <unk> <unk>	0
+<A> の自乗が <B> 未満の間	while <A> * <A> <  <B> :	while <A> < <B> <unk>	0
+<A> と <B> の大きい方を新しい <A> とする	<A> = max ( <A> , <B> )	return <unk> <unk> <A> <unk> <B> <unk>	0
+<A> と <B> を引数とする関数 euler -17_ divid_inateger_part を定義	def euler017_divid_integer_part ( <A> , <B> ) :	def <unk> <A> <unk> <B> <unk> <C> <unk>	0
+<A> を <B> が <C> + <D> 個繋がったリストとする	<A> = [ <B> ] * ( <C> + <D> )	<A> = <B> * <unk> <C> + <D> <unk>	0
+<A> の <B> 乗を返す	return <A> ** <B>	for <A> in <B> <unk>	0
+<A> を引数とする関数 euler006_n_sequence の定義	def euler006_n_square ( <A> ) :	return <unk> <unk> <unk> <unk> <A> <unk> <unk>	0
+<A> に空リストを代入	<A> = [ ]	else <unk>	0
+<A> に <B> の <C> 番目を足す	<A> += <B> [ <C> ]	while <A> <unk> <B> <unk> <C> <unk>	0
+<A> が <B> 未満の間	while <A> <  <B> :	while <A> < <B> <unk>	0
+もし <A> を <B> で割った余りが <C> であれば	if <A> % <B> == <C> :	else <unk> <unk> <A> / <B> <unk> <C> <unk>	0
+<A> を返す	return <A>	break	0
+<B> 内の各要素を <A> として	for <A> in <B> :	for <A> in <B> <unk>	0
+<A> に <B> の要素の総和の文字列表現を代入	<A> = str ( sum ( <B> ) )	return <unk> <unk> <unk> <unk> <unk> <unk> <A> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <B> <unk> <unk>	0
+<A> を空リストとする	<A> = [ ]	else <unk>	0
+<A> に <B> の長さを <C> で割った商と <B> を <C> で割った余りの和を代入	<A> = ( int ) ( len ( <B> ) / <C> ) + ( len ( <B> ) % <C> )	return <unk> <unk> <unk> <A> / <B> <unk> <C> / <D> <unk> <unk> <unk> <unk> <unk>	0
+<A> の末尾要素とその次の要素を足して <A> の末尾に追加	<A> . append ( <A> [ -1 ] + <A> [ -2 ] )	return <A> <unk> <unk> <unk> <unk> <A> <unk> <unk> + <A> + <A> <unk> <unk> <unk> <unk> <unk>	0
+<A> と、 <B> と <C> の積の大きい方を新しい <A> とする	<A> = max ( <A> , <B> * <C> )	for <A> in <unk> <unk> <B> <unk> <C> <unk>	0
+<B> から <C> 個飛ばしで <D> 個の整数を <A> として	for <A> in range ( <B> , <B> + ( <C> * <D> ) , <C> ) :	for <A> in <unk> <B> <unk> <C> <unk> <unk> <unk>	0
+<A> に <B> の文字列表現を代入	<A> = str ( <B> )	def <A> <unk> <unk> <unk> <B> <unk>	0
+<A> に <B> の <C> 番目の要素の長さを足す	<A> += len ( <B> [ <C> ] )	<A> += <unk> <unk> <B> <unk> <C> <unk>	0
+<A> が <B> で割り切れるなら <A> を <B> で割った商を、そうでないなら <A> の <C> 倍に <D> を足した数を返す	return int ( <A> / <B> ) if <A> % <B> == 0 else <A> * <C> + <D>	return <unk> <unk> <unk> <A> / <B> == 0 <unk> <A> % <C> == 0 else <A> % <D> == 0 <unk>	0
+<B> 未満の非負整数 <A> を小さい方から順に調べる	for <A> in range ( <B> ) :	for <A> in <unk> <unk> <unk> <B> <unk> <unk>	0
+<B> 中の各要素を順に <A> として	for <A> in <B> :	def <A> <unk> <B> <unk>	0
+<A> の <B> -1 番目の要素を返す	return <A> [ <B> - 1 ]	return <unk> <unk> <A> <unk> <B> <unk> - 1 <unk>	0
+<A> -1 と <C> + <B> の組を返す	return ( <A> - <B> , <C> + <B> )	return <unk> <unk> <A> + <B> <unk> <C> - 1 <unk>	0
+<A> の末尾に <B> を追加する	<A> . append ( <B> )	<A> <unk> <unk> <unk> <unk> <B> <unk>	0

@@ -1,0 +1,39 @@
+<A> の <B> 列に欠損値がある行を削除する	<A> . dropna ( subset = [ <B> ] , axis = 0 , inplace = True )	np . dropna ( <A> [ <B> ] , axis = 0 , inplace = True )
+<A> の name と kcal を抽出し、先頭 5 行を表示する	<A> [ [ 'name' , 'kcal' ] ] . head ( )	df [ <A> [ <B> , <C> ] . head ( )
+<A> に含まれる欠損値の有無を行ごとに判定し、欠損値が含まれるもののみを抽出したときの形状を取得	<A> [ <A> . isnull ( ) . any ( axis = 1 ) ] . shape	<A> [ <A> . isnull ( ) . any ( axis = 1 ) ] . head ( )
+<A> の初めの 5 行を表示する	<A> . head ( )	from <A> . head ( )
+<A> の <B> 列と <C> 列ごとに <D> 列の値の和を計算する	<A> . groupby ( [ <B> , <C> ] ) [ <D> ] . sum ( )	<A> [ <B> ] = <A> [ <C> ] . rolling ( <D> ) . mean ( ) . mean ( )
+weather 'を軸に' temperature 'の平均値を求める。	df . groupby ( [ 'weather' ] ) [ 'temperature' ] . mean ( )	np . groupby ( df [ <A> ] ) . count ( ) [ 'sales' ] . sum ( )
+remarks 'の行を削除する	df . drop ( [ 'remarks' ] , axis = 1 , inplace = True )	reg . dropna ( )
+<A> の 'paypay' 列に含まれる欠損値を <B> に置き換える	<A> . fillna ( value = { 'payday' : <B> } , inplace = True )	<A> [ <B> ] = <A> . replace ( ) . sum ( ) . sum ( )
+列 'precipitationの要素をstr型にした後に' - - ' を  <A> に置き換えて、 <B> 型にデータ型を変換する。	df [ 'precipitation' ] = df [ 'precipitation' ] . str . replace ( '--' , <A> ) . astype ( <B> )	pd . DataFrame ( df [ <B> ] . mask ( df [ <A> ] , <D> ) ) ) . head ( )
+<A> の行数・列数を確認	<A> . shape	<A> . shape
+重複している行を <A> から削除する	<A> . drop_duplicates ( )	from <A> . drop_duplicates ( )
+<A> の <B> 列、 'temperature_rolling' 列、 <C> 列の値を、横 <D> 縦 <E> のサイズで透過率が <F> の折れ線グラフとして表示する	<A> . plot ( y = [ <B> , 'temperature_rolling_mean' , <C> ] , figsize = ( <D> , <E> ) , alpha = <F> )	<A> [ <B> , <C> ] ] . plot ( 'kcal > 450 and name == "豚肉の生姜焼"' ) . plot ( )
+<A> の <B> モジュールを <B> としてインポートする	import <A> . random as <B>	<A> import <B> as <C>
+<A> の列 <B> と列 'temprature' を照準で並び替え、最初の 5 行を表示	<A> . sort_values ( [ <B> , 'temperature' ] , ascending = False ) . head ( )	pivot_monthly_df . head ( <A> [ <B> ] , <A> [ <B> ] ) . head ( )
+<A> について、列 <B> の値ごとに <C> の平均を算出	<A> . groupby ( [ <B> ] ) [ <C> ] . mean ( )	<A> [ 'temperature_rolling_mean' ] = <A> [ <C> ] . rolling ( ) . mean ( )
+<A> の <B> 列、 <C> 列、 <D> 列に欠損値がある行を削除する	<A> . dropna ( subset = [ <B> , <C> , <D> ] , axis = 0 , inplace = True )	<A> . dropna ( [ <B> ] , inplace = True , axis = True ) . head ( )
+<A> から <B> と <C> をインポート	from <A> import <B> , <C>	import <A> <B> as <C>
+グラフのタイトルを <A> とする	plt . title ( <A> )	from <A> . title ( )
+グラフの y 軸の目盛り文字列を <A> から [ <B> , <C> , <D> ] に変更	plt . yticks ( <A> , [ <B> , <C> , <D> ] )	pd . DataFrame ( <A> [ <B> , <C> ] , <D> ) . head ( )
+sales '列が昇順になるよう <A> をソートし、上 5 行を表示する	<A> . sort_values ( by = "sales" , ascending = True ) . head ( )	<A> . isnull ( ) . sum ( axis = 1 ) . head ( axis = 1 )
+グラフを <A> 行 <B> 列のグラフの <B> つ目として指定	plt . subplot ( <A> , <B> , <B> )	from <A> . subplot ( <B> , <A> , <B> , <C> )
+<A> の <B> 列ごとに <C> 列の値の平均を計算する	<A> . groupby ( [ <B> ] ) [ <C> ] . mean ( )	<A> [ [ <B> ] ] . sum ( ) . sum ( <C> ) . sum ( )
+<A> の各列の要約統計量を取得	<A> . describe ( )	<A> [ 'absences' ] . describe ( )
+<A> 軸 = [ <B> , <C> , <D> ] 、サイズ = ( <E> , <F> ) 、透過率 = <G> の折れ線グラフを描く。	df . plot ( <A> = [ <B> , <C> , <D> ] , figsize = ( <E> , <F> ) , alpha = <G> )	plt . plot ( <A> , <B> , color = ( <C> , <D> , <D> ) , <E> )
+<A> の行数および列数を表示	<A> . shape	sns <A> . shape
+データ <A> の absences についての分散を取得	<A> [ 'absences' ] . var ( )	np . median ( <A> [ 'absences' ] )
+グラフにグリッドを表示させる。	plt . grid ( True )	sns . set_option ( )
+<A> を <B> としてインポート	import <A> as <B>	import <A> as <B>
+<A> の最初の 5 行を表示させる	<A> . head ( )	from <A> . head ( )
+<A> を <B> としてインポートする。	import <A> as <B>	import <A> as <B>
+グラフのデザインを seaborn のスタイルに適用する	sns . set ( )	plt . legend ( )
+<A> の column を確認	<A> . columns	from <A> . index
+<A> のうち、列 <B> , <C> , <D> に１つでも欠損値がある行は削除	<A> . dropna ( subset = [ <B> , <C> , <D> ] , axis = 0 , inplace = True )	df . dropna ( subset = [ <A> [ <B> ] , <C> , <D> ] ] , inplace = True ) . head ( )
+列 <B> を参照において、自身も含めた後ろ <C> つの要素の平均値を、列 <A> に格納する。	df [ <A> ] = df [ <B> ] . rolling ( window = <C> ) . mean ( )	pd . DataFrame ( <A> [ <B> , <A> [ <B> , <C> , <D> ) . head ( )
+<A> の最後の 5 行を表示	<A> . tail ( )	from <A> . head ( )
+<A> の先頭 5 行を表示する	<A> . head ( )	from <A> . head ( )
+グラフのサイズを <A> = ( <B> , <C> ) に設定する。	plt . figure ( <A> = ( <B> , <C> ) )	plt . plot ( <A> , <B> , color = <C> )
+<A> のそれぞれの行に対して欠損値を含むか否か bool 値で取得し、 True だけを抽出したときに形状を取得する。	<A> [ <A> . isnull ( ) . any ( axis = 1 ) ] . shape	df [ <A> . isnull ( ) . any ( axis = 1 ) ] . head ( )
+<A> の列 <B> について、値の集計をとる	<A> [ <B> ] . value_counts ( )	<A> [ [ <B> ] ] = <A> [ <C> ) . value_counts ( )
