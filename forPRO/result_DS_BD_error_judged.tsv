@@ -1,0 +1,68 @@
+result_DS_BD_error
+表 <A> 中の NaN を <B> に置き換え、インプレースする	"<A> . fillna ( <B> , inplace = True )"	"df . fillna ( <A> [ <B> ] , inplace = True )"	0
+<A> をグラフの y 軸、 <B> を x 座標として、線グラフを描画する	"plt . plot ( <A> , <B> )"	"plot plt . plot ( <A> , <B> )"	0
+表データ <B> の中の未入力の値を <B> の平均値で埋めて、 <A> とする	<A> = <B> . fillna ( <B> . mean ( ) )	range = <B> . fillna ( <B> . mean ( ) )	0
+そこで、ラインスタイルは一点鎖線をする	linestyle = 'dashbot'	bins = 'dashbot'	0
+表データ <A> の <B> と <C> の相関係数	"<A> [ [ <B> , <C> ] ] . corr ( )"	"[ <A> [ <B> , <C> ] ] . corr ( )"	0
+データフレーム <A> の中の重複した行をドロップして、置き換える	<A> = <A> . drop_duplicates ( )	<A> . drop_duplicates ( inplace = True )	1
+<A> ( データフレーム ) の <B> カラムを小から大へと並び替えて、 <A> にする	<A> = <A> . sort_values ( <B> )	markeredgewidth = <A> . sort_values ( <B> )	0
+データフレーム <A> をファイルパス <B> という名前にして CSV ファイルに書き込む	<A> . to_csv ( <B> )	to_csv <A> . to_csv ( <B> )	0
+表 <A> の中の未記入の値が存在する行を削除し、 <A> にする	<A> = <A> . dropna ( )	= <A> . dropna ( )	0
+<A> の <B> と <A> のコラム <C> と <A> 表の <D> についての箱ひげ図を描画する	"plt . boxplot ( [ <A> [ <B> ] , <A> [ <C> ] , <A> [ <D> ] ] )"	"boxplot plt . boxplot ( [ <A> [ <B> ] , <A> [ <C> ] , <A> [ <D> ] ] )"	0
+表 <A> のカラム <B> と <A> の <C> と <A> の <D> の箱ひげ図を一枚のグラフで表示する	"plt . boxplot ( [ <A> [ <B> ] , <A> [ <C> ] , <A> [ <D> ] ] )"	"boxplot plt . boxplot ( [ <A> [ <B> ] , <A> [ <C> ] , <A> [ <D> ] ] )"	0
+分割数を <D> 、ビンの名前を整数値として、表データ <B> の <C> をビン分割して、 <A> とする	"<A> = pd . cut ( <B> [ <C> ] , <D> , label = False )"	"linestyle = pd . cut ( <B> [ <C> ] , <D> , label = False )"	0
+表 <A> の欠損を <B> で埋める	<A> . fillna ( <B> )	fillna <A> [ <B> ] . fillna ( ) )	0
+データフレーム <A> を <B> として CSV に書き出す	<A> . to_csv ( <B> )	to_csv <A> . to_csv ( <B> )	0
+<A> までの列を表示させる	"pd . set_option ( 'display.max_columns' , <A> )"	sns . pairplot ( <A> )	0
+データフレーム ( <A> ) のカラム <C> をグラフの <B> 軸、 <E> を <D> 軸として、散布図をプロットする	"<A> . plot ( kind = 'scatter' , <B> = <C> , <D> = <E> )"	"markeredgewidth = <A> . plot ( <B> , <C> , <D> = <E> )"	0
+<A> の欠損値を <A> 表の平均値で埋めて、置き換える	<A> = <A> . fillna ( <A> . mean ( ) )	= <A> . fillna ( <A> . mean ( ) )	0
+<A> と <B> 表属性に重複はあるのかどうか見る	"df . duplicated ( subset = [ <A> , <B> ] )"	". duplicated ( subset = [ <A> , <B> ] )"	0
+重複している最後の行を残して <A> ( データフレーム ) の中の重複している行をドロップして、 <A> とする	<A> = <A> . drop_duplicates ( keep = False )	markeredgewidth = <A> . drop_duplicates ( keep = False )	0
+棒と棒の隙間を <C> として、 <A> 軸を <A> とした <B> の縦向きの棒グラフを描く	"plt . bar ( <A> , <B> , width = <C> )"	"plt . barh ( <A> , <B> , width = <C> )"	0
+表属性 <B> を順に並び替え、 <A> とする	<A> = <A> . sort_values ( <B> )	<A> = df . sort_values ( <B> )	1
+先頭の列をインデックスと設定して、 <B> を読み、 <A> に代入する	"<A> = pd . read_csv ( <B> , index_col = 0 )"	"pd . read_csv ( <A> , index_col = <B> )"	1
+表データ <A> の <B> の時間	<A> [ <B> ] . dt . hour	[ <A> [ <B> ] . dt . hour	0
+表データ <A> の末尾の 5 行を表示する	<A> . tail ( )	df1 . tail ( <A> )	0
+表データ <A> を表属性 <B> でソートして、 <A> にする	<A> = <A> . sort_values ( <B> )	= <A> . sort_values ( <B> )	0
+重複した最後の行を残して <B> ( データフレーム ) の重複した行を消して、 <A> とする	<A> = <B> . drop_duplicates ( keep = False )	fontsize = <B> . drop_duplicates ( keep = False )	0
+データフレーム <A> の <B> カラムのデータ列	<A> [ <B> ]	alpha <A> [ <B> ]	0
+<A> の重複する行を取り除き、 <A> とする	<A> = <A> . drop_duplicates ( )	= <A> . drop_duplicates ( )	0
+<A> を順にする	df . sort_values ( <A> )	sort_values df = df . sort_values ( <A> )	0
+<A> の出現頻度を調べる	pd . DataFrame ( { 'words' : <A> } ) . value_counts ( )	value_counts . value_counts ( )	0
+<B> の中の <C> を未入力の値に置換し、未入力の値が存在する行を消して、 <A> とする	"<A> = <B> . replace ( <C> , np . nan ) . dropna ( )"	"<B> <A> = <B> . replace ( <C> , np . nan ) . dropna ( )"	0
+表 <A> 内の <B> に重複がある行を消して、置き換える	"<A> . drop_duplicates ( subset = <B> , inplace = True )"	sns = <A> . drop_duplicates ( subset = <B> )	0
+カンマ区切りで CSV ファイル <A> ( ファイル名 ) を表データとして読み込む	"pd . read_csv ( <A> , sep = ',' )"	"left_index = pd . read_csv ( <A> , sep = ',' )"	0
+データフレーム <B> の表属性 <C> を四分位数ごとで分割して、 <A> にする	"<A> = pd . qcut ( <B> [ <C> ] , 4 )"	"] = pd . qcut ( <B> [ <C> ] , 4 )"	0
+データフレーム <A> 内の重複をを確認する	<A> . duplicated ( )	df . duplicated ( subset = <A> )	0
+データフレーム <A> の <B> の未入力の値を表属性 <B> の平均値で補完する	<A> [ <B> ] . fillna ( <A> [ <B> ] . mean ( ) )	fillna <A> [ <B> ] . mean ( ) )	0
+そこで、マーカーの形状のエッジ色はマゼンタである	markeredgecolor = 'magenta'	markeredgewidth = 'magenta'	0
+データフレーム <A> の中の NaN を <B> に置き換え、インプレースする	"<A> . fillna ( <B> , inplace = True )"	"for <A> . fillna ( <B> , inplace = True )"	0
+表データ <A> 中の <B> を未入力の値に置換し、未入力の値が存在する行を落とし、 <A> とする	"<A> = <A> . replace ( <B> , np . nan ) . dropna ( )"	"<B> <A> = <A> . replace ( <B> , np . nan ) . dropna ( )"	0
+表データ <A> と <B> を横方向に結合する	"pd . merge ( <A> , <B> )"	"merge pd . merge ( <A> , <B> )"	0
+そこで、マーカーの形のエッジ色としてグレーを使う	markeredgecolor = 'gray'	activation = 'gray'	0
+データフレーム <A> <B> と <A> データフレームカラム <C> と <A> データフレームカラム <D> の箱ひげ図を一枚のグラフで描写する	"plt . boxplot ( [ <A> [ <B> ] , <A> [ <C> ] , <A> [ <D> ] ] )"	"sns . pairplot ( <A> [ [ <B> , <C> , <D> ] ] )"	0
+エクセルファイル <A> のシート全てを表データに格納する	"pd . read_excel ( <A> , sheet_name = None )"	"sheet_name = pd . read_excel ( <A> , sheet_name = None )"	0
+表データ <A> の <B> の未入力の値を <B> コラムの平均値で穴埋めする	<A> [ <B> ] . fillna ( <A> [ <B> ] . mean ( ) )	fillna <A> [ <B> ] . mean ( ) )	0
+表 <A> の表属性 <B> をインデックス、 <C> 表属性を表属性としたピボットテーブルを作成する	"<A> . pivot_table ( index = <B> , columns = <C> )"	"df1 <A> . pivot_table ( index = <B> , columns = <C> )"	0
+<A> を y 軸、 <B> をグラフの x 軸として、グラフを描く	"plt . plot ( <A> , <B> )"	"autopct = plt . plot ( <A> , <B> )"	0
+<A> の <B> を昇順で並び替え、 <A> にする	<A> = <A> . sort_values ( <B> )	= <A> . sort_values ( <B> )	0
+表 <A> の元の位置を振り直して、置き換える	"<A> . reset_index ( drop = True , inplace = True )"	reset_index = <A> . reset_index ( drop = True )	0
+データフレーム <A> の <B> についての最頻値を取得する	<A> [ <B> ] . mode ( )	<B> <A> [ <B> ] . mode ( ) )	0
+データフレーム <B> 内の NaN を <B> の平均値で埋めて、 <A> とする	<A> = <B> . fillna ( <B> . mean ( ) )	range = <B> . fillna ( <B> . mean ( ) )	0
+重複している最後の行を残して <B> ( データフレーム ) 内の重複している行を落として、 <A> とする	<A> = <B> . drop_duplicates ( keep = False )	markeredgewidth = <A> . drop_duplicates ( keep = False )	0
+表 <A> のカテゴリ変数をダミー変数に変換して、 <A> に代入する	<A> = pd . get_dummies ( <A> )	= pd . get_dummies ( <A> )	0
+表データ <A> の <B> 行目の <C>	<A> . iloc [ <B> ] [ <C> ]	X [ <A> ] [ <B> ] [ <C> ]	0
+表データ <A> の <B> 列の NaN を <C> で穴埋めする	<A> [ <B> ] . fillna ( <C> )	plt <A> [ <B> ] . fillna ( <C> )	0
+列番号 <C> をインデックスに設定して、 <B> を読み込んで、 <A> とする	"<A> = pd . read_csv ( <B> , index_col = <C> )"	"] = <A> . read_csv ( <B> , index_col = <C> )"	0
+コラム <B> と <C> を降順に並び替えて、 <A> にする	"<A> = <A> . sort_values ( [ <B> , <C> ] , ascending = False )"	"= <A> . sort_values ( [ <B> , <C> ] , ascending = False )"	0
+<A> の列 <B> と <A> の <C> と <A> 表の列 <D> についてのボックスチャートを表示する	"plt . boxplot ( [ <A> [ <B> ] , <A> [ <C> ] , <A> [ <D> ] ] )"	"boxplot plt . boxplot ( [ <A> [ <B> ] , <A> [ <C> ] , <A> [ <D> ] ] )"	0
+表データ <B> の重複している値がある行を取り除いて、 <A> とする	<A> = <B> . drop_duplicates ( )	= <B> . drop_duplicates ( )	0
+先頭の列を位置と設定して、ファイル名 <B> から読み込み、 <A> にする	"<A> = pd . read_csv ( <B> , index_col = 0 )"	"pd . read_csv ( <A> , index_col = <B> )"	0
+データフレーム <A> 中にある <B> を未記入の値とする	"<A> . replace ( <B> , np . nan )"	"replace <A> . replace ( <B> , np . nan )"	0
+表データ <A> の <B> ごとに表属性 <C> の平均	<A> . groupby ( [ <B> ] ) [ <C> ] . mean ( )	plt . groupby ( <A> [ <B> ] ) [ <C> ] . mean ( )	0
+表データを <A> ファイルから <B> 区切りで読み込む	"pd . read_csv ( <A> , sep = <B> )"	"<A> . read_csv ( <B> , sep = ',' )"	0
+データフレーム <A> の中の NaN を <B> に置き換えて、置き換える	<A> = <A> . fillna ( <B> )	"<A> . fillna ( <B> , inplace = True )"	1
+表データ <A> 内の欠損値を <B> に置き換え、インプレースする	"<A> . fillna ( <B> , inplace = True )"	"<B> <A> . fillna ( <B> , inplace = True )"	0
+<B> というエクセルファイルをデータフレームとして読み、 <A> とする	"<A> = pd . read_excel ( <B> , sheet_name = None )"	df = pd . read_excel ( <B> )	0
+<A> ( データフレーム ) の <B> と <C> を大から小へとして、 <A> とする	"<A> = <A> . sort_values ( [ <B> , <C> ] , ascending = False )"	"= <A> . sort_values ( [ <B> , <C> ] , ascending = False )"	0
+表 <A> を <B> を元に昇順でソート	<A> . sort_values ( <B> )	<A> = <A> . sort_values ( <B> )	1
