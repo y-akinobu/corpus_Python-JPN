@@ -933,36 +933,36 @@ pd . read_csv ( <A> )	ファイルパス <A> を表データとして読む
 <A> = pd . read_csv ( <B> )	ファイルパス <B> を表データとして読み、 <A> にする
 pd . read_csv ( <A> )	CSV ファイル <A> を読む
 <A> = pd . read_csv ( <B> )	CSV ファイル <B> を読み、 <A> にする
-pd . read_csv ( <A> )	表を CSV ファイル <A> ( ファイル名 ) から読み込む
-pd . read_csv ( <A> )	CSV ファイル <A> ( ファイル名 ) からデータフレームを読む
-pd . read_csv ( <A> )	データフレームを CSV ファイル <A> ( ファイル名 ) から読み込む
-pd . read_csv ( <A> )	CSV ファイル <A> ( ファイル名 ) から表データを読み込む
-pd . read_csv ( <A> )	表データを CSV ファイル <A> ( ファイル名 ) から読み込む
-pd . read_csv ( <A> )	CSV ファイル <A> ( ファイル名 ) からデータフレームを読み込む
-pd . read_csv ( <A> )	表を CSV ファイル <A> ( ファイル名 ) から読む
-<A> = pd . read_csv ( <B> )	表を CSV ファイル <B> ( ファイル名 ) から読み込んで、 <A> とする
-<A> = pd . read_csv ( <B> )	CSV ファイル <B> ( ファイル名 ) からデータフレームを読み、 <A> とする
-<A> = pd . read_csv ( <B> )	データフレームを CSV ファイル <B> ( ファイル名 ) から読み込んで、 <A> とする
-<A> = pd . read_csv ( <B> )	CSV ファイル <B> ( ファイル名 ) から表データを読み込み、 <A> とする
-<A> = pd . read_csv ( <B> )	表データを CSV ファイル <B> ( ファイル名 ) から読み込み、 <A> にする
-<A> = pd . read_csv ( <B> )	CSV ファイル <B> ( ファイル名 ) からデータフレームを読み込んで、 <A> にする
-<A> = pd . read_csv ( <B> )	表を CSV ファイル <B> ( ファイル名 ) から読んで、 <A> にする
-pd . read_csv ( <A> )	CSV ファイル <A> ( ファイル名 ) を表に格納する
-pd . read_csv ( <A> )	CSV ファイル <A> ( ファイル名 ) を表データに格納する
-pd . read_csv ( <A> )	CSV ファイル <A> ( ファイル名 ) をデータフレームに格納する
-<A> = pd . read_csv ( <B> )	CSV ファイル <B> ( ファイル名 ) を表に格納し、 <A> にする
-<A> = pd . read_csv ( <B> )	CSV ファイル <B> ( ファイル名 ) を表データに格納して、 <A> とする
-<A> = pd . read_csv ( <B> )	CSV ファイル <B> ( ファイル名 ) をデータフレームに格納して、 <A> とする
-pd . read_csv ( <A> )	CSV ファイル <A> ( ファイル名 ) を表として読む
-pd . read_csv ( <A> )	CSV ファイル <A> ( ファイル名 ) を表データとして読む
-pd . read_csv ( <A> )	CSV ファイル <A> ( ファイル名 ) を表データとして読み込む
-pd . read_csv ( <A> )	CSV ファイル <A> ( ファイル名 ) を表として読み込む
-pd . read_csv ( <A> )	CSV ファイル <A> ( ファイル名 ) をデータフレームとして読み込む
-<A> = pd . read_csv ( <B> )	CSV ファイル <B> ( ファイル名 ) を表として読んで、 <A> とする
-<A> = pd . read_csv ( <B> )	CSV ファイル <B> ( ファイル名 ) を表データとして読んで、 <A> にする
-<A> = pd . read_csv ( <B> )	CSV ファイル <B> ( ファイル名 ) を表データとして読み込んで、 <A> とする
-<A> = pd . read_csv ( <B> )	CSV ファイル <B> ( ファイル名 ) を表として読み込んで、 <A> とする
-<A> = pd . read_csv ( <B> )	CSV ファイル <B> ( ファイル名 ) をデータフレームとして読み込んで、 <A> とする
+pd . read_csv ( <A> )	表を CSV ファイル <A> から読み込む
+pd . read_csv ( <A> )	CSV ファイル <A> からデータフレームを読む
+pd . read_csv ( <A> )	データフレームを CSV ファイル <A> から読み込む
+pd . read_csv ( <A> )	CSV ファイル <A> から表データを読み込む
+pd . read_csv ( <A> )	表データを CSV ファイル <A> から読み込む
+pd . read_csv ( <A> )	CSV ファイル <A> からデータフレームを読み込む
+pd . read_csv ( <A> )	表を CSV ファイル <A> から読む
+<A> = pd . read_csv ( <B> )	表を CSV ファイル <B> から読み込んで、 <A> とする
+<A> = pd . read_csv ( <B> )	CSV ファイル <B> からデータフレームを読み、 <A> とする
+<A> = pd . read_csv ( <B> )	データフレームを CSV ファイル <B> から読み込んで、 <A> とする
+<A> = pd . read_csv ( <B> )	CSV ファイル <B> から表データを読み込み、 <A> とする
+<A> = pd . read_csv ( <B> )	表データを CSV ファイル <B> から読み込み、 <A> にする
+<A> = pd . read_csv ( <B> )	CSV ファイル <B> からデータフレームを読み込んで、 <A> にする
+<A> = pd . read_csv ( <B> )	表を CSV ファイル <B> から読んで、 <A> にする
+pd . read_csv ( <A> )	CSV ファイル <A> を表に格納する
+pd . read_csv ( <A> )	CSV ファイル <A> を表データに格納する
+pd . read_csv ( <A> )	CSV ファイル <A> をデータフレームに格納する
+<A> = pd . read_csv ( <B> )	CSV ファイル <B> を表に格納し、 <A> にする
+<A> = pd . read_csv ( <B> )	CSV ファイル <B> を表データに格納して、 <A> とする
+<A> = pd . read_csv ( <B> )	CSV ファイル <B> をデータフレームに格納して、 <A> とする
+pd . read_csv ( <A> )	CSV ファイル <A> を表として読む
+pd . read_csv ( <A> )	CSV ファイル <A> を表データとして読む
+pd . read_csv ( <A> )	CSV ファイル <A> を表データとして読み込む
+pd . read_csv ( <A> )	CSV ファイル <A> を表として読み込む
+pd . read_csv ( <A> )	CSV ファイル <A> をデータフレームとして読み込む
+<A> = pd . read_csv ( <B> )	CSV ファイル <B> を表として読んで、 <A> とする
+<A> = pd . read_csv ( <B> )	CSV ファイル <B> を表データとして読んで、 <A> にする
+<A> = pd . read_csv ( <B> )	CSV ファイル <B> を表データとして読み込んで、 <A> とする
+<A> = pd . read_csv ( <B> )	CSV ファイル <B> を表として読み込んで、 <A> とする
+<A> = pd . read_csv ( <B> )	CSV ファイル <B> をデータフレームとして読み込んで、 <A> とする
 pd . read_csv ( <A> , sep = ',' )	<A> をカンマ区切りで読み込む
 pd . read_csv ( <A> , sep = ',' )	カンマ区切りで <A> を読む
 pd . read_csv ( <A> , sep = ',' )	<A> をカンマ区切りで読む
@@ -1397,142 +1397,142 @@ pd . read_csv ( <A> , sep = <B> )	CSV ファイル <A> を <B> 区切りで読�
 <A> = pd . read_csv ( <B> , sep = <C> )	<C> 区切りで CSV ファイル <B> を読んで、 <A> とする
 <A> = pd . read_csv ( <B> , sep = <C> )	<C> 区切りで CSV ファイル <B> を読み込み、 <A> にする
 <A> = pd . read_csv ( <B> , sep = <C> )	CSV ファイル <B> を <C> 区切りで読み込んで、 <A> にする
-pd . read_csv ( <A> , sep = ',' )	カンマ区切りで表データを CSV ファイル <A> ( ファイル名 ) から読み込む
-pd . read_csv ( <A> , sep = ',' )	表データを CSV ファイル <A> ( ファイル名 ) からカンマ区切りで読み込む
-pd . read_csv ( <A> , sep = ',' )	表データを CSV ファイル <A> ( ファイル名 ) からカンマ区切りで読む
-pd . read_csv ( <A> , sep = ',' )	データフレームを CSV ファイル <A> ( ファイル名 ) からカンマ区切りで読む
-pd . read_csv ( <A> , sep = ',' )	表データをカンマ区切りで CSV ファイル <A> ( ファイル名 ) から読み込む
-pd . read_csv ( <A> , sep = ',' )	表を CSV ファイル <A> ( ファイル名 ) からカンマ区切りで読む
-pd . read_csv ( <A> , sep = ',' )	CSV ファイル <A> ( ファイル名 ) からデータフレームをカンマ区切りで読み込む
-pd . read_csv ( <A> , sep = ',' )	カンマ区切りで CSV ファイル <A> ( ファイル名 ) から表データを読み込む
-pd . read_csv ( <A> , sep = ',' )	データフレームをカンマ区切りで CSV ファイル <A> ( ファイル名 ) から読む
-pd . read_csv ( <A> , sep = ',' )	カンマ区切りで CSV ファイル <A> ( ファイル名 ) から表を読む
-pd . read_csv ( <A> , sep = ',' )	カンマ区切りで表を CSV ファイル <A> ( ファイル名 ) から読み込む
-pd . read_csv ( <A> , sep = ',' )	CSV ファイル <A> ( ファイル名 ) から表データをカンマ区切りで読み込む
-pd . read_csv ( <A> , sep = ',' )	CSV ファイル <A> ( ファイル名 ) からカンマ区切りで表を読み込む
-pd . read_csv ( <A> , sep = ',' )	カンマ区切りでデータフレームを CSV ファイル <A> ( ファイル名 ) から読む
-pd . read_csv ( <A> , sep = ',' )	表をカンマ区切りで CSV ファイル <A> ( ファイル名 ) から読み込む
-pd . read_csv ( <A> , sep = ',' )	カンマ区切りで CSV ファイル <A> ( ファイル名 ) から表データを読む
-pd . read_csv ( <A> , sep = ',' )	CSV ファイル <A> ( ファイル名 ) からカンマ区切りで表データを読み込む
-pd . read_csv ( <A> , sep = ',' )	CSV ファイル <A> ( ファイル名 ) からカンマ区切りで表データを読む
-<A> = pd . read_csv ( <B> , sep = ',' )	カンマ区切りで表データを CSV ファイル <B> ( ファイル名 ) から読み込み、 <A> にする
-<A> = pd . read_csv ( <B> , sep = ',' )	表データを CSV ファイル <B> ( ファイル名 ) からカンマ区切りで読み込み、 <A> に代入する
-<A> = pd . read_csv ( <B> , sep = ',' )	表データを CSV ファイル <B> ( ファイル名 ) からカンマ区切りで読み、 <A> とする
-<A> = pd . read_csv ( <B> , sep = ',' )	データフレームを CSV ファイル <B> ( ファイル名 ) からカンマ区切りで読んで、 <A> に代入する
-<A> = pd . read_csv ( <B> , sep = ',' )	表データをカンマ区切りで CSV ファイル <B> ( ファイル名 ) から読み込んで、 <A> とする
-<A> = pd . read_csv ( <B> , sep = ',' )	表を CSV ファイル <B> ( ファイル名 ) からカンマ区切りで読んで、 <A> とする
-<A> = pd . read_csv ( <B> , sep = ',' )	CSV ファイル <B> ( ファイル名 ) からデータフレームをカンマ区切りで読み込み、 <A> にする
-<A> = pd . read_csv ( <B> , sep = ',' )	カンマ区切りで CSV ファイル <B> ( ファイル名 ) から表データを読み込み、 <A> とする
-<A> = pd . read_csv ( <B> , sep = ',' )	データフレームをカンマ区切りで CSV ファイル <B> ( ファイル名 ) から読んで、 <A> とする
-<A> = pd . read_csv ( <B> , sep = ',' )	カンマ区切りで CSV ファイル <B> ( ファイル名 ) から表を読んで、 <A> にする
-<A> = pd . read_csv ( <B> , sep = ',' )	カンマ区切りで表を CSV ファイル <B> ( ファイル名 ) から読み込み、 <A> にする
-<A> = pd . read_csv ( <B> , sep = ',' )	CSV ファイル <B> ( ファイル名 ) から表データをカンマ区切りで読み込み、 <A> とする
-<A> = pd . read_csv ( <B> , sep = ',' )	CSV ファイル <B> ( ファイル名 ) からカンマ区切りで表を読み込んで、 <A> にする
-<A> = pd . read_csv ( <B> , sep = ',' )	カンマ区切りでデータフレームを CSV ファイル <B> ( ファイル名 ) から読んで、 <A> とする
-<A> = pd . read_csv ( <B> , sep = ',' )	表をカンマ区切りで CSV ファイル <B> ( ファイル名 ) から読み込み、 <A> とする
-<A> = pd . read_csv ( <B> , sep = ',' )	カンマ区切りで CSV ファイル <B> ( ファイル名 ) から表データを読んで、 <A> とする
-<A> = pd . read_csv ( <B> , sep = ',' )	CSV ファイル <B> ( ファイル名 ) からカンマ区切りで表データを読み込み、 <A> とする
-<A> = pd . read_csv ( <B> , sep = ',' )	CSV ファイル <B> ( ファイル名 ) からカンマ区切りで表データを読み、 <A> とする
-pd . read_csv ( <A> , sep = <B> )	CSV ファイル <A> ( ファイル名 ) から <B> 区切りで表データを読む
-pd . read_csv ( <A> , sep = <B> )	<B> 区切りで CSV ファイル <A> ( ファイル名 ) から表を読む
-pd . read_csv ( <A> , sep = <B> )	データフレームを <B> 区切りで CSV ファイル <A> ( ファイル名 ) から読み込む
-pd . read_csv ( <A> , sep = <B> )	<B> 区切りでデータフレームを CSV ファイル <A> ( ファイル名 ) から読む
-pd . read_csv ( <A> , sep = <B> )	<B> 区切りで CSV ファイル <A> ( ファイル名 ) から表データを読み込む
-pd . read_csv ( <A> , sep = <B> )	データフレームを CSV ファイル <A> ( ファイル名 ) から <B> 区切りで読み込む
-pd . read_csv ( <A> , sep = <B> )	表を CSV ファイル <A> ( ファイル名 ) から <B> 区切りで読み込む
-pd . read_csv ( <A> , sep = <B> )	<B> 区切りで表を CSV ファイル <A> ( ファイル名 ) から読み込む
-pd . read_csv ( <A> , sep = <B> )	<B> 区切りで CSV ファイル <A> ( ファイル名 ) から表を読み込む
-pd . read_csv ( <A> , sep = <B> )	<B> 区切りで CSV ファイル <A> ( ファイル名 ) からデータフレームを読む
-pd . read_csv ( <A> , sep = <B> )	CSV ファイル <A> ( ファイル名 ) から表データを <B> 区切りで読み込む
-pd . read_csv ( <A> , sep = <B> )	<B> 区切りでデータフレームを CSV ファイル <A> ( ファイル名 ) から読み込む
-pd . read_csv ( <A> , sep = <B> )	表データを CSV ファイル <A> ( ファイル名 ) から <B> 区切りで読む
-pd . read_csv ( <A> , sep = <B> )	CSV ファイル <A> ( ファイル名 ) から <B> 区切りでデータフレームを読み込む
-pd . read_csv ( <A> , sep = <B> )	<B> 区切りで表を CSV ファイル <A> ( ファイル名 ) から読む
-pd . read_csv ( <A> , sep = <B> )	CSV ファイル <A> ( ファイル名 ) からデータフレームを <B> 区切りで読む
-pd . read_csv ( <A> , sep = <B> )	CSV ファイル <A> ( ファイル名 ) から <B> 区切りで表を読む
-<A> = pd . read_csv ( <B> , sep = <C> )	CSV ファイル <B> ( ファイル名 ) から <C> 区切りで表データを読んで、 <A> とする
-<A> = pd . read_csv ( <B> , sep = <C> )	<C> 区切りで CSV ファイル <B> ( ファイル名 ) から表を読んで、 <A> とする
-<A> = pd . read_csv ( <B> , sep = <C> )	データフレームを <C> 区切りで CSV ファイル <B> ( ファイル名 ) から読み込んで、 <A> とする
-<A> = pd . read_csv ( <B> , sep = <C> )	<C> 区切りでデータフレームを CSV ファイル <B> ( ファイル名 ) から読み、 <A> とする
-<A> = pd . read_csv ( <B> , sep = <C> )	<C> 区切りで CSV ファイル <B> ( ファイル名 ) から表データを読み込み、 <A> とする
-<A> = pd . read_csv ( <B> , sep = <C> )	データフレームを CSV ファイル <B> ( ファイル名 ) から <C> 区切りで読み込んで、 <A> とする
-<A> = pd . read_csv ( <B> , sep = <C> )	表を CSV ファイル <B> ( ファイル名 ) から <C> 区切りで読み込み、 <A> にする
-<A> = pd . read_csv ( <B> , sep = <C> )	<C> 区切りで表を CSV ファイル <B> ( ファイル名 ) から読み込んで、 <A> に代入する
-<A> = pd . read_csv ( <B> , sep = <C> )	<C> 区切りで CSV ファイル <B> ( ファイル名 ) から表を読み込んで、 <A> とする
-<A> = pd . read_csv ( <B> , sep = <C> )	<C> 区切りで CSV ファイル <B> ( ファイル名 ) からデータフレームを読み、 <A> にする
-<A> = pd . read_csv ( <B> , sep = <C> )	CSV ファイル <B> ( ファイル名 ) から表データを <C> 区切りで読み込んで、 <A> とする
-<A> = pd . read_csv ( <B> , sep = <C> )	<C> 区切りでデータフレームを CSV ファイル <B> ( ファイル名 ) から読み込んで、 <A> にする
-<A> = pd . read_csv ( <B> , sep = <C> )	表データを CSV ファイル <B> ( ファイル名 ) から <C> 区切りで読み、 <A> にする
-<A> = pd . read_csv ( <B> , sep = <C> )	CSV ファイル <B> ( ファイル名 ) から <C> 区切りでデータフレームを読み込んで、 <A> にする
-<A> = pd . read_csv ( <B> , sep = <C> )	<C> 区切りで表を CSV ファイル <B> ( ファイル名 ) から読み、 <A> とする
-<A> = pd . read_csv ( <B> , sep = <C> )	CSV ファイル <B> ( ファイル名 ) からデータフレームを <C> 区切りで読んで、 <A> とする
-<A> = pd . read_csv ( <B> , sep = <C> )	CSV ファイル <B> ( ファイル名 ) から <C> 区切りで表を読んで、 <A> に代入する
-pd . read_csv ( <A> , sep = ',' )	カンマ区切りで CSV ファイル <A> ( ファイル名 ) をデータフレームとして読み込む
-pd . read_csv ( <A> , sep = ',' )	表としてカンマ区切りで CSV ファイル <A> ( ファイル名 ) を読む
-pd . read_csv ( <A> , sep = ',' )	データフレームとしてカンマ区切りで CSV ファイル <A> ( ファイル名 ) を読む
-pd . read_csv ( <A> , sep = ',' )	カンマ区切りでデータフレームとして CSV ファイル <A> ( ファイル名 ) を読む
-pd . read_csv ( <A> , sep = ',' )	カンマ区切りで表データとして CSV ファイル <A> ( ファイル名 ) を読む
-pd . read_csv ( <A> , sep = ',' )	CSV ファイル <A> ( ファイル名 ) をカンマ区切りで表データとして読む
-pd . read_csv ( <A> , sep = ',' )	カンマ区切りで表として CSV ファイル <A> ( ファイル名 ) を読む
-pd . read_csv ( <A> , sep = ',' )	カンマ区切りでデータフレームとして CSV ファイル <A> ( ファイル名 ) を読み込む
-pd . read_csv ( <A> , sep = ',' )	表データとして CSV ファイル <A> ( ファイル名 ) をカンマ区切りで読み込む
-pd . read_csv ( <A> , sep = ',' )	カンマ区切りで CSV ファイル <A> ( ファイル名 ) を表として読み込む
-pd . read_csv ( <A> , sep = ',' )	CSV ファイル <A> ( ファイル名 ) をカンマ区切りでデータフレームとして読む
-pd . read_csv ( <A> , sep = ',' )	CSV ファイル <A> ( ファイル名 ) を表としてカンマ区切りで読む
-pd . read_csv ( <A> , sep = ',' )	CSV ファイル <A> ( ファイル名 ) を表データとしてカンマ区切りで読む
-pd . read_csv ( <A> , sep = ',' )	カンマ区切りで CSV ファイル <A> ( ファイル名 ) を表として読む
-pd . read_csv ( <A> , sep = ',' )	CSV ファイル <A> ( ファイル名 ) を表データとしてカンマ区切りで読み込む
-pd . read_csv ( <A> , sep = ',' )	CSV ファイル <A> ( ファイル名 ) を表としてカンマ区切りで読み込む
-pd . read_csv ( <A> , sep = ',' )	表データとしてカンマ区切りで CSV ファイル <A> ( ファイル名 ) を読み込む
-pd . read_csv ( <A> , sep = ',' )	CSV ファイル <A> ( ファイル名 ) をカンマ区切りでデータフレームとして読み込む
-<A> = pd . read_csv ( <B> , sep = ',' )	カンマ区切りで CSV ファイル <B> ( ファイル名 ) をデータフレームとして読み込み、 <A> にする
-<A> = pd . read_csv ( <B> , sep = ',' )	表としてカンマ区切りで CSV ファイル <B> ( ファイル名 ) を読み、 <A> とする
-<A> = pd . read_csv ( <B> , sep = ',' )	データフレームとしてカンマ区切りで CSV ファイル <B> ( ファイル名 ) を読んで、 <A> に代入する
-<A> = pd . read_csv ( <B> , sep = ',' )	カンマ区切りでデータフレームとして CSV ファイル <B> ( ファイル名 ) を読んで、 <A> とする
-<A> = pd . read_csv ( <B> , sep = ',' )	カンマ区切りで表データとして CSV ファイル <B> ( ファイル名 ) を読んで、 <A> とする
-<A> = pd . read_csv ( <B> , sep = ',' )	CSV ファイル <B> ( ファイル名 ) をカンマ区切りで表データとして読んで、 <A> とする
-<A> = pd . read_csv ( <B> , sep = ',' )	カンマ区切りで表として CSV ファイル <B> ( ファイル名 ) を読んで、 <A> とする
-<A> = pd . read_csv ( <B> , sep = ',' )	カンマ区切りでデータフレームとして CSV ファイル <B> ( ファイル名 ) を読み込み、 <A> に代入する
-<A> = pd . read_csv ( <B> , sep = ',' )	表データとして CSV ファイル <B> ( ファイル名 ) をカンマ区切りで読み込んで、 <A> にする
-<A> = pd . read_csv ( <B> , sep = ',' )	カンマ区切りで CSV ファイル <B> ( ファイル名 ) を表として読み込み、 <A> にする
-<A> = pd . read_csv ( <B> , sep = ',' )	CSV ファイル <B> ( ファイル名 ) をカンマ区切りでデータフレームとして読んで、 <A> にする
-<A> = pd . read_csv ( <B> , sep = ',' )	CSV ファイル <B> ( ファイル名 ) を表としてカンマ区切りで読んで、 <A> とする
-<A> = pd . read_csv ( <B> , sep = ',' )	CSV ファイル <B> ( ファイル名 ) を表データとしてカンマ区切りで読んで、 <A> とする
-<A> = pd . read_csv ( <B> , sep = ',' )	カンマ区切りで CSV ファイル <B> ( ファイル名 ) を表として読んで、 <A> に代入する
-<A> = pd . read_csv ( <B> , sep = ',' )	CSV ファイル <B> ( ファイル名 ) を表データとしてカンマ区切りで読み込み、 <A> とする
-<A> = pd . read_csv ( <B> , sep = ',' )	CSV ファイル <B> ( ファイル名 ) を表としてカンマ区切りで読み込み、 <A> とする
-<A> = pd . read_csv ( <B> , sep = ',' )	表データとしてカンマ区切りで CSV ファイル <B> ( ファイル名 ) を読み込み、 <A> に代入する
-<A> = pd . read_csv ( <B> , sep = ',' )	CSV ファイル <B> ( ファイル名 ) をカンマ区切りでデータフレームとして読み込んで、 <A> とする
-pd . read_csv ( <A> , sep = <B> )	データフレームとして <B> 区切りで CSV ファイル <A> ( ファイル名 ) を読み込む
-pd . read_csv ( <A> , sep = <B> )	<B> 区切りで表データとして CSV ファイル <A> ( ファイル名 ) を読み込む
-pd . read_csv ( <A> , sep = <B> )	表として CSV ファイル <A> ( ファイル名 ) を <B> 区切りで読み込む
-pd . read_csv ( <A> , sep = <B> )	CSV ファイル <A> ( ファイル名 ) を <B> 区切りで表データとして読む
-pd . read_csv ( <A> , sep = <B> )	データフレームとして <B> 区切りで CSV ファイル <A> ( ファイル名 ) を読む
-pd . read_csv ( <A> , sep = <B> )	<B> 区切りで CSV ファイル <A> ( ファイル名 ) を表データとして読む
-pd . read_csv ( <A> , sep = <B> )	表として <B> 区切りで CSV ファイル <A> ( ファイル名 ) を読み込む
-pd . read_csv ( <A> , sep = <B> )	CSV ファイル <A> ( ファイル名 ) をデータフレームとして <B> 区切りで読む
-pd . read_csv ( <A> , sep = <B> )	表データとして <B> 区切りで CSV ファイル <A> ( ファイル名 ) を読み込む
-pd . read_csv ( <A> , sep = <B> )	<B> 区切りでデータフレームとして CSV ファイル <A> ( ファイル名 ) を読む
-pd . read_csv ( <A> , sep = <B> )	<B> 区切りでデータフレームとして CSV ファイル <A> ( ファイル名 ) を読み込む
-pd . read_csv ( <A> , sep = <B> )	<B> 区切りで CSV ファイル <A> ( ファイル名 ) をデータフレームとして読み込む
-pd . read_csv ( <A> , sep = <B> )	CSV ファイル <A> ( ファイル名 ) を <B> 区切りで表として読む
-pd . read_csv ( <A> , sep = <B> )	<B> 区切りで表データとして CSV ファイル <A> ( ファイル名 ) を読む
-pd . read_csv ( <A> , sep = <B> )	データフレームとして CSV ファイル <A> ( ファイル名 ) を <B> 区切りで読む
-<A> = pd . read_csv ( <B> , sep = <C> )	データフレームとして <C> 区切りで CSV ファイル <B> ( ファイル名 ) を読み込み、 <A> とする
-<A> = pd . read_csv ( <B> , sep = <C> )	<C> 区切りで表データとして CSV ファイル <B> ( ファイル名 ) を読み込み、 <A> とする
-<A> = pd . read_csv ( <B> , sep = <C> )	表として CSV ファイル <B> ( ファイル名 ) を <C> 区切りで読み込み、 <A> とする
-<A> = pd . read_csv ( <B> , sep = <C> )	CSV ファイル <B> ( ファイル名 ) を <C> 区切りで表データとして読んで、 <A> とする
-<A> = pd . read_csv ( <B> , sep = <C> )	データフレームとして <C> 区切りで CSV ファイル <B> ( ファイル名 ) を読み、 <A> とする
-<A> = pd . read_csv ( <B> , sep = <C> )	<C> 区切りで CSV ファイル <B> ( ファイル名 ) を表データとして読んで、 <A> にする
-<A> = pd . read_csv ( <B> , sep = <C> )	表として <C> 区切りで CSV ファイル <B> ( ファイル名 ) を読み込み、 <A> とする
-<A> = pd . read_csv ( <B> , sep = <C> )	CSV ファイル <B> ( ファイル名 ) をデータフレームとして <C> 区切りで読み、 <A> とする
-<A> = pd . read_csv ( <B> , sep = <C> )	表データとして <C> 区切りで CSV ファイル <B> ( ファイル名 ) を読み込み、 <A> にする
-<A> = pd . read_csv ( <B> , sep = <C> )	<C> 区切りでデータフレームとして CSV ファイル <B> ( ファイル名 ) を読んで、 <A> にする
-<A> = pd . read_csv ( <B> , sep = <C> )	<C> 区切りでデータフレームとして CSV ファイル <B> ( ファイル名 ) を読み込み、 <A> とする
-<A> = pd . read_csv ( <B> , sep = <C> )	<C> 区切りで CSV ファイル <B> ( ファイル名 ) をデータフレームとして読み込み、 <A> にする
-<A> = pd . read_csv ( <B> , sep = <C> )	CSV ファイル <B> ( ファイル名 ) を <C> 区切りで表として読んで、 <A> に代入する
-<A> = pd . read_csv ( <B> , sep = <C> )	<C> 区切りで表データとして CSV ファイル <B> ( ファイル名 ) を読んで、 <A> にする
-<A> = pd . read_csv ( <B> , sep = <C> )	データフレームとして CSV ファイル <B> ( ファイル名 ) を <C> 区切りで読み、 <A> に代入する
+pd . read_csv ( <A> , sep = ',' )	カンマ区切りで表データを CSV ファイル <A> から読み込む
+pd . read_csv ( <A> , sep = ',' )	表データを CSV ファイル <A> からカンマ区切りで読み込む
+pd . read_csv ( <A> , sep = ',' )	表データを CSV ファイル <A> からカンマ区切りで読む
+pd . read_csv ( <A> , sep = ',' )	データフレームを CSV ファイル <A> からカンマ区切りで読む
+pd . read_csv ( <A> , sep = ',' )	表データをカンマ区切りで CSV ファイル <A> から読み込む
+pd . read_csv ( <A> , sep = ',' )	表を CSV ファイル <A> からカンマ区切りで読む
+pd . read_csv ( <A> , sep = ',' )	CSV ファイル <A> からデータフレームをカンマ区切りで読み込む
+pd . read_csv ( <A> , sep = ',' )	カンマ区切りで CSV ファイル <A> から表データを読み込む
+pd . read_csv ( <A> , sep = ',' )	データフレームをカンマ区切りで CSV ファイル <A> から読む
+pd . read_csv ( <A> , sep = ',' )	カンマ区切りで CSV ファイル <A> から表を読む
+pd . read_csv ( <A> , sep = ',' )	カンマ区切りで表を CSV ファイル <A> から読み込む
+pd . read_csv ( <A> , sep = ',' )	CSV ファイル <A> から表データをカンマ区切りで読み込む
+pd . read_csv ( <A> , sep = ',' )	CSV ファイル <A> からカンマ区切りで表を読み込む
+pd . read_csv ( <A> , sep = ',' )	カンマ区切りでデータフレームを CSV ファイル <A> から読む
+pd . read_csv ( <A> , sep = ',' )	表をカンマ区切りで CSV ファイル <A> から読み込む
+pd . read_csv ( <A> , sep = ',' )	カンマ区切りで CSV ファイル <A> から表データを読む
+pd . read_csv ( <A> , sep = ',' )	CSV ファイル <A> からカンマ区切りで表データを読み込む
+pd . read_csv ( <A> , sep = ',' )	CSV ファイル <A> からカンマ区切りで表データを読む
+<A> = pd . read_csv ( <B> , sep = ',' )	カンマ区切りで表データを CSV ファイル <B> から読み込み、 <A> にする
+<A> = pd . read_csv ( <B> , sep = ',' )	表データを CSV ファイル <B> からカンマ区切りで読み込み、 <A> に代入する
+<A> = pd . read_csv ( <B> , sep = ',' )	表データを CSV ファイル <B> からカンマ区切りで読み、 <A> とする
+<A> = pd . read_csv ( <B> , sep = ',' )	データフレームを CSV ファイル <B> からカンマ区切りで読んで、 <A> に代入する
+<A> = pd . read_csv ( <B> , sep = ',' )	表データをカンマ区切りで CSV ファイル <B> から読み込んで、 <A> とする
+<A> = pd . read_csv ( <B> , sep = ',' )	表を CSV ファイル <B> からカンマ区切りで読んで、 <A> とする
+<A> = pd . read_csv ( <B> , sep = ',' )	CSV ファイル <B> からデータフレームをカンマ区切りで読み込み、 <A> にする
+<A> = pd . read_csv ( <B> , sep = ',' )	カンマ区切りで CSV ファイル <B> から表データを読み込み、 <A> とする
+<A> = pd . read_csv ( <B> , sep = ',' )	データフレームをカンマ区切りで CSV ファイル <B> から読んで、 <A> とする
+<A> = pd . read_csv ( <B> , sep = ',' )	カンマ区切りで CSV ファイル <B> から表を読んで、 <A> にする
+<A> = pd . read_csv ( <B> , sep = ',' )	カンマ区切りで表を CSV ファイル <B> から読み込み、 <A> にする
+<A> = pd . read_csv ( <B> , sep = ',' )	CSV ファイル <B> から表データをカンマ区切りで読み込み、 <A> とする
+<A> = pd . read_csv ( <B> , sep = ',' )	CSV ファイル <B> からカンマ区切りで表を読み込んで、 <A> にする
+<A> = pd . read_csv ( <B> , sep = ',' )	カンマ区切りでデータフレームを CSV ファイル <B> から読んで、 <A> とする
+<A> = pd . read_csv ( <B> , sep = ',' )	表をカンマ区切りで CSV ファイル <B> から読み込み、 <A> とする
+<A> = pd . read_csv ( <B> , sep = ',' )	カンマ区切りで CSV ファイル <B> から表データを読んで、 <A> とする
+<A> = pd . read_csv ( <B> , sep = ',' )	CSV ファイル <B> からカンマ区切りで表データを読み込み、 <A> とする
+<A> = pd . read_csv ( <B> , sep = ',' )	CSV ファイル <B> からカンマ区切りで表データを読み、 <A> とする
+pd . read_csv ( <A> , sep = <B> )	CSV ファイル <A> から <B> 区切りで表データを読む
+pd . read_csv ( <A> , sep = <B> )	<B> 区切りで CSV ファイル <A> から表を読む
+pd . read_csv ( <A> , sep = <B> )	データフレームを <B> 区切りで CSV ファイル <A> から読み込む
+pd . read_csv ( <A> , sep = <B> )	<B> 区切りでデータフレームを CSV ファイル <A> から読む
+pd . read_csv ( <A> , sep = <B> )	<B> 区切りで CSV ファイル <A> から表データを読み込む
+pd . read_csv ( <A> , sep = <B> )	データフレームを CSV ファイル <A> から <B> 区切りで読み込む
+pd . read_csv ( <A> , sep = <B> )	表を CSV ファイル <A> から <B> 区切りで読み込む
+pd . read_csv ( <A> , sep = <B> )	<B> 区切りで表を CSV ファイル <A> から読み込む
+pd . read_csv ( <A> , sep = <B> )	<B> 区切りで CSV ファイル <A> から表を読み込む
+pd . read_csv ( <A> , sep = <B> )	<B> 区切りで CSV ファイル <A> からデータフレームを読む
+pd . read_csv ( <A> , sep = <B> )	CSV ファイル <A> から表データを <B> 区切りで読み込む
+pd . read_csv ( <A> , sep = <B> )	<B> 区切りでデータフレームを CSV ファイル <A> から読み込む
+pd . read_csv ( <A> , sep = <B> )	表データを CSV ファイル <A> から <B> 区切りで読む
+pd . read_csv ( <A> , sep = <B> )	CSV ファイル <A> から <B> 区切りでデータフレームを読み込む
+pd . read_csv ( <A> , sep = <B> )	<B> 区切りで表を CSV ファイル <A> から読む
+pd . read_csv ( <A> , sep = <B> )	CSV ファイル <A> からデータフレームを <B> 区切りで読む
+pd . read_csv ( <A> , sep = <B> )	CSV ファイル <A> から <B> 区切りで表を読む
+<A> = pd . read_csv ( <B> , sep = <C> )	CSV ファイル <B> から <C> 区切りで表データを読んで、 <A> とする
+<A> = pd . read_csv ( <B> , sep = <C> )	<C> 区切りで CSV ファイル <B> から表を読んで、 <A> とする
+<A> = pd . read_csv ( <B> , sep = <C> )	データフレームを <C> 区切りで CSV ファイル <B> から読み込んで、 <A> とする
+<A> = pd . read_csv ( <B> , sep = <C> )	<C> 区切りでデータフレームを CSV ファイル <B> から読み、 <A> とする
+<A> = pd . read_csv ( <B> , sep = <C> )	<C> 区切りで CSV ファイル <B> から表データを読み込み、 <A> とする
+<A> = pd . read_csv ( <B> , sep = <C> )	データフレームを CSV ファイル <B> から <C> 区切りで読み込んで、 <A> とする
+<A> = pd . read_csv ( <B> , sep = <C> )	表を CSV ファイル <B> から <C> 区切りで読み込み、 <A> にする
+<A> = pd . read_csv ( <B> , sep = <C> )	<C> 区切りで表を CSV ファイル <B> から読み込んで、 <A> に代入する
+<A> = pd . read_csv ( <B> , sep = <C> )	<C> 区切りで CSV ファイル <B> から表を読み込んで、 <A> とする
+<A> = pd . read_csv ( <B> , sep = <C> )	<C> 区切りで CSV ファイル <B> からデータフレームを読み、 <A> にする
+<A> = pd . read_csv ( <B> , sep = <C> )	CSV ファイル <B> から表データを <C> 区切りで読み込んで、 <A> とする
+<A> = pd . read_csv ( <B> , sep = <C> )	<C> 区切りでデータフレームを CSV ファイル <B> から読み込んで、 <A> にする
+<A> = pd . read_csv ( <B> , sep = <C> )	表データを CSV ファイル <B> から <C> 区切りで読み、 <A> にする
+<A> = pd . read_csv ( <B> , sep = <C> )	CSV ファイル <B> から <C> 区切りでデータフレームを読み込んで、 <A> にする
+<A> = pd . read_csv ( <B> , sep = <C> )	<C> 区切りで表を CSV ファイル <B> から読み、 <A> とする
+<A> = pd . read_csv ( <B> , sep = <C> )	CSV ファイル <B> からデータフレームを <C> 区切りで読んで、 <A> とする
+<A> = pd . read_csv ( <B> , sep = <C> )	CSV ファイル <B> から <C> 区切りで表を読んで、 <A> に代入する
+pd . read_csv ( <A> , sep = ',' )	カンマ区切りで CSV ファイル <A> をデータフレームとして読み込む
+pd . read_csv ( <A> , sep = ',' )	表としてカンマ区切りで CSV ファイル <A> を読む
+pd . read_csv ( <A> , sep = ',' )	データフレームとしてカンマ区切りで CSV ファイル <A> を読む
+pd . read_csv ( <A> , sep = ',' )	カンマ区切りでデータフレームとして CSV ファイル <A> を読む
+pd . read_csv ( <A> , sep = ',' )	カンマ区切りで表データとして CSV ファイル <A> を読む
+pd . read_csv ( <A> , sep = ',' )	CSV ファイル <A> をカンマ区切りで表データとして読む
+pd . read_csv ( <A> , sep = ',' )	カンマ区切りで表として CSV ファイル <A> を読む
+pd . read_csv ( <A> , sep = ',' )	カンマ区切りでデータフレームとして CSV ファイル <A> を読み込む
+pd . read_csv ( <A> , sep = ',' )	表データとして CSV ファイル <A> をカンマ区切りで読み込む
+pd . read_csv ( <A> , sep = ',' )	カンマ区切りで CSV ファイル <A> を表として読み込む
+pd . read_csv ( <A> , sep = ',' )	CSV ファイル <A> をカンマ区切りでデータフレームとして読む
+pd . read_csv ( <A> , sep = ',' )	CSV ファイル <A> を表としてカンマ区切りで読む
+pd . read_csv ( <A> , sep = ',' )	CSV ファイル <A> を表データとしてカンマ区切りで読む
+pd . read_csv ( <A> , sep = ',' )	カンマ区切りで CSV ファイル <A> を表として読む
+pd . read_csv ( <A> , sep = ',' )	CSV ファイル <A> を表データとしてカンマ区切りで読み込む
+pd . read_csv ( <A> , sep = ',' )	CSV ファイル <A> を表としてカンマ区切りで読み込む
+pd . read_csv ( <A> , sep = ',' )	表データとしてカンマ区切りで CSV ファイル <A> を読み込む
+pd . read_csv ( <A> , sep = ',' )	CSV ファイル <A> をカンマ区切りでデータフレームとして読み込む
+<A> = pd . read_csv ( <B> , sep = ',' )	カンマ区切りで CSV ファイル <B> をデータフレームとして読み込み、 <A> にする
+<A> = pd . read_csv ( <B> , sep = ',' )	表としてカンマ区切りで CSV ファイル <B> を読み、 <A> とする
+<A> = pd . read_csv ( <B> , sep = ',' )	データフレームとしてカンマ区切りで CSV ファイル <B> を読んで、 <A> に代入する
+<A> = pd . read_csv ( <B> , sep = ',' )	カンマ区切りでデータフレームとして CSV ファイル <B> を読んで、 <A> とする
+<A> = pd . read_csv ( <B> , sep = ',' )	カンマ区切りで表データとして CSV ファイル <B> を読んで、 <A> とする
+<A> = pd . read_csv ( <B> , sep = ',' )	CSV ファイル <B> をカンマ区切りで表データとして読んで、 <A> とする
+<A> = pd . read_csv ( <B> , sep = ',' )	カンマ区切りで表として CSV ファイル <B> を読んで、 <A> とする
+<A> = pd . read_csv ( <B> , sep = ',' )	カンマ区切りでデータフレームとして CSV ファイル <B> を読み込み、 <A> に代入する
+<A> = pd . read_csv ( <B> , sep = ',' )	表データとして CSV ファイル <B> をカンマ区切りで読み込んで、 <A> にする
+<A> = pd . read_csv ( <B> , sep = ',' )	カンマ区切りで CSV ファイル <B> を表として読み込み、 <A> にする
+<A> = pd . read_csv ( <B> , sep = ',' )	CSV ファイル <B> をカンマ区切りでデータフレームとして読んで、 <A> にする
+<A> = pd . read_csv ( <B> , sep = ',' )	CSV ファイル <B> を表としてカンマ区切りで読んで、 <A> とする
+<A> = pd . read_csv ( <B> , sep = ',' )	CSV ファイル <B> を表データとしてカンマ区切りで読んで、 <A> とする
+<A> = pd . read_csv ( <B> , sep = ',' )	カンマ区切りで CSV ファイル <B> を表として読んで、 <A> に代入する
+<A> = pd . read_csv ( <B> , sep = ',' )	CSV ファイル <B> を表データとしてカンマ区切りで読み込み、 <A> とする
+<A> = pd . read_csv ( <B> , sep = ',' )	CSV ファイル <B> を表としてカンマ区切りで読み込み、 <A> とする
+<A> = pd . read_csv ( <B> , sep = ',' )	表データとしてカンマ区切りで CSV ファイル <B> を読み込み、 <A> に代入する
+<A> = pd . read_csv ( <B> , sep = ',' )	CSV ファイル <B> をカンマ区切りでデータフレームとして読み込んで、 <A> とする
+pd . read_csv ( <A> , sep = <B> )	データフレームとして <B> 区切りで CSV ファイル <A> を読み込む
+pd . read_csv ( <A> , sep = <B> )	<B> 区切りで表データとして CSV ファイル <A> を読み込む
+pd . read_csv ( <A> , sep = <B> )	表として CSV ファイル <A> を <B> 区切りで読み込む
+pd . read_csv ( <A> , sep = <B> )	CSV ファイル <A> を <B> 区切りで表データとして読む
+pd . read_csv ( <A> , sep = <B> )	データフレームとして <B> 区切りで CSV ファイル <A> を読む
+pd . read_csv ( <A> , sep = <B> )	<B> 区切りで CSV ファイル <A> を表データとして読む
+pd . read_csv ( <A> , sep = <B> )	表として <B> 区切りで CSV ファイル <A> を読み込む
+pd . read_csv ( <A> , sep = <B> )	CSV ファイル <A> をデータフレームとして <B> 区切りで読む
+pd . read_csv ( <A> , sep = <B> )	表データとして <B> 区切りで CSV ファイル <A> を読み込む
+pd . read_csv ( <A> , sep = <B> )	<B> 区切りでデータフレームとして CSV ファイル <A> を読む
+pd . read_csv ( <A> , sep = <B> )	<B> 区切りでデータフレームとして CSV ファイル <A> を読み込む
+pd . read_csv ( <A> , sep = <B> )	<B> 区切りで CSV ファイル <A> をデータフレームとして読み込む
+pd . read_csv ( <A> , sep = <B> )	CSV ファイル <A> を <B> 区切りで表として読む
+pd . read_csv ( <A> , sep = <B> )	<B> 区切りで表データとして CSV ファイル <A> を読む
+pd . read_csv ( <A> , sep = <B> )	データフレームとして CSV ファイル <A> を <B> 区切りで読む
+<A> = pd . read_csv ( <B> , sep = <C> )	データフレームとして <C> 区切りで CSV ファイル <B> を読み込み、 <A> とする
+<A> = pd . read_csv ( <B> , sep = <C> )	<C> 区切りで表データとして CSV ファイル <B> を読み込み、 <A> とする
+<A> = pd . read_csv ( <B> , sep = <C> )	表として CSV ファイル <B> を <C> 区切りで読み込み、 <A> とする
+<A> = pd . read_csv ( <B> , sep = <C> )	CSV ファイル <B> を <C> 区切りで表データとして読んで、 <A> とする
+<A> = pd . read_csv ( <B> , sep = <C> )	データフレームとして <C> 区切りで CSV ファイル <B> を読み、 <A> とする
+<A> = pd . read_csv ( <B> , sep = <C> )	<C> 区切りで CSV ファイル <B> を表データとして読んで、 <A> にする
+<A> = pd . read_csv ( <B> , sep = <C> )	表として <C> 区切りで CSV ファイル <B> を読み込み、 <A> とする
+<A> = pd . read_csv ( <B> , sep = <C> )	CSV ファイル <B> をデータフレームとして <C> 区切りで読み、 <A> とする
+<A> = pd . read_csv ( <B> , sep = <C> )	表データとして <C> 区切りで CSV ファイル <B> を読み込み、 <A> にする
+<A> = pd . read_csv ( <B> , sep = <C> )	<C> 区切りでデータフレームとして CSV ファイル <B> を読んで、 <A> にする
+<A> = pd . read_csv ( <B> , sep = <C> )	<C> 区切りでデータフレームとして CSV ファイル <B> を読み込み、 <A> とする
+<A> = pd . read_csv ( <B> , sep = <C> )	<C> 区切りで CSV ファイル <B> をデータフレームとして読み込み、 <A> にする
+<A> = pd . read_csv ( <B> , sep = <C> )	CSV ファイル <B> を <C> 区切りで表として読んで、 <A> に代入する
+<A> = pd . read_csv ( <B> , sep = <C> )	<C> 区切りで表データとして CSV ファイル <B> を読んで、 <A> にする
+<A> = pd . read_csv ( <B> , sep = <C> )	データフレームとして CSV ファイル <B> を <C> 区切りで読み、 <A> に代入する
 pd . read_csv ( <A> , sep = '\t' )	タブ区切りで <A> を読む
 pd . read_csv ( <A> , sep = '\t' )	<A> をタブ区切りで読み込む
 pd . read_csv ( <A> , sep = '\t' )	<A> をタブ区切りで読む
