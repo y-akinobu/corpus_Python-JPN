@@ -1,0 +1,114 @@
+<A> と <B> を結合する	<A> + <B>	math . gcd ( <A> , <B> )	0
+文字列 <A> 内の小文字を大文字に変換する	<A> . upper ( )	<A> . lower ( )	0
+空のリストを作って、  <A> とする	<A> = [ ]	not <A> = [ ]	0
+BMI を求めたい	weight / ( height / 100 ) ** 2	int ( input ( ) )	0
+繰り返しの先頭に戻る	continue	int ( input ( ) )	0
+<B> を全て大文字に変換して、  <A> にする	<A> = <B> . upper ( )	upper <A> = <B> . upper ( )	0
+データを入力する	input ( )	int ( input ( ) )	0
+リスト <A> から <B> 番目の要素を削除する	del ( <A> [ <B> ] )	<A> [ : <B> ]	0
+文字列 <A> の末尾が <B> であるどうとき	if <A> . endswith ( <B> ) :	while if <A> . startswith ( <B> ) :	0
+何も行わない	pass	print ( 'Hello World' )	0
+ループ処理から抜ける	break	input ( )	0
+もし文字列 <A> が英大文字ならば	if <A> . isupper ( ) :	isupper if <A> . isupper ( ) :	0
+もし <A> が <B> と等しい場合	if <A> == <B> :	== if <A> == <B> :	0
+もし <A> が <B> とき	if <A> == <B> :	== if <A> == <B> :	0
+<A> が <B> より小さいとき	if <A> <  <B> :	math . if <A> < <B> :	0
+文字列 <A> の末尾が <B> であるどうか	<A> . endswith ( <B> )	if <A> . endswith ( <B> ) :	0
+<A> の平方根を計算する	math . sqrt ( <A> )	min ( <A> )	0
+文字列 <A> が数字であるか	<A> . isdigit ( )	if <A> . isdigit ( ) :	0
+<A> を <B> で割った商	<A> // <B>	( <A> + <B> - 1 ) // <B>	0
+<A> から <B> までの数列	range ( <A> , <B> + <A> )	( <A> , <B> + <B> + <A> )	0
+<A> が <B> 以下であるでない間	while not <A> <= <B> :	if not not <A> <= <B> :	0
+<A> が奇数のとき	if <A> % 2 == 1 :	<A> % if <A> % 2 == 1 :	0
+もし <A> が <B> と等しくなかったなら	if <A> != <B> :	!= if <A> != <B> :	0
+<A> を変換した数値	int ( <A> )	<A> = int ( input ( ) )	0
+ユーザが入力したデータをリストに変換する	list ( input ( ) )	<A> = list ( input ( ) )	0
+もし <A> が <B> の倍数でないとき	if <A> % <B> != 0 :	for if <A> % <B> != 0 :	0
+<A> が <B> で割った時の余りが <C> であるでないかどうか	<A> % <B> != <C>	if <A> % <B> != <C> :	0
+<A> と <B> の和	<A> + <B>	math . gcd ( <A> , <B> )	0
+もし <A> が <B> で割り切れたならば	if <A> % <B> == 0 :	while <A> % if <B> == 0 :	0
+<A> から <B> までの乱数	random . randint ( <A> , <B> )	<A> [ <B> : ]	0
+入力値をリスト型にする	list ( input ( ) )	. split ( input ( ) )	0
+<A> が <B> と等しくないかどうか	<A> != <B>	not <A> != <B>	0
+<A> が <B> よりも小さくなかったならば	if not <A> <  <B> :	if not <A> < <B> :	1
+もし <A> が <B> 以下であるでないとき	if not <A> <= <B> :	for if not <A> <= <B> :	0
+<A> を出力する	print ( <A> )	len ( <A> )	0
+<A> が <B> より小さいか否か	<A> <  <B>	not <A> < <B>	0
+<A> が <B> より小さくなかったならば	if not <A> <  <B> :	if not <A> < <B> :	1
+数列 <A> の平均値を計算する	sum ( <A> ) / len ( <A> )	len ( <A> ) / len ( <A> )	0
+文字列 <A> 中の全ての文字が数字か	<A> . isdigit ( )	if <A> . isdigit ( ) :	0
+<A> を整数として取得する	int ( <A> )	float ( <A> )	0
+<A> が <B> で割り切れる場合	if <A> % <B> == 0 :	% if <A> % <B> == 0 :	0
+文字列 <B> の文字リストを  <A> にする	<A> = list ( <B> )	not <A> = <B> . split ( )	0
+<A> が <B> で割り切れないか	<A> % <B> != 0	while <A> % <B> != 0	0
+複数の入力値をリストとして得る	list ( input ( ) )	split ( input ( ) )	0
+<A> 足す <B> 足す <C>	<A> + <B> + <C>	if <A> < <B> or <A> >= <C> :	0
+文字列 <A> の先頭が <B> であるどうか	<A> . startswith ( <B> )	if <A> . startswith ( <B> ) :	0
+<A> が <B> で割った時の余りが <C> であるならば	if <A> % <B> == <C> :	% if <A> % <B> == <C> :	0
+<A> は <B> と等しくない間	while <A> != <B> :	if <A> != <B> :	0
+<A> と <B> が等しくない間	while <A> != <B> :	if <A> != <B> :	0
+<A> が奇数でないとき	if <A> % 2 != 1 :	% if <A> % 2 != 1 :	0
+もし <A> は <B> と等しければ	if <A> == <B> :	math . if <A> == <B> :	0
+<A> を <B> で剰余を求める	<A> % <B>	( <A> + <B> - 1 ) // <B>	0
+文字列 <A> が英大文字ならば	if <A> . isupper ( ) :	isupper if <A> . isupper ( ) :	0
+もし <A> が <B> より大きくなかったなら	if not <A> >  <B> :	if not <A> > <B> :	0
+<A> が偶数であるでないか	<A> % 2 != 0	if <A> % 2 != 0 :	0
+0 から <A> -1 の範囲で 1 ずつ増える数列	range ( <A> )	print ( <A> )	0
+入力値を受け付ける	input ( )	abs ( input ( ) )	0
+もし <A> が偶数ならば	if <A> % 2 == 0 :	2 if <A> % 2 == 0 :	0
+もう一度、ループする	continue	max ( <A> )	0
+<B> を全て大文字にし、  <A> とする	<A> = <B> . upper ( )	if <A> = <B> . upper ( ) :	0
+<A> を整列する	sorted ( <A> )	byteorder = sorted ( <A> )	0
+もし <A> が <B> より大きかったとき	if <A> >  <B> :	sep if <A> > <B> :	0
+ユーザから入力を得、 <A> に代入する	<A> = input ( )	int ( input ( ) )	0
+ユーザが入力した整数値をスペースで区切ってリストとして受け取る	list ( map ( int , input ( ) . split ( ) ) )	while list ( map ( int , input ( ) . split ( ) ) )	0
+<A> が <B> より大きいとき	if <A> >  <B> :	> <B> :	0
+<B> を英大文字に変換した文字列を  <A> とする	<A> = <B> . upper ( )	if <A> = <B> . upper ( ) :	0
+<A> の末尾の要素	<A> [ -1 ]	-1 <A> [ -1 ]	0
+ユーザから入力された文字列を <A> とする	<A> = input ( )	sum ( input ( ) )	0
+<A> が <B> の倍数でないかどうか	<A> % <B> != 0	not <A> % <B> != 0	0
+<A> の合計値を見る	sum ( <A> )	len ( <A> )	0
+<A> が数字かどうか	<A> . isdigit ( )	if <A> . isdigit ( ) :	0
+ユーザから入力を得る	x = input ( )	int ( input ( ) )	0
+<A> が偶数ならば	if <A> % 2 == 0 :	2 if <A> % 2 == 0 :	0
+もし <A> 才未満、かつ <B> 才以上のとき	if age <  <A> and age >= <B> :	if age < <A> or age >= <B> :	0
+リスト <A> の最大値を調べる	max ( <A> )	len ( <A> )	0
+<A> 秒、止める	time . sleep ( <A> )	sorted ( <A> , reverse = True )	0
+身長 <B> と <A> 体重から BMI	<A> / ( <B> / 100 ) ** 2	if not <A> < <B> :	0
+<A> が <B> と等しい場合	if <A> == <B> :	== if <A> == <B> :	0
+<A> 内の要素の順番を逆転する	<A> [ : : -1 ]	<A> [ : : : -1 ]	0
+<A> が <B> で終わるとき	if <A> . endswith ( <B> ) :	while <A> . endswith ( <B> ) :	0
+<A> が <B> の倍数か	<A> % <B> == 0	if <A> % <B> == 0 :	0
+<A> をカンマで区切る	<A> . split ( ',' )	sorted ( <A> , reverse = True )	0
+<A> と <B> の mod を求める	<A> % <B>	( <A> + <B> - 1 ) // <B>	0
+<A> の一部分を取り出す	<A> [ start : end ]	<A> [ : end ]	0
+<A> が <B> より大きい間	while <A> >  <B> :	while <A> > <B> :	1
+<A> 、 <B> 、 <C> のうち ] [ 一番小さい値	min ( <A> , <B> , <C> )	if <A> , <B> , <C> ) :	0
+<A> に最も近い整数に切り捨て	math . floor ( <A> )	if <A> . floor ( ) :	0
+<A> が <B> 以上でない間	while not <A> >= <B> :	int ( <A> , <B> != ) :	0
+<A> が <B> よりも小さくないかどうか	not <A> <  <B>	not <A> < <B>	1
+<A> が <B> 以上か	<A> >= <B>	not <A> >= <B>	0
+X というプロンプトを表示し、ユーザに文字列を入力させる	x = input ( "X" )	sorted ( input ( ) )	0
+<A> が <B> の倍数でないか	<A> % <B> != 0	if <A> % <B> != 0 :	0
+<A> が <B> の倍数とき	if <A> % <B> == 0 :	% if <A> % <B> == 0 :	0
+<A> が <B> 以上ならば	if <A> >= <B> :	>= if <A> >= <B> :	0
+真	True	int ( input ( ) )	0
+もし <A> が <B> で割り切れないとき	if <A> % <B> != 0 :	!= if <A> % <B> != 0 :	0
+<A> が奇数でない場合	if <A> % 2 != 1 :	flush if <A> % 2 != 1 :	0
+<A> が <B> の倍数ならば	if <A> % <B> == 0 :	while if <A> % <B> == 0 :	0
+<A> 内の <B> の出現回数を確認する	<A> . count ( <B> )	<B> <A> . count ( <B> )	0
+<A> 回だけ繰り返し処理を行う	for i in range ( <A> ) :	i for i in range ( <A> ) ) :	0
+<A> の平均値	sum ( <A> ) / len ( <A> )	len ( <A> ) / len ( <A> )	0
+<A> が <B> より大きければ	if <A> >  <B> :	if not <A> > <B> :	0
+入力された数値をスペースで区切ってリストとして得、  <A> にする	<A> = list ( map ( int , input ( ) . split ( ) ) )	list ( map ( <A> , input ( ) . split ( ) ) ) )	0
+<A> の型を確認する	type ( <A> )	min ( <A> )	0
+もし <A> が <B> でないとき	if <A> != <B> :	not if <A> != <B> :	0
+<A> が <B> よりも大きくなかった場合	if not <A> >  <B> :	if not <A> > <B> :	1
+<A> が <B> より小さくないならば	if not <A> <  <B> :	if not <A> < <B> :	1
+<A> が <B> より大きいならば	if <A> >  <B> :	> <B> :	0
+<A> の平方根を確認する	math . sqrt ( <A> )	min ( <A> )	0
+数列 <A> の合計	sum ( <A> )	max ( <A> )	0
+<A> が奇数間	while <A> % 2 == 1 :	2 while <A> % 2 == 1 :	0
+<A> を <B> だけ増加させる	<A> += <B>	while <A> += <B> :	0
+リスト <A> の最小値を見る	min ( <A> )	while <A> [ : -1 ]	0
+<A> のルートを算出する	math . sqrt ( <A> )	min ( <A> )	0

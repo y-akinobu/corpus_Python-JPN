@@ -1,0 +1,201 @@
+真を <A> の <B> の先頭番目の <B> の <C> 番目に <C> を加えた値番目にする	<A> [ <B> [ 0 ] ] [ <B> [ <C> ] + <C> ] = True	del <A> [ <B> [ 0 ] + <C> ] [ <B> [ <C> ] ] = True
+0 から <D> に <B> を加えた値未満までの数列の各要素を <C> とし、 <B> の列を <A> とする	<A> = [ <B> for <C> in range ( <D> + <B> ) ]	count <A> = [ <B> for <C> in range ( <D> + <B> ) ]
+<A> を <B> ( <C> , <D> , <E> , <F> , <G> , <H> ) だけ増加させる	<A> += <B> ( <C> , <D> , <E> , <F> , <G> , <H> )	now <A> += <B> ( <C> , <D> , <E> , <F> , <F> )
+NO を出力する	print ( 'NO' )	while ( ) )
+<A> を <B> だけ増加させる	<A> += <B>	now <A> += <B>
+<A> モジュールを用いる	from <A> import deque	from <A> import Decimal , <A> )
+the が <A> に含まれまたは <B> が <A> に含まれまたは <C> が <A> に含まれるとき、	if 'the' in <A> or <B> in <A> or <C> in <A> :	if <A> in <B> or <C> or <A> in <A> or <A> or <A> in <B> :
+<A> の末尾に ( <B> の先頭、 <B> の <C> 番目に <C> を加えた値 ) の組を追加する	<A> . append ( ( <B> [ 0 ] , <B> [ <C> ] + <C> ) )	print ( <A> ( <B> [ 0 ] , <B> [ <C> ] ) + <C> [ 0 ] )
+<A> モジュールを用いる	from <A> import itemgetter	from <A> import Decimal , <A> )
+を <A> とする	<A> = ''	del <A> = <A> )
+<A> のとき、	if <A> :	for <A> in <A> :
+0 から <D> に <E> を加えた値未満までの数列の各要素を <C> とし、 <B> の <B> 乗の列を <A> とする	<A> = [ <B> ** <B> for <C> in range ( <D> + <E> ) ]	del <A> = [ <B> for <C> in range ( <D> + <E> + <B> ) ]
+<A> を <B> で割った値の整数値に <C> を加えた値を出力する	print ( int ( <A> / <B> ) + <C> )	print ( int ( <A> / <B> ) + <C> )
+<A> に <B> を加えた値を <C> で割った余りが <D> と等しくないとき、	if ( <A> + <B> ) % <C> != <D> :	if ( <A> + <B> ) % <C> + <D> :
+<A> の末尾に <B> を間に入れて <C> に <D> を加えた値を連結した文字列を追加する	<A> . append ( <B>   . join ( <C> + <D> ) )	return <A> . append ( <B> [ <C> + <D> ] ) )
+<B> を <A> の先頭にする	<A> [ <B> ] = <B>	0 <A> [ 0 ] = <B>
+<B> の辞書カウンタを <A> とする	<A> = Counter ( <B> )	print ( <A> . <B> [ 0 : ] )
+<A> を <B> の <C> 番目から <B> の <C> から <D> を引いた値番目を引いた値だけ増加させる	<A> += <B> [ <C> ] - <B> [ <C> - <D> ]	+= <A> [ <B> - <C> ] [ <D> ] - <B> [ <C> - <D> ]
+<A> が <B> の <C> 番目の順序数以下かどうかが <D> 以下のとき、	if <A> <= ord ( <B> [ <C> ] ) <= <D> :	if <A> <= <B> [ <C> ] <= <D> :
+Not stable を出力する	print ( 'Not stable' )	while <A> )
+<C> を <A> の <B> 番目にする	<A> [ <B> ] = <C>	count <A> [ <B> ] = <C>
+<A> が <B> の長さ以上のとき、	if <A> >= len ( <B> ) :	if len ( <A> ) >= <B> :
+何もしない	pass	del ( )
+<B> の <C> 番目に <C> を加えた値を <A> とする	<A> = <B> [ <C> ] + <C>	bisect <A> = <B> [ <C> ] + <D>
+<D> の各要素を <B> とし、 <B> に <C> を加えた値の列を反転した列を <A> とする	<A> = reversed ( [ <B> + <C> for <B> in <D> ] )	count <A> = sorted ( [ <B> ] , <B> ) for <B> in <C> in <D>
+<A> ( <B> ( <C> , <D> , <E> ) ) を返す	return <A> ( <B> ( <C> , <D> , <E> ) )	return <A> ( <B> ( <C> , <D> ) , <E> )
+0 から <D> 未満までの数列の各要素を <C> とし、 <B> の列を <A> とする	<A> = [ <B> for <C> in range ( <D> ) ]	del <A> = [ <B> for <C> in range ( <D> ) ]
+<B> に <C> を掛けた値に <C> を掛けた値から <D> を引いた値に <E> を掛けた値を <A> とする	<A> = ( <B> * <C> * <C> - <D> ) * <E>	<A> = <B> * <C> * ( <B> * <D> - <E> )
+<A> の末尾に入力された文字列を追加する	<A> . append ( input ( ) )	<A> . append ( input ( ) )
+<A> を <A> に <B> を掛けた値の整数値から <C> を引いた値だけ増加させる	<A> += int ( <A> * <B> ) - <C>	int ( <A> * ( <B> ) - <C> )
+<A> の -1 を取り出した値を出力する	print ( <A> . pop ( - 1 ) )	<A> . pop ( - 1 ) )
+<B> から <C> を引いた値から <D> を引いた値から <B> から <C> を引いた値に <D> を加えた値未満までの数列を順に <A> として、繰り返す	for <A> in range ( <B> - <C> - <D> , <B> - <C> + <D> ) :	for <A> in range ( <B> , <C> - <D> , <B> - <D> ) :
+<A> が <B> に <C> を加えた値以下の間、次を繰り返す	while <A> <= <B> + <C> :	if <A> + <B> <= <C> :
+<A> を英小文字に変換した文字列を <A> とする	<A> = <A> . lower ( )	count <A> = sorted ( <A> ) . split ( <A> )
+<A> の末尾に <A> の <B> から <C> を引いた値番目に <D> を掛けた値を追加する	<A> . append ( <A> [ <B> - <C> ] * <D> )	return <A> . append ( <B> [ <C> ] - <D> )
+<A> が <B> と等しくなくかつ <C> が <D> と等しくないとき、	if <A> != <B> and <C> != <D> :	if <A> != <B> and <C> != <D> :
+<A> の <B> 番目が <C> の <D> 番目に含まれるとき、	if <A> [ <B> ] in <C> [ <D> ] :	if <A> [ <B> ] in <C> [ <D> ] :
+D 、 <A> に <B> を加えた値を出力する	print ( 'D' , <A> + <B> )	del print ( <A> , <B> + <C> )
+<A> をソートする	<A> . sort ( )	<A> = sorted ( <A> ) )
+<C> の <D> 番目、 <C> の <D> 番目を <A> 、 <B> とする	<A> , <B> = <C> [ <D> ] , <C> [ <D> ]	<A> , <B> = <C> [ <D> ] , <C> [ <D> ]
+入力された文字列を <C> で分割した字句列の各要素に浮動小数点数を適用した列を展開し、それぞれ <A> 、 <B> とする	<A> , <B> = map ( float , input ( ) . split ( <C> ) )	count , <A> , <B> = map ( float , input ( ) . split ( <C> ) )
+Bob を出力する	print ( 'Bob' )	while ( ) )
+<A> を <B> で割った余りを出力する	print ( <A> % <B> )	del <A> % <B> )
+<A> の <B> 番目の <C> 番目を返す	return <A> [ <B> ] [ <C> ]	print ( <A> [ <B> ] [ <C> ] )
+<B> から <C> を引いた値から <D> 未満までの -1 間隔の数列を順に <A> として、繰り返す	for <A> in range ( <B> - <C> , <D> , - <C> ) :	for <A> , <B> in range ( <C> - <D> , <C> - <D> ) :
+<A> の末尾に ( <B> 、 <C> の整数値 ) からなる列を追加する	<A> . append ( [ <B> , int ( <C> ) ] )	<A> . append ( int ( [ <B> , <C> ) ] )
+<A> の <B> 番目の長さが <A> の <C> 番目の長さより小さいとき、	if len ( <A> [ <B> ] ) <  len ( <A> [ <C> ] ) :	if len ( <A> [ <B> ] ) < len ( <A> [ <C> ] ) :
+, を返す	return ','	print ( return , key )
+<A> の <B> の <C> 番目番目の先頭を出力する	print ( <A> [ <B> [ <C> ] ] [ 0 ] )	print ( <A> [ 0 ] [ <B> [ <C> ] ] )
+<B> を <C> で割った余りを <D> で割った商を <A> とする	<A> = ( <B> % <C> ) // <D>	// <A> = ( <B> // <C> ) % <D>
+<A> 、 <B> の <C> 番目から <B> の <D> 番目を引いた値の最大値を <A> とする	<A> = max ( <A> , <B> [ <C> ] - <B> [ <D> ] )	<A> = max ( <B> , <A> [ <C> ] - <D> ] , <B> [ <C> ] )
+<A> の <B> 番目の <C> に <D> を加えた値番目が <E> と等しいとき、	if <A> [ <B> ] [ <C> + <D> ] == <E> :	if <A> [ <B> + <C> ] [ <D> ] == <E> :
+<A> ( <B> -1 ) に <A> ( <B> -2 ) を加えた値に <A> ( <B> -3 ) を加えた値を返す	return <A> ( <B> - 1 ) + <A> ( <B> - 2 ) + <A> ( <B> - 3 )	print ( <A> ( - <B> + <A> ( <B> , <B> ) + <A> ( - 1 ) ) )
+<A> の <B> 番目が <C> に含まれるとき、	if <A> [ <B> ] in <C> :	del if <A> [ <B> ] in <C> :
+0 から <B> 未満までの数列を順に <A> として、繰り返す	for <A> in range ( <B> ) :	del for <A> in range ( <B> ) :
+<A> に対応する値、もし存在しなければ <B> 、 <C> に <D> を加えた値を <A> の <B> 番目にする	<A> [ <B> ] = <A> . get ( <B> , <C> ) + <D>	print ( <A> [ <B> ] , <A> [ <C> ] , <A> [ <D> ] )
+<A> を <B> の <C> 乗だけ増加させる	<A> += <B> ** <C>	now <A> += <B> ** <C>
+<A> の先頭の <B> 番目を <A> の先頭の <B> から <C> を引いた値番目だけ増加させる	<A> [ 0 ] [ <B> ] += <A> [ 0 ] [ <B> - <C> ]	del <A> [ 0 ] [ <B> [ 0 ] - <B> [ <C> ] ] += <A> [ 0 ]
+<A> が <B> と等しくないとき、	if <A> != <B> :	if <A> != <B> :
+<A> の <B> 番目が <C> と等しくまたは <A> の <B> 番目が <D> と等しくまたは <A> の <B> 番目が <E> と等しいとき、	if <A> [ <B> ] == <C> or <A> [ <B> ] == <D> or <A> [ <B> ] == <E> :	or if <A> [ <B> ] == <A> [ <C> ] == <A> [ <B> ] == <D> ] :
+<A> の先頭に <B> を加えた値が <A> の <B> 番目と等しいとき、	if <A> [ 0 ] + <B> == <A> [ <B> ] :	while <A> [ <B> + <C> ] [ <B> ] == <A> [ <B> : ] :
+<A> 、 <B> の最大値を返す	return max ( <A> , <B> )	if max ( <A> , max ( <B> ) )
+<A> ( <B> , <C> ) の <D> 番目を出力する	print ( <A> ( <B> , <C> ) [ <D> ] )	<A> print ( <B> ( <C> , <D> [ <D> ] ) )
+<A> の <B> の <C> 番目番目の末尾に <B> の <D> 番目を追加する	<A> [ <B> [ <C> ] ] . append ( <B> [ <D> ] )	<A> . append ( <B> [ <C> [ <D> ] ] [ <B> [ <D> ] ] )
+0 から <B> を <C> で割った商未満までの数列を順に <A> として、繰り返す	for <A> in range ( <B> // <C> ) :	print ( for <A> in range ( <B> , <C> ) // <D> ) :
+<A> の長さを出力する	print ( len ( <A> ) )	print ( len ( <A> ) )
+A を出力する	print ( 'A' )	while ( ) )
+H 、 <A> に <B> を加えた値を出力する	print ( 'H' , <A> + <B> )	del print ( <A> , <B> + <C> ) )
+( <A> に <B> を加えた値を <C> で割った値に <D> の ( <E> / <C> ) 乗に <F> から <G> を引いた値を掛けた値を <H> で割った値を加えた値、 <F> に <G> を加えた値を <C> で割った値に <D> の ( <E> / <C> ) 乗に <B> から <A> を引いた値を掛けた値を <H> で割った値を加えた値 ) からなる列を返す	return [ ( <A> + <B> ) / <C> + ( <D> ** ( <E> / <C> ) ) * ( <F> - <G> ) / <H> , ( <F> + <G> ) / <C> + ( <D> ** ( <E> / <C> ) ) * ( <B> - <A> ) / <H> ]	for <A> in range ( <B> + <C> ) / ( <D> + <E> ) / ( <F> ) / ( <B> + <F> ) / <C> ) / <D> )
+-1 を <A> とする	<A> = - 1	= - 1
+<A> 、 <B> 、 <C> 、 <D> 、 <E> はグローバル変数とする	global <A> , <B> , <C> , <D> , <E>	return <A> , <B> , <D> , <C> , <E>
+pre - meiji を出力する	print ( 'pre-meiji' )	while ( - )
+F を <A> とする	<A> = 'F'	print ( <A> )
+を返す	return ''	"'"
+<A> に <B> の文字列のリストを加えた値を <A> とする	<A> = <A> + list ( str ( <B> ) )	str <A> = list ( <A> + <B> )
+<A> を文字コード <B> から <C> を引いた値に <D> の順序数を加えた値の文字だけ増加させる	<A> += chr ( <B> - <C> + ord ( <D>   ) )	ord <A> += chr ( <B> - <C> ) + ( <D> - <E> )
+<B> の <C> 番目から、つまり末尾までの部分列を <A> とする	<A> = <B> [ <C> : ]	count <A> = <B> [ <C> : ]
+<A> の集合のリストの長さを出力する	print ( len ( list ( set ( <A> ) ) ) )	while list ( len ( len ( <A> ) ) )
+<B> を <A> の <B> 番目の先頭にする	<A> [ <B> ] [ 0 ] = <B>	[ <A> ] [ <B> ] = <B> [ 0 ]
+<A> が <B> より小さくかつ <C> が <D> より小さいとき、	if <A> <  <B> and <C> <  <D> :	now if <A> < <B> and <C> < <D> :
+<A> ( <B> / <C> , <C> )	<A> ( <B> / <C> , <C> )	<C> <A> ( <B> , <C> , <C> )
+<A> の <B> 番目の整数値が <C> より大きくまたは <A> の <B> 番目の整数値が <D> 以下のとき、	if int ( <A> [ <B> ] ) >  <C> or int ( <A> [ <B> ] ) <= <D> :	if int ( <A> [ <B> ] ) <= int ( <A> [ <C> ] ) < <A> [ <D> ] ) :
+<B> を <C> の <D> 乗に <B> の <D> 乗を加えた値の平方根で割った値を <A> とする	<A> = <B> / ( math . sqrt ( <C> ** <D> + <B> ** <D> ) )	= <A> . sqrt ( <B> ** <C> + <D> ** <B> ** <D> )
+<C> ( <D> ( <A> [ <B> + <E> ] ) ) の文字列を <A> の <B> 番目にする	<A> [ <B> ] = str ( <C> ( <D> ( <A> [ <B> + <E> ] ) ) )	del <A> [ <B> ] = str ( <A> ( <B> [ <D> ] , <E> ) )
+<A> と <B> の最大公約数を出力する	print ( gcd ( <A> , <B> ) )	print ( <A> , - <B> )
+<A> から <B> を引いた値を出力する	print ( <A> - <B> )	del <A> - <B> )
+<A> を <B> で割った余りが <C> と等しい間、次を繰り返す	while <A> % <B> == <C> :	while ( <A> % <B> ) % <C> :
+<A> の平方根が <B> より小さいとき、	if math . sqrt ( <A> ) <  <B> :	for if <A> in <B> < <A> . <B> :
+入力された文字列を空白で分割した字句列を展開し、それぞれ <A> 、 <B> とする	<A> , <B> = input ( ) . split ( )	str <A> , <B> = input ( ) . split ( )
+meiji { 0 } { 1 } { 2 }を書式として <A> から <B> を引いた値、 <C> 、 <D> で整形した文字列を返す	return 'meiji {0} {1} {2}' . format ( <A> - <B> , <C> , <D> )	for <A> in range ( <B> , <C> , <D> - 1 , <B> ) :
+fuchsia を出力する	print ( 'fuchsia' )	while ( ) )
+<A> の、つまり先頭から <B> に <C> を加えた値までの部分列を削除する	del <A> [ 0 : <B> + <C> ]	del <A> [ 0 : <B> ] + <C>
+overflow を出力する	print ( 'overflow' )	while ( ) )
+空行を出力する	print	while )
+<A> の <B> に <C> を加えた値番目の <D> 番目が <E> と等しいとき、	if <A> [ <B> + <C> ] [ <D> ] == <E> :	if <A> [ <B> + <C> ] [ <D> ] == <E> :
+<A> モジュールを用いる	from <A> import <A>	from <A> import Decimal , <A> )
+<A> に <B> を掛けた値を <C> ( <A> , <B> ) で割った商を返す	return <A> * <B> // <C> ( <A> , <B> )	return ( <A> * ( <B> , <C> ) // <B> )
+<B> の <C> 番目の <D> 番目を <A> とする	<A> = <B> [ <C> ] [ <D> ]	del <A> [ <B> ] [ <C> ] = <D>
+<A> の <B> 番目を返す	return <A> [ <B> ]	print ( <A> [ <B> ] )
+<C> をパラメータとして <C> の <D> 番目を返す関数を <B> として <A> をソートする	<A> . sort ( <B> = lambda <C> : <C> [ <D> ] )	<A> . sort ( <B> = lambda <C> [ <D> ] , <C> [ <D> ] )
+<A> を <B> から <C> を引いた値で割った値の整数値を出力する	print ( int ( <A> / ( <B> - <C> ) ) )	return int ( <A> - <B> ) / <C> )
+<A> に <B> を加えた値の文字列の長さを出力する	print ( len ( str ( <A> + <B> ) ) )	path print ( len ( <A> ) + <B> ) )
+<A> を間に入れて <D> .roots ( ) の各要素を <C> とし、 <B> を書式として <C> 、 <D> .members ( <C> ) で整形した文字列の列を連結した文字列を返す	return <A>   . join ( [ <B>   . format ( <C> , <D> . members ( <C> ) ) for <C> in <D> . roots ( ) ] )	print ( ' . join ( [ str ( <A> ) for <A> in <B> . join ( <C> . <D> ) for <B> in input ( <C> . split ( <E> ) . split ( <D> ) ] ) . split ( <D> )
+<C> ( <D> ) を展開し、それぞれ <A> 、 <B> とする	<A> , <B> = <C> ( <D> )	<A> = <B> , <B> ( <C> , <D> )
+<A> の末尾に ( <B> の先頭に <C> を加えた値、 <B> の <C> 番目 ) の組を追加する	<A> . append ( ( <B> [ 0 ] + <C> , <B> [ <C> ] ) )	print ( <A> ( <B> [ 0 ] , <B> [ <C> ] + <C> ) )
+<A> に ( <B> ) からなる列を加えた値を <A> とする	<A> = <A> + [ <B> ]	del <A> = <A> + [ <B> ]
+<D> を <A> の <B> 番目の <C> 番目にする	<A> [ <B> ] [ <C> ] = <D>	del <A> [ <B> ] [ <C> ] = <D>
+<A> から <B> を引いた値が <C> 以上のとき、	if <A> - <B> >= <C> :	if <A> - <B> >= <C> :
+<A> 、 <B> の <A> 番目を出力する	print ( <A> , <B> [ <A> ] )	print ( <A> [ <B> ] , <A> )
+<A> ( <B> + <C> , <D> )	<A> ( <B> + <C> , <D> )	if <A> ( <B> , <C> + <D> ) :
+<B> を <C> で割った余りの整数値を <A> とする	<A> = int ( <B> % <C> )	int <A> = int ( <B> / <C> )
+<B> に <C> を加えた値を <D> で割った商から <D> を引いた値を <A> とする	<A> = ( <B> + <C> ) // <D> - <D>	del <A> = ( ( <B> + <B> ) // <C> - <D> )
+<A> に <B> を加えた値を出力する	print ( <A> + <B> )	del print ( <A> + <B> )
+{ 0 }\ n { 1 }を <A> とする	<A> = '{0}\n{1}'	print ( <A> + <B> )
+<C> 、 <D> を <A> 、 <B> とする	<A> , <B> = <C> , <D>	return <A> , <B> , <C> = <D>
+<A> の <B> 番目が <C> の <B> 番目と等しくないとき、	if <A> [ <B> ] != <C> [ <B> ] :	if <A> [ <B> ] [ <C> ] != <B> :
+無限の整数列を返す	return count	print ( count , count )
+<C> の <D> 番目の整数値、 <C> の <E> 番目の整数値を <A> 、 <B> とする	<A> , <B> = int ( <C> [ <D> ] ) , int ( <C> [ <E> ] )	<A> = int ( <B> [ <C> ] , <D> [ int ( <E> ] ) )
+改行せずに <A> の <B> 番目の <C> から <D> を引いた値番目を出力する	print ( <A> [ <B> ] [ <C> - <D> ] , end = '' )	del print ( <A> [ <B> [ <C> - <D> ] ] , end = '' )
+<A> の <B> 番目の <C> 番目が <D> と等しくなくかつ <A> の <B> 番目の <C> 番目が <E> と等しくなくかつ <F> が <B> より小さい間、次を繰り返す	while <A> [ <B> ] [ <C> ] != <D> and <A> [ <B> ] [ <C> ] != <E> and <F> <  <B> :	while <A> [ <B> ] [ <C> ] != <D> and <A> [ <B> ] [ <B> ] [ <C> ] == <E> and <A> [ <C> ] [ <B> ] ) :
+<A> が <B> から <C> を引いた値以上のとき、	if <A> >= <B> - <C> :	if <A> >= <B> - <C> :
+<A> の <B> の <C> 番目を返す	return <A> . <B> [ <C> ]	print ( <A> [ <B> ] , <C> )
+<B> の <C> を取り出した値を <A> とする	<A> = <B> . pop ( <C> )	= <A> . <B> * int ( <C> )
+-1 を <A> の <B> 番目にする	<A> [ <B> ] = - 1	<A> . <B> [ - 1 ] = - <B>
+<A> の <B> 番目の <C> 番目が <D> と等しくなくかつ <A> の <B> 番目の <C> 番目が <E> と等しくなくかつ <C> が <F> より大きい間、次を繰り返す	while <A> [ <B> ] [ <C> ] != <D> and <A> [ <B> ] [ <C> ] != <E> and <C> >  <F> :	if <A> [ <B> ] [ <C> ] != <D> and <A> [ <B> ] != <E> and <C> ] [ <C> ] == <F> :
+<A> が ( <B> 、 <C> 、 <D> 、 <E> 、 <F> 、 <G> 、 <H> 、 <I> ) からなる列に含まれないとき、	if <A> not in [ <B> , <C> , <D> , <E> , <F> , <G> , <H> , <I> ] :	if <A> not in [ <B> , <C> , <D> , <E> , <F> , <F> ] :
+<C> をパラメータとして <C> の長さを返す関数をキーとして逆順に <B> をソートした列を <A> とする	<A> = sorted ( <B> , key = lambda <C> : len ( <C> ) , reverse = True )	count = sorted ( <A> , key = sorted ( <B> ) , key = True )
+<A> の末尾に ( <B> 、 <C> ) の組を追加する	<A> . append ( ( <B> , <C> ) )	. append ( <A> ( <B> ( <C> ) ) )
+0 から <A> 未満までの数列を順に無限の整数列として、繰り返す	for count in range ( <A> ) :	for count in range ( <A> , count ) :
+<A> から <B> の長さを引いた値を出力する	print ( <A> - len ( <B> ) )	while <A> - len ( <B> ) )
+<A> の整数値に <B> の整数値を加えた値を出力する	print ( int ( <A> ) + int ( <B> ) )	count = int ( <A> ) + int ( <B> )
+<A> が <B> に <C> を掛けた値に <D> を加えた値より大きいとき、	if <A> >  <B> * <C> + <D> :	while ( <A> + <B> * <C> ) > <D> :
+<A> が <B> 以下かどうかが <C> 以下かつ <D> が <E> 以下かどうかが <F> 以下のとき、	if <A> <= <B> <= <C> and <D> <= <E> <= <F> :	if <A> <= <B> <= <C> <= <D> : <= <E> :
+<B> から <C> に <D> を掛けた値を引いた値を <E> で割った値の整数値を <A> とする	<A> = int ( ( <B> - <C> * <D> ) / <E> )	<A> = int ( <B> * ( <C> - <D> ) / <E> )
+<B> から <C> を引いた値の <D> 乗に <E> から <F> を引いた値の <D> 乗を加えた値に <G> から <H> を引いた値の <D> 乗を加えた値の平方根を <A> とする	<A> = math . sqrt ( ( <B> - <C> ) ** <D> + ( <E> - <F> ) ** <D> + ( <G> - <H> ) ** <D> )	<A> = math . sqrt ( ( ( <B> - <C> + <D> ) - <E> + <D> ) ** <D> + <F> - <F> )
+OFF を <A> とする	<A> = 'OFF'	print ( <A> )
+<A> の末尾に <B> から <C> 内の <D> の出現回数を引いた値に <A> の末尾を加えた値を追加する	<A> . append ( <B> - <C> . count ( <D> ) + <A> [ - 1 ] )	count . append ( <A> . append ( <B> - <C> ) + <D> )
+<A> ( <B> -1 , <C> -1 )	<A> ( <B> - 1 , <C> - 1 )	<A> ( <B> , <C> - 1 , - 1 )
+<A> 、 <B> の最小値を出力する	print ( min ( <A> , <B> ) )	print ( min ( <A> , <B> ) )
+abundant number を <A> とする	<A> = 'abundant number'	print ( <A> , key = True )
+<B> から <D> 未満までの数列の各要素を <C> とし、 ( <B> 、 <B> ) からなる列の列のリストを <A> とする	<A> = list ( [ [ <B> , <B> ] for <C> in range ( <D> ) ] )	del <A> = [ [ <B> for <B> in range ( <C> , <D> ) ] for <B> in range ( <B> , <B> ) ]
+<A> ( <B> , <C> ) のとき、	if <A> ( <B> , <C> ) :	if <A> ( <B> , <C> ) :
+{ 0 } , { 1 }を書式として <A> を展開してで整形した文字列を出力する	print ( '{0},{1}' . format ( * <A> ) )	while <A> . format ( <B> , <C> ) )
+入力された文字列を順に <A> として、繰り返す	for <A> in input ( ) :	for <A> in input ( ) :
+を間に入れて <B> を連結した文字列を <A> とする	<A> = '' . join ( <B> )	' <A> = <B> . join ( <A> )
+<A> と <B> を <A> で割った余りの最大公約数を返す	return gcd ( <A> , <B> % <A> )	del <A> % <A> % <B>
+% d % d を ( <A> 、 <B> ) の組で割った余りを出力する	print ( '%d %d' % ( <A> , <B> ) )	del ( <A> , <B> ) % <C> )
+<A> の整数値を <A> とする	<A> = int ( <A> )	count = int ( <A> )
+<B> を <C> で割った商に <D> を加えた値を <A> とする	<A> = <B> // <C> + <D>	return <A> = <B> // <C> + <D>
+<A> の <B> [ <C> ] から <D> を引いた値番目の <B> の <D> 番目番目が、つまり偽と等しくかつ <E> の <B> の先頭番目の <B> の <D> 番目番目が <E> の <B> [ <C> ] から <D> を引いた値番目の <B> の <D> 番目番目と等しいとき、	if <A> [ <B> [ <C> ] - <D> ] [ <B> [ <D> ] ] == False and <E> [ <B> [ <C> ] ] [ <B> [ <D> ] ] == <E> [ <B> [ <C> ] - <D> ] [ <B> [ <D> ] ] :	if <A> [ <B> [ <C> ] ] [ <D> ] == <B> [ <C> ] [ <D> ] ] == <E> [ <B> [ <B> [ <D> ] ] ] ] ] ] == <D> [ <B> [ <D> ] :
+heisei 、 <A> から <B> を引いた値、 <C> 、 <D> を出力する	print ( 'heisei' , <A> - <B> , <C> , <D> )	while <A> , <B> , <C> - <D> )
+<A> を書式として <B> 、 <C> で整形した文字列を出力する	print ( <A>   . format ( <B> , <C> ) )	sorted print ( <A> . format ( <B> , <C> ) )
+0 から、つまり無限の整数列の長さ未満までの数列を順に <A> として、繰り返す	for <A> in range ( len ( count ) ) :	for in range ( count , len ( <A> , len ( ) ) ) :
+<A> の末尾に <B> から <C> を引いた値を追加する	<A> . append ( <B> - <C> )	return <A> . append ( <B> - <C> )
+Miserable Hokusai !を出力する	print ( 'Miserable Hokusai!' )	while <A> )
+入力された文字列を <B> で分割した字句列を <A> とする	<A> = input ( ) . split ( <B> )	<A> = input ( input ( ) . split ( ) )
+0 から <D> 未満までの数列の各要素を <B> とし、 <B> に <C> を加えた値の列の順列のリストを <A> とする	<A> = list ( itertools . permutations ( [ <B> + <C> for <B> in range ( <D> ) ] ) )	del <A> = list ( [ <B> for <B> in range ( <C> ) ] + <D> )
+<A> の末尾に ( <B> から <C> を引いた値、 <D> から <E> を引いた値 ) からなる列を追加する	<A> . append ( [ <B> - <C> , <D> - <E> ] )	count . append ( <A> [ <B> - <C> , <D> ] - <E> ) )
+os .path の末尾の先頭を出力する	print ( path [ - 1 ] [ 0 ] )	path . append ( [ 0 ] [ 0 ] )
+改行せずに <A> の <B> 番目の <C> 番目を出力する	print ( <A> [ <B> ] [ <C> ] , end = '' )	print ( <A> [ <B> [ <C> ] ] , end = '' )
+<B> 年 <C> 月 <D> 日の日時を <A> とする	<A> = datetime . datetime ( <B> , <C> , <D> )	count = <A> , <B> . <C> ( <D> , <E> )
+<A> の <B> 番目から <C> に <D> を加えた値までの部分列を削除する	del <A> [ <B> : <C> + <D> ]	print ( <A> [ <B> : <C> + <D> ] )
+<C> ( <D> , <E> ) を展開し、それぞれ <A> 、 <B> とする	<A> , <B> = <C> ( <D> , <E> )	bisect <A> , <B> = <C> ( <D> , <E> , <F> )
+<A> の末尾に <B> の <C> 番目を追加する	<A> . append ( <B> [ <C> ] )	<A> . append ( <B> [ <C> ] )
+<A> の <B> 番目を <B> だけ増加させる	<A> [ <B> ] += <B>	<A> [ <B> ] += <A> [ <B> ]
+<A> を <B> の <C> 番目に <D> の <E> 番目の <C> 番目を掛けた値だけ増加させる	<A> += <B> [ <C> ] * <D> [ <E> ] [ <C> ]	+= <A> [ <B> ] [ <C> ] * ( <A> [ <B> [ <D> ] )
+入力された文字列を <D> で分割した字句列の各要素を <B> とし、 <B> の整数値から <C> を引いた値の列を <A> とする	<A> = [ int ( <B> ) - <C> for <B> in input ( ) . split ( <D> ) ]	str <A> = [ int ( <B> ) for <B> in input ( <C> ) . split ( <D> ) ]
+{ 0 } x { 1 } = { 2 }を書式として <A> 、 <B> 、 <A> に <B> を掛けた値で整形した文字列を出力する	print ( '{0}x{1}={2}' . format ( <A> , <B> , <A> * <B> ) )	for print ( <A> in <B> . format ( <B> , <C> ) + <D> )
+<A> 、 <B> 、 <C> 、 <D> 、 <E> 、 <F> 、 <G> はグローバル変数とする	global <A> , <B> , <C> , <D> , <E> , <F> , <G>	return <A> , <B> , <C> , <D> , <E> , <F> = <F>
+( <A> から <B> を <C> で割った商に <D> を掛けた値を引いた値、 <D> ) の組を返す	return ( <A> - ( <B> // <C> ) * <D> , <D> )	return ( ( <A> , ( <B> ) // <D> - <C> ) )
+<B> ( <C> ) を <A> とする	<A> = <B> ( <C> )	return <A> = <B> ( <C> )
+<A> の末尾に ( <B> の先頭に <C> の先頭を加えた値、 <B> の <D> 番目に <C> の <D> 番目を加えた値 ) の組を追加する	<A> . append ( ( <B> [ 0 ] + <C> [ 0 ] , <B> [ <D> ] + <C> [ <D> ] ) )	<A> . append ( <B> [ 0 ] , <B> [ 0 ] + <B> [ 0 ] , <C> [ <D> ] + <B> ] ) )
+<A> の末尾に入力された文字列の整数値に <A> の末尾を加えた値を追加する	<A> . append ( int ( input ( ) ) + <A> [ - 1 ] )	str <A> . append ( int ( <A> ) + int ( <A> ) )
+<A> と <B> を入れ替える	<A> , <B> = <B> , <A>	count <A> = <B>
+<B> から <D> 未満までの数列の各要素を <C> とし、 <B> の列を <A> とする	<A> = [ <B> for <C> in range ( <D> ) ]	del <A> = [ <B> for <C> in range ( <D> ) ]
+<A> の、つまり先頭から <B> 番目までの部分列が <C> に含まれるとき、	if <A> [ : <B> ] in <C> :	del if <A> [ <B> : <C> : ] :
+<B> の、つまり先頭から <C> 番目までの部分列を <A> とする	<A> = <B> [ 0 : <C> ]	<A> = <B> [ 0 : <C> ]
+<A> 、 <B> の最大値、 <A> 、 <B> の最小値を <A> 、 <B> とする	<A> , <B> = max ( <A> , <B> ) , min ( <A> , <B> )	max <A> , <B> , <A> = min ( <A> , <B> ) , <B> )
+ソートされた順序を保ったまま <C> を <B> に挿入できる最後の位置を <A> とする	<A> = bisect . bisect_right ( <B> , <C> )	return <A> = bisect . bisect_left ( <B> , <C> )
+aqua を出力する	print ( 'aqua' )	while ( ) )
+<B> のコピーを <A> とする	<A> = <B> . copy ( )	count = <A> [ 0 ]
+0 から <D> 未満までの数列の各要素を <C> とし、 <B> の <B> 乗の列を <A> とする	<A> = [ <B> ** <B> for <C> in range ( <D> ) ]	<A> = [ <B> for <C> in range ( <D> ) ]
+<B> をパラメータとして ( -1 に <B> [ <C> ] を掛けた値、 <B> の先頭 ) の組を返す関数をキーとして <A> をソートした列の、つまり先頭から <D> 番目までの部分列を <A> とする	<A> = sorted ( <A> , key = lambda <B> : ( - <C> * <B> [ <C> ] , <B> [ 0 ] ) ) [ : <D> ]	count = sorted ( <A> [ 0 ] , <B> [ 0 ] , <B> [ 0 : <C> ] , <B> [ 0 ] )
+<B> の <C> 乗に <D> の <C> 乗を加えた値の平方根を <A> とする	<A> = math . sqrt ( <B> ** <C> + <D> ** <C> )	math <A> = <B> ** <C> . sqrt ( <B> ** <C> + <D> ** <C> ** <D> ** <D> )
+<A> を <B> ( <C> ) だけ増加させる	<A> += <B> ( <C> )	now <A> += <B> ( <C> )
+<A> を <B> で割った商に <C> を加えた値を出力する	print ( <A> // <B> + <C> )	while <A> + <B> // <C> )
+入力された文字列を <K> で分割した字句列の各要素を <J> とし、 <I> ( <J> ) の列を展開し、それぞれ <A> 、 <B> 、 <C> 、 <D> 、 <E> 、 <F> 、 <G> 、 <H> とする	<A> , <B> , <C> , <D> , <E> , <F> , <G> , <H> = [ <I> ( <J> ) for <J> in input ( ) . split ( <K> ) ]	, <A> , <B> , <C> , <D> , <E> , <F> = [ int , <F> , <F> , <F> , <G> ) for <G> in input ( <H> ) . split ( <H> ) ]
+<B> を <C> で割った余りを <A> とする	<A> = <B> % <C>	= <A> % <B> % <C>
+0 から <B> の <C> 未満までの数列の各要素を <A> とし、 <B> の先頭から <A> を探して見つかった位置が <D> と等しいときの <A> の列を返す	return [ <A> for <A> in range ( <B> . <C> ) if <B> . find ( <A> ) == <D> ]	while <A> [ <B> for <C> in range ( <A> . <D> ) ] == <B> [ <C> ] :
+Hello World を出力する	print ( 'Hello World' )	while <A> )
+<A> が <B> の長さ以上のとき、  <blk> 繰り返しを中断する  </blk>	if <A> >= len ( <B> ) : <blk> break </blk>	while <A> . append ( <B> [ <C> ] ) :
+<A> が <B> より小さくなければならない	assert <A> <  <B>	while ( <B> ) :
+<A> が ( <B> 、 <C> 、 <D> 、 <E> 、 <F> ) からなる列に含まれないとき、	if <A> not in [ <B> , <C> , <D> , <E> , <F> ] :	if <A> not in [ <B> , <C> , <D> , <E> , <F> ] :
+<B> の <B> 乗を <A> とする	<A> = <B> ** <B>	print ( <A> ** <B> ** <B> )
+<B> から <C> に <D> を掛けた値を引いた値を <A> とする	<A> = <B> - <C> * <D>	( <A> = <B> * <C> - <D> )
+<D> を <A> の ( <B> 、 <C> ) の組番目にする	<A> [ ( <B> , <C> ) ] = <D>	print ( <A> ( <B> [ <C> , <D> ] ) )
+<B> ( <C> , <D> ) に <B> ( <E> , <D> ) を加えた値、 <A> の最大値を <A> とする	<A> = max ( <B> ( <C> , <D> ) + <B> ( <E> , <D> ) , <A> )	max <A> = <B> ( <C> , <D> ) , max ( <A> ( <B> , <E> ) , <D> )
+<A> の末尾に <A> の <B> から <C> を引いた値番目を <D> で割った値を追加する	<A> . append ( <A> [ <B> - <C> ] / <D> )	return <A> . append ( ( <B> [ <C> - <D> ] ) )
+<B> から <A> に <C> を掛けた値を引いた値を <A> とする	<A> = <B> - <A> * <C>	<A> = <B> * ( <A> - <C> )
+A を <A> とする	<A> = 'A'	print ( <A> )
+<A> の先頭を取り出した値	<A> . pop ( )	del <A> [ 0 ] . pop ( <A> )

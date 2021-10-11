@@ -1,0 +1,147 @@
+もし <A> が <B> で割り切れないとき	if <A> % <B> != 0 :	not ( <A> . <B> if not <A> . <B> ) :	0
+<A> が <B> 以上でない間	while not <A> >= <B> :	( not <A> >= <B> )	0
+<A> と <B> を結合する	<A> + <B>	( <A> , <B> ) = <A>	0
+<A> の要素数を算出する	len ( <A> )	'a' = ord ( <A> )	0
+リスト <A> の最大値を調べる	max ( <A> )	yield max ( list ( <A> ) )	0
+<A> が <B> で割った時の余りが <C> であるか否か	<A> % <B> == <C>	( <A> % <B> ) == ( <C> )	*
+<A> が奇数場合	if <A> % 2 == 1 :	pow ( <A> , )	0
+ユーザが入力した文字列を <A> とする	<A> = input ( )	' <A> in input ( )	0
+<A> が <B> で割り切れるとき	if <A> % <B> == 0 :	if <A> . not <B> :	0
+文字列 <A> の中の大文字を小文字に変換する	<A> . lower ( )	input ( ) . <A> . upper ( )	0
+<A> が <B> と等しくない間	while <A> != <B> :	assert <A> != <B>	0
+<A> が偶数である間	while <A> % 2 == 0 :	<A> . not in <A> :	0
+ユーザから入力された数値データを取得する	int ( input ( ) )	exit ( input ( ) )	0
+もし <A> が <B> よりも大きければ	if <A> >  <B> :	set <A> ( <B> ) </blk>	0
+<A> 、 <B> 、 <C> の最小値を計算する	min ( <A> , <B> , <C> )	exit ( <A> , min ( <B> , <C> ) )	0
+<A> が <B> と等しくなければ	if <A> != <B> :	if ( <A> == <B> )	0
+<A> の切り上げを計算する	math . ciel ( <A> )	now = math . ceil ( <A> )	0
+<A> が <B> の倍数の場合	if <A> % <B> == 0 :	pow ( <A> , <B> [ ] )	0
+<A> が <B> 以上でない場合	if not <A> >= <B> :	assert <A> >= <B>	0
+<A> が <B> の倍数間	while <A> % <B> == 0 :	( <A> is not <B> ) :	0
+<A> 、 <B> 、 <C> の最小値を確認する	min ( <A> , <B> , <C> )	exit ( <A> , min ( <B> , <C> ) )	0
+<A> の平方根	math . sqrt ( <A> )	factorial ( <A> )	0
+<A> に 0 から 9 を代入して、次の命令をループする	for <A> in range ( 10 ) :	while ( <A> * ( ) , input ( ) )	0
+<A> が <B> 以下か	<A> <= <B>	isclose ( <A> <= <B> )	0
+<A> を出力する	print ( <A> )	<A> = print ( <A> )	0
+<A> たす <B> の値を <A> に代入する	<A> += <B>	insort ( <A> ) <A> . <B>	0
+<A> が <B> で終わるかどうか	<A> . endswith ( <B> )	isclose ( <A> , <B> )	0
+<A> を <B> で割った結果の切り上げ	( <A> + <B> - 1 ) // <B>	deepcopy ( <A> / <B> )	0
+<A> が <B> 以降でない間	while not <A> <= <B> :	while not <A> not <B> :	0
+<A> の <B> 乗を計算する	<A> ** <B>	path = <A> . index ( <B> )	0
+<A> が <B> よりも大きくなかった場合	if not <A> >  <B> :	input ( ) > <B> :	0
+<A> が <B> と等しくないか	<A> != <B>	assert <A> != <B>	0
+「ハローワールド」と表示する	print ( 'Hello World' )	input = ]	0
+文字列 <A> の末尾が <B> であるどうか	<A> . endswith ( <B> )	eval ( <A> [ - <B> ] <= <B> )	0
+数列 <A> の総和	sum ( <A> )	range ( sum ( <A> ) )	0
+<B> を追加する要素としてリスト <A> の末尾に値を付加する	<A> . append ( <B> )	exit ( <A> [ : ] = list ( <B> ) )	0
+<A> が奇数間	while <A> % 2 == 1 :	while ( <A> != )	0
+<A> が <B> 以降でないか	not <A> <= <B>	!= <A> . not <B> :	0
+<A> のルート	math . sqrt ( <A> )	len ( <A> )	0
+文字列 <A> を英小文字に変換した文字列	<A> . lower ( )	lower ( <A> . lower ( ) )	0
+リスト <A> に <B> を加える	<A> . append ( <B> )	print ( list ( <A> ) , <B> )	0
+もし文字列 <A> が <B> で始まれば	if <A> . startswith ( <B> ) :	yield str ( <A> == <B> )	0
+<A> が <B> より小さい間	while <A> <  <B> :	while ( <A> < <B> )	0
+文字列 <A> 中の英字全てが大文字ならば	if <A> . isupper ( ) :	str ( <A> ) . upper ( )	0
+<A> が <B> 以下でないかどうか	not <A> <= <B>	( not <A> <= <B> )	*
+一行から複数の入力値を空白で区切ってリストに格納する	list ( map ( int , input ( ) . split ( ) ) )	print ( * list ( input ( ) . split ( ) ) )	0
+<A> のキーの一覧を得る	<A> . keys ( )	from <A> . keys ( )	0
+文字列 <A> の前後の空白を除去する	<A> . strip ( )	str ( <A> ) [ ] = str ( <A> )	0
+もし <A> が <B> ならば	if <A> == <B> :	assert ( <A> == <B> )	0
+<A> が <B> とき	if <A> == <B> :	divmod ( <A> , <B> ) :	0
+もし <A> が <B> で割り切れたならば	if <A> % <B> == 0 :	assert ( <A> == <B> )	0
+文字列 <A> 中の全ての英字が小文字の場合	if <A> . islower ( ) :	eval ( <A> . values ( ) )	0
+ユーザから入力を得る	input ( )	'l'	0
+<A> 内の <B> の出現回数を確認する	<A> . count ( <B> )	path = <A> . count ( <B> )	0
+繰り返し処理を <A> 回行う	for i in range ( <A> ) :	return break </blk>	0
+もし <B> に <A> が含まれているならば	if <A> in <B> :	from <A> . in <B> ( <A> )	0
+もし <A> が <B> とき	if <A> == <B> :	divmod ( <A> , <B> ) :	0
+<A> ~ <B> の範囲で <A> ずつ増える数列	range ( <A> , <B> + <A> )	insort ( <A> , <B> , <A> )	0
+<A> を変換した文字列	str ( <A> )	<A> . lower ( )	0
+入力値をリスト型にする	list ( input ( ) )	else = list ( map ( int , input ( ) ) )	0
+データを入力する	input ( )	exit ( )	0
+<A> の絶対値を求める	abs ( <A> )	yield abs ( <A> )	0
+文字列 <A> 内の小文字を大文字に変換する	<A> . upper ( )	input ( ) <A> . lower ( )	0
+<A> が <B> で割った時の余りが <C> であるならば	if <A> % <B> == <C> :	assert ( ( <A> % <B> ) == <C> )	0
+<A> わる <B> の切り上げを計算する	( <A> + <B> - 1 ) // <B>	now = <A> . <B>	0
+リスト <A> の最大値	max ( <A> )	sum ( list ( list ( <A> ) ) )	0
+<A> を <B> で割った余りを求める	<A> % <B>	print ( <A> % <B> )	0
+<A> が <B> 以上であるでないならば	if not <A> >= <B> :	assert <A> >= <B>	0
+もし <A> が <B> 未満、かつ <C> 以上のとき	if <A> <  <B> and <A> >= <C> :	divmod , <A> >= <B> , <C> :	0
+<A> が奇数でないか	<A> % 2 != 1	while not ( not <A> )	0
+<A> から <B> の範囲の数列	range ( <A> , <B> + <A> )	insort ( <A> , <B> )	0
+<A> が奇数か	<A> % 2 == 1	pow ( <A> )	0
+<A> は <B> と等しいならば	if <A> == <B> :	isinstance ( <A> , <B> )	0
+<A> 全てが数字かどうか	<A> . isdigit ( )	max ( <A> . isdigit ( ) )	0
+<A> 中の英字全てが小文字か否か	<A> . islower ( )	not <A> ( ) . lower ( )	0
+<A> を <B> で割った商	<A> // <B>	// <A> // <B>	0
+<A> を変換した浮動小数点数	float ( <A> )	float ( <A> . lower ( ) )	0
+文字列 <B> 内の <C> を <D> に置き換えた文字列を  <A> とする	<A> = <B> . replace ( <C> , <D> )	[ <A> ] = str ( <B> . replace ( <C> , <D> ) )	0
+<B> を全て大文字に変換して、  <A> にする	<A> = <B> . upper ( )	insort ( <A> , <B> . <A> )	0
+X というプロンプトを表示し、ユーザに文字列を入力させる	x = input ( "X" )	def <A> ( ) , input ( ) + input ( )	0
+文字列 <A> 中の全ての英字が大文字のとき	if <A> . isupper ( ) :	) if str ( <A> ) . upper ( ) :	0
+入力を空白ごとに数値としてリストに格納する	list ( map ( int , input ( ) . split ( ) ) )	exit = list ( input ( ) )	0
+スペースで区切って入力文字列を受け取り、 <A> 、 <B> 、 <C> 代入する	<A> , <B> , <C> = input ( ) . split ( )	pow ( <A> , <B> , <C> ) , <A> , ( <B> , <C> )	0
+文字列 <B> の中の大文字を小文字に変換して、  <A> とする	<A> = <B> . lower ( )	<A> = str ( <B> ) . upper ( )	0
+<A> を整数値にする	int ( <A> )	count = int ( <A> )	0
+もし <A> が奇数である場合	if <A> % 2 == 1 :	set ( <A> ) . split ( )	0
+<A> と <B> の最大公約数を求める	math . gcd ( <A> , <B> )	yield gcd ( <A> , <B> )	0
+<A> イコール <B>	<A> = <B>	pow ( <A> , <B> )	0
+<A> が <B> 以下でない場合	if not <A> <= <B> :	( not <A> <= <B> )	0
+もし <A> が <B> 未満、または <C> 以上のとき	if <A> <  <B> or <A> >= <C> :	divmod , <A> >= <B> or <C> :	0
+<A> に <B> を超えない値までの連続した数値を代入して、次の命令をループする	for <A> in range ( <B> ) :	while not <A> * ( not <B> ) [ : ] }	0
+<B> の英字全てを大文字にし、  <A> とする	<A> = <B> . upper ( )	( <A> , <B> = <B> ) . <A>	0
+<A> 、 <B> 、 <C> の中で値を表示する	max ( <A> , <B> , <C> )	insort ( <A> , ( <B> , <C> ) )	0
+<A> と <B> の最大公約数を表示する	math . gcd ( <A> , <B> )	path = gcd ( <A> , <B> )	0
+<A> を 0 から 9 まで 1 つずつ取り出しながら繰り返し処理を行う	for <A> in range ( 10 ) :	path = <A> . pop ( ) ^ set ( )	0
+ユーザが入力した文字列を取得する	input ( )	path = input ( )	0
+<A> が <B> より大きい間	while <A> >  <B> :	> <A> ( <B> )	0
+<A> の一部分を取り出す	<A> [ : end ]	len ( <A> . )	0
+５回、繰り返す	for i in range ( 5 ) :	: 6 f :	0
+もし文字列 <A> が英大文字ならば	if <A> . isupper ( ) :	count ( <A> . upper ( ) )	0
+<A> から <B> までの数列	range ( <A> , <B> + <A> )	range ( <A> , <B> )	0
+数値 <A> を <B> とする	<A> = <B>	insort ( ( <A> , <B> ) )	0
+<A> に最も近い整数に切り捨てを調べる	math . floor ( <A> )	print ( math . floor ( <A> ) )	0
+<A> と <B> が等しければ	if <A> == <B> :	<A> = ( <B> == )	0
+<A> が <B> と等しかったならば	if <A> == <B> :	return <A> == <B>	0
+<A> の型	type ( <A> )	, type ( <A> )	0
+数列 <A> の総和を確認する	sum ( <A> )	input ( sum ( <A> ) )	0
+ユーザから入力された整数を  <A> とする	<A> = int ( input ( ) )	str = input ( ) </blk>	0
+<A> , <B> , <C> の和	<A> + <B> + <C>	isclose ( <A> , <B> , <C> )	0
+<B> を全て小文字に変換して、  <A> とする	<A> = <B> . lower ( )	insort ( <A> , <B> . lower ( ) )	0
+最初のプログラム	print ( 'Hello World' )	open ( )	0
+<A> と <B> の最大公約数	math . gcd ( <A> , <B> )	( gcd ( <A> , <B> ) )	*
+<A> の末尾から要素を取り出す	<A> . pop ( )	( <A> [ - 1 ] )	0
+<A> が <B> 以上ならば	if <A> >= <B> :	return <A> >= <B>	0
+文字列 <A> 中の全ての文字が数字ならば	if <A> . isdigit ( ) :	input ( . ) . isdecimal ( str ( <A> ) )	0
+<A> の合計値	sum ( <A> )	len ( <A> )	0
+<A> 中の全ての文字が英小文字か否か	<A> . islower ( )	len ( <A> ( ) . lower ( ) )	0
+文字列 <A> を <B> で分割した文字列のリスト	<A> . split ( <B> )	ord ( str ( <A> . split ( <B> ) ) )	0
+もし <A> は <B> と等しいならば	if <A> == <B> :	any ( <A> == <B> )	0
+もし <A> が <B> ならば	if <A> == <B> :	assert ( <A> == <B> )	0
+空のリストを作って、  <A> とする	<A> = [ ]	str , <A> = list ( ) :	0
+<A> が <B> と等しい場合	if <A> == <B> :	pow ( <A> == <B> )	0
+<A> が偶数であるでない間	while <A> % 2 != 0 :	. not ( not <A> ) :	0
+<A> 、 <B> 、 <C> のうち ] [ 一番小さい値	min ( <A> , <B> , <C> )	min ( <A> , <B> , <C> [ ] )	0
+<A> が <B> で割り切れなかったら	if <A> % <B> != 0 :	pow ( <A> , <B> )	0
+<A> が <B> 以下でない間	while not <A> <= <B> :	( not <A> <= <B> )	0
+もし <A> が <B> 以上でない場合	if not <A> >= <B> :	not <A> >= <B> :	0
+入力された文字列をリスト化して、  <A> とする	<A> = list ( input ( ) )	input = list ( input ( ) ) :	0
+大きさ <A> の配列	[ 0 ] * <A>	None ( len ( <A> ) )	0
+<A> が <B> より小さいか否か	<A> <  <B>	input ( < <B> )	0
+<A> が英小文字の場合	if <A> . islower ( ) :	len ( <A> ) . lower ( )	0
+<A> と <B> の割り算のあまりを求める	<A> % <B>	pow ( ( <A> , <B> ) )	0
+<A> を降順に並べ変える	sorted ( <A> , reverse = True )	'C'	0
+抜ける	break	</blk> )	0
+<A> が <B> より大きくない間	while not <A> >  <B> :	while not ( <A> > <B> )	0
+<A> の平方根を計算する	math . sqrt ( <A> )	( sqrt ( <A> ) )	*
+<A> が <B> と等しければ	if <A> == <B> :	if ( <A> == <B> )	*
+<A> をカンマで区切る	<A> . split ( ',' )	'ENWS'	0
+<A> が <B> で割った時の余りが <C> であるでないかどうか	<A> % <B> != <C>	len ( <A> % <B> ) != ( <C> )	0
+辞書 d にキー <A> が存在しないか	<A> not in date	keys ( not in dict ( <A> ) ) :	0
+<A> を浮動小数点数として取得する	float ( <A> )	exit ( <A> ) = float ( 'inf' )	0
+<A> が <B> 間	while <A> == <B> :	while ( ( <A> != <B> ) )	0
+<A> を並べ変えた列	sorted ( <A> )	<A> += [ ]	0
+もし文字列 <A> 中の全ての英字が小文字ならば	if <A> . islower ( ) :	str ( input ( <A> ) ) . lower ( )	0
+とりあえず、繰り返す	while True : pass	any ( ) :	0
+もし <A> が <B> で割り切れなければ	if <A> % <B> != 0 :	assert ( <A> == <B> )	0
+<A> が <B> で割った時の余りが <C> であるでないかどうか	<A> % <B> != <C>	len ( <A> % <B> ) != ( <C> )	0

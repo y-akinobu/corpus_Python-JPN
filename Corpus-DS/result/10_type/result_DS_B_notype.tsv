@@ -1,0 +1,1326 @@
+そこで、箱ひげ図をグラフ種類にする	kind = 'box'	kind = 'box'
+分割数を <C> 、ビンの名前を整数値として、 <A> の <B> を分割する	pd . cut ( <A> [ <B> ] , <C> , label = False )	markersize = pd . cut ( <A> [ <B> ] , <C> , label = False )
+<A> の重複する行数の合計	<A> . duplicated ( ) . sum ( )	. duplicated ( ) . sum ( )
+そこで、色は黄緑色をする	color = 'greenyellow'	color = 'greenyellow'
+<B> を <C> 区切りで読み、 <A> とする	<A> = pd . read_csv ( <B> , sep = <C> )	df = pd . read_csv ( <B> , sep = <C> )
+<A> の位置を軸に並び替え、置き換える	<A> = <A> . sort_index ( )	df = <A> . sort_index ( )
+重複した最後の行を残して <A> ( データフレーム ) 内の重複している行を消し、 <A> とする	<A> = <A> . drop_duplicates ( keep = False )	start = <A> . drop_duplicates ( keep = False )
+y 座標の軸ラベルを <A> と指定する	plt . ylabel ( <A> )	plt . ylabel ( <A> )
+<A> を表として読み込む	pd . read_csv ( <A> )	pd . read_csv ( <A> )
+データフレーム ( <A> ) をグループ毎に繰り返し	for i , df in enumerate ( <A> . groupby ( 'label' ) ) :	for i , df in enumerate ( <A> . groupby ( ) ) ) :
+<A> 中のカテゴリ変数を数値データにする	pd . get_dummies ( <A> )	pd . get_dummies ( <A> )
+左外部結合で <A> と <B> を結合する	pd . merge ( <A> , <B> , how = 'left' )	pd . merge ( <A> , <B> , how = 'left' )
+そこで、区切り文字として <A> を使う	sep = <A>	sep = <A>
+重複した最後の行を残して <B> ( データフレーム ) 内の重複している行を削除を <A> とする	<A> = <B> . drop_duplicates ( keep = False )	df = <B> . drop_duplicates ( keep = False )
+そこで、グラフ線のスタイルを点と線とする	linestyle = 'dashbot'	linestyle = 'dashbot'
+<A> の <B> が <C> 以下データを得る	<A> [ <A> [ <B> ] <= <C> ]	pd <A> [ <A> [ <B> ] == <C> ]
+カンマ区切りで <A> から表を読み込む	pd . read_csv ( <A> , sep = ',' )	pd . read_csv ( <A> , sep = ',' )
+そこで、色を黄緑とする	color = 'greenyellow'	color = 'greenyellow'
+そこで、マーカーの種類の色を赤とする	markerfacecolor = 'red'	markersize = 'red'
+<A> の <B> と <C> を逆順に並び替え、置き換える	<A> = <A> . sort_values ( [ <B> , <C> ] , ascending = False )	<A> = <A> . sort_values ( [ <B> , <C> ] , ascending = False )
+そこで、円グラフ上に小数点 2 位まで構成割合をパーセントを付けて表示する	autopct = '%.2f%%'	autopct = '%.2f%%'
+<B> 中の重複する値がある行を削除して、 <A> にする	<A> = <B> . drop_duplicates ( )	= <B> . drop_duplicates ( )
+<A> の中の NaN がある行を削除して、再代入する	<A> = <A> . dropna ( )	markersize = <A> . dropna ( )
+そこで、マーカーの種類の色として赤紫を使用する	markerfacecolor = 'magenta'	markerfacecolor = 'magenta'
+<B> というエクセルファイルの <C> を読み込んで、 <A> とする	<A> = pd . read_excel ( <B> , sheet_name = <C> )	hidden_layer_sizes = pd . read_excel ( <B> , sheet_name = <C> )
+<A> 内の欠損を含む行を削除する	<A> . dropna ( )	df . dropna ( )
+<A> についてダミー変数を作り、 <A> とする	<A> = pd . get_dummies ( <A> )	color = pd . get_dummies ( <A> )
+<B> 番目の列を位置に、 <A> を読む	pd . read_csv ( <A> , index_col = <B> )	<A> = pd . read_csv ( <B> )
+<B> 中の欠損値がある行をドロップし、 <A> にする	<A> = <B> . dropna ( )	= <B> . dropna ( )
+そこで、マーカーの形状としてダイヤモンドを使用する	marker = 'D'	marker = 'D'
+そこで、色はネイビーを使う	color = 'navy'	start = 'navy'
+<B> 中の NaN を <C> に置換して、 <A> とする	<A> = <B> . fillna ( <C> )	<A> = <B> . fillna ( <C> )
+<A> の未記入の値を平均値で穴埋めする	<A> . fillna ( <A> . mean ( ) )	) . fillna ( <A> . mean ( ) )
+そこで、マーカーの形状として六角形を用いる	marker = 'h'	marker = 'h'
+同じ軸で <A> の <B> と <C> と <D> を箱ひげ図で描画する	plt . boxplot ( [ <A> [ <B> ] , <A> [ <C> ] , <A> [ <D> ] ] )	[ <A> [ <B> ] . boxplot ( [ <C> ] , <A> [ <D> ] ] ] ] )
+そこで、マーカーの形状を菱形とする	marker = 'D'	marker = 'D'
+<A> の未記入の値の合計を求める	<A> . isnull ( ) . sum ( )	df . isnull ( ) . sum ( )
+そこで、目印の色は青色を用いる	markerfacecolor = 'blue'	color = 'blue'
+<A> と <B> を大から小へとする	df . sort_values ( [ <A> , <B> ] , ascending = False )	max_iter = df . sort_values ( <A> )
+<A> のインデックスを軸に昇順でソートを <A> にする	<A> = <A> . sort_index ( )	df = <A> . sort_index ( )
+CSV ファイル <A> を表データとして読む	pd . read_csv ( <A> )	pd . read_csv ( <A> )
+<A> のインデックスを軸に昇順でソート	<A> . sort_index ( )	df . sort_index ( )
+ビン数を <D> として、 <B> の <C> をビン分割し、 <A> にする	<A> = pd . cut ( <B> [ <C> ] , <D> )	sns = pd . cut ( <A> [ <B> ] , <C> )
+同じ軸で <A> の <B> と <A> の <C> と <A> の <D> を箱髭図で描く	plt . boxplot ( [ <A> [ <B> ] , <A> [ <C> ] , <A> [ <D> ] ] )	pd . boxplot [ <A> [ <B> ] , <A> [ <C> ] , <A> [ <D> ] ] ] )
+<A> の <B> を昇順に並び替えて、 <A> とする	<A> = <A> . sort_values ( <B> )	<A> = <A> . sort_values ( <B> )
+<A> 中のそれぞれのカラムにある <B> の個数を見る	<A> . isin ( [ <B> ] ) . sum ( )	isin . isin ( [ <B> ] ) . sum ( )
+重複した最後の行を残して <A> ( データフレーム ) 中の重複した行を落として、再代入する	<A> = <A> . drop_duplicates ( keep = False )	df = <A> . drop_duplicates ( keep = False )
+<B> 中に存在する <C> を欠損に置換し、 <A> にする	<A> = <B> . replace ( <C> , np . nan )	df = <B> . replace ( <C> , np . nan )
+エクセルファイル <A> の <B> のシートを表データに格納する	pd . read_excel ( <A> , sheet_name = <B> )	pd . read_excel ( <A> , sheet_name = <B> )
+そこで、目印の輪郭色としてマゼンタを使用する	markeredgecolor = 'magenta'	markeredgecolor = 'magenta'
+エクセルデータ <B> をデータフレームに格納して、 <A> とする	<A> = pd . read_excel ( <B> , sheet_name = None )	df = pd . read_excel ( <B> )
+<A> と <B> に重複はあるかどうか確認	df . duplicated ( subset = [ <A> , <B> ] )	. duplicated ( subset = [ <A> , <B> ] )
+<A> の数値データ以外の要約統計量を見る	<A> . describe ( include = 'O' )	df . describe ( include = 'O' )
+<A> に重複は存在するのか表示してみる	df . duplicated ( subset = <A> )	pd . duplicated ( <A> )
+<A> の位置をソートして、インプレースする	<A> . sort_index ( inplace = True )	df . sort_index ( inplace = True )
+<B> の <C> と <D> をドロップし、 <A> とする	<A> = <B> . drop ( [ <C> , <D> ] , axis = 1 )	= <B> . drop ( [ <C> , <D> ] , axis = 1 )
+<A> という名前のエクセルデータの <B> のシートをデータフレームとして読み込む	pd . read_excel ( <A> , sheet_name = <B> )	pd . read_excel ( <A> , sheet_name = <B> )
+x 軸に <A> という軸ラベルをつける	plt . xlabel ( <A> )	plt . xlabel ( <A> )
+そこで、色として黄色を使用する	color = 'yellow'	color = 'yellow'
+そこで、 <A> をする	encoding = <A>	bins = <A>
+<A> の中の NaN をドロップして、再代入する	<A> = <A> . dropna ( )	= <A> . dropna ( )
+<A> 中の未入力の値がある行を落とす	<A> . dropna ( )	df . dropna ( )
+<B> を <C> をコラム名として表データにし、 <A> にする	<A> = pd . DataFrame ( <B> , columns = <C> )	df = pd . DataFrame ( <B> , columns = <C> )
+<B> を小から大へと並び替え、 <A> にする	<A> = <A> . sort_values ( <B> )	<A> = <A> . sort_values ( <B> )
+<A> と <B> を折れ線グラフでプロットする	plt . plot ( <A> , <B> )	kind = <A> . plot ( <B> )
+<A> の <B> 行目をドロップする	<A> . drop ( <B> )	<B> . drop ( <A> , axis = 1 )
+そこで、文字コードとして <A> を使用する	encoding = <A>	bins = <A>
+カンマ区切りで CSV ファイル <B> を読んで、 <A> にする	<A> = pd . read_csv ( <B> , sep = ',' )	df = pd . read_csv ( <A> , sep = <B> )
+そこで、マーカーの形状は六角形を使う	marker = 'h'	marker = 'h'
+<A> の <C> の秒を  <A> [ <B> ] とする	<A> [ <B> ] = <A> [ <C> ] . dt . second	plt . <A> [ <B> ] = <A> [ <C> ] . dt . hour
+<A> の中に重複はあるのかどうか確認を調べる	<A> . duplicated ( )	pd . duplicated ( <A> )
+<A> の NaN が存在する行を消し、 <A> にする	<A> = <A> . dropna ( )	start = <A> . dropna ( )
+左側のデータの位置と右側のデータの <B> をキーとして 2 つのデータを一つにまとめ、 <A> にする	<A> = pd . merge ( df1 , df2 , left_index = True , right_on = <B> )	pd . merge ( df1 , df2 , left_index = True , right_on = <B> )
+<A> 中に重複があるのか見る	<A> . duplicated ( )	df . duplicated ( subset = <A> )
+そこで、最適化手法は SDG を使う	solver = 'sgd'	kind = 'sgd'
+<A> の円グラフを描写する	plt . pie ( <A> )	plt . pie ( <A> )
+<A> の中の重複している値がある行をドロップし、 <A> とする	<A> = <A> . drop_duplicates ( )	start = <A> . drop_duplicates ( )
+カンマ区切りでデータフレームを <B> から読み込んで、 <A> に代入する	<A> = pd . read_csv ( <B> , sep = ',' )	= pd . read_csv ( <A> , sep = <B> )
+<A> の振り直して、元のインデックスを削除し、再代入する	<A> = <A> . reset_index ( drop = True )	marker = <A> . reset_index ( drop = True )
+左側のデータフレームに合わせてデータを一つにまとめる	pd . merge ( df1 , df2 , how = 'left' )	pd . merge ( df1 , df2 , how = 'left' )
+<A> の NaN の個数を算出する	<A> . isnull ( ) . sum ( )	] . isnull ( ) . sum ( )
+先頭の列をインデックスとして、 <B> から読んで、 <A> とする	<A> = pd . read_csv ( <B> , index_col = 0 )	<A> = pd . read_csv ( <B> , index_col = 0 )
+そこで、区間は <A> をする	bins = <A>	range = ( <A> )
+<A> を y 軸、 <B> をグラフの x 軸として、折れ線グラフを描く	plt . plot ( <A> , <B> )	plt . plot ( <A> , <B> )
+<A> を <B> という名前にして保存する	<A> . to_csv ( <B> )	savefig <A> . to_csv ( <B> )
+<A> を <B> に保存する	<A> . to_csv ( <B> )	<A> . to_csv ( <B> )
+<A> について円グラフを描画する	plt . pie ( <A> )	plt . pie ( <A> )
+<B> からデータフレームを読んで、 <A> とする	<A> = pd . read_csv ( <B> )	<A> = pd . read_csv ( <B> )
+<B> の位置を軸に並び替え、 <A> とする	<A> = <B> . sort_index ( )	= <B> . sort_index ( )
+<B> からデータフレームを読み込んで、 <A> にする	<A> = pd . read_csv ( <B> )	<A> = pd . read_csv ( <B> )
+<A> の位置を並び替え、 <A> とする	<A> = <A> . sort_index ( )	df = <A> . sort_index ( )
+そこで、打点のエッジ色は黄緑をする	markeredgecolor = 'greenyellow'	'greenyellow' = 'greenyellow'
+<A> のデータの詳細を確認する	<A> . info ( )	<A> . info ( )
+そこで、 <A> に小数点以下 2 桁まで表示すること、パーセント表記を指定する。	<A> = '%.2f%%'	autopct = '%.2f%%'
+<A> 全体を位置でソートし、 <A> に代入する	<A> = <A> . sort_index ( )	df = <A> . sort_index ( )
+そこで、色はネイビーで表示する	color = 'navy'	color = 'navy'
+一番左の列を位置に、 <A> を読み込む	pd . read_csv ( <A> , index_col = 0 )	pd . read_csv ( <A> , index_col = 0 )
+<A> 内の欠損の数を見る	<A> . isnull ( ) . sum ( )	df . isnull ( ) . sum ( )
+<A> のインデックスを軸に昇順でソートして、 <A> とする	<A> = <A> . sort_index ( )	start = <A> . sort_index ( )
+<B> 内の重複している行を消し、 <A> とする	<A> = <B> . drop_duplicates ( )	plt = <B> . drop_duplicates ( )
+そこで、マーカーの形として菱形を用いる	marker = 'D'	marker = 'D'
+そこで、黄緑色で表示する	color = 'greenyellow'	color = 'greenyellow'
+<A> 内に重複はあるのかどうか確認	<A> . duplicated ( )	df . duplicated ( subset = <A> )
+<A> 中の欠損を <B> とする	<A> . fillna ( <B> )	<B> . dropna ( )
+<A> 中に存在する <B> を欠損として、置き換える	<A> = <A> . replace ( <B> , np . nan )	df . replace ( <B> , np . nan , inplace = True )
+グラフの y 軸に <A> を加える	plt . ylabel ( <A> )	plt . ylabel ( <A> )
+<A> ( データフレーム ) の <B> と <C> を大きい順にする	<A> . sort_values ( [ <B> , <C> ] , ascending = False )	df . sort_values ( [ <A> , <B> , <C> ] , ascending = False )
+<A> の <B> を軸に昇順でソートし、置き換える	<A> . sort_values ( <B> , inplace = True )	<A> = <A> . sort_values ( <B> )
+<A> の <B> をダミー変数化して、 <A> にする	<A> = pd . get_dummies ( <A> [ <B> ] )	df = pd . get_dummies ( <A> [ <B> ] )
+<A> の NaN を <B> で穴埋めする	<A> . fillna ( <B> )	<A> . fillna ( <B> )
+そこで、 <A> を区間とする	bins = <A>	range = ( <A> )
+表を <C> 区切りで CSV ファイル <B> から読んで、 <A> に代入する	<A> = pd . read_csv ( <B> , sep = <C> )	df = pd . read_csv ( <B> , sep = <C> )
+<A> 中の列に存在する <B> の個数を計算する	<A> . isin ( [ <B> ] ) . sum ( )	<A> . replace ( <B> , np . nan ) . sum ( )
+<B> を <C> をカラム名としてデータフレームにし、 <A> に代入する	<A> = pd . pd . DataFrame ( <B> , columns = <C> )	df = pd . DataFrame ( <B> , columns = <C> )
+そこで、グラフとして折れ線グラフを使用する	kind = 'line'	kind = 'line'
+インプレースによって <A> ( データフレーム ) の未記入の値を平均値で補完する	<A> . fillna ( <A> . mean ( ) , inplace = True )	df . fillna ( <A> . mean ( ) , inplace = True )
+分割数を <C> として、 <A> の <B> を要素数が等しくなるように分割する	pd . qcut ( <A> [ <B> ] , <C> )	pd . qcut ( <A> [ <B> ] , <C> )
+<A> のカラム <B> 、 <C> 、 <D> 、 <E> を調べる	<A> [ [ <B> , <C> , <D> , <E> ] ]	<A> [ [ <B> , <C> , <D> , <E> ] ]
+そこで、 <A> で埋める	fillchar = <A>	<A> = <A> . sort_index ( )
+<A> 内の列それぞれにある <B> の個数を求める	<A> . isin ( [ <B> ] ) . sum ( )	<A> . isin ( [ <B> ] ) . sum ( )
+そこで、文字コードが shift - jis である	encoding = 'shift_jis'	end = 'shift_jis'
+カンマ区切りで表データを <A> から読み込む	pd . read_csv ( <A> , sep = ',' )	pd . read_csv ( <A> , sep = ',' )
+データフレーム ( <A> ) の <B> を横軸、 <D> を <C> 軸として、散布図をプロットする	<A> . plot ( kind = 'scatter' , x = <B> , <C> = <D> )	<A> . plot ( kind = 'scatter' , <B> = <C> , <D> = <E> )
+<A> のインデックスを軸に並び替える	<A> . sort_index ( )	plt . sort_index ( )
+そこで、グラフ線を点と線で表示する	linestyle = 'dashbot'	linestyle = 'dashbot'
+<A> を <B> から <C> 区間のヒストグラムにする	plt . hist ( <A> , range = ( <B> , <C> ) )	range = ( <A> [ <B> , <C> ] )
+ビン数を <D> 、ビンの名前を <E> として、 <B> の <C> をビン分割し、 <A> とする	<A> = pd . cut ( <B> [ <C> ] , <D> , label = <E> )	pd . cut ( <A> [ <B> ] , <C> , label = <D> , label = <E> )
+そこで、マーカーの輪郭色として水色を用いる	markeredgecolor = 'cyan'	markeredgecolor = 'cyan'
+<B> の <C> を軸に昇順で並び替えて、 <A> とする	<A> = <B> . sort_values ( <C> )	df = <B> . sort_values ( <C> )
+<A> のリセットして、元のインデックスを削除し、インプレースする	<A> . reset_index ( drop = True , inplace = True )	df . reset_index ( drop = True , inplace = True )
+<A> を位置で並び替えて、 <A> とする	<A> = <A> . sort_index ( )	df = <A> . sort_index ( )
+<B> を昇順に並び替え、 <A> とする	<A> = <A> . sort_values ( <B> )	<A> = <A> . sort_values ( <B> )
+<A> をインデックスを元に昇順でソートして、置き換える	<A> = <A> . sort_index ( )	inplace = <A> . sort_index ( )
+<A> をインデックスを元にソートする	<A> . sort_index ( )	<A> = <A> . sort_index ( )
+<B> を小から大へとソートを <A> にする	<A> = df . sort_values ( <B> )	df = <A> . sort_values ( <B> )
+そこで、マーカーの輪郭色は赤色にする	markeredgecolor = 'red'	markeredgecolor = 'red'
+<A> 内の <B> に重複がある行を消し、 <A> にする	<A> = <A> . drop_duplicates ( subset = <B> )	start = <A> . drop_duplicates ( subset = <B> )
+<A> の <B> と <C> を値が大きい順にソートする	<A> . sort_values ( [ <B> , <C> ] , ascending = False )	df . sort_values ( [ <A> , <B> , <C> ] , ascending = False )
+そこで、ダイヤモンドを目印とする	marker = 'D'	marker = 'D'
+<A> の中の欠損したセル数をカウントする	<A> . isnull ( ) . sum ( )	df . isnull ( ) . sum ( )
+<A> を <B> を元に昇順でソートし、置き換える	<A> . sort_values ( <B> , inplace = True )	<A> = <A> . sort_values ( <B> )
+そこで、目印は菱形である	marker = 'D'	marker = 'D'
+<B> というエクセルをデータフレームとして読み、 <A> にする	<A> = pd . read_excel ( <B> )	df = pd . read_excel ( <B> )
+<A> の位置をソートする	<A> . sort_index ( )	start . sort_index ( )
+<A> 中の index が <B> の行を取得する	<A> . loc [ <B> ]	loc <A> . loc [ <B> ]
+<A> 全体を <B> の値を元に昇順で並び替える	<A> . sort_values ( <B> )	<A> . sort_values ( <B> )
+<A> 内の欠損値の合計	<A> . isnull ( ) . sum ( )	df . isnull ( ) . sum ( )
+<A> の重複している値がある行を削除する	<A> . drop_duplicates ( )	plt . drop_duplicates ( )
+<B> を <C> を列名としてデータフレームにし、 <A> とする	<A> = pd . pd . DataFrame ( <B> , columns = <C> )	<A> = pd . pd . DataFrame ( <B> , columns = <C> )
+<A> の <B> と <C> を逆順に並び替えて、インプレースする	<A> . sort_values ( [ <B> , <C> ] , ascending = False , inplace = True )	<A> . sort_values ( [ <B> , <C> ] , ascending = False , inplace = True )
+そこで、目印の色は赤紫色	markerfacecolor = 'magenta'	markerfacecolor = 'magenta'
+そこで、目印の大きさは <A> とする	markersize = <A>	markeredgewidth = <A>
+<A> の未記入の値の合計	<A> . isnull ( ) . sum ( )	df . isnull ( ) . sum ( )
+文字コードをシフト JIS として、 <A> を読み込む	pd . read_csv ( <A> , encoding = 'shift_jis' )	pd . read_csv ( <A> , encoding = 'shift_jis' )
+そこで、マーカーの形状の輪郭色は黄色を用いる	markeredgecolor = 'yellow'	markeredgewidth = 'yellow'
+そこで、目印の輪郭色として紫色を使用する	markeredgecolor = 'purple'	markeredgecolor = 'purple'
+<B> を <C> を元に昇順で並び替えて、 <A> とする	<A> = <B> . sort_values ( <C> )	df = <B> . sort_values ( <C> )
+そこで、ネイビーで表示する	color = 'navy'	color = 'navy'
+<A> と <B> を線グラフで表示する	plt . plot ( <A> , <B> )	plt . plot ( <A> , <B> )
+<A> というエクセルの <B> をデータフレームとして読み込む	pd . read_excel ( <A> , sheet_name = <B> )	pd . read_excel ( <A> , sheet_name = <B> )
+<A> 中の重複している行をドロップする	<A> . drop_duplicates ( )	plt . drop_duplicates ( )
+x 座標を <A> として、 <B> の鉛直棒グラフを作画する	plt . bar ( <A> , <B> )	barh plt . bar ( <A> , <B> )
+<B> というエクセルファイルの <C> を表に格納して、 <A> とする	<A> = pd . read_excel ( <B> , sheet_name = <C> )	df = pd . read_excel ( <B> , sheet_name = <C> )
+<A> 次元に圧縮する PCA モデルを新たに使えるようにする	sklearn . decomposition . PCA ( ( n_components = <A> )	sklearn . decomposition . PCA ( n_components = <A> )
+エクセルの <A> の <B> 番目のシートを表データに格納する	pd . read_excel ( <A> , sheet_name = <B> )	pd . read_excel ( <A> , sheet_name = <B> )
+<A> の <B> 行目の <C>	<A> . iloc [ <B> ] [ <C> ]	[ <A> [ <B> ] [ <C> ]
+グラフの x 軸を <A> として、 <B> の縦棒グラフを作画する	plt . barh ( <A> , <B> )	plt . bar ( <A> , <B> )
+そこで、グラフはカーネル密度推定をする	kind = 'kde'	kind = 'kde'
+<B> の <C> を四分位数ごとで分割して、 <A> に代入する	<A> = pd . qcut ( <B> [ <C> ] , 4 )	df = pd . qcut ( <B> [ <C> ] , 4 )
+<B> を位置で並び替え、 <A> にする	<A> = <B> . sort_index ( )	= <B> . sort_index ( )
+<B> という名前のエクセルファイルの <C> のシートを読み込み、 <A> とする	<A> = pd . read_excel ( <B> , sheet_name = <C> )	= pd . read_excel ( <B> , sheet_name = <C> )
+<A> 中の <B> に重複はあるのか確認を確認する	<A> . duplicated ( subset = <B> )	df . duplicated ( subset = <B> )
+<A> の欠損値の個数を見る	<A> . isnull ( ) . sum ( )	] . isnull ( ) . sum ( )
+<B> の <E> について、 <C> を位置、 <D> を列としたピボットテーブルを作成して、 <A> とする	<A> = <B> . pivot_table ( index = <C> , columns = <D> , values = <E> )	df = <B> . pivot_table ( index = <C> , columns = <D> , values = <E> )
+カンマ区切りで表データを CSV ファイル <B> から読み込んで、 <A> とする	<A> = pd . read_csv ( <B> , sep = ',' )	= pd . read_csv ( <A> , sep = <B> )
+そこで、活性化は relu	activation = 'relu'	sort_values = 'relu'
+<B> ( データフレーム ) の <C> を小から大へとソートを <A> とする	<A> = <B> . sort_values ( <C> )	df = <B> . sort_values ( <C> )
+<A> 中の NaN を含む行を削除を <A> にする	<A> = <A> . dropna ( )	= <A> . dropna ( )
+<B> というエクセルの <C> 番目のシートをデータフレームに格納して、 <A> とする	<A> = pd . read_excel ( <B> , sheet_name = <C> )	df = pd . read_excel ( <B> , sheet_name = <C> )
+<A> の <B> 行目をドロップし、 <A> にする	<A> = <A> . drop ( <B> )	plt = <A> . drop ( <B> )
+<A> の要素を確認する	<A> . values	df . values
+<B> というエクセルデータを読み込み、 <A> とする	<A> = pd . read_excel ( <B> )	df = pd . read_excel ( <B> )
+<A> を <B> でソートし、置き換える	<A> . sort_values ( <B> , inplace = True )	<A> = <A> . sort_values ( <B> )
+<B> の位置を振り直し、 <A> にする	<A> = <B> . reset_index ( )	<A> = <B> . reset_index ( )
+<A> の行数と列数を調べる	<A> . shape	isnull . sum ( )
+作成したグラフを <A> というファイル名で出力する	plt . savefig ( <A> )	plt . savefig ( <A> )
+そこで、マーカーの種類のエッジ色は黄緑を用いる	markeredgecolor = 'greenyellow'	'greenyellow' = 'greenyellow'
+エクセル <A> をデータフレームに読み込む	pd . read_excel ( <A> )	pd . read_excel ( <A> )
+<A> の中の欠損を <A> の平均値で補う	<A> . fillna ( <A> . mean ( ) )	plt . <A> . fillna ( <A> . mean ( ) )
+エクセルデータ <B> を表データにし、 <A> とする	<A> = pd . read_excel ( <B> )	df = pd . read_excel ( <B> )
+<A> と <B> についての箱ひげ図を表示する	plt . boxplot ( [ <A> , <B> ] )	plt . boxplot ( [ <A> , <B> ] )
+<A> の列それぞれに存在する <B> の個数の合計値	<A> . isin ( [ <B> ] ) . sum ( )	<A> . isin ( [ <B> ] ) . sum ( )
+<A> を値が小さい順に並び替えて、置き換える	df . sort_values ( <A> , inplace = True )	df = df . sort_values ( <A> )
+そこで、棒グラフを用いる	kind = 'bar'	kind = 'barh'
+<A> の <C> の月を確認し、  <A> [ <B> ] にする	<A> [ <B> ] = <A> [ <C> ] . dt . month	df [ <A> [ <B> ] = <A> [ <C> ] . dt . day
+<A> の重複を見る	<A> . duplicated ( )	pd . duplicated ( <A> )
+カンマ区切りで表データとして <B> を読み込み、 <A> に代入する	<A> = pd . read_csv ( <B> , sep = ',' )	= pd . read_csv ( <A> , sep = <B> )
+<A> 中で重複する行数を見る	<A> . duplicated ( ) . sum ( )	. duplicated ( ) . sum ( )
+そこで、マーカーの形の色をグレーとする	markerfacecolor = 'gray'	color = 'gray'
+<B> を <A> 、 <D> を <C> 表属性として、新しい表を作る	pd . DataFrame ( { <A> : <B> , <C> : <D> } )	sns . pd . DataFrame ( { <A> : <B> , <C> : <D> } )
+一番左の列をインデックスに設定して、 <B> をデータフレームとして読んで、 <A> とする	<A> = pd . read_csv ( <B> , index_col = 0 )	= pd . read_csv ( <A> , index_col = <B> )
+<A> 中の未入力の値を含む行をドロップ	<A> . dropna ( )	df . dropna ( )
+x 座標を <A> として、 <B> の縦向き棒グラフを描写する	plt . barh ( <A> , <B> )	plt . bar ( <A> , <B> )
+そこで、マーカーの種類は点とする	marker = '.'	linestyle = 'dashbot'
+重複した最後の行を残して <A> ( データフレーム ) 内の重複した行を落とす	<A> . drop_duplicates ( keep = False )	df . drop_duplicates ( keep = False )
+<A> と <B> と <C> を箱ひげ図に描写する	plt . boxplot ( [ <A> , <B> , <C> ] )	kind = <A> . boxplot ( [ <B> , <C> ] )
+カンマ区切りで表を CSV ファイル <B> から読み、 <A> にする	<A> = pd . read_csv ( <B> , sep = ',' )	df = pd . read_csv ( <A> , sep = <B> )
+<C> 番目の列を位置として、 <B> からデータフレームとを読み込み、 <A> とする	<A> = pd . read_csv ( <B> , index_col = <C> )	<A> = pd . read_csv ( <B> , index_col = <C> )
+<A> 中の欠損を含む行を削除して、置き換える	<A> . dropna ( inplace = True )	inplace = <A> . dropna ( )
+<A> のカテゴリ変数をダミー変数化し、 <A> にする	<A> = pd . get_dummies ( <A> )	df = pd . get_dummies ( <A> )
+そこで、ビンは <A> を用いる	bins = <A>	max_iter = <A>
+そこで、 <A> を最適化手法にする	solver = <A>	range = ( <A> )
+<A> 内の <B> を欠損に置換し、欠損がある行を落とす	<A> . replace ( <B> , np . nan ) . dropna ( )	<A> . replace ( <B> , np . nan ) . dropna ( )
+<A> の中にいくつ欠損値があるか確認する	<A> . isnull ( ) . sum ( )	<A> . isnull ( ) . sum ( )
+エクセル <A> を表に格納する	pd . read_excel ( <A> )	pd . read_excel ( <A> )
+そこで、十字のマーカーの形状を表示する	marker = 'x'	solver = 'x'
+<A> から表データをタブ区切りで読む	pd . read_csv ( <A> , sep = '\t' )	sep = pd . read_csv ( <A> )
+そこで、打点の色は赤紫をする	markerfacecolor = 'magenta'	color = 'magenta'
+<A> のそれぞれの行について重複があるかどうかを確認する	<A> . duplicated ( )	pd . duplicated ( <A> )
+<A> 中の <B> に重複があるのかチェックを確認する	<A> . duplicated ( subset = <B> )	df . duplicated ( subset = <B> )
+棒グラフの位置を真ん中として、 <A> 軸を <A> とした <B> の棒グラフを表示する	plt . barh ( <A> , <B> , align = 'center' )	<A> plt . bar ( <B> , align = 'center' )
+<A> を <B> を列名として表に変換する	pd . DataFrame ( <A> , columns = <B> )	pd . pd . DataFrame ( <A> , columns = <B> )
+重複した最後の行を残して <A> ( データフレーム ) 内の重複している行をドロップし、再代入する	<A> = <A> . drop_duplicates ( keep = False )	df = <A> . drop_duplicates ( keep = False )
+縦軸のラベルを <A> にする	plt . ylabel ( <A> )	plt . ylabel ( <A> )
+カンマ区切りで CSV ファイル <B> から表データを読み込んで、 <A> とする	<A> = pd . read_csv ( <B> , sep = ',' )	= pd . read_csv ( <A> , sep = <B> )
+<B> から新しい表データを作成して、 <A> とする	<A> = pd . DataFrame ( { 'words' : <B> } )	start = pd . DataFrame ( { <A> : <B> } )
+<A> についての箱ひげ図を描く	plt . boxplot ( <A> )	plt . boxplot ( <A> )
+<A> 全体を位置を元にソートして、置き換える	<A> . sort_index ( inplace = True )	= <A> . sort_index ( )
+<A> 中の欠損を直前の行の値で埋め、 <A> とする	<A> = <A> . fillna ( method = 'ffill' )	start = <A> . fillna ( method = 'ffill' )
+描画したグラフを <A> というファイルにして保存する	plt . savefig ( <A> )	plt . savefig ( <A> )
+<A> の出現頻度を見る	pd . DataFrame ( { 'words' : <A> } ) . value_counts ( )	pd . value_counts ( <A> )
+<A> 中の未記入の値を落とす	<A> . dropna ( )	df . dropna ( )
+<B> というエクセルファイルの全てのシートをデータフレームとして読み、 <A> とする	<A> = pd . read_excel ( <B> , sheet_name = None )	df = pd . read_excel ( <B> , sheet_name = None )
+そこで、紫を打点の色にする	markerfacecolor = 'purple'	markeredgecolor = 'purple'
+<A> 内のそれぞれのカラムに存在する <B> の個数の合計	<A> . isin ( [ <B> ] ) . sum ( )	isin . isin ( [ <B> ] ) . sum ( )
+<B> の列名を <C> から <D> にリネームして、 <A> とする	<A> = <B> . rename ( columns = { <C> : <D> } )	= <B> . rename ( columns = { <C> : <D> } )
+そこで、縦棒グラフを使う	kind = 'bar'	kind = 'bar'
+そこで、色を赤紫色とする	color = 'magenta'	color = 'magenta'
+そこで、マーカーは五角形	marker = '*'	'*' = '*'
+<C> 番目の列をインデックスに設定して、 <B> を読んで、 <A> とする	<A> = pd . read_csv ( <B> , index_col = <C> )	df = pd . read_csv ( <B> , index_col = <C> )
+<A> の列名を <B> から <C> に変更する	<A> . rename ( columns = { <B> : <C> } )	df . rename ( columns = { <B> : <C> } )
+そこで、マーカーの透過度を <A> とセットする	alpha = <A>	alpha = <A>
+x 座標に <A> をつける	plt . xlabel ( <A> )	plt . xlabel ( <A> )
+<A> の <B> の値を軸にソートして、置き換える	<A> = <A> . sort_values ( <B> )	df = <A> . sort_values ( <B> )
+重複した最後の行を残して <A> ( データフレーム ) 内の重複している行を削除を <A> とする	<A> = <A> . drop_duplicates ( keep = False )	df = <A> . drop_duplicates ( keep = False )
+表データを CSV ファイル <B> からカンマ区切りで読み、 <A> とする	<A> = pd . read_csv ( <B> , sep = ',' )	df = pd . read_csv ( <A> , sep = <B> )
+CSV ファイル <B> を読み込み、 <A> にする	<A> = pd . read_csv ( <B> )	<A> = pd . read_csv ( <B> )
+描画したグラフを <A> というファイルで保存する	plt . savefig ( <A> )	plt . savefig ( <A> )
+<B> の <C> を昇順にソートを <A> にする	<A> = <B> . sort_values ( <C> )	<A> = <B> . sort_values ( <C> )
+そこで、目印の輪郭幅は <A> にする	markeredgewidth = <A>	bins = <A>
+そこで、菱形をマーカーの形とする	marker = 'D'	marker = 'D'
+そこで、マーカーを×とする	marker = 'x'	solver = 'x'
+<A> と <B> を散布図でプロットする	plt . scatter ( <A> , <B> )	plt . scatter ( <A> , <B> )
+多層パーセプトロンを用意する	sklearn . neural_network . MLPClassifier ( )	neural_network . MLPClassifier ( )
+<A> 内の NaN がある行を消して、インプレースする	<A> . dropna ( inplace = True )	. dropna ( inplace = True )
+そこで、線は転戦とする	linestyle = 'dotted'	file = 'dotted'
+そこで、種類は積み上げにする	stacked = True	stacked = True
+<A> 中の欠損を含む行を落として、置き換える	<A> = <A> . dropna ( )	inplace = <A> . dropna ( )
+<A> の <B> を位置、 <C> を列としたピボットテーブルを作成する	<A> . pivot_table ( index = <B> , columns = <C> )	<A> . pivot_table ( index = <B> , columns = <C> )
+そこで、マーカーの形の色は赤紫色をする	markerfacecolor = 'magenta'	color = 'magenta'
+<A> 中の未記入の値を含む行を消し、再代入する	<A> = <A> . dropna ( )	df = <A> . dropna ( )
+そこで、マーカーの形の色はグレーを用いる	markerfacecolor = 'gray'	linestyle = 'gray'
+<A> を昇順にし、インプレースする	df . sort_values ( <A> , inplace = True )	df . sort_values ( <A> , inplace = True )
+<B> 番目の列を位置に設定して、 <A> から読み込む	pd . read_csv ( <A> , index_col = <B> )	pd . read_csv ( <A> , index_col = <B> )
+<A> 中の未記入の値を <B> に置き換えて、再代入する	<A> = <A> . fillna ( <B> )	= <A> . fillna ( <B> )
+<A> 内にある <B> を欠損に置換し、インプレースする	<A> . replace ( <B> , np . nan , inplace = True )	replace <A> . replace ( <B> , np . nan , inplace = True )
+<B> と <C> に対して、 <D> を項目名としてデータを内部結合し、 <A> にする	<A> = pd . merge ( <B> , <C> , on = <D> )	df = pd . merge ( <B> , <C> , on = <D> )
+グラフ要素に凡例を付ける	plt . legend ( )	sns . legend ( )
+<C> 番目の列をインデックスとして、 <B> からデータフレームとを読み込み、 <A> とする	<A> = pd . read_csv ( <B> , index_col = <C> )	<A> = pd . read_csv ( <B> , index_col = <C> )
+<B> にインデックスなしで <A> を保存する	<A> . to_csv ( <B> , index = False )	df . to_csv ( <B> , index = False )
+<A> 内に存在する <B> を未入力の値に置換する	<A> . replace ( <B> , np . nan )	plt . replace ( <A> , <B> , np . nan )
+<A> と <B> を横方向に結合する	pd . merge ( <A> , <B> )	merge = pd . merge ( <A> , <B> )
+そこで、文字コードが shift - jis	encoding = 'shift_jis'	end = 'shift_jis'
+<A> を <B> という名前にしてエクセル形式に書き出す	<A> . to_excel ( <B> )	pd . read_excel ( <A> , sheet_name = <B> )
+位置と <C> を項目名として <A> と <B> を結合する	pd . merge ( <A> , <B> , left_index = True , right_on = <C> )	pd . merge ( <A> , <B> , left_index = True , right_on = <C> )
+横軸を <A> として、 <B> の縦棒グラフを作図する	plt . bar ( <A> , <B> )	plt . bar ( <A> , <B> )
+そこで、文字コードは shift - jis を使う	encoding = 'shift_jis'	end = 'shift_jis'
+<A> 全体をインデックスを元に昇順でソートを <A> とする	<A> = <A> . sort_index ( )	= <A> . sort_index ( )
+<A> から重複する行をドロップして、置き換える	<A> = <A> . drop_duplicates ( )	df = <A> . drop_duplicates ( )
+<A> と <B> の折れ線グラフを <C> で作画する	plt . plot ( <A> , <B> , color = <C> )	pd . plot ( <A> , <B> , color = <C> )
+グラフの題名を <A> に指定する	plt . title ( <A> )	plt . title ( <A> )
+<A> 中の欠損値がある行をドロップして、置き換える	<A> = <A> . dropna ( )	inplace = <A> . dropna ( )
+そこで、ラインスタイルは点と線を用いる	linestyle = 'dashbot'	linestyle = 'dashbot'
+そこで、グラフ線を一点鎖線で表示する	linestyle = 'dashbot'	linestyle = 'dashbot'
+重複する最後の行を残して <A> ( データフレーム ) の重複する行をドロップして、 <A> とする	<A> = <A> . drop_duplicates ( keep = False )	start = <A> . drop_duplicates ( keep = False )
+<B> をデータフレームにし、 <A> に代入する	<A> = pd . DataFrame ( <B> , columns = [ 'label' , 'label2' ] )	= <A> . pd . pd . DataFrame ( <B> , columns = [ 'label' ] )
+そこで、マーカーの輪郭幅は <A> をする	markeredgewidth = <A>	bins = <A>
+そこで、マーカーの色は水色	markerfacecolor = 'cyan'	color = 'cyan'
+横軸の名称を <A> から <B> 、 <C> 、 <D> へ変更する	plt . xticks ( <A> , [ <B> , <C> , <D> ] )	plt . yticks ( <A> , [ <B> , <C> , <D> ] )
+<A> という名前で図を保存する	plt . savefig ( <A> )	plt . savefig ( <A> )
+そこで、グラフの種類として六角ビニングを使用する	kind = 'hexbin'	kind = 'hexbin'
+そこで、マーカーの輪郭色は紫色を使う	markeredgecolor = 'purple'	markeredgewidth = 'purple'
+<A> から重複している行を削除し、置き換える	<A> = <A> . drop_duplicates ( )	<A> = <A> . drop_duplicates ( )
+<A> の <B> と <C> をドロップする	<A> . drop ( [ <B> , <C> ] , axis = 1 )	<A> . drop ( [ <B> , <C> ] , axis = 1 )
+<A> 内の未記入の値の合計を見る	<A> . isnull ( ) . sum ( )	df . isnull ( ) . sum ( )
+<A> 内の未入力の値の数を計算する	<A> . isnull ( ) . sum ( )	df . isnull ( ) . sum ( )
+一番左の列を位置と設定して、 <A> をデータフレームとして読む	pd . read_csv ( <A> , index_col = 0 )	pd . read_csv ( <A> , index_col = 0 )
+重複した行を落とす	df . drop_duplicates ( )	plt . drop_duplicates ( )
+<A> 内のカテゴリ変数を数値データに変換する	pd . get_dummies ( <A> )	pd . get_dummies ( <A> )
+<A> の <B> をドロップして、置き換える	<A> . drop ( <B> , axis = 1 , inplace = True )	<A> . drop ( <B> , axis = 1 , inplace = True )
+<B> という名前のエクセルを読んで、 <A> にする	<A> = pd . read_excel ( <B> , sheet_name = None )	df = pd . read_excel ( <B> )
+そこで、目印の輪郭色としてグレーを使う	markeredgecolor = 'gray'	markeredgecolor = 'gray'
+そこで、グラフの種類として積み上げを用いる	stacked = True	markersize = True
+<A> の NaN の数を確認する	<A> . isnull ( ) . sum ( )	isnull . isnull ( ) . sum ( )
+<A> のヒストグラムを作図する	plt . hist ( <A> )	plt . hist ( <A> )
+そこで、打点の輪郭色として赤紫色を使用する	markeredgecolor = 'magenta'	markeredgecolor = 'magenta'
+<A> 内の重複する行を削除を <A> とする	<A> = <A> . drop_duplicates ( )	= <A> . drop_duplicates ( )
+データフレームとして CSV ファイル <A> をカンマ区切りで読み込む	pd . read_csv ( <A> , sep = ',' )	pd . read_csv ( <A> , sep = ',' )
+<B> を <A> として、新しいデータフレームを作成する	pd . DataFrame ( { <A> : <B> } )	pd . DataFrame ( { <A> : <B> } )
+そこで、グラフ種類はカーネル密度推定図	kind = 'kde'	kind = 'kde'
+<A> 内の重複している行を削除して、置き換える	<A> . drop_duplicates ( inplace = True )	<A> = <A> . drop_duplicates ( )
+<A> に重複がある行をドロップして、置き換える	df = df . drop_duplicates ( subset = <A> )	df = df . drop_duplicates ( subset = <A> )
+<A> 中の欠損の合計を算出する	<A> . isnull ( ) . sum ( )	df . isnull ( ) . sum ( )
+そこで、グレーを目印の輪郭色とする	markeredgecolor = 'gray'	markeredgecolor = 'gray'
+描いたグラフを <A> というファイルに保存する	plt . savefig ( <A> )	plt . savefig ( <A> )
+そこで、グラフは赤紫色で表示する	color = 'magenta'	color = 'magenta'
+列番号 <C> を位置に、 <B> をデータフレームとして読んで、 <A> にする	<A> = pd . read_csv ( <B> , index_col = <C> )	<A> = pd . read_csv ( <B> , index_col = <C> )
+重複した最後の行を残して <B> ( データフレーム ) 内の重複している行を削除し、 <A> とする	<A> = <B> . drop_duplicates ( keep = False )	df = <B> . drop_duplicates ( keep = False )
+<A> の <B> を削除し、置き換える	<A> = <A> . drop ( <B> , axis = 1 )	<A> . drop ( <B> , axis = 1 , inplace = True )
+そこで、文字コードは、 <A> を使う	encoding = <A>	markeredgewidth = <A>
+文字コードをシフト JIS として、 <B> を読んで、 <A> とする	<A> = pd . read_csv ( <B> , encoding = 'shift_jis' )	= pd . read_csv ( <A> , encoding = <B> )
+重複した最後の行を残して <A> ( データフレーム ) 中の重複した行を落とす	<A> . drop_duplicates ( keep = False )	df . drop_duplicates ( keep = False )
+<A> ( データフレーム ) の <B> を小さい順にする	<A> . sort_values ( <B> )	df = <A> . sort_values ( <B> )
+<A> の重複している行を落として、置き換える	<A> = <A> . drop_duplicates ( )	markersize = <A> . drop_duplicates ( )
+<A> という名前のエクセルファイルの <B> をデータフレームとして読み込む	pd . read_excel ( <A> , sheet_name = <B> )	pd . read_excel ( <A> , sheet_name = <B> )
+<A> の欠損値の合計を調べる	<A> . isnull ( ) . sum ( )	df . isnull ( ) . sum ( )
+そこで、恒等関数を活性化関数とする	activation = 'identity'	activation = 'tanh'
+<A> と <B> を逆順にソートし、置き換える	df = df . sort_values ( [ <A> , <B> ] , ascending = False )	df = df . sort_values ( [ <A> , <B> ] , ascending = False )
+<A> を箱ひげ図に描画する	plt . boxplot ( <A> )	plt . boxplot ( <A> )
+<A> 中の重複した行数を見る	<A> . duplicated ( ) . sum ( )	df . duplicated ( ) . sum ( )
+<B> にある <C> を欠損とし、 <A> とする	<A> = <B> . replace ( <C> , np . nan )	start = <B> . replace ( <C> , np . nan )
+<B> ( データフレーム ) の <C> を小さい順にして、 <A> にする	<A> = <B> . sort_values ( <C> )	= <B> . sort_values ( <C> )
+そこで、赤紫色をマーカーの形のエッジ色にする	markeredgecolor = 'magenta'	markeredgecolor = 'magenta'
+そこで、マーカーの輪郭色は紫をする	markeredgecolor = 'purple'	markeredgewidth = 'purple'
+<A> 中の NaN を <B> に置換して、再代入する	<A> = <A> . fillna ( <B> )	= <A> . fillna ( <B> )
+そこで、目印はバツとする	marker = 'x'	markeredgecolor = 'x'
+重複した最後の行を残して <A> ( データフレーム ) 内の重複している行を削除する	<A> . drop_duplicates ( keep = False )	df . drop_duplicates ( keep = False )
+そこで、マーカーの形の色は紫をする	markerfacecolor = 'purple'	markerfacecolor = 'purple'
+<A> 全体を <B> の値を軸にソートし、 <A> にする	<A> = <A> . sort_values ( <B> )	= <A> . sort_values ( <B> )
+<A> 中の重複する値がある行を削除する	<A> . drop_duplicates ( )	start . drop_duplicates ( )
+そこで、マーカーの種類のエッジ色はネイビーを使う	markeredgecolor = 'navy'	markeredgewidth = 'navy'
+<A> の <B> についての柱状図を描写する	plt . hist ( <A> [ <B> ] )	plt . hist ( <A> [ <B> ] )
+データフレームを <A> から読む	pd . read_csv ( <A> )	pd . read_csv ( <A> )
+グラフに格子を入れる	plt . grid ( True )	grid True )
+<A> 内の欠損値を <A> の平均値で埋めて、再代入する	<A> = <A> . fillna ( <A> . mean ( ) )	df = <A> . fillna ( <A> . mean ( ) )
+ビン数を <B> として <A> の柱状図を描画する	plt . hist ( <A> , bins = <B> )	plt . hist ( <A> , bins = <B> )
+そこで、青で表示する	color = 'blue'	color = 'blue'
+<B> から重複している行を削除し、 <A> にする	<A> = <B> . drop_duplicates ( )	= <B> . drop_duplicates ( )
+<B> というエクセルファイル <B> の全部のシートを表に格納して、 <A> とする	<A> = pd . read_excel ( <B> , sheet_name = None )	df = pd . read_excel ( <B> , sheet_name = None )
+<A> の中の <B> を未記入の値に置換し、未記入の値がある行を削除し、 <A> にする	<A> = <A> . replace ( <B> , np . nan ) . dropna ( )	start = <A> . replace ( <B> , np . nan ) . dropna ( )
+<B> の重複している行をドロップし、 <A> にする	<A> = <B> . drop_duplicates ( )	plt = <B> . drop_duplicates ( )
+<B> の欠損を <C> に置き換え、 <A> とする	<A> = <B> . fillna ( <C> )	<B> = <C> . fillna ( <C> )
+<A> 内の未入力の値を <B> で埋める	<A> . fillna ( <B> )	<A> . fillna ( <B> )
+<A> 内の <B> を未入力の値に置換し、未入力の値がある行を落とし、 <A> とする	<A> = <A> . replace ( <B> , np . nan ) . dropna ( )	start = <A> . replace ( <B> , np . nan ) . dropna ( )
+グラフに格子を付ける	plt . grid ( True )	grid True )
+そこで、色はマゼンタを用いる	color = 'magenta'	color = 'magenta'
+そこで、マーカーの形状のエッジ色は赤を用いる	markeredgecolor = 'red'	markeredgewidth = 'red'
+そこで、円グラフに小数点 2 位までのパーセント表記で構成割合を出力する	autopct = '%.2f%%'	autopct = '%.2f%%'
+そこで、色は水色を使う	color = 'cyan'	color = 'cyan'
+<A> の重複する行の数を表示する	<A> . duplicated ( ) . sum ( )	df . duplicated ( ) . sum ( )
+そこで、マーカーの色は紫色を使う	markerfacecolor = 'purple'	markeredgecolor = 'purple'
+<C> 番目の列をインデックスとして、 <B> をデータフレームとして読み、 <A> とする	<A> = pd . read_csv ( <B> , index_col = <C> )	<A> = pd . read_csv ( <B> , index_col = <C> )
+<A> の <B> と <C> と <D> についての箱ひげ図を描画する	plt . boxplot ( [ <A> [ <B> ] , <A> [ <C> ] , <A> [ <D> ] ] )	[ <A> [ [ <B> ] = <A> [ <C> ] . boxplot ( [ <D> ] ] ] )
+そこで、マーカーの種類のエッジ色は黄色を使う	markeredgecolor = 'yellow'	markeredgewidth = 'yellow'
+列番号 <C> を位置として、 <B> を読み込んで、 <A> にする	<A> = pd . read_csv ( <B> , index_col = <C> )	<A> = pd . read_csv ( <B> , index_col = <C> )
+そこで、活性化としてロジスティック関数を使う	activation = 'logistic'	'logistic' = 'logistic'
+<A> 中の <B> に重複がある行をドロップし、 <A> にする	<A> = <A> . drop_duplicates ( subset = <B> )	start = <A> . drop_duplicates ( subset = <B> )
+そこで、方向は水平方向である	orientation = 'horizontal'	kind = 'horizontal'
+<C> 区切りで CSV ファイル <B> を読み込んで、 <A> に代入する	<A> = pd . read_csv ( <B> , sep = <C> )	df = pd . read_csv ( <B> , sep = <C> )
+<A> 中の重複する行の数を確認する	<A> . duplicated ( ) . sum ( )	df . duplicated ( ) . sum ( )
+<A> という名前のエクセルの <B> 番目のシートからデータフレームを読み込む	pd . read_excel ( <A> , sheet_name = <B> )	read_excel pd . read_excel ( <A> , sheet_name = <B> )
+そこで、マーカーの形のエッジ色はグレー	markeredgecolor = 'gray'	markeredgewidth = 'gray'
+そこで、色は紺色とする	color = 'navy'	color = 'navy'
+<A> 内の欠損値を含む行をドロップ	<A> . dropna ( )	df . dropna ( )
+<B> の <C> の名前を <D> に変更し、 <A> とする	<A> = <B> . rename ( columns = { <C> : <D> } )	df = <B> . rename ( index = { <C> : <D> } )
+<B> という名前のエクセルをデータフレームとして読み、 <A> にする	<A> = pd . read_excel ( <B> )	df = pd . read_excel ( <B> )
+<A> を <B> に基づいてソートして、 <A> とする	<A> = <A> . sort_values ( <B> )	df = <A> . sort_values ( <B> )
+そこで、グラフとして度数分布図を用いる	kind = 'hist'	kind = 'hist'
+そこで、グラフ種類は度数分布図を使う	kind = 'hist'	kind = 'hist'
+<B> という名前のエクセルデータの <C> 番目のシートを表データに格納し、 <A> とする	<A> = pd . read_excel ( <B> , sheet_name = <C> )	df = pd . read_excel ( <B> , sheet_name = <C> )
+重複する行を消し、インプレースする	df . drop_duplicates ( inplace = True )	inplace = df . drop_duplicates ( )
+<A> の <B> を昇順に並び替えて、インプレースする	<A> . sort_values ( <B> , inplace = True )	<A> . sort_values ( <B> , inplace = True )
+横軸を <A> として、 <B> の縦向き棒グラフを描画する	plt . barh ( <A> , <B> )	plt . bar ( <A> , <B> )
+一番左の列を位置として、 <B> をデータフレームに格納して、 <A> とする	<A> = pd . read_csv ( <B> , index_col = 0 )	df = pd . read_csv ( <B> , index_col = 0 )
+<A> において、 <B> から箱ひげ図を表示する	plt . boxplot ( <A> [ <B> ] )	sns . boxplot ( <A> [ <B> ] )
+棒グラフの位置を真ん中として、 <A> と <B> の棒グラフをプロットする	plt . bar ( <A> , <B> , align = 'center' )	plt . bar ( <A> , <B> , align = 'center' )
+そこで、色はグレーとする	color = 'gray'	color = 'gray'
+<A> 中の欠損値を <B> として、置き換える	<A> = <A> . fillna ( <B> )	df = <A> . fillna ( <B> )
+<A> と <B> に重複はあるかどうか表示してみる	df . duplicated ( subset = [ <A> , <B> ] )	df . duplicated ( subset = [ <A> , <B> ] )
+<A> の <C> 中の前後の行の差分を  <A> [ <B> ] に代入する	<A> [ <B> ] = <A> [ <C> ] . diff ( periods = 1 )	plt . <A> [ <B> ] = <A> [ <C> ] . diff ( periods = 1 )
+<A> 内の未入力の値を <B> で埋め、置き換える	<A> . fillna ( <B> , inplace = True )	<A> . fillna ( <B> , inplace = True )
+そこで、グラフは紫色で表示する	color = 'purple'	color = 'purple'
+そこで、打点の色としてシアンを用いる	markerfacecolor = 'cyan'	color = 'cyan'
+MLP モデルを準備し、 <A> とする	<A> = sklearn . neural_network . MLPClassifier ( )	df = sklearn . neural_network . MLPClassifier ( )
+<A> と <B> を縦方向で一つにまとめる	pd . concat ( [ <A> , <B> ] )	pd . concat ( [ <A> , <B> ] )
+表示するグラフの大きさを縦 <B> 横 <A> にセットする	plt . figure ( figsize = ( <A> , <B> ) )	sns . figure ( figsize = ( <A> , <B> ) )
+<A> の <B> の未入力の値を <B> の最頻値で穴埋めする	<A> [ <B> ] . fillna ( <A> [ <B> ] . mode ( ) )	df [ <B> ] . fillna <A> [ <B> ] . mode ( ) )
+ヒストグラムで <A> をプロットする	plt . hist ( <A> )	plt . hist ( <A> )
+<A> 中の未記入の値を削除	<A> . dropna ( )	df . dropna ( )
+エクセルデータ <B> の <C> のシートを表に格納して、 <A> とする	<A> = pd . read_excel ( <B> , sheet_name = <C> )	df = pd . read_excel ( <B> , sheet_name = <C> )
+<A> を箱ひげ図に描写する	plt . boxplot ( <A> )	plt . boxplot ( <A> )
+<A> 中の <B> を NaN に置換し、 NaN が存在する行を落として、インプレースする	<A> . replace ( <B> , np . nan ) . dropna ( inplace = True )	<A> . replace ( <B> , np . nan ) . dropna ( inplace = True )
+<C> 番目の列を位置と設定して、 <B> を表に格納し、 <A> にする	<A> = pd . read_csv ( <B> , index_col = <C> )	<A> = pd . read_csv ( <B> , index_col = <C> )
+<A> の <B> を位置として設定し、置き換える	<A> . set_index ( <B> , inplace = True )	df = <A> . set_index ( <B> )
+<A> のインデックス名を <B> から <C> に変更する	<A> . rename ( index = { <B> : <C> } )	<A> . rename ( index = { <B> : <C> } )
+そこで、目印は点を使う	marker = '.'	marker = '.'
+<A> 全体をインデックスを元に昇順でソート	<A> . sort_index ( )	plt . sort_index ( )
+<A> 中に存在する <B> を欠損とする	<A> . replace ( <B> , np . nan )	start = <A> . replace ( <B> , np . nan )
+<A> 中のそれぞれのカラムに存在する <B> の個数の合計値	<A> . isin ( [ <B> ] ) . sum ( )	<A> . isin ( [ <B> ] ) . sum ( )
+そこで、文字コードはシフト JIS	encoding = 'shift_jis'	solver = 'shift_jis'
+<A> ( データフレーム ) の <B> を順番になるようにソートする	<A> . sort_values ( <B> )	df = <A> . sort_values ( <B> )
+そこで、色は黄緑色を用いる	color = 'greenyellow'	color = 'greenyellow'
+そこで、マーカーの種類の色は青を用いる	markerfacecolor = 'blue'	markeredgecolor = 'blue'
+<A> 番目まで列を表示できるように変更する	pd . set_option ( 'display.max_columns' , <A> )	pd . set_option ( 'display.max_columns' , <A> )
+区関の数を <B> として <A> の柱状グラフをプロットする	plt . hist ( <A> , bins = <B> )	kind = <A> . bins = <B> )
+<A> 内の NaN がある行を消す	<A> . dropna ( )	df . dropna ( )
+<A> 中の未入力の値を消して、置き換える	<A> . dropna ( inplace = True )	inplace = <A> . dropna ( )
+<A> 中の重複している行を削除を <A> とする	<A> = <A> . drop_duplicates ( )	start = <A> . drop_duplicates ( )
+<A> の <D> について、 <B> をインデックス、 <C> を表属性としたピボットテーブルを作成する	<A> . pivot_table ( index = <B> , columns = <C> , values = <D> )	<B> . pivot_table ( index = <C> , columns = <D> )
+<A> 中の NaN を含む行を削除	<A> . dropna ( )	df . dropna ( )
+エクセルファイル <B> をデータフレームに格納して、 <A> とする	<A> = pd . read_excel ( <B> )	df = pd . read_excel ( <B> )
+表データとして <B> をカンマ区切りで読み、 <A> とする	<A> = pd . read_csv ( <B> , sep = ',' )	df = pd . read_csv ( <A> , sep = <B> )
+<A> の未入力の値を直前の行の値で補う	<A> . fillna ( method = 'ffill' )	<A> . fillna ( method = 'ffill' )
+そこで、色は紺色で表示する	color = 'navy'	color = 'navy'
+<B> についてダミー変数をつくり、 <A> にする	<A> = pd . get_dummies ( <A> [ <B> ] )	df = pd . get_dummies ( <A> [ <B> ] )
+そこで、マーカーのエッジ色は紫を使う	markeredgecolor = 'purple'	'purple' = 'purple'
+そこで、マーカーの形は正方形を使う	marker = 's'	marker = 's'
+<A> のインデックスを軸に昇順で並び替え、置き換える	<A> = <A> . sort_index ( )	solver = <A> . sort_index ( )
+<A> 内の欠損を <A> の平均値で補って、 <A> に代入する	<A> = <A> . fillna ( <A> . mean ( ) )	df = <A> . fillna ( <A> . mean ( ) )
+<B> 番目の列をインデックスにして、 <A> を表データに格納する	pd . read_csv ( <A> , index_col = <B> )	pd . read_csv ( <A> , index_col = <B> )
+横軸を <A> として、 <B> の縦棒グラフを描く	plt . bar ( <A> , <B> )	plt . bar ( <A> , <B> )
+そこで、マーカーの種類をダイヤモンドとする	marker = 'D'	marker = 'D'
+そこで、マーカーの色は黄色を使う	markerfacecolor = 'yellow'	color = 'yellow'
+<A> と <B> を横方向にくっつける	pd . merge ( <A> , <B> )	plt . plot ( <A> , <B> )
+<A> を <B> を元に昇順で並び替えて、 <A> とする	<A> = <A> . sort_values ( <B> )	<A> = <A> . sort_values ( <B> )
+先頭の列を位置にして、 <B> をデータフレームに格納して、 <A> とする	<A> = pd . read_csv ( <B> , index_col = 0 )	df = pd . read_csv ( <B> , index_col = 0 )
+<A> と <B> をマージする	pd . merge ( <A> , <B> )	plt . plot ( <A> , <B> )
+そこで、面グラフをする	kind = 'area'	bins = 'area'
+パーセプトロンモデルを準備して、 <A> とする	<A> = sklearn . neural_network . MLPClassifier ( )	df = sklearn . neural_network . MLPClassifier ( )
+<B> 番目の列を位置に指定して、 <A> をデータフレームとして読み込む	pd . read_csv ( <A> , index_col = <B> )	pd . read_csv ( <A> , index_col = <B> )
+<B> 区切りで CSV ファイル <A> を表データとして読む	pd . read_csv ( <A> , sep = <B> )	pd . read_csv ( <A> , sep = <B> )
+<A> 中の欠損値がある行を削除	<A> . dropna ( )	df . dropna ( )
+<A> 中の未入力の値を <B> として、インプレースする	<A> . fillna ( <B> , inplace = True )	<A> . fillna ( <B> , inplace = True )
+<A> の未入力の値を <B> で補完する	<A> . fillna ( <B> )	df . fillna ( <A> . median ( <B> ) )
+<B> を数値データで置き換え、 <A> とする	<A> = pd . get_dummies ( <A> [ <B> ] )	df = pd . get_dummies ( <A> [ <B> ] )
+そこで、活性化は恒等関数である	activation = 'identity'	activation = 'tanh'
+<A> の <B> についてのヒストグラムを描写する	plt . hist ( <A> [ <B> ] )	plt . hist ( <A> [ <B> ] )
+y 軸の軸ラベルを <A> と設定する	plt . ylabel ( <A> )	plt . ylabel ( <A> )
+<A> ( データフレーム ) の <B> と <C> を降順にソートして、 <A> とする	<A> = <A> . sort_values ( [ <B> , <C> ] , ascending = False )	df = <A> . sort_values ( [ <B> , <C> ] , ascending = False )
+<A> 内の NaN がある行を消して、再代入する	<A> = <A> . dropna ( )	df = <A> . dropna ( )
+そこで、マーカーの形の色はグレーとする	markerfacecolor = 'gray'	markerfacecolor = 'gray'
+<A> を <B> の値で並び替えて、 <A> とする	<A> = <A> . sort_values ( <B> )	= <A> . sort_values ( <B> )
+<A> 内の欠損値がある行を消す	<A> . dropna ( )	) . dropna ( )
+<B> を <C> をカラム名として表データにして、 <A> にする	<A> = pd . DataFrame ( <B> , columns = <C> )	df = pd . DataFrame ( <B> , columns = <C> )
+<A> を縦軸、 <B> をグラフの x 軸として、折れ線グラフをプロットする	plt . plot ( <A> , <B> )	plt . plot ( <A> , <B> )
+<A> をグラフの y 軸、 <B> を x 軸として、折れ線グラフを作画する	plt . plot ( <A> , <B> )	plt . plot ( <A> , <B> )
+そこで、マーカーの形状はダイヤモンドにする	marker = 'D'	marker = 'D'
+エクセルデータ <B> を表データに格納して、 <A> にする	<A> = pd . read_excel ( <B> )	df = pd . read_excel ( <B> )
+そこで、目印の輪郭色として青色を使用する	markeredgecolor = 'blue'	markeredgewidth = 'blue'
+そこで、線は破線	linestyle = 'dashed'	kind = 'dashed'
+<A> という名前でプロットを書き出す	plt . savefig ( <A> )	plt . savefig ( <A> )
+<A> の 5 行を表示する	<A> . head ( )	df . head ( )
+<B> をカンマ区切りで表として読み込み、 <A> にする	<A> = pd . read_csv ( <B> , sep = ',' )	df = pd . read_csv ( <B> , sep = ',' )
+<A> と <B> を縦方向に連結	pd . concat ( [ <A> , <B> ] )	pd . concat ( [ <A> , <B> ] )
+同じ x 軸と y 軸で <A> の <B> と <A> の <C> と <A> の <D> を箱ひげ図で作画する	plt . boxplot ( [ <A> [ <B> ] , <A> [ <C> ] , <A> [ <D> ] ] )	sns . boxplot ( [ <B> ] , <A> [ <C> ] , <A> [ <D> ] ] ] ] )
+そこで、色はネイビーを用いる	color = 'navy'	start = 'navy'
+そこで、マーカーとして丸を用いる	marker = 'o'	marker = 'o'
+<A> 内の <B> を NaN に置換し、 NaN がある行をドロップして、インプレースする	<A> . replace ( <B> , np . nan ) . dropna ( inplace = True )	<A> . replace ( <B> , np . nan ) . dropna ( inplace = True )
+<A> のカラムそれぞれに存在する <B> の個数	<A> . isin ( [ <B> ] ) . sum ( )	isin . isin ( [ <B> ] ) . sum ( )
+そこで、インデックスは付けない	index = False	index = False
+<A> のカラム <B> と <C> を選択する	<A> [ [ <B> , <C> ] ]	sns . pairplot ( <A> , [ <B> , <C> ] ] )
+<B> を <C> を表属性名として表データに変換して、 <A> にする	<A> = pd . DataFrame ( <B> , columns = <C> )	start <A> = pd . pd . DataFrame ( <B> , columns = <C> )
+多層パーセプトロンモデルを用意する	sklearn . neural_network . MLPClassifier ( )	neural_network . MLPClassifier ( )
+<A> の欠損を <B> で埋める	<A> . fillna ( <B> )	<A> . fillna ( <B> )
+<B> の中の NaN をドロップして、 <A> とする	<A> = <B> . dropna ( )	= <B> . dropna ( )
+<A> 中の列にある <B> の個数を調べる	<A> . isin ( [ <B> ] ) . sum ( )	df . isin ( [ <B> ] ) . sum ( )
+先頭の列をインデックスとして、 <A> を表データに格納する	pd . read_csv ( <A> , index_col = 0 )	pd . read_csv ( <A> , index_col = 0 )
+<A> 全体を <B> でソートする	<A> . sort_values ( <B> )	<A> . sort_values ( <B> )
+<A> の度数分布図を <B> から <C> の間で表示する	plt . hist ( <A> , range = ( <B> , <C> ) )	<C> plt . hist ( <A> , range = ( <B> , <C> ) )
+<A> 内の欠損値が存在する行を落として、インプレースする	<A> . dropna ( inplace = True )	. dropna ( inplace = True )
+そこで、ヘッダー行を含まない	encoding = 'shift_jis'	index = 'shift_jis'
+<A> の中の未入力の値の合計を求める	<A> . isnull ( ) . sum ( )	df . isnull ( ) . sum ( )
+<A> の重複する行数	<A> . duplicated ( ) . sum ( )	df . duplicated ( ) . sum ( )
+描いたプロットを <A> という名前で保存する	plt . savefig ( <A> )	plt . savefig ( <A> )
+文字コードを shift_jis として、 <B> を読み込み、 <A> とする	<A> = pd . read_csv ( <B> , encoding = 'shift_jis' )	= pd . read_csv ( <A> , encoding = <B> )
+<B> を one - hot 表現に変換し、 <A> に代入する	<A> = pd . get_dummies ( <A> [ <B> ] )	= pd . get_dummies ( <A> [ <B> ] )
+<A> の <B> に重複があるかどうか	<A> . duplicated ( subset = <B> )	df . duplicated ( subset = <B> )
+表データを CSV ファイル <B> から読み、 <A> に代入する	<A> = pd . read_csv ( <B> )	df = pd . read_csv ( <B> )
+そこで、種類は積み上げをする	stacked = True	encoding = True
+分割数を <D> として、 <B> の <C> をビン分割して、 <A> とする	<A> = pd . cut ( <B> [ <C> ] , <D> )	byteorder = pd . cut ( <B> [ <C> ] , <D> , label = False )
+そこで、ダイヤモンドのマーカーを表示する	marker = 'D'	marker = 'D'
+<A> についての箱ひげ図を作図する	plt . boxplot ( <A> )	plt . hist ( <A> )
+<A> の中の欠損値が存在する行を落として、再代入する	<A> = <A> . dropna ( )	inplace = <A> . dropna ( )
+<A> の <B> の値を軸に並び替えて、再代入する	<A> = <A> . sort_values ( <B> )	plt = <A> . sort_values ( <B> )
+そこで、マーカーの形のエッジ色はグレーを用いる	markeredgecolor = 'gray'	markeredgecolor = 'gray'
+左側のデータの位置と右側のデータの <A> を項目名として 2 つのデータをマージする	pd . merge ( df1 , df2 , left_index = True , right_on = <A> )	pd . merge ( df1 , df2 , left_index = True , right_on = <A> )
+<A> を順番になるようにして、再代入する	df = df . sort_values ( <A> )	df = df . sort_values ( <A> )
+そこで、 <A> を出力先とする	file = <A>	file = <A>
+<A> を位置に基づいてソートし、インプレースする	<A> . sort_index ( inplace = True )	solver = <A> . sort_index ( )
+先頭の列を位置に、 <A> をデータフレームとして読む	pd . read_csv ( <A> , index_col = 0 )	pd . read_csv ( <A> , index_col = 0 )
+<A> の行の名前を <B> から <C> に変更し、置き換える	<A> = <A> . rename ( index = { <B> : <C> } )	df . rename ( index = { <B> : <C> } , inplace = True )
+そこで、目印を○とする	marker = 'o'	marker = 'o'
+<B> 内に存在する <C> を未入力の値に置換し、 <A> とする	<A> = <B> . replace ( <C> , np . nan )	df = <B> . replace ( <C> , np . nan )
+横軸を <A> として、 <B> の鉛直棒グラフを表示する	plt . barh ( <A> , <B> )	bar plt . bar ( <A> , <B> )
+<A> というエクセルファイルの <B> 番目のシートを表に格納する	pd . read_excel ( <A> , sheet_name = <B> )	pd . read_excel ( <A> , sheet_name = <B> )
+左側のデータフレームに合わせてデータを結合し、 <A> にする	<A> = pd . merge ( df1 , df2 , how = 'left' )	df = pd . merge ( df1 , df2 , how = 'left' )
+<A> 中の未入力の値を <B> として、再代入する	<A> = <A> . fillna ( <B> )	plt = <A> . fillna ( <B> )
+グラフを <A> として書き出す	plt . savefig ( <A> )	plt . savefig ( <A> )
+グラフで日本語を表示できるようにする	sns . set ( font = 'IPAexGothic' , style = 'white' )	sns . set ( font = 'IPAexGothic' , style = 'white' )
+そこで、目印の輪郭色は紫色を用いる	markeredgecolor = 'purple'	markeredgewidth = 'purple'
+<B> というエクセルデータの全てのシートを読み、 <A> とする	<A> = pd . read_excel ( <B> , sheet_name = None )	df = pd . read_excel ( <B> , sheet_name = None )
+<A> のオブジェクトデータの統計情報	<A> . describe ( include = 'O' )	marker = <A> . describe ( )
+<A> と <B> を値が大きい順にソート	df . sort_values ( [ <A> , <B> ] , ascending = False )	<A> . sort_values ( [ <B> ] , ascending = False )
+そこで、 <A> をエンコーディングとする	encoding = <A>	pd . read_csv ( <A> , encoding = 'shift_jis' )
+<A> を <B> をカラム名としてデータフレームに変換する	pd . DataFrame ( <A> , columns = <B> )	DataFrame . pd . pd . DataFrame ( <A> , columns = <B> )
+<A> を <B> を列名として表データに変換する	pd . pd . DataFrame ( <A> , columns = <B> )	pd . pd . DataFrame ( <A> , columns = [ 'label' ] )
+重複する最後の行を残して <A> ( データフレーム ) 中の重複する行を削除	<A> . drop_duplicates ( keep = False )	<B> . drop_duplicates ( keep = False )
+<A> 中の未記入の値を含む行を消して、 <A> にする	<A> = <A> . dropna ( )	start = <A> . dropna ( )
+同じ x 軸と y 軸で <A> の <B> と <C> と <D> を箱ひげ図で描画する	plt . boxplot ( [ <A> [ <B> ] , <A> [ <C> ] , <A> [ <D> ] ] )	plt . boxplot ( [ <A> [ <B> ] , <A> [ <C> ] , <A> [ <D> ] ] )
+<A> 中にある <B> を欠損とする	<A> . replace ( <B> , np . nan )	start . replace ( <A> , <B> , np . nan )
+<A> 中の NaN が存在する行を削除して、置き換える	<A> . dropna ( inplace = True )	inplace = <A> . dropna ( )
+<B> を <C> 区切りで表データとして読み込んで、 <A> にする	<A> = pd . read_csv ( <B> , sep = <C> )	df = pd . read_csv ( <B> , sep = <C> )
+<A> 全体を <B> を元に昇順で並び替える	<A> . sort_values ( <B> )	<A> . sort_values ( <B> )
+そこで、四角形の目印を使用する	marker = 's'	solver = 's'
+<A> の <B> と <C> を値が大きい順にソートし、置き換える	<A> . sort_values ( [ <B> , <C> ] , ascending = False , inplace = True )	<A> . sort_values ( [ <B> , <C> ] , ascending = False , inplace = True )
+そこで、マーカーの形の色は黄緑色である	markerfacecolor = 'greenyellow'	markerfacecolor = 'greenyellow'
+そこで、グラフ種類は面グラフを使う	kind = 'area'	kind = 'area'
+<A> の NaN を <B> に置換して、置き換える	<A> = <A> . fillna ( <B> )	markersize = <A> . fillna ( <B> )
+<B> と <C> をマージして、 <A> とする	<A> = pd . merge ( <B> , <C> )	errors = pd . concat ( [ <B> , <C> ] , axis = 1 )
+<B> という名前のエクセルの <C> を読み込み、 <A> とする	<A> = pd . read_excel ( <B> , sheet_name = <C> )	df = pd . read_excel ( <B> , sheet_name = <C> )
+<B> 番目の列を位置として、 <A> をデータフレームに格納する	pd . read_csv ( <A> , index_col = <B> )	pd . read_csv ( <A> , index_col = <B> )
+エクセルファイル <A> の <B> 番目のシートから読み込む	pd . read_excel ( <A> , sheet_name = <B> )	pd . read_excel ( <A> , sheet_name = <B> )
+<A> と <B> を横方向に連結する	pd . concat ( [ <A> , <B> ] , axis = 1 )	plt . boxplot ( [ <A> , <B> ] )
+そこで、フォントサイズを <A> とする	fontsize = <A>	bins = <A>
+そこで、タブは空白 <A> 文字分とする	tabsize = <A>	<A> = pd . read_csv ( <A> , encoding = '\t' )
+そこで、円グラフ上に小数点以下 2 桁まで構成割合をパーセントを付けて出力する	autopct = '%.2f%%'	autopct = '%.2f%%'
+そこで、活性化関数として恒等関数を使う	activation = 'identity'	activation = 'tanh'
+<A> の列名を <B> から <C> に、 <D> から <E> に変更し、置き換える	<A> . rename ( columns = { <B> : <C> , <D> : <E> } , inplace = True )	marker = <A> . rename ( columns = { <B> : <C> , <D> : <E> } )
+<A> を表に格納する	pd . read_csv ( <A> )	pd . read_csv ( <A> )
+<A> において、全ての要素が <C> の表属性を作り、 <B> とする	<A> [ <B> ] = [ <C> ] * len ( <A> )	<A> [ <B> ] = [ <C> ] * len ( <A> )
+両方の列を使って <B> ( データフレーム ) と <C> を一つにまとめて、 <A> とする	<A> = pd . merge ( <B> , <C> , how = 'outer' )	start = <A> . sort_values ( [ <B> , <C> ] , ascending = False )
+重複している最後の行を残して <B> ( データフレーム ) 中の重複している行をドロップを <A> とする	<A> = <B> . drop_duplicates ( keep = False )	df = <B> . drop_duplicates ( keep = False )
+そこで、隠れ層として <A> 層を使う	hidden_layer_sizes = ( <A> , )	hidden_layer_sizes = ( <A> , )
+横軸を <A> として、 <B> の縦向き棒グラフをプロットする	plt . bar ( <A> , <B> )	plt . bar ( <A> , <B> )
+そこで、マーカーの種類の色は紫とする	markerfacecolor = 'purple'	'purple' = 'purple'
+そこで、 relu を活性化とする	activation = 'relu'	markeredgecolor = 'relu'
+<A> 中の欠損の合計を求める	<A> . isnull ( ) . sum ( )	df . isnull ( ) . sum ( )
+<B> の未入力の値を <C> に置き換えて、 <A> とする	<A> = <B> . fillna ( <C> )	= <B> . fillna ( <C> )
+<A> 中の欠損値がある行を削除を <A> とする	<A> = <A> . dropna ( )	start = <A> . dropna ( )
+先頭の列をインデックスとして、 <A> を読む	pd . read_csv ( <A> , index_col = 0 )	pd . read_csv ( <A> , index_col = 0 )
+<A> 内の欠損値の数を求める	<A> . isnull ( ) . sum ( )	df . isnull ( ) . sum ( )
+横軸を <A> として、 <B> の棒グラフを描く	plt . barh ( <A> , <B> )	bar plt . bar ( <A> , <B> )
+そこで、グラフは円グラフを用いる	kind = 'pie'	kind = 'pie'
+グラフの x 軸を <A> として、 <B> の鉛直棒グラフを作図する	plt . bar ( <A> , <B> )	plt . bar ( <A> , <B> )
+<A> 中の <B> に重複があるか表示する	<A> . duplicated ( subset = <B> )	df . duplicated ( subset = <B> )
+そこで、グラフの種類は、折れ線グラフを用いる	kind = 'line'	kind = 'line'
+<B> というエクセルファイルの <C> のシートを表データに格納して、 <A> にする	<A> = pd . read_excel ( <B> , sheet_name = <C> )	df = pd . read_excel ( <B> , sheet_name = <C> )
+<A> の未記入の値を直前の行の値で補い、 <A> に代入する	<A> = <A> . fillna ( method = 'ffill' )	method = <A> . fillna ( method = 'ffill' )
+そこで、グレーを目印のエッジ色にする	markeredgecolor = 'gray'	markeredgecolor = 'gray'
+そこで、ネイビーを打点の色とする	markerfacecolor = 'navy'	color = 'navy'
+そこで、打点の輪郭色はグレーを用いる	markeredgecolor = 'gray'	markeredgecolor = 'gray'
+<A> の <B> を抽出する	<A> [ <B> ]	<A> [ <B> ]
+同じ軸で <A> <B> と <A> <C> と <A> <D> を箱ひげ図で描画する	plt . boxplot ( [ <A> [ <B> ] , <A> [ <C> ] , <A> [ <D> ] ] )	pd . boxplot [ <A> [ <B> ] , <A> [ <C> ] , <A> [ <D> ] ] ] )
+<B> のインデックスを昇順でソートして、 <A> とする	<A> = <B> . sort_index ( )	= <B> . sort_index ( )
+そこで、目印のエッジ色はグレーである	markeredgecolor = 'gray'	markeredgewidth = 'gray'
+エクセルファイル <A> の全てのシートからデータフレームを読み込む	pd . read_excel ( <A> , sheet_name = None )	pd . read_excel ( <A> , sheet_name = None )
+そこで、マーカーの形状の色は赤紫色をする	markerfacecolor = 'magenta'	markerfacecolor = 'magenta'
+<A> という名前のエクセルデータの <B> を表データに格納する	pd . read_excel ( <A> , sheet_name = <B> )	pd . read_excel ( <A> , sheet_name = <B> )
+そこで、目印のエッジ色として水色を用いる	markeredgecolor = 'cyan'	markeredgecolor = 'cyan'
+そこで、マーカーの色は黄色を用いる	markerfacecolor = 'yellow'	color = 'yellow'
+<A> 内の NaN がある行を削除	<A> . dropna ( )	df . dropna ( )
+同じ軸のセットで <A> の <B> と <C> と <D> を箱ひげ図で作図する	plt . boxplot ( [ <A> [ <B> ] , <A> [ <C> ] , <A> [ <D> ] ] )	pd . merge ( <A> [ <B> ] , <C> , <A> [ <D> ] ] ] ] ] )
+<A> の中の重複する値がある行を取り除き、インプレースする	<A> . drop_duplicates ( inplace = True )	inplace = <A> . drop_duplicates ( )
+<A> の NaN をその最頻値で穴埋めする	<A> . fillna ( <A> . mode ( ) )	plt . fillna ( <A> . mode ( ) )
+<B> の重複している行を削除し、 <A> にする	<A> = <B> . drop_duplicates ( )	plt = <B> . drop_duplicates ( )
+<A> の振り直して、元の位置を削除する	<A> . reset_index ( drop = True )	marker = <A> . reset_index ( drop = True )
+<A> 内の NaN の合計を算出する	<A> . isnull ( ) . sum ( )	df . isnull ( ) . sum ( )
+<B> という名前のエクセル <B> のシート全てをデータフレームに格納して、 <A> とする	<A> = pd . read_excel ( <B> , sheet_name = None )	df = pd . read_excel ( <B> , sheet_name = None )
+<A> の <B> と <A> の <C> と <A> の <D> についての箱ひげ図を描く	plt . boxplot ( [ <A> [ <B> ] , <A> [ <C> ] , <A> [ <D> ] ] )	plt . boxplot ( [ <A> [ <B> ] , <A> [ <C> ] , <A> [ <D> ] ] )
+<A> 内の欠損を含む行を削除して、再代入する	<A> = <A> . dropna ( )	= <A> . dropna ( )
+<A> の <B> の未記入の値を <B> の最頻値で穴埋めする	<A> [ <B> ] . fillna ( <A> [ <B> ] . mode ( ) )	<B> <A> [ <A> . fillna ( <B> ] . mode ( ) ) )
+<A> ( データフレーム ) の <B> と <C> を値が大きい順にソート	<A> . sort_values ( [ <B> , <C> ] , ascending = False )	ascending = <A> . sort_values ( [ <B> , <C> ] , ascending = False )
+そこで、目印を星とする	marker = '*'	'*' = '*'
+<A> の中の欠損の数	<A> . isnull ( ) . sum ( )	df . isnull ( ) . sum ( )
+<B> 中の重複する行を落として、 <A> にする	<A> = <B> . drop_duplicates ( )	= <B> . drop_duplicates ( )
+そこで、マゼンタで表示する	color = 'magenta'	color = 'magenta'
+<A> 内の重複している行を削除する	<A> . drop_duplicates ( )	) . drop_duplicates ( )
+そこで、目印の輪郭は <A> をする	markeredgewidth = <A>	bins = <A>
+そこで、六角ビニングをグラフ種類にする	kind = 'hexbin'	kind = 'hexbin'
+<B> ( データフレーム ) の <C> と <D> を大から小へとソートを <A> とする	<A> = <B> . sort_values ( [ <C> , <D> ] , ascending = False )	df = <B> . sort_values ( [ <C> , <D> ] , ascending = False )
+そこで、グラフ種類は密度推定を用いる	kind = 'density'	kind = 'density'
+<B> 中の欠損を含む行を削除し、 <A> とする	<A> = <B> . dropna ( )	= <B> . dropna ( )
+<A> という名前のエクセル <A> のシート全てを表データに格納する	pd . read_excel ( <A> , sheet_name = None )	pd . read_excel ( <A> , sheet_name = None )
+<A> の <B> 行目から <C> 行目まで	<A> [ <B> : <C> ]	<A> [ <B> : <C> ]
+列番号 <C> を位置にして、 <B> からデータフレームとを読んで、 <A> にする	<A> = pd . read_csv ( <B> , index_col = <C> )	<A> = pd . read_csv ( <B> , index_col = <C> )
+<A> 内の欠損を <B> に置き換えて、 <A> とする	<A> = <A> . fillna ( <B> )	= <A> . fillna ( <B> )
+重複する行をドロップして、置き換える	df . drop_duplicates ( inplace = True )	= df . drop_duplicates ( )
+<A> 内の <B> を欠損に置換し、欠損がある行を落とし、再代入する	<A> = <A> . replace ( <B> , np . nan ) . dropna ( )	= <A> . replace ( <B> , np . nan ) . dropna ( )
+そこで、マーカーのエッジ色は黄緑色をする	markeredgecolor = 'greenyellow'	'greenyellow' = 'greenyellow'
+<A> 中の重複している行を消して、置き換える	<A> = <A> . drop_duplicates ( )	<A> = <A> . drop_duplicates ( )
+そこで、クロスのマーカーの形を使用する	marker = 'x'	markersize = 'x'
+<A> の中の欠損値を <B> に置換し、 <A> とする	<A> = <A> . fillna ( <B> )	fillna <A> = <A> . fillna ( <B> ) )
+<A> 内のカラムそれぞれにある <B> の個数を確認する	<A> . isin ( [ <B> ] ) . sum ( )	isin . isin ( [ <B> ] ) . sum ( )
+<A> 中の <B> を未入力の値に置換し、未入力の値がある行を削除し、インプレースする	<A> . replace ( <B> , np . nan ) . dropna ( inplace = True )	<A> . replace ( <B> , np . nan ) . dropna ( inplace = True )
+<A> の中の NaN がある行を削除し、置き換える	<A> . dropna ( inplace = True )	inplace = <A> . dropna ( )
+グラフを <A> という名前で書き出す	plt . savefig ( <A> )	plt . savefig ( <A> )
+そこで、位置は付けない	index = False	index = False
+そこで、目印のエッジ色として青色を用いる	markeredgecolor = 'blue'	markeredgewidth = 'blue'
+<A> の <B> を NaN に置換し、 NaN がある行を削除して、 <A> とする	<A> = <A> . replace ( <B> , np . nan ) . dropna ( )	start = <A> . replace ( <B> , np . nan ) . dropna ( )
+重複している行をドロップを <A> とする	<A> = df . drop_duplicates ( )	= <A> . drop_duplicates ( )
+<A> の <B> を並び替え、 <A> にする	<A> = <A> . sort_values ( <B> )	<A> = <A> . sort_values ( <B> )
+<A> の <B> を並び替え、 <A> とする	<A> = <A> . sort_values ( <B> )	<A> = <A> . sort_values ( <B> )
+<A> の位置をソート	<A> . sort_index ( )	start . sort_index ( )
+<A> の未記入の値を <B> で穴埋めする	<A> . fillna ( <B> )	df . fillna ( <A> . median ( <B> ) )
+そこで、六角形をマーカーにする	marker = 'h'	marker = 'h'
+エクセルデータ <B> のシート全部をデータフレームに格納して、 <A> とする	<A> = pd . read_excel ( <B> , sheet_name = None )	df = pd . read_excel ( <B> , sheet_name = None )
+<A> の <B> を四分位数ごとで分割する	pd . qcut ( <A> [ <B> ] , 4 )	for pd . qcut ( <A> [ <B> ] )
+<A> の中のそれぞれのカラムにある <B> の個数の合計値	<A> . isin ( [ <B> ] ) . sum ( )	<A> . isin ( [ <B> ] ) . sum ( )
+<A> というラベルを x 座標に付ける	plt . xlabel ( <A> )	plt . xlabel ( <A> )
+横軸を <A> とした <B> の縦棒グラフを表示する	plt . barh ( <A> , <B> )	plt . bar ( <A> , <B> )
+先頭の列をインデックスに設定して、 <A> から読む	pd . read_csv ( <A> , index_col = 0 )	pd . read_csv ( <A> , index_col = 0 )
+<A> 内の <B> と <C> に重複はあるかチェックを確認する	<A> . duplicated ( subset = [ <B> , <C> ] )	pd . duplicated ( subset = [ <A> , <B> , <C> ] )
+そこで、セパレータとして <A> を使う	sep = <A>	bins = <A>
+<A> のそれぞれのカラムに存在する <B> の個数の合計を表示する	<A> . isin ( [ <B> ] ) . sum ( )	<A> . isin ( [ <B> ] ) . sum ( )
+<B> ( データフレーム ) の <C> を順にし、 <A> に代入する	<A> = <B> . sort_values ( <C> )	df = <B> . sort_values ( <C> )
+<B> 内の欠損値を含む行をドロップを <A> にする	<A> = <B> . dropna ( )	= <B> . dropna ( )
+グラフ幅を <C> として、 <A> 軸を <A> とした <B> の棒グラフを描画する	plt . bar ( <A> , <B> , width = <C> )	<A> plt . bar ( <B> , width = <C> )
+x 座標を <A> として、 <B> の鉛直棒グラフを表示する	plt . bar ( <A> , <B> )	barh plt . bar ( <A> , <B> )
+そこで、 <A> に小数点以下 2 桁まで表現すること、パーセントを指定する。	<A> = '%.2f%%'	autopct = '%.2f%%'
+<A> について円グラフをプロットする	plt . pie ( <A> )	plt . pie ( <A> )
+表データを <B> からタブ区切りで読み込んで、 <A> とする	<A> = pd . read_csv ( <B> , sep = '\t' )	start = pd . read_csv ( <A> , sep = <B> )
+<A> の柱状グラフを作画する	plt . hist ( <A> )	plt . hist ( <A> )
+表を <B> から読んで、 <A> とする	<A> = pd . read_csv ( <B> )	<A> = pd . read_csv ( <B> )
+<A> のインデックス名を <B> から <C> に変更し、再代入する	<A> = <A> . rename ( index = { <B> : <C> } )	df = <A> . rename ( index = { <B> : <C> } )
+<A> を <B> から <C> 範囲のヒストグラムにする	plt . hist ( <A> , range = ( <B> , <C> ) )	hist plt . hist ( <A> , range = ( <B> , <C> ) )
+<A> という名前のエクセルデータのシート全部からデータフレームを読み込む	pd . read_excel ( <A> , sheet_name = None )	pd . read_excel ( <A> , sheet_name = None )
+<A> 中の <B> に重複があるのか確認する	<A> . duplicated ( subset = <B> )	pd . duplicated ( <A> subset = <B> )
+CSV ファイル <A> からデータフレームを読み込む	pd . read_csv ( <A> )	pd . read_csv ( <A> )
+両方の列を使って <A> ( データフレーム ) と <B> をマージする	pd . merge ( <A> , <B> , how = 'outer' )	<A> pd . merge ( <B> , how = 'outer' )
+<A> 内の <B> を NaN に置換し、 NaN がある行を消し、置き換える	<A> = <A> . replace ( <B> , np . nan ) . dropna ( )	df = <A> . replace ( <B> , np . nan ) . dropna ( )
+そこで、マーカーの形の輪郭色はシアンにする	markeredgecolor = 'cyan'	markeredgewidth = 'cyan'
+<A> の欠損値を直前の行の値で補う	<A> . fillna ( method = 'ffill' )	<A> . fillna ( method = 'ffill' )
+<A> 内の欠損したセル数を数える	<A> . isnull ( ) . sum ( )	df . isnull ( ) . sum ( )
+<A> 中の未記入の値を含む行を消す	<A> . dropna ( )	df . dropna ( )
+<A> を転置する	<A> . T	plt . hist ( <A> )
+<B> 内の重複要素がある行を削除し、 <A> にする	<A> = <B> . drop_duplicates ( )	<A> = <B> . drop_duplicates ( )
+そこで、クロスをマーカーにする	marker = 'x'	solver = 'x'
+<A> の <B> を消して、置き換える	<A> . drop ( <B> , axis = 1 , inplace = True )	<A> . drop ( <B> , axis = 1 , inplace = True )
+そこで、活性化は、 relu をする	activation = 'relu'	linestyle = 'relu'
+重複した最後の行を残して <A> ( データフレーム ) 内の重複している行を落とし、置き換える	<A> . drop_duplicates ( keep = False , inplace = True )	inplace = <A> . drop_duplicates ( keep = True )
+そこで、目印の輪郭色は青を使う	markeredgecolor = 'blue'	markeredgecolor = 'blue'
+<A> 中の <B> に重複は存在するのかチェックする	<A> . duplicated ( subset = <B> )	<B> . duplicated ( subset = <B> )
+そこで、マーカーの形は菱形を用いる	marker = 'D'	marker = 'D'
+<A> に重複があるかどうかチェック	<A> . duplicated ( )	pd . duplicated ( <A> )
+そこで、目印のエッジ色は黄緑色を使う	markeredgecolor = 'greenyellow'	'greenyellow' = 'greenyellow'
+<A> の行ごとに重複がある場合	if <A> . duplicated ( ) :	if df . duplicated ( ) :
+<A> 中の欠損がある行を削除	<A> . dropna ( )	df . dropna ( )
+<A> 中の <B> を欠損に置換し、欠損がある行を削除して、再代入する	<A> = <A> . replace ( <B> , np . nan ) . dropna ( )	= <A> . replace ( <B> , np . nan ) . dropna ( )
+<A> を位置を元にソートを <A> とする	<A> = <A> . sort_index ( )	= <A> . sort_index ( )
+同じグラフ内で <A> の <B> と <C> と <D> を箱ひげ図で作画する	plt . boxplot ( [ <A> [ <B> ] , <A> [ <C> ] , <A> [ <D> ] ] )	pd . merge ( <A> [ <B> ] , <C> , <A> [ <D> ] ] ] ] ] )
+<A> 内にある <B> を欠損に置換し、再代入する	<A> = <A> . replace ( <B> , np . nan )	df = <A> . replace ( <B> , np . nan )
+<A> 内の欠損を直前の行の値で埋め、 <A> に代入する	<A> = <A> . fillna ( method = 'ffill' )	start = <A> . fillna ( method = 'ffill' )
+<A> 中の NaN が存在する行を削除し、再代入する	<A> = <A> . dropna ( )	df = <A> . dropna ( )
+横軸に <A> というラベルをつける	plt . xlabel ( <A> )	plt . xlabel ( <A> )
+カンマ区切りでデータフレームを <A> から読み込む	pd . read_csv ( <A> , sep = ',' )	pd . read_csv ( <A> , sep = ',' )
+<A> の <C> の前後の行の差分を  <A> [ <B> ] とする	<A> [ <B> ] = <A> [ <C> ] . diff ( periods = 1 )	<A> [ <B> ] = <A> [ <C> ] . diff ( periods = 1 )
+<B> の中の <C> に重複がある行を落として、 <A> とする	<A> = <B> . drop_duplicates ( subset = <C> )	df = <B> . drop_duplicates ( subset = <C> )
+グラフの x 軸を <A> として、 <B> の棒グラフを描写する	plt . bar ( <A> , <B> )	barh plt . bar ( <A> , <B> )
+そこで、ネイビーを色にする	color = 'navy'	color = 'navy'
+<A> 中の <B> を未記入の値に置換し、未記入の値がある行を落として、インプレースする	<A> . replace ( <B> , np . nan ) . dropna ( inplace = True )	<A> . replace ( <B> , np . nan ) . dropna ( inplace = True )
+<A> の <B> の日にちを調べる	<A> [ <B> ] . dt . day	[ <A> [ <B> ] . dt . day
+<A> の度数分布図を <B> から <C> の範囲でプロットする	plt . hist ( <A> , range = ( <B> , <C> ) )	plt . hist ( <A> , range = ( <B> , <C> ) )
+そこで、マーカーの形状の色として紫色を用いる	markerfacecolor = 'purple'	markeredgecolor = 'purple'
+<B> 中の欠損値を <C> で埋めて、 <A> とする	<A> = <B> . fillna ( <C> )	<B> = <C> . fillna ( <C> )
+<A> の <B> に重複がある行を削除して、 <A> とする	<A> = <A> . drop_duplicates ( subset = <B> )	start = <A> . drop_duplicates ( subset = <B> )
+<A> 中の欠損値を <A> の平均値で補って、 <A> に代入する	<A> = <A> . fillna ( <A> . mean ( ) )	df = <A> . fillna ( <A> . mean ( ) )
+<A> を <B> の値を元に昇順でソートし、置き換える	<A> = <A> . sort_values ( <B> )	df . sort_values ( <B> , inplace = True )
+そこで、活性化は、 relu を使う	activation = 'relu'	linestyle = 'relu'
+そこで、マーカーの形状のエッジ色は水色を用いる	markeredgecolor = 'cyan'	markeredgewidth = 'cyan'
+文字コードを shift_jis として、 <A> を読み込む	pd . read_csv ( <A> , encoding = 'shift_jis' )	pd . read_csv ( <A> , encoding = 'shift_jis' )
+データフレームを <B> から読み、 <A> とする	<A> = pd . read_csv ( <B> )	df = pd . read_csv ( <B> )
+柱状グラフとして	plt . hist ( X )	plt . hist ( df [ 'A' ] )
+そこで、目印の色は青色をする	markerfacecolor = 'blue'	color = 'blue'
+<A> を y 軸、 <B> を x 軸として、散布図をプロットする	plt . scatter ( <A> , <B> )	scatter plt . scatter ( <A> , <B> )
+<B> からカンマ区切りで表を読み込み、 <A> とする	<A> = pd . read_csv ( <B> , sep = ',' )	df = pd . read_csv ( <B> , sep = ',' )
+そこで、グラフの種類は、箱ひげ図を用いる	kind = 'box'	linestyle = 'dashed'
+<A> 内に重複はあるのか確認を調べる	<A> . duplicated ( )	duplicated . duplicated ( subset = <A> )
+<A> についてダミー変数を生成する	pd . get_dummies ( df [ <A> ] )	<A> . pd . get_dummies ( <A> )
+そこで、マーカーの種類の輪郭色としてネイビーを使用する	markeredgecolor = 'navy'	markeredgewidth = 'navy'
+エクセル <B> からデータフレームに読み込み、 <A> とする	<A> = pd . read_excel ( <B> )	df = pd . read_excel ( <B> )
+<A> 内の欠損が存在する行を落とし、再代入する	<A> = <A> . dropna ( )	df = <A> . dropna ( )
+<A> と <B> に重複があるのならば	if df . duplicated ( subset = [ <A> , <B> ] ) :	markeredgecolor . duplicated ( subset = [ <A> , <B> ] ) :
+<A> 内の重複している行数を見る	<A> . duplicated ( ) . sum ( )	df . duplicated ( ) . sum ( )
+<A> の中の重複を見る	<A> . duplicated ( )	df . duplicated ( subset = <A> )
+<A> 全体を <B> を元に並び替えて、インプレースする	<A> . sort_values ( <B> , inplace = True )	<A> . sort_values ( <B> , inplace = True )
+<A> 中に存在する <B> を未入力の値に置換して、置き換える	<A> = <A> . replace ( <B> , np . nan )	df . replace ( <A> , <B> , np . nan , inplace = True )
+<A> の重複した行の合計を見る	<A> . duplicated ( ) . sum ( )	. duplicated ( ) . sum ( )
+フォントを日本語表示にセットする。	sns . set ( font = 'IPAexGothic' , style = 'white' )	pd . set ( font = 'IPAexGothic' , style = 'white' )
+<A> の <B> の名前を <C> にリネームする	<A> . rename ( columns = { <B> : <C> } )	df . rename ( index = { <B> : <C> } )
+<A> ( データフレーム ) の <B> を順にして、置き換える	<A> = <A> . sort_values ( <B> )	df . sort_values ( <B> , inplace = True )
+<A> を <B> で並べ直す	<A> . sort_values ( by = <B> )	<A> . sort_values ( <B> )
+エクセルファイル <B> の <C> 番目のシートをデータフレームに格納して、 <A> とする	<A> = pd . read_excel ( <B> , sheet_name = <C> )	df = pd . read_excel ( <B> , sheet_name = <C> )
+<A> ( データフレーム ) の <B> を小さい順にし、インプレースする	<A> . sort_values ( <B> , inplace = True )	df . sort_values ( <B> , inplace = True )
+<A> 中の NaN を <B> に置換して、 <A> に代入する	<A> = <A> . fillna ( <B> )	plt = <A> . fillna ( <B> )
+そこで、六角ビニング図を使う	kind = 'hexbin'	bins = 'hexbin'
+<A> の欠損を数える	<A> . isnull ( ) . sum ( )	df . isnull ( ) . sum ( )
+<A> にある <B> を欠損として、置き換える	<A> = <A> . replace ( <B> , np . nan )	<A> . replace ( <B> , np . nan , inplace = True )
+重複した最後の行を残して <A> ( データフレーム ) 内の重複している行を落として、 <A> にする	<A> = <A> . drop_duplicates ( keep = False )	start = <A> . drop_duplicates ( keep = False )
+<A> 内の未記入の値の合計	<A> . isnull ( ) . sum ( )	df . isnull ( ) . sum ( )
+そこで、マーカーの色は赤色を使う	markerfacecolor = 'red'	markeredgecolor = 'red'
+<B> の中の <C> を欠損値に置換し、欠損値がある行をドロップを <A> とする	<A> = <B> . replace ( <C> , np . nan ) . dropna ( )	<B> <A> = <C> . replace ( <C> , np . nan ) . dropna ( )
+<A> のヒストグラムをビンの数を <B> として表示する	plt . hist ( <A> , bins = <B> )	<A> . bins = <B> )
+<A> から <B> 区切りで表を読む	pd . read_csv ( <A> , sep = <B> )	pd . read_csv ( <A> , sep = <B> )
+<B> 内の <C> を欠損値に置換し、欠損値がある行をドロップして、 <A> とする	<A> = <B> . replace ( <C> , np . nan ) . dropna ( )	= <B> . replace ( <C> , np . nan ) . dropna ( )
+一番左の列をインデックスに設定して、 <B> を表に格納して、 <A> とする	<A> = pd . read_csv ( <B> , index_col = 0 )	= pd . read_csv ( <A> , index_col = <B> )
+<A> から <B> という名前のエクセルファイルにする	<A> . to_excel ( <B> )	pd . read_excel ( <A> , sheet_name = <B> )
+<A> ( データフレーム ) の <B> を順にして、置き換える	<A> . sort_values ( <B> , inplace = True )	df . sort_values ( <B> , inplace = True )
+<A> というエクセルの <B> のシートからデータフレームを読む	pd . read_excel ( <A> , sheet_name = <B> )	pd . read_excel ( <A> , sheet_name = <B> )
+そこで、グラフ種類は密度推定である	kind = 'density'	kind = 'density'
+<A> を <B> から <C> のヒストグラムにする	plt . hist ( <A> , range = ( <B> , <C> ) )	pd . hist ( <A> [ <B> , <C> ] )
+<A> 内の <B> , <C> , <D> 行目の <E> , <C> 列目を取得する	<A> . iloc [ [ <B> , <C> , <D> ] , [ <E> , <C> ] ]	df . sort_values ( [ <A> [ <B> , <C> , <D> ] ] ) ]
+<A> の <B> の月	<A> [ <B> ] . dt . month	df [ <A> [ <B> ] . dt . day
+<A> を <B> を元に昇順で並び替えて、置き換える	<A> = <A> . sort_values ( <B> )	<A> = <A> . sort_values ( <B> )
+<A> のデータ型	<A> . dtypes	<A> . dtypes
+そこで、マーカーの色は黄緑をする	markerfacecolor = 'greenyellow'	color = 'greenyellow'
+そこで、マーカーの色としてマゼンタを使う	markerfacecolor = 'magenta'	color = 'magenta'
+<B> の欠損値を落とし、 <A> にする	<A> = <B> . dropna ( )	= <B> . dropna ( )
+そこで、種類として密度推定図を使う	kind = 'density'	kind = 'density'
+表としてカンマ区切りで <A> を読み込む	pd . read_csv ( <A> , sep = ',' )	pd . read_csv ( <A> , sep = ',' )
+そこで、転戦を線とする	linestyle = 'dotted'	file = 'dotted'
+<A> 中の欠損の個数を確認する	<A> . isnull ( ) . sum ( )	] . isnull ( ) . sum ( )
+<A> と <B> を降順にする	df . sort_values ( [ <A> , <B> ] , ascending = False )	<A> . sort_values ( [ <B> ] , ascending = False )
+表データをカンマ区切りで <A> から読み込む	pd . read_csv ( <A> , sep = ',' )	pd . read_csv ( <A> , sep = ',' )
+<A> についてダミー変数を生成し、 <A> とする	<A> = pd . get_dummies ( <A> )	df = pd . get_dummies ( <A> )
+そこで、色は赤を用いる	color = 'red'	color = 'red'
+表を <B> からカンマ区切りで読んで、 <A> に代入する	<A> = pd . read_csv ( <B> , sep = ',' )	= pd . read_csv ( <A> , sep = <B> )
+ヘッダーを指定せずに <A> を読む	pd . read_csv ( <A> , header = None )	pd . read_csv ( <A> , header = None )
+<A> 中の欠損の合計を確認する	<A> . isnull ( ) . sum ( )	df . isnull ( ) . sum ( )
+<A> を <B> を列名としてデータフレームに変換する	pd . pd . DataFrame ( <A> , columns = <B> )	pd . pd . pd . DataFrame ( <A> , columns = <B> )
+先頭の列をインデックスとして、 <B> をデータフレームに格納して、 <A> とする	<A> = pd . read_csv ( <B> , index_col = 0 )	df = pd . read_csv ( <B> , index_col = 0 )
+描画したプロットを <A> という名前で保存する	plt . savefig ( <A> )	plt . savefig ( <A> )
+そこで、中央寄せをアライメントとする	align = 'center'	bins = 'center'
+y 軸のラベルを <A> とする	plt . ylabel ( <A> )	plt . ylabel ( <A> )
+<B> というエクセルデータの全てのシートから読んで、 <A> とする	<A> = pd . read_excel ( <B> , sheet_name = None )	df = pd . read_excel ( <B> , sheet_name = None )
+<A> の <B> を昇順にソート	<A> . sort_values ( <B> )	<A> . sort_values ( <B> )
+そこで、活性化は、恒等関数を用いる	activation = 'identity'	activation = 'tanh'
+<A> 内の <B> と <C> に重複は存在するのかチェックする	<A> . duplicated ( subset = [ <B> , <C> ] )	pd . duplicated ( subset = [ <A> , <B> , <C> ] )
+そこで、目印の色は黄緑色である	markerfacecolor = 'greenyellow'	color = 'greenyellow'
+<A> の <B> と <C> と <D> についての箱ひげ図を描く	plt . boxplot ( [ <A> [ <B> ] , <A> [ <C> ] , <A> [ <D> ] ] )	[ <A> [ <B> ] . boxplot ( [ <C> ] , <A> [ <D> ] ] ] ] )
+<A> の未入力の値の個数を計算する	<A> . isnull ( ) . sum ( )	] . isnull ( ) . sum ( )
+<A> の欠損が存在する行をドロップする	<A> . dropna ( )	start . dropna ( )
+エクセルファイル <A> の <B> のシートを ] [ データフレームとして読み込む	pd . read_excel ( <A> , sheet_name = <B> )	pd . read_excel ( <A> , sheet_name = <B> )
+<B> のインデックス名を <C> から <D> に変更して、 <A> とする	<A> = <B> . rename ( index = { <C> : <D> } )	= <B> . rename ( index = { <C> : <D> } )
+y 座標のラベルを <A> に設定する	plt . ylabel ( <A> )	plt . ylabel ( <A> )
+<A> の <B> の名前を <C> に変更する	<A> . rename ( columns = { <B> : <C> } )	df . rename ( index = { <B> : <C> } )
+そこで、マーカーのエッジ色として紫を用いる	markeredgecolor = 'purple'	'purple' = 'purple'
+<A> という列を削除し、置き換える	df . drop ( <A> , axis = 1 , inplace = True )	df = df . drop ( <A> , axis = 1 )
+そこで、マーカーの色は紫をする	markerfacecolor = 'purple'	markerfacecolor = 'purple'
+そこで、マーカーの輪郭線は <A> を用いる	markeredgewidth = <A>	bins = <A>
+<A> 全体を <B> の値に基づいてソートして、置き換える	<A> . sort_values ( <B> , inplace = True )	df = <A> . sort_values ( <B> )
+左側のデータフレームを全て残してデータを結合し、 <A> に代入する	<A> = pd . merge ( df1 , df2 , how = 'left' )	df = pd . merge ( df1 , df2 , how = 'left' )
+<A> ( データフレーム ) の <B> を小から大へとソートする	<A> . sort_values ( <B> )	plt . sort_values ( <A> , <B> )
+<A> の欠損を直前の行の値で補って、 <A> に代入する	<A> = <A> . fillna ( method = 'ffill' )	method = <A> . fillna ( method = 'ffill' )
+<A> の <B> と <C> を降順に並び替え、 <A> に代入する	<A> = <A> . sort_values ( [ <B> , <C> ] , ascending = False )	df = <A> . sort_values ( [ <B> , <C> ] , ascending = False )
+そこで、カラーマップとしてアクセントを用いる	colormap = 'Accent'	'Accent' = 'Accent'
+<A> 中の欠損が存在する行を削除を <A> とする	<A> = <A> . dropna ( )	start = <A> . dropna ( )
+そこで、目印のエッジ色としてネイビーを使用する	markeredgecolor = 'navy'	markeredgecolor = 'navy'
+<A> の欠損を平均値で穴埋めして置き換える	<A> . fillna ( <A> . mean ( ) , inplace = True )	inplace = <A> . fillna ( <A> . mean ( ) )
+<A> の <B> と <C> と <D> についての箱ひげ図を描写する	plt . boxplot ( [ <A> [ <B> ] , <A> [ <C> ] , <A> [ <D> ] ] )	[ <A> [ [ <B> ] = <A> [ <C> ] . boxplot ( [ <D> ] ] ] )
+<A> を y 軸、 <B> を x 座標として、線グラフを描く	plt . plot ( <A> , <B> )	pd . plt ( <A> , <B> )
+<A> というエクセルファイルの <B> のシートを表に格納する	pd . read_excel ( <A> , sheet_name = <B> )	pd . read_excel ( <A> , sheet_name = <B> )
+そこで、マーカーの形の色は赤紫とする	markerfacecolor = 'magenta'	markerfacecolor = 'magenta'
+<A> をインデックスに沿ってソートし、 <A> とする	<A> = <A> . sort_index ( )	df = <A> . sort_index ( )
+<B> を <C> を表属性名として表データにし、 <A> とする	<A> = pd . DataFrame ( <B> , columns = <C> )	df = pd . DataFrame ( <B> , columns = <C> )
+そこで、グラフ線を一点鎖線でひく	linestyle = 'dashbot'	linestyle = 'dashbot'
+<A> の行と列を入れ替える	<A> . T	pd . read_excel ( <A> )
+そこで、 <A> に小数点以下 2 桁まで出力すること、パーセントを指定する。	<A> = '%.2f%%'	autopct = '%.2f%%'
+<A> 中の未入力の値がある行を削除を <A> とする	<A> = <A> . dropna ( )	start = <A> . dropna ( )
+<A> という名前のエクセルデータ <A> のシート全部を表データに格納する	pd . read_excel ( <A> , sheet_name = None )	pd . read_excel ( <A> , sheet_name = None )
+<A> 内の欠損値を含む行を消して、インプレースする	<A> . dropna ( inplace = True )	. dropna ( inplace = True )
+<A> をインデックスを元に昇順で並び替えて、 <A> とする	<A> = <A> . sort_index ( )	= <A> . sort_index ( )
+そこで、目印の大きさは <A> を使う	markersize = <A>	markeredgewidth = <A>
+最も適切な位置に凡例を表示する	plt . legend ( loc = 'best' )	sns . legend ( loc = 'best' )
+<A> のインデックスを昇順で並び替えて、置き換える	<A> = <A> . sort_index ( )	inplace = <A> . sort_index ( )
+<B> というエクセルファイル <B> を表に格納し、 <A> にする	<A> = pd . read_excel ( <B> , sheet_name = None )	pd . read_excel ( <A> , sheet_name = <B> )
+<A> 中の未記入の値を <B> に置換し、再代入する	<A> = <A> . fillna ( <B> )	df = <A> . fillna ( <B> )
+<A> の <B> と <C> を逆順にソートして、インプレースする	<A> . sort_values ( [ <B> , <C> ] , ascending = False , inplace = True )	<A> . sort_values ( [ <B> , <C> ] , ascending = False , inplace = True )
+そこで、丸をマーカーの種類とする	marker = 'o'	marker = 'o'
+そこで、マーカーの色は紺色をする	markerfacecolor = 'navy'	color = 'navy'
+<A> を <B> を元に昇順でソート	<A> . sort_values ( <B> )	<A> . sort_values ( <B> )
+そこで、グラフの色を赤とする	color = 'red'	color = 'red'
+重複した最後の行を残して <A> ( データフレーム ) 中の重複した行を削除する	<A> . drop_duplicates ( keep = False )	<B> . drop_duplicates ( keep = False )
+<A> と <B> の折れ線グラフを <C> とラベル付けして描写する	plt . plot ( <A> , <B> , label = <C> )	plt . plot ( <A> , <B> , label = <C> )
+<A> 全体をインデックスに沿ってソートし、置き換える	<A> . sort_index ( inplace = True )	solver = <A> . sort_index ( )
+<B> の未入力の値を直前の行の値で補って、 <A> とする	<A> = <B> . fillna ( method = 'ffill' )	= <B> . fillna ( method = 'ffill' )
+<A> という名前のエクセル <A> の全てのシートを表データに格納する	pd . read_excel ( <A> , sheet_name = None )	pd . read_excel ( <A> , sheet_name = None )
+<A> の重複している値がある行を取り除いて、再代入する	<A> = <A> . drop_duplicates ( )	<A> = <A> . drop_duplicates ( )
+そこで、目印の輪郭色として紺色を使用する	markeredgecolor = 'navy'	markeredgewidth = 'navy'
+エクセルファイル <B> の <C> のシートを読み込んで、 <A> に代入する	<A> = pd . read_excel ( <B> , sheet_name = <C> )	<A> = pd . read_excel ( <B> , sheet_name = <C> )
+<A> の <B> の値を昇順で並び替えて、置き換える	<A> . sort_values ( <B> , inplace = True )	df = <A> . sort_values ( <B> )
+<A> の欠損をその最頻値で補完する	<A> . fillna ( <A> . mode ( ) )	pd . fillna ( <A> . mode ( ) )
+重複する最後の行を残して <B> ( データフレーム ) 中の重複する行を削除を <A> とする	<A> = <B> . drop_duplicates ( keep = False )	df = <B> . drop_duplicates ( keep = False )
+グラフの y 軸のラベルを <A> にする	plt . ylabel ( <A> )	plt . ylabel ( <A> )
+そこで、色は紫をする	color = 'purple'	color = 'purple'
+分割数を <D> として、 <B> の <C> を分割して、 <A> とする	<A> = pd . cut ( <B> [ <C> ] , <D> )	pd . cut ( <A> [ <B> ] , <C> , label = <D> )
+<C> 番目の列を位置として、 <B> をデータフレームに格納して、 <A> に代入する	<A> = pd . read_csv ( <B> , index_col = <C> )	df = pd . read_csv ( <B> , index_col = <C> )
+<A> を <B> をカラム名として表データにする	pd . DataFrame ( <A> , columns = <B> )	pd . DataFrame ( <A> , columns = <B> )
+そこで、円グラフをグラフ種類とする	kind = 'pie'	kind = 'pie'
+そこで、バツのマーカーを表示する	marker = 'x'	markeredgewidth = 'x'
+そこで、グラフとして円グラフを使用する	kind = 'pie'	kind = 'pie'
+そこで、マーカーの形のエッジ色として黄緑色を使用する	markeredgecolor = 'greenyellow'	'greenyellow' = 'greenyellow'
+そこで、 <A> に小数点 2 位まで出力することを指定し、パーセント表記を指定する。	<A> = '%.2f%%'	autopct = '%.2f%%'
+<A> を <B> の値に沿ってソートする	<A> . sort_values ( <B> )	<A> . sort_values ( <B> )
+エクセルファイル <B> の <C> 番目のシートから読んで、 <A> とする	<A> = pd . read_excel ( <B> , sheet_name = <C> )	<A> = pd . read_excel ( <B> , sheet_name = <C> )
+そこで、活性化関数は、恒等関数を用いる	activation = 'identity'	activation = 'tanh'
+そこで、円形を目印にする	marker = 'o'	marker = 'o'
+<A> 内に重複はあるのか確認する	<A> . duplicated ( )	duplicated . duplicated ( subset = <A> )
+<A> の <B> を四分位数ごとでビン分割する	pd . qcut ( <A> [ <B> ] , 4 )	<A> . pd . qcut ( <A> [ <B> ] , 4 )
+そこで、マーカーの形の色を黄色とする	markerfacecolor = 'yellow'	markeredgecolor = 'yellow'
+<B> の欠損値を <B> の平均値で補って、 <A> に代入する	<A> = <B> . fillna ( <B> . mean ( ) )	<A> = <B> . fillna ( <B> . mean ( ) )
+そこで、マーカーの形の色として黄緑色を使う	markerfacecolor = 'greenyellow'	markeredgecolor = 'greenyellow'
+棒グラフのラベル名を <A> から <B> 、 <C> 、 <D> に変える	plt . xticks ( <A> , [ <B> , <C> , <D> ] )	plt . xticks ( <A> , [ <B> , <C> , <D> ] )
+<A> の <B> の NaN を <B> の平均値で補完する	<A> [ <B> ] . fillna ( <A> [ <B> ] . mean ( ) )	fillna <A> [ <B> ] . mean ( ) )
+<A> の <B> をインデックスとして設定し、インプレースする	<A> . set_index ( <B> , inplace = True )	pd . set_index ( <A> , <B> , inplace = True )
+エンコーディングを shift_jis として、 <B> を読み、 <A> に代入する	<A> = pd . read_csv ( <B> , encoding = 'shift_jis' )	encoding = pd . read_csv ( <A> , encoding = 'shift_jis' )
+<A> の NaN の個数を表示する	<A> . isnull ( ) . sum ( )	] . isnull ( ) . sum ( )
+<A> 中で重複している行数	<A> . duplicated ( ) . sum ( )	df . duplicated ( ) . sum ( )
+<A> という列を削除する	df . drop ( <A> , axis = 1 )	df . drop ( <A> , axis = 1 )
+<B> 中の NaN を <B> の平均値で補って、 <A> にする	<A> = <B> . fillna ( <B> . mean ( ) )	<A> = <B> . fillna ( <B> . mean ( ) )
+<A> の欠損を表示する	<A> . isnull ( ) . sum ( )	isnull . isnull ( ) . sum ( )
+重複した最後の行を残して <A> ( データフレーム ) 内の重複している行を消す	<A> . drop_duplicates ( keep = False )	df . drop_duplicates ( keep = False )
+一番左の列をインデックスとして、 <B> をデータフレームに格納して、 <A> とする	<A> = pd . read_csv ( <B> , index_col = 0 )	df = pd . read_csv ( <B> , index_col = 0 )
+そこで、六角ビニングを用いる	kind = 'hexbin'	kind = 'hexbin'
+<A> のヒストグラムをビン数を <B> として作図する	plt . hist ( <A> , bins = <B> )	plt . hist ( <A> , bins = <B> )
+プロットを <A> として保存する	plt . savefig ( <A> )	plt . savefig ( <A> )
+重複している行を削除を <A> にする	<A> = <A> . drop_duplicates ( )	df = df . drop_duplicates ( )
+そこで、色は赤を使う	color = 'red'	color = 'red'
+<A> をビン数 <B> のヒストグラムにする	plt . hist ( <A> , bins = <B> )	plt . hist ( <A> , bins = <B> )
+そこで、打点の色は紫を使う	markerfacecolor = 'purple'	'purple' = 'purple'
+<A> の行の名前	<A> . index	<A> . index
+そこで、色は赤	color = 'red'	color = 'red'
+そこで、目印の色を水色とする	markerfacecolor = 'cyan'	color = 'cyan'
+<A> 全体を位置を元にソートし、 <A> とする	<A> = <A> . sort_index ( )	= <A> . sort_index ( )
+そこで、マーカーの形の輪郭色としてシアンを使う	markeredgecolor = 'cyan'	markeredgewidth = 'cyan'
+<A> のリセットして、元のインデックスを削除する	<A> . reset_index ( drop = True )	marker = <A> . reset_index ( drop = True )
+<A> 中の未記入の値が存在する行を落として、 <A> とする	<A> = <A> . dropna ( )	start = <A> . dropna ( )
+そこで、グラフ種類として折れ線グラフを使用する	kind = 'line'	kind = 'line'
+<A> に重複があるか見る	df . duplicated ( subset = <A> )	df . duplicated ( subset = <A> )
+<A> の重複している値がある行を取り除き、 <A> にする	<A> = <A> . drop_duplicates ( )	start = <A> . drop_duplicates ( )
+そこで、 <A> を区間にする	bins = <A>	range = ( <A> )
+<A> を柱状図にする	plt . hist ( <A> )	plt . hist ( df [ <A> ] )
+<A> の中の未入力の値を直前の行の値で埋め、 <A> にする	<A> = <A> . fillna ( method = 'ffill' )	method = <A> . fillna ( method = 'ffill' )
+そこで、目印のエッジ色は黄緑色を用いる	markeredgecolor = 'greenyellow'	'greenyellow' = 'greenyellow'
+<A> の <B> と <C> を逆順にソートし、再代入する	<A> = <A> . sort_values ( [ <B> , <C> ] , ascending = False )	df = <A> . sort_values ( [ <B> , <C> ] , ascending = False )
+列番号 <B> をインデックスと設定して、 <A> を表に格納する	pd . read_csv ( <A> , index_col = <B> )	pd . read_csv ( <A> , index_col = <B> )
+ヘッダーなしで <A> を読み込む	pd . read_csv ( <A> , header = None )	pd . read_csv ( <A> , encoding = 'shift_jis' )
+そこで、六角形をマーカーの形状とする	marker = 'h'	marker = 'h'
+グラフの x 軸に <A> という軸ラベルを加える	plt . xlabel ( <A> )	plt . xlabel ( <A> )
+<A> を <B> で並べ直し、 <A> にする	<A> = <A> . sort_values ( by = <B> )	<A> = pd . read_csv ( <B> )
+<B> と <C> を横方向にくっつけ、 <A> に代入する	<A> = pd . merge ( <B> , <C> )	df = pd . merge ( <B> , <C> )
+<A> という列を削除	df . drop ( <A> , axis = 1 )	df . drop ( <A> , axis = 1 )
+<A> 中の <B> に重複がある行を削除を <A> にする	<A> = <A> . drop_duplicates ( subset = <B> )	start = <A> . drop_duplicates ( subset = <B> )
+一番左の列を位置と設定して、 <B> からデータフレームとを読み込んで、 <A> に代入する	<A> = pd . read_csv ( <B> , index_col = 0 )	= pd . read_csv ( <A> , index_col = <B> )
+<A> という名前のエクセルファイルの <B> のシートから読む	pd . read_excel ( <A> , sheet_name = <B> )	pd . read_excel ( <A> , sheet_name = <B> )
+<A> 中のカテゴリ変数をダミー変数にする	pd . get_dummies ( <A> )	pd . get_dummies ( <A> )
+表データを <C> 区切りで <B> から読んで、 <A> にする	<A> = pd . read_csv ( <B> , sep = <C> )	sep = pd . read_csv ( <A> , sep = <C> )
+<A> ( データフレーム ) の <B> を昇順にソートして、置き換える	<A> = <A> . sort_values ( <B> )	df . sort_values ( <B> , inplace = True )
+<A> を <B> の値を元に昇順でソートを <A> とする	<A> = <A> . sort_values ( <B> )	= <A> . sort_values ( <B> )
+<B> を表としてカンマ区切りで読み込み、 <A> にする	<A> = pd . read_csv ( <B> , sep = ',' )	df = pd . read_csv ( <A> , sep = <B> )
+そこで、横棒グラフを用いる	kind = 'barh'	kind = 'barh'
+<A> 中で重複する行の合計を調べる	<A> . duplicated ( ) . sum ( )	. duplicated ( ) . sum ( )
+<A> の度数分布図を区間を <B> として作図する	plt . hist ( <A> , bins = <B> )	plt . hist ( <A> , bins = <B> )
+カンマ区切りで CSV ファイル <B> をデータフレームとして読み込み、 <A> に代入する	<A> = pd . read_csv ( <B> , sep = ',' )	= pd . read_csv ( <A> , sep = <B> )
+<B> の NaN が存在する行を落として、 <A> とする	<A> = <B> . dropna ( )	= <B> . dropna ( )
+<A> 全体を <B> の値に基づいてソートして、 <A> とする	<A> = <A> . sort_values ( <B> )	df = <A> . sort_values ( <B> )
+<A> をインデックスを元に並び替え、再代入する	<A> = <A> . sort_index ( )	<A> = <A> . sort_index ( )
+<A> 内の未記入の値を含む行を落とす	<A> . dropna ( )	df . dropna ( )
+エクセルファイル <B> の <C> をデータフレームとして読み、 <A> とする	<A> = pd . read_excel ( <B> , sheet_name = <C> )	pd . read_excel ( <A> , sheet_name = <B> )
+区間を <B> として <A> の柱状グラフを描く	plt . hist ( <A> , bins = <B> )	plt . hist ( <A> , bins = <B> )
+ヘッダーなしで <B> を読み込んで、 <A> とする	<A> = pd . read_csv ( <B> , header = None )	df = pd . read_csv ( <B> , encoding = 'shift_jis' )
+エクセルファイル <A> の <B> からデータフレームを読み込む	pd . read_excel ( <A> , sheet_name = <B> )	<A> . to_excel ( <B> )
+<A> 中の未入力の値がある行を落とし、 <A> に代入する	<A> = <A> . dropna ( )	start = <A> . dropna ( )
+そこで、グラフは密度推定図をする	kind = 'density'	kind = 'density'
+<A> の <B> についての中央値を取得する	<A> [ <B> ] . median ( )	df [ <B> <A> [ <B> ] . median ( ) )
+<A> において、 <B> と <C> と <D> の関係性を一度に作画する	sns . pairplot ( <A> [ [ <B> , <C> , <D> ] ] )	sns . pairplot ( <A> [ [ <B> , <C> , <D> ] ] )
+そこで、ひし形のマーカーの形状を用いる	marker = 'D'	marker = 'D'
+<A> と <B> に重複はあるかどうか確認する	df . duplicated ( subset = [ <A> , <B> ] )	. duplicated ( subset = [ <A> , <B> ] )
+<B> という名前のエクセルの <C> から読み込み、 <A> とする	<A> = pd . read_excel ( <B> , sheet_name = <C> )	<A> = pd . read_excel ( <B> , sheet_name = <C> )
+重複している最後の行を残して <A> ( データフレーム ) の重複している行を落とす	<A> . drop_duplicates ( keep = False )	keep . drop_duplicates ( keep = False )
+<A> と <B> に重複はあるかどうかチェックを確認する	df . duplicated ( subset = [ <A> , <B> ] )	df . duplicated ( subset = [ <A> , <B> ] )
+<A> の欠損値の数	<A> . isnull ( ) . sum ( )	isnull . isnull ( ) . sum ( )
+<A> 中に重複が存在するのか表示する	<A> . duplicated ( )	pd . duplicated ( <A> )
+そこで、グラフ種類としてヒストグラムを用いる	kind = 'hist'	kind = 'hist'
+<B> というエクセルファイルの <C> のシートをデータフレームとして読み、 <A> とする	<A> = pd . read_excel ( <B> , sheet_name = <C> )	df = pd . read_excel ( <B> , sheet_name = <C> )
+そこで、目印の色は水色を用いる	markerfacecolor = 'cyan'	color = 'cyan'
+そこで、マーカーの種類の色は紫を用いる	markerfacecolor = 'purple'	markeredgecolor = 'purple'
+<A> を <B> を元に昇順でソートして、再代入する	<A> = <A> . sort_values ( <B> )	= <A> . sort_values ( <B> )
+<A> の欠損値をその平均値で穴埋めする	<A> . fillna ( <A> . mean ( ) )	pd . fillna ( <A> . mean ( ) )
+<A> の <B> が <C> のデータを得る	<A> [ <A> [ <B> ] == <C> ]	pd <A> [ <A> [ <B> ] == <C> ]
+<B> の重複要素がある行を削除し、 <A> にする	<A> = <B> . drop_duplicates ( )	<A> = <B> . drop_duplicates ( )
+<A> 内の重複を見る	<A> . duplicated ( )	pd . duplicated ( <A> )
+そこで、目印のエッジ色は紺色をする	markeredgecolor = 'navy'	max_iter = 'navy'
+<A> ( データフレーム ) の <B> と <C> を大から小へとソートし、 <A> とする	<A> = <A> . sort_values ( [ <B> , <C> ] , ascending = False )	df = <A> . sort_values ( [ <B> , <C> ] , ascending = False )
+<A> をグラフの y 軸に加える	plt . ylabel ( <A> )	plt . ylabel ( <A> )
+同じグラフ内で <A> の <B> と <A> の <C> と <A> の <D> を箱髭図で作画する	plt . boxplot ( [ <A> [ <B> ] , <A> [ <C> ] , <A> [ <D> ] ] )	color = <A> [ <B> ] . boxplot ( [ <C> ] , <A> [ <D> ] ] ] ] )
+<A> の <B> に重複がある行を落とし、インプレースする	<A> . drop_duplicates ( subset = <B> , inplace = True )	. drop_duplicates ( subset = <B> , inplace = True )
+エクセル <A> のシート全てをデータフレームに格納する	pd . read_excel ( <A> , sheet_name = None )	pd . read_excel ( <A> , sheet_name = None )
+そこで、マーカーのエッジ色として黄緑色を使う	markeredgecolor = 'greenyellow'	'greenyellow' = 'greenyellow'
+<B> をインデックスで並び替え、 <A> とする	<A> = <B> . sort_index ( )	= <B> . sort_index ( )
+<A> において、 <B> と <C> と <D> の関係性を一気に作画する	sns . pairplot ( <A> [ [ <B> , <C> , <D> ] ] )	sns . pairplot ( <A> [ <B> , <C> , <D> ] ] )
+<A> の <B> と <C> を大きい順に並び替えて、 <A> にする	<A> = <A> . sort_values ( [ <B> , <C> ] , ascending = False )	df = <A> . sort_values ( [ <B> , <C> ] , ascending = False )
+<A> の中の欠損の合計を調べる	<A> . isnull ( ) . sum ( )	df . isnull ( ) . sum ( )
+<B> というエクセルの <C> のシートから読み込んで、 <A> とする	<A> = pd . read_excel ( <B> , sheet_name = <C> )	hidden_layer_sizes = pd . read_excel ( <B> , sheet_name = <C> )
+<A> を <B> でソートする	<A> . sort_values ( <B> )	<A> . sort_values ( <B> )
+新しいカラムを <A> に追加し、 <B> とする	<A> [ <B> ] = [ 0 ] * len ( <A> )	hidden_layer_sizes = [ <A> , <B> ] )
+<B> を <C> の値に沿ってソートして、 <A> にする	<A> = <B> . sort_values ( <C> )	df = <B> . sort_values ( <C> )
+棒グラフの位置を真ん中として、 <A> 軸を <A> とした <B> の棒グラフを描画する	plt . bar ( <A> , <B> , align = 'center' )	plt . bar ( <A> , <B> , align = 'center' )
+<A> 内の <B> と <C> に重複があるのかどうか表示してみる	<A> . duplicated ( subset = [ <B> , <C> ] )	plt . duplicated ( subset = [ <A> , <B> , <C> ] )
+重複した最後の行を残して <B> ( データフレーム ) 中の重複している行を落として、 <A> とする	<A> = <B> . drop_duplicates ( keep = False )	df = <B> . drop_duplicates ( keep = False )
+<B> をインデックスで並び替えて、 <A> とする	<A> = <B> . sort_index ( )	= <B> . sort_index ( )
+<A> のインデックスを軸に昇順でソートし、置き換える	<A> = <A> . sort_index ( )	inplace = <A> . sort_index ( )
+そこで、色は紺色をする	color = 'navy'	color = 'navy'
+<A> の <B> の名前を <C> にリネームし、置き換える	<A> = <A> . rename ( index = { <B> : <C> } )	<A> . rename ( index = { <B> : <C> } , inplace = True )
+<A> 内の重複要素がある行を削除して、 <A> に代入する	<A> = <A> . drop_duplicates ( )	<A> = <A> . drop_duplicates ( )
+<B> の <C> の値を昇順で並び替え、 <A> にする	<A> = <B> . sort_values ( <C> )	<A> = <B> . sort_values ( <C> )
+<A> 内の未入力の値の数	<A> . isnull ( ) . sum ( )	df . isnull ( ) . sum ( )
+<A> 内の欠損が存在する行をドロップを <A> とする	<A> = <A> . dropna ( )	start = <A> . dropna ( )
+<B> と <C> を横に結合して、 <A> とする	<A> = pd . merge ( <B> , <C> )	df = pd . merge ( <B> , <C> )
+そこで、面グラフを種類にする	kind = 'area'	kind = 'area'
+とりあえず <A> の内容を調べる	<A> . head ( )	df . head ( )
+そこで、マーカーのエッジ色は赤紫	markeredgecolor = 'magenta'	markeredgecolor = 'magenta'
+そこで、グラフは積み上げにする	stacked = True	stacked = True
+そこで、マーカーの形状の輪郭色は赤をする	markeredgecolor = 'red'	markeredgecolor = 'red'
+エクセルの <A> をデータフレームに読む	pd . read_excel ( <A> )	pd . read_excel ( <A> )
+<A> ( データフレーム ) の <B> を順番になるようにして、再代入する	<A> = <A> . sort_values ( <B> )	<A> = <A> . sort_values ( <B> )
+分割数を <C> 、ビンの名前をインデックスとして、 <A> の <B> を分割する	pd . cut ( <A> [ <B> ] , <C> , label = False )	markersize = pd . cut ( <A> [ <B> ] , <C> , label = False )
+<B> 全体を <C> で並び替え、 <A> とする	<A> = <B> . sort_values ( <C> )	<B> = <C> . sort_values ( <C> )
+CSV ファイル <A> をカンマ区切りで読む	pd . read_csv ( <A> , sep = ',' )	pd . read_csv ( <A> , sep = ',' )
+そこで、カーネル密度推定を使う	kind = 'kde'	kind = 'kde'
+そこで、 <A> を目印の大きさにする	markersize = <A>	markeredgewidth = <A>
+<A> の要約統計量	<A> . describe ( )	df . sort_values ( <A> )
+<A> 内の欠損値の合計を求める	<A> . isnull ( ) . sum ( )	df . isnull ( ) . sum ( )
+そこで、マーカーの色は紫を用いる	markerfacecolor = 'purple'	markerfacecolor = 'purple'
+そこで、マーカーの輪郭色としてマゼンタを使う	markeredgecolor = 'magenta'	markeredgecolor = 'magenta'
+そこで、色は紫で表示する	color = 'purple'	color = 'purple'
+<A> 内の <B> と <C> に重複があるかチェックを表示する	<A> . duplicated ( subset = [ <B> , <C> ] )	pd . duplicated ( subset = [ <A> , <B> , <C> ] )
+そこで、グラフはカーネル密度推定である	kind = 'kde'	kind = 'kde'
+<B> という名前のエクセルの <C> 番目のシートからデータフレームを読み込んで、 <A> とする	<A> = pd . read_excel ( <B> , sheet_name = <C> )	hidden_layer_sizes = pd . read_excel ( <B> , sheet_name = <C> )
+重複した最後の行を残して <A> ( データフレーム ) の重複している行を落とし、置き換える	<A> = <A> . drop_duplicates ( keep = False )	inplace = <A> . drop_duplicates ( keep = True )
+グラフの x 軸を <A> とした <B> の縦向き棒グラフを描画する	plt . barh ( <A> , <B> )	bar plt . bar ( <A> , <B> )
+そこで、マーカーの種類の色はグレーを用いる	markerfacecolor = 'gray'	'gray' = 'gray'
+そこで、種類は積み上げを使う	stacked = True	stacked = True
+<B> 全体を <C> の値を元に昇順でソートを <A> とする	<A> = <B> . sort_values ( <C> )	df = <B> . sort_values ( <C> )
+グラフの x 軸の軸ラベルを <A> とする	plt . xlabel ( <A> )	plt . xlabel ( <A> )
+<A> という名前のエクセルデータの <B> からデータフレームを読む	pd . read_excel ( <A> , sheet_name = <B> )	pd . read_excel ( <A> , sheet_name = <B> )
+そこで、マーカーの形状の輪郭色は黄緑色	markeredgecolor = 'greenyellow'	markeredgecolor = 'greenyellow'
+<A> 全体を <B> の値を軸に並び替える	<A> . sort_values ( <B> )	<A> . sort_values ( <B> )
+一番左の列をインデックスと設定して、 <B> からデータフレームとを読み込み、 <A> にする	<A> = pd . read_csv ( <B> , index_col = 0 )	df = pd . read_csv ( <B> , index_col = 0 )
+<C> 番目の列をインデックスに指定して、 <B> を表データに格納し、 <A> にする	<A> = pd . read_csv ( <B> , index_col = <C> )	<A> = pd . read_csv ( <B> , index_col = <C> )
+<A> 内のそれぞれのカラムに存在する <B> の個数の合計を算出する	<A> . isin ( [ <B> ] ) . sum ( )	isin . isin ( [ <B> ] ) . sum ( )
+<A> 中に重複はあるのか確認する	<A> . duplicated ( )	pd . duplicated ( <A> )
+そこで、グラフの種類は面グラフをする	kind = 'area'	kind = 'area'
+そこで、目印の輪郭色として青を使用する	markeredgecolor = 'blue'	markeredgecolor = 'blue'
+そこで、クロスのマーカーの形状を表示する	marker = 'x'	markersize = 'x'
+<A> 中の NaN を消し、インプレースする	<A> . dropna ( inplace = True )	inplace = <A> . dropna ( )
+<B> をデータフレームとして読み込んで、 <A> とする	<A> = pd . read_csv ( <B> )	df = pd . read_csv ( <B> )
+<A> を位置で並び替えて、置き換える	<A> . sort_index ( inplace = True )	= <A> . sort_index ( )
+<A> 中の欠損値を落として、インプレースする	<A> . dropna ( inplace = True )	df . dropna ( inplace = True )
+<A> 中の <B> を欠損値に置換し、欠損値が存在する行を消して、置き換える	<A> . replace ( <B> , np . nan ) . dropna ( inplace = True )	start = <A> . replace ( <B> , np . nan ) . dropna ( )
+凡例を最も適切な位置に追加する	plt . legend ( loc = 'best' )	plt . legend ( loc = 'best' )
+<A> ( データフレーム ) の <B> を数値データで置き換えて、 <A> とする	<A> = pd . get_dummies ( <A> [ <B> ] )	= pd . get_dummies ( <A> [ <B> ] )
+<A> をインデックスを軸にソートする	<A> . sort_index ( )	df . sort_index ( )
+エクセルファイル <A> の全部のシートをデータフレームに格納する	pd . read_excel ( <A> , sheet_name = None )	pd . read_excel ( <A> , sheet_name = None )
+<A> を <B> を表属性名としてデータフレームにする	pd . DataFrame ( <A> , columns = <B> )	pd . DataFrame ( <A> , columns = <B> )
+そこで、マーカーを五角形とする	marker = '*'	'*' = '*'
+<A> を <B> を列名として表にする	pd . DataFrame ( <A> , columns = <B> )	pd . DataFrame ( <A> , columns = <B> )
+重複した最後の行を残して <A> ( データフレーム ) 中の重複している行をドロップを <A> に代入する	<A> = <A> . drop_duplicates ( keep = False )	df = <A> . drop_duplicates ( keep = False )
+一番左の列をインデックスにして、 <B> からデータフレームとを読み込み、 <A> に代入する	<A> = pd . read_csv ( <B> , index_col = 0 )	df = pd . read_csv ( <B> , index_col = 0 )
+左側のデータのインデックスと右側のデータの <D> を項目名として、 <B> と <C> をマージして、 <A> とする	<A> = pd . merge ( <B> , <C> , left_index = True , right_on = <D> )	df = pd . merge ( <B> , <C> , left_index = True , right_on = <D> )
+先頭の列をインデックスと設定して、 <B> を表データに格納し、 <A> とする	<A> = pd . read_csv ( <B> , index_col = 0 )	df = pd . read_csv ( <B> , index_col = 0 )
+<A> の列名を <B> から <C> にリネームし、再代入する	<A> = <A> . rename ( columns = { <B> : <C> } )	markersize = <A> . rename ( columns = { <B> : <C> } )
+<A> の中の NaN の合計	<A> . isnull ( ) . sum ( )	df . isnull ( ) . sum ( )
+<A> のカラム名を <B> から <C> に、 <D> から <E> にリネームして、 <A> とする	<A> = <A> . rename ( columns = { <B> : <C> , <D> : <E> } )	start = <A> . rename ( columns = { <B> : <C> , <D> : <E> } )
+<A> の位置を軸に並び替え、 <A> とする	<A> = <A> . sort_index ( )	df = <A> . sort_index ( )
+<A> からボックスチャートを描画する	plt . boxplot ( <A> )	plt . boxplot ( <A> )
+そこで、種類として折れ線グラフを使用する	kind = 'line'	kind = 'line'
+<A> 内の欠損を <B> に置き換える	<A> . fillna ( <B> )	df . fillna ( <B> , inplace = True )
+<A> において、全ての要素が <C> のカラムを作り、 <B> とする	<A> [ <B> ] = [ <C> ] * len ( <A> )	df [ <B> ] = [ <C> ] * len ( <A> )
+グラフ要素に凡例を追加する	plt . legend ( )	color = )
+<A> という名前のエクセルデータの <B> のシートを読む	pd . read_excel ( <A> , sheet_name = <B> )	pd . read_excel ( <A> , sheet_name = <B> )
+<A> 内の index が <B> の行	<A> . loc [ <B> ]	loc <A> . loc [ <B> ]
+<A> 中の未記入の値の合計を求める	<A> . isnull ( ) . sum ( )	df . isnull ( ) . sum ( )
+表データを <B> から <C> 区切りで読んで、 <A> とする	<A> = pd . read_csv ( <B> , sep = <C> )	<A> = pd . read_csv ( <B> , sep = <C> )
+そこで、バツ印のマーカーを使用する	marker = 'x'	markeredgewidth = 'x'
+<A> を項目名としてデータを内部結合する	pd . merge ( df1 , df2 , on = <A> )	df1 = pd . merge ( <A> )
+<B> のインデックスを軸に並び替え、 <A> とする	<A> = <B> . sort_index ( )	= <B> . sort_index ( )
+そこで、線の種類を破線とする	linestyle = 'dashed'	kind = 'dashed'
+<A> を <B> を列名として表にする	pd . pd . DataFrame ( <A> , columns = <B> )	pd . DataFrame ( <A> , columns = <B> )
+x 座標を <A> とした <B> の縦棒グラフを表示する	plt . bar ( <A> , <B> )	plt . bar ( <A> , <B> )
+そこで、目印の輪郭色は赤紫色にする	markeredgecolor = 'magenta'	markeredgecolor = 'magenta'
+そこで、マーカーの色は黄緑色である	markerfacecolor = 'greenyellow'	color = 'greenyellow'
+そこで、マーカーの種類として六角形を用いる	marker = 'h'	marker = 'h'
+<A> を位置を元に昇順で並び替え、置き換える	<A> = <A> . sort_index ( )	inplace = <A> . sort_index ( )
+<A> の中の <B> に重複があるか確認する	<A> . duplicated ( subset = <B> )	df . duplicated ( subset = <B> )
+同じグラフ内で <A> の <B> と <A> の <C> と <A> の <D> を箱ひげ図で作画する	plt . boxplot ( [ <A> [ <B> ] , <A> [ <C> ] , <A> [ <D> ] ] )	pd . merge ( <A> [ <B> ] , <C> , <A> [ <D> ] ] ] ] ] )
+エクセルファイル <A> をデータフレームに読む	pd . read_excel ( <A> )	pd . read_excel ( <A> )
+<A> 内のそれぞれのカラムにある <B> の個数を算出する	<A> . isin ( [ <B> ] ) . sum ( )	<A> . isin ( [ <B> ] ) . sum ( )
+x 座標に <A> というラベルを付ける	plt . xlabel ( <A> )	plt . xlabel ( <A> )
+<A> を小から大へとして、置き換える	df = df . sort_values ( <A> )	<A> = <A> . sort_values ( )
+<A> の重複する行を削除し、置き換える	<A> = <A> . drop_duplicates ( )	= <A> . drop_duplicates ( )
+<A> 番まで列が表示できるように変更する	pd . set_option ( 'display.max_columns' , <A> )	max_iter = pd . set_option ( <A> )
+<B> を <C> をカラム名として表に変換し、 <A> にする	<A> = pd . pd . DataFrame ( <B> , columns = <C> )	df = pd . pd . DataFrame ( <B> , columns = <C> )
+x 座標を <A> として、 <B> の縦棒グラフを描画する	plt . bar ( <A> , <B> )	plt . bar ( <A> , <B> )
+<B> の <E> について、 <C> を位置、 <D> をコラムとしたピボットテーブルを作成し、 <A> とする	<A> = <B> . pivot_table ( index = <C> , columns = <D> , values = <E> )	df = <B> . pivot_table ( index = <C> , columns = <D> , values = <E> )
+<A> 全体をインデックスに基づいてソートして、置き換える	<A> = <A> . sort_index ( )	= <A> . sort_index ( )
+<B> 中の欠損値を落とし、 <A> とする	<A> = <B> . dropna ( )	= <B> . dropna ( )
+そこで、マーカーの種類として円を使用する	marker = 'o'	marker = 'o'
+<A> と <B> を値が大きい順にする	df . sort_values ( [ <A> , <B> ] , ascending = False )	<A> . sort_values ( [ <B> ] , ascending = False )
+そこで、円の目印を使用する	marker = 'o'	marker = 'o'
+<A> を <B> という名前でエクセルファイルに書き込む	<A> . to_excel ( <B> )	pd . read_excel ( <A> , sheet_name = <B> )
+同じ軸で <A> の <B> と <C> と <D> をボックスチャートで描く	plt . boxplot ( [ <A> [ <B> ] , <A> [ <C> ] , <A> [ <D> ] ] )	pd . boxplot [ <A> [ <B> ] , <A> [ <C> ] , <A> [ <D> ] ] ] )
+<A> の NaN が存在する行を落として、 <A> とする	<A> = <A> . dropna ( )	start = <A> . dropna ( )
+そこで、グラフは、折れ線グラフを用いる	kind = 'line'	kind = 'line'
+<A> 中の NaN の合計	<A> . isnull ( ) . sum ( )	df . isnull ( ) . sum ( )
+<A> の <B> を NaN に置換し、 NaN がある行を落とし、インプレースする	<A> . replace ( <B> , np . nan ) . dropna ( inplace = True )	<A> . replace ( <B> , np . nan ) . dropna ( inplace = True )
+片方のテーブルにしかないデータも全て残して <B> ( データフレーム ) と <C> を一つにまとめて、 <A> とする	<A> = pd . merge ( <B> , <C> , how = 'outer' )	how = pd . merge ( <A> , <B> , <C> , how = 'outer' )
+<A> 全体を <B> の値を元に昇順でソートして、置き換える	<A> = <A> . sort_values ( <B> )	<A> = <A> . sort_values ( <B> )
+タブ区切りで <A> を読む	pd . read_csv ( <A> , sep = '\t' )	pd . read_csv ( <A> , sep = '\t' )
+<A> の <B> の値をソートを <A> とする	<A> = <A> . sort_values ( <B> )	df = <A> . sort_values ( <B> )
+<B> 全体を位置を元にソートして、 <A> とする	<A> = <B> . sort_index ( )	= <B> . sort_index ( )
+<A> をグラフの y 軸、 <B> を横軸として、折れ線グラフを描く	plt . plot ( <A> , <B> )	plt . plot ( <A> , <B> )
+<A> というエクセルファイルの <B> 番目のシートを表データに格納する	pd . read_excel ( <A> , sheet_name = <B> )	pd . read_excel ( <A> , sheet_name = <B> )
+そこで、グラフは円グラフをする	kind = 'pie'	kind = 'pie'
+<A> の <B> と <C> に重複がある場合	if <A> . duplicated ( subset = [ <B> , <C> ] ) :	sns . duplicated ( subset = [ <A> , <B> , <C> ] ) :
+<A> の重複した行をドロップ	<A> . drop_duplicates ( )	) . drop_duplicates ( )
+<A> の NaN を含む行をドロップを <A> に代入する	<A> = <A> . dropna ( )	= <A> . dropna ( )
+<B> からデータフレームをカンマ区切りで読み込み、 <A> に代入する	<A> = pd . read_csv ( <B> , sep = ',' )	df = pd . read_csv ( <B> , sep = ',' )
+<B> を表データにし、 <A> とする	<A> = pd . pd . DataFrame ( <B> , columns = [ 'label' ] )	<A> = pd . pd . DataFrame ( <B> , columns = [ 'label' ] )
+<A> の <C> の秒を確認し、  <A> [ <B> ] にする	<A> [ <B> ] = <A> [ <C> ] . dt . second	<A> [ <B> ] = <A> [ <C> ] . dt . day )
+<A> の <B> が <C> より大きいデータを取得する	<A> [ <A> [ <B> ] >  <C> ]	pd <A> [ <A> [ <B> ] > <C> ]
+<A> と <B> の折れ線グラフを <C> で描写する	plt . plot ( <A> , <B> , color = <C> )	plt . plot ( <A> , <B> , color = <C> )
+<A> と <B> を <C> 色の折れ線グラフで描写する	plt . plot ( <A> , <B> , color = <C> )	plt . plot ( <A> , <B> , color = <C> )
+列番号 <C> をインデックスと設定して、 <B> をデータフレームとして読み、 <A> とする	<A> = pd . read_csv ( <B> , index_col = <C> )	df = pd . read_csv ( <B> , index_col = <C> )
+<A> の未記入の値を平均値で補完する	<A> . fillna ( <A> . mean ( ) )	) . fillna ( <A> . mean ( ) )
+<A> 内に存在する <B> を未入力の値に置換し、置き換える	<A> . replace ( <B> , np . nan , inplace = True )	df . replace ( <A> , <B> , np . nan , inplace = True )
+<B> を one - hot 表現にし、 <A> に代入する	<A> = pd . get_dummies ( <A> [ <B> ] )	= pd . get_dummies ( <A> [ <B> ] )
+そこで、マーカーの形のエッジ色は水色にする	markeredgecolor = 'cyan'	markeredgewidth = 'cyan'
+<A> 内の未記入の値がある行を落として、 <A> にする	<A> = <A> . dropna ( )	start = <A> . dropna ( )
+重複した最後の行を残して <B> ( データフレーム ) の重複している行を削除して、 <A> にする	<A> = <B> . drop_duplicates ( keep = False )	df = <B> . drop_duplicates ( keep = False )
+重複している最後の行を残して <A> ( データフレーム ) の重複している行を落として、置き換える	<A> = <A> . drop_duplicates ( keep = False )	inplace = <A> . drop_duplicates ( keep = True )
+<A> を <B> の値を元にソートする	<A> . sort_values ( <B> )	<A> . sort_values ( <B> )
+<A> 中の <B> を NaN に置換し、 NaN が存在する行を落とす	<A> . replace ( <B> , np . nan ) . dropna ( )	replace <A> . replace ( <B> , np . nan ) . dropna ( )
+<A> の各行に重複があるかどうか	<A> . duplicated ( )	pd . duplicated ( <A> )
+<A> のカラム名を <B> から <C> に、 <D> から <E> にリネームして、インプレースする	<A> . rename ( columns = { <B> : <C> , <D> : <E> } , inplace = True )	marker . rename ( columns = { <B> : <C> , <D> : <E> } , inplace = True )
+<A> 内の列それぞれにある <B> の個数を確認する	<A> . isin ( [ <B> ] ) . sum ( )	<A> . isin ( [ <B> ] ) . sum ( )
+カンマ区切りで表を CSV ファイル <B> から読み込んで、 <A> にする	<A> = pd . read_csv ( <B> , sep = ',' )	= pd . read_csv ( <A> , sep = <B> )
+多層パーセプトロンモデルを初期化する	sklearn . neural_network . MLPClassifier ( )	neural_network . MLPClassifier ( )
+エクセルファイル <A> のシート全部から読む	pd . read_excel ( <A> , sheet_name = None )	pd . read_excel ( <A> , sheet_name = None )
+エクセルファイル <B> の <C> を読んで、 <A> とする	<A> = pd . read_excel ( <B> , sheet_name = <C> )	hidden_layer_sizes = pd . read_excel ( <B> , sheet_name = <C> )
+<A> の NaN を <A> の平均値で埋める	<A> . fillna ( <A> . mean ( ) )	) . fillna ( <A> . mean ( ) )
+<A> に重複がある行を削除し、再代入する	df = df . drop_duplicates ( subset = <A> )	df = df . drop_duplicates ( subset = <A> )
+<A> の未記入の値をその中央値で補完する	<A> . fillna ( <A> . median ( ) )	pd . fillna ( <A> . median ( ) )
+エクセルデータ <B> からデータフレームを読んで、 <A> とする	<A> = pd . read_excel ( <B> )	df = pd . read_excel ( <B> )
+列番号 <C> をインデックスと設定して、 <B> を表に格納し、 <A> にする	<A> = pd . read_csv ( <B> , index_col = <C> )	<A> = pd . read_csv ( <B> , index_col = <C> )
+そこで、目印のエッジ色としてグレーを使用する	markeredgecolor = 'gray'	markeredgecolor = 'gray'
+<A> をインデックスで並び替え、置き換える	<A> = <A> . sort_index ( )	inplace = <A> . sort_index ( )
+<A> の位置を軸にソートし、再代入する	<A> = <A> . sort_index ( )	df = <A> . sort_index ( )
+<A> 中の重複する行を削除を <A> とする	<A> = <A> . drop_duplicates ( )	= <A> . drop_duplicates ( )
+<B> というエクセルファイルの全部のシートからデータフレームを読み、 <A> とする	<A> = pd . read_excel ( <B> , sheet_name = None )	df = pd . read_excel ( <B> , sheet_name = None )
+そこで、ビン数として <A> を使用する	bins = <A>	bins = <A>
+そこで、目印の色は水色	markerfacecolor = 'cyan'	color = 'cyan'
+<A> を <B> の値を元にソートして、再代入する	<A> = <A> . sort_values ( <B> )	= <A> . sort_values ( <B> )
+<A> というエクセルデータの全部のシートを読み込む	pd . read_excel ( <A> , sheet_name = None )	pd . read_excel ( <A> , sheet_name = None )
+そこで、目印の色はグレーである	markerfacecolor = 'gray'	color = 'gray'
+<A> 内の欠損値を落とし、インプレースする	<A> . dropna ( inplace = True )	inplace = <A> . dropna ( )
+エクセルデータ <A> をデータフレームに格納する	pd . read_excel ( <A> , sheet_name = None )	pd . read_excel ( <A> )
+エクセルファイル <B> の <C> を表に格納して、 <A> に代入する	<A> = pd . read_excel ( <B> , sheet_name = <C> )	<A> = pd . read_excel ( <B> , sheet_name = <C> )
+多層パーセプトロンを準備して、 <A> とする	<A> = sklearn . neural_network . MLPClassifier ( )	df = sklearn . neural_network . MLPClassifier ( )
+<B> と <C> を縦向きに結合して、 <A> とする	<A> = pd . concat ( [ <B> , <C> ] )	df = pd . concat ( [ <B> , <C> ] )
+グラフの x 軸を <A> として、 <B> の鉛直棒グラフを作画する	plt . bar ( <A> , <B> )	plt . barh ( <A> , <B> )
+<B> というエクセルの <C> のシートからデータフレームを読み込んで、 <A> とする	<A> = pd . read_excel ( <B> , sheet_name = <C> )	<A> = pd . read_excel ( <B> , sheet_name = <C> )
+そこで、目印の輪郭色は紺色を使う	markeredgecolor = 'navy'	markeredgewidth = 'navy'
+日本語をグラフ中で表示できるようにする	sns . set ( font = 'IPAexGothic' , style = 'white' )	for i , style = 'white' )
+<A> の最初から <B> 行まで	<A> [ : <B> ]	<A> [ : <B> ]
+<A> の中の欠損の数を求める	<A> . isnull ( ) . sum ( )	df . isnull ( ) . sum ( )
+<A> 内の <B> に重複が存在するのか確認する	<A> . duplicated ( subset = <B> )	df . duplicated ( subset = <B> )
+<B> の中の未入力の値を直前の行の値で埋め、 <A> とする	<A> = <B> . fillna ( method = 'ffill' )	= <B> . fillna ( method = 'ffill' )
+<A> を <B> に BOM 付きで保存する	<A> . to_csv ( <B> , encoding = 'utf_8_sig' )	df . sort_values ( <B> , encoding = 'utf_8_sig' )
+<B> 内の NaN が存在する行を削除し、 <A> とする	<A> = <B> . dropna ( )	= <B> . dropna ( )
+<A> の列の名前	<A> . columns	<A> . columns
+そこで、打点の輪郭色は黄緑にする	markeredgecolor = 'greenyellow'	'greenyellow' = 'greenyellow'
+<A> に重複はあるかチェック	df . duplicated ( subset = <A> )	df . duplicated ( subset = <A> )
+<A> という列を消し、置き換える	df = df . drop ( <A> , axis = 1 )	df = df . drop ( <A> , axis = 1 )
+重複した最後の行を残して <A> ( データフレーム ) 中の重複した行を削除を <A> にする	<A> = <A> . drop_duplicates ( keep = False )	start = <A> . drop_duplicates ( keep = False )
+そこで、マゼンタをマーカーの色にする	markerfacecolor = 'magenta'	markerfacecolor = 'magenta'
+同じ軸のセットで <A> の <B> と <A> の <C> と <A> の <D> を箱ひげ図で表示する	plt . boxplot ( [ <A> [ <B> ] , <A> [ <C> ] , <A> [ <D> ] ] )	sns . boxplot ( [ <A> [ <B> ] , <A> [ <C> , <A> [ <D> ] ] ] )
+<A> 全体を <B> の値で並び替え、インプレースする	<A> . sort_values ( <B> , inplace = True )	<A> . sort_values ( <B> , inplace = True )
+エクセルファイル <B> を読み込んでデータフレームにし、 <A> にする	<A> = pd . read_excel ( <B> )	df = pd . read_excel ( <B> )
+<A> 内の <B> に重複があるかどうか調べる	<A> . duplicated ( subset = <B> )	df . duplicated ( subset = <B> )
+<A> の下 <B> 行を確認する	<A> . tail ( <B> )	df . tail ( <B> )
+描いたグラフを <A> というファイルで保存する	plt . savefig ( <A> )	plt . savefig ( <A> )
+そこで、マーカーの輪郭色は紺色を使う	markeredgecolor = 'navy'	markeredgewidth = 'navy'
+<A> の中の未記入の値を <B> に置き換えて、置き換える	<A> = <A> . fillna ( <B> )	df = <A> . fillna ( <B> )
+<A> に重複があるか確認	df . duplicated ( subset = <A> )	pd . duplicated ( <A> )
+<A> 内で重複した行の合計を調べる	<A> . duplicated ( ) . sum ( )	df . duplicated ( ) . sum ( )
+グラフの y 軸に <A> をつける	plt . ylabel ( <A> )	plt . ylabel ( <A> )
+そこで、マーカーの種類の色は黄色	markerfacecolor = 'yellow'	markeredgecolor = 'yellow'
+<B> 中の NaN を <C> とし、 <A> とする	<A> = <B> . fillna ( <C> )	plt = <B> . fillna ( <C> )
+<A> の重複要素がある行を取り除いて、 <A> に代入する	<A> = <A> . drop_duplicates ( )	<A> = <A> . drop_duplicates ( )
+エクセルデータ <A> を読み込んで表にする	pd . read_excel ( <A> )	pd . read_excel ( <A> )
+<A> の <B> を位置に設定して、再代入する	<A> = <A> . set_index ( <B> )	plt = <A> . set_index ( <B> )
+<B> をインデックスでソートし、 <A> に代入する	<A> = <B> . sort_index ( )	= <B> . sort_index ( )
+<A> 内の列それぞれに存在する <B> の個数を求める	<A> . isin ( [ <B> ] ) . sum ( )	<A> . isin ( [ <B> ] ) . sum ( )
+そこで、黄緑をマーカーの形状のエッジ色とする	markeredgecolor = 'greenyellow'	'greenyellow' = 'greenyellow'
+そこで、マーカーのエッジ色は水色にする	markeredgecolor = 'cyan'	markeredgewidth = 'cyan'
+<A> に重複があるのか表示してみる	df . duplicated ( subset = <A> )	df . duplicated ( subset = <A> )
+<A> 中の NaN を消す	<A> . dropna ( )	<A> . dropna ( )
+<A> 中の NaN の数を見る	<A> . isnull ( ) . sum ( )	isnull . isnull ( ) . sum ( )
+<B> の <C> の値をソートし、 <A> にする	<A> = <B> . sort_values ( <C> )	<B> <A> = <C> . sort_values ( <C> )
+先頭の列を位置として、 <B> を読んで、 <A> とする	<A> = pd . read_csv ( <B> , index_col = 0 )	pd . read_csv ( <A> , index_col = <B> )
+そこで、グラフの種類は密度推定をする	kind = 'density'	kind = 'density'
+そこで、目印のエッジ色は赤紫色にする	markeredgecolor = 'magenta'	markeredgecolor = 'magenta'
+データフレームを <B> から読み込んで、 <A> にする	<A> = pd . read_csv ( <B> )	<A> = pd . read_csv ( <B> )
+<A> のそれぞれのカラムに存在する <B> の個数の合計値を算出する	<A> . isin ( [ <B> ] ) . sum ( )	<A> . isin ( [ <B> ] ) . sum ( )
+エクセルファイル <B> の全てのシートからデータフレームを読み、 <A> とする	<A> = pd . read_excel ( <B> , sheet_name = None )	df = pd . read_excel ( <B> , sheet_name = None )
+<A> を表データとして読み込む	pd . read_csv ( <A> )	pd . read_csv ( <A> )
+<A> 中の <B> に重複がある行を削除する	<A> . drop_duplicates ( subset = <B> )	start = <A> . drop_duplicates ( subset = <B> )
+そこで、マーカーの輪郭色として赤色を使う	markeredgecolor = 'red'	markeredgecolor = 'red'
+同じグラフ内で <A> の <B> と <C> と <D> を箱ひげ図で作図する	plt . boxplot ( [ <A> [ <B> ] , <A> [ <C> ] , <A> [ <D> ] ] )	pd . merge ( <A> [ <B> ] , <C> , <A> [ <D> ] ] ] ] ] )
+カンマ区切りで CSV ファイル <A> を読む	pd . read_csv ( <A> , sep = ',' )	',' = pd . read_csv ( <A> )
+<A> の未入力の値を直前の行の値で補って、 <A> とする	<A> = <A> . fillna ( method = 'ffill' )	start = <A> . fillna ( method = 'ffill' )
+<A> 内の重複をチェックする	<A> . duplicated ( )	pd . duplicated ( <A> )
+<A> 中の NaN を直前の行の値で補う	<A> . fillna ( method = 'ffill' )	<A> . fillna ( method = 'ffill' )
+そこで、マーカーの輪郭線は <A> を使う	markeredgewidth = <A>	bins = <A>
+<A> に重複があるかどうかを検出する	<A> . duplicated ( )	pd . duplicated ( <A> )
+<A> 中の欠損を削除して、置き換える	<A> = <A> . dropna ( )	inplace = <A> . dropna ( )
+<A> 内の欠損を <B> に置換する	<A> . fillna ( <B> )	<A> . fillna ( <B> )
+<A> と <B> を折れ線グラフで表示する	plt . plot ( <A> , <B> )	kind = <A> . plot ( <B> )
+重複している行をドロップ	df . drop_duplicates ( )	plt . drop_duplicates ( )
+そこで、 <A> を区関の数にする	bins = <A>	bins = <A>
+グラフの x 軸を <A> として、 <B> の縦棒グラフを描画する	plt . bar ( <A> , <B> )	plt . bar ( <A> , <B> )
+<A> と <B> の折れ線グラフを描く	plt . plot ( <A> , <B> )	plt . plot ( <A> , <B> )
+<A> の中の重複する値がある行を取り除く	<A> . drop_duplicates ( )	start . drop_duplicates ( )
+そこで、色は黄緑で表示する	color = 'greenyellow'	color = 'greenyellow'
+<A> において、全ての要素が <C> の列を作り、 <B> とする	<A> [ <B> ] = [ <C> ] * len ( <A> )	<A> [ <B> ] = [ <C> ] * len ( <A> )
+<B> を <C> をコラム名としてデータフレームにし、 <A> にする	<A> = pd . pd . DataFrame ( <B> , columns = <C> )	byteorder <A> = pd . pd . DataFrame ( <B> , columns = <C> )
+<A> の NaN が存在する行を消し、置き換える	<A> . dropna ( inplace = True )	inplace = <A> . dropna ( )
+<A> をグラフの y 軸、 <B> を x 座標として、折れ線グラフを描写する	plt . plot ( <A> , <B> )	plt . plot ( <A> , <B> )
+<A> 中の NaN がある行を消し、インプレースする	<A> . dropna ( inplace = True )	. dropna ( inplace = True )
+<A> の重複している行をドロップして、インプレースする	<A> . drop_duplicates ( inplace = True )	inplace = <A> . drop_duplicates ( )
+エクセルファイル <A> の <B> をデータフレームに格納する	pd . read_excel ( <A> , sheet_name = <B> )	pd . read_excel ( <A> , sheet_name = <B> )
+グラフの日本語フォントを有効にする	sns . set ( font = 'IPAexGothic' , style = 'white' )	plt . set ( font = 'IPAexGothic' )
+<A> の <B> に重複がある行を削除する	<A> . drop_duplicates ( subset = <B> )	start = <A> . drop_duplicates ( subset = <B> )
+<B> を小から大へとソートを <A> に代入する	<A> = <A> . sort_values ( <B> )	df = <A> . sort_values ( <B> )
+そこで、マーカーの種類の輪郭色はネイビーをする	markeredgecolor = 'navy'	markeredgewidth = 'navy'
+<A> 内の重複している行を落とす	<A> . drop_duplicates ( )	plt . drop_duplicates ( )
+<A> ( データフレーム ) の <B> をソート	<A> . sort_values ( <B> )	<A> . sort_values ( <B> )
+<A> から箱ひげ図をプロットする	plt . boxplot ( <A> )	plt . hist ( <A> )
+そこで、四角のマーカーの種類を表示する	marker = 's'	marker = 's'
+<A> を <B> にインデックスなしで保存する	<A> . to_csv ( <B> , index = False )	df . to_csv ( <B> , index = False )
+<A> を位置を元に並び替える	<A> . sort_index ( )	df . sort_index ( )
+棒グラフの項目名を <A> から <B> 、 <C> 、 <D> に変える	plt . xticks ( <A> , [ <B> , <C> , <D> ] )	sns . xticks ( <A> [ <B> , <C> , <D> ] )
+作成したプロットを <A> というファイル名で保存する	plt . savefig ( <A> )	plt . savefig ( <A> )
+一番左の列をインデックスと設定して、 <A> からデータフレームとを読む	pd . read_csv ( <A> , index_col = 0 )	pd . read_csv ( <A> , index_col = 0 )
+左側のデータのインデックスと右側のデータの <A> を項目名として 2 つのデータを結合する	pd . merge ( df1 , df2 , left_index = True , right_on = <A> )	pd . merge ( df1 , df2 , left_index = True , right_on = <A> )
+そこで、マーカーを正方形とする	marker = 's'	marker = 's'
+<A> の未記入の値をその平均値で補完する	<A> . fillna ( <A> . mean ( ) )	) . fillna ( <A> . mean ( ) )
+先頭の列を位置と設定して、 <A> をデータフレームに格納する	pd . read_csv ( <A> , index_col = 0 )	pd . read_csv ( <A> , index_col = 0 )
+そこで、マーカーの輪郭色として黄緑を用いる	markeredgecolor = 'greenyellow'	markeredgecolor = 'greenyellow'
+<A> 内 ] [ でもの	<A> [ <A> . duplicated ( ) ]	[ <A> . duplicated ( ) ]
+<B> の重複している値がある行を削除し、 <A> とする	<A> = <B> . drop_duplicates ( )	= <B> . drop_duplicates ( )
+<B> を <C> を表属性名として表に変換して、 <A> にする	<A> = pd . pd . DataFrame ( <B> , columns = <C> )	byteorder <A> = pd . pd . DataFrame ( <B> , columns = <C> )
+<B> の <C> を位置に設定し、 <A> とする	<A> = <B> . set_index ( <C> )	<A> = <B> . set_index ( <C> )
+<A> の <B> 行目から最後までを見る	<A> [ <B> : ]	df [ <B> : ]
+グラフの x 軸の軸ラベルを <A> とセットする	plt . xlabel ( <A> )	plt . xlabel ( <A> )
+<A> 中の NaN を <B> として、インプレースする	<A> . fillna ( <B> , inplace = True )	<A> . fillna ( <B> , inplace = True )
+そこで、五角形のマーカーの形状を表示する	marker = '*'	'*' = '*'
+<A> から <B> というエクセルファイルにする	<A> . to_excel ( <B> )	pd . read_excel ( <A> , sheet_name = <B> )
+そこで、マーカーの種類の色は青色を用いる	markerfacecolor = 'blue'	markeredgecolor = 'blue'
+<A> 中の重複しているデータを抽出する	<A> [ <A> . duplicated ( ) ]	[ <A> . duplicated ( ) ]
+<B> を小から大へと並び替えて、 <A> とする	<A> = df . sort_values ( <B> )	<A> = <A> . sort_values ( <B> )
+<A> の未入力の値をドロップし、インプレースする	<A> . dropna ( inplace = True )	inplace = <A> . dropna ( )
+<A> という名前のエクセルを読み込む	pd . read_excel ( <A> )	pd . read_excel ( <A> )
+<A> の <B>	<A> [ <B> ]	<A> [ <B> ]
+<A> の <B> を消して、 <A> とする	<A> = <A> . drop ( <B> , axis = 1 )	plt = <A> . drop ( <B> , axis = 1 )
+横軸のラベルを <A> とする	plt . xlabel ( <A> )	plt . xlabel ( <A> )
+そこで、菱形のマーカーの形状を使用する	marker = 'D'	markeredgewidth = 'D'
+<A> ( データフレーム ) の <B> と <C> を降順にソートし、再代入する	<A> = <A> . sort_values ( [ <B> , <C> ] , ascending = False )	df = <A> . sort_values ( [ <B> , <C> ] , ascending = False )
+<A> の標準偏差	<A> . std ( )	<A> . std ( )
+<A> 中の欠損を <B> とし、 <A> とする	<A> = <A> . fillna ( <B> )	start = <A> . fillna ( <B> )
+そこで、赤をマーカーの色とする	markerfacecolor = 'red'	markeredgecolor = 'red'
+そこで、マーカーの輪郭色は水色をする	markeredgecolor = 'cyan'	markeredgecolor = 'cyan'
+<A> 中の <B> を未記入の値に置換し、未記入の値がある行を削除する	<A> . replace ( <B> , np . nan ) . dropna ( )	replace <A> . replace ( <B> , np . nan ) . dropna ( )
+<A> 内のカラムそれぞれに存在する <B> の個数を確認する	<A> . isin ( [ <B> ] ) . sum ( )	<A> . isin ( [ <B> ] ) . sum ( )
+<A> の <B> と <C> を逆順にソートして、 <A> に代入する	<A> = <A> . sort_values ( [ <B> , <C> ] , ascending = False )	df = <A> . sort_values ( [ <B> , <C> ] , ascending = False )
+<A> 中の欠損の合計	<A> . isnull ( ) . sum ( )	df . isnull ( ) . sum ( )
+<A> 中の欠損値をドロップして、 <A> とする	<A> = <A> . dropna ( )	start = <A> . dropna ( )
+<A> 内の NaN を <B> に置換する	<A> . fillna ( <B> )	<A> . fillna ( <B> )
+そこで、赤紫をマーカーの輪郭色にする	markeredgecolor = 'magenta'	markeredgecolor = 'magenta'
+作ったグラフを <A> というファイルで書き出す	plt . savefig ( <A> )	plt . savefig ( <A> )
+<A> を位置を軸にソートする	<A> . sort_index ( )	plt . sort_index ( )
+<A> 内に重複があるのかどうか確認する	<A> . duplicated ( )	df . duplicated ( subset = <A> )
+そこで、円グラフ上に小数点 2 位までのパーセント表記で構成割合を出力する	autopct = '%.2f%%'	autopct = '%.2f%%'
+一番左の列をインデックスと設定して、 <B> からデータフレームとを読み、 <A> とする	<A> = pd . read_csv ( <B> , index_col = 0 )	df = pd . read_csv ( <B> , index_col = 0 )
+そこで、グラフとして六角ビニング図を使う	kind = 'hexbin'	kind = 'hexbin'
+そこで、グラフは密度推定を使う	kind = 'density'	kind = 'density'
+そこで、グラフ種類は六角ビニングにする	kind = 'hexbin'	kind = 'hexbin'
+重複する最後の行を残して <A> ( データフレーム ) 内の重複する行を消す	<A> . drop_duplicates ( keep = False )	df . drop_duplicates ( keep = False )
+そこで、色として黄緑を使用する	color = 'greenyellow'	color = 'greenyellow'
+<A> の中の NaN をドロップして、置き換える	<A> . dropna ( inplace = True )	inplace = <A> . dropna ( )
+そこで、グラフの色を黄色とする	color = 'yellow'	color = 'yellow'
+<A> と <B> を縦向きに連結	pd . concat ( [ <A> , <B> ] )	pd . concat ( [ <A> , <B> ] )
+そこで、マーカーの種類は六角形をする	marker = 'h'	marker = 'h'
+そこで、バッファリングしない	buffering = -1	encoding = 'shift_jis'
+そこで、マーカーの形の色として紫色を使用する	markerfacecolor = 'purple'	markeredgecolor = 'purple'
+そこで、色は黄緑色である	color = 'greenyellow'	color = 'greenyellow'
+<A> と <B> を縦にマージする	pd . concat ( [ <A> , <B> ] )	pd . concat ( [ <A> , <B> ] )
+<B> の全ての列の重複する値がある行を取り除き、 <A> とする	<A> = <B> . drop_duplicates ( )	= <B> . drop_duplicates ( )
+<A> を <B> を列名として表データにする	pd . pd . DataFrame ( <A> , columns = <B> )	pd . DataFrame ( <A> , columns = <B> )
+一番左の列を位置と設定して、 <B> をデータフレームとして読み込み、 <A> に代入する	<A> = pd . read_csv ( <B> , index_col = 0 )	<A> = pd . read_csv ( <B> , index_col = 0 )
+<A> の未入力の値の個数	<A> . isnull ( ) . sum ( )	] . isnull ( ) . sum ( )
+<A> 全体を位置を軸にソートし、置き換える	<A> . sort_index ( inplace = True )	df = <A> . sort_index ( )
+<A> 中の NaN を <A> の平均値で埋めて、 <A> とする	<A> = <A> . fillna ( <A> . mean ( ) )	df = <A> . fillna ( <A> . mean ( ) )
+分割数を <C> 、ビンの名前を <D> として、 <A> の <B> をビン分割する	pd . cut ( <A> [ <B> ] , <C> , label = <D> )	pd . cut ( <A> [ <B> ] , <C> , label = <D> )
+<A> のインデックス名を <B> から <C> に変更して、 <A> に代入する	<A> = <A> . rename ( index = { <B> : <C> } )	<B> <A> . rename ( index = { <C> : <D> } , inplace = True )
+<A> のカラム名を <B> から <C> に、 <D> から <E> にリネームする	<A> . rename ( columns = { <B> : <C> , <D> : <E> } )	df . rename ( columns = { <B> : <C> , <D> : <E> } )
+<B> の <C> と <D> を降順に並び替え、 <A> とする	<A> = <B> . sort_values ( [ <C> , <D> ] , ascending = False )	df = <B> . sort_values ( [ <C> , <D> ] , ascending = False )
+グラフの x 軸を <A> として、 <B> の縦棒グラフをプロットする	plt . bar ( <A> , <B> )	plt . bar ( <A> , <B> )
+<A> と <B> の折れ線グラフを <C> とラベル付けして描画する	plt . plot ( <A> , <B> , label = <C> )	plt . plot ( <A> , <B> , label = <C> )
+<A> の <B> に重複がある行を落とし、再代入する	<A> = <A> . drop_duplicates ( subset = <B> )	df = <A> . drop_duplicates ( subset = <B> )
+<A> ( データフレーム ) の <B> と <C> を大から小へとソート	<A> . sort_values ( [ <B> , <C> ] , ascending = False )	df . sort_values ( [ <A> , <B> , <C> ] , ascending = False )
+<A> の <B> を軸に昇順で並び替えて、 <A> とする	<A> = <A> . sort_values ( <B> )	= <A> . sort_values ( <B> )
+<B> から <C> の範囲で <A> のヒストグラムを表示する	plt . hist ( <A> , range = ( <B> , <C> ) )	range = ( <A> , <B> , <C> ) )
+一番左の列を位置にして、 <A> を表データに格納する	pd . read_csv ( <A> , index_col = 0 )	pd . read_csv ( <A> , index_col = 0 )
+<A> 内の <B> を NaN に置換し、 NaN がある行をドロップする	<A> . replace ( <B> , np . nan ) . dropna ( )	df . replace ( <A> , <B> , np . nan ) . dropna ( )
+<A> をグラフの y 軸、 <B> を横軸として、散布図を表示する	plt . scatter ( <A> , <B> )	plt . scatter ( <A> , <B> )
+<A> ( データフレーム ) の <B> を順番になるようにソートして、 <A> にする	<A> = <A> . sort_values ( <B> )	<A> = <A> . sort_values ( <B> )
+<A> 中の欠損を含む行を削除し、 <A> とする	<A> = <A> . dropna ( )	start = <A> . dropna ( )
+<A> 全体を位置に基づいてソートして、インプレースする	<A> . sort_index ( inplace = True )	solver . sort_index ( inplace = True )
+<A> 中の <B> を未記入の値に置換し、未記入の値がある行を落として、再代入する	<A> = <A> . replace ( <B> , np . nan ) . dropna ( )	start = <A> . replace ( <B> , np . nan ) . dropna ( )
+<A> の行の重複を判定する	<A> . duplicated ( )	] . duplicated ( )
+重複している最後の行を残して <A> ( データフレーム ) の重複している行を落とし、インプレースする	<A> . drop_duplicates ( keep = False , inplace = True )	df . drop_duplicates ( keep = False , inplace = True )
+<A> を <B> 区切りで読み込む	pd . read_csv ( <A> , sep = <B> )	pd . read_csv ( <A> , sep = <B> )
+描画したグラフを <A> というファイル名で保存する	plt . savefig ( <A> )	plt . savefig ( <A> )
+位置と <C> を項目名として <A> と <B> を一つにまとめる	pd . merge ( <A> , <B> , left_index = True , right_on = <C> )	pd . merge ( <A> , <B> , left_index = True , right_on = <C> )
+<A> を位置を元に並び替え、 <A> とする	<A> = <A> . sort_index ( )	= <A> . sort_index ( )
+<A> の <B> が <C> より多いデータを得る	<A> [ <A> [ <B> ] >  <C> ]	pd <A> [ <A> [ <B> ] > <C> ]
+<A> 内の欠損が存在する行を落として、置き換える	<A> . dropna ( inplace = True )	inplace = <A> . dropna ( )
+エクセルファイル <A> を表データに格納する	pd . read_excel ( <A> )	pd . read_excel ( <A> )
+そこで、赤紫色をマーカーの色とする	markerfacecolor = 'magenta'	color = 'magenta'
+<A> 中の欠損値が存在する行を落とし、 <A> にする	<A> = <A> . dropna ( )	start = <A> . dropna ( )
+<A> 内に重複があるか見る	<A> . duplicated ( )	pd . duplicated ( <A> )
+そこで、線は破線を使う	linestyle = 'dashed'	kind = 'dashed'
+<A> をインデックスを軸にソート	<A> . sort_index ( )	df . sort_index ( )
+<A> 中の欠損がある行をドロップする	<A> . dropna ( )	df . dropna ( )
+列番号 <C> をインデックスと設定して、 <B> からデータフレームとを読み、 <A> とする	<A> = pd . read_csv ( <B> , index_col = <C> )	df = pd . read_csv ( <B> , index_col = <C> )
+<A> 中の NaN を含む行を落とす	<A> . dropna ( )	df . dropna ( )
+<A> 中の NaN を含む行を落とし、 <A> とする	<A> = <A> . dropna ( )	start = <A> . dropna ( )
+そこで、マーカーの形状のエッジ色として赤を使用する	markeredgecolor = 'red'	markeredgewidth = 'red'
+エクセルファイル <B> から読み込んで、 <A> に代入する	<A> = pd . read_excel ( <B> )	<A> = pd . read_excel ( <B> )
+<A> を位置でソートして、 <A> とする	<A> = <A> . sort_index ( )	df = <A> . sort_index ( )
+<A> についてダミー変数をつくって、 <A> にする	<A> = pd . get_dummies ( <A> )	df = pd . get_dummies ( <A> )
+<A> の欠損値を削除	<A> . dropna ( )	df . dropna ( )
+エクセルデータ <A> の <B> のシートを表に格納する	pd . read_excel ( <A> , sheet_name = <B> )	pd . read_excel ( <A> , sheet_name = <B> )
+<A> の <B> を軸に昇順で並び替える	<A> . sort_values ( <B> )	<A> . sort_values ( <B> )
+そこで、マーカーを十字とする	marker = 'x'	solver = 'x'
+<A> に重複があるのかどうか調べる	df . duplicated ( subset = <A> )	pd . duplicated ( <A> )
+<A> の柱状図を表示する	plt . hist ( <A> )	plt . hist ( <A> )
+<A> 中の NaN が存在する行を落として、置き換える	<A> = <A> . dropna ( )	inplace = <A> . dropna ( )
+<A> 中の欠損値をドロップする	<A> . dropna ( )	df . dropna ( )
+そこで、六角形のマーカーの形状を使用する	marker = 'h'	marker = 'h'
+そこで、目印の色を紫とする	markerfacecolor = 'purple'	markerfacecolor = 'purple'
+<A> の重複している値がある行を削除し、 <A> とする	<A> = <A> . drop_duplicates ( )	<A> = <A> . drop_duplicates ( )
+<A> の <B> の名前を <C> に変更し、置き換える	<A> = <A> . rename ( columns = { <B> : <C> } )	<A> . rename ( index = { <B> : <C> } , inplace = True )
+<A> の欠損値の個数	<A> . isnull ( ) . sum ( )	] . isnull ( ) . sum ( )
+今までのプロットを <A> というファイルに出力する	plt . savefig ( <A> )	plt . savefig ( <A> )
+<A> と <B> と <C> から箱ひげ図を描画する	plt . boxplot ( [ <A> , <B> , <C> ] )	kind = plt . boxplot ( [ <A> , <B> , <C> ] )
+そこで、アライメントは中央寄せである	align = 'center'	align = 'center'
+<A> の欠損値を <A> の平均値で補い、置き換える	<A> . fillna ( <A> . mean ( ) , inplace = True )	fillna <A> . mean ( ) , inplace = True )
+そこで、打点の輪郭色は水色を用いる	markeredgecolor = 'cyan'	markeredgewidth = 'cyan'
+<A> の未入力の値を <B> に置換して、再代入する	<A> = <A> . fillna ( <B> )	plt = <A> . fillna ( <B> )
+<A> の未記入の値を直前の行の値で埋め、 <A> とする	<A> = <A> . fillna ( method = 'ffill' )	start = <A> . fillna ( method = 'ffill' )
+<B> 中に存在する <C> を欠損として、 <A> とする	<A> = <B> . replace ( <C> , np . nan )	start = <B> . replace ( <C> , np . nan )
+<A> の <B> の名前を <C> に、 <D> の名前を <E> に変更して、置き換える	<A> = <A> . rename ( columns = { <B> : <C> , <D> : <E> } )	df . rename ( columns = { <B> : <C> , <D> : <E> } , inplace = True )
+<A> という名前のエクセルデータの全部のシートからデータフレームを読む	pd . read_excel ( <A> , sheet_name = None )	pd . read_excel ( <A> , sheet_name = None )
+<A> 中のカテゴリ変数を one - hot 表現に変換する	pd . get_dummies ( <A> )	pd . get_dummies ( <A> )
+<A> の中の欠損を <A> の平均値で補って、再代入する	<A> = <A> . fillna ( <A> . mean ( ) )	df = <A> . fillna ( <A> . mean ( ) )
+エクセルファイル <B> のシート全部からデータフレームを読んで、 <A> とする	<A> = pd . read_excel ( <B> , sheet_name = None )	df = pd . read_excel ( <B> , sheet_name = None )
+<A> 中の欠損を落とし、インプレースする	<A> . dropna ( inplace = True )	inplace = <A> . dropna ( )
+グラフの x 軸を <A> として、 <B> の鉛直棒グラフを描写する	plt . barh ( <A> , <B> )	bar plt . bar ( <A> , <B> )
+<A> の <B> と <C> に重複があるのか表示してみる	<A> . duplicated ( subset = [ <B> , <C> ] )	plt . duplicated ( subset = [ <A> , <B> , <C> ] )
+x 軸のラベルを <A> に設定する	plt . xlabel ( <A> )	plt . xlabel ( <A> )
+<A> 中の未記入の値を <A> の平均値で埋めて、 <A> とする	<A> = <A> . fillna ( <A> . mean ( ) )	start = <A> . fillna ( <A> . mean ( ) )
+<B> 次元に圧縮する PCA モデルを新たに使えるようにして、 <A> とする	<A> = sklearn . decomposition . PCA ( ( n_components = <B> )	start = <B> . decomposition . PCA ( n_components = sklearn )
+作ったグラフを <A> というファイルに保存する	plt . savefig ( <A> )	plt . savefig ( <A> )
+<A> の欠損を <B> に置き換え、 <A> に代入する	<A> = <A> . fillna ( <B> )	df = <A> . fillna ( <B> )
+<A> を <B> をカラム名としてデータフレームにする	pd . pd . DataFrame ( <A> , columns = <B> )	pd . DataFrame ( <A> , columns = <B> )
+<A> 内の欠損値がある行を消し、置き換える	<A> . dropna ( inplace = True )	inplace = <A> . dropna ( )
+<A> の内容をチェックを表示する	<A> . head ( )	df . head ( )
+<A> の <B> を欠損に置換し、欠損がある行を消し、置き換える	<A> . replace ( <B> , np . nan ) . dropna ( inplace = True )	df = <A> . replace ( <B> , np . nan ) . dropna ( )
+カンマ区切りで CSV ファイル <A> から表データを読み込む	pd . read_csv ( <A> , sep = ',' )	sep = pd . read_csv ( <A> )
+エクセルデータ <A> からデータフレームを読む	pd . read_excel ( <A> )	pd . read_excel ( <A> )
+一番左の列をインデックスに設定して、 <A> を表データに格納する	pd . read_csv ( <A> , index_col = 0 )	pd . read_csv ( <A> , index_col = 0 )
+<A> のオブジェクトデータの統計情報を見る	<A> . describe ( include = 'O' )	<A> . describe ( include = 'O' )
+そこで、マーカーの形状の色を赤紫色とする	markerfacecolor = 'magenta'	color = 'magenta'
+そこで、グラフの種類は積み上げをする	stacked = True	markersize = True
+カンマ区切りで <A> から表データを読み込む	pd . read_csv ( <A> , sep = ',' )	pd . read_csv ( <A> , sep = ',' )
+一番左の列を位置として、 <B> から読み込んで、 <A> とする	<A> = pd . read_csv ( <B> , index_col = 0 )	pd . read_csv ( <A> , index_col = <B> )
+<A> のインデックスを軸にソート	<A> . sort_index ( )	plt . sort_index ( )
+<A> 内の重複している行をドロップする	<A> . drop_duplicates ( )	plt . drop_duplicates ( )
+同じ軸のセットで <A> の <B> と <A> の <C> と <A> の <D> を箱ひげ図で描画する	plt . boxplot ( [ <A> [ <B> ] , <A> [ <C> ] , <A> [ <D> ] ] )	[ <A> = <B> ] . boxplot ( [ <C> ] , <A> [ <D> ] ] ] ] )
+作成したグラフを <A> という名前で書き出す	plt . savefig ( <A> )	plt . savefig ( <A> )
+<A> 内の <B> を NaN に置換し、 NaN がある行を消し、置き換える	<A> . replace ( <B> , np . nan ) . dropna ( inplace = True )	df = <A> . replace ( <B> , np . nan ) . dropna ( )
+そこで、マーカーはひし形をする	marker = 'D'	marker = 'D'
+日本語をグラフで表示できるようにする	sns . set ( font = 'IPAexGothic' , style = 'white' )	pd . set ( font = 'IPAexGothic' , style = 'white' )
+<B> 中の欠損を含む行を消し、 <A> にする	<A> = <B> . dropna ( )	= <B> . dropna ( )
+<B> というエクセルデータを読み、 <A> とする	<A> = pd . read_excel ( <B> , sheet_name = None )	df = pd . read_excel ( <B> )
+そこで、ダイヤモンドをマーカーの形状にする	marker = 'D'	marker = 'D'
+そこで、エンコーディングは <A> とする	encoding = <A>	markeredgewidth = <A>
+表示するグラフのサイズを横 <A> 縦 <B> に指定する	plt . figure ( figsize = ( <A> , <B> ) )	pd . figure ( figsize = ( <A> , <B> ) )
+そこで、マーカーの形の色を紫色とする	markerfacecolor = 'purple'	markeredgecolor = 'purple'
+そこで、グレーをマーカーの形のエッジ色とする	markeredgecolor = 'gray'	markeredgecolor = 'gray'
+<A> と <B> と <C> についての箱ひげ図をプロットする	plt . boxplot ( [ <A> , <B> , <C> ] )	plt . boxplot ( [ <A> , <B> , <C> ] )
+<A> という名前のエクセルファイル <A> の全部のシートをデータフレームに格納する	pd . read_excel ( <A> , sheet_name = None )	pd . read_excel ( <A> , sheet_name = None )
+<A> のヒストグラムをビンを <B> として作画する	plt . hist ( <A> , bins = <B> )	plt . hist ( <A> , bins = <B> )
+エクセルデータ <B> をデータフレームに読み、 <A> に代入する	<A> = pd . read_excel ( <B> )	df = pd . read_excel ( <B> )

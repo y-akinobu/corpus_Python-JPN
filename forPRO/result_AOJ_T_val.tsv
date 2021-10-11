@@ -1,0 +1,618 @@
+Hello World と表示する	print ( 'Hello World' )	= 'Hello World'
+「ハローワールド」と表示する	print ( 'Hello World' )	input = ]
+何か動かす	print ( 'Hello World' )	pass </blk>
+最初のプログラム	print ( 'Hello World' )	open ( )
+<A> 足す <B>	<A> + <B>	pow ( <A> , <B> )
+<A> に <B> を加算する	<A> + <B>	path = <A> + <B>
+<A> と <B> の和	<A> + <B>	isclose ( ( <A> . <B> ) , <B> )
+<A> 足す <B> 足す <C>	<A> + <B> + <C>	pow <A> ( <B> , <C> )
+<A> , <B> , <C> の和	<A> + <B> + <C>	isclose ( <A> , <B> , <C> )
+<A> から 70 を引く	<A> -70	not ( <A> ) :
+<A> かける <B>	<A> * <B>	pow ( <A> , <B> )
+<A> を <B> で割る	<A> / <B>	input ( <A> / <B> )
+<A> を <B> で割った商	<A> // <B>	// <A> // <B>
+<A> を <B> で割った余り	<A> % <B>	print ( <A> % <B> )
+<A> の <B> 乗	<A> ** <B>	factorial ( <A> ** <B> )
+<A> と <B> を結合する	<A> + <B>	( <A> , <B> ) = <A>
+<A> を文字列にする	str ( <A> )	str ( <A> ) = str ( ' )
+<A> を変換した文字列	str ( <A> )	<A> . lower ( )
+文字列 "X" を <A> 回繰り返す	X * <A>	while str ( sum ( <A> ) ) :
+ユーザから入力を得る	x = input ( )	'l'
+ユーザが入力した文字列を <A> とする	<A> = input ( )	' <A> in input ( )
+入力された文字列	x = input ( )	count input ( )
+X というプロンプトを表示し、ユーザに文字列を入力させる	x = input ( "X" )	def <A> ( ) , input ( ) + input ( )
+X という問い合わせに対し、ユーザから入力を得る	x = input ( "X" )	for <A> , input ( ) , input ( )
+<A> を浮動小数点数にする	float ( <A> )	float ( <A> ) = float ( 'inf' )
+<A> を変換した浮動小数点数	float ( <A> )	float ( <A> . lower ( ) )
+<A> を整数値にする	int ( <A> )	count = int ( <A> )
+<A> を変換した数値	int ( <A> )	len ( <A> )
+ユーザが入力した数値を <A> とする	<A> = int ( input ( ) )	path = input ( )
+入力された数値	x = int ( input ( ) )	input ( )
+ユーザが入力した浮動小数点数を <A> とする	<A> = float ( input ( ) )	insort ( <A> ) = float ( input ( ) )
+入力された浮動小数点数	x = float ( input ( ) )	try float ( input ( ) )
+<A> の型	type ( <A> )	, type ( <A> )
+<A> の型を確認する	type ( <A> )	<A> . type ( )
+<A> と <B> が等しいか	<A> == <B>	pow ( <A> == <B> )
+<A> と <B> が等しいならば	if <A> == <B> :	( <A> == <B> )
+<A> と <B> が等しくないか	<A> != <B>	assert ( <A> is <B> is <B> )
+もし <A> と <B> が等しくないとき	if <A> != <B> :	assert <A> . <B> != <B> :
+<A> と <B> が等しくない間	while <A> != <B> :	while <A> is not <B> :
+<A> が <B> と等しいかどうか	<A> == <B>	pow ( <A> == <B> )
+<A> が <B> と等しいならば	if <A> == <B> :	( <A> is == <B> )
+<A> が <B> と等しくないかどうか	<A> != <B>	assert <A> == <B>
+もし <A> が <B> と等しい場合	if <A> == <B> :	set ( <A> == <B> )
+<A> が <B> と等しければ	if <A> == <B> :	if ( <A> == <B> )
+もし <A> が <B> と等しかったならば	if <A> == <B> :	assert ( <A> == <B> )
+もし <A> が <B> と等しくなかったなら	if <A> != <B> :	assert ( <A> == <B> )
+<A> が <B> か否か	<A> == <B>	( <A> <= <B> )
+もし <A> が <B> ならば	if <A> == <B> :	assert ( <A> == <B> )
+<A> が <B> でないかどうか	<A> != <B>	pow ( <A> not <B> , 1 )
+<A> が <B> とき	if <A> == <B> :	divmod ( <A> , <B> ) :
+もし <A> が <B> でないとき	if <A> != <B> :	pass ( not <A> . <B> ) :
+<A> が <B> 間	while <A> == <B> :	while ( ( <A> != <B> ) )
+<A> が <B> より大きいか否か	<A> >  <B>	len ( <A> > <B> )
+<A> が <B> より大きいならば	if <A> >  <B> :	factorial ( <A> > <B> )
+<A> が <B> より大きくないかどうか	not <A> >  <B>	( not <A> > <B> )
+<A> が <B> より大きければ	if <A> >  <B> :	( <A> < <B> )
+もし <A> が <B> より大きかった場合	if <A> >  <B> :	from <A> < <B> ( )
+<A> が <B> より大きくなければ	if not <A> >  <B> :	assert ( <A> > <B> )
+もし <A> が <B> より大きくなかったならば	if not <A> >  <B> :	assert ( <A> > <B> )
+<A> が <B> より大きい間	while <A> >  <B> :	> <A> ( <B> )
+<A> が <B> より大きくない間	while not <A> >  <B> :	while not ( <A> > <B> )
+<A> が <B> より小さいか否か	<A> <  <B>	input ( < <B> )
+<A> が <B> より小さい場合	if <A> <  <B> :	input ( < <B> )
+<A> が <B> より小さくないか	not <A> <  <B>	( not <A> < <B> )
+もし <A> が <B> より小さかった場合	if <A> <  <B> :	from <A> < <B> ( )
+<A> が <B> より小さくないならば	if not <A> <  <B> :	if not ( <A> < <B> )
+もし <A> が <B> より小さくなければ	if not <A> <  <B> :	count ( <A> < <B> )
+もし <A> が <B> より小さくなかったとき	if not <A> <  <B> :	raise ( <A> < <B> ) :
+<A> が <B> 以上か否か	<A> >= <B>	>= <A> >= <B>
+もし <A> が <B> 以上ならば	if <A> >= <B> :	assert ( <A> >= <B> )
+<A> が <B> 以上でないか	not <A> >= <B>	( not <A> >= <B> )
+<A> が <B> 以上場合	if <A> >= <B> :	pow ( <A> >= <B> , 8 )
+もし <A> が <B> 以上でない場合	if not <A> >= <B> :	not <A> >= <B> :
+<A> が <B> 以上間	while <A> >= <B> :	>= <A> >= <B>
+<A> が <B> 以上でない間	while not <A> >= <B> :	( not <A> >= <B> )
+<A> が <B> 以下か	<A> <= <B>	isclose ( <A> <= <B> )
+<A> が <B> 以下ならば	if <A> <= <B> :	factorial ( <A> <= <B> )
+<A> が <B> 以下でないかどうか	not <A> <= <B>	( not <A> <= <B> )
+<A> が <B> 以下場合	if <A> <= <B> :	pow ( <A> <= <B> )
+<A> が <B> 以下でない場合	if not <A> <= <B> :	( not <A> <= <B> )
+<A> が <B> 以下でない間	while not <A> <= <B> :	( not <A> <= <B> )
+<A> が偶数か否か	<A> % 2 == 0	pow ( <A> , not )
+<A> が偶数ならば	if <A> % 2 == 0 :	( <A> )
+<A> が偶数でないか	<A> % 2 != 0	while not ( not <A> )
+<A> が偶数とき	if <A> % 2 == 0 :	divmod ( <A> ) :
+もし <A> が偶数でない場合	if <A> % 2 != 0 :	assert ( not not <A> ) :
+<A> が偶数でない間	while <A> % 2 != 0 :	while not <A> . not in <A>
+<A> が奇数か	<A> % 2 == 1	pow ( <A> )
+<A> が奇数のとき	if <A> % 2 == 1 :	divmod ( <A> ) :
+<A> が奇数でないかどうか	<A> % 2 != 1	!= not ( not <A> )
+<A> が奇数とき	if <A> % 2 == 1 :	divmod ( <A> ) :
+<A> が奇数でない場合	if <A> % 2 != 1 :	!= not ( <A> ) :
+<A> が奇数間	while <A> % 2 == 1 :	while ( <A> != )
+<A> が奇数でない間	while <A> % 2 != 1 :	while not <A> . not in <A>
+<A> が <B> の倍数か否か	<A> % <B> == 0	not ( <A> <= <B> )
+もし <A> が <B> の倍数ならば	if <A> % <B> == 0 :	assert ( <A> == <B> )
+<A> が <B> の倍数でないか	<A> % <B> != 0	( not ( <A> <= not <B> ) )
+<A> が <B> の倍数ならば	if <A> % <B> == 0 :	factorial ( <A> == <B> )
+<A> が <B> の倍数でない場合	if <A> % <B> != 0 :	( not <A> <= not <B> ) :
+<A> が <B> の倍数間	while <A> % <B> == 0 :	( <A> is not <B> ) :
+<A> が <B> で割り切れるか	<A> % <B> == 0	( <A> <= <B> )
+<A> が <B> で割り切れる場合	if <A> % <B> == 0 :	pow ( <A> , <B> )
+<A> が <B> で割り切れないか	<A> % <B> != 0	!= <A> . not <B> :
+もし <A> が <B> で割り切れるならば	if <A> % <B> == 0 :	nonlocal ( <A> == <B> )
+<A> が <B> で割り切れたなら	if <A> % <B> == 0 :	while ( <A> == <B> )
+もし <A> が <B> で割り切れないとき	if <A> % <B> != 0 :	not ( <A> . <B> if not <A> . <B> ) :
+もし <A> が <B> で割り切れなければ	if <A> % <B> != 0 :	assert ( <A> == <B> )
+<A> が <B> で割り切れなかったら	if <A> % <B> != 0 :	pow ( <A> , <B> )
+何もしない	pass	pass </blk>
+パスする	pass	input = )
+プログラムの実行を途中で終了する	quit ( )	path . exit ( )
+プログラムの実行を中断する	quit ( )	break
+真	True	all ( True )
+偽	False	False
+もし <A> が <B> 未満、または <C> 以上のとき	if <A> <  <B> or <A> >= <C> :	divmod , <A> >= <B> or <C> :
+もし <A> 才未満、または <B> 才以上のとき	if age <  <A> or age >= <B> :	divmod , ( <A> ) : , <B> :
+もし <A> が <B> 未満、かつ <C> 以上のとき	if <A> <  <B> and <A> >= <C> :	divmod , <A> >= <B> , <C> :
+BMI を求めたい	weight / ( height / 100 ) ** 2	nonlocal ( )
+<A> と <B> から BMI	<A> / ( <B> / 100 ) ** 2	<A> = ( <A> , <B> )
+<A> と <B> から BMI を計算する	<A> / ( <B> / 100 ) ** 2	path = ( <A> , <B> )
+身長 <B> と <A> 体重から BMI	<A> / ( <B> / 100 ) ** 2	input ( <B> ) - ( <A> )
+身長 <B> と <A> 体重から BMI を算出する	<A> / ( <B> / 100 ) ** 2	insort ( <B> , ( <A> ) )
+サイコロの目	random . randint ( 1 , 6 )	[ ]
+サイコロを振った値	random . randint ( 1 , 6 )	'-' </blk>
+<A> から <B> までの乱数	random . randint ( <A> , <B> )	randrange ( <A> , <B> )
+<A> 秒、プログラムの実行を停止する	time . sleep ( <A> )	path . append ( <A> )
+<A> 秒、待つ	time . sleep ( <A> )	pow , <A> :
+<A> 秒、止める	time . sleep ( <A> )	pow , <A> :
+無限ループ	while True : pass	inf
+とりあえず、繰り返す	while True : pass	any ( ) :
+５回、繰り返す	for i in range ( 5 ) :	: 6 f :
+繰り返しを中断する	break	break
+繰り返しから抜け出す	break	'one pair'
+繰り返しの先頭に戻る	continue	break </blk>
+もう一度、ループする	continue	continue
+大きさ <A> の配列	[ 0 ] * <A>	None ( len ( <A> ) )
+リスト [ <A> , <B> , <C> ] の各要素を処理する	for a in [ <A> , <B> , <C> ] :	del list ( [ <A> , <B> , <C> ] )
+リスト [ <B> , <C> , <D> ] の要素を繰り返すたびに <A> に代入する	for <A> in [ <B> , <C> , <D> ] :	set ( <A> = list ( [ <B> , <C> , <D> ] ) ) :
+リスト <A> の末尾に <B> を追加する	<A> . append ( <B> )	print ( list ( <A> ) . append ( <B> ) )
+リスト <A> から <B> 番目の要素を削除する	del ( <A> [ <B> ] )	del ( list ( <A> [ <B> ] ) )
+<A> の一部分を取り出す	<A> [ start : end ]	len ( <A> . )
+数列 <A> の合計	sum ( <A> )	for <A> in range ( * <A> )
+<A> の総和	sum ( <A> )	pow ( sum ( <A> ) )
+<A> の平均値	sum ( <A> ) / len ( <A> )	len ( <A> )
+リスト <A> をシャッフルする	random . suffle ( <A> )	else = list ( itertools . list ( <A> ) )
+<A> のキーの一覧を得る	<A> . keys ( )	from <A> . keys ( )
+辞書 <A> のキー <B> の値	<A> [ <B> ]	<A> . dict . items ( )
+辞書 <A> に入っているデータを一つずつ処理する	for key in <A> . keys ( ) : value = <A> [ key ]	path = dict ( <A> ) [ : ]
+実数 <A> の小数点以下を切り上げる	math . ceil ( <A> )	<A> <= float ( <A> )
+<A> の小数点以下を切り上げた整数値	math . ceil ( <A> )	ceil ( <A> ) / ceil ( <A> )
+<B> に <A> が含まれているか否か	<A> in <B>	not ( <B> in <A> )
+もし <B> に <A> が含まれているならば	if <A> in <B> :	from <A> . in <B> ( <A> )
+辞書 d にキー <A> が存在しないか	<A> not in date	keys ( not in dict ( <A> ) ) :
+辞書 d にキー <A> が存在しないとき	if <A> not in date :	divmod ( dict . keys ( ) ) :
+文字列 <A> の前後の空白を除去する	<A> . strip ( )	str ( <A> ) [ ] = str ( <A> )
+<A> の余分な改行を取り除く	<A> . strip ( )	factorial ( <A> )
+<A> をカンマで区切る	<A> . split ( ',' )	'ENWS'
+<A> ( 文字列をカンマで分割した文字列のリスト	<A> . split ( ',' )	list ( str ( <A> ( ) . split ( ) ) )
+<A> を <B> で区切る	<A> . split ( <B> )	input ( <A> / <B> )
+<A> を <B> で分割した文字列のリスト	<A> . split ( <B> )	bin ( <A> . split ( <B> ) )
+<A> を並べる	sorted ( <A> )	'ENWS'
+<A> を並べた列	sorted ( <A> )	input ( )
+<A> を降順に整列する	sorted ( <A> , reverse = True )	insort ( <A> ) = <A>
+<A> を降順に並べ変えた列	sorted ( <A> , reverse = True )	pow ( ( <A> ) + <A> )
+<A> に <B> を入れる	<A> = <B>	insort ( <A> + <B> )
+<B> を <A> に入れる	<A> = <B>	not <A> in ( <B> )
+数値 <A> を <B> とする	<A> = <B>	insort ( ( <A> , <B> ) )
+数値 <A> に <B> を入れる	<A> = <B>	from <A> + ( <B> )
+<B> を <A> 数値に入れる	<A> = <B>	insort ( <A> , <B> )
+<A> イコール <B>	<A> = <B>	pow ( <A> , <B> )
+数値 <A> イコール <B> とする	<A> = <B>	( <A> & <B> )
+<A> の <B> 乗	<A> ** <B>	factorial ( <A> ** <B> )
+<A> の <B> 乗を見る	<A> ** <B>	yield <A> . index ( <B> )
+<A> の <B> 乗を計算する	<A> ** <B>	path = <A> . index ( <B> )
+<A> を <B> で割った結果の切り上げ	( <A> + <B> - 1 ) // <B>	deepcopy ( <A> / <B> )
+<A> を <B> で割った結果の切り上げを見る	( <A> + <B> - 1 ) // <B>	deepcopy ( <A> // <B> )
+<A> を <B> で割った結果の切り上げを求める	( <A> + <B> - 1 ) // <B>	deepcopy ( <A> // <B> )
+<A> 割る <B> を切り上げる	( <A> + <B> - 1 ) // <B>	pow ( <A> , <B> )
+<A> わる <B> の切り上げ	( <A> + <B> - 1 ) // <B>	gcd ( <A> , <B> )
+<A> わる <B> の切り上げを確認する	( <A> + <B> - 1 ) // <B>	now = <A> . <B>
+<A> わる <B> の切り上げを計算する	( <A> + <B> - 1 ) // <B>	now = <A> . <B>
+<A> を <B> で割った余りを求める	<A> % <B>	print ( <A> % <B> )
+<A> を <B> で剰余を求める	<A> % <B>	insort ( <A> , <B> )
+<A> と <B> の mod を求める	<A> % <B>	pow ( <A> . <B> , <B> )
+<A> と <B> の割り算のあまりを求める	<A> % <B>	pow ( ( <A> , <B> ) )
+<A> を <B> だけ増加させる	<A> += <B>	<A> += ( <B> )
+<A> に <B> を足して代入	<A> += <B>	print ( <A> * <B> )
+<A> と <B> を足して代入する	<A> += <B>	path = <A> * ( <B> )
+<A> たす <B> の値を <A> に代入する	<A> += <B>	insort ( <A> ) <A> . <B>
+<A> を <B> だけ減少させる	<A> -= <B>	<A> -= ( <B> )
+<A> から <B> を引いて代入する	<A> -= <B>	exit ( <A> - <B> )
+<A> に <A> と <B> を引いて代入	<A> -= <B>	while <A> * ( <A> , <B> )
+<A> ひく <B> の値を <A> に代入する	<A> -= <B>	insort ( <A> ) <A> . <B>
+<A> の絶対値	abs ( <A> )	sqrt ( abs ( <A> ) )
+<A> の絶対値を確認する	abs ( <A> )	path = abs ( <A> )
+<A> の絶対値を求める	abs ( <A> )	yield abs ( <A> )
+<A> の平方根	math . sqrt ( <A> )	factorial ( <A> )
+<A> の平方根を確認する	math . sqrt ( <A> )	( sqrt ( <A> ) )
+<A> の平方根を計算する	math . sqrt ( <A> )	( sqrt ( <A> ) )
+<A> のルート	math . sqrt ( <A> )	len ( <A> )
+<A> のルートを調べる	math . sqrt ( <A> )	len ( <A> . )
+<A> のルートを算出する	math . sqrt ( <A> )	path = <A> [ ]
+<A> の切り上げ	math . ciel ( <A> )	math . ceil ( <A> )
+<A> の切り上げを確認する	math . ciel ( <A> )	now = math . ceil ( <A> )
+<A> の切り上げを計算する	math . ciel ( <A> )	now = math . ceil ( <A> )
+<A> に最も近い整数に切り上げ	math . ciel ( <A> )	isclose ( math . ceil , ( <A> ) )
+<A> に最も近い整数に切り上げを見る	math . ciel ( <A> )	math . ceil ( ( <A> ) + <B> )
+<A> に最も近い整数に切り上げを求める	math . ciel ( <A> )	math . ceil ( ( <A> ) + <B> )
+<A> の切り捨て	math . floor ( <A> )	math . floor ( <A> )
+<A> の切り捨てを見る	math . floor ( <A> )	factorial ( <A> )
+<A> の切り捨てを計算する	math . floor ( <A> )	print ( math . floor ( <A> ) )
+<A> に最も近い整数に切り捨て	math . floor ( <A> )	open ( <A> ) , floor ( <A> ) )
+<A> に最も近い整数に切り捨てを調べる	math . floor ( <A> )	print ( math . floor ( <A> ) )
+<A> に最も近い整数に切り捨てを算出する	math . floor ( <A> )	exit ( <A> )
+<A> と <B> の最大公約数	math . gcd ( <A> , <B> )	( gcd ( <A> , <B> ) )
+<A> と <B> の最大公約数を表示する	math . gcd ( <A> , <B> )	path = gcd ( <A> , <B> )
+<A> と <B> の最大公約数を求める	math . gcd ( <A> , <B> )	yield gcd ( <A> , <B> )
+<A> 、 <B> 、 <C> の中で値	max ( <A> , <B> , <C> )	max ( <A> , <B> , <C> )
+<A> 、 <B> 、 <C> の中で値を表示する	max ( <A> , <B> , <C> )	insort ( <A> , ( <B> , <C> ) )
+<A> 、 <B> 、 <C> の中で値を算出する	max ( <A> , <B> , <C> )	insort ( <A> , ( <B> , <C> ) )
+<A> 、 <B> 、 <C> の最大値	max ( <A> , <B> , <C> )	<A> , max ( <B> , <C> )
+<A> 、 <B> 、 <C> の最大値を見る	max ( <A> , <B> , <C> )	print ( <A> , max ( <B> , <C> ) )
+<A> 、 <B> 、 <C> の最大値を計算する	max ( <A> , <B> , <C> )	exit ( <A> , max ( <B> , <C> ) )
+<A> 、 <B> 、 <C> のうち ] [ 一番小さい値	min ( <A> , <B> , <C> )	min ( <A> , <B> , <C> [ ] )
+<A> 、 <B> 、 <C> のうち ] [ 一番小さい値を見る	min ( <A> , <B> , <C> )	insort ( <A> , ( <B> , <C> ) [ ] )
+<A> 、 <B> 、 <C> のうち ] [ 一番小さい値を計算する	min ( <A> , <B> , <C> )	<A> , <B> = <A> , <B> , <C> [ ]
+<A> 、 <B> 、 <C> の最小値	min ( <A> , <B> , <C> )	min ( <A> , <B> , <C> )
+<A> 、 <B> 、 <C> の最小値を確認する	min ( <A> , <B> , <C> )	exit ( <A> , min ( <B> , <C> ) )
+<A> 、 <B> 、 <C> の最小値を計算する	min ( <A> , <B> , <C> )	exit ( <A> , min ( <B> , <C> ) )
+以下の処理を <A> 回繰り返す	for i in range ( <A> ) :	any ( <A> <= <A> ) :
+<A> に 0 から 9 を代入して、次の命令をループする	for <A> in range ( 10 ) :	while ( <A> * ( ) , input ( ) )
+<A> に <B> を超えない値までの連続した数値を代入して、次の命令をループする	for <A> in range ( <B> ) :	while not <A> * ( not <B> ) [ : ] }
+<A> を 0 から 9 まで 1 つずつ取り出しながら繰り返し処理を行う	for <A> in range ( 10 ) :	path = <A> . pop ( ) ^ set ( )
+繰り返し処理を <A> 回行う	for i in range ( <A> ) :	return break </blk>
+<A> 回だけ繰り返し処理を行う	for i in range ( <A> ) :	yield <A> * data
+以下の処理を <A> の要素数分繰り返す	for i in range ( len ( <A> ) ) :	any ( [ <A> for <A> ] ) :
+<A> を出力する	print ( <A> )	<A> = print ( <A> )
+<A> を表示する	print ( <A> )	'ENWS'
+<A> を出力する	print ( <A> )	<A> = print ( <A> )
+改行なしで <A> を出力する	print ( <A> , end = '' )	<A> = print ( <A> , sep = '' )
+<A> を改行なしでプリントする	print ( <A> , end = '' )	exit ( <A> , end = '' )
+<A> の出力を改行しないで行う	print ( <A> , end = '' )	print ( not <A> [ None ] )
+<A> と出力する	print ( <A> )	input = <A>
+「こんにちは世界」と出力する	print ( 'Hello World' )	input ( > ) print ( )
+試しに何か動かす	print ( 'Hello World' )	前から更新すると更新した結果を使って更新してしまうため後ろから更新 </blk>
+最初のプログラム	print ( 'Hello World' )	open ( )
+文章を出力する	print ( 'Hello World' )	sys . print ( )
+<A> の小数点以下 5 桁までをプリントする	print ( '{:.5f}' . format ( <A> ) )	exit ( <A> ) </blk>
+<A> の小数点以下を 5 桁まで出力する	print ( '{:.5f}' . format ( <A> ) )	path , end = <A> ) </blk>
+<A> の小数点以下を 5 桁で揃える	print ( '{:.5f}' . format ( <A> ) )	print ( float ( <A> ) / 2 )
+<A> の小数部を 5 桁で揃える	print ( '{:.5f}' . format ( <A> ) )	while isinstance ( not <A> ) :
+ユーザから入力を得る	input ( )	'l'
+ユーザから入力を得、 <A> に代入する	<A> = input ( )	insort ( input ( ) , <A> )
+入力値を受け付ける	input ( )	yield input ( )
+入力値を受け付けて、 <A> に代入する	<A> = input ( )	print ( * <A> , input )
+ユーザが入力した文字列	input ( )	call ( input ( ) )
+ユーザが入力した文字列を <A> とする	<A> = input ( )	' <A> in input ( )
+ユーザから入力された文字列	input ( )	print ( input ( ) )
+ユーザから入力された文字列を <A> とする	<A> = input ( )	( input ( ) ) <A> = input ( )
+文字列を入力する	input ( )	<A> = str ( input ( ) )
+文字列を入力し、 <A> にする	<A> = input ( )	path = input ( )
+データを入力する	input ( )	exit ( )
+データを入力して、 <A> とする	<A> = input ( )	insort ( <A> , input ( ) )
+ユーザが入力した文字列を取得する	input ( )	path = input ( )
+ユーザが入力した文字列を取得して、 <A> に代入する	<A> = input ( )	insort ( * <A> , input ( ) )
+ユーザから入力された文字列を取得する	input ( )	exit ( input ( ) )
+ユーザから入力された文字列を取得して、 <A> とする	<A> = input ( )	[ <A> , input ( ) ] = input ( )
+ユーザが入力した数	int ( input ( ) )	float ( input ( ) )
+ユーザが入力した数を  <A> に代入する	<A> = int ( input ( ) )	insort ( <A> , input ( ) )
+数値を得る	int ( input ( ) )	for in set ( )
+数値を得て、  <A> にする	<A> = int ( input ( ) )	nonlocal <A> : <blk> <A>
+ユーザから入力された整数	int ( input ( ) )	( input ( ) )
+ユーザから入力された整数を  <A> とする	<A> = int ( input ( ) )	str = input ( ) </blk>
+整数値を入力する	int ( input ( ) )	count = int ( input ( ) )
+整数値を入力し、  <A> とする	<A> = int ( input ( ) )	<A> , = int ( input ( ) )
+ユーザが入力した数データを取得する	int ( input ( ) )	path = tuple ( input ( ) )
+ユーザが入力した数データを取得して、  <A> にする	<A> = int ( input ( ) )	, <A> . join ( input ( ) )
+ユーザから入力された数値データを取得する	int ( input ( ) )	exit ( input ( ) )
+ユーザから入力された数値データを取得し、  <A> にする	<A> = int ( input ( ) )	insort ( <A> ) , input ( )
+複数の入力値をリストとして得る	list ( input ( ) )	<A> = list ( * list ( input ( ) ) )
+複数の入力値をリストとして得て、  <A> に代入する	<A> = list ( input ( ) )	<A> . update ( list ( input ( ) ) ) , <A> = list ( )
+ユーザが入力した文字列をリストに格納する	list ( input ( ) )	path = list ( input ( ) )
+ユーザが入力した文字列をリストに格納して、  <A> にする	<A> = list ( input ( ) )	<A> . join ( list ( input ( ) ) )
+ユーザから入力された文字列をリストに格納する	list ( input ( ) )	input = list ( input ( ) )
+ユーザから入力された文字列をリストに格納して、  <A> とする	<A> = list ( input ( ) )	, <A> = list ( input ( ) ) , list ( )
+入力値をリスト型にする	list ( input ( ) )	else = list ( map ( int , input ( ) ) )
+入力値をリスト型にし、  <A> とする	<A> = list ( input ( ) )	<A> = isinstance ( int , list ( input ( ) ) )
+入力値をリストに変換する	list ( input ( ) )	print ( list ( input ( ) ) )
+入力値をリストに変換して、  <A> にする	<A> = list ( input ( ) )	<A> = list ( input ( ) , list ( ) )
+入力された文字列をリスト化する	list ( input ( ) )	path = list ( input ( ) )
+入力された文字列をリスト化して、  <A> とする	<A> = list ( input ( ) )	input = list ( input ( ) ) :
+ユーザが入力した値をリスト化する	list ( input ( ) )	path = list ( input ( ) )
+ユーザが入力した値をリスト化して、  <A> に代入する	<A> = list ( input ( ) )	<A> . update ( list ( input ( ) ) ) :
+ユーザから入力されたデータをリストに変換する	list ( input ( ) )	list ( input ( ) . read ( ) )
+ユーザから入力されたデータをリストに変換して、  <A> とする	<A> = list ( input ( ) )	, <A> = list ( input ( ) ) . lower ( )
+ユーザが入力したデータをリストに変換する	list ( input ( ) )	sys . list ( input ( ) )
+ユーザが入力したデータをリストに変換して、  <A> とする	<A> = list ( input ( ) )	<A> , <B> = list ( input ( ) ) :
+空白で区切って入力された整数をリストとして受け取る	list ( map ( int , input ( ) . split ( ) ) )	try . list ( input ( ) ) :
+空白で区切って入力された整数をリストとして受け取り、  <A> とする	<A> = list ( map ( int , input ( ) . split ( ) ) )	( <A> ) , list ( input ( ) ) : <blk> <A> = list ( )
+入力を空白ごとに数値としてリストに格納する	list ( map ( int , input ( ) . split ( ) ) )	exit = list ( input ( ) )
+入力を空白ごとに数値としてリストに格納し、  <A> にする	<A> = list ( map ( int , input ( ) . split ( ) ) )	insort ( <A> , <B> ) = list ( input ( ) )
+一行から空白で区切って複数の入力値をリストとして得る	list ( map ( int , input ( ) . split ( ) ) )	input = list . readline ( * ) )
+一行から空白で区切って複数の入力値をリストとして得、  <A> とする	<A> = list ( map ( int , input ( ) . split ( ) ) )	: <A> , = list ( input ( ) . split ( ) )
+一行から複数の入力値を空白で区切ってリストに格納する	list ( map ( int , input ( ) . split ( ) ) )	print ( * list ( input ( ) . split ( ) ) )
+一行から複数の入力値を空白で区切ってリストに格納して、  <A> に代入する	<A> = list ( map ( int , input ( ) . split ( ) ) )	print ( * list ( input ( ) . split ( ) ) , <A> )
+入力された数値をスペースで区切ってリストとして得る	list ( map ( int , input ( ) . split ( ) ) )	print ( * list ( input ( ) ) )
+入力された数値をスペースで区切ってリストとして得、  <A> にする	<A> = list ( map ( int , input ( ) . split ( ) ) )	, <A> = list ( input ( ) ) : <blk> <A> = list ( input ( ) )
+ユーザが入力した整数値をスペースで区切ってリストとして受け取る	list ( map ( int , input ( ) . split ( ) ) )	値が list ( * ( int ( input ( ) ) ) )
+ユーザが入力した整数値をスペースで区切ってリストとして受け取り、  <A> にする	<A> = list ( map ( int , input ( ) . split ( ) ) )	<A> . update ( * ( int ( input ( ) ) ) ) :
+入力された文字列をスペースで分割し、 <A> 、 <B> 、 <C> 代入する	<A> , <B> , <C> = input ( ) . split ( )	input ( ) , <A> , <B> , <C> = input ( ) . split ( )
+スペースごとに入力文字列を受け取り、 <A> 、 <B> 、 <C> 入れる	<A> , <B> , <C> = input ( ) . split ( )	def <A> ( input ( ) , <A> , <B> , <C> )
+スペースで区切って入力文字列を受け取り、 <A> 、 <B> 、 <C> 代入する	<A> , <B> , <C> = input ( ) . split ( )	pow ( <A> , <B> , <C> ) , <A> , ( <B> , <C> )
+一行で入力された整数を空白で分割し、 <A> 、 <B> 、 <C> とする	<A> , <B> , <C> = map ( int , input ( ) . split ( ) )	, <A> , <B> , <C> = int . input ( ) . split ( )
+スペースで区切って一行で入力された整数を受け取り、 <A> 、 <B> 、 <C> とする	<A> , <B> , <C> = map ( int , input ( ) . split ( ) )	( <A> , <B> , <C> ) , <A> , <B> , <C> = ( )
+空白ごとに一行で入力された整数を受け取り、 <A> 、 <B> 、 <C> とする	<A> , <B> , <C> = map ( int , input ( ) . split ( ) )	( <A> , <B> ) , ( <C> ) , <A> , <B> = readline ( )
+<A> を浮動小数点数にする	float ( <A> )	float ( <A> ) = float ( 'inf' )
+<A> を変換した浮動小数点数	float ( <A> )	float ( <A> . lower ( ) )
+<A> を浮動小数点数として取得する	float ( <A> )	exit ( <A> ) = float ( 'inf' )
+<A> を浮動小数点数型に変換する	float ( <A> )	insort ( <A> , float ) = float ( 'inf' )
+<A> を数値に変換する	int ( <A> )	pow ( <A> . upper ( ) )
+<A> を変換した数	int ( <A> )	ord ( <A> )
+<A> を整数として取得する	int ( <A> )	exit ( <A> )
+<A> を整数型に変換する	int ( <A> )	isinstance ( <A> ) . find ( )
+<A> と <B> が等しいかどうか	<A> == <B>	len ( <A> == <B> )
+<A> と <B> が等しいとき	if <A> == <B> :	raise ( <A> == <B> ) :
+<A> と <B> が等しくないか	<A> != <B>	assert ( <A> is <B> is <B> )
+<A> と <B> が等しければ	if <A> == <B> :	<A> = ( <B> == )
+<A> と <B> が等しくなければ	if <A> != <B> :	now = <A> == <B>
+<A> と <B> が等しい間	while <A> == <B> :	while ( <A> == <B> ) :
+<A> と <B> が等しくない間	while <A> != <B> :	while <A> is not <B> :
+<A> が <B> と等しいか	<A> == <B>	pow ( <A> == <B> )
+<A> が <B> と等しい場合	if <A> == <B> :	pow ( <A> == <B> )
+<A> が <B> と等しくないか	<A> != <B>	assert <A> != <B>
+もし <A> が <B> と等しい場合	if <A> == <B> :	set ( <A> == <B> )
+<A> が <B> と等しければ	if <A> == <B> :	if ( <A> == <B> )
+<A> が <B> と等しかったならば	if <A> == <B> :	return <A> == <B>
+<A> が <B> と等しくなければ	if <A> != <B> :	if ( <A> == <B> )
+<A> が <B> と等しい間	while <A> == <B> :	( <A> == <B> )
+<A> が <B> と等しくない間	while <A> != <B> :	assert <A> != <B>
+<A> は <B> と等しいか否か	<A> == <B>	isinstance ( <A> == <B> )
+もし <A> は <B> と等しいならば	if <A> == <B> :	any ( <A> == <B> )
+<A> は <B> と等しくないか	<A> != <B>	isinstance ( <A> , <B> )
+<A> は <B> と等しいならば	if <A> == <B> :	isinstance ( <A> , <B> )
+もし <A> は <B> と等しければ	if <A> == <B> :	global ( <A> , <B> )
+<A> は <B> と等しくなければ	if <A> != <B> :	assert ( <A> , <B> )
+<A> は <B> と等しくない間	while <A> != <B> :	assert ( <A> is not <B> )
+<A> が <B> か否か	<A> == <B>	( <A> <= <B> )
+もし <A> が <B> ならば	if <A> == <B> :	assert ( <A> == <B> )
+<A> が <B> でないかどうか	<A> != <B>	pow ( <A> not <B> , 1 )
+もし <A> が <B> とき	if <A> == <B> :	divmod ( <A> , <B> ) :
+<A> が <B> でないとき	if <A> != <B> :	not <A> if ( not <B> ) :
+<A> が <B> 間	while <A> == <B> :	while ( ( <A> != <B> ) )
+<A> が <B> より大きいか否か	<A> >  <B>	len ( <A> > <B> )
+<A> が <B> より大きいとき	if <A> >  <B> :	divmod ( <A> > <B> ) :
+<A> が <B> より大きくないか	not <A> >  <B>	( not <A> > <B> )
+もし <A> が <B> より大きいとき	if <A> >  <B> :	divmod ( <A> > <B> ) :
+<A> が <B> より大きければ	if <A> >  <B> :	( <A> < <B> )
+もし <A> が <B> より大きかったとき	if <A> >  <B> :	divmod ( <A> < <B> ) :
+<A> が <B> より大きくなければ	if not <A> >  <B> :	assert ( <A> > <B> )
+もし <A> が <B> より大きくなかったなら	if not <A> >  <B> :	assert ( <A> > <B> )
+<A> が <B> より大きい間	while <A> >  <B> :	> <A> ( <B> )
+<A> が <B> より大きくない間	while not <A> >  <B> :	while not ( <A> > <B> )
+<A> が <B> よりも大きいか否か	<A> >  <B>	pow ( <A> , <B> )
+<A> が <B> よりも大きいならば	if <A> >  <B> :	assert ( <A> > <B> )
+<A> が <B> よりも大きくないかどうか	not <A> >  <B>	( <A> > <B> )
+もし <A> が <B> よりも大きければ	if <A> >  <B> :	set <A> ( <B> ) </blk>
+<A> が <B> よりも大きくなかった場合	if not <A> >  <B> :	input ( ) > <B> :
+<A> が <B> よりも大きい間	while <A> >  <B> :	( <A> > <B> )
+<A> が <B> より小さいかどうか	<A> <  <B>	pow ( <A> , <B> )
+<A> が <B> より小さいとき	if <A> <  <B> :	divmod ( <A> < <B> ) :
+<A> が <B> より小さくないか	not <A> <  <B>	( not <A> < <B> )
+<A> が <B> より小さいならば	if <A> <  <B> :	assert ( <A> < <B> )
+<A> が <B> より小さくないならば	if not <A> <  <B> :	if not ( <A> < <B> )
+もし <A> が <B> より小さくなければ	if not <A> <  <B> :	count ( <A> < <B> )
+<A> が <B> より小さくなかったならば	if not <A> <  <B> :	assert ( <A> < <B> )
+<A> が <B> より小さい間	while <A> <  <B> :	while ( <A> < <B> )
+<A> が <B> よりも小さいかどうか	<A> <  <B>	pow ( <A> , <B> )
+もし <A> が <B> よりも小さいならば	if <A> <  <B> :	assert ( <A> < <B> )
+<A> が <B> よりも小さくないかどうか	not <A> <  <B>	( not <A> < <B> )
+<A> が <B> よりも小さければ	if <A> <  <B> :	return ( <A> > <B> )
+もし <A> が <B> よりも小さかった場合	if <A> <  <B> :	set ( ( <A> ) < <B> )
+<A> が <B> よりも小さくなかったならば	if not <A> <  <B> :	assert <A> < <B>
+<A> が <B> 以上か	<A> >= <B>	isclose ( <A> >= <B> , <A> >= <B> )
+<A> が <B> 以上ならば	if <A> >= <B> :	return <A> >= <B>
+<A> が <B> 以上でないかどうか	not <A> >= <B>	pow ( not <A> >= <B> , <B> )
+もし <A> が <B> 以上ならば	if <A> >= <B> :	assert ( <A> >= <B> )
+<A> が <B> 以上でない場合	if not <A> >= <B> :	assert <A> >= <B>
+<A> が <B> 以上でない間	while not <A> >= <B> :	( not <A> >= <B> )
+<A> が <B> 以上であるか	<A> >= <B>	pow ( <A> >= <B> , 1 )
+<A> が <B> 以上であるとき	if <A> >= <B> :	divmod ( <A> >= <B> ) :
+<A> が <B> 以上であるでないか	not <A> >= <B>	( not <A> >= <B> )
+もし <A> が <B> 以上であるならば	if <A> >= <B> :	assert ( <A> >= <B> )
+<A> が <B> 以上であるでないならば	if not <A> >= <B> :	assert <A> >= <B>
+<A> が <B> 以上である間	while <A> >= <B> :	( <A> >= <B> )
+<A> が <B> 以上であるでない間	while not <A> >= <B> :	while not <A> >= <B> :
+<A> が <B> 以降かどうか	<A> <= <B>	( <A> <= <B> )
+<A> が <B> 以降のとき	if <A> <= <B> :	divmod ( <A> , <B> ) :
+<A> が <B> 以降でないか	not <A> <= <B>	!= <A> . not <B> :
+<A> が <B> 以降ならば	if <A> <= <B> :	( <A> == <B> )
+<A> が <B> 以降でない場合	if not <A> <= <B> :	!= <A> . not <B> :
+<A> が <B> 以降間	while <A> <= <B> :	while <A> != <B> :
+<A> が <B> 以降でない間	while not <A> <= <B> :	while not <A> not <B> :
+<A> が <B> 以下であるか	<A> <= <B>	pow ( <A> <= <B> )
+<A> が <B> 以下であるならば	if <A> <= <B> :	assert ( <A> <= <B> )
+<A> が <B> 以下であるでないか	not <A> <= <B>	len ( <A> <= <B> )
+もし <A> が <B> 以下であるとき	if <A> <= <B> :	divmod ( <A> <= <B> , <B> ) :
+もし <A> が <B> 以下であるでないとき	if not <A> <= <B> :	if not <A> . <= <B> ( ) :
+<A> が <B> 以下であるでない間	while not <A> <= <B> :	( not <A> <= <B> ) :
+<A> が偶数か否か	<A> % 2 == 0	pow ( <A> , not )
+<A> が偶数のとき	if <A> % 2 == 0 :	divmod ( <A> ) :
+<A> が偶数でないかどうか	<A> % 2 != 0	!= not ( not <A> )
+もし <A> が偶数ならば	if <A> % 2 == 0 :	assert ( <A> == )
+<A> が偶数でないならば	if <A> % 2 != 0 :	nonlocal <A>
+<A> が偶数間	while <A> % 2 == 0 :	while ( <A> != )
+<A> が偶数でない間	while <A> % 2 != 0 :	while not <A> . not in <A>
+<A> が偶数であるか	<A> % 2 == 0	any ( <A> )
+<A> が偶数であるとき	if <A> % 2 == 0 :	divmod ( <A> ) :
+<A> が偶数であるでないか	<A> % 2 != 0	( not not ( not <A> ) )
+もし <A> が偶数であるとき	if <A> % 2 == 0 :	divmod ( <A> ) :
+もし <A> が偶数であるでない場合	if <A> % 2 != 0 :	assert ( not not <A> ) :
+<A> が偶数である間	while <A> % 2 == 0 :	<A> . not in <A> :
+<A> が偶数であるでない間	while <A> % 2 != 0 :	. not ( not <A> ) :
+<A> が <B> で割った時の余りが <C> であるか否か	<A> % <B> == <C>	( <A> % <B> ) == ( <C> )
+<A> が <B> で割った時の余りが <C> であるならば	if <A> % <B> == <C> :	assert ( ( <A> % <B> ) == <C> )
+<A> が <B> で割った時の余りが <C> であるでないかどうか	<A> % <B> != <C>	len ( <A> % <B> ) != ( <C> )
+<A> が <B> で割った時の余りが <C> であるならば	if <A> % <B> == <C> :	assert ( ( <A> % <B> ) == <C> )
+<A> が <B> で割った時の余りが <C> であるでない場合	if <A> % <B> != <C> :	!= ( <A> % <B> ) != not <C> :
+<A> が <B> で割った時の余りが <C> であるでない間	while <A> % <B> != <C> :	assert ( <A> % <B> , not <C> ) not <C> :
+<A> が奇数か	<A> % 2 == 1	pow ( <A> )
+<A> が奇数のとき	if <A> % 2 == 1 :	divmod ( <A> ) :
+<A> が奇数でないか	<A> % 2 != 1	while not ( not <A> )
+<A> が奇数場合	if <A> % 2 == 1 :	pow ( <A> , )
+<A> が奇数でないとき	if <A> % 2 != 1 :	divmod ( not <A> , not ) :
+<A> が奇数間	while <A> % 2 == 1 :	while ( <A> != )
+<A> が奇数でない間	while <A> % 2 != 1 :	while not <A> . not in <A>
+<A> が奇数であるか	<A> % 2 == 1	any ( <A> )
+<A> が奇数である場合	if <A> % 2 == 1 :	( not ( <A> ) )
+<A> が奇数であるでないかどうか	<A> % 2 != 1	any ( not ( not <A> ) )
+もし <A> が奇数である場合	if <A> % 2 == 1 :	set ( <A> ) . split ( )
+<A> が奇数であるでないとき	if <A> % 2 != 1 :	assert not <A> . not in <A> ) :
+<A> が <B> で割った時の余りが <C> であるか否か	<A> % <B> == <C>	( <A> % <B> ) == ( <C> )
+<A> が <B> で割った時の余りが <C> であるならば	if <A> % <B> == <C> :	assert ( ( <A> % <B> ) == <C> )
+<A> が <B> で割った時の余りが <C> であるでないかどうか	<A> % <B> != <C>	len ( <A> % <B> ) != ( <C> )
+<A> が <B> で割った時の余りが <C> であるならば	if <A> % <B> == <C> :	assert ( ( <A> % <B> ) == <C> )
+<A> が <B> で割った時の余りが <C> であるでない場合	if <A> % <B> != <C> :	!= ( <A> % <B> ) != not <C> :
+<A> が <B> で割った時の余りが <C> であるでない間	while <A> % <B> != <C> :	assert ( <A> % <B> , not <C> ) not <C> :
+<A> が <B> の倍数か	<A> % <B> == 0	pow ( <A> , <B> )
+<A> が <B> の倍数の場合	if <A> % <B> == 0 :	pow ( <A> , <B> [ ] )
+<A> が <B> の倍数でないかどうか	<A> % <B> != 0	len ( <A> <= <B> . not )
+<A> が <B> の倍数とき	if <A> % <B> == 0 :	divmod ( <A> , <B> ) :
+もし <A> が <B> の倍数でないとき	if <A> % <B> != 0 :	pass ( <A> . not <B> ) :
+<A> が <B> で割り切れるか	<A> % <B> == 0	( <A> <= <B> )
+<A> が <B> で割り切れるとき	if <A> % <B> == 0 :	if <A> . not <B> :
+<A> が <B> で割り切れないか	<A> % <B> != 0	!= <A> . not <B> :
+<A> が <B> で割り切れれば	if <A> % <B> == 0 :	pow ( <A> , <B> )
+もし <A> が <B> で割り切れたならば	if <A> % <B> == 0 :	assert ( <A> == <B> )
+<A> が <B> で割り切れる間	while <A> % <B> == 0 :	while <A> not <B> :
+何もしない	pass	pass </blk>
+何も行わない	pass	前から更新すると更新した結果を使って更新してしまうため後ろから更新 </blk>
+パスする	pass	input = )
+抜ける	break	</blk> )
+ループを終了する	break	sys . exit ( )
+ループを抜ける	break	for in set ( )
+ループ処理から抜ける	break	set , ( )
+ループ文を抜け出す	break	for in set ( )
+ループから抜け出す	break	set , ( )
+繰り返し処理を終了する	break	sys . exit ( )
+繰り返し処理から抜ける	break	'one pair'
+もし <A> が <B> 未満、または <C> 以上のとき	if <A> <  <B> or <A> >= <C> :	divmod , <A> >= <B> or <C> :
+もし <A> 才未満、または <B> 才以上のとき	if age <  <A> or age >= <B> :	divmod , ( <A> ) : , <B> :
+もし <A> が <B> 未満、かつ <C> 以上のとき	if <A> <  <B> and <A> >= <C> :	divmod , <A> >= <B> , <C> :
+もし <A> 才未満、かつ <B> 才以上のとき	if age <  <A> and age >= <B> :	divmod , ( <A> and <B> , <B> ) :
+<A> を整列する	sorted ( <A> )	'ENWS'
+<A> を並べ変えた列	sorted ( <A> )	<A> += [ ]
+<A> を降順に並べ変える	sorted ( <A> , reverse = True )	'C'
+<A> を降順にソートした列	sorted ( <A> , reverse = True )	print ( sorted ( <A> ) )
+<A> の最初	<A> [ 0 ]	factorial ( <A> )
+<A> の末尾の要素	<A> [ -1 ]	pow ( <A> [ - 1 ] )
+<A> の一部分を取り出す	<A> [ start : end ]	len ( <A> . )
+<A> の <B> 番目から <C> 番目の値を取り出す	<A> [ <B> : <C> ]	not <A> [ <B> ] - <C> [ <B> ]
+<A> の <B> 番目から末尾までの要素を取り出す	<A> [ <B> : ]	any ( <A> [ <B> : - 1 ] )
+<A> の <B> 番目以降の要素を取り出す	<A> [ <B> : ]	any ( <A> [ <B> ] )
+<A> の一部分を取り出す	<A> [ : end ]	len ( <A> . )
+<A> の先頭から <B> 番目の値を取り出す	<A> [ : <B> ]	from <A> [ 0 ] - <B> [ ] )
+<A> の逆順	<A> [ : : -1 ]	<A> [ : : - 1 ]
+<A> 内の要素の順番を逆転する	<A> [ : : -1 ]	path = <A> . clear ( )
+<A> の要素数	len ( <A> )	<A> . ord ( )
+<A> の要素数を調べる	len ( <A> )	ord ( <A> )
+<A> の要素数を算出する	len ( <A> )	'a' = ord ( <A> )
+<A> の合計値	sum ( <A> )	len ( <A> )
+<A> の合計値を見る	sum ( <A> )	not <A> [ : - 1 ]
+<A> の合計値を求める	sum ( <A> )	not <A> [ : - 1 ]
+数列 <A> の総和	sum ( <A> )	range ( sum ( <A> ) )
+数列 <A> の総和を確認する	sum ( <A> )	input ( sum ( <A> ) )
+数列 <A> の総和を求める	sum ( <A> )	<A> . sum ( )
+リスト <A> の最小値	min ( <A> )	hash ( list ( min ( <A> ) ) )
+リスト <A> の最小値を見る	min ( <A> )	yield list ( min ( <A> ) )
+リスト <A> の最小値を求める	min ( <A> )	yield list ( min ( <A> ) )
+リスト <A> の最大値	max ( <A> )	sum ( list ( list ( <A> ) ) )
+リスト <A> の最大値を調べる	max ( <A> )	yield max ( list ( <A> ) )
+リスト <A> の最大値を計算する	max ( <A> )	path = max ( list ( <A> ) )
+数列 <A> の平均値	sum ( <A> ) / len ( <A> )	nonlocal ( <A> )
+数列 <A> の平均値を調べる	sum ( <A> ) / len ( <A> )	<A> [ : - 1 ]
+数列 <A> の平均値を計算する	sum ( <A> ) / len ( <A> )	nonlocal ( <A> )
+0 から <A> -1 までの数列	range ( <A> )	<A> . range ( - 1 )
+0 から <A> -1 の範囲の数列	range ( <A> )	assert <A> . - 1 )
+0 から <A> -1 の範囲で 1 ずつ増える数列	range ( <A> )	input ( - <A> , - 1 )
+0 ~ <A> -1 の範囲の数列	range ( <A> )	assert <A> * ( - 1 ) )
+0 ~ <A> -1 の範囲で 1 ずつ増える数列	range ( <A> )	path . format ( <A> - <B> , )
+0 以上 <A> 未満で 1 ずつ増える数列	range ( <A> )	input ( ) >= <A> - 1
+0 以上 <A> 未満の範囲の数列	range ( <A> )	str ( range ( <A> ) )
+<A> から <B> までの数列	range ( <A> , <B> + <A> )	range ( <A> , <B> )
+<A> から <B> の範囲の数列	range ( <A> , <B> + <A> )	insort ( <A> , <B> )
+<A> から <B> の範囲で <A> ずつ増える数列	range ( <A> , <B> + <A> )	range ( <A> , <B> , <A> )
+<A> ~ <B> の範囲の数列	range ( <A> , <B> + <A> )	insort ( <A> , <B> )
+<A> ~ <B> の範囲で <A> ずつ増える数列	range ( <A> , <B> + <A> )	insort ( <A> , <B> , <A> )
+<A> 以上 <B> + <A> 未満の範囲で <A> ずつ増える数列	range ( <A> , <B> + <A> )	insort ( <A> >= <B> + <A> , <B> , <A> )
+空のリストを作る	[ ]	[ ] = list ( )
+空のリストを作って、  <A> とする	<A> = [ ]	str , <A> = list ( ) :
+リスト <A> に <B> を加える	<A> . append ( <B> )	print ( list ( <A> ) , <B> )
+<A> の末尾に <B> を加える	<A> . append ( <B> )	( <A> [ - 1 ] + <B> )
+<B> を追加する要素としてリスト <A> の末尾に値を付加する	<A> . append ( <B> )	exit ( <A> [ : ] = list ( <B> ) )
+<A> の末尾から要素を取り出す	<A> . pop ( )	( <A> [ - 1 ] )
+<A> の <B> 番目から要素を取り出す	<A> . pop ( <B> )	any ( <A> [ <B> ] )
+<B> 個の <A> が含まれるリスト	[ <A> for i in range ( <B> ) ]	( <B> , list ( <A> ) )
+<C> 個の <B> が含まれるリストを  <A> に代入する	<A> = [ <B> for i in range ( <C> ) ]	exit ( <A> ) = list ( <C> )
+<A> から 100 までの数が並んだリスト	[ i for i in range ( <A> , 101 ) ]	len ( <A> ) list ( itertools . permutations ( ) )
+<B> から 100 までの数が並んだリストを  <A> とする	<A> = [ i for i in range ( <B> , 101 ) ]	input = list ( <B> ) != list ( <B> )
+<A> 以上 <B> 未満の数が並んだリスト	[ i for i in range ( <A> , <B> ) ]	list ( range ( <A> >= <B> ) ) >= list ( <B> )
+<B> 以上 <C> 未満の数が並んだリストを  <A> にする	<A> = [ i for i in range ( <B> , <C> ) ]	input = list ( range ( <B> , <C> ) )
+文字列 <A> 内の <B> を <C> に置き換えた文字列	<A> . replace ( <B> , <C> )	eval ( <A> . replace ( <B> , <C> ) )
+文字列 <B> 内の <C> を <D> に置き換えた文字列を  <A> とする	<A> = <B> . replace ( <C> , <D> )	[ <A> ] = str ( <B> . replace ( <C> , <D> ) )
+<A> を英大文字に変換した文字列	<A> . upper ( )	len ( <A> . upper ( ) )
+<B> を英大文字に変換した文字列を  <A> とする	<A> = <B> . upper ( )	input = <B> . <A> ( )
+文字列 <A> 内の小文字を大文字に変換する	<A> . upper ( )	input ( ) <A> . lower ( )
+文字列 <B> 内の小文字を大文字に変換し、  <A> とする	<A> = <B> . upper ( )	<A> = str ( <B> ) . lower ( )
+<A> を全て大文字に変換する	<A> . upper ( )	insort ( <A> . upper ( ) )
+<B> を全て大文字に変換して、  <A> にする	<A> = <B> . upper ( )	insort ( <A> , <B> . <A> )
+<A> を全て大文字にする	<A> . upper ( )	exit ( <A> )
+<B> を全て大文字にし、  <A> とする	<A> = <B> . upper ( )	input ( ) , <A> = <B>
+文字列 <A> の全ての文字を大文字にする	<A> . upper ( )	<A> . upper ( str ( ) )
+文字列 <B> の全ての文字を大文字にして、  <A> に代入する	<A> = <B> . upper ( )	<A> . <B> = str ( <B> ) . upper ( )
+<A> の全ての英字を大文字にする	<A> . upper ( )	( <A> ) . isupper ( )
+<B> の全ての英字を大文字にし、  <A> に代入する	<A> = <B> . upper ( )	insort ( <A> , <B> . upper ( ) )
+<A> の英字全てを大文字にする	<A> . upper ( )	exit ( <A> ) </blk>
+<B> の英字全てを大文字にし、  <A> とする	<A> = <B> . upper ( )	( <A> , <B> = <B> ) . <A>
+文字列 <A> を英小文字に変換した文字列	<A> . lower ( )	lower ( <A> . lower ( ) )
+文字列 <B> を英小文字に変換した文字列を  <A> とする	<A> = <B> . lower ( )	input = str ( <B> . lower ( ) )
+文字列 <A> の中の大文字を小文字に変換する	<A> . lower ( )	input ( ) . <A> . upper ( )
+文字列 <B> の中の大文字を小文字に変換して、  <A> とする	<A> = <B> . lower ( )	<A> = str ( <B> ) . upper ( )
+<A> を全て小文字に変換する	<A> . lower ( )	insort ( <A> . lower ( ) )
+<B> を全て小文字に変換して、  <A> とする	<A> = <B> . lower ( )	insort ( <A> , <B> . lower ( ) )
+<A> を全て小文字にする	<A> . lower ( )	input ( )
+<B> を全て小文字にして、  <A> にする	<A> = <B> . lower ( )	insort ( <A> , <B> )
+文字列 <A> の全ての英字を小文字に変換する	<A> . lower ( )	str . lower ( <A> ) . lower ( )
+文字列 <B> の全ての英字を小文字に変換し、  <A> とする	<A> = <B> . lower ( )	<A> , <B> = str ( <B> ) . lower ( )
+<A> の全ての文字を小文字にして返す	<A> . lower ( )	def ( <A> ( ) ) . lower ( )
+<B> の全ての文字を小文字にして返して、  <A> とする	<A> = <B> . lower ( )	str ( <B> . lower ( ) , <A> )
+<A> の英字全てを小文字に変換する	<A> . lower ( )	insort ( <A> . lower ( ) )
+<B> の英字全てを小文字に変換し、  <A> にする	<A> = <B> . lower ( )	def <A> ( <B> ) . lower ( )
+文字列 <A> の文字リスト	list ( <A> )	str ( list ( str ( <A> ) ) )
+文字列 <B> の文字リストを  <A> にする	<A> = list ( <B> )	str ( <A> = list ( str ( <B> ) ) )
+文字列 <A> を <B> で分割した文字列のリスト	<A> . split ( <B> )	ord ( str ( <A> . split ( <B> ) ) )
+文字列 <B> を <C> で分割した文字列のリストを  <A> とする	<A> = <B> . split ( <C> )	input = list ( str ( <B> . split ( <C> ) ) )
+<A> を <B> で分割してリストを返す	<A> . split ( <B> )	return list ( <A> . split ( <B> ) )
+<B> を <C> で分割してリストを返して、  <A> とする	<A> = <B> . split ( <C> )	, <A> = list ( <B> . split ( <C> ) )
+<B> を区切り文字に指定して <A> を分割してリスト型にする	<A> . split ( <B> )	global list ( <A> , <B> . write ( * <A> ) )
+<C> を区切り文字に指定して <B> を分割してリスト型にして、  <A> に代入する	<A> = <B> . split ( <C> )	search ( <A> , <B> . join ( * list ( <C> ) ) , <A> = <C> )
+<A> 内の <B> の出現回数	<A> . count ( <B> )	count ( <A> . count ( <B> ) )
+<A> 内の <B> の出現回数を確認する	<A> . count ( <B> )	path = <A> . count ( <B> )
+<A> 内の <B> の登場回数	<A> . count ( <B> )	<A> . count ( <B> )
+<A> 内の <B> の登場回数を調べる	<A> . count ( <B> )	from <A> . count ( <B> )
+文字列 <A> が <B> で始まるか	<A> . startswith ( <B> )	count ( <A> . startswith ( <B> ) )
+もし文字列 <A> が <B> で始まるならば	if <A> . startswith ( <B> ) :	count ( <A> . startswith ( <B> ) )
+もし文字列 <A> が <B> で始まれば	if <A> . startswith ( <B> ) :	yield str ( <A> == <B> )
+文字列 <A> が <B> で始まったら	if <A> . startswith ( <B> ) :	yield str ( <A> <= <B> )
+文字列 <A> の先頭が <B> であるどうか	<A> . startswith ( <B> )	chr ( str ( <A> [ 0 ] ) == <B> )
+文字列 <A> の先頭が <B> であるどう場合	if <A> . startswith ( <B> ) :	eval ( <A> [ <B> ] == <B> )
+<A> が <B> で終わるかどうか	<A> . endswith ( <B> )	isclose ( <A> , <B> )
+<A> が <B> で終わるとき	if <A> . endswith ( <B> ) :	divmod ( <A> , <B> ) :
+<A> が <B> で終われば	if <A> . endswith ( <B> ) :	pow ( <A> , <B> )
+文字列 <A> の末尾が <B> であるどうか	<A> . endswith ( <B> )	eval ( <A> [ - <B> ] <= <B> )
+文字列 <A> の末尾が <B> であるどうとき	if <A> . endswith ( <B> ) :	if str ( <A> [ - 1 ] < <B> ) :
+文字列 <A> が英大文字か	<A> . isupper ( )	( str ( <A> . upper ) )
+文字列 <A> が英大文字ならば	if <A> . isupper ( ) :	str ( <A> . upper ( ) )
+もし文字列 <A> が英大文字ならば	if <A> . isupper ( ) :	count ( <A> . upper ( ) )
+<A> 中の全ての文字が英大文字か	<A> . isupper ( )	len ( <A> ) . isupper ( )
+もし <A> 中の全ての文字が英大文字ならば	if <A> . isupper ( ) :	set ( <A> . most_common ( ) )
+もし <A> 中の全ての文字が英大文字とき	if <A> . isupper ( ) :	divmod . <A> ( ) . isupper ( ) :
+文字列 <A> 中の全ての英字が大文字か否か	<A> . isupper ( )	( str ( <A> ) . upper ( ) )
+文字列 <A> 中の全ての英字が大文字のとき	if <A> . isupper ( ) :	) if str ( <A> ) . upper ( ) :
+文字列 <A> 中の全ての英字が大文字とき	if <A> . isupper ( ) :	divmod ( str . <A> ( ) ) :
+文字列 <A> 中の英字全てが大文字か	<A> . isupper ( )	( str ( <A> ) ) . upper ( )
+文字列 <A> 中の英字全てが大文字ならば	if <A> . isupper ( ) :	str ( <A> ) . upper ( )
+もし文字列 <A> 中の英字全てが大文字とき	if <A> . isupper ( ) :	divmod ( str , <A> ( ) ) :
+<A> が英小文字か	<A> . islower ( )	<A> . lower ( )
+<A> が英小文字の場合	if <A> . islower ( ) :	len ( <A> ) . lower ( )
+<A> が英小文字場合	if <A> . islower ( ) :	pow <A> . lower ( )
+<A> 中の全ての文字が英小文字か否か	<A> . islower ( )	len ( <A> ( ) . lower ( ) )
+<A> 中の全ての文字が英小文字のとき	if <A> . islower ( ) :	divmod ( <A> ) . islower ( ) :
+もし <A> 中の全ての文字が英小文字とき	if <A> . islower ( ) :	pass ( <A> . most_common ( ) ) :
+文字列 <A> 中の全ての英字が小文字か	<A> . islower ( )	yield str ( <A> ) . lower ( )
+文字列 <A> 中の全ての英字が小文字の場合	if <A> . islower ( ) :	eval ( <A> . values ( ) )
+もし文字列 <A> 中の全ての英字が小文字ならば	if <A> . islower ( ) :	str ( input ( <A> ) ) . lower ( )
+<A> 中の英字全てが小文字か否か	<A> . islower ( )	not <A> ( ) . lower ( )
+もし <A> 中の英字全てが小文字ならば	if <A> . islower ( ) :	assert <A> . isdigit ( )
+もし <A> 中の英字全てが小文字ならば	if <A> . islower ( ) :	assert <A> . isdigit ( )
+<A> が数字かどうか	<A> . isdigit ( )	pow ( <A> , )
+<A> が数字のとき	if <A> . isdigit ( ) :	. if <A> . isdecimal ( ) :
+もし <A> が数字場合	if <A> . isdigit ( ) :	from <A> is . isdecimal ( ) :
+文字列 <A> 中の全ての文字が数字か	<A> . isdigit ( )	chr ( str ( <A> ) ) . isdigit ( )
+文字列 <A> 中の全ての文字が数字ならば	if <A> . isdigit ( ) :	input ( . ) . isdecimal ( str ( <A> ) )
+もし文字列 <A> 中の全ての文字が数字とき	if <A> . isdigit ( ) :	( str ( chr {}' ( <A> ) ) ) . isdecimal ( ) :
+<A> 全てが数字かどうか	<A> . isdigit ( )	max ( <A> . isdigit ( ) )
+<A> 全てが数字の場合	if <A> . isdigit ( ) :	list ( <A> . isdigit ( ) )
+もし <A> 全てが数字ならば	if <A> . isdigit ( ) :	list ( <A> ) . isdigit ( )
+文字列 <A> が数字であるか	<A> . isdigit ( )	chr ( ( <A> . isdecimal ( ) ) )
+文字列 <A> が数字である場合	if <A> . isdigit ( ) :	input ( ) . isdecimal ( <A> ) :
