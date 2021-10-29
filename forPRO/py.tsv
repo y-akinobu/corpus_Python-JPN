@@ -1,0 +1,1478 @@
+print ( "Hello World" )	Hello World と出力する
+print ( "Hello World" )	Hello World と表示する
+print ( "Hello World" )	「こんにちは世界」と表示する
+print ( "Hello World" )	「ハローワールド」と表示する
+print ( "Hello World" )	「こんにちは世界」と出力する
+print ( "Hello World" )	「ハローワールド」と出力する
+print ( "Hello World" )	何か動かす
+print ( "Hello World" )	試しに何か動かす
+print ( "Hello World" )	最初のプログラム
+<A> + <B>	<A> 足す <B>
+<A> + <B>	<A> に <B> を加算する
+<A> + <B>	<A> と <B> の和
+<A> + <B> + <C>	<A> 足す <B> 足す <C>
+<A> + <B> + <C>	<A> , <B> , <C> の和
+<A> -70	<A> から 70 を引く
+<A> * <B>	<A> かける <B>
+<A> / <B>	<A> を <B> で割る
+<A> // <B>	<A> を <B> で割った商
+<A> % <B>	<A> を <B> で割った余り
+<A> ** <B>	<A> の <B> 乗
+abc + <A>	"文字列 ""abc"" と <A> を繋ぐ"
+<A> + <B>	<A> と <B> を繋ぐ
+<A> + <B>	<A> と <B> を結合する
+<A> + <B>	<A> と <B> を連結する
+abc + <A>	"文字列 ""abc"" と <A> を結合する"
+str ( <A> )	<A> を文字列にする
+str ( <A> )	<A> を文字列に変換する
+str ( <A> )	<A> を変換した文字列
+<A> * <B>	<A> を <B> 回繰り返す
+X * <A>	"文字列 ""X"" を <A> 回繰り返す"
+x = input ( )	ユーザから入力を得る
+<A> = input ( )	ユーザが入力した文字列を <A> とする
+x = input ( )	ユーザから入力された文字列
+x = input ( )	入力された文字列
+"x = input ( ""X"" )"	X というプロンプトを表示し、ユーザに文字列を入力させる
+"x = input ( ""X"" )"	X という問い合わせに対し、ユーザから入力を得る
+float ( <A> )	<A> を浮動小数点数に変換する
+float ( <A> )	<A> を浮動小数点数にする
+float ( <A> )	<A> を変換した浮動小数点数
+int ( <A> )	<A> を整数にする
+int ( <A> )	<A> を整数値にする
+int ( <A> )	<A> を数にする
+int ( <A> )	<A> を整数値に変換する
+int ( <A> )	<A> を整数に変換する
+int ( <A> )	<A> を数値に変換する
+int ( <A> )	<A> を数に変換する
+int ( <A> )	<A> を変換した整数値
+int ( <A> )	<A> を変換した整数
+int ( <A> )	<A> を変換した数
+int ( <A> )	<A> を変換した数値
+<A> = int ( input ( ) )	入力された数値を <A> とする
+<A> = int ( input ( ) )	入力された数を <A> とする
+<A> = int ( input ( ) )	入力された整数を <A> とする
+<A> = int ( input ( ) )	ユーザが入力した数値を <A> とする
+<A> = int ( input ( ) )	ユーザが入力した数を <A> とする
+x = int ( input ( ) )	入力された整数
+x = int ( input ( ) )	入力された数
+x = int ( input ( ) )	入力された整数値
+<A> = float ( input ( ) )	ユーザが入力した浮動小数点数を <A> とする
+<A> = float ( input ( ) )	入力された浮動小数点数を <A> とする
+x = float ( input ( ) )	入力された浮動小数点数
+type ( <A> )	<A> の型
+type ( <A> )	<A> のクラス
+type ( <A> )	<A> の型を確認する
+type ( <A> )	<A> のクラスを調べる
+<A> == <B>	<A> と <B> が等しいかどうか
+if <A> == <B> :	もし <A> と <B> が等しいならば
+<A> != <B>	<A> と <B> が等しくないか否か
+if <A> == <B> :	<A> と <B> が等しい場合
+if <A> == <B> :	もし <A> と <B> が等しければ
+if <A> == <B> :	もし <A> と <B> が等しかったならば
+if <A> != <B> :	<A> と <B> が等しければ
+if <A> != <B> :	<A> と <B> が等しかったら
+while <A> == <B> :	<A> と <B> が等しい間
+while <A> != <B> :	<A> と <B> が等しくな間
+<A> == <B>	<A> が <B> と等しいかどうか
+if <A> == <B> :	もし <A> が <B> と等しいならば
+<A> != <B>	<A> が <B> と等しくないか
+if <A> == <B> :	<A> が <B> と等しければ
+if <A> != <B> :	<A> が <B> と等しくない場合
+if <A> != <B> :	もし <A> が <B> と等しくなければ
+if <A> != <B> :	<A> が <B> と等しくなかったならば
+<A> == <B>	<A> が <B> か否か
+if <A> == <B> :	<A> が <B> の場合
+<A> != <B>	<A> が <B> でないか
+if <A> == <B> :	もし <A> が <B> 場合
+if <A> != <B> :	もし <A> が <B> でないとき
+while <A> == <B> :	<A> が <B> 間
+while <A> != <B> :	<A> が <B> でない間
+<A> >  <B>	<A> が <B> より大きいかどうか
+if <A> >  <B> :	もし <A> が <B> より大きいならば
+not <A> >  <B>	<A> が <B> より大きくないかどうか
+if <A> >  <B> :	もし <A> が <B> より大きいならば
+if <A> >  <B> :	<A> が <B> より大きければ
+if not <A> >  <B> :	<A> が <B> より大きくない場合
+if not <A> >  <B> :	もし <A> が <B> より大きくなかった場合
+while <A> >  <B> :	<A> が <B> より大きい間
+<A> <  <B>	<A> が <B> より小さいか
+if <A> <  <B> :	<A> が <B> より小さい場合
+not <A> <  <B>	<A> が <B> より小さくないかどうか
+if <A> <  <B> :	もし <A> が <B> より小さい場合
+if <A> <  <B> :	もし <A> が <B> より小さければ
+if not <A> <  <B> :	<A> が <B> より小さくないとき
+if not <A> <  <B> :	<A> が <B> より小さくなかったとき
+while not <A> <  <B> :	<A> が <B> より小さくない間
+<A> >= <B>	<A> が <B> 以上か
+if <A> >= <B> :	<A> が <B> 以上の場合
+not <A> >= <B>	<A> が <B> 以上でないか
+if <A> >= <B> :	<A> が <B> 以上ならば
+if not <A> >= <B> :	もし <A> が <B> 以上でないならば
+while not <A> >= <B> :	<A> が <B> 以上でない間
+<A> <= <B>	<A> が <B> 以降かどうか
+if <A> <= <B> :	<A> が <B> 以降の場合
+<A> <= <B>	<A> が <B> 以下か否か
+if <A> <= <B> :	<A> が <B> 以下ならば
+<A> <= <B>	<A> が <B> 次かどうか
+if <A> <= <B> :	<A> が <B> 次の場合
+not <A> <= <B>	<A> が <B> 以降でないか
+not <A> <= <B>	<A> が <B> 以下でないかどうか
+not <A> <= <B>	<A> が <B> 次でないか否か
+if <A> <= <B> :	<A> が <B> 以降とき
+if <A> <= <B> :	もし <A> が <B> 以下とき
+if <A> <= <B> :	<A> が <B> 次とき
+if not <A> <= <B> :	<A> が <B> 以降でないならば
+if not <A> <= <B> :	<A> が <B> 以下でない場合
+if not <A> <= <B> :	<A> が <B> 次でなとき
+while <A> <= <B> :	<A> が <B> 次間
+while not <A> <= <B> :	<A> が <B> 以降でない間
+<A> % 2 == 0	<A> が偶数か
+if <A> % 2 == 0 :	<A> が偶数のとき
+<A> % 2 != 0	<A> が偶数でないかどうか
+if <A> % 2 == 0 :	<A> が偶数場合
+if <A> % 2 != 0 :	<A> が偶数でないとき
+while <A> % 2 == 0 :	<A> が偶数間
+while <A> % 2 != 0 :	<A> が偶数でない間
+<A> % 2 == 1	<A> が奇数かどうか
+if <A> % 2 == 1 :	<A> が奇数のとき
+<A> % 2 != 1	<A> が奇数でないかどうか
+if <A> % 2 == 1 :	<A> が奇数場合
+if <A> % 2 != 1 :	もし <A> が奇数でないならば
+while <A> % 2 == 1 :	<A> が奇数間
+while <A> % 2 != 1 :	<A> が奇数でない間
+<A> % <B> == 0	<A> が <B> の倍数か
+if <A> % <B> == 0 :	<A> が <B> の倍数ならば
+<A> % <B> != 0	<A> が <B> の倍数でないか
+if <A> % <B> == 0 :	<A> が <B> の倍数場合
+if <A> % <B> != 0 :	もし <A> が <B> の倍数でないならば
+while <A> % <B> == 0 :	<A> が <B> の倍数間
+<A> % <B> == 0	<A> が <B> で割り切れるかどうか
+if <A> % <B> == 0 :	もし <A> が <B> で割り切れるならば
+<A> % <B> != 0	<A> が <B> で割り切れないか否か
+if <A> % <B> == 0 :	<A> が <B> で割り切れたなら
+if <A> % <B> != 0 :	もし <A> が <B> で割り切れな場合
+while <A> % <B> == 0 :	<A> が <B> で割り切れる間
+while <A> % <B> != 0 :	<A> が <B> で割り切れな間
+pass	何もしない
+pass	パスする
+quit ( )	プログラムの実行を終了する
+quit ( )	プログラムの実行を途中で終了する
+quit ( )	プログラムの実行を中断する
+True	真
+False	偽
+if <A> <  <B> or <A> >= <C> :	<A> が <B> 未満、または <C> 以上のとき
+if <A> <  <B> or <A> >= <C> :	もし <A> が <B> 未満、または <C> 以上のとき
+if age <  <A> or age >= <B> :	<A> 才未満、または <B> 才以上のとき
+if age <  <A> or age >= <B> :	もし <A> 才未満、または <B> 才以上のとき
+if <A> <  <B> and <A> >= <C> :	もし <A> が <B> 未満、かつ <C> 以上のとき
+if <A> <  <B> and <A> >= <C> :	<A> が <B> 未満、かつ <C> 以上のとき
+weight / ( height / 100 ) ** 2	BMI を求めたい
+<A> / ( <B> / 100 ) ** 2	<A> と身長 <B> から BMI
+<A> / ( <B> / 100 ) ** 2	<A> と <B> から BMI
+<A> / ( <B> / 100 ) ** 2	体重 <A> と <B> 身長から BMI
+<A> / ( <B> / 100 ) ** 2	体重 <A> と <B> から BMI
+<A> / ( <B> / 100 ) ** 2	<A> と <B> 身長から BMI
+<A> / ( <B> / 100 ) ** 2	体重 <A> と身長 <B> から BMI
+<A> / ( <B> / 100 ) ** 2	<A> と身長 <B> から BMI を算出する
+<A> / ( <B> / 100 ) ** 2	<A> と <B> から BMI を計算する
+<A> / ( <B> / 100 ) ** 2	体重 <A> と <B> 身長から BMI を求める
+<A> / ( <B> / 100 ) ** 2	体重 <A> と <B> から BMI を計算する
+<A> / ( <B> / 100 ) ** 2	<A> と <B> 身長から BMI を算出する
+<A> / ( <B> / 100 ) ** 2	体重 <A> と身長 <B> から BMI を計算する
+<A> / ( <B> / 100 ) ** 2	<B> と <A> から BMI
+<A> / ( <B> / 100 ) ** 2	<B> と体重 <A> から BMI
+<A> / ( <B> / 100 ) ** 2	<B> と <A> 体重から BMI
+<A> / ( <B> / 100 ) ** 2	身長 <B> と <A> 体重から BMI
+<A> / ( <B> / 100 ) ** 2	身長 <B> と体重 <A> から BMI
+<A> / ( <B> / 100 ) ** 2	<B> と <A> から BMI を計算する
+<A> / ( <B> / 100 ) ** 2	<B> と体重 <A> から BMI を計算する
+<A> / ( <B> / 100 ) ** 2	<B> と <A> 体重から BMI を求める
+<A> / ( <B> / 100 ) ** 2	身長 <B> と <A> 体重から BMI を求める
+<A> / ( <B> / 100 ) ** 2	身長 <B> と体重 <A> から BMI を計算する
+random . randint ( 1 , 6 )	サイコロの出目
+random . randint ( 1 , 6 )	サイコロを振った目
+random . randint ( 1 , 6 )	サイコロを振った値
+random . randint ( <A> , <B> )	<A> から <B> までの乱数
+time . sleep ( <A> )	<A> 秒間、プログラムの実行を停止する
+time . sleep ( <A> )	<A> 秒、プログラムの実行を停止する
+time . sleep ( <A> )	<A> 秒間、待つ
+time . sleep ( <A> )	<A> 秒、待つ
+time . sleep ( <A> )	<A> 秒間、止める
+time . sleep ( <A> )	<A> 秒、止める
+while True : pass	無限ループ
+while True : pass	とりあえず、繰り返す
+for i in range ( 5 ) :	５回、ループする
+for i in range ( 5 ) :	５回、繰り返す
+break	繰り返しを中断する
+break	繰り返しから抜け出す
+break	繰り返しから強制的に抜け出す
+continue	繰り返しの先頭に戻る
+continue	もう一回、ループする
+continue	もう一度、ループする
+continue	もう一度、繰り返す
+continue	もう一回、繰り返す
+[ 0 ] * <A>	大きさ <A> の配列
+for a in [ <A> , <B> , <C> ] :	リスト [ <A> , <B> , <C> ] の各要素を処理する
+for <A> in [ <B> , <C> , <D> ] :	リスト [ <B> , <C> , <D> ] の要素を繰り返すたびに <A> に入れる
+for <A> in [ <B> , <C> , <D> ] :	リスト [ <B> , <C> , <D> ] の要素を繰り返すたびに <A> に代入する
+<A> . append ( <B> )	<A> の末尾に <B> を追加する
+<A> . append ( <B> )	リスト <A> の末尾に <B> を追加する
+del ( <A> [ <B> ] )	<A> から <B> 番目の要素を削除する
+del ( <A> [ <B> ] )	<A> から <B> 番目の値を削除する
+del ( <A> [ <B> ] )	リスト <A> から <B> 番目の要素を削除する
+del ( <A> [ <B> ] )	リスト <A> から <B> 番目の値を削除する
+<A> [ start : end ]	リスト <A> の一部分を取り出す
+<A> [ start : end ]	<A> の一部分を取り出す
+sum ( <A> )	<A> の合計値
+sum ( <A> )	数列 <A> の合計値
+sum ( <A> )	数列 <A> の合計
+sum ( <A> )	<A> の合計
+sum ( <A> )	数列 <A> の総和
+sum ( <A> )	<A> の総和
+sum ( <A> ) / len ( <A> )	数列 <A> の平均
+sum ( <A> ) / len ( <A> )	数列 <A> の平均値
+sum ( <A> ) / len ( <A> )	<A> の平均値
+sum ( <A> ) / len ( <A> )	<A> の平均
+random . suffle ( <A> )	<A> をシャッフルする
+random . suffle ( <A> )	リスト <A> をシャッフルする
+<A> . keys ( )	<A> のキーの一覧
+<A> . keys ( )	辞書 <A> のキーの一覧
+<A> . keys ( )	<A> のキーの一覧を得る
+<A> [ <B> ]	<A> のキー <B> の値
+<A> [ <B> ]	<A> のキー <B> のデータ
+<A> [ <B> ]	辞書 <A> のキー <B> のデータ
+<A> [ <B> ]	辞書 <A> のキー <B> の値を参照する
+<A> [ <B> ]	<A> のキー <B> の値を参照する
+<A> [ <B> ]	辞書 <A> のキー <B> の値
+<A> [ <B> ]	<A> のキー <B> のデータを参照する
+for key in <A> . keys ( ) : value = <A> [ key ]	<A> に入っているデータを一つずつ処理する
+for key in <A> . keys ( ) : value = <A> [ key ]	辞書 <A> に入っているデータを一つずつ処理する
+for key in <A> . keys ( ) : value = <A> [ key ]	<A> に入っている値を一つずつ処理する
+for key in <A> . keys ( ) : value = <A> [ key ]	辞書 <A> に入っている値を一つずつ処理する
+math . ceil ( <A> )	実数 <A> の小数点以下を切り上げる
+math . ceil ( <A> )	<A> の小数点以下を切り上げた整数値
+math . ceil ( <A> )	<A> の小数点以下を切り上げた数
+math . ceil ( <A> )	<A> の小数点以下を切り上げた数値
+math . ceil ( <A> )	<A> の小数点以下を切り上げた整数
+<A> in <B>	辞書 <B> にキー <A> があるか
+if <A> in <B> :	辞書 <B> にキー <A> がある場合
+<A> in <B>	辞書 <B> に <A> が存在するかどうか
+if <A> in <B> :	辞書 <B> に <A> が存在するならば
+<A> in <B>	辞書 <B> にキー <A> が含まれているか否か
+if <A> in <B> :	辞書 <B> にキー <A> が含まれているとき
+<A> in <B>	<B> に <A> があるか否か
+if <A> in <B> :	もし <B> に <A> があるならば
+<A> in <B>	辞書 <B> に <A> キーが含まれているかどうか
+if <A> in <B> :	辞書 <B> に <A> キーが含まれている場合
+<A> in <B>	<B> に <A> キーが存在するかどうか
+if <A> in <B> :	<B> に <A> キーが存在する場合
+<A> in <B>	<B> に <A> キーが含まれているか否か
+if <A> in <B> :	もし <B> に <A> キーが含まれているならば
+<A> in <B>	<B> に <A> キーがあるか
+if <A> in <B> :	もし <B> に <A> キーがあるならば
+<A> in <B>	<B> にキー <A> が含まれているか否か
+if <A> in <B> :	<B> にキー <A> が含まれているならば
+<A> in <B>	辞書 <B> に <A> があるか否か
+if <A> in <B> :	もし辞書 <B> に <A> があるならば
+<A> in <B>	辞書 <B> に <A> が含まれているか否か
+if <A> in <B> :	もし辞書 <B> に <A> が含まれているならば
+<A> in <B>	<B> に <A> が存在するか
+if <A> in <B> :	もし <B> に <A> が存在するならば
+<A> in <B>	辞書 <B> にキー <A> が存在するか
+if <A> in <B> :	辞書 <B> にキー <A> が存在するならば
+<A> not in date	辞書 d にキー <A> がないか
+if <A> not in date :	もし辞書 d にキー <A> がないならば
+<A> not in date	d にキー <A> がないか
+if <A> not in date :	d にキー <A> がないならば
+<A> not in date	辞書 d にキー <A> が存在しないか
+if <A> not in date :	辞書 d にキー <A> が存在しないならば
+<A> not in date	辞書 d にキー <A> が含まれていないか
+if <A> not in date :	もし辞書 d にキー <A> が含まれていないならば
+<A> not in date	d にキー <A> が含まれていないか
+if <A> not in date :	d にキー <A> が含まれていない場合
+<A> . strip ( )	文字列 <A> の前後の空白を除去する
+<A> . strip ( )	<A> の前後の空白を取り除く
+<A> . strip ( )	文字列 <A> の前後の空白を取り除く
+<A> . strip ( )	<A> の前後の空白を除去する
+<A> . strip ( )	<A> の余分な改行を取り除く
+<A> . strip ( )	文字列 <A> の余分な改行を取り除く
+<A> . strip ( )	<A> の改行を除去する
+<A> . strip ( )	<A> の改行を取り除く
+<A> . strip ( )	文字列 <A> の改行を除去する
+<A> . strip ( )	文字列 <A> の改行を取り除く
+<A> . strip ( )	<A> の余分な改行を除去する
+<A> . split ( ',' )	<A> をカンマで区切る
+<A> . split ( ',' )	文字列 <A> をカンマで区切る
+<A> . split ( ',' )	<A> ( 文字列をカンマで分割した文字列のリスト
+<A> . split ( <B> )	文字列 <A> を <B> で区切る
+<A> . split ( <B> )	<A> を <B> で区切る
+<A> . split ( <B> )	文字列 <A> を <B> で分割した文字列のリスト
+<A> . split ( <B> )	<A> を <B> で分割した文字列のリスト
+sorted ( <A> )	<A> を並べる
+sorted ( <A> )	<A> を整列する
+sorted ( <A> )	<A> を小さい順に並べ直す
+sorted ( <A> )	<A> を小さい順に並べ変える
+sorted ( <A> )	<A> を並べ直す
+sorted ( <A> )	<A> を小さい順に整列する
+sorted ( <A> )	<A> を小さい順に並べる
+sorted ( <A> )	<A> を並べ変えた列
+sorted ( <A> )	<A> を小さい順に並べた列
+sorted ( <A> )	<A> を整列した列
+sorted ( <A> )	<A> を小さい順にソートした列
+sorted ( <A> )	<A> を昇順に並べ直した列
+sorted ( <A> )	<A> を並べ直した列
+sorted ( <A> )	<A> をソートした列
+sorted ( <A> )	<A> を小さい順に並べ直した列
+sorted ( <A> , reverse = True )	<A> を逆順に並べ変える
+sorted ( <A> , reverse = True )	<A> を逆順に整列する
+sorted ( <A> , reverse = True )	<A> を大きい順に整列する
+sorted ( <A> , reverse = True )	<A> を大きい順に並べ変える
+sorted ( <A> , reverse = True )	<A> を降順に並べ直す
+sorted ( <A> , reverse = True )	<A> を大きい順に並べる
+sorted ( <A> , reverse = True )	<A> を降順に整列する
+sorted ( <A> , reverse = True )	<A> を大きい順に並べ直す
+sorted ( <A> , reverse = True )	<A> を大きい順に並べ変えた列
+sorted ( <A> , reverse = True )	<A> を大きい順に整列した列
+sorted ( <A> , reverse = True )	<A> を大きい順に並べ直した列
+sorted ( <A> , reverse = True )	<A> を逆順に並べ変えた列
+sorted ( <A> , reverse = True )	<A> を降順に整列した列
+sorted ( <A> , reverse = True )	<A> を大きい順に並べた列
+sorted ( <A> , reverse = True )	<A> を降順に並べ直した列
+sorted ( <A> , reverse = True )	<A> を降順に並べた列
+sorted ( <A> , reverse = True )	<A> を逆順に整列した列
+sorted ( <A> , reverse = True )	<A> を降順に並べ変えた列
+datetime . date . today ( )	プログラムを実行した日付
+datetime . date . today ( )	本日の日付
+datetime . date . today ( )	今日の日付
+datetime . date . today ( ) . year	プログラムを実行した年
+datetime . date . today ( ) . year	本日の年
+datetime . date . today ( ) . year	今日の年
+datetime . date . today ( ) . month	プログラムを実行した月
+datetime . date . today ( ) . month	今日の月
+datetime . date . today ( ) . month	本日の月
+datetime . date . today ( ) . day	プログラムを実行した日
+datetime . date . today ( ) . day	今日の日
+<A> . year	<A> の年
+<A> . month	<A> の月
+<A> . day	<A> の日
+datetime . datetime . now ( )	Python を実行したエポック
+datetime . datetime . now ( )	プログラムを実行したタイムスタンプ
+datetime . datetime . now ( )	Python を実行したエポックタイム
+datetime . datetime . now ( )	プログラムを実行したエポックタイム
+datetime . datetime . now ( )	Python を実行したタイムスタンプ
+datetime . datetime . now ( )	プログラムを実行したエポック
+datetime . datetime . now ( )	今日のタイムスタンプ
+datetime . datetime . now ( )	本日のエポックタイム
+datetime . datetime . now ( )	今日のエポック
+datetime . datetime . now ( )	今日のエポックタイム
+datetime . datetime . now ( )	本日のエポック
+datetime . datetime . now ( )	本日のタイムスタンプ
+<A> = <B>	数値 <A> に <B> を代入する
+<A> = <B>	数値 <A> に <B> を入れる
+<A> = <B>	<A> に <B> を入れる
+<A> = <B>	<A> に <B> を代入する
+<A> = <B>	<B> を <A> に入れる
+<A> = <B>	<B> を <A> 数値に入れる
+<A> = <B>	<B> を数値 <A> に入れる
+<A> = <B>	<B> を <A> に代入する
+<A> = <B>	<B> を数値 <A> に代入する
+<A> = <B>	<B> を <A> 数値に代入する
+<A> = <B>	数値 <A> を <B> とする
+<A> = <B>	<A> を <B> とする
+<A> = <B>	数値 <A> に <B> を入れる
+<A> = <B>	<A> に <B> を入れる
+<A> = <B>	<B> を <A> 数値に入れる
+<A> = <B>	<B> を数値 <A> に入れる
+<A> = <B>	数値 <A> イコール <B>
+<A> = <B>	<A> イコール <B>
+<A> = <B>	<A> イコール <B> とする
+<A> = <B>	数値 <A> イコール <B> とする
+<A> ** <B>	<A> の <B> 乗
+<A> ** 2	<A> の二乗
+<A> ** <B>	<A> の <B> 乗を見る
+<A> ** 2	<A> の二乗を調べる
+<A> ** <B>	<A> の <B> 乗を算出する
+<A> ** 2	<A> の二乗を算出する
+( <A> + <B> - 1 ) // <B>	<A> を <B> で割った結果の切り上げ
+( <A> + <B> - 1 ) // <B>	<A> を <B> で割った結果の切り上げを見る
+( <A> + <B> - 1 ) // <B>	<A> を <B> で割った結果の切り上げを計算する
+( <A> + <B> - 1 ) // <B>	<A> 割る <B> を切り上げる
+( <A> + <B> - 1 ) // <B>	<A> わる <B> を切り上げる
+( <A> + <B> - 1 ) // <B>	<A> 割る <B> の切り上げ
+( <A> + <B> - 1 ) // <B>	<A> わる <B> の切り上げ
+( <A> + <B> - 1 ) // <B>	<A> 割る <B> の切り上げを確認する
+( <A> + <B> - 1 ) // <B>	<A> わる <B> の切り上げを調べる
+( <A> + <B> - 1 ) // <B>	<A> 割る <B> の切り上げを計算する
+( <A> + <B> - 1 ) // <B>	<A> わる <B> の切り上げを求める
+<A> % <B>	<A> を <B> で割った余りを求める
+<A> % <B>	<A> を <B> で割ったあまり
+<A> % <B>	<A> を <B> で割った余りを算出する
+<A> % <B>	<A> を <B> で割ったあまりを算出する
+<A> % <B>	<A> を <B> で割った余り
+<A> % <B>	<A> を <B> で割ったあまりを調べる
+<A> % <B>	<A> を <B> で割った余りを見る
+<A> % <B>	<A> を <B> で割ったあまりを計算する
+<A> % <B>	<A> を <B> で割った余りを計算する
+<A> % <B>	<A> を <B> で剰余を算出する
+<A> % <B>	<A> を <B> で剰余を求める
+<A> % <B>	<A> と <B> の mod を算出する
+<A> % <B>	<A> と <B> の mod を求める
+<A> % <B>	<A> と <B> の mod
+<A> % <B>	<A> と <B> の mod を調べる
+<A> % <B>	<A> と <B> の mod を計算する
+<A> % <B>	<A> と <B> の割り算のあまりを求める
+<A> % <B>	<A> と <B> の割り算の余りを求める
+<A> += <B>	<A> を <B> だけ増加させる
+<A> += <B>	<A> に <B> を足して代入する
+<A> += <B>	<A> に <B> を足して代入
+<A> += <B>	<A> に <A> と <B> を足して代入
+<A> += <B>	<A> に <A> と <B> の値を足して代入
+<A> += <B>	<A> と <B> を足して代入
+<A> += <B>	<A> に <A> と <B> の値を足して代入する
+<A> += <B>	<A> たす <B> の値を入れる
+<A> += <B>	<A> たす <B> の値を <A> に代入する
+<A> += <B>	<A> たす <B> の値を <A> に入れる
+<A> += <B>	<A> たす <B> の値を代入する
+<A> -= <B>	<A> を <B> だけ減少させる
+<A> -= <B>	<A> から <B> を引いて代入する
+<A> -= <B>	<A> から <B> の値を引いて代入する
+<A> -= <B>	<A> から <B> を引いて代入
+<A> -= <B>	<A> から <B> の値を引いて代入
+<A> -= <B>	<A> に <A> と <B> を引いて代入
+<A> -= <B>	<A> と <B> を引いて代入する
+<A> -= <B>	<A> と <B> の値を引いて代入する
+<A> -= <B>	<A> と <B> の値を引いて代入
+<A> -= <B>	<A> に <A> と <B> の値を引いて代入
+<A> -= <B>	<A> 引く <B> の値を代入する
+<A> -= <B>	<A> 引く <B> の値を入れる
+<A> -= <B>	<A> ひく <B> の値を <A> に代入する
+<A> -= <B>	<A> ひく <B> の値を入れる
+<A> -= <B>	<A> 引く <B> の値を <A> に入れる
+<A> -= <B>	<A> ひく <B> の値を代入する
+<A> -= <B>	<A> 引く <B> の値を <A> に代入する
+abs ( <A> )	<A> の絶対値
+abs ( <A> )	<A> の絶対値を見る
+abs ( <A> )	<A> の絶対値を計算する
+math . sqrt ( <A> )	<A> の平方根
+math . sqrt ( <A> )	<A> の平方根を調べる
+math . sqrt ( <A> )	<A> の平方根を求める
+math . sqrt ( <A> )	<A> のルート
+math . sqrt ( <A> )	<A> のルートを調べる
+math . sqrt ( <A> )	<A> のルートを計算する
+math . ciel ( <A> )	<A> の切り上げ
+math . ciel ( <A> )	<A> の小数点以下切り上げ
+math . ciel ( <A> )	<A> の切り上げを確認する
+math . ciel ( <A> )	<A> の小数点以下切り上げを見る
+math . ciel ( <A> )	<A> の切り上げを算出する
+math . ciel ( <A> )	<A> の小数点以下切り上げを算出する
+math . ciel ( <A> )	<A> に最も近い整数に切り上げ
+math . ciel ( <A> )	<A> に最も近い整数に切り上げを見る
+math . ciel ( <A> )	<A> に最も近い整数に切り上げを計算する
+math . floor ( <A> )	<A> の切り捨て
+math . floor ( <A> )	<A> の小数点以下切り捨て
+math . floor ( <A> )	<A> の切り捨てを見る
+math . floor ( <A> )	<A> の小数点以下切り捨てを見る
+math . floor ( <A> )	<A> の切り捨てを算出する
+math . floor ( <A> )	<A> の小数点以下切り捨てを計算する
+math . floor ( <A> )	<A> に最も近い整数に切り捨て
+math . floor ( <A> )	<A> に最も近い整数に切り捨てを見る
+math . floor ( <A> )	<A> に最も近い整数に切り捨てを算出する
+math . gcd ( <A> , <B> )	<A> と <B> の最大公約数
+math . gcd ( <A> , <B> )	<A> と <B> の最大公約数を表示する
+math . gcd ( <A> , <B> )	<A> と <B> の最大公約数を算出する
+max ( <A> , <B> , <C> )	<A> 、 <B> 、 <C> のうち ] [ 一番大きい値
+max ( <A> , <B> , <C> )	<A> 、 <B> 、 <C> の最大の値
+max ( <A> , <B> , <C> )	<A> 、 <B> 、 <C> のうち ] [ 一番大きい値を確認する
+max ( <A> , <B> , <C> )	<A> 、 <B> 、 <C> の最大の値を確認する
+max ( <A> , <B> , <C> )	<A> 、 <B> 、 <C> のうち ] [ 一番大きい値を計算する
+max ( <A> , <B> , <C> )	<A> 、 <B> 、 <C> の最大の値を求める
+max ( <A> , <B> , <C> )	<A> 、 <B> 、 <C> の最大値
+max ( <A> , <B> , <C> )	<A> 、 <B> 、 <C> の最大値を見る
+max ( <A> , <B> , <C> )	<A> 、 <B> 、 <C> の最大値を求める
+min ( <A> , <B> , <C> )	<A> 、 <B> 、 <C> の中で値
+min ( <A> , <B> , <C> )	<A> 、 <B> 、 <C> のもっとも小さい値
+min ( <A> , <B> , <C> )	<A> 、 <B> 、 <C> のうち ] [ 一番小さい値
+min ( <A> , <B> , <C> )	<A> 、 <B> 、 <C> の最小の値
+min ( <A> , <B> , <C> )	<A> 、 <B> 、 <C> の中で値を見る
+min ( <A> , <B> , <C> )	<A> 、 <B> 、 <C> のもっとも小さい値を見る
+min ( <A> , <B> , <C> )	<A> 、 <B> 、 <C> のうち ] [ 一番小さい値を見る
+min ( <A> , <B> , <C> )	<A> 、 <B> 、 <C> の最小の値を表示する
+min ( <A> , <B> , <C> )	<A> 、 <B> 、 <C> の中で値を算出する
+min ( <A> , <B> , <C> )	<A> 、 <B> 、 <C> のもっとも小さい値を算出する
+min ( <A> , <B> , <C> )	<A> 、 <B> 、 <C> のうち ] [ 一番小さい値を計算する
+min ( <A> , <B> , <C> )	<A> 、 <B> 、 <C> の最小の値を算出する
+min ( <A> , <B> , <C> )	<A> 、 <B> 、 <C> の最小値
+min ( <A> , <B> , <C> )	<A> 、 <B> 、 <C> の最小値を見る
+min ( <A> , <B> , <C> )	<A> 、 <B> 、 <C> の最小値を求める
+for i in range ( <A> ) :	以下の処理を <A> 回繰り返す
+for i in range ( <A> ) :	<A> 回繰り返す
+for <A> in range ( 10 ) :	<A> に 0 から 9 を代入して、次の命令を繰り返す
+for <A> in range ( 10 ) :	<A> に 0 から 9 を代入して、次の処理を繰り返す
+for <A> in range ( 10 ) :	<A> に 0 から 9 を代入して、以降の処理をループする
+for <A> in range ( 10 ) :	<A> に 0 から 9 を代入して、次の命令をループする
+for <A> in range ( 10 ) :	<A> に 0 から 9 を代入して、以下のプログラムをループする
+for <A> in range ( 10 ) :	<A> に 0 から 9 を代入して、以下のプログラムを繰り返す
+for <A> in range ( 10 ) :	<A> に 0 から 9 を代入して、以降の命令をループする
+for <A> in range ( 10 ) :	<A> に 0 から 9 を代入して、以下の命令をループする
+for <A> in range ( 10 ) :	<A> に 0 から 9 を代入して、以降の処理を繰り返す
+for <A> in range ( 10 ) :	<A> に 0 から 9 を代入して、以下の処理を繰り返す
+for <A> in range ( 10 ) :	<A> に 0 から 9 を代入して、次の処理をループする
+for <A> in range ( 10 ) :	<A> に 0 から 9 を代入して、以降のプログラムを繰り返す
+for <A> in range ( 10 ) :	<A> に 0 から 9 を代入して、以降のプログラムをループする
+for <A> in range ( <B> ) :	<A> に <B> を超えない値までの連続した数値を代入して、以下の処理を繰り返す
+for <A> in range ( <B> ) :	<A> に <B> を超えない値までの連続した数値を代入して、次のプログラムをループする
+for <A> in range ( <B> ) :	<A> に <B> を超えない値までの連続した数値を代入して、次のプログラムを繰り返す
+for <A> in range ( <B> ) :	<A> に <B> を超えない値までの連続した数値を代入して、以降の命令をループする
+for <A> in range ( <B> ) :	<A> に <B> を超えない値までの連続した数値を代入して、以降の命令を繰り返す
+for <A> in range ( <B> ) :	<A> に <B> を超えない値までの連続した数値を代入して、以下の命令を繰り返す
+for <A> in range ( <B> ) :	<A> に <B> を超えない値までの連続した数値を代入して、以降の処理を繰り返す
+for <A> in range ( <B> ) :	<A> に <B> を超えない値までの連続した数値を代入して、次の処理をループする
+for <A> in range ( <B> ) :	<A> に <B> を超えない値までの連続した数値を代入して、以下のプログラムを繰り返す
+for <A> in range ( <B> ) :	<A> に <B> を超えない値までの連続した数値を代入して、以降の処理をループする
+for <A> in range ( <B> ) :	<A> に <B> を超えない値までの連続した数値を代入して、次の処理を繰り返す
+for <A> in range ( <B> ) :	<A> に <B> を超えない値までの連続した数値を代入して、以下のプログラムをループする
+for <A> in range ( <B> ) :	<A> に <B> を超えない値までの連続した数値を代入して、以下の命令をループする
+for <A> in range ( 10 ) :	<A> を 0 から 9 まで 1 つずつ取り出しながら繰り返し処理を行う
+for i in range ( <A> ) :	繰り返し処理を <A> 回行う
+for i in range ( <A> ) :	<A> 回だけ繰り返し処理を行う
+for i in range ( len ( <A> ) ) :	<A> の要素数分繰り返す
+for i in range ( len ( <A> ) ) :	以下の処理を <A> の要素数分繰り返す
+print ( <A> )	<A> を表示する
+print ( <A> )	<A> をプリントする
+print ( <A> )	<A> を出力する
+print ( <A> )	<A> を表示する
+print ( <A> )	<A> を出力する
+print ( <A> , end = '' )	改行なしで <A> をプリントする
+print ( <A> , end = '' )	改行なしで <A> を表示する
+print ( <A> , end = '' )	<A> を改行なしで表示する
+print ( <A> , end = '' )	<A> を改行なしでプリントする
+print ( <A> , end = '' )	<A> の出力を改行しないで行う
+print ( <A> )	<A> と表示する
+print ( <A> )	<A> と出力する
+print ( <A> )	<A> とプリントする
+print ( 'Hello World' )	「ハローワールド」と表示する
+print ( 'Hello World' )	「こんにちは世界」と表示する
+print ( 'Hello World' )	「こんにちは世界」とプリントする
+print ( 'Hello World' )	「こんにちは世界」と出力する
+print ( 'Hello World' )	「ハローワールド」とプリントする
+print ( 'Hello World' )	「ハローワールド」と出力する
+print ( 'Hello World' )	何か動かす
+print ( 'Hello World' )	試しに何か動かす
+print ( 'Hello World' )	最初のプログラム
+print ( 'Hello World' )	文章を出力する
+print ( 'Hello World' )	文章を表示する
+print ( '{:.5f}' . format ( <A> ) )	<A> の小数点以下 5 桁までをプリントする
+print ( '{:.5f}' . format ( <A> ) )	浮動小数点数 <A> の小数点以下 5 桁までをプリントする
+print ( '{:.5f}' . format ( <A> ) )	<A> の小数点以下を 5 桁まで表示する
+print ( '{:.5f}' . format ( <A> ) )	<A> の小数点以下を 5 桁まで出力する
+print ( '{:.5f}' . format ( <A> ) )	浮動小数点数 <A> の小数点以下を 5 桁まで出力する
+print ( '{:.5f}' . format ( <A> ) )	浮動小数点数 <A> の小数点以下を 5 桁までプリントする
+print ( '{:.5f}' . format ( <A> ) )	<A> の小数点以下を 5 桁で揃える
+print ( '{:.5f}' . format ( <A> ) )	浮動小数点数 <A> の小数点以下を 5 桁で丸める
+print ( '{:.5f}' . format ( <A> ) )	浮動小数点数 <A> の小数点以下を 5 桁で揃える
+print ( '{:.5f}' . format ( <A> ) )	<A> の小数点以下を 5 桁で丸める
+print ( '{:.5f}' . format ( <A> ) )	浮動小数点数 <A> の小数部を 5 桁で丸める
+print ( '{:.5f}' . format ( <A> ) )	<A> の小数部を 5 桁で丸める
+print ( '{:.5f}' . format ( <A> ) )	浮動小数点数 <A> の小数部を 5 桁で揃える
+input ( )	ユーザから入力を得る
+<A> = input ( )	ユーザから入力を得、 <A> とする
+input ( )	入力値を受け取る
+input ( )	入力値を受け付ける
+input ( )	入力値を得る
+<A> = input ( )	入力値を受け取り、 <A> とする
+<A> = input ( )	入力値を受け付けて、 <A> とする
+<A> = input ( )	入力値を得、 <A> にする
+input ( )	ユーザが入力した文字列
+<A> = input ( )	ユーザが入力した文字列を <A> にする
+input ( )	ユーザから入力された文字列
+input ( )	入力された文字列
+<A> = input ( )	ユーザから入力された文字列を <A> にする
+<A> = input ( )	入力された文字列を <A> とする
+input ( )	文字列を入力する
+<A> = input ( )	文字列を入力して、 <A> にする
+input ( )	データを入力する
+<A> = input ( )	データを入力して、 <A> にする
+input ( )	ユーザが入力した文字列を取得する
+<A> = input ( )	ユーザが入力した文字列を取得し、 <A> とする
+input ( )	入力された文字列を取得する
+input ( )	ユーザから入力された文字列を取得する
+<A> = input ( )	入力された文字列を取得し、 <A> とする
+<A> = input ( )	ユーザから入力された文字列を取得して、 <A> とする
+int ( input ( ) )	ユーザが入力した整数値
+int ( input ( ) )	ユーザが入力した数値
+<A> = int ( input ( ) )	ユーザが入力した整数値を<A> にする
+<A> = int ( input ( ) )	ユーザが入力した数値を<A> とする
+int ( input ( ) )	整数を受け取る
+int ( input ( ) )	数値を得る
+int ( input ( ) )	整数値を受け取る
+int ( input ( ) )	整数を入力値として得る
+int ( input ( ) )	整数を入力値として受け取る
+<A> = int ( input ( ) )	整数を受け取り、<A> にする
+<A> = int ( input ( ) )	数値を得て、<A> に代入する
+<A> = int ( input ( ) )	整数値を受け取り、<A> とする
+<A> = int ( input ( ) )	整数を入力値として得、<A> にする
+<A> = int ( input ( ) )	整数を入力値として受け取り、<A> とする
+int ( input ( ) )	ユーザから入力された整数
+int ( input ( ) )	ユーザから入力された数
+int ( input ( ) )	ユーザから入力された整数値
+int ( input ( ) )	入力された数
+int ( input ( ) )	入力された数値
+int ( input ( ) )	入力された整数値
+int ( input ( ) )	ユーザから入力された数値
+<A> = int ( input ( ) )	ユーザから入力された整数を<A> とする
+<A> = int ( input ( ) )	ユーザから入力された数を<A> とする
+<A> = int ( input ( ) )	ユーザから入力された整数値を<A> にする
+<A> = int ( input ( ) )	入力された数を<A> とする
+<A> = int ( input ( ) )	入力された数値を<A> とする
+<A> = int ( input ( ) )	入力された整数値を<A> とする
+<A> = int ( input ( ) )	ユーザから入力された数値を<A> とする
+int ( input ( ) )	整数を入力する
+int ( input ( ) )	数値を入力する
+int ( input ( ) )	整数値を入力する
+int ( input ( ) )	数を入力する
+<A> = int ( input ( ) )	整数を入力して、<A> に代入する
+<A> = int ( input ( ) )	数値を入力して、<A> とする
+<A> = int ( input ( ) )	整数値を入力して、<A> とする
+<A> = int ( input ( ) )	数を入力して、<A> とする
+int ( input ( ) )	ユーザが入力した整数データを取得する
+int ( input ( ) )	ユーザが入力した整数を取得する
+int ( input ( ) )	ユーザが入力した整数値を取得する
+int ( input ( ) )	ユーザが入力した数値を取得する
+int ( input ( ) )	ユーザが入力した数を取得する
+int ( input ( ) )	ユーザが入力した整数値データを取得する
+int ( input ( ) )	ユーザが入力した数値データを取得する
+<A> = int ( input ( ) )	ユーザが入力した整数データを取得し、<A> にする
+<A> = int ( input ( ) )	ユーザが入力した整数を取得し、<A> とする
+<A> = int ( input ( ) )	ユーザが入力した整数値を取得して、<A> に代入する
+<A> = int ( input ( ) )	ユーザが入力した数値を取得し、<A> とする
+<A> = int ( input ( ) )	ユーザが入力した数を取得し、<A> とする
+<A> = int ( input ( ) )	ユーザが入力した整数値データを取得して、<A> にする
+<A> = int ( input ( ) )	ユーザが入力した数値データを取得し、<A> とする
+int ( input ( ) )	ユーザから入力された整数値データを取得する
+int ( input ( ) )	入力された整数データを取得する
+int ( input ( ) )	入力された数データを取得する
+int ( input ( ) )	ユーザから入力された整数値を取得する
+int ( input ( ) )	入力された整数を取得する
+int ( input ( ) )	入力された整数値データを取得する
+int ( input ( ) )	ユーザから入力された整数を取得する
+int ( input ( ) )	入力された数を取得する
+int ( input ( ) )	ユーザから入力された数値データを取得する
+<A> = int ( input ( ) )	ユーザから入力された整数値データを取得し、<A> とする
+<A> = int ( input ( ) )	入力された整数データを取得し、<A> とする
+<A> = int ( input ( ) )	入力された数データを取得し、<A> に代入する
+<A> = int ( input ( ) )	ユーザから入力された整数値を取得し、<A> とする
+<A> = int ( input ( ) )	入力された整数を取得し、<A> にする
+<A> = int ( input ( ) )	入力された整数値データを取得し、<A> にする
+<A> = int ( input ( ) )	ユーザから入力された整数を取得して、<A> とする
+<A> = int ( input ( ) )	入力された数を取得し、<A> とする
+<A> = int ( input ( ) )	ユーザから入力された数値データを取得し、<A> とする
+list ( input ( ) )	複数の入力値をリストとして得る
+list ( input ( ) )	複数の入力値をリストとして受け取る
+<A> = list ( input ( ) )	複数の入力値をリストとして得、<A> に代入する
+<A> = list ( input ( ) )	複数の入力値をリストとして受け取り、<A> にする
+list ( input ( ) )	ユーザが入力したデータをリストに格納する
+list ( input ( ) )	ユーザが入力した値をリストに格納する
+list ( input ( ) )	ユーザが入力した文字列をリストに格納する
+<A> = list ( input ( ) )	ユーザが入力したデータをリストに格納し、<A> にする
+<A> = list ( input ( ) )	ユーザが入力した値をリストに格納して、<A> に代入する
+<A> = list ( input ( ) )	ユーザが入力した文字列をリストに格納して、<A> とする
+list ( input ( ) )	入力されたデータをリストに格納する
+list ( input ( ) )	ユーザから入力された値をリストに格納する
+list ( input ( ) )	ユーザから入力されたデータをリストに格納する
+list ( input ( ) )	ユーザから入力された文字列をリストに格納する
+list ( input ( ) )	入力された文字列をリストに格納する
+list ( input ( ) )	入力された値をリストに格納する
+<A> = list ( input ( ) )	入力されたデータをリストに格納し、<A> とする
+<A> = list ( input ( ) )	ユーザから入力された値をリストに格納し、<A> に代入する
+<A> = list ( input ( ) )	ユーザから入力されたデータをリストに格納して、<A> にする
+<A> = list ( input ( ) )	ユーザから入力された文字列をリストに格納して、<A> に代入する
+<A> = list ( input ( ) )	入力された文字列をリストに格納して、<A> とする
+<A> = list ( input ( ) )	入力された値をリストに格納し、<A> とする
+list ( input ( ) )	入力値をリスト型にする
+<A> = list ( input ( ) )	入力値をリスト型にして、<A> とする
+list ( input ( ) )	入力値をリストに変換する
+<A> = list ( input ( ) )	入力値をリストに変換し、<A> とする
+list ( input ( ) )	入力された値をリスト化する
+list ( input ( ) )	入力された文字列をリスト化する
+list ( input ( ) )	ユーザから入力された文字列をリスト化する
+list ( input ( ) )	ユーザから入力されたデータをリスト化する
+list ( input ( ) )	ユーザから入力された値をリスト化する
+<A> = list ( input ( ) )	入力された値をリスト化して、<A> とする
+<A> = list ( input ( ) )	入力された文字列をリスト化し、<A> とする
+<A> = list ( input ( ) )	ユーザから入力された文字列をリスト化し、<A> に代入する
+<A> = list ( input ( ) )	ユーザから入力されたデータをリスト化して、<A> にする
+<A> = list ( input ( ) )	ユーザから入力された値をリスト化し、<A> にする
+list ( input ( ) )	ユーザが入力した値をリスト化する
+list ( input ( ) )	ユーザが入力したデータをリスト化する
+<A> = list ( input ( ) )	ユーザが入力した値をリスト化して、<A> にする
+<A> = list ( input ( ) )	ユーザが入力したデータをリスト化し、<A> とする
+list ( input ( ) )	ユーザから入力された値をリストに変換する
+list ( input ( ) )	入力されたデータをリストに変換する
+list ( input ( ) )	入力された文字列をリストに変換する
+list ( input ( ) )	ユーザから入力された文字列をリストに変換する
+list ( input ( ) )	入力された値をリストに変換する
+list ( input ( ) )	ユーザから入力されたデータをリストに変換する
+<A> = list ( input ( ) )	ユーザから入力された値をリストに変換して、<A> とする
+<A> = list ( input ( ) )	入力されたデータをリストに変換し、<A> とする
+<A> = list ( input ( ) )	入力された文字列をリストに変換し、<A> とする
+<A> = list ( input ( ) )	ユーザから入力された文字列をリストに変換し、<A> にする
+<A> = list ( input ( ) )	入力された値をリストに変換して、<A> とする
+<A> = list ( input ( ) )	ユーザから入力されたデータをリストに変換して、<A> とする
+list ( input ( ) )	ユーザが入力したデータをリストに変換する
+list ( input ( ) )	ユーザが入力した値をリストに変換する
+list ( input ( ) )	ユーザが入力した文字列をリストに変換する
+<A> = list ( input ( ) )	ユーザが入力したデータをリストに変換して、<A> とする
+<A> = list ( input ( ) )	ユーザが入力した値をリストに変換して、<A> にする
+<A> = list ( input ( ) )	ユーザが入力した文字列をリストに変換し、<A> にする
+list ( map ( int , input ( ) . split ( ) ) )	空白ごとに入力された整数をリストとして受け取る
+list ( map ( int , input ( ) . split ( ) ) )	半角スペース区切りで入力された整数をリストとして受け取る
+list ( map ( int , input ( ) . split ( ) ) )	スペース区切りで入力された整数をリストとして受け取る
+list ( map ( int , input ( ) . split ( ) ) )	半角スペースで区切って入力された整数をリストとして受け取る
+list ( map ( int , input ( ) . split ( ) ) )	半角スペースごとに入力された整数をリストとして受け取る
+<A> = list ( map ( int , input ( ) . split ( ) ) )	空白ごとに入力された整数をリストとして受け取り、<A> とする
+<A> = list ( map ( int , input ( ) . split ( ) ) )	半角スペース区切りで入力された整数をリストとして受け取り、<A> とする
+<A> = list ( map ( int , input ( ) . split ( ) ) )	スペース区切りで入力された整数をリストとして受け取って、<A> とする
+<A> = list ( map ( int , input ( ) . split ( ) ) )	半角スペースで区切って入力された整数をリストとして受け取って、<A> とする
+<A> = list ( map ( int , input ( ) . split ( ) ) )	半角スペースごとに入力された整数をリストとして受け取り、<A> にする
+list ( map ( int , input ( ) . split ( ) ) )	入力を半角スペース区切りで数値としてリストで受け取る
+list ( map ( int , input ( ) . split ( ) ) )	入力をスペース区切りで整数値としてリストに格納する
+list ( map ( int , input ( ) . split ( ) ) )	入力を半角スペースで区切って数値としてリストで受け取る
+list ( map ( int , input ( ) . split ( ) ) )	入力を半角スペースごとに整数値としてリストで受け取る
+list ( map ( int , input ( ) . split ( ) ) )	入力を半角スペースで区切って数としてリストに格納する
+list ( map ( int , input ( ) . split ( ) ) )	入力を空白ごとに整数としてリストで受け取る
+list ( map ( int , input ( ) . split ( ) ) )	入力を半角スペースで区切って整数としてリストで受け取る
+list ( map ( int , input ( ) . split ( ) ) )	入力を半角スペース区切りで整数としてリストに格納する
+list ( map ( int , input ( ) . split ( ) ) )	入力をスペース区切りで数としてリストに格納する
+list ( map ( int , input ( ) . split ( ) ) )	入力を半角スペースで区切って整数値としてリストに格納する
+list ( map ( int , input ( ) . split ( ) ) )	入力をスペース区切りで数としてリストで受け取る
+list ( map ( int , input ( ) . split ( ) ) )	入力を空白ごとに数値としてリストに格納する
+<A> = list ( map ( int , input ( ) . split ( ) ) )	入力を半角スペース区切りで数値としてリストで受け取って、<A> にする
+<A> = list ( map ( int , input ( ) . split ( ) ) )	入力をスペース区切りで整数値としてリストに格納して、<A> とする
+<A> = list ( map ( int , input ( ) . split ( ) ) )	入力を半角スペースで区切って数値としてリストで受け取り、<A> とする
+<A> = list ( map ( int , input ( ) . split ( ) ) )	入力を半角スペースごとに整数値としてリストで受け取り、<A> とする
+<A> = list ( map ( int , input ( ) . split ( ) ) )	入力を半角スペースで区切って数としてリストに格納し、<A> とする
+<A> = list ( map ( int , input ( ) . split ( ) ) )	入力を空白ごとに整数としてリストで受け取り、<A> とする
+<A> = list ( map ( int , input ( ) . split ( ) ) )	入力を半角スペースで区切って整数としてリストで受け取り、<A> とする
+<A> = list ( map ( int , input ( ) . split ( ) ) )	入力を半角スペース区切りで整数としてリストに格納して、<A> とする
+<A> = list ( map ( int , input ( ) . split ( ) ) )	入力をスペース区切りで数としてリストに格納し、<A> とする
+<A> = list ( map ( int , input ( ) . split ( ) ) )	入力を半角スペースで区切って整数値としてリストに格納して、<A> とする
+<A> = list ( map ( int , input ( ) . split ( ) ) )	入力をスペース区切りで数としてリストで受け取り、<A> に代入する
+<A> = list ( map ( int , input ( ) . split ( ) ) )	入力を空白ごとに数値としてリストに格納し、<A> とする
+list ( map ( int , input ( ) . split ( ) ) )	一行から空白ごとに複数の入力値をリストとして受け取る
+list ( map ( int , input ( ) . split ( ) ) )	一行から半角スペースごとに複数の入力値をリストとして受け取る
+list ( map ( int , input ( ) . split ( ) ) )	一行から空白で区切って複数の入力値をリストとして得る
+list ( map ( int , input ( ) . split ( ) ) )	一行から半角スペース区切りで複数の入力値をリストとして受け取る
+list ( map ( int , input ( ) . split ( ) ) )	一行から半角スペースで区切って複数の入力値をリストとして得る
+list ( map ( int , input ( ) . split ( ) ) )	一行から空白で区切って複数の入力値をリストとして受け取る
+list ( map ( int , input ( ) . split ( ) ) )	一行から半角スペースで区切って複数の入力値をリストとして受け取る
+<A> = list ( map ( int , input ( ) . split ( ) ) )	一行から空白ごとに複数の入力値をリストとして受け取って、<A> に代入する
+<A> = list ( map ( int , input ( ) . split ( ) ) )	一行から半角スペースごとに複数の入力値をリストとして受け取って、<A> に代入する
+<A> = list ( map ( int , input ( ) . split ( ) ) )	一行から空白で区切って複数の入力値をリストとして得て、<A> とする
+<A> = list ( map ( int , input ( ) . split ( ) ) )	一行から半角スペース区切りで複数の入力値をリストとして受け取り、<A> とする
+<A> = list ( map ( int , input ( ) . split ( ) ) )	一行から半角スペースで区切って複数の入力値をリストとして得、<A> とする
+<A> = list ( map ( int , input ( ) . split ( ) ) )	一行から空白で区切って複数の入力値をリストとして受け取り、<A> にする
+<A> = list ( map ( int , input ( ) . split ( ) ) )	一行から半角スペースで区切って複数の入力値をリストとして受け取って、<A> にする
+list ( map ( int , input ( ) . split ( ) ) )	一行から複数の入力値を半角スペースで区切ってリストに格納する
+list ( map ( int , input ( ) . split ( ) ) )	一行から複数の入力値を空白で区切ってリストに格納する
+list ( map ( int , input ( ) . split ( ) ) )	一行から複数の入力値をスペースで区切ってリストに格納する
+<A> = list ( map ( int , input ( ) . split ( ) ) )	一行から複数の入力値を半角スペースで区切ってリストに格納して、<A> にする
+<A> = list ( map ( int , input ( ) . split ( ) ) )	一行から複数の入力値を空白で区切ってリストに格納し、<A> にする
+<A> = list ( map ( int , input ( ) . split ( ) ) )	一行から複数の入力値をスペースで区切ってリストに格納して、<A> とする
+list ( map ( int , input ( ) . split ( ) ) )	ユーザから入力された整数をスペースで区切ってリストとして受け取る
+list ( map ( int , input ( ) . split ( ) ) )	入力された整数を半角スペースで区切ってリストとして得る
+list ( map ( int , input ( ) . split ( ) ) )	入力された整数を空白で区切ってリストとして受け取る
+list ( map ( int , input ( ) . split ( ) ) )	入力された整数値をスペースで区切ってリストとして受け取る
+list ( map ( int , input ( ) . split ( ) ) )	ユーザから入力された整数を半角スペースで区切ってリストとして得る
+list ( map ( int , input ( ) . split ( ) ) )	ユーザから入力された数を空白で区切ってリストとして得る
+list ( map ( int , input ( ) . split ( ) ) )	ユーザから入力された数をスペースで区切ってリストとして得る
+list ( map ( int , input ( ) . split ( ) ) )	入力された数を半角スペースで区切ってリストとして得る
+list ( map ( int , input ( ) . split ( ) ) )	入力された数値を半角スペースで区切ってリストとして受け取る
+list ( map ( int , input ( ) . split ( ) ) )	ユーザから入力された数を空白で区切ってリストとして受け取る
+list ( map ( int , input ( ) . split ( ) ) )	ユーザから入力された整数を空白で区切ってリストとして得る
+list ( map ( int , input ( ) . split ( ) ) )	ユーザから入力された数をスペースで区切ってリストとして受け取る
+list ( map ( int , input ( ) . split ( ) ) )	ユーザから入力された整数値をスペースで区切ってリストとして得る
+list ( map ( int , input ( ) . split ( ) ) )	入力された整数値を半角スペースで区切ってリストとして得る
+list ( map ( int , input ( ) . split ( ) ) )	ユーザから入力された数を半角スペースで区切ってリストとして受け取る
+list ( map ( int , input ( ) . split ( ) ) )	ユーザから入力された整数値を空白で区切ってリストとして得る
+<A> = list ( map ( int , input ( ) . split ( ) ) )	ユーザから入力された整数をスペースで区切ってリストとして受け取って、<A> に代入する
+<A> = list ( map ( int , input ( ) . split ( ) ) )	入力された整数を半角スペースで区切ってリストとして得、<A> とする
+<A> = list ( map ( int , input ( ) . split ( ) ) )	入力された整数を空白で区切ってリストとして受け取り、<A> とする
+<A> = list ( map ( int , input ( ) . split ( ) ) )	入力された整数値をスペースで区切ってリストとして受け取って、<A> とする
+<A> = list ( map ( int , input ( ) . split ( ) ) )	ユーザから入力された整数を半角スペースで区切ってリストとして得、<A> とする
+<A> = list ( map ( int , input ( ) . split ( ) ) )	ユーザから入力された数を空白で区切ってリストとして得、<A> に代入する
+<A> = list ( map ( int , input ( ) . split ( ) ) )	ユーザから入力された数をスペースで区切ってリストとして得て、<A> にする
+<A> = list ( map ( int , input ( ) . split ( ) ) )	入力された数を半角スペースで区切ってリストとして得、<A> とする
+<A> = list ( map ( int , input ( ) . split ( ) ) )	入力された数値を半角スペースで区切ってリストとして受け取って、<A> にする
+<A> = list ( map ( int , input ( ) . split ( ) ) )	ユーザから入力された数を空白で区切ってリストとして受け取り、<A> とする
+<A> = list ( map ( int , input ( ) . split ( ) ) )	ユーザから入力された整数を空白で区切ってリストとして得、<A> に代入する
+<A> = list ( map ( int , input ( ) . split ( ) ) )	ユーザから入力された数をスペースで区切ってリストとして受け取って、<A> とする
+<A> = list ( map ( int , input ( ) . split ( ) ) )	ユーザから入力された整数値をスペースで区切ってリストとして得、<A> とする
+<A> = list ( map ( int , input ( ) . split ( ) ) )	入力された整数値を半角スペースで区切ってリストとして得、<A> にする
+<A> = list ( map ( int , input ( ) . split ( ) ) )	ユーザから入力された数を半角スペースで区切ってリストとして受け取り、<A> にする
+<A> = list ( map ( int , input ( ) . split ( ) ) )	ユーザから入力された整数値を空白で区切ってリストとして得、<A> に代入する
+list ( map ( int , input ( ) . split ( ) ) )	ユーザが入力した数をスペースで区切ってリストとして得る
+list ( map ( int , input ( ) . split ( ) ) )	ユーザが入力した数を半角スペースで区切ってリストとして受け取る
+list ( map ( int , input ( ) . split ( ) ) )	ユーザが入力した数値を空白で区切ってリストとして得る
+list ( map ( int , input ( ) . split ( ) ) )	ユーザが入力した数を空白で区切ってリストとして受け取る
+list ( map ( int , input ( ) . split ( ) ) )	ユーザが入力した整数を空白で区切ってリストとして得る
+list ( map ( int , input ( ) . split ( ) ) )	ユーザが入力した数値を半角スペースで区切ってリストとして得る
+list ( map ( int , input ( ) . split ( ) ) )	ユーザが入力した整数をスペースで区切ってリストとして得る
+list ( map ( int , input ( ) . split ( ) ) )	ユーザが入力した整数をスペースで区切ってリストとして受け取る
+list ( map ( int , input ( ) . split ( ) ) )	ユーザが入力した整数値を空白で区切ってリストとして受け取る
+list ( map ( int , input ( ) . split ( ) ) )	ユーザが入力した整数値を空白で区切ってリストとして得る
+list ( map ( int , input ( ) . split ( ) ) )	ユーザが入力した数をスペースで区切ってリストとして受け取る
+list ( map ( int , input ( ) . split ( ) ) )	ユーザが入力した整数を半角スペースで区切ってリストとして受け取る
+list ( map ( int , input ( ) . split ( ) ) )	ユーザが入力した数を空白で区切ってリストとして得る
+list ( map ( int , input ( ) . split ( ) ) )	ユーザが入力した整数を半角スペースで区切ってリストとして得る
+list ( map ( int , input ( ) . split ( ) ) )	ユーザが入力した数値を半角スペースで区切ってリストとして受け取る
+list ( map ( int , input ( ) . split ( ) ) )	ユーザが入力した整数値を半角スペースで区切ってリストとして得る
+list ( map ( int , input ( ) . split ( ) ) )	ユーザが入力した整数を空白で区切ってリストとして受け取る
+<A> = list ( map ( int , input ( ) . split ( ) ) )	ユーザが入力した数をスペースで区切ってリストとして得、<A> に代入する
+<A> = list ( map ( int , input ( ) . split ( ) ) )	ユーザが入力した数を半角スペースで区切ってリストとして受け取り、<A> とする
+<A> = list ( map ( int , input ( ) . split ( ) ) )	ユーザが入力した数値を空白で区切ってリストとして得て、<A> とする
+<A> = list ( map ( int , input ( ) . split ( ) ) )	ユーザが入力した数を空白で区切ってリストとして受け取って、<A> にする
+<A> = list ( map ( int , input ( ) . split ( ) ) )	ユーザが入力した整数を空白で区切ってリストとして得て、<A> とする
+<A> = list ( map ( int , input ( ) . split ( ) ) )	ユーザが入力した数値を半角スペースで区切ってリストとして得、<A> とする
+<A> = list ( map ( int , input ( ) . split ( ) ) )	ユーザが入力した整数をスペースで区切ってリストとして得て、<A> にする
+<A> = list ( map ( int , input ( ) . split ( ) ) )	ユーザが入力した整数をスペースで区切ってリストとして受け取り、<A> とする
+<A> = list ( map ( int , input ( ) . split ( ) ) )	ユーザが入力した整数値を空白で区切ってリストとして受け取り、<A> に代入する
+<A> = list ( map ( int , input ( ) . split ( ) ) )	ユーザが入力した整数値を空白で区切ってリストとして得て、<A> にする
+<A> = list ( map ( int , input ( ) . split ( ) ) )	ユーザが入力した数をスペースで区切ってリストとして受け取り、<A> に代入する
+<A> = list ( map ( int , input ( ) . split ( ) ) )	ユーザが入力した整数を半角スペースで区切ってリストとして受け取り、<A> にする
+<A> = list ( map ( int , input ( ) . split ( ) ) )	ユーザが入力した数を空白で区切ってリストとして得、<A> とする
+<A> = list ( map ( int , input ( ) . split ( ) ) )	ユーザが入力した整数を半角スペースで区切ってリストとして得て、<A> とする
+<A> = list ( map ( int , input ( ) . split ( ) ) )	ユーザが入力した数値を半角スペースで区切ってリストとして受け取り、<A> に代入する
+<A> = list ( map ( int , input ( ) . split ( ) ) )	ユーザが入力した整数値を半角スペースで区切ってリストとして得、<A> に代入する
+<A> = list ( map ( int , input ( ) . split ( ) ) )	ユーザが入力した整数を空白で区切ってリストとして受け取って、<A> とする
+<A> , <B> , <C> = input ( ) . split ( )	入力された文字列を半角スペースで分割し、 <A> 、 <B> 、 <C> とする
+<A> , <B> , <C> = input ( ) . split ( )	入力された文字列を空白で分割し、 <A> 、 <B> 、 <C> とする
+<A> , <B> , <C> = input ( ) . split ( )	入力された文字列をスペースで分割し、 <A> 、 <B> 、 <C> とする
+<A> , <B> , <C> = input ( ) . split ( )	入力された文字列を空白で分割し、 <A> 、 <B> 、 <C> 代入する
+<A> , <B> , <C> = input ( ) . split ( )	入力された文字列をスペースで分割し、 <A> 、 <B> 、 <C> 代入する
+<A> , <B> , <C> = input ( ) . split ( )	入力された文字列をスペースで分割し、 <A> 、 <B> 、 <C> 入れる
+<A> , <B> , <C> = input ( ) . split ( )	スペースごとに入力文字列を受け取り、 <A> 、 <B> 、 <C> とする
+<A> , <B> , <C> = input ( ) . split ( )	半角スペースごとに入力文字列を受け取り、 <A> 、 <B> 、 <C> とする
+<A> , <B> , <C> = input ( ) . split ( )	スペースごとに入力文字列を受け取り、 <A> 、 <B> 、 <C> 代入する
+<A> , <B> , <C> = input ( ) . split ( )	空白ごとに入力文字列を受け取り、 <A> 、 <B> 、 <C> とする
+<A> , <B> , <C> = input ( ) . split ( )	半角スペースで区切って入力文字列を受け取り、 <A> 、 <B> 、 <C> とする
+<A> , <B> , <C> = input ( ) . split ( )	スペースで区切って入力文字列を受け取り、 <A> 、 <B> 、 <C> 代入する
+<A> , <B> , <C> = input ( ) . split ( )	空白で区切って入力文字列を受け取り、 <A> 、 <B> 、 <C> 入れる
+<A> , <B> , <C> = input ( ) . split ( )	スペースで区切って入力文字列を受け取り、 <A> 、 <B> 、 <C> とする
+<A> , <B> , <C> = input ( ) . split ( )	空白で区切って入力文字列を受け取り、 <A> 、 <B> 、 <C> とする
+<A> , <B> , <C> = input ( ) . split ( )	空白で区切って入力文字列を受け取り、 <A> 、 <B> 、 <C> 代入する
+<A> , <B> , <C> = map ( int , input ( ) . split ( ) )	入力された整数をスペースで分割し、 <A> 、 <B> 、 <C> とする
+<A> , <B> , <C> = map ( int , input ( ) . split ( ) )	入力された整数を空白で分割し、 <A> 、 <B> 、 <C> とする
+<A> , <B> , <C> = map ( int , input ( ) . split ( ) )	一行で入力された整数を空白で分割し、 <A> 、 <B> 、 <C> とする
+<A> , <B> , <C> = map ( int , input ( ) . split ( ) )	一行で入力された整数をスペースで分割し、 <A> 、 <B> 、 <C> とする
+<A> , <B> , <C> = map ( int , input ( ) . split ( ) )	入力された整数を半角スペースで分割し、 <A> 、 <B> 、 <C> とする
+<A> , <B> , <C> = map ( int , input ( ) . split ( ) )	一行で入力された整数を半角スペースで分割し、 <A> 、 <B> 、 <C> とする
+<A> , <B> , <C> = map ( int , input ( ) . split ( ) )	半角スペースで区切って一行で入力された整数を受け取り、 <A> 、 <B> 、 <C> とする
+<A> , <B> , <C> = map ( int , input ( ) . split ( ) )	空白で区切って入力された整数を受け取り、 <A> 、 <B> 、 <C> とする
+<A> , <B> , <C> = map ( int , input ( ) . split ( ) )	スペースで区切って入力された整数を受け取り、 <A> 、 <B> 、 <C> とする
+<A> , <B> , <C> = map ( int , input ( ) . split ( ) )	半角スペースで区切って入力された整数を受け取り、 <A> 、 <B> 、 <C> とする
+<A> , <B> , <C> = map ( int , input ( ) . split ( ) )	スペースごとに入力された整数を受け取り、 <A> 、 <B> 、 <C> とする
+<A> , <B> , <C> = map ( int , input ( ) . split ( ) )	スペースごとに一行で入力された整数を受け取り、 <A> 、 <B> 、 <C> とする
+<A> , <B> , <C> = map ( int , input ( ) . split ( ) )	空白ごとに一行で入力された整数を受け取り、 <A> 、 <B> 、 <C> とする
+<A> , <B> , <C> = map ( int , input ( ) . split ( ) )	空白ごとに入力された整数を受け取り、 <A> 、 <B> 、 <C> とする
+float ( <A> )	<A> を浮動小数点数に変換する
+float ( <A> )	<A> を浮動小数点数にする
+float ( <A> )	<A> を変換した浮動小数点数
+float ( <A> )	<A> を浮動小数点数として取得する
+float ( <A> )	<A> を浮動小数点数型に変換する
+int ( <A> )	<A> を整数に変換する
+int ( <A> )	<A> を数値にする
+int ( <A> )	<A> を数にする
+int ( <A> )	<A> を整数値に変換する
+int ( <A> )	<A> を変換した数値
+int ( <A> )	<A> を変換した整数値
+int ( <A> )	<A> を変換した数
+int ( <A> )	<A> を数値として取得する
+int ( <A> )	<A> を整数として取得する
+int ( <A> )	<A> を整数値として取得する
+int ( <A> )	<A> を数として取得する
+int ( <A> )	<A> を整数型に変換する
+<A> == <B>	<A> と <B> が等しいかどうか
+if <A> == <B> :	<A> と <B> が等しいならば
+<A> != <B>	<A> と <B> が等しくないか否か
+if <A> == <B> :	<A> と <B> が等しい場合
+if <A> == <B> :	<A> と <B> が等しければ
+if <A> != <B> :	<A> と <B> が等しかったら
+<A> == <B>	<A> が <B> と等しいかどうか
+if <A> == <B> :	<A> が <B> と等しい場合
+<A> != <B>	<A> が <B> と等しくないか
+if <A> == <B> :	<A> が <B> と等しければ
+if <A> == <B> :	<A> が <B> と等しかった場合
+if <A> != <B> :	<A> が <B> と等しくなければ
+if <A> != <B> :	<A> が <B> と等しくなかったとき
+while <A> != <B> :	<A> が <B> と等しくない間
+<A> == <B>	<A> は <B> と等しいか否か
+if <A> == <B> :	<A> は <B> と等しいとき
+<A> != <B>	<A> は <B> と等しくないか否か
+if <A> == <B> :	<A> は <B> と等しければ
+if <A> == <B> :	もし <A> は <B> と等しかった場合
+if <A> != <B> :	<A> は <B> と等しかったならば
+<A> == <B>	<A> が <B> か
+if <A> == <B> :	<A> が <B> のとき
+<A> != <B>	<A> が <B> でないか
+if <A> == <B> :	<A> が <B> とき
+if <A> != <B> :	<A> が <B> でないとき
+while <A> != <B> :	<A> が <B> でない間
+<A> >  <B>	<A> が <B> より大きいかどうか
+if <A> >  <B> :	<A> が <B> より大きいとき
+not <A> >  <B>	<A> が <B> より大きくないか
+if <A> >  <B> :	もし <A> が <B> より大きければ
+if <A> >  <B> :	<A> が <B> より大きかったなら
+if not <A> >  <B> :	<A> が <B> より大きくなかったとき
+<A> >  <B>	<A> が <B> よりも大きいかどうか
+if <A> >  <B> :	<A> が <B> よりも大きいならば
+not <A> >  <B>	<A> が <B> よりも大きくないかどうか
+if <A> >  <B> :	もし <A> が <B> よりも大きいとき
+if <A> >  <B> :	もし <A> が <B> よりも大きければ
+if <A> >  <B> :	もし <A> が <B> よりも大きかったなら
+if not <A> >  <B> :	<A> が <B> よりも大きくなかったとき
+while <A> >  <B> :	<A> が <B> よりも大きい間
+while not <A> >  <B> :	<A> が <B> よりも大きくない間
+<A> <  <B>	<A> が <B> より小さいかどうか
+if <A> <  <B> :	<A> が <B> より小さいならば
+not <A> <  <B>	<A> が <B> より小さくないかどうか
+if <A> <  <B> :	もし <A> が <B> より小さいとき
+if <A> <  <B> :	もし <A> が <B> より小さければ
+if <A> <  <B> :	もし <A> が <B> より小さかった場合
+if not <A> <  <B> :	もし <A> が <B> より小さくなければ
+while <A> <  <B> :	<A> が <B> より小さい間
+while not <A> <  <B> :	<A> が <B> より小さくない間
+<A> <  <B>	<A> が <B> よりも小さいか
+if <A> <  <B> :	<A> が <B> よりも小さいとき
+not <A> <  <B>	<A> が <B> よりも小さくないか否か
+if <A> <  <B> :	<A> が <B> よりも小さければ
+if not <A> <  <B> :	もし <A> が <B> よりも小さかったなら
+<A> >= <B>	<A> が <B> 以上かどうか
+if <A> >= <B> :	<A> が <B> 以上のとき
+not <A> >= <B>	<A> が <B> 以上でないかどうか
+if <A> >= <B> :	もし <A> が <B> 以上とき
+if not <A> >= <B> :	<A> が <B> 以上でないならば
+while not <A> >= <B> :	<A> が <B> 以上でない間
+<A> >= <B>	<A> が <B> 以上であるか
+if <A> >= <B> :	もし <A> が <B> 以上であるならば
+not <A> >= <B>	<A> が <B> 以上であるでないか
+if <A> >= <B> :	もし <A> が <B> 以上であるとき
+if not <A> >= <B> :	<A> が <B> 以上であるでないならば
+while not <A> >= <B> :	<A> が <B> 以上であるでない間
+<A> <= <B>	<A> が <B> 以降かどうか
+if <A> <= <B> :	もし <A> が <B> 以降ならば
+<A> <= <B>	<A> が <B> 以下か
+if <A> <= <B> :	もし <A> が <B> 以下ならば
+<A> <= <B>	<A> が <B> 次か
+if <A> <= <B> :	<A> が <B> 次のとき
+not <A> <= <B>	<A> が <B> 以降でないかどうか
+not <A> <= <B>	<A> が <B> 以下でないか
+not <A> <= <B>	<A> が <B> 次でないか
+if <A> <= <B> :	<A> が <B> 以降場合
+if <A> <= <B> :	もし <A> が <B> 以下場合
+if <A> <= <B> :	<A> が <B> 次ならば
+if not <A> <= <B> :	もし <A> が <B> 以降でないならば
+if not <A> <= <B> :	<A> が <B> 以下でない場合
+if not <A> <= <B> :	もし <A> が <B> 次でない場合
+while <A> <= <B> :	<A> が <B> 以降間
+while <A> <= <B> :	<A> が <B> 次間
+while not <A> <= <B> :	<A> が <B> 以降でない間
+while not <A> <= <B> :	<A> が <B> 次でない間
+<A> <= <B>	<A> が <B> 以下であるか
+if <A> <= <B> :	<A> が <B> 以下である場合
+<A> <= <B>	<A> が <B> 以降であるか
+if <A> <= <B> :	<A> が <B> 以降である場合
+<A> <= <B>	<A> が <B> 次であるか
+if <A> <= <B> :	<A> が <B> 次であるならば
+not <A> <= <B>	<A> が <B> 以下であるでないか
+not <A> <= <B>	<A> が <B> 以降であるでないか
+not <A> <= <B>	<A> が <B> 次であるでないか
+if <A> <= <B> :	もし <A> が <B> 以下であるならば
+if <A> <= <B> :	もし <A> が <B> 以降であるならば
+if <A> <= <B> :	<A> が <B> 次であるとき
+if not <A> <= <B> :	もし <A> が <B> 以下であるでないならば
+if not <A> <= <B> :	<A> が <B> 以降であるでない場合
+if not <A> <= <B> :	<A> が <B> 次であるでない場合
+while not <A> <= <B> :	<A> が <B> 以下であるでない間
+while not <A> <= <B> :	<A> が <B> 以降であるでない間
+<A> % 2 == 0	<A> が偶数か
+if <A> % 2 == 0 :	<A> が偶数のとき
+<A> % 2 != 0	<A> が偶数でないか
+if <A> % 2 == 0 :	<A> が偶数とき
+if <A> % 2 != 0 :	もし <A> が偶数でないとき
+while <A> % 2 == 0 :	<A> が偶数間
+while <A> % 2 != 0 :	<A> が偶数でない間
+<A> % 2 == 0	<A> が偶数であるか否か
+if <A> % 2 == 0 :	<A> が偶数である場合
+<A> % 2 != 0	<A> が偶数であるでないかどうか
+if <A> % 2 == 0 :	もし <A> が偶数であるならば
+if <A> % 2 != 0 :	<A> が偶数であるでないとき
+<A> % <B> == <C>	<A> が <B> で割った時の余りが <C> であるか
+if <A> % <B> == <C> :	<A> が <B> で割った時の余りが <C> である場合
+<A> % <B> != <C>	<A> が <B> で割った時の余りが <C> であるでないか
+if <A> % <B> == <C> :	もし <A> が <B> で割った時の余りが <C> であるならば
+if <A> % <B> != <C> :	<A> が <B> で割った時の余りが <C> であるでないとき
+while <A> % <B> == <C> :	<A> が <B> で割った時の余りが <C> である間
+<A> % 2 == 1	<A> が奇数かどうか
+if <A> % 2 == 1 :	<A> が奇数ならば
+<A> % 2 != 1	<A> が奇数でないかどうか
+if <A> % 2 == 1 :	<A> が奇数ならば
+if <A> % 2 != 1 :	もし <A> が奇数でないならば
+while <A> % 2 != 1 :	<A> が奇数でない間
+<A> % 2 == 1	<A> が奇数であるか
+if <A> % 2 == 1 :	<A> が奇数である場合
+<A> % 2 != 1	<A> が奇数であるでないかどうか
+if <A> % 2 == 1 :	<A> が奇数であるならば
+if <A> % 2 != 1 :	もし <A> が奇数であるでないとき
+while <A> % 2 == 1 :	<A> が奇数である間
+while <A> % 2 != 1 :	<A> が奇数であるでない間
+<A> % <B> == <C>	<A> が <B> で割った時の余りが <C> であるか否か
+if <A> % <B> == <C> :	<A> が <B> で割った時の余りが <C> であるならば
+<A> % <B> != <C>	<A> が <B> で割った時の余りが <C> であるでないか
+if <A> % <B> == <C> :	<A> が <B> で割った時の余りが <C> であるとき
+if <A> % <B> != <C> :	<A> が <B> で割った時の余りが <C> であるでないとき
+while <A> % <B> == <C> :	<A> が <B> で割った時の余りが <C> である間
+while <A> % <B> != <C> :	<A> が <B> で割った時の余りが <C> であるでない間
+<A> % <B> == 0	<A> が <B> の倍数か否か
+if <A> % <B> == 0 :	<A> が <B> の倍数のとき
+<A> % <B> != 0	<A> が <B> の倍数でないか
+if <A> % <B> == 0 :	もし <A> が <B> の倍数場合
+if <A> % <B> != 0 :	もし <A> が <B> の倍数でないとき
+while <A> % <B> == 0 :	<A> が <B> の倍数間
+while <A> % <B> != 0 :	<A> が <B> の倍数でない間
+<A> % <B> == 0	<A> が <B> で割り切れるかどうか
+if <A> % <B> == 0 :	<A> が <B> で割り切れるならば
+<A> % <B> != 0	<A> が <B> で割り切れないかどうか
+if <A> % <B> == 0 :	<A> が <B> で割り切れるとき
+if <A> % <B> == 0 :	もし <A> が <B> で割り切れれば
+if <A> % <B> == 0 :	もし <A> が <B> で割り切れたら
+if <A> % <B> != 0 :	<A> が <B> で割り切れなかったならば
+while <A> % <B> == 0 :	<A> が <B> で割り切れる間
+while <A> % <B> != 0 :	<A> が <B> で割り切れない間
+pass	何もしない
+pass	何も行わない
+pass	パスする
+break	抜ける
+break	ループを終了する
+break	ループ処理を抜ける
+break	ループ文を抜ける
+break	ループを抜ける
+break	ループから抜ける
+break	ループ文から抜ける
+break	ループを抜け出す
+break	ループ文を抜け出す
+break	ループ処理を抜け出す
+break	ループから抜け出す
+break	ループ文から抜け出す
+break	ループ処理から抜け出す
+break	繰り返し処理を終了する
+break	繰り返し処理から抜ける
+if <A> <  <B> or <A> >= <C> :	<A> が <B> 未満、または <C> 以上のとき
+if <A> <  <B> or <A> >= <C> :	もし <A> が <B> 未満、または <C> 以上のとき
+if age <  <A> or age >= <B> :	<A> 才未満、または <B> 才以上のとき
+if age <  <A> or age >= <B> :	もし <A> 才未満、または <B> 才以上のとき
+if <A> <  <B> and <A> >= <C> :	もし <A> が <B> 未満、かつ <C> 以上のとき
+if <A> <  <B> and <A> >= <C> :	<A> が <B> 未満、かつ <C> 以上のとき
+if age <  <A> and age >= <B> :	<A> 才未満、かつ <B> 才以上のとき
+if age <  <A> and age >= <B> :	もし <A> 才未満、かつ <B> 才以上のとき
+sorted ( <A> )	<A> を並べ変える
+sorted ( <A> )	<A> を並べ直す
+sorted ( <A> )	<A> をソートする
+sorted ( <A> )	<A> を昇順に整列する
+sorted ( <A> )	<A> を整列する
+sorted ( <A> )	<A> を小さい順にソートする
+sorted ( <A> )	<A> を小さい順に整列する
+sorted ( <A> )	<A> を並べる
+sorted ( <A> )	<A> を小さい順に並べる
+sorted ( <A> )	<A> を整列した列
+sorted ( <A> )	<A> を並べ直した列
+sorted ( <A> )	<A> をソートした列
+sorted ( <A> )	<A> を昇順に並べ直した列
+sorted ( <A> )	<A> を並べ変えた列
+sorted ( <A> )	<A> を昇順に並べ変えた列
+sorted ( <A> , reverse = True )	<A> を降順に並べる
+sorted ( <A> , reverse = True )	<A> を降順に整列する
+sorted ( <A> , reverse = True )	<A> を逆順に並べる
+sorted ( <A> , reverse = True )	<A> を大きい順に並べ変える
+sorted ( <A> , reverse = True )	<A> を大きい順に並べる
+sorted ( <A> , reverse = True )	<A> を大きい順に並べ直す
+sorted ( <A> , reverse = True )	<A> を降順に並べ直す
+sorted ( <A> , reverse = True )	<A> を降順に並べ変える
+sorted ( <A> , reverse = True )	<A> を降順に並べ変えた列
+sorted ( <A> , reverse = True )	<A> を降順にソートした列
+sorted ( <A> , reverse = True )	<A> を降順に並べ直した列
+sorted ( <A> , reverse = True )	<A> を大きい順に並べ直した列
+sorted ( <A> , reverse = True )	<A> を降順に整列した列
+sorted ( <A> , reverse = True )	<A> を大きい順に並べた列
+sorted ( <A> , reverse = True )	<A> を逆順にソートした列
+sorted ( <A> , reverse = True )	<A> を逆順に並べ変えた列
+sorted ( <A> , reverse = True )	<A> を大きい順にソートした列
+<A> [ 0 ]	<A> の最初
+<A> [ <B> ]	<A> の <B> 番目
+<A> [ <B> ]	<A> の <B> 番目の値
+<A> [ <B> ]	<A> の <B> 番目の要素
+<A> [ -1 ]	<A> の末尾
+<A> [ -1 ]	<A> の末尾の要素
+<A> [ start : end ]	<A> の一部分を取り出す
+<A> [ <B> : <C> ]	<A> の <B> 番目から <C> 番目の値を取り出す
+<A> [ <B> : <C> ]	<A> の <B> 番目から <C> 番目の要素を取り出す
+<A> [ <B> : ]	<A> の <B> 番目から末尾までの値を取り出す
+<A> [ <B> : ]	<A> の <B> 番目から末尾までの要素を取り出す
+<A> [ <B> : ]	<A> の <B> 番目以降の要素を取り出す
+<A> [ <B> : ]	<A> の <B> 番目以降の値を取り出す
+<A> [ : end ]	<A> の一部分を取り出す
+<A> [ : <B> ]	<A> の先頭から <B> 番目の要素を取り出す
+<A> [ : <B> ]	<A> の先頭から <B> 番目の値を取り出す
+<A> [ : : -1 ]	リスト <A> の逆順
+<A> [ : : -1 ]	<A> の逆順
+<A> [ : : -1 ]	<A> 内の要素の順番を逆転する
+<A> [ : : -1 ]	リスト <A> 内の要素の順番を逆転する
+len ( <A> )	<A> の長さ
+len ( <A> )	<A> の要素数
+len ( <A> )	<A> の個数
+len ( <A> )	<A> の長さを調べる
+len ( <A> )	<A> の要素数を見る
+len ( <A> )	<A> の個数を表示する
+len ( <A> )	<A> の長さを計算する
+len ( <A> )	<A> の要素数を計算する
+len ( <A> )	<A> の個数を計算する
+sum ( <A> )	数列 <A> の合計値
+sum ( <A> )	数列 <A> の合計
+sum ( <A> )	<A> の合計値
+sum ( <A> )	<A> の合計
+sum ( <A> )	数列 <A> の合計値を調べる
+sum ( <A> )	数列 <A> の合計を見る
+sum ( <A> )	<A> の合計値を調べる
+sum ( <A> )	<A> の合計を表示する
+sum ( <A> )	数列 <A> の合計値を求める
+sum ( <A> )	数列 <A> の合計を算出する
+sum ( <A> )	<A> の合計値を求める
+sum ( <A> )	<A> の合計を計算する
+sum ( <A> )	数列 <A> の総和
+sum ( <A> )	<A> の総和
+sum ( <A> )	数列 <A> の総和を調べる
+sum ( <A> )	<A> の総和を確認する
+sum ( <A> )	数列 <A> の総和を求める
+sum ( <A> )	<A> の総和を計算する
+min ( <A> )	リスト <A> の最小値
+min ( <A> )	<A> の最小値
+min ( <A> )	リスト <A> の最小値を調べる
+min ( <A> )	<A> の最小値を確認する
+min ( <A> )	リスト <A> の最小値を求める
+min ( <A> )	<A> の最小値を計算する
+max ( <A> )	リスト <A> の最大値
+max ( <A> )	<A> の最大値
+max ( <A> )	リスト <A> の最大値を見る
+max ( <A> )	<A> の最大値を確認する
+max ( <A> )	リスト <A> の最大値を求める
+max ( <A> )	<A> の最大値を算出する
+sum ( <A> ) / len ( <A> )	数列 <A> の平均
+sum ( <A> ) / len ( <A> )	数列 <A> の平均値
+sum ( <A> ) / len ( <A> )	<A> の平均
+sum ( <A> ) / len ( <A> )	<A> の平均値
+sum ( <A> ) / len ( <A> )	数列 <A> の平均を見る
+sum ( <A> ) / len ( <A> )	数列 <A> の平均値を調べる
+sum ( <A> ) / len ( <A> )	<A> の平均を調べる
+sum ( <A> ) / len ( <A> )	<A> の平均値を見る
+sum ( <A> ) / len ( <A> )	数列 <A> の平均を算出する
+sum ( <A> ) / len ( <A> )	数列 <A> の平均値を計算する
+sum ( <A> ) / len ( <A> )	<A> の平均を求める
+sum ( <A> ) / len ( <A> )	<A> の平均値を計算する
+range ( <A> )	0 から <A> -1 までの数列
+range ( <A> )	0 から <A> -1 の範囲の数列
+range ( <A> )	0 から <A> -1 の範囲で 1 ずつ増える数列
+range ( <A> )	0 ~ <A> -1 の範囲の数列
+range ( <A> )	0 ~ <A> -1 の範囲で 1 ずつ増える数列
+range ( <A> )	0 以上 <A> 未満の範囲で 1 ずつ増える数列
+range ( <A> )	0 以上 <A> 未満で 1 ずつ増える数列
+range ( <A> )	0 以上 <A> 未満の範囲の数列
+range ( <A> , <B> + <A> )	<A> から <B> までの数列
+range ( <A> , <B> + <A> )	<A> から <B> の範囲の数列
+range ( <A> , <B> + <A> )	<A> から <B> の範囲で <A> ずつ増える数列
+range ( <A> , <B> + <A> )	<A> ~ <B> の範囲の数列
+range ( <A> , <B> + <A> )	<A> ~ <B> の範囲で <A> ずつ増える数列
+range ( <A> , <B> + <A> )	<A> 以上 <B> + <A> 未満の範囲で <A> ずつ増える数列
+range ( <A> , <B> + <A> )	<A> 以上 <B> + <A> 未満で <A> ずつ増える数列
+[ ]	空のリストを作る
+[ ]	空のリスト
+  <A> = [ ]	空のリストを作り、  <A> とする
+  <A> = [ ]	空のリストを  <A> とする
+<A> . append ( <B> )	リスト <A> に <B> を付加する
+<A> . append ( <B> )	リスト <A> に <B> を入れる
+<A> . append ( <B> )	<A> に <B> を追加する
+<A> . append ( <B> )	リスト <A> に <B> を追加する
+<A> . append ( <B> )	<A> に <B> を加える
+<A> . append ( <B> )	リスト <A> に <B> を加える
+<A> . append ( <B> )	リスト <A> の末尾に <B> を追加する
+<A> . append ( <B> )	リスト <A> の末尾に <B> を加える
+<A> . append ( <B> )	リスト <A> の末尾に <B> を入れる
+<A> . append ( <B> )	<A> の末尾に <B> を入れる
+<A> . append ( <B> )	<A> の末尾に <B> を付加する
+<A> . append ( <B> )	リスト <A> の末尾に <B> を付加する
+<A> . append ( <B> )	<A> の末尾に <B> を加える
+<A> . append ( <B> )	<B> を追加する要素としてリスト <A> の末尾に値を付加する
+<A> . append ( <B> )	<B> を加える要素としてリスト <A> の末尾に値を付加する
+<A> . append ( <B> )	<B> を追加したい要素としてリスト <A> の末尾に値を付加する
+<A> . append ( <B> )	<B> を加えたい要素として <A> リストの末尾に値を付加する
+<A> . append ( <B> )	<B> を追加要素として <A> の末尾に値を付加する
+<A> . append ( <B> )	<B> を追加したい要素として <A> リストの末尾に値を付加する
+<A> . append ( <B> )	<B> を追加する要素として <A> の末尾に値を付加する
+<A> . append ( <B> )	<B> を追加要素としてリスト <A> の末尾に値を付加する
+<A> . append ( <B> )	<B> を追加したい要素として <A> の末尾に値を付加する
+<A> . append ( <B> )	<B> を追加する要素として <A> リストの末尾に値を付加する
+<A> . append ( <B> )	<B> を加える要素として <A> の末尾に値を付加する
+<A> . pop ( )	<A> の最後尾から値を取り出す
+<A> . pop ( )	リスト <A> の末尾から値を取り出す
+<A> . pop ( )	リスト <A> の最後尾から要素を取り出す
+<A> . pop ( )	<A> の末尾から要素を取り出す
+<A> . pop ( )	<A> の末尾から値を取り出す
+<A> . pop ( )	リスト <A> の最後尾から値を取り出す
+<A> . pop ( )	リスト <A> の末尾から要素を取り出す
+<A> . pop ( )	<A> の最後尾から要素を取り出す
+<A> . pop ( <B> )	<A> の <B> 番目から要素を取り出す
+<A> . pop ( <B> )	<A> の <B> 番目から値を取り出す
+<A> . pop ( <B> )	リスト <A> の <B> 番目から要素を取り出す
+<A> . pop ( <B> )	リスト <A> の <B> 番目から値を取り出す
+[ <A> for i in range ( <B> ) ]	<B> 個の <A> が含まれるリスト
+<A> = [ <B> for i in range ( <C> ) ]	<C> 個の <B> が含まれるリストを<A> にする
+[ i for i in range ( <A> , 101 ) ]	<A> から 100 までの数が並んだリスト
+<A> = [ i for i in range ( <B> , 101 ) ]	<B> から 100 までの数が並んだリストを<A> にする
+[ i for i in range ( <A> , <B> ) ]	<A> 以上 <B> 未満の数が並んだリスト
+<A> = [ i for i in range ( <B> , <C> ) ]	<B> 以上 <C> 未満の数が並んだリストを<A> とする
+<A> . replace ( <B> , <C> )	<A> 内の <B> を <C> に置き換えた文字列
+<A> . replace ( <B> , <C> )	文字列 <A> 内の <B> を <C> に置き換えた文字列
+<A> = <B> . replace ( <C> , <D> )	<B> 内の <C> を <D> に置き換えた文字列を<A> とする
+<A> = <B> . replace ( <C> , <D> )	文字列 <B> 内の <C> を <D> に置き換えた文字列を<A> とする
+<A> . upper ( )	<A> を英大文字に変換した文字列
+<A> . upper ( )	文字列 <A> を英大文字に変換した文字列
+<A> = <B> . upper ( )	<B> を英大文字に変換した文字列を<A> にする
+<A> = <B> . upper ( )	文字列 <B> を英大文字に変換した文字列を<A> にする
+<A> . upper ( )	<A> 内の小文字を大文字に変換する
+<A> . upper ( )	文字列 <A> の中の小文字を大文字に変換する
+<A> . upper ( )	<A> の中の小文字を大文字に変換する
+<A> = <B> . upper ( )	<B> 内の小文字を大文字に変換して、<A> とする
+<A> = <B> . upper ( )	文字列 <B> の中の小文字を大文字に変換し、<A> とする
+<A> = <B> . upper ( )	<B> の中の小文字を大文字に変換して、<A> とする
+<A> . upper ( )	<A> を全て大文字に変換する
+<A> . upper ( )	文字列 <A> を全て大文字に変換する
+<A> = <B> . upper ( )	<B> を全て大文字に変換して、<A> にする
+<A> = <B> . upper ( )	文字列 <B> を全て大文字に変換し、<A> にする
+<A> . upper ( )	文字列 <A> を全て大文字にする
+<A> . upper ( )	<A> を全て大文字にする
+<A> = <B> . upper ( )	文字列 <B> を全て大文字にして、<A> とする
+<A> = <B> . upper ( )	<B> を全て大文字にして、<A> にする
+<A> . upper ( )	文字列 <A> の全ての文字を大文字に変換する
+<A> . upper ( )	<A> の全ての文字を大文字に変換する
+<A> . upper ( )	文字列 <A> の全ての文字を大文字にする
+<A> . upper ( )	<A> の全ての文字を大文字にする
+<A> . upper ( )	<A> の全ての文字を大文字にして返す
+<A> . upper ( )	文字列 <A> の全ての文字を大文字にして返す
+<A> = <B> . upper ( )	文字列 <B> の全ての文字を大文字に変換して、<A> とする
+<A> = <B> . upper ( )	<B> の全ての文字を大文字に変換し、<A> とする
+<A> = <B> . upper ( )	文字列 <B> の全ての文字を大文字にし、<A> にする
+<A> = <B> . upper ( )	<B> の全ての文字を大文字にして、<A> とする
+<A> = <B> . upper ( )	<B> の全ての文字を大文字にして返して、<A> とする
+<A> = <B> . upper ( )	文字列 <B> の全ての文字を大文字にして返して、<A> とする
+<A> . upper ( )	文字列 <A> の全ての英字を大文字にして返す
+<A> . upper ( )	<A> の全ての英字を大文字に変換する
+<A> . upper ( )	文字列 <A> の全ての英字を大文字にする
+<A> = <B> . upper ( )	文字列 <B> の全ての英字を大文字にして返し、<A> とする
+<A> = <B> . upper ( )	<B> の全ての英字を大文字に変換して、<A> とする
+<A> = <B> . upper ( )	文字列 <B> の全ての英字を大文字にして、<A> にする
+<A> . upper ( )	文字列 <A> の英字全てを大文字に変換する
+<A> . upper ( )	<A> の英字全てを大文字に変換する
+<A> . upper ( )	<A> の英字全てを大文字にして返す
+<A> . upper ( )	文字列 <A> の英字全てを大文字にする
+<A> = <B> . upper ( )	文字列 <B> の英字全てを大文字に変換して、<A> にする
+<A> = <B> . upper ( )	<B> の英字全てを大文字に変換して、<A> とする
+<A> = <B> . upper ( )	<B> の英字全てを大文字にして返し、<A> にする
+<A> = <B> . upper ( )	文字列 <B> の英字全てを大文字にし、<A> に代入する
+<A> . lower ( )	<A> を英小文字に変換した文字列
+<A> . lower ( )	文字列 <A> を英小文字に変換した文字列
+<A> = <B> . lower ( )	<B> を英小文字に変換した文字列を<A> とする
+<A> = <B> . lower ( )	文字列 <B> を英小文字に変換した文字列を<A> とする
+<A> . lower ( )	文字列 <A> の中の大文字を小文字に変換する
+<A> . lower ( )	文字列 <A> 内の大文字を小文字に変換する
+<A> . lower ( )	<A> の中の大文字を小文字に変換する
+<A> = <B> . lower ( )	文字列 <B> の中の大文字を小文字に変換して、<A> にする
+<A> = <B> . lower ( )	文字列 <B> 内の大文字を小文字に変換し、<A> とする
+<A> = <B> . lower ( )	<B> の中の大文字を小文字に変換し、<A> とする
+<A> . lower ( )	<A> を全て小文字に変換する
+<A> = <B> . lower ( )	<B> を全て小文字に変換し、<A> とする
+<A> . lower ( )	<A> を全て小文字にする
+<A> . lower ( )	文字列 <A> を全て小文字にする
+<A> = <B> . lower ( )	<B> を全て小文字にし、<A> に代入する
+<A> = <B> . lower ( )	文字列 <B> を全て小文字にして、<A> とする
+<A> . lower ( )	文字列 <A> の全ての英字を小文字に変換する
+<A> . lower ( )	<A> の全ての英字を小文字に変換する
+<A> . lower ( )	<A> の全ての英字を小文字にして返す
+<A> . lower ( )	<A> の全ての英字を小文字にする
+<A> . lower ( )	文字列 <A> の全ての英字を小文字にして返す
+<A> . lower ( )	文字列 <A> の全ての英字を小文字にする
+<A> = <B> . lower ( )	文字列 <B> の全ての英字を小文字に変換し、<A> とする
+<A> = <B> . lower ( )	<B> の全ての英字を小文字に変換し、<A> にする
+<A> = <B> . lower ( )	<B> の全ての英字を小文字にして返し、<A> とする
+<A> = <B> . lower ( )	<B> の全ての英字を小文字にして、<A> にする
+<A> = <B> . lower ( )	文字列 <B> の全ての英字を小文字にして返して、<A> とする
+<A> = <B> . lower ( )	文字列 <B> の全ての英字を小文字にして、<A> とする
+<A> . lower ( )	<A> の全ての文字を小文字に変換する
+<A> . lower ( )	<A> の全ての文字を小文字にする
+<A> . lower ( )	文字列 <A> の全ての文字を小文字にする
+<A> . lower ( )	文字列 <A> の全ての文字を小文字に変換する
+<A> . lower ( )	文字列 <A> の全ての文字を小文字にして返す
+<A> . lower ( )	<A> の全ての文字を小文字にして返す
+<A> = <B> . lower ( )	<B> の全ての文字を小文字に変換して、<A> とする
+<A> = <B> . lower ( )	<B> の全ての文字を小文字にし、<A> とする
+<A> = <B> . lower ( )	文字列 <B> の全ての文字を小文字にして、<A> とする
+<A> = <B> . lower ( )	文字列 <B> の全ての文字を小文字に変換し、<A> とする
+<A> = <B> . lower ( )	文字列 <B> の全ての文字を小文字にして返し、<A> とする
+<A> = <B> . lower ( )	<B> の全ての文字を小文字にして返し、<A> とする
+<A> . lower ( )	<A> の英字全てを小文字にする
+<A> . lower ( )	<A> の英字全てを小文字にして返す
+<A> . lower ( )	文字列 <A> の英字全てを小文字にする
+<A> . lower ( )	文字列 <A> の英字全てを小文字にして返す
+<A> . lower ( )	文字列 <A> の英字全てを小文字に変換する
+<A> = <B> . lower ( )	<B> の英字全てを小文字にして、<A> とする
+<A> = <B> . lower ( )	<B> の英字全てを小文字にして返し、<A> とする
+<A> = <B> . lower ( )	文字列 <B> の英字全てを小文字にして、<A> に代入する
+<A> = <B> . lower ( )	文字列 <B> の英字全てを小文字にして返して、<A> にする
+<A> = <B> . lower ( )	文字列 <B> の英字全てを小文字に変換して、<A> にする
+list ( <A> )	文字列 <A> の文字リスト
+list ( <A> )	<A> の文字リスト
+<A> = list ( <B> )	文字列 <B> の文字リストを<A> とする
+<A> = list ( <B> )	<B> の文字リストを<A> にする
+<A> . split ( <B> )	<A> を <B> で分割した文字列のリスト
+<A> . split ( <B> )	文字列 <A> を <B> で分割した文字列のリスト
+  <A> = <B> . split ( <C> )	<B> を <C> で分割した文字列のリストを  <A> とする
+  <A> = <B> . split ( <C> )	文字列 <B> を <C> で分割した文字列のリストを  <A> にする
+<A> . split ( <B> )	<A> を <B> で分割してリストを返す
+<A> . split ( <B> )	文字列 <A> を <B> で分割してリストを返す
+<A> = <B> . split ( <C> )	<B> を <C> で分割してリストを返し、<A> にする
+<A> = <B> . split ( <C> )	文字列 <B> を <C> で分割してリストを返して、<A> とする
+<A> . split ( <B> )	<B> を区切り文字として <A> を分割してリスト型にして返す
+<A> . split ( <B> )	<B> を区切り文字に設定して <A> を分割してリスト型にする
+<A> . split ( <B> )	<B> を区切り文字として <A> 文字列を分割してリスト型にして返す
+<A> . split ( <B> )	<B> を区切り文字として <A> を分割してリスト型にする
+<A> . split ( <B> )	<B> を区切り文字に設定して文字列 <A> を分割してリスト型にして返す
+<A> . split ( <B> )	<B> を区切り文字に指定して <A> 文字列を分割してリスト型にして返す
+<A> . split ( <B> )	<B> を区切り文字に指定して文字列 <A> を分割してリスト型にする
+<A> . split ( <B> )	<B> を区切り文字に指定して <A> 文字列を分割してリスト型にする
+<A> . split ( <B> )	<B> を区切り文字として文字列 <A> を分割してリスト型にして返す
+<A> . split ( <B> )	<B> を区切り文字に指定して <A> を分割してリスト型にして返す
+<A> . split ( <B> )	<B> を区切り文字に設定して <A> を分割してリスト型にして返す
+<A> . split ( <B> )	<B> を区切り文字に指定して文字列 <A> を分割してリスト型にして返す
+<A> . split ( <B> )	<B> を区切り文字として文字列 <A> を分割してリスト型にする
+<A> . split ( <B> )	<B> を区切り文字に設定して <A> 文字列を分割してリスト型にして返す
+<A> = <B> . split ( <C> )	<C> を区切り文字として <B> を分割してリスト型にして返し、<A> とする
+<A> = <B> . split ( <C> )	<C> を区切り文字に設定して <B> を分割してリスト型にし、<A> に代入する
+<A> = <B> . split ( <C> )	<C> を区切り文字として <B> 文字列を分割してリスト型にして返して、<A> とする
+<A> = <B> . split ( <C> )	<C> を区切り文字として <B> を分割してリスト型にし、<A> とする
+<A> = <B> . split ( <C> )	<C> を区切り文字に設定して文字列 <B> を分割してリスト型にして返して、<A> とする
+<A> = <B> . split ( <C> )	<C> を区切り文字に指定して <B> 文字列を分割してリスト型にして返して、<A> とする
+<A> = <B> . split ( <C> )	<C> を区切り文字に指定して文字列 <B> を分割してリスト型にし、<A> とする
+<A> = <B> . split ( <C> )	<C> を区切り文字に指定して <B> 文字列を分割してリスト型にし、<A> とする
+<A> = <B> . split ( <C> )	<C> を区切り文字として文字列 <B> を分割してリスト型にして返し、<A> とする
+<A> = <B> . split ( <C> )	<C> を区切り文字に指定して <B> を分割してリスト型にして返して、<A> にする
+<A> = <B> . split ( <C> )	<C> を区切り文字に設定して <B> を分割してリスト型にして返して、<A> にする
+<A> = <B> . split ( <C> )	<C> を区切り文字に指定して文字列 <B> を分割してリスト型にして返し、<A> にする
+<A> = <B> . split ( <C> )	<C> を区切り文字として文字列 <B> を分割してリスト型にし、<A> に代入する
+<A> = <B> . split ( <C> )	<C> を区切り文字に設定して <B> 文字列を分割してリスト型にして返して、<A> とする
+<A> . count ( <B> )	文字列 <A> 内の <B> の出現回数
+<A> . count ( <B> )	<A> 内の <B> の出現回数
+<A> . count ( <B> )	文字列 <A> 内の <B> の出現回数を表示する
+<A> . count ( <B> )	<A> 内の <B> の出現回数を調べる
+<A> . count ( <B> )	文字列 <A> 内の <B> の登場回数
+<A> . count ( <B> )	<A> 内の <B> の登場回数
+<A> . count ( <B> )	文字列 <A> 内の <B> の登場回数を表示する
+<A> . count ( <B> )	<A> 内の <B> の登場回数を確認する
+<A> . startswith ( <B> )	文字列 <A> が <B> で始まるかどうか
+if <A> . startswith ( <B> ) :	もし文字列 <A> が <B> で始まるならば
+<A> . startswith ( <B> )	<A> が <B> で始まるかどうか
+if <A> . startswith ( <B> ) :	もし <A> が <B> で始まるならば
+if <A> . startswith ( <B> ) :	もし文字列 <A> が <B> で始まった場合
+if <A> . startswith ( <B> ) :	<A> が <B> で始まれば
+if <A> . startswith ( <B> ) :	<A> が <B> で始まった場合
+<A> . startswith ( <B> )	<A> の先頭が <B> であるどうか
+<A> . startswith ( <B> )	文字列 <A> の先頭が <B> であるどうか
+if <A> . startswith ( <B> ) :	もし <A> の先頭が <B> であるどう場合
+if <A> . startswith ( <B> ) :	もし文字列 <A> の先頭が <B> であるどうならば
+<A> . endswith ( <B> )	<A> が <B> で終わるか
+if <A> . endswith ( <B> ) :	<A> が <B> で終わるならば
+<A> . endswith ( <B> )	文字列 <A> が <B> で終わるかどうか
+if <A> . endswith ( <B> ) :	もし文字列 <A> が <B> で終わるならば
+if <A> . endswith ( <B> ) :	<A> が <B> で終われば
+if <A> . endswith ( <B> ) :	<A> が <B> で終わったならば
+if <A> . endswith ( <B> ) :	文字列 <A> が <B> で終われば
+if <A> . endswith ( <B> ) :	もし文字列 <A> が <B> で終わった場合
+<A> . endswith ( <B> )	<A> の末尾が <B> であるどうか
+<A> . endswith ( <B> )	文字列 <A> の末尾が <B> であるどうか
+if <A> . endswith ( <B> ) :	もし <A> の末尾が <B> であるどうとき
+if <A> . endswith ( <B> ) :	文字列 <A> の末尾が <B> であるどう場合
+<A> . isupper ( )	<A> が英大文字か
+if <A> . isupper ( ) :	<A> が英大文字の場合
+<A> . isupper ( )	文字列 <A> が英大文字か否か
+if <A> . isupper ( ) :	もし文字列 <A> が英大文字ならば
+if <A> . isupper ( ) :	<A> が英大文字ならば
+if <A> . isupper ( ) :	文字列 <A> が英大文字場合
+<A> . isupper ( )	文字列 <A> 中の全ての文字が英大文字か
+if <A> . isupper ( ) :	文字列 <A> 中の全ての文字が英大文字のとき
+if <A> . isupper ( ) :	文字列 <A> 中の全ての文字が英大文字とき
+<A> . isupper ( )	<A> 中の全ての英字が大文字か
+if <A> . isupper ( ) :	<A> 中の全ての英字が大文字ならば
+<A> . isupper ( )	文字列 <A> 中の全ての英字が大文字かどうか
+if <A> . isupper ( ) :	文字列 <A> 中の全ての英字が大文字の場合
+if <A> . isupper ( ) :	もし <A> 中の全ての英字が大文字とき
+if <A> . isupper ( ) :	もし文字列 <A> 中の全ての英字が大文字とき
+<A> . isupper ( )	文字列 <A> 中の英字全てが大文字か
+if <A> . isupper ( ) :	文字列 <A> 中の英字全てが大文字ならば
+<A> . isupper ( )	<A> 中の英字全てが大文字か
+if <A> . isupper ( ) :	<A> 中の英字全てが大文字のとき
+if <A> . isupper ( ) :	文字列 <A> 中の英字全てが大文字とき
+if <A> . isupper ( ) :	もし <A> 中の英字全てが大文字とき
+<A> . islower ( )	<A> が英小文字かどうか
+if <A> . islower ( ) :	もし <A> が英小文字ならば
+<A> . islower ( )	文字列 <A> が英小文字か
+if <A> . islower ( ) :	文字列 <A> が英小文字のとき
+if <A> . islower ( ) :	もし <A> が英小文字とき
+if <A> . islower ( ) :	もし文字列 <A> が英小文字ならば
+<A> . islower ( )	文字列 <A> 中の全ての文字が英小文字か
+if <A> . islower ( ) :	文字列 <A> 中の全ての文字が英小文字の場合
+<A> . islower ( )	<A> 中の全ての文字が英小文字か
+if <A> . islower ( ) :	<A> 中の全ての文字が英小文字のとき
+if <A> . islower ( ) :	文字列 <A> 中の全ての文字が英小文字とき
+if <A> . islower ( ) :	もし <A> 中の全ての文字が英小文字場合
+<A> . islower ( )	文字列 <A> 中の全ての英字が小文字か
+if <A> . islower ( ) :	文字列 <A> 中の全ての英字が小文字ならば
+<A> . islower ( )	<A> 中の全ての英字が小文字か否か
+if <A> . islower ( ) :	もし <A> 中の全ての英字が小文字ならば
+if <A> . islower ( ) :	文字列 <A> 中の全ての英字が小文字場合
+if <A> . islower ( ) :	<A> 中の全ての英字が小文字場合
+<A> . islower ( )	<A> 中の英字全てが小文字か
+if <A> . islower ( ) :	<A> 中の英字全てが小文字ならば
+<A> . islower ( )	文字列 <A> 中の英字全てが小文字か否か
+if <A> . islower ( ) :	もし文字列 <A> 中の英字全てが小文字ならば
+if <A> . islower ( ) :	もし <A> 中の英字全てが小文字とき
+if <A> . islower ( ) :	もし文字列 <A> 中の英字全てが小文字場合
+<A> . isdigit ( )	文字列 <A> が数字か否か
+if <A> . isdigit ( ) :	文字列 <A> が数字のとき
+<A> . isdigit ( )	<A> が数字か
+if <A> . isdigit ( ) :	<A> が数字ならば
+if <A> . isdigit ( ) :	もし文字列 <A> が数字とき
+if <A> . isdigit ( ) :	<A> が数字とき
+<A> . isdigit ( )	文字列 <A> 中の全ての文字が数字か
+if <A> . isdigit ( ) :	文字列 <A> 中の全ての文字が数字ならば
+<A> . isdigit ( )	<A> 中の全ての文字が数字か
+if <A> . isdigit ( ) :	<A> 中の全ての文字が数字の場合
+if <A> . isdigit ( ) :	もし文字列 <A> 中の全ての文字が数字とき
+if <A> . isdigit ( ) :	<A> 中の全ての文字が数字ならば
+<A> . isdigit ( )	<A> 全てが数字か
+if <A> . isdigit ( ) :	<A> 全てが数字の場合
+<A> . isdigit ( )	文字列 <A> 全てが数字か
+if <A> . isdigit ( ) :	文字列 <A> 全てが数字ならば
+if <A> . isdigit ( ) :	もし <A> 全てが数字ならば
+if <A> . isdigit ( ) :	文字列 <A> 全てが数字場合
+<A> . isdigit ( )	文字列 <A> が数字であるか否か
+if <A> . isdigit ( ) :	文字列 <A> が数字であるならば
+<A> . isdigit ( )	<A> が数字であるか否か
+if <A> . isdigit ( ) :	<A> が数字であるならば
+if <A> . isdigit ( ) :	もし文字列 <A> が数字であるとき
+if <A> . isdigit ( ) :	もし <A> が数字であるとき
