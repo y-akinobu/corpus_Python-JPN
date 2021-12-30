@@ -17,8 +17,8 @@ df .drop_duplicates ( )	重複している行を df から削除する
 df .describe ( )	df の統計情報を取得する
 df .set_index ( 'datetime' , inplace = True )	datetime '列を df のインデックスとする
 df .rename ( columns = { 'y' : 'sales' } , inplace = True )	df の 'y' 列を 'sales' 列とする
-"df .sort_values ( by = ""sales"" , ascending = True ) .head ( )"	sales '列が昇順になるよう df をソートし、上 5 行を表示する
-df .sort_values ( [ 'sales' , 'temperature' ] , ascending = False ) .head ( )	sales '列と' temperature '列が降順になるよう df をソートし、上 5 行を表示する
+df .sort_values ( by = 'sales' , ascending = True ) .head ( )	'sales'列が昇順になるよう df をソートし、上 5 行を表示する
+df .sort_values ( [ 'sales' , 'temperature' ] , ascending = False ) .head ( )	' sales'列と'temperature'列が降順になるよう df をソートし、上 5 行を表示する
 df .index = pd .to_datetime ( df .index , format = '%Y-%m-%d' )	df のインデックスを datetime 型に変換する
 df .isnull ( ) .sum ( )	df の欠損値の個数を列単位で確認する
 df [ df .isnull ( ) .any ( axis = 1 ) ] .head ( )	df の欠損値が含まれている行を抽出し、上 5 行を表示する
@@ -47,12 +47,12 @@ pivot_monthly_df .plot ( kind = 'bar' , alpha = 0.6 , figsize = ( 12 , 3 ) )	mon
 dummy_df = pd .get_dummies ( df , columns = [ 'week' , 'name' , 'event' , 'weather' , 'period' ] )	df の 'week' 列、 'name' 列、 'event' 列、 'weather' 列、 'period' 列をダミー化したものを dummy_df とする
 pd .set_option ( 'display.max_columns' , 160 )	160 番目までの列を表示させる
 dummy_df .to_csv ( './data/processed_datamart.csv' , encoding = 'utf-8' )	dummy_df を './data/processed_datamart.csv' に utf -8 で保存する
-"plt .plot ( x , y , label = ""test"" )"	ラベルを 'test' とし、 x , y の値を折れ線グラフとして表示する
+plt .plot ( x , y , label = 'test' )	ラベルを 'test' とし、 x , y の値を折れ線グラフとして表示する
 plt .legend ( )	凡例を表示する
 plt .show ( )	プロットを表示する
 plt .plot ( x , y , color = ( 0 , 0 , 1 ) )	色を RGB = ( 0 , 0 , 1 ) とし、 x , y の値を折れ線グラフとして表示する
-"plt .plot ( x , y , color = ""#0F0F0F"" )"	色を '#0F0F0F' とし、 x , y の値を折れ線グラフとして表示する
-"plt .savefig ( ""foo.png"" )"	"プロットを ""foo.png"" として保存する"
+plt .plot ( x , y , color = '#0F0F0F' )	色を '#0F0F0F' とし、 x , y の値を折れ線グラフとして表示する
+plt .savefig ( 'foo.png' )	プロットを 'foo.png' として保存する
 import numpy as np	numpy を np としてインポートする
 import numpy .random as random	numpy の random モジュールを random としてインポートする
 import scipy as sp	scipy を sp としてインポートする
@@ -95,8 +95,8 @@ df [ 'remarks' ] .unique ( )	remarks 'の中身を重複を除いて取得する
 df .drop_duplicates ( )	df から重複した行を削除したデータを取得する。
 df .describe ( )	df のそれぞれの行に対して重複を bool 値で取得する。
 df .set_index ( 'datetime' , inplace = True )	datetime 列を index に設定する。
-df .rename ( columns = { 'y' : 'sales' } , inplace = True )	列の名前を 'y' から’ sales ’に変更する。
-"df .sort_values ( by = ""sales"" , ascending = True ) .head ( )"	’ sales ’を参照して昇順に並び替えた後、 df の初めの 5 行を表示する。
+df .rename ( columns = { 'y' : 'sales' } , inplace = True )	列の名前を 'y' から'sales'に変更する。
+df .sort_values ( by = 'sales' , ascending = True ) .head ( )	'sales'を参照して昇順に並び替えた後、 df の初めの 5 行を表示する。
 df .sort_values ( [ 'sales' , 'temperature' ] , ascending = False ) .head ( )	sales '、' temperature 'をそれぞれ降順に並び替えた後、カッコ内の列の初めの 5 行を表示する。
 df .index = pd .to_datetime ( df .index , format = '%Y-%m-%d' )	df .index を参照し、年月日をハイフン区切りの形式に変更する。
 df .isnull ( ) .sum ( )	df のそれぞれの列に対して欠損値の個数をカウントする。
@@ -126,12 +126,12 @@ pivot_monthly_df .plot ( kind = 'bar' , alpha = 0.6 , figsize = ( 12 , 3 ) )	piv
 dummy_df = pd .get_dummies ( df , columns = [ 'week' , 'name' , 'event' , 'weather' , 'period' ] )	df を参照して、列 = [ 'week' , 'name' , 'event' , 'weather' , 'period' ] のダミー変数を生成する。
 pd .set_option ( 'display.max_columns' , 160 )	最大表示列数を 160 列に設定する。
 dummy_df .to_csv ( './data/processed_datamart.csv' , encoding = 'utf-8' )	dummy_df を、文字コードを utf -8 で './data/processed_datamart.csv' という名前の csv ファイルにして保存する。
-"plt .plot ( x , y , label = ""test"" )"	"ラベル名を ""test"" と定義し、 x と y からグラフをプロットする。"
+plt .plot ( x , y , label = 'test' )	ラベル名を 'test' と定義し、 x と y からグラフをプロットする。
 plt .legend ( )	グラフ内に凡例を表示する。
 plt .show ( )	プロットしたグラフを表示する
 plt .plot ( x , y , color = ( 0 , 0 , 1 ) )	グラフの色を RGB で ( 0 , 0 , 1 ) の色に指定して、 x と y からグラフをプロットする。
-"plt .plot ( x , y , color = ""#0F0F0F"" )"	"グラフの色をカラーコードで ""#0F0F0F"" の色に指定して、 x と y からグラフをプロットする。"
-"plt .savefig ( ""foo.png"" )"	"グラフを ""foo.png"" という名前で保存する。"
+plt .plot ( x , y , color = '#0F0F0F' )	グラフの色をカラーコードで '#0F0F0F' の色に指定して、 x と y からグラフをプロットする。
+plt .savefig ( 'foo.png' )	グラフを 'foo.png' という名前で保存する。
 import numpy as np	numpy を np としてインポートする。
 import numpy .random as random	numpy .random を random としてインポートする。
 import scipy as sp	scipy を sp という名前でインポートする。
@@ -168,7 +168,7 @@ df .drop_duplicates ( )	df のうち、重複した行を削除
 df .describe ( )	df の各列の要約統計量を取得
 df .set_index ( 'datetime' , inplace = True )	df の列 'datatime' をインデックスとして設定
 df .rename ( columns = { 'y' : 'sales' } , inplace = True )	df の列 'y' のカラム名を 'sales' に変更
-"df .sort_values ( by = ""sales"" , ascending = True ) .head ( )"	df の列 'sales' を降順で並び替え、最初の５行を表示
+df .sort_values ( by = 'sales' , ascending = True ) .head ( )	df の列 'sales' を降順で並び替え、最初の５行を表示
 df .sort_values ( [ 'sales' , 'temperature' ] , ascending = False ) .head ( )	df の列 'sales' と列 'temprature' を照準で並び替え、最初の 5 行を表示
 df .index = pd .to_datetime ( df .index , format = '%Y-%m-%d' )	df のインデックスを datetime64 [ ns ] 型の年月日をハイフン区切りにしたものに変更
 df .isnull ( ) .sum ( )	df に含まれる欠損値の個数を列ごとに算出
@@ -195,12 +195,12 @@ df .plot ( kind = 'scatter' , x = 'kcal' , y = 'sales' )	x 軸を 'kcal' 、 y �
 df [ [ 'kcal' , 'sales' ] ] .corr ( )	kcal 'と' sales 'の相関係数を算出
 dummy_df = pd .get_dummies ( df , columns = [ 'week' , 'name' , 'event' , 'weather' , 'period' ] )	列 'week' , 列 'name' , 列 'event' , 列 'weather' , 列 'period' を全てダミー化したものを dummy_df とする
 dummy_df .to_csv ( './data/processed_datamart.csv' , encoding = 'utf-8' )	dummy_df を './data/processed_datamart.csv' に utf -8 で保存
-"plt .plot ( x , y , label = ""test"" )"	"ラベルを ""test"" として、 x と y の値からプロット"
+plt .plot ( x , y , label = 'test' )	ラベルを 'test' として、 x と y の値からプロット
 plt .legend ( )	凡例の表示
 plt .show ( )	プロット表示 ( 設定の反映 )
 plt .plot ( x , y , color = ( 0 , 0 , 1 ) )	RGB を ( 0 , 0 , 1 ) と指定して、 x と y の値からプロット
-"plt .plot ( x , y , color = ""#0F0F0F"" )"	"16 進数表記のカラーコードを ""#0F0F0F"" と指定して、 x と y の値からプロット"
-"plt .savefig ( ""foo.png"" )"	"作ったグラフを ""foo.png"" として保存"
+plt .plot ( x , y , color = '#0F0F0F' )	16 進数表記のカラーコードを '#0F0F0F' と指定して、 x と y の値からプロット
+plt .savefig ( 'foo.png' )	作ったグラフを 'foo.png' として保存
 import numpy as np	numpy を np と名前を付けてインポート
 import numpy .random as random	numpy .random を random と名前を付けてインポート
 import scipy as sp	scipy を sp と名前を付けてインポート

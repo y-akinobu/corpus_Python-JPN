@@ -1,722 +1,1372 @@
+def <name4> ( ) :	関数  <name4> の定義
 def <name1> ( ) :	関数  <name1> の定義
-<name5> = [ <val4> , <val6> ]	<name5> に  <val4> と  <val6> からなるリストを代入
-while <name1> [ -1 ] <   <val3> :	<name1> の末尾要素が  <val3> 未満の間繰り返し
-<name5> . append ( <name5> [ -1 ] + <name5> [ -2 ] )	<name5> の末尾要素とその次の要素を足して  <name5> の末尾に追加する
-<name1> = <val6>	<name1> に  <val6> を代入
-for <name3> in <name6> :	<name6> の各要素を前から順に  <name3> として
+<name6> = [ <val3> , <val2> ]	<name6> に  <val3> と  <val2> からなるリストを代入
+<name1> = [ <val2> , <val3> ]	<name1> に  <val2> と  <val3> からなるリストを代入
+while <name2> [ -1 ] <   <val5> :	<name2> の末尾要素が  <val5> 未満の間繰り返し
+while <name1> [ -1 ] <   <val2> :	<name1> の末尾要素が  <val2> 未満の間繰り返し
+<name2> . append ( <name2> [ -1 ] + <name2> [ -2 ] )	<name2> の末尾要素とその次の要素を足して  <name2> の末尾に追加する
+<name1> . append ( <name1> [ -1 ] + <name1> [ -2 ] )	<name1> の末尾要素とその次の要素を足して  <name1> の末尾に追加する
+<name5> = <val4>	<name5> に  <val4> を代入
+<name1> = <val2>	<name1> に  <val2> を代入
+for <name1> in <name5> :	<name5> の各要素を前から順に  <name1> として
+for <name1> in <name2> :	<name2> の各要素を前から順に  <name1> として
+if <name1> % <val5> == 0 :	<name1> が  <val5> でわりきれるなら
 if <name1> % <val2> == 0 :	<name1> が  <val2> でわりきれるなら
-<name4> += <name6>	<name4> に  <name6> を足す
+<name3> += <name2>	<name3> に  <name2> を足す
+<name1> += <name2>	<name1> に  <name2> を足す
 return <name1>	<name1> を返す
-def <name6> ( <name5> ) :	<name5> を引数とする関数  <name6> の定義
-return <name3> % <val1> == 0	<name3> が  <val1> で割り切れる場合  True 、そうでなければ  False を返す
-def <name4> ( <name1> , <name3> ) :	<name1> と  <name3> を引数とする関数  <name4> の定義
-return <name4> + <name6>	<name4> と  <name6> の和を返す
-def <name5> ( <name1> ) :	<name1> を引数とする関数  <name5> の定義
-<name4> = <val3>	<name4> に  <val3> を代入
-for <name2> in <name3> :	<name3> の各要素を順に  <name2> として
-<name2> += <name5>	<name2> に  <name5> を足す
+def <name2> ( <name4> ) :	<name4> を引数とする関数  <name2> の定義
+def <name1> ( <name2> ) :	<name2> を引数とする関数  <name1> の定義
+return <name4> % <val3> == 0	<name4> が  <val3> で割り切れる場合  True 、そうでなければ  False を返す
+return <name1> % <val2> == 0	<name1> が  <val2> で割り切れる場合  True 、そうでなければ  False を返す
+def <name2> ( <name4> , <name6> ) :	<name4> と  <name6> を引数とする関数  <name2> の定義
+def <name1> ( <name2> , <name3> ) :	<name2> と  <name3> を引数とする関数  <name1> の定義
+return <name3> + <name5>	<name3> と  <name5> の和を返す
+return <name1> + <name2>	<name1> と  <name2> の和を返す
+def <name1> ( <name4> ) :	<name4> を引数とする関数  <name1> の定義
+def <name1> ( <name2> ) :	<name2> を引数とする関数  <name1> の定義
+<name6> = <val5>	<name6> に  <val5> を代入
+<name1> = <val2>	<name1> に  <val2> を代入
+for <name6> in <name5> :	<name5> の各要素を順に  <name6> として
+for <name1> in <name2> :	<name2> の各要素を順に  <name1> として
+<name5> += <name2>	<name5> に  <name2> を足す
+<name1> += <name2>	<name1> に  <name2> を足す
+return <name3>	<name3> を返す
+return <name1>	<name1> を返す
+def <name3> ( <name4> ) :	<name4> を引数とする関数  <name3> の定義
+def <name1> ( <name2> ) :	<name2> を引数とする関数  <name1> の定義
+return sum ( <name2> )	<name2> の全要素の総和を返す
+return sum ( <name1> )	<name1> の全要素の総和を返す
+def euler002_n_fibnocci_sequence ( <name5> ) :	<name5> を引数とする関数  euler002_n_fibonacci_sequence の定義
+def euler002_n_fibnocci_sequence ( <name1> ) :	<name1> を引数とする関数  euler002_n_fibonacci_sequence の定義
+<name6> = [ <val5> , <val4> ]	<name6> に  <val5> と  <val4> からなるリストを代入
+<name1> = [ <val2> , <val3> ]	<name1> に  <val2> と  <val3> からなるリストを代入
+<name2> = <name3> - <val1>	<name2> に  <name3> から  <val1> を引いた数を代入
+<name1> = <name2> - <val3>	<name1> に  <name2> から  <val3> を引いた数を代入
+if <name3> == <val1> :	もし  <name3> が  <val1> であれば
+if <name1> == <val2> :	もし  <name1> が  <val2> であれば
+return [ <val1> ]	<val1> のみからなるリストを返す
+else :	そうでなければ
+while <name4> >   <val2> :	<name4> が  <val2> より大きい間
+while <name1> >   <val2> :	<name1> が  <val2> より大きい間
+<name1> . append ( <name1> [ -1 ] + <name1> [ -2 ] )	<name1> の末尾要素とその次の要素を足して  <name1> の末尾に追加
+<name2> -= <val1>	<name2> から  <val1> を引く
+<name1> -= <val2>	<name1> から  <val2> を引く
+return <name6>	<name6> を返す
+return <name1>	<name1> を返す
+def euler002_n_fibnocci_number ( <name1> ) :	<name1> を引数とする関数  euler002_n_fibonacci_number の定義
+<name2> = [ <val5> , <val4> ]	<name2> に  <val5> と  <val4> からなるリストを代入
+<name1> = [ <val2> , <val3> ]	<name1> に  <val2> と  <val3> からなるリストを代入
+if <val3> <   <name4> <= <val2> :	もし  <name4> が  <val3> より大きく、かつ  <val2> 以下であるなら
+if <val1> <   <name2> <= <val3> :	もし  <name2> が  <val1> より大きく、かつ  <val3> 以下であるなら
+return <name2> [ <name5> - 1 ]	<name2> の  <name5> -1 番目の要素を返す
+return <name1> [ <name2> - 1 ]	<name1> の  <name2> -1 番目の要素を返す
+else :	そうでなければ
+<name5> = <name1> - <val6>	<name5> に  <name1> から  <val6> を引いた数を代入
+<name1> = <name2> - <val3>	<name1> に  <name2> から  <val3> を引いた数を代入
+while <name2> >   <val1> :	<name2> が  <val1> より大きい間
+while <name1> >   <val2> :	<name1> が  <val2> より大きい間
+<name6> . append ( <name6> [ -1 ] + <name6> [ -2 ] )	<name6> の末尾要素とその次の要素を足して  <name6> の末尾に追加
+<name1> . append ( <name1> [ -1 ] + <name1> [ -2 ] )	<name1> の末尾要素とその次の要素を足して  <name1> の末尾に追加
+<name6> -= <val1>	<name6> から  <val1> を引く
+<name1> -= <val2>	<name1> から  <val2> を引く
+return <name2> [ -1 ]	<name2> の末尾要素を返す
+return <name1> [ -1 ]	<name1> の末尾要素を返す
+def <name6> ( ) :	関数  <name6> の定義
+def <name1> ( ) :	関数  <name1> の定義
+<name2> = <val6>	<name2> に  <val6> を代入
+<name1> = <val2>	<name1> に  <val2> を代入
+<name3> = <val4>	<name3> に  <val4> を代入
+<name1> = <val2>	<name1> に  <val2> を代入
+while <name1> * <name1> <   <name4> :	<name1> の自乗が  <name4> 未満の間
+while <name1> * <name1> <   <name2> :	<name1> の自乗が  <name2> 未満の間
+while <name2> % <name1> == 0 :	<name2> が  <name1> で割り切れる間
+while <name1> % <name2> == 0 :	<name1> が  <name2> で割り切れる間
+<name3> = <name3> / <name4>	<name3> を  <name4> で割る
+<name1> = <name1> / <name2>	<name1> を  <name2> で割る
+<name5> = <name5> + <val6>	<name5> に  <val6> を足す
+<name1> = <name1> + <val2>	<name1> に  <val2> を足す
+return int ( <name1> )	<name1> を整数にした結果を返す
+def <name2> ( <name4> , <name5> ) :	<name4> と  <name5> を引数とする関数  <name2> の定義
+def <name1> ( <name2> , <name3> ) :	<name2> と  <name3> を引数とする関数  <name1> の定義
+return <name6> * <name6> <   <name5>	<name6> の自乗が  <name5> より小さければ  True 、そうでなければ  False を返す
+return <name1> * <name1> <   <name2>	<name1> の自乗が  <name2> より小さければ  True 、そうでなければ  False を返す
+def <name5> ( <name4> , <name3> ) :	<name4> と  <name3> を引数とする関数  <name5> の定義
+def <name1> ( <name2> , <name3> ) :	<name2> と  <name3> を引数とする関数  <name1> の定義
+while <name5> % <name4> == 0 :	<name5> が  <name4> で割り切れる間
+while <name1> % <name2> == 0 :	<name1> が  <name2> で割り切れる間
+<name4> /= <name2>	<name4> を  <name2> で割る
+<name1> /= <name2>	<name1> を  <name2> で割る
+return int ( <name1> )	<name1> を整数にした結果を返す
+def <name5> ( ) :	関数  <name5> の定義
+def <name1> ( ) :	関数  <name1> の定義
+<name5> = <val4>	<name5> に  <val4> を代入
+<name1> = <val2>	<name1> に  <val2> を代入
+for <name2> in range ( <val6> , <val3> , -1 ) :	<val3> より大きく  <val6> 以下の整数を大きい方から順に  <name2> として
+for <name1> in range ( <val2> , <val3> , -1 ) :	<val3> より大きく  <val2> 以下の整数を大きい方から順に  <name1> として
+for <name4> in range ( <val1> , <val6> , -1 ) :	<val6> より大きく  <val1> 以下の整数を大きい方から順に  <name4> として
+for <name1> in range ( <val2> , <val3> , -1 ) :	<val3> より大きく  <val2> 以下の整数を大きい方から順に  <name1> として
+<name2> = ( str ) ( <name4> * <name6> )	<name2> に  <name4> と  <name6> の積の文字列表現を代入
+<name1> = ( str ) ( <name2> * <name3> )	<name1> に  <name2> と  <name3> の積の文字列表現を代入
+<name4> = ''	<name4> に空文字列を代入
+<name1> = ''	<name1> に空文字列を代入
+<name5> = ''	<name5> に空文字列を代入
+<name1> = ''	<name1> に空文字列を代入
+<name2> = ( int ) ( len ( <name3> ) / <val1> ) + ( len ( <name3> ) % <val1> )	<name2> に  <name3> の長さを  <val1> で割った商と  <name3> を  <val1> で割った余りの和を代入
+<name1> = ( int ) ( len ( <name2> ) / <val3> ) + ( len ( <name2> ) % <val3> )	<name1> に  <name2> の長さを  <val3> で割った商と  <name2> を  <val3> で割った余りの和を代入
+for <name1> in range ( <name6> ) :	<name6> 未満の非負整数を順に  <name1> として
+for <name1> in range ( <name2> ) :	<name2> 未満の非負整数を順に  <name1> として
+<name2> += <name4> [ <name6> ]	<name2> に  <name4> の  <name6> 番目の要素を足す
+<name1> += <name2> [ <name3> ]	<name1> に  <name2> の  <name3> 番目の要素を足す
+<name3> += <name2> [ len ( <name2> ) - <name1> - 1 ]	<name3> に  <name2> の後ろから  <name1> 番目の要素を足す
+<name1> += <name2> [ len ( <name2> ) - <name3> - 1 ]	<name1> に  <name2> の後ろから  <name3> 番目の要素を足す
+if <name4> == <name3> :	もし  <name4> と  <name3> が等しければ
+if <name1> == <name2> :	もし  <name1> と  <name2> が等しければ
+<name4> = max ( <name4> , <name2> * <name1> )	<name4> と、  <name2> と  <name1> の積の大きい方を新しい  <name4> とする
+<name1> = max ( <name1> , <name2> * <name3> )	<name1> と、  <name2> と  <name3> の積の大きい方を新しい  <name1> とする
+return <name2>	<name2> を返す
+return <name1>	<name1> を返す
+def <name5> ( <name3> , <name1> ) :	<name3> と  <name1> を引数とする関数  <name5> の定義
+def <name1> ( <name2> , <name3> ) :	<name2> と  <name3> を引数とする関数  <name1> の定義
+<name2> = ''	<name2> に空文字列を代入
+<name1> = ''	<name1> に空文字列を代入
+for <name3> in range ( <name4> ) :	<name4> 未満の非負整数を順に  <name3> として
+for <name1> in range ( <name2> ) :	<name2> 未満の非負整数を順に  <name1> として
+<name4> += <name3> [ <name2> ]	<name4> に  <name3> の  <name2> 番目の要素を足す
+<name1> += <name2> [ <name3> ]	<name1> に  <name2> の  <name3> 番目の要素を足す
+return <name2>	<name2> を返す
+return <name1>	<name1> を返す
+def <name4> ( <name1> , <name6> ) :	<name1> と  <name6> を引数とする関数  <name4> の定義
+def <name1> ( <name2> , <name3> ) :	<name2> と  <name3> を引数とする関数  <name1> の定義
+<name6> = ''	<name6> に空文字列を代入
+<name1> = ''	<name1> に空文字列を代入
+for <name2> in range ( <name1> ) :	<name1> 未満の非負整数を順に  <name2> として
+for <name1> in range ( <name2> ) :	<name2> 未満の非負整数を順に  <name1> として
+<name4> += <name6> [ len ( <name6> ) - 1 - <name3> ]	<name4> に  <name6> の後ろから  <name3> 番目の要素を足す
+<name1> += <name2> [ len ( <name2> ) - 1 - <name3> ]	<name1> に  <name2> の後ろから  <name3> 番目の要素を足す
+return <name5>	<name5> を返す
+return <name1>	<name1> を返す
+def <name3> ( <name1> , <name6> ) :	<name1> と  <name6> を引数とする関数  <name3> の定義
+def <name1> ( <name2> , <name3> ) :	<name2> と  <name3> を引数とする関数  <name1> の定義
+return <name5> == <name4>	<name5> と  <name4> が等しければ  True 、そうでなければ  False を返す
+return <name1> == <name2>	<name1> と  <name2> が等しければ  True 、そうでなければ  False を返す
+def <name4> ( <name2> ) :	<name2> を引数とする関数  <name4> の定義
+def <name1> ( <name2> ) :	<name2> を引数とする関数  <name1> の定義
+<name6> = ( str ) ( <name2> )	<name6> に  <name2> の文字列表現を代入
+<name1> = ( str ) ( <name2> )	<name1> に  <name2> の文字列表現を代入
+<name4> = len ( <name3> )	<name4> に  <name3> の長さを代入
+<name1> = len ( <name2> )	<name1> に  <name2> の長さを代入
+return ( int ) ( <name1> / <val5> ) + ( <name1> % <val5> )	<name1> を  <val5> で割った商と  s を  <val5> で割った余りの和を返す
+return ( int ) ( <name1> / <val2> ) + ( <name1> % <val2> )	<name1> を  <val2> で割った商と  s を  <val2> で割った余りの和を返す
+def <name2> ( <name4> , <name1> ) :	<name4> と  <name1> を引数とする関数  <name2> を定義
+def <name1> ( <name2> , <name3> ) :	<name2> と  <name3> を引数とする関数  <name1> を定義
+return <name1> * <name3>	<name1> と  <name3> の積を返す
+return <name1> * <name2>	<name1> と  <name2> の積を返す
+def <name1> ( <name3> , <name2> ) :	<name3> と  <name2> を引数とする関数  <name1> の定義
+def <name1> ( <name2> , <name3> ) :	<name2> と  <name3> を引数とする関数  <name1> の定義
+<name2> = <val5>	<name2> に  <val5> を代入
+<name1> = <val2>	<name1> に  <val2> を代入
+for i in range ( <name1> ) :	以下の処理を  <name1> 回繰り返す
+<name2> += <name1>	<name2> に  <name1> を足す
+<name1> += <name2>	<name1> に  <name2> を足す
+return <name5>	<name5> を返す
+return <name1>	<name1> を返す
+def <name1> ( <name4> ) :	<name4> を引数とする関数  <name1> の定義
+def <name1> ( <name2> ) :	<name2> を引数とする関数  <name1> の定義
+<name5> = ''	<name5> に空文字列を代入
+<name1> = ''	<name1> に空文字列を代入
+for <name6> in reversed ( <name3> ) :	<name3> の各要素を後ろから順に  <name6> として
+for <name1> in reversed ( <name2> ) :	<name2> の各要素を後ろから順に  <name1> として
+<name2> += <name6>	<name2> に  <name6> を足す
+<name1> += <name2>	<name1> に  <name2> を足す
+return <name6>	<name6> を返す
+return <name1>	<name1> を返す
+def <name2> ( <name5> ) :	<name5> を引数とする関数  <name2> の定義
+def <name1> ( <name2> ) :	<name2> を引数とする関数  <name1> の定義
+<name5> = ''	<name5> に空文字列を代入
+<name1> = ''	<name1> に空文字列を代入
+for <name6> in reversed ( <name5> ) :	<name5> の各要素を後ろから順に  <name6> として
+for <name1> in reversed ( <name2> ) :	<name2> の各要素を後ろから順に  <name1> として
+<name6> += <name5>	<name6> に  <name5> を足す
+<name1> += <name2>	<name1> に  <name2> を足す
+return <name6> == <name5>	<name6> と  <name5> が等しければ  True 、そうでなければ  False を返す
+return <name1> == <name2>	<name1> と  <name2> が等しければ  True 、そうでなければ  False を返す
+def <name4> ( ) :	関数  <name4> の定義
+def <name1> ( ) :	関数  <name1> の定義
+<name2> = [ ]	<name2> に空のリストを代入
+<name1> = [ ]	<name1> に空のリストを代入
+for <name6> in range ( <val4> , <val1> ) :	<val4> から  <val1> 未満の整数を順に  <name6> として
+for <name1> in range ( <val2> , <val3> ) :	<val2> から  <val3> 未満の整数を順に  <name1> として
+<name6> = [ ]	<name6> に空リストを代入
+<name1> = [ ]	<name1> に空リストを代入
+for <name2> in <name3> :	<name3> の各要素を  <name2> として
+for <name1> in <name2> :	<name2> の各要素を  <name1> として
+if <name3> % <name5> == 0 :	もし  <name3> が  <name5> で割り切れるなら
+if <name1> % <name2> == 0 :	もし  <name1> が  <name2> で割り切れるなら
+<name2> . append ( <name1> )	<name2> に  <name1> を追加する
+<name1> . append ( <name2> )	<name1> に  <name2> を追加する
+if len ( <name2> ) == <val3> :	もし  <name2> の長さが  <val3> であれば
+if len ( <name1> ) == <val2> :	もし  <name1> の長さが  <val2> であれば
+<name1> . append ( <name3> )	<name1> に  <name3> を追加する
+<name1> . append ( <name2> )	<name1> に  <name2> を追加する
+<name1> = <val4>	<name1> に  <val4> を代入
+<name1> = <val2>	<name1> に  <val2> を代入
+for <name2> in <name3> :	<name3> の各要素を  <name2> として
+for <name1> in <name2> :	<name2> の各要素を  <name1> として
+for <name3> in range ( int ( <val1> ** ( <val2> / <name6> ) ) ) :	<val1> の  <val2> / <name6> 乗未満の非負整数を順に  <name3> として
+for <name1> in range ( int ( <val2> ** ( <val3> / <name4> ) ) ) :	<val2> の  <val3> / <name4> 乗未満の非負整数を順に  <name1> として
+<name6> = <name6> * <name1>	<name6> に  <name1> を掛ける
+<name1> = <name1> * <name2>	<name1> に  <name2> を掛ける
+return <name2>	<name2> を返す
 return <name1>	<name1> を返す
 def <name6> ( <name3> ) :	<name3> を引数とする関数  <name6> の定義
-return sum ( <name4> )	<name4> の全要素の総和を返す
-def euler002_n_fibnocci_sequence ( <name2> ) :	<name2> を引数とする関数  euler002_n_fibonacci_sequence の定義
-<name1> = [ <val3> , <val6> ]	<name1> に  <val3> と  <val6> からなるリストを代入
-<name6> = <name1> - <val5>	<name6> に  <name1> から  <val5> を引いた数を代入
-if <name6> == <val5> :	もし  <name6> が  <val5> であれば
-return [ <val4> ]	<val4> のみからなるリストを返す
-else :	そうでなければ
-while <name1> >   <val3> :	<name1> が  <val3> より大きい間
-<name1> . append ( <name1> [ -1 ] + <name1> [ -2 ] )	<name1> の末尾要素とその次の要素を足して  <name1> の末尾に追加
-<name1> -= <val6>	<name1> から  <val6> を引く
-return <name6>	<name6> を返す
-def euler002_n_fibnocci_number ( <name4> ) :	<name4> を引数とする関数  euler002_n_fibonacci_number の定義
-<name4> = [ <val3> , <val2> ]	<name4> に  <val3> と  <val2> からなるリストを代入
-if <val4> <   <name2> <= <val1> :	もし  <name2> が  <val4> より大きく、かつ  <val1> 以下であるなら
-return <name5> [ <name4> - 1 ]	<name5> の  <name4> -1 番目の要素を返す
-else :	そうでなければ
-<name1> = <name2> - <val3>	<name1> に  <name2> から  <val3> を引いた数を代入
-while <name2> >   <val5> :	<name2> が  <val5> より大きい間
-<name5> . append ( <name5> [ -1 ] + <name5> [ -2 ] )	<name5> の末尾要素とその次の要素を足して  <name5> の末尾に追加
-<name6> -= <val5>	<name6> から  <val5> を引く
-return <name3> [ -1 ]	<name3> の末尾要素を返す
-def <name6> ( ) :	関数  <name6> の定義
-<name1> = <val5>	<name1> に  <val5> を代入
-<name2> = <val1>	<name2> に  <val1> を代入
-while <name5> * <name5> <   <name3> :	<name5> の自乗が  <name3> 未満の間
-while <name6> % <name3> == 0 :	<name6> が  <name3> で割り切れる間
-<name4> = <name4> / <name2>	<name4> を  <name2> で割る
-<name2> = <name2> + <val5>	<name2> に  <val5> を足す
-return int ( <name1> )	<name1> を整数にした結果を返す
-def <name5> ( <name2> , <name4> ) :	<name2> と  <name4> を引数とする関数  <name5> の定義
-return <name2> * <name2> <   <name4>	<name2> の自乗が  <name4> より小さければ  True 、そうでなければ  False を返す
-def <name5> ( <name6> , <name4> ) :	<name6> と  <name4> を引数とする関数  <name5> の定義
-while <name5> % <name3> == 0 :	<name5> が  <name3> で割り切れる間
-<name2> /= <name5>	<name2> を  <name5> で割る
-return int ( <name1> )	<name1> を整数にした結果を返す
-def <name1> ( ) :	関数  <name1> の定義
-<name1> = <val2>	<name1> に  <val2> を代入
-for <name5> in range ( <val2> , <val6> , -1 ) :	<val6> より大きく  <val2> 以下の整数を大きい方から順に  <name5> として
-for <name4> in range ( <val6> , <val2> , -1 ) :	<val2> より大きく  <val6> 以下の整数を大きい方から順に  <name4> として
-<name2> = ( str ) ( <name6> * <name4> )	<name2> に  <name6> と  <name4> の積の文字列表現を代入
-"<name2> = """""	<name2> に空文字列を代入
-"<name1> = """""	<name1> に空文字列を代入
-<name6> = ( int ) ( len ( <name1> ) / <val3> ) + ( len ( <name1> ) % <val3> )	<name6> に  <name1> の長さを  <val3> で割った商と  <name1> を  <val3> で割った余りの和を代入
-for <name4> in range ( <name5> ) :	<name5> 未満の非負整数を順に  <name4> として
-<name4> += <name5> [ <name1> ]	<name4> に  <name5> の  <name1> 番目の要素を足す
-<name3> += <name2> [ len ( <name2> ) - <name6> - 1 ]	<name3> に  <name2> の後ろから  <name6> 番目の要素を足す
-if <name2> == <name4> :	もし  <name2> と  <name4> が等しければ
-<name2> = max ( <name2> , <name3> * <name1> )	<name2> と、  <name3> と  <name1> の積の大きい方を新しい  <name2> とする
-return <name1>	<name1> を返す
-def <name5> ( <name6> , <name3> ) :	<name6> と  <name3> を引数とする関数  <name5> の定義
-"<name2> = """""	<name2> に空文字列を代入
-for <name4> in range ( <name6> ) :	<name6> 未満の非負整数を順に  <name4> として
-<name2> += <name6> [ <name1> ]	<name2> に  <name6> の  <name1> 番目の要素を足す
-return <name4>	<name4> を返す
-def <name6> ( <name5> , <name1> ) :	<name5> と  <name1> を引数とする関数  <name6> の定義
-"<name3> = """""	<name3> に空文字列を代入
-for <name4> in range ( <name6> ) :	<name6> 未満の非負整数を順に  <name4> として
-<name1> += <name6> [ len ( <name6> ) - 1 - <name4> ]	<name1> に  <name6> の後ろから  <name4> 番目の要素を足す
-return <name6>	<name6> を返す
-def <name2> ( <name3> , <name6> ) :	<name3> と  <name6> を引数とする関数  <name2> の定義
-return <name4> == <name2>	<name4> と  <name2> が等しければ  True 、そうでなければ  False を返す
-def <name4> ( <name2> ) :	<name2> を引数とする関数  <name4> の定義
-<name5> = ( str ) ( <name6> )	<name5> に  <name6> の文字列表現を代入
-<name3> = len ( <name5> )	<name3> に  <name5> の長さを代入
-return ( int ) ( <name4> / <val3> ) + ( <name4> % <val3> )	<name4> を  <val3> で割った商と  s を  <val3> で割った余りの和を返す
-def <name1> ( <name6> , <name4> ) :	<name6> と  <name4> を引数とする関数  <name1> を定義
-return <name4> * <name2>	<name4> と  <name2> の積を返す
-def <name3> ( <name5> , <name6> ) :	<name5> と  <name6> を引数とする関数  <name3> の定義
-<name3> = <val1>	<name3> に  <val1> を代入
-for i in range ( <name2> ) :	以下の処理を  <name2> 回繰り返す
-<name5> += <name4>	<name5> に  <name4> を足す
-return <name5>	<name5> を返す
-def <name3> ( <name1> ) :	<name1> を引数とする関数  <name3> の定義
-"<name6> = """""	<name6> に空文字列を代入
-for <name2> in reversed ( <name5> ) :	<name5> の各要素を後ろから順に  <name2> として
-<name5> += <name1>	<name5> に  <name1> を足す
-return <name6>	<name6> を返す
-def <name6> ( <name1> ) :	<name1> を引数とする関数  <name6> の定義
-"<name6> = """""	<name6> に空文字列を代入
-for <name5> in reversed ( <name1> ) :	<name1> の各要素を後ろから順に  <name5> として
-<name2> += <name1>	<name2> に  <name1> を足す
-return <name6> == <name4>	<name6> と  <name4> が等しければ  True 、そうでなければ  False を返す
-def <name4> ( ) :	関数  <name4> の定義
-<name5> = [ ]	<name5> に空のリストを代入
-for <name5> in range ( <val3> , <val2> ) :	<val3> から  <val2> 未満の整数を順に  <name5> として
+def <name1> ( <name2> ) :	<name2> を引数とする関数  <name1> の定義
 <name1> = [ ]	<name1> に空リストを代入
-for <name4> in <name5> :	<name5> の各要素を  <name4> として
-if <name4> % <name6> == 0 :	もし  <name4> が  <name6> で割り切れるなら
-<name2> . append ( <name6> )	<name2> に  <name6> を追加する
-if len ( <name6> ) == <val1> :	もし  <name6> の長さが  <val1> であれば
-<name6> . append ( <name4> )	<name6> に  <name4> を追加する
-<name4> = <val1>	<name4> に  <val1> を代入
-for <name4> in <name5> :	<name5> の各要素を  <name4> として
-for <name5> in range ( int ( <val3> ** ( <val1> / <name6> ) ) ) :	<val3> の  <val1> / <name6> 乗未満の非負整数を順に  <name5> として
-<name2> = <name2> * <name4>	<name2> に  <name4> を掛ける
-return <name3>	<name3> を返す
-def <name6> ( <name4> ) :	<name4> を引数とする関数  <name6> の定義
-<name2> = [ ]	<name2> に空リストを代入
-for <name6> in range ( <val3> , <name1> + 1 ) :	<val3> から  <name1> までの各整数を順に  <name6> として
-<name4> = <name3>	<name4> に  <name3> を代入
-for <name3> in <name6> :	<name6> 内の各要素を  <name3> として
-if <name3> % <name2> == 0 :	<name3> が  <name2> で割り切れるなら
-<name5> = <name1>	<name5> を  <name1> にする
+for <name2> in range ( <val3> , <name6> + 1 ) :	<val3> から  <name6> までの各整数を順に  <name2> として
+for <name1> in range ( <val2> , <name3> + 1 ) :	<val2> から  <name3> までの各整数を順に  <name1> として
+<name2> = <name5>	<name2> に  <name5> を代入
+<name1> = <name2>	<name1> に  <name2> を代入
+for <name1> in <name4> :	<name4> 内の各要素を  <name1> として
+for <name1> in <name2> :	<name2> 内の各要素を  <name1> として
+if <name4> % <name3> == 0 :	<name4> が  <name3> で割り切れるなら
+if <name1> % <name2> == 0 :	<name1> が  <name2> で割り切れるなら
+<name6> = <name3>	<name6> を  <name3> にする
+<name1> = <name2>	<name1> を  <name2> にする
 break	ループから抜ける
-if <name5> :	<name5> が  True であれば
-<name2> . append ( <name1> )	<name2> に  <name1> を追加する
+if <name3> :	<name3> が  True であれば
+if <name1> :	<name1> が  True であれば
+<name6> . append ( <name1> )	<name6> に  <name1> を追加する
+<name1> . append ( <name2> )	<name1> に  <name2> を追加する
 return <name1>	<name1> を返す
-def <name5> ( <name3> ) :	<name3> を引数とする関数  <name5> の定義
+def <name3> ( <name4> ) :	<name4> を引数とする関数  <name3> の定義
+def <name1> ( <name2> ) :	<name2> を引数とする関数  <name1> の定義
+<name5> = [ ]	<name5> を空リストとする
 <name1> = [ ]	<name1> を空リストとする
-for <name2> in range ( <val1> , <name4> + 1 ) :	<val1> から  <name4> までの各整数を順に  <name2> として
-if <name5> == <val4> :	<name5> が  <val4> であれば
-<name3> . append ( <name6> )	<name3> に  <name6> を追加する
+for <name4> in range ( <val3> , <name2> + 1 ) :	<val3> から  <name2> までの各整数を順に  <name4> として
+for <name1> in range ( <val2> , <name3> + 1 ) :	<val2> から  <name3> までの各整数を順に  <name1> として
+if <name6> == <val2> :	<name6> が  <val2> であれば
+if <name1> == <val2> :	<name1> が  <val2> であれば
+<name6> . append ( <name2> )	<name6> に  <name2> を追加する
+<name1> . append ( <name2> )	<name1> に  <name2> を追加する
 else :	そうでなければ
-for <name4> in range ( <val2> , int ( <name6> ** 0.5 ) + 1 ) :	<val2> から  <name6> の平方根までの整数を  <name4> として
-if <name5> % <name3> == 0 :	<name5> が  <name3> で割り切れるなら
+for <name3> in range ( <val1> , int ( <name6> ** 0.5 ) + 1 ) :	<val1> から  <name6> の平方根までの整数を  <name3> として
+for <name1> in range ( <val2> , int ( <name3> ** 0.5 ) + 1 ) :	<val2> から  <name3> の平方根までの整数を  <name1> として
+if <name1> % <name2> == 0 :	<name1> が  <name2> で割り切れるなら
 break	ループを抜ける
 else :	ループが正常に終了した場合
-<name4> . append ( <name5> )	<name4> に  <name5> を追加する
+<name4> . append ( <name6> )	<name4> に  <name6> を追加する
+<name1> . append ( <name2> )	<name1> に  <name2> を追加する
 return <name3>	<name3> を返す
-def <name1> ( <name6> ) :	<name6> を引数とする関数  <name1> の定義
-<name2> = [ <name4> ] * ( <name3> + <val1> )	<name2> を  <name4> が  <name3> + <val1> 個繋がったリストとする
-<name2> = [ ]	<name2> を空リストとする
-for <name6> in range ( <val1> , int ( <name3> ** 0.5 ) + 1 ) :	<val1> から  <name3> の平方根までの整数を  <name6> として
-if <name5> [ <name1> ] :	もし  <name5> の  <name1> 番目が  True であれば
-for <name6> in range ( <name1> + <name1> , <name5> + 1 , <name1> ) :	<name1> の自乗から  <name5> までの  <name1> 個飛ばしの整数を  <name6> として
-<name6> [ <name1> ] = <name2>	<name6> の  <name1> 番目を  <name2> にする
-for <name5> in range ( <val3> , <name1> + <val6> ) :	<val3> から  <name1> + <val6> までの整数を順に  <name5> として
-if <name4> [ <name3> ] :	もし  <name4> の  <name3> 番目が  True であれば
-<name5> . append ( <name4> )	<name5> に  <name4> を追加する
 return <name1>	<name1> を返す
-def <name2> ( <name4> , <name3> ) :	<name4> と  <name3> を引数とする関数  <name2> の定義
+def <name4> ( <name1> ) :	<name1> を引数とする関数  <name4> の定義
+def <name1> ( <name2> ) :	<name2> を引数とする関数  <name1> の定義
+<name1> = [ <name6> ] * ( <name3> + <val5> )	<name1> を  <name6> が  <name3> + <val5> 個繋がったリストとする
+<name1> = [ <name2> ] * ( <name3> + <val4> )	<name1> を  <name2> が  <name3> + <val4> 個繋がったリストとする
+<name6> = [ ]	<name6> を空リストとする
+<name1> = [ ]	<name1> を空リストとする
+for <name4> in range ( <val3> , int ( <name2> ** 0.5 ) + 1 ) :	<val3> から  <name2> の平方根までの整数を  <name4> として
+for <name1> in range ( <val2> , int ( <name3> ** 0.5 ) + 1 ) :	<val2> から  <name3> の平方根までの整数を  <name1> として
+if <name3> [ <name5> ] :	もし  <name3> の  <name5> 番目が  True であれば
+if <name1> [ <name2> ] :	もし  <name1> の  <name2> 番目が  True であれば
+for <name1> in range ( <name5> + <name5> , <name6> + 1 , <name5> ) :	<name5> の自乗から  <name6> までの  <name5> 個飛ばしの整数を  <name1> として
+for <name1> in range ( <name2> + <name2> , <name3> + 1 , <name2> ) :	<name2> の自乗から  <name3> までの  <name2> 個飛ばしの整数を  <name1> として
+<name2> [ <name1> ] = <name6>	<name2> の  <name1> 番目を  <name6> にする
+<name1> [ <name2> ] = <name3>	<name1> の  <name2> 番目を  <name3> にする
+for <name3> in range ( <val4> , <name1> + <val2> ) :	<val4> から  <name1> + <val2> までの整数を順に  <name3> として
+for <name1> in range ( <val2> , <name3> + <val4> ) :	<val2> から  <name3> + <val4> までの整数を順に  <name1> として
+if <name1> [ <name5> ] :	もし  <name1> の  <name5> 番目が  True であれば
+if <name1> [ <name2> ] :	もし  <name1> の  <name2> 番目が  True であれば
+<name5> . append ( <name4> )	<name5> に  <name4> を追加する
+<name1> . append ( <name2> )	<name1> に  <name2> を追加する
+return <name3>	<name3> を返す
+return <name1>	<name1> を返す
+def <name4> ( <name5> , <name6> ) :	<name5> と  <name6> を引数とする関数  <name4> の定義
+def <name1> ( <name2> , <name3> ) :	<name2> と  <name3> を引数とする関数  <name1> の定義
+<name4> = <val1>	<name4> に  <val1> を代入
+<name1> = <val2>	<name1> に  <val2> を代入
+while <name2> <   <name1> :	<name2> が  <name1> より小さい間
+while <name1> <   <name2> :	<name1> が  <name2> より小さい間
+<name3> *= <name5>	<name3> に  <name5> を掛ける
+<name1> *= <name2>	<name1> に  <name2> を掛ける
+return int ( <name1> / <name2> )	<name1> 割る  <name2> の整数部分を返す
+def <name2> ( <name5> , <name3> ) :	<name5> と  <name3> を引数とする関数  <name2> の定義
+def <name1> ( <name2> , <name3> ) :	<name2> と  <name3> を引数とする関数  <name1> の定義
+return <name6> ** int ( <name4> ** ( 1 / <name6> ) )	<name6> の  ( <name4> の  <name6> 乗根の整数部分  ) 乗を返す
+return <name1> ** int ( <name2> ** ( 1 / <name1> ) )	<name1> の  ( <name2> の  <name1> 乗根の整数部分  ) 乗を返す
+def <name1> ( ) :	関数  <name1> の定義
+<name3> = <val6>	<name3> に  <val6> を代入
+<name1> = <val2>	<name1> に  <val2> を代入
+for <name4> in range ( <val2> ) :	<val2> 未満の非負整数を小さい方から順に  <name4> として
+for <name1> in range ( <val2> ) :	<val2> 未満の非負整数を小さい方から順に  <name1> として
+<name4> += ( <name5> + <val2> ) * ( <name5> + <val2> )	<name4> に  <name5> + <val2> の自乗を足す
+<name1> += ( <name2> + <val3> ) * ( <name2> + <val3> )	<name1> に  <name2> + <val3> の自乗を足す
+<name5> = <val4> * <val3>	<name5> に  <val4> と  <val3> の積を代入
+<name1> = <val2> * <val3>	<name1> に  <val2> と  <val3> の積を代入
+return <name3> - <name6>	<name3> と  <name6> の差を返す
+return <name1> - <name2>	<name1> と  <name2> の差を返す
+def <name6> ( <name5> , <name2> , <name1> ) :	<name5> と  <name2> と  <name1> を引数とする関数  <name6> の定義
+def <name1> ( <name2> , <name3> , <name4> ) :	<name2> と  <name3> と  <name4> を引数とする関数  <name1> の定義
+<name5> = [ <name2> ]	<name5> に  <name2> のみからなるリストを代入
+<name1> = [ <name2> ]	<name1> に  <name2> のみからなるリストを代入
+for i in range ( <name5> - 1 ) :	以下の処理を  <name5> -1 回繰り返す
+for i in range ( <name1> - 1 ) :	以下の処理を  <name1> -1 回繰り返す
+<name6> . append ( <name6> [ -1 ] + <name5> )	<name6> の末尾要素に  <name5> を加えたものを  <name6> の末尾に追加する
+<name1> . append ( <name1> [ -1 ] + <name2> )	<name1> の末尾要素に  <name2> を加えたものを  <name1> の末尾に追加する
+return <name2>	<name2> を返す
+return <name1>	<name1> を返す
+def euler006_make_common_diff_sequence_a ( <name4> , <name1> , <name3> ) :	<name4> と  <name1> と  <name3> を引数とする関数  euler006_make_common_dif_sequence_a の定義
+def euler006_make_common_diff_sequence_a ( <name1> , <name2> , <name3> ) :	<name1> と  <name2> と  <name3> を引数とする関数  euler006_make_common_dif_sequence_a の定義
+<name2> = [ ]	<name2> を空リストとする
+<name1> = [ ]	<name1> を空リストとする
+for <name5> in range ( <name6> , <name6> + ( <name4> * <name2> ) , <name4> ) :	<name6> から  <name4> 個飛ばしで  <name2> 個の整数を  <name5> として
+for <name1> in range ( <name2> , <name2> + ( <name3> * <name4> ) , <name3> ) :	<name2> から  <name3> 個飛ばしで  <name4> 個の整数を  <name1> として
+<name5> . append ( <name6> )	<name5> に  <name6> を追加
+<name1> . append ( <name2> )	<name1> に  <name2> を追加
+return <name1>	<name1> を返す
+def euler006_n_square ( <name2> ) :	<name2> を引数とする関数  euler006_n_sequence の定義
+def euler006_n_square ( <name1> ) :	<name1> を引数とする関数  euler006_n_sequence の定義
+return <name2> * <name2>	<name2> の自乗を返す
+return <name1> * <name1>	<name1> の自乗を返す
+def <name6> ( <name2> ) :	<name2> を引数とする関数  <name6> の定義
+def <name1> ( <name2> ) :	<name2> を引数とする関数  <name1> の定義
+<name3> = <val2>	<name3> に  <val2> を代入
+<name1> = <val2>	<name1> に  <val2> を代入
+for i in range ( <name3> ) :	以下の処理を  <name3> 回繰り返す
+for i in range ( <name1> ) :	以下の処理を  <name1> 回繰り返す
+<name1> += <name6>	<name1> に  <name6> を足す
+<name1> += <name2>	<name1> に  <name2> を足す
+return <name2>	<name2> を返す
+return <name1>	<name1> を返す
+def <name6> ( <name3> , <name2> ) :	<name3> と  <name2> を引数とする関数  <name6> の定義
+def <name1> ( <name2> , <name3> ) :	<name2> と  <name3> を引数とする関数  <name1> の定義
 <name1> = <val2>	<name1> に  <val2> を代入
 while <name4> <   <name1> :	<name4> が  <name1> より小さい間
-<name4> *= <name5>	<name4> に  <name5> を掛ける
-return int ( <name6> / <name2> )	<name6> 割る  <name2> の整数部分を返す
-def <name3> ( <name5> , <name6> ) :	<name5> と  <name6> を引数とする関数  <name3> の定義
-return <name5> ** int ( <name6> ** ( 1 / <name5> ) )	<name5> の  ( <name6> の  <name5> 乗根の整数部分  ) 乗を返す
-def <name2> ( ) :	関数  <name2> の定義
-<name4> = <val2>	<name4> に  <val2> を代入
-for <name3> in range ( <val6> ) :	<val6> 未満の非負整数を小さい方から順に  <name3> として
-<name5> += ( <name3> + <val4> ) * ( <name3> + <val4> )	<name5> に  <name3> + <val4> の自乗を足す
-<name3> = <val5> * <val4>	<name3> に  <val5> と  <val4> の積を代入
-return <name4> - <name3>	<name4> と  <name3> の差を返す
-def <name3> ( <name4> , <name6> , <name1> ) :	<name4> と  <name6> と  <name1> を引数とする関数  <name3> の定義
-<name5> = [ <name4> ]	<name5> に  <name4> のみからなるリストを代入
-for i in range ( <name5> - 1 ) :	以下の処理を  <name5> -1 回繰り返す
-<name2> . append ( <name2> [ -1 ] + <name4> )	<name2> の末尾要素に  <name4> を加えたものを  <name2> の末尾に追加する
-return <name6>	<name6> を返す
-def euler006_make_common_diff_sequence_a ( <name2> , <name4> , <name6> ) :	<name2> と  <name4> と  <name6> を引数とする関数  euler006_make_common_dif_sequence_a の定義
-<name2> = [ ]	<name2> を空リストとする
-for <name6> in range ( <name3> , <name3> + ( <name2> * <name1> ) , <name2> ) :	<name3> から  <name2> 個飛ばしで  <name1> 個の整数を  <name6> として
-<name4> . append ( <name5> )	<name4> に  <name5> を追加
-return <name2>	<name2> を返す
-def euler006_n_square ( <name4> ) :	<name4> を引数とする関数  euler006_n_sequence の定義
-return <name5> * <name5>	<name5> の自乗を返す
-def <name4> ( <name5> ) :	<name5> を引数とする関数  <name4> の定義
-<name3> = <val2>	<name3> に  <val2> を代入
-for i in range ( <name3> ) :	以下の処理を  <name3> 回繰り返す
-<name2> += <name5>	<name2> に  <name5> を足す
-return <name6>	<name6> を返す
-def <name4> ( <name1> , <name5> ) :	<name1> と  <name5> を引数とする関数  <name4> の定義
-<name1> = <val4>	<name1> に  <val4> を代入
-while <name5> <   <name1> :	<name5> が  <name1> より小さい間
-<name2> += <name1>	<name2> に  <name1> を足す
-<name6> += <val5>	<name6> に  <val5> を足す
+while <name1> <   <name2> :	<name1> が  <name2> より小さい間
+<name2> += <name6>	<name2> に  <name6> を足す
+<name1> += <name2>	<name1> に  <name2> を足す
+<name2> += <val5>	<name2> に  <val5> を足す
+<name1> += <val2>	<name1> に  <val2> を足す
 return <name5>	<name5> を返す
-def <name6> ( <name3> , <name5> ) :	<name3> と  <name5> を引数とする関数  <name6> の定義
-return sum ( range ( <name5> , <name4> ) )	<name5> 以上  <name4> 未満の整数の総和を返す
-def <name3> ( ) :	関数  <name3> の定義
-<name3> = <val6>	<name3> を  <val6> とする
-<name2> = <val3>	<name2> を  <val3> とする
-<name4> = [ ]	<name4> を空のリストとする
-while <name2> <   <val3> :	<name2> が  <val3> 未満である間
-<name4> += <val5>	<name4> に  <val5> を足す
-<name1> = [ <name2> for <name2> in range ( <val3> , int ( math . sqrt ( <name6> ) ) + 1 ) if <name6> % <name2> == 0 ]	<val3> から  <name6> の平方根までの整数  <name2> のうち、  <name6> を割り切ることができるもののリストを  <name1> に代入
-if len ( <name2> ) == 0 :	もし  <name2> が空なら
-<name3> += <val1>	<name3> に  <val1> を足す
-return <name4>	<name4> を返す
-def euler007_n_division ( <name1> , <name2> ) :	<name1> と  <name2> を引数とする関数  euler007_n_difision の定義
-return <name5> % <name2> == 0	<name5> が  <name2> で割り切れるなら  True 、そうでないなら  False を返す
-def <name3> ( <name6> , <name5> ) :	<name6> と  <name5> を引数とする関数  <name3> の定義
-while <name2> >   <val6> :	<name2> が  <val6> より大きい間
-<name3> -= <name6>	<name3> から  <name6> を引く
-return <name5> == <val6>	<name5> が  <val6> であれば  True 、そうでなければ  False を返す
-def <name1> ( <name5> ) :	<name5> を引数とする関数  <name1> の定義
-<name4> = [ ]	<name4> を空リストとする
-for <name5> in range ( <val1> , <name4> ) :	<val1> 以上  <name4> 未満の整数を順に  <name5> として
-if <name5> % <name4> == 0 :	<name5> が  <name4> で割り切れるなら
-<name6> . append ( <name4> )	<name6> に  <name4> を追加
-return len ( <name6> ) == 0	<name6> が空であれば  True 、そうでなければ  False を返す
-def <name5> ( <name6> ) :	<name6> を引数とする関数  <name5> の定義
-if <name4> <   <val1> :	もし  <name4> が  <val1> 未満であれば
 return <name1>	<name1> を返す
-elif <name4> == <val1> :	そうでなく、もし  <name4> が  <val1> であれば
+def <name6> ( <name5> , <name1> ) :	<name5> と  <name1> を引数とする関数  <name6> の定義
+def <name1> ( <name2> , <name3> ) :	<name2> と  <name3> を引数とする関数  <name1> の定義
+return sum ( range ( <name1> , <name5> ) )	<name1> 以上  <name5> 未満の整数の総和を返す
+return sum ( range ( <name1> , <name2> ) )	<name1> 以上  <name2> 未満の整数の総和を返す
+def <name6> ( ) :	関数  <name6> の定義
+def <name1> ( ) :	関数  <name1> の定義
+<name3> = <val1>	<name3> を  <val1> とする
+<name1> = <val2>	<name1> を  <val2> とする
+<name3> = <val4>	<name3> を  <val4> とする
+<name1> = <val2>	<name1> を  <val2> とする
+<name2> = [ ]	<name2> を空のリストとする
+<name1> = [ ]	<name1> を空のリストとする
+while <name5> <   <val4> :	<name5> が  <val4> 未満である間
+while <name1> <   <val2> :	<name1> が  <val2> 未満である間
+<name4> += <val3>	<name4> に  <val3> を足す
+<name1> += <val2>	<name1> に  <val2> を足す
+<name5> = [ <name3> for <name3> in range ( <val4> , int ( math . sqrt ( <name6> ) ) + 1 ) if <name6> % <name3> == 0 ]	<val4> から  <name6> の平方根までの整数  <name3> のうち、  <name6> を割り切ることができるもののリストを  <name5> に代入
+<name1> = [ <name2> for <name2> in range ( <val3> , int ( math . sqrt ( <name4> ) ) + 1 ) if <name4> % <name2> == 0 ]	<val3> から  <name4> の平方根までの整数  <name2> のうち、  <name4> を割り切ることができるもののリストを  <name1> に代入
+if len ( <name1> ) == 0 :	もし  <name1> が空なら
+<name6> += <val1>	<name6> に  <val1> を足す
+<name1> += <val2>	<name1> に  <val2> を足す
+return <name1>	<name1> を返す
+def euler007_n_division ( <name2> , <name3> ) :	<name2> と  <name3> を引数とする関数  euler007_n_difision の定義
+def euler007_n_division ( <name1> , <name2> ) :	<name1> と  <name2> を引数とする関数  euler007_n_difision の定義
+return <name5> % <name3> == 0	<name5> が  <name3> で割り切れるなら  True 、そうでないなら  False を返す
+return <name1> % <name2> == 0	<name1> が  <name2> で割り切れるなら  True 、そうでないなら  False を返す
+def <name1> ( <name5> , <name6> ) :	<name5> と  <name6> を引数とする関数  <name1> の定義
+def <name1> ( <name2> , <name3> ) :	<name2> と  <name3> を引数とする関数  <name1> の定義
+while <name3> >   <val6> :	<name3> が  <val6> より大きい間
+while <name1> >   <val2> :	<name1> が  <val2> より大きい間
+<name1> -= <name6>	<name1> から  <name6> を引く
+<name1> -= <name2>	<name1> から  <name2> を引く
+return <name1> == <val2>	<name1> が  <val2> であれば  True 、そうでなければ  False を返す
+def <name4> ( <name1> ) :	<name1> を引数とする関数  <name4> の定義
+def <name1> ( <name2> ) :	<name2> を引数とする関数  <name1> の定義
+<name1> = [ ]	<name1> を空リストとする
+for <name1> in range ( <val5> , <name6> ) :	<val5> 以上  <name6> 未満の整数を順に  <name1> として
+for <name1> in range ( <val2> , <name3> ) :	<val2> 以上  <name3> 未満の整数を順に  <name1> として
+if <name3> % <name5> == 0 :	<name3> が  <name5> で割り切れるなら
+if <name1> % <name2> == 0 :	<name1> が  <name2> で割り切れるなら
+<name5> . append ( <name2> )	<name5> に  <name2> を追加
+<name1> . append ( <name2> )	<name1> に  <name2> を追加
+return len ( <name4> ) == 0	<name4> が空であれば  True 、そうでなければ  False を返す
+return len ( <name1> ) == 0	<name1> が空であれば  True 、そうでなければ  False を返す
+def <name4> ( <name3> ) :	<name3> を引数とする関数  <name4> の定義
+def <name1> ( <name2> ) :	<name2> を引数とする関数  <name1> の定義
+if <name5> <   <val2> :	もし  <name5> が  <val2> 未満であれば
+if <name1> <   <val2> :	もし  <name1> が  <val2> 未満であれば
+return <name1>	<name1> を返す
+elif <name3> == <val5> :	そうでなく、もし  <name3> が  <val5> であれば
+elif <name1> == <val2> :	そうでなく、もし  <name1> が  <val2> であれば
+return <name4>	<name4> を返す
 return <name1>	<name1> を返す
 else :	いずれでもなければ
-for <name2> in range ( <val6> , int ( <name5> ** 0.5 ) + 1 ) :	<val6> から  <name5> の平方根までの整数を順に  <name2> として
-if <name1> % <name6> == 0 :	もし  <name1> が  <name6> で割り切れれば
-return <name3>	<name3> を返す
+for <name6> in range ( <val5> , int ( <name2> ** 0.5 ) + 1 ) :	<val5> から  <name2> の平方根までの整数を順に  <name6> として
+for <name1> in range ( <val2> , int ( <name3> ** 0.5 ) + 1 ) :	<val2> から  <name3> の平方根までの整数を順に  <name1> として
+if <name4> % <name3> == 0 :	もし  <name4> が  <name3> で割り切れれば
+if <name1> % <name2> == 0 :	もし  <name1> が  <name2> で割り切れれば
 return <name6>	<name6> を返す
-def <name5> ( <name4> ) :	<name4> を引数とする関数  <name5> の定義
-return <name5> + <val2>	<name5> に  <val2> を足した数を返す
-def <name5> ( <name3> , <name2> ) :	<name3> と  <name2> を引数とする関数  <name5> の定義
-return <name4> <   <name2>	<name4> が  <name2> より小さければ  True 、そうでなければ  False を返す
-def <name2> ( <name3> ) :	<name3> を引数とする関数  <name2> の定義
-return <name3> == <val1>	<name3> が  <val1> であれば  True 、そうでなければ  False を返す
-def <name2> ( ) :	関数  <name2> の定義
-<name6> = [ ]	<name6> を空リストとする
-for <name6> in range ( <val2> ) :	<val2> 未満の非負整数  <name6> について
-<name1> . append ( int ( <name6> [ <name2> ] ) )	<name1> に  <name6> の  <name2> 番目の要素の表す整数を追加
-<name4> = <val2>	<name4> を  <val2> とする
-for <name6> in <name2> :	<name2> 内の各要素を  <name6> として
-<name2> *= <name4>	<name2> に  <name4> を掛ける
-for <name5> in range ( <val4> , len ( <name6> ) ) :	<val4> から  <name6> の要素数未満の整数  <name5> について
-<name2> . append ( int ( <name6> [ <name4> ] ) )	<name2> に  <name6> の  <name4> 番目の要素の表す整数を追加
-<name3> . pop ( 0 )	<name3> の最初の要素を削除する
-<name1> = <val3>	<name1> を  <val3> とする
-for <name1> in <name6> :	<name6> 内の各要素を  <name1> として
-<name5> *= <name2>	<name5> に  <name2> を掛ける
-<name4> = max ( <name4> , <name6> )	<name4> と  <name6> の大きい方を新しい  <name4> とする
-return <name4>	<name4> を返す
-def <name2> ( <name1> ) :	<name1> を引数とする関数  <name2> の定義
-<name4> = <val2>	<name4> を  <val2> とする
-for <name3> in <name1> :	<name1> 内の全ての要素  <name3> について
-<name3> *= <name2>	<name3> に  <name2> を掛ける
 return <name1>	<name1> を返す
-def <name3> ( <name6> , <name4> , <name2> ) :	<name6> と  <name4> と  <name2> を引数とする関数  <name3> の定義
+return <name6>	<name6> を返す
+return <name1>	<name1> を返す
+def <name2> ( <name5> ) :	<name5> を引数とする関数  <name2> の定義
+def <name1> ( <name2> ) :	<name2> を引数とする関数  <name1> の定義
+return <name5> + <val1>	<name5> に  <val1> を足した数を返す
+return <name1> + <val2>	<name1> に  <val2> を足した数を返す
+def <name3> ( <name4> , <name5> ) :	<name4> と  <name5> を引数とする関数  <name3> の定義
+def <name1> ( <name2> , <name3> ) :	<name2> と  <name3> を引数とする関数  <name1> の定義
+return <name4> <   <name2>	<name4> が  <name2> より小さければ  True 、そうでなければ  False を返す
+return <name1> <   <name2>	<name1> が  <name2> より小さければ  True 、そうでなければ  False を返す
+def <name5> ( <name1> ) :	<name1> を引数とする関数  <name5> の定義
+def <name1> ( <name2> ) :	<name2> を引数とする関数  <name1> の定義
+return <name1> == <val4>	<name1> が  <val4> であれば  True 、そうでなければ  False を返す
+return <name1> == <val2>	<name1> が  <val2> であれば  True 、そうでなければ  False を返す
+def <name1> ( ) :	関数  <name1> の定義
+<name4> = [ ]	<name4> を空リストとする
+<name1> = [ ]	<name1> を空リストとする
+for <name5> in range ( <val3> ) :	<val3> 未満の非負整数  <name5> について
+for <name1> in range ( <val2> ) :	<val2> 未満の非負整数  <name1> について
+<name3> . append ( int ( <name4> [ <name5> ] ) )	<name3> に  <name4> の  <name5> 番目の要素の表す整数を追加
+<name1> . append ( int ( <name2> [ <name3> ] ) )	<name1> に  <name2> の  <name3> 番目の要素の表す整数を追加
+<name3> = <val4>	<name3> を  <val4> とする
+<name1> = <val2>	<name1> を  <val2> とする
+for <name1> in <name3> :	<name3> 内の各要素を  <name1> として
+for <name1> in <name2> :	<name2> 内の各要素を  <name1> として
+<name1> *= <name6>	<name1> に  <name6> を掛ける
+<name1> *= <name2>	<name1> に  <name2> を掛ける
+for <name3> in range ( <val1> , len ( <name2> ) ) :	<val1> から  <name2> の要素数未満の整数  <name3> について
+for <name1> in range ( <val2> , len ( <name3> ) ) :	<val2> から  <name3> の要素数未満の整数  <name1> について
+<name2> . append ( int ( <name5> [ <name4> ] ) )	<name2> に  <name5> の  <name4> 番目の要素の表す整数を追加
+<name1> . append ( int ( <name2> [ <name3> ] ) )	<name1> に  <name2> の  <name3> 番目の要素の表す整数を追加
+<name6> . pop ( 0 )	<name6> の最初の要素を削除する
+<name1> . pop ( 0 )	<name1> の最初の要素を削除する
+<name6> = <val4>	<name6> を  <val4> とする
+<name1> = <val2>	<name1> を  <val2> とする
+for <name1> in <name6> :	<name6> 内の各要素を  <name1> として
+for <name1> in <name2> :	<name2> 内の各要素を  <name1> として
+<name5> *= <name4>	<name5> に  <name4> を掛ける
+<name1> *= <name2>	<name1> に  <name2> を掛ける
+<name4> = max ( <name4> , <name1> )	<name4> と  <name1> の大きい方を新しい  <name4> とする
+<name1> = max ( <name1> , <name2> )	<name1> と  <name2> の大きい方を新しい  <name1> とする
+return <name4>	<name4> を返す
+return <name1>	<name1> を返す
+def <name5> ( <name2> ) :	<name2> を引数とする関数  <name5> の定義
+def <name1> ( <name2> ) :	<name2> を引数とする関数  <name1> の定義
+<name6> = <val5>	<name6> を  <val5> とする
+<name1> = <val2>	<name1> を  <val2> とする
+for <name1> in <name5> :	<name5> 内の全ての要素  <name1> について
+for <name1> in <name2> :	<name2> 内の全ての要素  <name1> について
+<name1> *= <name3>	<name1> に  <name3> を掛ける
+<name1> *= <name2>	<name1> に  <name2> を掛ける
+return <name5>	<name5> を返す
+return <name1>	<name1> を返す
+def <name6> ( <name1> , <name2> , <name4> ) :	<name1> と  <name2> と  <name4> を引数とする関数  <name6> の定義
+def <name1> ( <name2> , <name3> , <name4> ) :	<name2> と  <name3> と  <name4> を引数とする関数  <name1> の定義
+<name4> = [ ]	<name4> を空のリストとする
 <name1> = [ ]	<name1> を空のリストとする
 for <name1> in range ( <name3> ) :	<name3> 未満の非負整数  <name1> について
-<name5> . append ( <name6> [ <name1> + <name2> ] )	<name6> の  <name1> + <name2> 番目の要素を  <name5> に追加する
-return <name2>	<name2> を返す
-def <name5> ( <name1> , <name6> ) :	<name1> と  <name6> を引数とする関数  <name5> の定義
-return <name2> if <name4> <   <name2> else <name4>	<name2> が  <name4> より大きければ  <name2> 、そうでなければ  <name4> を返す
-def <name4> ( <name3> , <name1> ) :	<name3> と  <name1> を引数とする関数  <name4> の定義
-return max ( <name6> , <name4> )	<name6> と  <name4> の大きい方を返す
-def <name5> ( <name3> , <name1> ) :	<name3> と  <name1> を引数とする関数  <name5> の定義
-<name6> = [ <name4> ]	<name6> を  <name4> のみからなるリストとする
-<name4> += <name6>	<name4> の末尾に  <name6> を結合する
+for <name1> in range ( <name2> ) :	<name2> 未満の非負整数  <name1> について
+<name3> . append ( <name4> [ <name5> + <name2> ] )	<name4> の  <name5> + <name2> 番目の要素を  <name3> に追加する
+<name1> . append ( <name2> [ <name3> + <name4> ] )	<name2> の  <name3> + <name4> 番目の要素を  <name1> に追加する
+return <name1>	<name1> を返す
+def <name4> ( <name3> , <name5> ) :	<name3> と  <name5> を引数とする関数  <name4> の定義
+def <name1> ( <name2> , <name3> ) :	<name2> と  <name3> を引数とする関数  <name1> の定義
+return <name1> if <name4> <   <name1> else <name4>	<name1> が  <name4> より大きければ  <name1> 、そうでなければ  <name4> を返す
+return <name1> if <name2> <   <name1> else <name2>	<name1> が  <name2> より大きければ  <name1> 、そうでなければ  <name2> を返す
+def <name6> ( <name2> , <name5> ) :	<name2> と  <name5> を引数とする関数  <name6> の定義
+def <name1> ( <name2> , <name3> ) :	<name2> と  <name3> を引数とする関数  <name1> の定義
+return max ( <name1> , <name3> )	<name1> と  <name3> の大きい方を返す
+return max ( <name1> , <name2> )	<name1> と  <name2> の大きい方を返す
+def <name6> ( <name1> , <name4> ) :	<name1> と  <name4> を引数とする関数  <name6> の定義
+def <name1> ( <name2> , <name3> ) :	<name2> と  <name3> を引数とする関数  <name1> の定義
+<name4> = [ <name5> ]	<name4> を  <name5> のみからなるリストとする
+<name1> = [ <name2> ]	<name1> を  <name2> のみからなるリストとする
+<name5> += <name1>	<name5> の末尾に  <name1> を結合する
+<name1> += <name2>	<name1> の末尾に  <name2> を結合する
+return <name1>	<name1> を返す
+def <name3> ( <name1> , <name2> ) :	<name1> と  <name2> を引数とする関数  <name3> の定義
+def <name1> ( <name2> , <name3> ) :	<name2> と  <name3> を引数とする関数  <name1> の定義
+<name5> . append ( <name4> )	<name5> の末尾に  <name4> を追加する
+<name1> . append ( <name2> )	<name1> の末尾に  <name2> を追加する
 return <name3>	<name3> を返す
-def <name1> ( <name6> , <name5> ) :	<name6> と  <name5> を引数とする関数  <name1> の定義
-<name1> . append ( <name3> )	<name1> の末尾に  <name3> を追加する
-return <name2>	<name2> を返す
-def <name6> ( ) :	関数  <name6> の定義
-for <name1> in range ( <val4> , <val5> ) :	<val4> 以上  <val5> 未満の整数  <name1> について
-for <name4> in range ( <name2> , <val3> ) :	<name2> 以上  <val3> 未満の整数  <name4> について
-for <name2> in range ( <name3> , <val6> ) :	<name3> 以上  <val6> 未満の整数  <name2> について
+return <name1>	<name1> を返す
+def <name3> ( ) :	関数  <name3> の定義
+def <name1> ( ) :	関数  <name1> の定義
+for <name1> in range ( <val3> , <val6> ) :	<val3> 以上  <val6> 未満の整数  <name1> について
+for <name1> in range ( <val2> , <val3> ) :	<val2> 以上  <val3> 未満の整数  <name1> について
+for <name2> in range ( <name1> , <val3> ) :	<name1> 以上  <val3> 未満の整数  <name2> について
+for <name1> in range ( <name2> , <val3> ) :	<name2> 以上  <val3> 未満の整数  <name1> について
+for <name4> in range ( <name1> , <val5> ) :	<name1> 以上  <val5> 未満の整数  <name4> について
+for <name1> in range ( <name2> , <val3> ) :	<name2> 以上  <val3> 未満の整数  <name1> について
 <name1> = <name5> * <name5> + <name6> * <name6>	<name1> に  <name5> の自乗と  <name6> の自乗の和を代入
-if <name1> == <name2> * <name2> and <name4> + <name3> + <name2> == <val5> :	もし  <name1> が  <name2> の自乗と等しく、かつ  <name4> と  <name3> と  <name2> の和が  <val5> であれば
-return <name5> * <name2> * <name1>	<name5> と  <name2> と  <name1> の積を返す
-def <name4> ( <name2> , <name3> , <name1> ) :	<name2> と  <name3> と  <name1> を引数とする関数  <name4> の定義
-return <name6> * <name6> + <name2> * <name2> == <name5> * <name5>	<name6> の自乗と  <name2> の自乗が  <name5> の自乗と等しければ  True 、そうでなければ  False を返す
-def <name1> ( <name4> ) :	<name4> を引数とする関数  <name1> の定義
-return <name5> * <name5>	<name5> の自乗を返す
-def <name1> ( <name5> ) :	<name5> を引数とする関数  <name1> の定義
-<name6> = <val1>	<name6> に  <val1> を代入する
-for i in range ( <name2> ) :	以下の処理を  <name2> 回繰り返す
-<name2> += <name1>	<name2> に  <name1> を足す
-return <name6>	<name6> を返す
-def <name3> ( <name4> ) :	<name4> を引数とする関数  <name3> の定義
-<name4> = <val3>	<name4> に  <val3> を代入
-for <name1> in <name2> :	<name2> の各要素を  <name1> として
-<name1> += <name2>	<name1> に  <name2> を足す
-return <name4> == <val2>	<name4> が  <val2> ならば  True 、そうでなければ  False を返す
-def <name4> ( <name2> ) :	<name2> を引数とする関数  <name4> の定義
-return sum ( <name4> ) == <val2>	<name4> の各要素の総和が  <val2> と等しければ  True 、そうでなければ  False を返す
-def <name4> ( <name6> ) :	<name6> を引数とする関数  <name4> の定義
-<name2> = <val6>	<name2> を  <val6> とする
-for <name6> in <name5> :	<name5> 内の全要素  <name6> について
-<name3> *= <name2>	<name2> を  <name3> に掛ける
-return <name6>	<name6> を返す
-def <name4> ( ) :	関数  <name4> の定義
-<name1> = [ <name6> ] * 2000000	<name1> に  <name6> のみからなるリストを代入
-for <name1> in range ( <val5> , int ( <val6> ** <val4> ) + 1 ) :	<name1> を  <val5> から  <val6> の  <val4> 乗までの間で変化させて繰り返し
-if <name1> [ <name3> ] :	もし  <name1> の  <name3> 番目が真であれば
-for <name4> in range ( <val2> * <name3> , len ( <name5> ) , <name3> ) :	<name4> を  <name3> の  <val2> 倍から  <name5> の長さ未満まで  <name3> ごとに変化させて繰り返し
-<name2> [ <name4> ] = <name1>	<name2> の  <name4> 番目に  <name1> を代入
-<name6> = [ ]	<name6> に空のリストを代入
-for <name2> in range ( <val6> , <val3> ) :	<name2> を  <val6> から  <val3> まで変化させて繰り返し
-if <name4> [ <name2> ] :	もし  <name4> の  <name2> 番目が真であれば
-<name6> . append ( <name5> )	<name6> の末尾に  <name5> を追加
-return sum ( <name1> )	<name1> の要素の総和を返す
-def <name6> ( <name1> ) :	引数  <name1> を取る関数  <name6> の定義
-<name4> = [ <name3> ] * <name5>	<name3> が  <name5> 個並んでいるリストを  <name4> に代入
-for <name6> in range ( <val3> , int ( <name1> ** 0.5 ) + 1 ) :	<name6> を  <val3> から  <name1> の平方根の範囲で変化させて繰り返し
-if <name4> [ <name3> ] :	<name4> の  <name3> 番目が真であれば
-for <name2> in range ( <val1> * <name5> , len ( <name6> ) , <name5> ) :	<name2> を  <name5> の  <val1> 倍から  <name6> の長さまで  <name5> 単位で変化させて繰り返し
-<name4> [ <name2> ] = <name6>	<name4> の  <name2> 番目を  <name6> にする
-<name5> = [ ]	<name5> に空のリストを代入
-for <name5> in range ( <val3> , <name2> ) :	<name5> を  <val3> 以上  <name2> 未満の間で増加させながら繰り返し
-if <name4> [ <name5> ] :	もし  <name4> の  <name5> 番目が真であれば
-<name5> . append ( <name3> )	<name5> の末尾に  <name3> を追加
-return <name1>	<name1> を返す
+<name1> = <name2> * <name2> + <name3> * <name3>	<name1> に  <name2> の自乗と  <name3> の自乗の和を代入
+if <name5> == <name4> * <name4> and <name2> + <name6> + <name4> == <val1> :	もし  <name5> が  <name4> の自乗と等しく、かつ  <name2> と  <name6> と  <name4> の和が  <val1> であれば
+if <name1> == <name2> * <name2> and <name3> + <name4> + <name2> == <val5> :	もし  <name1> が  <name2> の自乗と等しく、かつ  <name3> と  <name4> と  <name2> の和が  <val5> であれば
+return <name4> * <name2> * <name5>	<name4> と  <name2> と  <name5> の積を返す
+return <name1> * <name2> * <name3>	<name1> と  <name2> と  <name3> の積を返す
+def <name3> ( <name5> , <name2> , <name1> ) :	<name5> と  <name2> と  <name1> を引数とする関数  <name3> の定義
+def <name1> ( <name2> , <name3> , <name4> ) :	<name2> と  <name3> と  <name4> を引数とする関数  <name1> の定義
+return <name6> * <name6> + <name2> * <name2> == <name3> * <name3>	<name6> の自乗と  <name2> の自乗が  <name3> の自乗と等しければ  True 、そうでなければ  False を返す
+return <name1> * <name1> + <name2> * <name2> == <name3> * <name3>	<name1> の自乗と  <name2> の自乗が  <name3> の自乗と等しければ  True 、そうでなければ  False を返す
 def <name6> ( <name5> ) :	<name5> を引数とする関数  <name6> の定義
-<name5> = <name4>	<name5> に  <name4> を代入
-if <name5> <   <val2> :	もし  <name5> が  <val2> より小さければ
-return <name6>	<name6> を返す
-elif <name4> == <val6> :	そうでなくて、もし  <name4> が  <val6> であれば
-return <name1>	<name1> を返す
-for <name6> in range ( <val4> , int ( <name3> ** 0.5 ) + 1 ) :	<name6> を  <val4> 以上  <name3> の平方根以下の間で繰り返し
-if <name1> and <name3> % <name5> == 0 :	もし  <name1> が真でかつ  <name3> が  <name5> で割り切れるなら
-<name1> = <name4>	<name1> を  <name4> にする
-return <name2>	<name2> を返す
-def <name1> ( <name4> ) :	<name4> を引数とする関数  <name1> の定義
-<name5> = <val3>	<name5> に  <val3> を代入
-for <name3> in <name4> :	<name4> に含まれる各要素を  <name3> に代入して繰り返し
-<name4> += <name5>	<name4> に  <name5> を足す
-return <name1>	<name1> を返す
-def <name1> ( <name4> ) :	<name4> を引数とする関数  <name1> の定義
-return sum ( <name6> )	<name6> 内の要素の総和を返す
-def <name5> ( <name2> , <name4> , <name6> ) :	<name2> , <name4> , <name6> を引数とする関数  <name5> の定義
-<name5> = [ ]	<name5> に空のリストを代入
-while <name6> <   <name2> :	<name6> が  <name2> より小さい間繰り返し
-<name5> . append ( <name6> )	<name5> の末尾に  <name6> を追加する
+def <name1> ( <name2> ) :	<name2> を引数とする関数  <name1> の定義
+return <name2> * <name2>	<name2> の自乗を返す
+return <name1> * <name1>	<name1> の自乗を返す
+def <name1> ( <name3> ) :	<name3> を引数とする関数  <name1> の定義
+def <name1> ( <name2> ) :	<name2> を引数とする関数  <name1> の定義
+<name3> = <val5>	<name3> に  <val5> を代入する
+<name1> = <val2>	<name1> に  <val2> を代入する
+for i in range ( <name1> ) :	以下の処理を  <name1> 回繰り返す
+<name6> += <name4>	<name6> に  <name4> を足す
 <name1> += <name2>	<name1> に  <name2> を足す
 return <name4>	<name4> を返す
-def euler011 ( ) :	関数  euler001 の定義
-"<name5> = """" """" """" . split ( )"	<name5> に文字列を空白文字で分割したリストを代入
-<name2> = [ ]	<name2> に空リストを代入
-for <name2> in <name6> :	<name6> 中の各要素を順に  <name2> として
-<name1> . append ( int ( <name6> ) )	<name1> の末尾に  <name6> の表す数値を追加
-<name3> = <val1>	<name3> を  <val1> にする
-for <name4> in range ( <val3> ) :	0 から  <val3> 未満の整数を順に  <name4> として
-for <name3> in range ( <val6> ) :	0 から  <val6> 未満の整数を順に  <name3> として
-if <name5> <= <val4> :	もし  <name5> が  <val4> 以下であれば
-<name3> = max ( <name3> , <name1> [ <name5> * <val2> + <name6> ] * <name1> [ <name5> * <val2> + <name6> + <val4> ] * <name1> [ <name5> * <val2> + <name6> + <val3> ] * <name1> [ <name5> * <val2> + <name6> + <val1> ] )	現在の  <name3> と  ( <name1> [ <name5> * <val2> + <name6> ] * <name1> [ <name5> * <val2> + <name6> + <val4> ] * <name1> [ <name5> * <val2> + <name6> + <val3> ] * <name1> [ <name5> * <val2> + <name6> + <val1> ] ) のうち大きい方を新しい  <name3> とする
-if <name1> <= <val2> :	もし  <name1> が  <val2> 以下であれば
-<name2> = max ( <name2> , <name1> [ <name6> * <val5> + <name3> ] * <name1> [ ( <name6> + <val4> ) * <val5> + <name3> + <val4> ] * <name1> [ ( <name6> + <val2> ) * <val5> + <name3> + <val2> ] * <name1> [ ( <name6> + <val1> ) * <val5> + <name3> + <val1> ] )	現在の  <name2> と  ( <name1> [ <name6> * <val5> + <name3> ] * <name1> [ ( <name6> + <val4> ) * <val5> + <name3> + <val4> ] * <name1> [ ( <name6> + <val2> ) * <val5> + <name3> + <val2> ] * <name1> [ ( <name6> + <val1> ) * <val5> + <name3> + <val1> ] ) のうち大きい方を新しい  <name2> とする
-if <val1> <= <name5> and <name4> <= <val6> :	もし  <name5> が  <val1> 以上で  <name4> が  <val6> 以下であれば
-<name2> = max ( <name2> , <name4> [ <name1> * <val3> + <name6> ] * <name4> [ ( <name1> + <val5> ) * <val3> + <name6> <val2> ] * <name4> [ ( <name1> + <val4> ) * <val3> + <name6> <val1> ] * <name4> [ ( <name1> + <val3> ) * <val3> + <name6> <val6> ] )	現在の  <name2> と  ( <name4> [ <name1> * <val3> + <name6> ] * <name4> [ ( <name1> + <val5> ) * <val3> + <name6> <val2> ] * <name4> [ ( <name1> + <val4> ) * <val3> + <name6> <val1> ] * <name4> [ ( <name1> + <val3> ) * <val3> + <name6> <val6> ] ) のうち大きい方を新しい  <name2> とする
-if <name3> <= <val2> :	もし  <name3> が  <val2> 以下であれば
-<name2> = max ( <name2> , <name1> [ <name6> * <val5> + <name4> ] * <name1> [ ( <name6> + <val3> ) * <val5> + <name4> ] * <name1> [ ( <name6> + <val2> ) * <val5> + <name4> ] * <name1> [ ( <name6> + <val1> ) * <val5> + <name4> ] )	現在の  <name2> と  ( <name1> [ <name6> * <val5> + <name4> ] * <name1> [ ( <name6> + <val3> ) * <val5> + <name4> ] * <name1> [ ( <name6> + <val2> ) * <val5> + <name4> ] * <name1> [ ( <name6> + <val1> ) * <val5> + <name4> ] ) のうち大きい方を新しい  <name2> とする
-return <name4>	<name4> を返す
-def <name2> ( <name6> , <name3> ) :	<name6> と  <name3> を引数とする関数  <name2> の定義
-return <name3> <= <name2>	<name3> が  <name2> 以下であれば  True 、そうでなければ  False を返す
-def <name1> ( <name2> , <name6> ) :	<name2> と  <name6> を引数とする関数  <name1> の定義
-<name5> = <name3> - <name4>	<name5> に  <name3> と  <name4> の差を代入
-return <name5> >= <val3>	<name5> が  <val3> 以上であれば  True 、そうでなければ  False を返す
-def <name6> ( <name1> , <name5> ) :	<name1> と  <name5> を引数とする関数  <name6> の定義
-return <name6> <= <name1>	<name6> が  <name1> 以下であれば  True 、そうでなければ  False を返す
-def euler011_over_or_equal_a ( <name5> , <name3> ) :	<name5> と  <name3> を引数とする関数  euler011_ver_or_equal_a の定義
-<name4> = <name5> - <name2>	<name4> に  <name5> と  <name2> の差を代入
-return <name5> <= <val4>	<name5> が  <val4> 以下であれば  True 、そうでなければ  False を返す
-def <name1> ( <name3> ) :	<name3> を引数とする関数  <name1> の定義
-<name6> = [ ]	<name6> に空リストを代入
-"<name5> = """""	<name5> に空文字列を代入
-for <name6> in <name2> :	<name2> 内の全ての要素を順に  <name6> として
-"if <name4> == "" "" :"	もし  <name4> が半角スペースなら
-<name1> . append ( <name4> )	<name1> の末尾に  <name4> を追加
-"<name4> = """""	<name4> を空文字列にする
-else :	そうでなければ
-<name2> += <name4>	<name2> に  <name4> を加える
-<name2> . append ( <name4> )	<name2> の末尾に  <name4> を追加
-return <name2>	<name2> を返す
-def <name2> ( <name1> ) :	<name1> を引数とする関数  <name2> の定義
-<name6> = [ ]	<name6> に空リストを代入
-<name1> = <val6>	<name1> に  <val6> を代入
-while <name1> <   <name4> :	<name1> が  <name4> 未満の間
-<name2> . append ( <name4> )	<name2> の末尾に  <name4> を追加
-<name4> += <val5>	<name4> に  <val5> を足す
 return <name1>	<name1> を返す
+def <name5> ( <name4> ) :	<name4> を引数とする関数  <name5> の定義
+def <name1> ( <name2> ) :	<name2> を引数とする関数  <name1> の定義
+<name4> = <val6>	<name4> に  <val6> を代入
+<name1> = <val2>	<name1> に  <val2> を代入
+for <name2> in <name3> :	<name3> の各要素を  <name2> として
+for <name1> in <name2> :	<name2> の各要素を  <name1> として
+<name4> += <name2>	<name4> に  <name2> を足す
+<name1> += <name2>	<name1> に  <name2> を足す
+return <name1> == <val5>	<name1> が  <val5> ならば  True 、そうでなければ  False を返す
+return <name1> == <val2>	<name1> が  <val2> ならば  True 、そうでなければ  False を返す
 def <name3> ( <name2> ) :	<name2> を引数とする関数  <name3> の定義
-return list ( range ( <name3> ) )	0 から  <name3> -1 までを順に要素として持つリストを返す
-def <name2> ( <name5> , <name6> ) :	<name5> , <name6> を引数とする関数  <name2> の定義
-return ( <name3> , <name2> - 1 )	<name3> と  <name2> -1 の組を返す
-def <name1> ( <name3> , <name6> ) :	<name3> , <name6> を引数とする関数  <name1> の定義
-return ( <name3> , <name5> + <val6> )	<name3> と  <name5> + <val6> の組を返す
-def <name3> ( <name6> , <name4> ) :	<name6> , <name4> を引数とする関数  <name3> の定義
-return ( <name6> - 1 , <name4> )	<name6> -1 と  <name4> の組を返す
-def <name6> ( <name5> , <name2> ) :	<name5> , <name2> を引数とする関数  <name6> の定義
-return ( <name4> + <val3> , <name2> )	<name4> + <val3> と  <name2> の組を返す
-def <name5> ( <name2> , <name1> ) :	<name2> , <name1> を引数とする関数  <name5> の定義
-return ( <name4> - 1 , <name5> - 1 )	<name4> -1 と  <name5> -1 の組を返す
-def <name6> ( <name4> , <name2> ) :	<name4> , <name2> を引数とする関数  <name6> の定義
-return ( <name2> + <val3> , <name4> - <val3> )	<name2> + <val3> と  <name4> -1 の組を返す
-def <name2> ( <name1> , <name5> ) :	<name1> , <name5> を引数とする関数  <name2> の定義
-return ( <name2> - <val5> , <name3> + <val5> )	<name2> -1 と  <name3> + <val5> の組を返す
-def <name4> ( <name1> , <name6> ) :	<name1> , <name6> を引数とする関数  <name4> の定義
-return ( <name3> + <val2> , <name1> + <val2> )	<name3> + <val2> と  <name1> + <val2> の組を返す
-def <name5> ( ) :	関数  <name5> の定義
+def <name1> ( <name2> ) :	<name2> を引数とする関数  <name1> の定義
+return sum ( <name3> ) == <val5>	<name3> の各要素の総和が  <val5> と等しければ  True 、そうでなければ  False を返す
+return sum ( <name1> ) == <val2>	<name1> の各要素の総和が  <val2> と等しければ  True 、そうでなければ  False を返す
+def <name5> ( <name6> ) :	<name6> を引数とする関数  <name5> の定義
+def <name1> ( <name2> ) :	<name2> を引数とする関数  <name1> の定義
+<name1> = <val6>	<name1> を  <val6> とする
+<name1> = <val2>	<name1> を  <val2> とする
+for <name2> in <name3> :	<name3> 内の全要素  <name2> について
+for <name1> in <name2> :	<name2> 内の全要素  <name1> について
+<name2> *= <name5>	<name5> を  <name2> に掛ける
+<name1> *= <name2>	<name2> を  <name1> に掛ける
+return <name6>	<name6> を返す
+return <name1>	<name1> を返す
+def <name2> ( ) :	関数  <name2> の定義
+def <name1> ( ) :	関数  <name1> の定義
+<name3> = [ <name4> ] * 2000000	<name3> に  <name4> のみからなるリストを代入
+<name1> = [ <name2> ] * 2000000	<name1> に  <name2> のみからなるリストを代入
+for <name5> in range ( <val3> , int ( <val2> ** <val1> ) + 1 ) :	<name5> を  <val3> から  <val2> の  <val1> 乗までの間で変化させて繰り返し
+for <name1> in range ( <val2> , int ( <val3> ** <val4> ) + 1 ) :	<name1> を  <val2> から  <val3> の  <val4> 乗までの間で変化させて繰り返し
+if <name1> [ <name6> ] :	もし  <name1> の  <name6> 番目が真であれば
+if <name1> [ <name2> ] :	もし  <name1> の  <name2> 番目が真であれば
+for <name6> in range ( <val1> * <name3> , len ( <name2> ) , <name3> ) :	<name6> を  <name3> の  <val1> 倍から  <name2> の長さ未満まで  <name3> ごとに変化させて繰り返し
+for <name1> in range ( <val2> * <name3> , len ( <name4> ) , <name3> ) :	<name1> を  <name3> の  <val2> 倍から  <name4> の長さ未満まで  <name3> ごとに変化させて繰り返し
+<name1> [ <name4> ] = <name6>	<name1> の  <name4> 番目に  <name6> を代入
+<name1> [ <name2> ] = <name3>	<name1> の  <name2> 番目に  <name3> を代入
+<name1> = [ ]	<name1> に空のリストを代入
+for <name3> in range ( <val5> , <val4> ) :	<name3> を  <val5> から  <val4> まで変化させて繰り返し
+for <name1> in range ( <val2> , <val3> ) :	<name1> を  <val2> から  <val3> まで変化させて繰り返し
+if <name6> [ <name2> ] :	もし  <name6> の  <name2> 番目が真であれば
+if <name1> [ <name2> ] :	もし  <name1> の  <name2> 番目が真であれば
+<name4> . append ( <name5> )	<name4> の末尾に  <name5> を追加
+<name1> . append ( <name2> )	<name1> の末尾に  <name2> を追加
+return sum ( <name2> )	<name2> の要素の総和を返す
+return sum ( <name1> )	<name1> の要素の総和を返す
+def <name6> ( <name4> ) :	引数  <name4> を取る関数  <name6> の定義
+def <name1> ( <name2> ) :	引数  <name2> を取る関数  <name1> の定義
+<name5> = [ <name4> ] * <name2>	<name4> が  <name2> 個並んでいるリストを  <name5> に代入
+<name1> = [ <name2> ] * <name3>	<name2> が  <name3> 個並んでいるリストを  <name1> に代入
+for <name3> in range ( <val1> , int ( <name6> ** 0.5 ) + 1 ) :	<name3> を  <val1> から  <name6> の平方根の範囲で変化させて繰り返し
+for <name1> in range ( <val2> , int ( <name3> ** 0.5 ) + 1 ) :	<name1> を  <val2> から  <name3> の平方根の範囲で変化させて繰り返し
+if <name3> [ <name1> ] :	<name3> の  <name1> 番目が真であれば
+if <name1> [ <name2> ] :	<name1> の  <name2> 番目が真であれば
+for <name2> in range ( <val3> * <name6> , len ( <name4> ) , <name6> ) :	<name2> を  <name6> の  <val3> 倍から  <name4> の長さまで  <name6> 単位で変化させて繰り返し
+for <name1> in range ( <val2> * <name3> , len ( <name4> ) , <name3> ) :	<name1> を  <name3> の  <val2> 倍から  <name4> の長さまで  <name3> 単位で変化させて繰り返し
+<name1> [ <name6> ] = <name5>	<name1> の  <name6> 番目を  <name5> にする
+<name1> [ <name2> ] = <name3>	<name1> の  <name2> 番目を  <name3> にする
+<name4> = [ ]	<name4> に空のリストを代入
+<name1> = [ ]	<name1> に空のリストを代入
+for <name5> in range ( <val1> , <name6> ) :	<name5> を  <val1> 以上  <name6> 未満の間で増加させながら繰り返し
+for <name1> in range ( <val2> , <name3> ) :	<name1> を  <val2> 以上  <name3> 未満の間で増加させながら繰り返し
+if <name4> [ <name5> ] :	もし  <name4> の  <name5> 番目が真であれば
+if <name1> [ <name2> ] :	もし  <name1> の  <name2> 番目が真であれば
+<name1> . append ( <name3> )	<name1> の末尾に  <name3> を追加
+<name1> . append ( <name2> )	<name1> の末尾に  <name2> を追加
+return <name2>	<name2> を返す
+return <name1>	<name1> を返す
+def <name5> ( <name4> ) :	<name4> を引数とする関数  <name5> の定義
+def <name1> ( <name2> ) :	<name2> を引数とする関数  <name1> の定義
+<name5> = <name3>	<name5> に  <name3> を代入
+<name1> = <name2>	<name1> に  <name2> を代入
+if <name6> <   <val2> :	もし  <name6> が  <val2> より小さければ
+if <name1> <   <val2> :	もし  <name1> が  <val2> より小さければ
+return <name2>	<name2> を返す
+return <name1>	<name1> を返す
+elif <name2> == <val6> :	そうでなくて、もし  <name2> が  <val6> であれば
+elif <name1> == <val2> :	そうでなくて、もし  <name1> が  <val2> であれば
+return <name2>	<name2> を返す
+return <name1>	<name1> を返す
+for <name4> in range ( <val6> , int ( <name2> ** 0.5 ) + 1 ) :	<name4> を  <val6> 以上  <name2> の平方根以下の間で繰り返し
+for <name1> in range ( <val2> , int ( <name3> ** 0.5 ) + 1 ) :	<name1> を  <val2> 以上  <name3> の平方根以下の間で繰り返し
+if <name1> and <name5> % <name3> == 0 :	もし  <name1> が真でかつ  <name5> が  <name3> で割り切れるなら
+if <name1> and <name2> % <name3> == 0 :	もし  <name1> が真でかつ  <name2> が  <name3> で割り切れるなら
+<name1> = <name4>	<name1> を  <name4> にする
+<name1> = <name2>	<name1> を  <name2> にする
+return <name5>	<name5> を返す
+return <name1>	<name1> を返す
+def <name1> ( <name2> ) :	<name2> を引数とする関数  <name1> の定義
 <name1> = <val5>	<name1> に  <val5> を代入
-<name1> = <val4>	<name1> に  <val4> を代入
-<name4> = [ <val1> ]	<name4> に  <val1> のみからなるリストを代入
-<name2> = [ <val5> ] * <val1> + [ <val3> ] * <val6>	<name2> に  <val5> が  <val1> 個と  <val3> が  <val6> 個繋がったリストを代入
-while <name4> <   <val3> :	<name4> が  <val3> 未満である間
-<name6> = sum ( range ( <val5> , <name4> + <val5> ) )	<name6> に  <val5> から  <name4> の総和を代入
-if not <name1> % <val3> :	もし  <name1> が  <val3> で割り切れるなら
-<name3> = ( int ( <name4> / <val6> ) , <name4> + <val1> )	<name3> に  <name4> を  <val6> で割った商と  <name4> + <val1> の組を代入
+<name1> = <val2>	<name1> に  <val2> を代入
+for <name2> in <name3> :	<name3> に含まれる各要素を  <name2> に代入して繰り返し
+for <name1> in <name2> :	<name2> に含まれる各要素を  <name1> に代入して繰り返し
+<name3> += <name1>	<name3> に  <name1> を足す
+<name1> += <name2>	<name1> に  <name2> を足す
+return <name4>	<name4> を返す
+return <name1>	<name1> を返す
+def <name5> ( <name6> ) :	<name6> を引数とする関数  <name5> の定義
+def <name1> ( <name2> ) :	<name2> を引数とする関数  <name1> の定義
+return sum ( <name6> )	<name6> 内の要素の総和を返す
+return sum ( <name1> )	<name1> 内の要素の総和を返す
+def <name2> ( <name5> , <name1> , <name4> ) :	<name5> , <name1> , <name4> を引数とする関数  <name2> の定義
+def <name1> ( <name2> , <name3> , <name4> ) :	<name2> , <name3> , <name4> を引数とする関数  <name1> の定義
+<name1> = [ ]	<name1> に空のリストを代入
+while <name3> <   <name2> :	<name3> が  <name2> より小さい間繰り返し
+while <name1> <   <name2> :	<name1> が  <name2> より小さい間繰り返し
+<name1> . append ( <name3> )	<name1> の末尾に  <name3> を追加する
+<name1> . append ( <name2> )	<name1> の末尾に  <name2> を追加する
+<name5> += <name1>	<name5> に  <name1> を足す
+<name1> += <name2>	<name1> に  <name2> を足す
+return <name2>	<name2> を返す
+return <name1>	<name1> を返す
+def euler011 ( ) :	関数  euler001 の定義
+<name1> = ''   ''   ''   . split ( )	<name1> に文字列を空白文字で分割したリストを代入
+<name6> = [ ]	<name6> に空リストを代入
+<name1> = [ ]	<name1> に空リストを代入
+for <name1> in <name5> :	<name5> 中の各要素を順に  <name1> として
+for <name1> in <name2> :	<name2> 中の各要素を順に  <name1> として
+<name3> . append ( int ( <name1> ) )	<name3> の末尾に  <name1> の表す数値を追加
+<name1> . append ( int ( <name2> ) )	<name1> の末尾に  <name2> の表す数値を追加
+<name6> = <val5>	<name6> を  <val5> にする
+<name1> = <val2>	<name1> を  <val2> にする
+for <name4> in range ( <val2> ) :	0 から  <val2> 未満の整数を順に  <name4> として
+for <name1> in range ( <val2> ) :	0 から  <val2> 未満の整数を順に  <name1> として
+for <name3> in range ( <val6> ) :	0 から  <val6> 未満の整数を順に  <name3> として
+for <name1> in range ( <val2> ) :	0 から  <val2> 未満の整数を順に  <name1> として
+if <name6> <= <val2> :	もし  <name6> が  <val2> 以下であれば
+if <name1> <= <val2> :	もし  <name1> が  <val2> 以下であれば
+<name5> = max ( <name5> , <name4> [ <name3> * <val2> + <name1> ] * <name4> [ <name3> * <val2> + <name1> + <val6> ] * <name4> [ <name3> * <val2> + <name1> + <val5> ] * <name4> [ <name3> * <val2> + <name1> + <val4> ] )	現在の  <name5> と  ( <name4> [ <name3> * <val2> + <name1> ] * <name4> [ <name3> * <val2> + <name1> + <val6> ] * <name4> [ <name3> * <val2> + <name1> + <val5> ] * <name4> [ <name3> * <val2> + <name1> + <val4> ] ) のうち大きい方を新しい  <name5> とする
+<name1> = max ( <name1> , <name2> [ <name3> * <val4> + <name5> ] * <name2> [ <name3> * <val4> + <name5> + <val6> ] * <name2> [ <name3> * <val4> + <name5> + <val1> ] * <name2> [ <name3> * <val4> + <name5> + <val2> ] )	現在の  <name1> と  ( <name2> [ <name3> * <val4> + <name5> ] * <name2> [ <name3> * <val4> + <name5> + <val6> ] * <name2> [ <name3> * <val4> + <name5> + <val1> ] * <name2> [ <name3> * <val4> + <name5> + <val2> ] ) のうち大きい方を新しい  <name1> とする
+if <name1> <= <val4> :	もし  <name1> が  <val4> 以下であれば
+if <name1> <= <val2> :	もし  <name1> が  <val2> 以下であれば
+<name6> = max ( <name6> , <name2> [ <name1> * <val3> + <name5> ] * <name2> [ ( <name1> + <val4> ) * <val3> + <name5> + <val4> ] * <name2> [ ( <name1> + <val6> ) * <val3> + <name5> + <val6> ] * <name2> [ ( <name1> + <val2> ) * <val3> + <name5> + <val2> ] )	現在の  <name6> と  ( <name2> [ <name1> * <val3> + <name5> ] * <name2> [ ( <name1> + <val4> ) * <val3> + <name5> + <val4> ] * <name2> [ ( <name1> + <val6> ) * <val3> + <name5> + <val6> ] * <name2> [ ( <name1> + <val2> ) * <val3> + <name5> + <val2> ] ) のうち大きい方を新しい  <name6> とする
+<name1> = max ( <name1> , <name2> [ <name3> * <val4> + <name5> ] * <name2> [ ( <name3> + <val6> ) * <val4> + <name5> + <val6> ] * <name2> [ ( <name3> + <val1> ) * <val4> + <name5> + <val1> ] * <name2> [ ( <name3> + <val2> ) * <val4> + <name5> + <val2> ] )	現在の  <name1> と  ( <name2> [ <name3> * <val4> + <name5> ] * <name2> [ ( <name3> + <val6> ) * <val4> + <name5> + <val6> ] * <name2> [ ( <name3> + <val1> ) * <val4> + <name5> + <val1> ] * <name2> [ ( <name3> + <val2> ) * <val4> + <name5> + <val2> ] ) のうち大きい方を新しい  <name1> とする
+if <val4> <= <name5> and <name1> <= <val2> :	もし  <name5> が  <val4> 以上で  <name1> が  <val2> 以下であれば
+if <val1> <= <name2> and <name3> <= <val4> :	もし  <name2> が  <val1> 以上で  <name3> が  <val4> 以下であれば
+<name2> = max ( <name2> , <name6> [ <name5> * <val4> + <name3> ] * <name6> [ ( <name5> + <val1> ) * <val4> + <name3> <val2> ] * <name6> [ ( <name5> + <val6> ) * <val4> + <name3> <val5> ] * <name6> [ ( <name5> + <val4> ) * <val4> + <name3> <val3> ] )	現在の  <name2> と  ( <name6> [ <name5> * <val4> + <name3> ] * <name6> [ ( <name5> + <val1> ) * <val4> + <name3> <val2> ] * <name6> [ ( <name5> + <val6> ) * <val4> + <name3> <val5> ] * <name6> [ ( <name5> + <val4> ) * <val4> + <name3> <val3> ] ) のうち大きい方を新しい  <name2> とする
+<name1> = max ( <name1> , <name2> [ <name3> * <val4> + <name5> ] * <name2> [ ( <name3> + <val6> ) * <val4> + <name5> <val1> ] * <name2> [ ( <name3> + <val2> ) * <val4> + <name5> <val3> ] * <name2> [ ( <name3> + <val4> ) * <val4> + <name5> <val5> ] )	現在の  <name1> と  ( <name2> [ <name3> * <val4> + <name5> ] * <name2> [ ( <name3> + <val6> ) * <val4> + <name5> <val1> ] * <name2> [ ( <name3> + <val2> ) * <val4> + <name5> <val3> ] * <name2> [ ( <name3> + <val4> ) * <val4> + <name5> <val5> ] ) のうち大きい方を新しい  <name1> とする
+if <name4> <= <val2> :	もし  <name4> が  <val2> 以下であれば
+if <name1> <= <val2> :	もし  <name1> が  <val2> 以下であれば
+<name4> = max ( <name4> , <name6> [ <name5> * <val2> + <name1> ] * <name6> [ ( <name5> + <val3> ) * <val2> + <name1> ] * <name6> [ ( <name5> + <val4> ) * <val2> + <name1> ] * <name6> [ ( <name5> + <val6> ) * <val2> + <name1> ] )	現在の  <name4> と  ( <name6> [ <name5> * <val2> + <name1> ] * <name6> [ ( <name5> + <val3> ) * <val2> + <name1> ] * <name6> [ ( <name5> + <val4> ) * <val2> + <name1> ] * <name6> [ ( <name5> + <val6> ) * <val2> + <name1> ] ) のうち大きい方を新しい  <name4> とする
+<name1> = max ( <name1> , <name2> [ <name3> * <val4> + <name5> ] * <name2> [ ( <name3> + <val6> ) * <val4> + <name5> ] * <name2> [ ( <name3> + <val1> ) * <val4> + <name5> ] * <name2> [ ( <name3> + <val2> ) * <val4> + <name5> ] )	現在の  <name1> と  ( <name2> [ <name3> * <val4> + <name5> ] * <name2> [ ( <name3> + <val6> ) * <val4> + <name5> ] * <name2> [ ( <name3> + <val1> ) * <val4> + <name5> ] * <name2> [ ( <name3> + <val2> ) * <val4> + <name5> ] ) のうち大きい方を新しい  <name1> とする
+return <name1>	<name1> を返す
+def <name5> ( <name6> , <name1> ) :	<name6> と  <name1> を引数とする関数  <name5> の定義
+def <name1> ( <name2> , <name3> ) :	<name2> と  <name3> を引数とする関数  <name1> の定義
+return <name1> <= <name3>	<name1> が  <name3> 以下であれば  True 、そうでなければ  False を返す
+return <name1> <= <name2>	<name1> が  <name2> 以下であれば  True 、そうでなければ  False を返す
+def <name6> ( <name3> , <name5> ) :	<name3> と  <name5> を引数とする関数  <name6> の定義
+def <name1> ( <name2> , <name3> ) :	<name2> と  <name3> を引数とする関数  <name1> の定義
+<name4> = <name3> - <name1>	<name4> に  <name3> と  <name1> の差を代入
+<name1> = <name2> - <name3>	<name1> に  <name2> と  <name3> の差を代入
+return <name6> >= <val2>	<name6> が  <val2> 以上であれば  True 、そうでなければ  False を返す
+return <name1> >= <val2>	<name1> が  <val2> 以上であれば  True 、そうでなければ  False を返す
+def <name2> ( <name6> , <name1> ) :	<name6> と  <name1> を引数とする関数  <name2> の定義
+def <name1> ( <name2> , <name3> ) :	<name2> と  <name3> を引数とする関数  <name1> の定義
+return <name6> <= <name2>	<name6> が  <name2> 以下であれば  True 、そうでなければ  False を返す
+return <name1> <= <name2>	<name1> が  <name2> 以下であれば  True 、そうでなければ  False を返す
+def euler011_over_or_equal_a ( <name1> , <name3> ) :	<name1> と  <name3> を引数とする関数  euler011_ver_or_equal_a の定義
+def euler011_over_or_equal_a ( <name1> , <name2> ) :	<name1> と  <name2> を引数とする関数  euler011_ver_or_equal_a の定義
+<name5> = <name3> - <name2>	<name5> に  <name3> と  <name2> の差を代入
+<name1> = <name2> - <name3>	<name1> に  <name2> と  <name3> の差を代入
+return <name5> <= <val3>	<name5> が  <val3> 以下であれば  True 、そうでなければ  False を返す
+return <name1> <= <val2>	<name1> が  <val2> 以下であれば  True 、そうでなければ  False を返す
+def <name4> ( <name2> ) :	<name2> を引数とする関数  <name4> の定義
+def <name1> ( <name2> ) :	<name2> を引数とする関数  <name1> の定義
+<name1> = [ ]	<name1> に空リストを代入
+<name4> = ''	<name4> に空文字列を代入
+<name1> = ''	<name1> に空文字列を代入
+for <name4> in <name2> :	<name2> 内の全ての要素を順に  <name4> として
+for <name1> in <name2> :	<name2> 内の全ての要素を順に  <name1> として
+if <name1> == ' '   :	もし  <name1> が半角スペースなら
+<name1> . append ( <name5> )	<name1> の末尾に  <name5> を追加
+<name1> . append ( <name2> )	<name1> の末尾に  <name2> を追加
+<name3> = ''	<name3> を空文字列にする
+<name1> = ''	<name1> を空文字列にする
 else :	そうでなければ
-<name5> = ( <name3> , int ( ( <name3> + <val1> ) / <val6> ) )	<name5> に  <name3> と  <name3> + <val1> を  <val6> で割った商の組を代入
-<name4> = <val3>	<name4> に  <val3> を代入
-for <name6> in <name1> :	<name1> 内の各要素を  <name6> として
-if len ( <name3> ) <   <name6> :	もし  <name3> の長さが  <name6> より小さければ
-<name1> = [ <val5> ] * ( <name2> - len ( <name4> ) + <val3> )	<name1> に  <val5> を  ( <name2> - <name4> の長さ  + <val3> ) 回繰り返したリストを代入
-<name4> += <name2>	<name4> に  <name2> を代入
-if not <name4> [ <name3> ] :	もし  <name4> の  <name3> 番目が偽であれば
-<name5> = <val6>	<name5> に  <val6> を代入
-for <name3> in range ( <name4> [ -1 ] , <name1> + 1 ) :	<name4> の末尾要素から  <name1> までの数を順に  <name3> として
-for <name4> in range ( <val3> , int ( <name2> ** 0.5 ) + 1 ) :	<val3> から  <name2> の平方根までの数を順に  <name4> として
-if <name2> % <name3> == 0 :	もし  <name2> が  <name3> で割り切れるなら
+<name2> += <name3>	<name2> に  <name3> を加える
+<name1> += <name2>	<name1> に  <name2> を加える
+<name2> . append ( <name1> )	<name2> の末尾に  <name1> を追加
+<name1> . append ( <name2> )	<name1> の末尾に  <name2> を追加
+return <name6>	<name6> を返す
+return <name1>	<name1> を返す
+def <name2> ( <name6> ) :	<name6> を引数とする関数  <name2> の定義
+def <name1> ( <name2> ) :	<name2> を引数とする関数  <name1> の定義
+<name5> = [ ]	<name5> に空リストを代入
+<name1> = [ ]	<name1> に空リストを代入
+<name2> = <val3>	<name2> に  <val3> を代入
+<name1> = <val2>	<name1> に  <val2> を代入
+while <name3> <   <name2> :	<name3> が  <name2> 未満の間
+while <name1> <   <name2> :	<name1> が  <name2> 未満の間
+<name4> . append ( <name5> )	<name4> の末尾に  <name5> を追加
+<name1> . append ( <name2> )	<name1> の末尾に  <name2> を追加
+<name6> += <val2>	<name6> に  <val2> を足す
+<name1> += <val2>	<name1> に  <val2> を足す
+return <name1>	<name1> を返す
+def <name2> ( <name1> ) :	<name1> を引数とする関数  <name2> の定義
+def <name1> ( <name2> ) :	<name2> を引数とする関数  <name1> の定義
+return list ( range ( <name2> ) )	0 から  <name2> -1 までを順に要素として持つリストを返す
+return list ( range ( <name1> ) )	0 から  <name1> -1 までを順に要素として持つリストを返す
+def <name6> ( <name1> , <name4> ) :	<name1> , <name4> を引数とする関数  <name6> の定義
+def <name1> ( <name2> , <name3> ) :	<name2> , <name3> を引数とする関数  <name1> の定義
+return ( <name1> , <name2> - 1 )	<name1> と  <name2> -1 の組を返す
+def <name1> ( <name6> , <name4> ) :	<name6> , <name4> を引数とする関数  <name1> の定義
+def <name1> ( <name2> , <name3> ) :	<name2> , <name3> を引数とする関数  <name1> の定義
+return ( <name6> , <name1> + <val4> )	<name6> と  <name1> + <val4> の組を返す
+return ( <name1> , <name2> + <val3> )	<name1> と  <name2> + <val3> の組を返す
+def <name5> ( <name2> , <name4> ) :	<name2> , <name4> を引数とする関数  <name5> の定義
+def <name1> ( <name2> , <name3> ) :	<name2> , <name3> を引数とする関数  <name1> の定義
+return ( <name1> - 1 , <name5> )	<name1> -1 と  <name5> の組を返す
+return ( <name1> - 1 , <name2> )	<name1> -1 と  <name2> の組を返す
+def <name5> ( <name1> , <name3> ) :	<name1> , <name3> を引数とする関数  <name5> の定義
+def <name1> ( <name2> , <name3> ) :	<name2> , <name3> を引数とする関数  <name1> の定義
+return ( <name1> + <val2> , <name6> )	<name1> + <val2> と  <name6> の組を返す
+return ( <name1> + <val2> , <name3> )	<name1> + <val2> と  <name3> の組を返す
+def <name5> ( <name3> , <name1> ) :	<name3> , <name1> を引数とする関数  <name5> の定義
+def <name1> ( <name2> , <name3> ) :	<name2> , <name3> を引数とする関数  <name1> の定義
+return ( <name6> - 1 , <name4> - 1 )	<name6> -1 と  <name4> -1 の組を返す
+return ( <name1> - 1 , <name2> - 1 )	<name1> -1 と  <name2> -1 の組を返す
+def <name6> ( <name1> , <name2> ) :	<name1> , <name2> を引数とする関数  <name6> の定義
+def <name1> ( <name2> , <name3> ) :	<name2> , <name3> を引数とする関数  <name1> の定義
+return ( <name4> + <val2> , <name1> - <val2> )	<name4> + <val2> と  <name1> -1 の組を返す
+return ( <name1> + <val2> , <name3> - <val2> )	<name1> + <val2> と  <name3> -1 の組を返す
+def <name6> ( <name5> , <name4> ) :	<name5> , <name4> を引数とする関数  <name6> の定義
+def <name1> ( <name2> , <name3> ) :	<name2> , <name3> を引数とする関数  <name1> の定義
+return ( <name4> - <val1> , <name3> + <val1> )	<name4> -1 と  <name3> + <val1> の組を返す
+return ( <name1> - <val2> , <name3> + <val2> )	<name1> -1 と  <name3> + <val2> の組を返す
+def <name1> ( <name6> , <name4> ) :	<name6> , <name4> を引数とする関数  <name1> の定義
+def <name1> ( <name2> , <name3> ) :	<name2> , <name3> を引数とする関数  <name1> の定義
+return ( <name1> + <val3> , <name5> + <val3> )	<name1> + <val3> と  <name5> + <val3> の組を返す
+return ( <name1> + <val2> , <name3> + <val2> )	<name1> + <val2> と  <name3> + <val2> の組を返す
+def <name6> ( ) :	関数  <name6> の定義
+def <name1> ( ) :	関数  <name1> の定義
+<name4> = <val1>	<name4> に  <val1> を代入
+<name1> = <val2>	<name1> に  <val2> を代入
+<name3> = <val2>	<name3> に  <val2> を代入
+<name1> = <val2>	<name1> に  <val2> を代入
+<name4> = [ <val1> ]	<name4> に  <val1> のみからなるリストを代入
+<name1> = [ <val2> ]	<name1> に  <val2> のみからなるリストを代入
+<name2> = [ <val5> ] * <val6> + [ <val4> ] * <val1>	<name2> に  <val5> が  <val6> 個と  <val4> が  <val1> 個繋がったリストを代入
+<name1> = [ <val2> ] * <val3> + [ <val4> ] * <val5>	<name1> に  <val2> が  <val3> 個と  <val4> が  <val5> 個繋がったリストを代入
+while <name3> <   <val5> :	<name3> が  <val5> 未満である間
+while <name1> <   <val2> :	<name1> が  <val2> 未満である間
+<name3> = sum ( range ( <val5> , <name2> + <val5> ) )	<name3> に  <val5> から  <name2> の総和を代入
+<name1> = sum ( range ( <val2> , <name3> + <val2> ) )	<name1> に  <val2> から  <name3> の総和を代入
+if not <name5> % <val2> :	もし  <name5> が  <val2> で割り切れるなら
+if not <name1> % <val2> :	もし  <name1> が  <val2> で割り切れるなら
+<name2> = ( int ( <name5> / <val1> ) , <name5> + <val3> )	<name2> に  <name5> を  <val1> で割った商と  <name5> + <val3> の組を代入
+<name1> = ( int ( <name2> / <val3> ) , <name2> + <val4> )	<name1> に  <name2> を  <val3> で割った商と  <name2> + <val4> の組を代入
+else :	そうでなければ
+<name1> = ( <name2> , int ( ( <name2> + <val6> ) / <val5> ) )	<name1> に  <name2> と  <name2> + <val6> を  <val5> で割った商の組を代入
+<name1> = ( <name2> , int ( ( <name2> + <val3> ) / <val4> ) )	<name1> に  <name2> と  <name2> + <val3> を  <val4> で割った商の組を代入
+<name1> = <val4>	<name1> に  <val4> を代入
+<name1> = <val2>	<name1> に  <val2> を代入
+for <name2> in <name1> :	<name1> 内の各要素を  <name2> として
+for <name1> in <name2> :	<name2> 内の各要素を  <name1> として
+if len ( <name3> ) <   <name1> :	もし  <name3> の長さが  <name1> より小さければ
+if len ( <name1> ) <   <name2> :	もし  <name1> の長さが  <name2> より小さければ
+<name2> = [ <val1> ] * ( <name4> - len ( <name5> ) + <val3> )	<name2> に  <val1> を  ( <name4> - <name5> の長さ  + <val3> ) 回繰り返したリストを代入
+<name1> = [ <val2> ] * ( <name3> - len ( <name4> ) + <val5> )	<name1> に  <val2> を  ( <name3> - <name4> の長さ  + <val5> ) 回繰り返したリストを代入
+<name1> += <name6>	<name1> に  <name6> を代入
+<name1> += <name2>	<name1> に  <name2> を代入
+if not <name6> [ <name1> ] :	もし  <name6> の  <name1> 番目が偽であれば
+if not <name1> [ <name2> ] :	もし  <name1> の  <name2> 番目が偽であれば
+<name6> = <val2>	<name6> に  <val2> を代入
+<name1> = <val2>	<name1> に  <val2> を代入
+for <name4> in range ( <name6> [ -1 ] , <name2> + 1 ) :	<name6> の末尾要素から  <name2> までの数を順に  <name4> として
+for <name1> in range ( <name2> [ -1 ] , <name3> + 1 ) :	<name2> の末尾要素から  <name3> までの数を順に  <name1> として
+for <name2> in range ( <val1> , int ( <name5> ** 0.5 ) + 1 ) :	<val1> から  <name5> の平方根までの数を順に  <name2> として
+for <name1> in range ( <val2> , int ( <name3> ** 0.5 ) + 1 ) :	<val2> から  <name3> の平方根までの数を順に  <name1> として
+if <name1> % <name5> == 0 :	もし  <name1> が  <name5> で割り切れるなら
+if <name1> % <name2> == 0 :	もし  <name1> が  <name2> で割り切れるなら
 break	ループから抜ける
 else :	ループが最後まで処理された場合
-if not <name5> in <name3> :	<name3> に  <name5> が含まれていなければ
-<name2> . append ( <name1> )	<name2> に  <name1> を追加する
-for <name1> in <name5> :	<name5> 内の各要素を  <name1> として
-if <name1> >   int ( <name3> / 2 ) :	もし  <name1> が  <name3> の半分よりも大きければ
+if not <name6> in <name2> :	<name2> に  <name6> が含まれていなければ
+if not <name1> in <name2> :	<name2> に  <name1> が含まれていなければ
+<name5> . append ( <name4> )	<name5> に  <name4> を追加する
+<name1> . append ( <name2> )	<name1> に  <name2> を追加する
+for <name3> in <name4> :	<name4> 内の各要素を  <name3> として
+for <name1> in <name2> :	<name2> 内の各要素を  <name1> として
+if <name2> >   int ( <name4> / 2 ) :	もし  <name2> が  <name4> の半分よりも大きければ
+if <name1> >   int ( <name2> / 2 ) :	もし  <name1> が  <name2> の半分よりも大きければ
 break	ループから抜ける
-if <name2> % <name4> == 0 :	もし  <name2> が  <name4> で割り切れるなら
-<name6> = <val5>	<name6> を  <val5> にする
-<name5> = <name6>	<name5> を  <name6> にする
-while <name6> % <name4> == 0 :	<name6> が  <name4> で割り切れる間
-<name4> /= <name1>	<name4> を  <name1> で割る
-<name2> += <val1>	<name2> に  <val1> を足す
+if <name6> % <name3> == 0 :	もし  <name6> が  <name3> で割り切れるなら
+if <name1> % <name2> == 0 :	もし  <name1> が  <name2> で割り切れるなら
+<name6> = <val1>	<name6> を  <val1> にする
+<name1> = <val2>	<name1> を  <val2> にする
+<name1> = <name6>	<name1> を  <name6> にする
+<name1> = <name2>	<name1> を  <name2> にする
+while <name5> % <name2> == 0 :	<name5> が  <name2> で割り切れる間
+while <name1> % <name2> == 0 :	<name1> が  <name2> で割り切れる間
+<name3> /= <name5>	<name3> を  <name5> で割る
+<name1> /= <name2>	<name1> を  <name2> で割る
+<name3> += <val2>	<name3> に  <val2> を足す
+<name1> += <val2>	<name1> に  <val2> を足す
 else :	ループが正常に終了した場合
-<name2> *= <name6>	<name2> に  <name6> を掛ける
-<name4> [ <name1> ] = <name6>	<name4> の  <name1> 番目の要素を  <name6> にする
-<name1> *= <name5> [ <name2> ]	<name1> に  <name5> の  <name2> 番目の要素を掛ける
-<name5> += <val6>	<name5> に  <val6> を足す
-<name4> = <name2>	<name4> を  <name2> にする
+<name6> *= <name3>	<name6> に  <name3> を掛ける
+<name1> *= <name2>	<name1> に  <name2> を掛ける
+<name5> [ <name4> ] = <name6>	<name5> の  <name4> 番目の要素を  <name6> にする
+<name1> [ <name2> ] = <name3>	<name1> の  <name2> 番目の要素を  <name3> にする
+<name6> *= <name4> [ <name5> ]	<name6> に  <name4> の  <name5> 番目の要素を掛ける
+<name1> *= <name2> [ <name3> ]	<name1> に  <name2> の  <name3> 番目の要素を掛ける
+<name1> += <val2>	<name1> に  <val2> を足す
+<name3> = <name6>	<name3> を  <name6> にする
+<name1> = <name2>	<name1> を  <name2> にする
+return <name4>	<name4> を返す
 return <name1>	<name1> を返す
-def <name6> ( <name2> , <name4> ) :	<name2> と  <name4> を引数とする関数  <name6> の定義
-return <name4> <   <name3>	<name4> が  <name3> より小さければ  True 、そうでなければ  False を返す
-def <name4> ( <name1> , <name2> ) :	<name1> と  <name2> を引数とする関数  <name4> の定義
+def <name1> ( <name4> , <name3> ) :	<name4> と  <name3> を引数とする関数  <name1> の定義
+def <name1> ( <name2> , <name3> ) :	<name2> と  <name3> を引数とする関数  <name1> の定義
+return <name5> <   <name2>	<name5> が  <name2> より小さければ  True 、そうでなければ  False を返す
+return <name1> <   <name2>	<name1> が  <name2> より小さければ  True 、そうでなければ  False を返す
+def <name2> ( <name5> , <name3> ) :	<name5> と  <name3> を引数とする関数  <name2> の定義
+def <name1> ( <name2> , <name3> ) :	<name2> と  <name3> を引数とする関数  <name1> の定義
+<name4> = [ ]	<name4> に空リストを代入
 <name1> = [ ]	<name1> に空リストを代入
-if <name6> <= <val2> :	もし  <name6> が  <val2> 以下であれば
+if <name1> <= <val3> :	もし  <name1> が  <val3> 以下であれば
+if <name1> <= <val2> :	もし  <name1> が  <val2> 以下であれば
 <name5> = <val1>	<name5> を  <val1> にする
-for <name4> in range ( <name2> , <name1> + 1 ) :	<name2> から  <name1> までの数を順に  <name4> として
-<name6> = <name5>	<name6> に  <name5> を代入
-for <name2> in range ( <val6> , int ( <name4> ** 0.5 ) + 1 ) :	<val6> から  <name4> の平方根までの数を順に  <name2> として
-if <name4> % <name2> == 0 :	もし  <name4> が  <name2> で割り切れるなら
+<name1> = <val2>	<name1> を  <val2> にする
+for <name4> in range ( <name5> , <name3> + 1 ) :	<name5> から  <name3> までの数を順に  <name4> として
+for <name1> in range ( <name2> , <name3> + 1 ) :	<name2> から  <name3> までの数を順に  <name1> として
+<name2> = <name3>	<name2> に  <name3> を代入
+<name1> = <name2>	<name1> に  <name2> を代入
+for <name1> in range ( <val4> , int ( <name2> ** 0.5 ) + 1 ) :	<val4> から  <name2> の平方根までの数を順に  <name1> として
+for <name1> in range ( <val2> , int ( <name3> ** 0.5 ) + 1 ) :	<val2> から  <name3> の平方根までの数を順に  <name1> として
+if <name5> % <name2> == 0 :	もし  <name5> が  <name2> で割り切れるなら
+if <name1> % <name2> == 0 :	もし  <name1> が  <name2> で割り切れるなら
 break	ループを抜ける
 else :	ループが正常に終了した場合
-<name5> . append ( <name2> )	<name5> に  <name2> を追加する
-return <name3>	<name3> を返す
-def <name1> ( <name2> , <name4> ) :	<name2> と  <name4> を引数とする関数  <name1> の定義
-while <name2> != <val5> :	<name2> が  <val5> でない間
-<name5> , <name6> = <name6> , <name5> % <name6>	<name5> に  <name6> を、  <name6> に  <name5> を  <name6> で割った余りを代入
-return <name6> == <val1>	<name6> が  <val1> であれば  True 、そうでなければ  False を返す
-def <name1> ( <name3> , <name4> ) :	<name3> と  <name4> を引数とする関数  <name1> の定義
-<name2> = <val6>	<name2> に  <val6> を代入
-while <name3> % <name6> == 0 :	<name3> が  <name6> で割り切れる間
-<name5> /= <name6>	<name5> を  <name6> で割る
-<name3> += <val1>	<name3> に  <val1> を足す
-return <name6>	<name6> を返す
-def <name2> ( <name4> ) :	<name4> を引数とする関数  <name2> の定義
-<name3> = [ <name6> ] * ( <name2> + <val1> )	<name3> に  <name2> + <val1> 個の  <name6> からなるリストを代入
-<name4> = [ ]	<name4> に空リストを代入
-for <name4> in range ( <val3> , int ( <name5> ** 0.5 ) + 1 ) :	<val3> から  <name5> の平方根までの数を順に  <name4> として
-if <name6> [ <name3> ] :	もし  <name6> の  <name3> 番目が真であれば
-for <name1> in range ( <name6> + <name6> , <name4> + 1 , <name6> ) :	<name6> の倍から  <name4> までの数を  <name6> 個飛ばしで順に  <name1> として
-<name5> [ <name6> ] = <name1>	<name5> の  <name6> 番目を  <name1> にする
-for <name3> in range ( <val4> , <name5> + 1 ) :	<val4> から  <name5> までの数を順に  <name3> として
-if <name3> [ <name4> ] :	もし  <name3> の  <name4> 番目が真なら
-<name6> . append ( <name5> )	<name6> の末尾に  <name5> を追加する
-<name2> = [ ]	<name2> に空リストを代入
-for <name6> in <name5> :	<name5> 内の各要素を順に  <name6> として
-if <name4> % <name5> == 0 :	もし  <name4> が  <name5> で割り切れるなら
-<name1> = <name2>	<name1> を  <name2> とする
-<name4> = <val5>	<name4> を  <val5> とする
-while <name5> % <name2> == 0 :	<name5> が  <name2> で割り切れる間
+<name1> . append ( <name3> )	<name1> に  <name3> を追加する
+<name1> . append ( <name2> )	<name1> に  <name2> を追加する
+return <name2>	<name2> を返す
+return <name1>	<name1> を返す
+def <name3> ( <name1> , <name6> ) :	<name1> と  <name6> を引数とする関数  <name3> の定義
+def <name1> ( <name2> , <name3> ) :	<name2> と  <name3> を引数とする関数  <name1> の定義
+while <name4> != <val1> :	<name4> が  <val1> でない間
+while <name1> != <val2> :	<name1> が  <val2> でない間
+<name5> , <name4> = <name4> , <name5> % <name4>	<name5> に  <name4> を、  <name4> に  <name5> を  <name4> で割った余りを代入
+<name1> , <name2> = <name2> , <name1> % <name2>	<name1> に  <name2> を、  <name2> に  <name1> を  <name2> で割った余りを代入
+return <name2> == <val1>	<name2> が  <val1> であれば  True 、そうでなければ  False を返す
+return <name1> == <val2>	<name1> が  <val2> であれば  True 、そうでなければ  False を返す
+def <name2> ( <name4> , <name3> ) :	<name4> と  <name3> を引数とする関数  <name2> の定義
+def <name1> ( <name2> , <name3> ) :	<name2> と  <name3> を引数とする関数  <name1> の定義
+<name1> = <val2>	<name1> に  <val2> を代入
+while <name1> % <name3> == 0 :	<name1> が  <name3> で割り切れる間
+while <name1> % <name2> == 0 :	<name1> が  <name2> で割り切れる間
 <name4> /= <name5>	<name4> を  <name5> で割る
+<name1> /= <name2>	<name1> を  <name2> で割る
 <name4> += <val1>	<name4> に  <val1> を足す
+<name1> += <val2>	<name1> に  <val2> を足す
+return <name5>	<name5> を返す
+return <name1>	<name1> を返す
+def <name2> ( <name3> ) :	<name3> を引数とする関数  <name2> の定義
+def <name1> ( <name2> ) :	<name2> を引数とする関数  <name1> の定義
+<name2> = [ <name3> ] * ( <name4> + <val6> )	<name2> に  <name4> + <val6> 個の  <name3> からなるリストを代入
+<name1> = [ <name2> ] * ( <name3> + <val4> )	<name1> に  <name3> + <val4> 個の  <name2> からなるリストを代入
+<name5> = [ ]	<name5> に空リストを代入
+<name1> = [ ]	<name1> に空リストを代入
+for <name2> in range ( <val3> , int ( <name6> ** 0.5 ) + 1 ) :	<val3> から  <name6> の平方根までの数を順に  <name2> として
+for <name1> in range ( <val2> , int ( <name3> ** 0.5 ) + 1 ) :	<val2> から  <name3> の平方根までの数を順に  <name1> として
+if <name3> [ <name6> ] :	もし  <name3> の  <name6> 番目が真であれば
+if <name1> [ <name2> ] :	もし  <name1> の  <name2> 番目が真であれば
+for <name6> in range ( <name5> + <name5> , <name1> + 1 , <name5> ) :	<name5> の倍から  <name1> までの数を  <name5> 個飛ばしで順に  <name6> として
+for <name1> in range ( <name2> + <name2> , <name3> + 1 , <name2> ) :	<name2> の倍から  <name3> までの数を  <name2> 個飛ばしで順に  <name1> として
+<name3> [ <name4> ] = <name6>	<name3> の  <name4> 番目を  <name6> にする
+<name1> [ <name2> ] = <name3>	<name1> の  <name2> 番目を  <name3> にする
+for <name2> in range ( <val1> , <name3> + 1 ) :	<val1> から  <name3> までの数を順に  <name2> として
+for <name1> in range ( <val2> , <name3> + 1 ) :	<val2> から  <name3> までの数を順に  <name1> として
+if <name2> [ <name5> ] :	もし  <name2> の  <name5> 番目が真なら
+if <name1> [ <name2> ] :	もし  <name1> の  <name2> 番目が真なら
+<name2> . append ( <name1> )	<name2> の末尾に  <name1> を追加する
+<name1> . append ( <name2> )	<name1> の末尾に  <name2> を追加する
+<name6> = [ ]	<name6> に空リストを代入
+<name1> = [ ]	<name1> に空リストを代入
+for <name3> in <name6> :	<name6> 内の各要素を順に  <name3> として
+for <name1> in <name2> :	<name2> 内の各要素を順に  <name1> として
+if <name2> % <name5> == 0 :	もし  <name2> が  <name5> で割り切れるなら
+if <name1> % <name2> == 0 :	もし  <name1> が  <name2> で割り切れるなら
+<name2> = <name5>	<name2> を  <name5> とする
+<name1> = <name2>	<name1> を  <name2> とする
+<name1> = <val6>	<name1> を  <val6> とする
+<name1> = <val2>	<name1> を  <val2> とする
+while <name1> % <name6> == 0 :	<name1> が  <name6> で割り切れる間
+while <name1> % <name2> == 0 :	<name1> が  <name2> で割り切れる間
+<name1> /= <name2>	<name1> を  <name2> で割る
+<name6> += <val1>	<name6> に  <val1> を足す
+<name1> += <val2>	<name1> に  <val2> を足す
 else :	ループが終了したら
-<name1> . append ( ( <name3> , <name4> ) )	<name3> と  <name4> の組を  <name1> に追加する
-return <name6>	<name6> を返す
-def <name1> ( <name5> ) :	<name5> を引数とする関数  <name1> を定義
-return sum ( range ( <val2> , <name4> + <val2> ) )	<val2> から  <name4> までの整数の総和を返す
-def <name5> ( <name3> ) :	<name3> を引数とする関数  <name5> を定義
-<name2> = <val3>	<name2> に  <val3> を代入
-<name1> = <val5>	<name1> に  <val5> を代入
+<name5> . append ( ( <name2> , <name4> ) )	<name2> と  <name4> の組を  <name5> に追加する
+<name1> . append ( ( <name2> , <name3> ) )	<name2> と  <name3> の組を  <name1> に追加する
+return <name4>	<name4> を返す
+return <name1>	<name1> を返す
+def <name6> ( <name4> ) :	<name4> を引数とする関数  <name6> を定義
+def <name1> ( <name2> ) :	<name2> を引数とする関数  <name1> を定義
+return sum ( range ( <val1> , <name4> + <val1> ) )	<val1> から  <name4> までの整数の総和を返す
+return sum ( range ( <val1> , <name2> + <val1> ) )	<val1> から  <name2> までの整数の総和を返す
+def <name5> ( <name1> ) :	<name1> を引数とする関数  <name5> を定義
+def <name1> ( <name2> ) :	<name2> を引数とする関数  <name1> を定義
+<name6> = <val3>	<name6> に  <val3> を代入
+<name1> = <val2>	<name1> に  <val2> を代入
+<name6> = <val2>	<name6> に  <val2> を代入
+<name1> = <val2>	<name1> に  <val2> を代入
+while <name2> <= <name4> :	<name2> が  <name4> 以下の間繰り返し
 while <name1> <= <name2> :	<name1> が  <name2> 以下の間繰り返し
 <name6> += <name2>	<name6> に  <name2> を足す
-<name2> += <val1>	<name2> に  <val1> を足す
+<name1> += <name2>	<name1> に  <name2> を足す
+<name6> += <val1>	<name6> に  <val1> を足す
+<name1> += <val2>	<name1> に  <val2> を足す
+return <name4>	<name4> を返す
+return <name1>	<name1> を返す
+def <name3> ( <name6> ) :	<name6> を引数とする関数  <name3> を定義
+def <name1> ( <name2> ) :	<name2> を引数とする関数  <name1> を定義
+<name6> = <val4>	<name6> に  <val4> を代入
+<name1> = <val2>	<name1> に  <val2> を代入
+for <name4> in <name6> :	<name6> の各要素を  <name4> として
+for <name1> in <name2> :	<name2> の各要素を  <name1> として
+<name3> *= ( <name4> + <val1> )	<name3> に  <name4> + <val1> を掛ける
+<name1> *= ( <name2> + <val3> )	<name1> に  <name2> + <val3> を掛ける
 return <name5>	<name5> を返す
-def <name1> ( <name5> ) :	<name5> を引数とする関数  <name1> を定義
-<name2> = <val1>	<name2> に  <val1> を代入
-for <name6> in <name3> :	<name3> の各要素を  <name6> として
-<name5> *= ( <name3> + <val1> )	<name5> に  <name3> + <val1> を掛ける
-return <name2>	<name2> を返す
-def <name2> ( <name1> ) :	<name1> を引数とする関数  <name2> を定義
+return <name1>	<name1> を返す
+def <name2> ( <name3> ) :	<name3> を引数とする関数  <name2> を定義
+def <name1> ( <name2> ) :	<name2> を引数とする関数  <name1> を定義
 return not <name5>	<name5> が偽であれば  True 、そうでなければ  False を返す
-def <name5> ( <name3> ) :	<name3> を引数とする関数  <name5> を定義
-return len ( <name2> ) == <val6>	<name2> の長さが  <val6> であれば  True 、そうでなければ  False を返す
+return not <name1>	<name1> が偽であれば  True 、そうでなければ  False を返す
+def <name6> ( <name4> ) :	<name4> を引数とする関数  <name6> を定義
+def <name1> ( <name2> ) :	<name2> を引数とする関数  <name1> を定義
+return len ( <name1> ) == <val5>	<name1> の長さが  <val5> であれば  True 、そうでなければ  False を返す
+return len ( <name1> ) == <val2>	<name1> の長さが  <val2> であれば  True 、そうでなければ  False を返す
+def <name2> ( ) :	関数  <name2> の定義
 def <name1> ( ) :	関数  <name1> の定義
-<name6> = [ ]	<name6> に空のリストを代入
-<name4> = str ( sum ( <name6> ) )	<name4> に  <name6> の要素の総和の文字列表現を代入
-"<name4> = """""	<name4> に空文字列を代入
-for <name1> , <name2> in enumerate ( <name6> ) :	<name2> を  <name6> の各要素、  <name1> をその番号として
-if <name5> <   <val3> :	もし  <name5> が  <val3> 未満であれば
-<name4> += <name2>	<name4> に  <name2> を追加
-return <name4>	<name4> を返す
-def <name2> ( <name4> , <name3> ) :	<name4> と  <name3> を引数とする関数  <name2> を定義
-"<name3> = """""	<name3> に空文字列を代入
-for <name3> , <name5> in enumerate ( <name6> ) :	<name5> を  <name6> の各要素、  <name3> をその番号として
-if <name3> <   <name6> :	もし  <name3> が  <name6> 未満であれば
-<name5> += <name6>	<name5> に  <name6> を追加
-return <name2>	<name2> を返す
-def <name5> ( <name2> , <name3> ) :	<name2> と  <name3> を引数とする関数  <name5> を定義
-<name5> = <val6>	<name5> に  <val6> を代入
-for <name6> in range ( <name1> ) :	<name1> 未満の非負整数を順に  <name6> として
-<name6> += <name3> [ <name2> ]	<name6> に  <name3> の  <name2> 番目を足す
-return <name4>	<name4> を返す
+<name2> = [ ]	<name2> に空のリストを代入
+<name1> = [ ]	<name1> に空のリストを代入
+<name2> = str ( sum ( <name4> ) )	<name2> に  <name4> の要素の総和の文字列表現を代入
+<name1> = str ( sum ( <name2> ) )	<name1> に  <name2> の要素の総和の文字列表現を代入
+<name3> = ''	<name3> に空文字列を代入
+<name1> = ''	<name1> に空文字列を代入
+for <name5> , <name6> in enumerate ( <name4> ) :	<name6> を  <name4> の各要素、  <name5> をその番号として
+for <name1> , <name2> in enumerate ( <name3> ) :	<name2> を  <name3> の各要素、  <name1> をその番号として
+if <name2> <   <val6> :	もし  <name2> が  <val6> 未満であれば
+if <name1> <   <val2> :	もし  <name1> が  <val2> 未満であれば
+<name1> += <name4>	<name1> に  <name4> を追加
+<name1> += <name2>	<name1> に  <name2> を追加
+return <name5>	<name5> を返す
+return <name1>	<name1> を返す
+def <name3> ( <name4> , <name6> ) :	<name4> と  <name6> を引数とする関数  <name3> を定義
+def <name1> ( <name2> , <name3> ) :	<name2> と  <name3> を引数とする関数  <name1> を定義
+<name5> = ''	<name5> に空文字列を代入
+<name1> = ''	<name1> に空文字列を代入
+for <name5> , <name4> in enumerate ( <name3> ) :	<name4> を  <name3> の各要素、  <name5> をその番号として
+for <name1> , <name2> in enumerate ( <name3> ) :	<name2> を  <name3> の各要素、  <name1> をその番号として
+if <name2> <   <name3> :	もし  <name2> が  <name3> 未満であれば
+if <name1> <   <name2> :	もし  <name1> が  <name2> 未満であれば
+<name4> += <name1>	<name4> に  <name1> を追加
+<name1> += <name2>	<name1> に  <name2> を追加
+return <name5>	<name5> を返す
+return <name1>	<name1> を返す
+def <name5> ( <name3> , <name6> ) :	<name3> と  <name6> を引数とする関数  <name5> を定義
+def <name1> ( <name2> , <name3> ) :	<name2> と  <name3> を引数とする関数  <name1> を定義
+<name5> = <val3>	<name5> に  <val3> を代入
+<name1> = <val2>	<name1> に  <val2> を代入
+for <name2> in range ( <name5> ) :	<name5> 未満の非負整数を順に  <name2> として
+for <name1> in range ( <name2> ) :	<name2> 未満の非負整数を順に  <name1> として
+<name4> += <name2> [ <name3> ]	<name4> に  <name2> の  <name3> 番目を足す
+<name1> += <name2> [ <name3> ]	<name1> に  <name2> の  <name3> 番目を足す
+return <name1>	<name1> を返す
+def <name4> ( ) :	関数  <name4> の定義
 def <name1> ( ) :	関数  <name1> の定義
-<name2> = <val5> ** <val6>	<name2> に  <val5> の  <val6> 乗を代入
-<name2> = [ <val3> ] * <name1>	<name2> に  <name1> 個の  <val3> を要素とするリストを代入
-<name5> [ 1 ] = <val6>	<name5> の  2 番目の要素を  <val6> とする
-for <name3> in range ( <val4> , <name1> ) :	<val4> から  <name1> 未満の各数を順に  <name3> として
-<name5> = [ ]	<name5> に空リストを代入
-while <name1> >= <name5> or <name3> [ <name1> ] == <val2> :	<name1> が  <name5> 以上か  <name3> の  <name1> 番目が  <val2> である間
-<name6> . append ( <name3> )	<name6> の末尾に  <name3> を追加
-<name5> = int ( <name5> / <val3> ) if <name5> % <val3> == 0 else <name5> * <val1> + <val4>	<name5> が  <val3> で割り切れる場合  <name5> を  <val3> で割った商を、そうでない場合  <name5> の  <val1> 倍に  <val4> を足した数を  <name5> に代入
-<name5> = <name2> [ <name1> ]	<name5> に  <name2> の  <name1> 番目の要素を代入
-for <name2> in reversed ( <name3> ) :	<name3> の要素を末尾から順に  <name2> として繰り返し
-<name4> += <val2>	<name4> に  <val2> を足す
-if <name3> <   <name5> :	もし  <name3> が  <name5> 未満なら
-<name4> [ <name6> ] = <name5>	<name4> の  <name6> 番目を  <name5> にする
-<name4> = <val6>	<name4> に  <val6> を代入
-<name2> = <val1>	<name2> に  <val1> を代入
-for <name4> , <name6> in enumerate ( <name3> ) :	<name3> の各要素を  <name6> 、  <name4> を番号として繰り返し
-if <name3> <   <name5> :	もし  <name3> が  <name5> より小さい場合
-<name1> = <name4>	<name1> を  <name4> にする
-<name2> = <name3>	<name2> を  <name3> にする
-return <name6>	<name6> を返す
-def <name2> ( <name4> ) :	<name4> を引数とする関数  <name2> を定義
-return int ( <name3> / <val1> ) if <name3> % <val1> == 0 else <name3> * <val4> + <val2>	<name3> が  <val1> で割り切れるなら  <name3> を  <val1> で割った商を、そうでないなら  <name3> の  <val4> 倍に  <val2> を足した数を返す
-def <name6> ( <name2> ) :	<name2> を引数とする関数  <name6> を定義
-<name6> = <val3>	<name6> に  <val3> を代入
-while <name3> != <val1> :	<name3> が  <val1> でない間
-<name3> = int ( <name3> / <val1> ) if <name3> % <val1> == 0 else <name3> * <val2> + <val5>	<name3> が  <val1> で割り切れるなら  <name3> を  <val1> で割った商を、そうでないなら  <name3> の  <val2> 倍に  <val5> を足した数を新しい  <name3> とする
-<name4> += <val2>	<name4> に  <val2> を足す
-return <name4>	<name4> を返す
-def <name5> ( <name1> , <name3> ) :	<name1> と  <name3> を引数とする関数  <name5> を定義
-<name4> = [ ]	<name4> を空リストとする
-for i in range ( <name6> ) :	以下の処理を  <name6> 回繰り返す
-<name6> . append ( <name4> )	<name6> の末尾に  <name4> を追加する
+<name2> = <val1> ** <val6>	<name2> に  <val1> の  <val6> 乗を代入
+<name1> = <val2> ** <val3>	<name1> に  <val2> の  <val3> 乗を代入
+<name2> = [ <val1> ] * <name3>	<name2> に  <name3> 個の  <val1> を要素とするリストを代入
+<name1> = [ <val2> ] * <name3>	<name1> に  <name3> 個の  <val2> を要素とするリストを代入
+<name5> [ 1 ] = <val4>	<name5> の  2 番目の要素を  <val4> とする
+<name1> [ 1 ] = <val2>	<name1> の  2 番目の要素を  <val2> とする
+for <name4> in range ( <val5> , <name3> ) :	<val5> から  <name3> 未満の各数を順に  <name4> として
+for <name1> in range ( <val2> , <name3> ) :	<val2> から  <name3> 未満の各数を順に  <name1> として
+<name1> = [ ]	<name1> に空リストを代入
+while <name4> >= <name6> or <name3> [ <name4> ] == <val2> :	<name4> が  <name6> 以上か  <name3> の  <name4> 番目が  <val2> である間
+while <name1> >= <name2> or <name3> [ <name1> ] == <val4> :	<name1> が  <name2> 以上か  <name3> の  <name1> 番目が  <val4> である間
+<name5> . append ( <name3> )	<name5> の末尾に  <name3> を追加
+<name1> . append ( <name2> )	<name1> の末尾に  <name2> を追加
+<name3> = int ( <name3> / <val1> ) if <name3> % <val1> == 0 else <name3> * <val6> + <val2>	<name3> が  <val1> で割り切れる場合  <name3> を  <val1> で割った商を、そうでない場合  <name3> の  <val6> 倍に  <val2> を足した数を  <name3> に代入
+<name1> = int ( <name1> / <val2> ) if <name1> % <val2> == 0 else <name1> * <val3> + <val4>	<name1> が  <val2> で割り切れる場合  <name1> を  <val2> で割った商を、そうでない場合  <name1> の  <val3> 倍に  <val4> を足した数を  <name1> に代入
+<name1> = <name2> [ <name6> ]	<name1> に  <name2> の  <name6> 番目の要素を代入
+<name1> = <name2> [ <name3> ]	<name1> に  <name2> の  <name3> 番目の要素を代入
+for <name3> in reversed ( <name5> ) :	<name5> の要素を末尾から順に  <name3> として繰り返し
+for <name1> in reversed ( <name2> ) :	<name2> の要素を末尾から順に  <name1> として繰り返し
+<name3> += <val2>	<name3> に  <val2> を足す
+<name1> += <val2>	<name1> に  <val2> を足す
+if <name4> <   <name3> :	もし  <name4> が  <name3> 未満なら
+if <name1> <   <name2> :	もし  <name1> が  <name2> 未満なら
+<name1> [ <name6> ] = <name2>	<name1> の  <name6> 番目を  <name2> にする
+<name1> [ <name2> ] = <name3>	<name1> の  <name2> 番目を  <name3> にする
+<name5> = <val2>	<name5> に  <val2> を代入
+<name1> = <val2>	<name1> に  <val2> を代入
+<name4> = <val2>	<name4> に  <val2> を代入
+<name1> = <val2>	<name1> に  <val2> を代入
+for <name2> , <name4> in enumerate ( <name6> ) :	<name6> の各要素を  <name4> 、  <name2> を番号として繰り返し
+for <name1> , <name2> in enumerate ( <name3> ) :	<name3> の各要素を  <name2> 、  <name1> を番号として繰り返し
+if <name1> <   <name5> :	もし  <name1> が  <name5> より小さい場合
+if <name1> <   <name2> :	もし  <name1> が  <name2> より小さい場合
+<name2> = <name5>	<name2> を  <name5> にする
+<name1> = <name2>	<name1> を  <name2> にする
+<name1> = <name3>	<name1> を  <name3> にする
+<name1> = <name2>	<name1> を  <name2> にする
 return <name1>	<name1> を返す
 def <name3> ( <name4> ) :	<name4> を引数とする関数  <name3> を定義
-<name1> = [ ]	<name1> を空リストとする
-for <name1> in range ( len ( <name2> ) ) :	<name2> の各要素の番号を順に  <name1> として
-<name3> . append ( ( <name5> , <name2> [ <name5> ] ) )	<name3> に  <name5> と  <name2> の  <name5> 番目からなる組を追加する
-return <name4>	<name4> を返す
-def <name5> ( <name1> ) :	<name1> を引数とする関数  <name5> を定義
-<name2> = [ ]	<name2> を空リストとする
-for <name1> in reversed ( <name3> ) :	<name3> の末尾要素から順に  <name1> として
-<name5> . append ( <name1> )	<name5> の末尾に  <name1> を追加する
-return <name4>	<name4> を返す
-def <name2> ( <name6> , <name3> ) :	<name6> と  <name3> を引数とする関数  <name2> を定義
-<name3> = [ ]	<name3> を空とする
-for <name5> in range ( <name4> , <name6> ) :	<name4> 以上  <name6> 未満の整数を小さい方から  <name5> として
-<name6> . append ( <name5> )	<name6> の末尾に  <name5> を追加する
-return <name6>	<name6> を返す
-def <name3> ( ) :	関数  <name3> の定義
-<name3> = [ <val6> ] * <val1>	<name3> を  <val1> 個の  <val6> からなるリストとする
-for <name4> in range ( <val1> ) :	<val1> 未満の非負整数を小さい方から順に  <name4> として
-<name6> [ <name5> + <val1> ] = <name6> [ <name5> ] * ( <name5> + <val1> )	<name6> の  <name5> + <val1> 番目に  <name6> の  <name5> 番目と  <name5> + <val1> の積を代入
-dinomials = [ <val2> ] * <val3>	dinominals を  <val2> が  <val3> 個並んだリストとする
-for <name2> in range ( <val5> ) :	<val5> 未満の非負整数を小さい方から順に  <name2> として
-dinomials [ <name4> ] = int ( <name3> [ <val5> ] / ( <name3> [ <name4> ] * <name3> [ <val5> - <name4> ] ) )	<name3> の  <val5> 番目の要素を  <name4> 番目の要素と  <val5> - <name4> 番目の要素の積で割った結果を  dinominals の  <name4> 番目に格納する
-for <name2> in range ( <val3> ) :	<val3> 未満の非負整数  <name2> を小さい方から順に調べる
-for <name6> in range ( <val1> ) :	<val1> 未満の非負整数  <name6> を小さい方から順に調べる
-dinomials [ <name5> ] += dinomials [ <name5> + <val6> ]	dinominals の  <name5> 番目に  <name5> + <val6> 番目の要素を足す
-return dinomials [ 0 ]	dinominals の最初の要素を返す
-def <name1> ( <name5> , <name2> ) :	<name5> と  <name2> を引数とする関数  <name1> の定義
-<name6> = [ <val3> ] * ( <name4> + <val3> )	<name6> を  <val3> が  <name4> + <val3> 個並んだリストとする
-for x in range ( <name4> ) :	<name4> 未満の非負整数  <name4> を小さい方から順に
-<name4> [ <name3> + <val2> ] = <name4> [ <name3> ] * ( <name3> + <val2> )	<name4> の  <name3> + <val2> 番目の要素に  <name3> 番目の要素と  <name3> + <val2> の積を代入
-return int ( <name5> [ <name3> ] / ( <name5> [ <name2> ] * <name5> [ <name3> - <name2> ] ) )	<name5> の  <name3> 番目の要素を  <name2> 番目と  <name3> - <name2> 番目の要素の積で割った結果を返す
-def <name6> ( <name2> ) :	<name2> を引数とする関数  <name6> の定義
-<name2> = [ <val3> ] * ( <name1> + <val3> )	<name2> に  <val3> が  <name1> + <val3> 個繋がったリストを格納
-for <name6> in range ( <name4> ) :	<name4> 未満の非負整数  <name6> を小さい方から順に
-<name2> [ <name4> + <val1> ] = <name2> [ <name4> ] * ( <name4> + <val1> )	<name2> の  <name4> + <val1> 番目の要素に  <name4> 番目の要素と  <name4> + <val1> 積を代入する
-return <name4>	<name4> を返す
-def <name6> ( <name4> ) :	<name4> を引数とする関数  <name6> の定義
-if <name5> == <val3> :	もし  <name5> が  <val3> と等しければ
-return [ <val3> ]	<val3> のみからなるリストを返す
-else :	そうでなければ
-<name1> = <name4> ( <name3> - 1 )	<name4> に  <name3> -1 を渡した結果を  <name1> とする
-<name4> = [ <name6> [ 0 ] , <name6> [ -1 ] ]	<name4> を  <name6> の最初の要素と末尾の要素からなるリストとする
-for <name2> in range ( <name3> - 2 ) :	<name3> -2 未満の非負整数  <name2> を小さい方から順に調べる
-<name6> . insert ( <name5> + <val1> , <name2> [ <name5> ] + <name2> [ <name5> + <val1> ] )	<name6> の  <name5> + <val1> 番目に  <name2> の  <name5> 番目と  <name5> + <val1> 番目の要素の和を追加する
-return <name6>	<name6> を返す
-def <name6> ( ) :	関数  <name6> の定義
-<name2> = str ( <val6> ** <val5> )	<name2> に  <val6> の  <val5> 乗の文字列表現を格納
+def <name1> ( <name2> ) :	<name2> を引数とする関数  <name1> を定義
+return int ( <name3> / <val1> ) if <name3> % <val1> == 0 else <name3> * <val5> + <val2>	<name3> が  <val1> で割り切れるなら  <name3> を  <val1> で割った商を、そうでないなら  <name3> の  <val5> 倍に  <val2> を足した数を返す
+return int ( <name1> / <val2> ) if <name1> % <val2> == 0 else <name1> * <val3> + <val4>	<name1> が  <val2> で割り切れるなら  <name1> を  <val2> で割った商を、そうでないなら  <name1> の  <val3> 倍に  <val4> を足した数を返す
+def <name3> ( <name5> ) :	<name5> を引数とする関数  <name3> を定義
+def <name1> ( <name2> ) :	<name2> を引数とする関数  <name1> を定義
 <name6> = <val3>	<name6> に  <val3> を代入
-for <name6> in <name1> :	<name1> の各要素を前から順に  <name6> として
-<name3> += int ( <name5> )	<name3> に  <name5> を表す整数を足す
-return <name4>	<name4> を返す
-def <name1> ( <name3> ) :	<name3> を引数とする関数  <name1> の定義
-<name4> = str ( <name5> )	<name4> に  <name5> の文字列表現を格納
-<name3> = <val4>	<name3> に  <val4> を代入
-for <name5> in <name3> :	<name3> の各要素を前から順に  <name5> として
-<name6> += int ( <name3> )	<name6> に  <name3> の表す整数を足す
-return <name1>	<name1> を返す
-def <name1> ( <name5> ) :	<name5> を引数とする関数  <name1> の定義
-<name5> = [ <name1> % <val4> ]	<name5> を  <name1> を  <val4> で割った余りのみからなるリストとする
-while int ( <name4> / <val1> ) >   <val5> :	<name4> を  <val1> で割った整数部分が  <val5> でない間繰り返し
-<name4> = int ( <name4> / <val5> )	<name4> を  <val5> で割った整数部分を新しい  <name4> とする
-<name3> . insert ( 0 , <name2> % <val4> )	<name3> の先頭に  <name2> を  <val4> で割った余りを追加する
-return <name1>	<name1> を返す
-def <name3> ( <name6> , <name4> ) :	<name6> と  <name4> を引数とする関数  <name3> の定義
-<name5> = <val4>	<name5> を  <val4> とする
-<name4> = <val1>	<name4> を  <val1> とする
-while <name3> <   <name2> :	<name3> が  <name2> より小さい間
-<name5> *= <name1>	<name5> に  <name1> を掛ける
-<name4> += <val6>	<name4> に  <val6> を足す
-return <name5>	<name5> を返す
-def <name1> ( <name6> , <name5> ) :	<name6> と  <name5> を引数とする関数  <name1> の定義
-return <name1> ** <name3>	<name1> の  <name3> 乗を返す
-def <name4> ( ) :	関数  <name4> の定義
-<name4> = <val3>	<name4> に  <val3> を代入
-for <name4> in range ( <val6> , <val3> ) :	<val6> から  <val3> 未満の数を順に  <name4> として
-if <name4> <= <val3> :	もし  <name4> が  <val3> 以下であれば
-<name2> += len ( <name4> [ <name5> ] )	<name2> に  <name4> の  <name5> 番目の要素の長さを足す
-elif len ( str ( <name6> ) ) == <val1> :	そうでなくて、もし  <name6> の文字列表現の長さが  <val1> であれば
-<name5> += len ( twoword [ int ( <name2> / <val3> ) ] )	toword の  <name2> / <val3> 番目の要素の長さを  <name5> に足す
-<name2> += len ( <name3> [ <name5> % <val6> ] )	<name3> の  <name5> % <val6> 番目の要素の長さを  <name2> に足す
-elif len ( str ( <name1> ) ) == <val5> :	そうでなくて、もし  <name1> の文字列表現の長さが  <val5> であれば
-<name3> += len ( <name5> [ int ( <name2> / <val1> ) ] )	<name5> の  <name2> / <val1> 番目の要素の長さを  <name3> に足す
-"<name5> += len ( ""hundredand"" )"	hundredand の文字数を  <name5> に足す
-<name6> = <name5> % <val4>	<name6> に  <name5> を  <val4> で割った余りを代入
-if <name2> != <val1> and <name2> <= <val6> :	もし  <name2> が  <val1> でなくて、かつ  <name2> が  <val6> 以下であれば
-<name1> += len ( <name5> [ <name4> ] )	<name1> に  <name5> の  <name4> 番目の要素の長さを足す
-elif <name4> == <val5> :	そうでなくて、もし  <name4> が  <val5> であれば
-<name1> -= <val3>	<name1> から  <val3> を引く
-else :	いずれでもなければ
-<name3> += len ( twoword [ int ( <name2> / <val6> ) ] )	<name3> に  toword の  <name2> / <val6> 番目の要素の長さを足す
-<name5> += len ( <name6> [ <name3> % <val2> ] )	<name5> に  <name6> の  <name3> % <val2> 番目の要素の長さを足す
-else :	上記のいずれでもなければ
-<name2> += len ( <val1> )	<name2> に  <val1> の文字数を足す
-return <name5>	<name5> を返す
-def <name3> ( <name2> ) :	<name2> を引数とする関数  <name3> の定義
-<name4> = str ( <name2> )	<name4> を  <name2> の文字列表現とする
-<name1> = [ ]	<name1> を空リストとする
-for <name6> in <name3> :	<name3> の各要素を前から順に  <name6> として
-<name6> . append ( int ( <name3> ) )	<name6> の末尾に  <name3> の表す整数を追加
-return <name3>	<name3> を返す
-def <name5> ( <name4> ) :	<name4> を引数とする関数  <name5> を定義
-<name2> = <val1>	<name2> に  <val1> を代入
-while int ( <name1> / <val2> ) >   <val5> :	<name1> を  <val2> で割った整数部分が  <val5> より大きい間
-<name5> /= <val4>	<name5> を  <val4> で割る
-<name4> += <val3>	<name4> に  <val3> を足す
-return <name6>	<name6> を返す
-def <name5> ( <name1> ) :	<name1> を引数とする関数  <name5> を定義
-return <name3> [ <name5> % <val1> ]	<name3> の  <name5> % <val1> 番目を返す
-def <name5> ( <name4> , <name6> ) :	<name4> と  <name6> を引数とする関数  <name5> の定義
-return <name2> == <name5>	<name2> と  <name5> が等しければ  True 、そうでなければ  False を返す
-def euler017_divid_integer_part ( <name2> , <name3> ) :	<name2> と  <name3> を引数とする関数  euler -17_ divid_inateger_part を定義
-return int ( <name4> / <name1> )	<name4> を  <name1> で割った整数部分を返す
-def <name1> ( <name4> ) :	<name4> を引数とする関数  <name1> の定義
-<name2> = <val1>	<name2> に  <val1> を代入
-for <name1> in <name4> :	<name4> 内の各要素を  <name1> として
-<name5> += <val1>	<name5> に  <val1> を足す
-return <name5>	<name5> を返す
-def <name4> ( <name5> ) :	<name5> を引数とする関数  <name4> を定義
-return len ( <name3> )	<name3> の長さを返す
-def <name6> ( ) :	関数  <name6> の定義
-for <name6> in reversed ( range ( len ( <name5> ) - 1 ) ) :	<name5> の長さ  -1 未満の非負整数を大きい方から  <name6> として
-for <name4> in range ( len ( <name2> [ <name6> ] ) ) :	<name2> の  <name6> 番目の長さ未満の非負整数を小さい方から  <name4> として
-<name6> [ <name5> ] [ <name3> ] += max ( <name6> [ <name5> + <val1> ] [ <name3> ] , <name6> [ <name5> + <val1> ] [ <name3> + <val1> ] )	<name6> [ <name5> + <val1> ] [ <name3> ] と  <name6> [ <name5> + <val1> ] [ <name3> + <val1> ] の大きい方を  <name6> [ <name5> ] [ <name3> ] に足す
-return <name6> [ 0 ] [ 0 ]	<name6> の先頭要素の先頭要素を返す
-def <name4> ( ) :	関数  <name4> の定義
-<name2> = <val1>	<name2> に  <val1> を代入
-<name3> = <val2>	<name3> に  <val2> を代入
-for <name1> in range ( <val5> , <val6> ) :	<val5> 以上  <val6> 未満の整数を順に  <name1> として
-for <name6> , <name1> in enumerate ( <name4> ) :	<name1> を  <name4> の各要素、  <name6> をその番号として
-if <name6> % <val5> == <val4> :	もし  <name6> を  <val5> で割った余りが  <val4> であれば
-<name2> += <val1>	<name2> に  <val1> を足す
-<name5> += <name3>	<name5> に  <name3> を足す
-if ( <name3> % <val6> == 0 or ( ( not <name3> % <val4> == 0 ) and <name3> % <val2> == 0 ) ) and <name5> == <val1> :	<name3> が  <val6> で割り切れるか、  <val4> で割り切れずに  <val2> で割り切れ、さらに  <name5> が  <val1> である場合、
-<name6> += <val5>	<name6> に  <val5> を足す
-return <name6>	<name6> を返す
-def <name6> ( <name1> ) :	<name1> を引数とする関数  <name6> を定義
-return <name5> % <val2> == 0 or ( ( not <name5> % <val4> == 0 ) and <name5> % <val3> == 0 )	<name5> が  <val2> で割り切れるか、  <val4> で割り切れずに  <val3> で割り切れる場合  True 、そうでない場合  False を返す。
-def <name2> ( <name5> , <name3> , <name6> ) :	<name5> と  <name3> と  <name6> を引数とする関数  <name2> を定義
-if <name1> <= <val5> :	もし  <name1> が  <val5> 以下であれば
-<name3> += <val2>	<name3> に  <val2> を足す
-<name1> -= <val5>	<name1> から  <val5> を引く
-<name2> = <val3>	<name2> に  <val3> を代入
-if <val6> <= <name5> :	もし  <name5> が  <val6> 以上であれば
-<name6> = <val3> * int ( <name5> / <val4> ) + int ( int ( <name5> / <val4> ) / <val1> )	<name6> に  <name5> / <val4> の整数部分の  <val3> 倍と  <name5> / <val4> の整数部分を  <val1> で割った整数部分の和を代入
-else :	そうでなければ
-<name2> = <val3> * int ( <name5> / <val1> ) + <val6>	<name2> に  <name5> を  <val1> で割った整数部分の  <val3> 倍に  <val6> を足したものを代入
-<name4> = ( <name1> + int ( <val5> * ( <name6> + <val2> ) / <val3> ) + ( <name4> % <val1> ) + int ( ( <name4> % <val1> ) / <val5> ) + <name6> ) % 7	<name4> に  <name1> 、  <val5> ( <name6> + <val2> ) / <val3> の整数部分、  yy を  <val1> で割った余り、  <name4> % <val1> / <val5> の整数部分、  <name6> を足した結果を代入
-return <name6> [ <name3> ]	<name6> の  <name3> 番目を返す
-def <name4> ( ) :	関数  <name4> の定義
-<name6> = <val2>	<name6> に  <val2> を代入
-for <name3> in range ( <val2> ) :	<val2> 未満の非負整数を小さい方から順に  <name3> として
-<name4> *= ( <name2> + <val1> )	<name4> に  <name2> + <val1> を掛ける
-<name2> = str ( <name1> )	<name2> に  <name1> の文字列表現を代入
-<name6> = [ ]	<name6> に空リストを代入
-for <name5> in <name1> :	<name1> の各要素を順に  <name5> として
-<name6> . append ( int ( <name3> ) )	<name6> の末尾にに  <name3> の表す整数を追加
-return sum ( <name3> )	<name3> の全要素の総和を返す
-def <name3> ( <name1> ) :	<name1> を引数とする関数  <name3> の定義
-<name6> = <val5>	<name6> に  <val5> を代入
-for <name1> in range ( <name2> ) :	<name2> 未満の非負整数を小さい方から順に  <name1> として
-<name5> *= ( <name2> + <val4> )	<name5> に  <name2> + <val4> を掛ける
-return <name2>	<name2> を返す
-def <name1> ( <name6> ) :	<name6> を引数とする関数  <name1> の定義
-<name4> = str ( <name3> )	<name4> に  <name3> の文字列表現を代入
 <name1> = <val2>	<name1> に  <val2> を代入
-for <name6> in <name4> :	<name4> の各要素を順に  <name6> として
-<name5> += int ( <name1> )	<name5> に  <name1> の表す整数を足す
+while <name1> != <val3> :	<name1> が  <val3> でない間
+while <name1> != <val2> :	<name1> が  <val2> でない間
+<name2> = int ( <name2> / <val1> ) if <name2> % <val1> == 0 else <name2> * <val5> + <val6>	<name2> が  <val1> で割り切れるなら  <name2> を  <val1> で割った商を、そうでないなら  <name2> の  <val5> 倍に  <val6> を足した数を新しい  <name2> とする
+<name1> = int ( <name1> / <val2> ) if <name1> % <val2> == 0 else <name1> * <val3> + <val4>	<name1> が  <val2> で割り切れるなら  <name1> を  <val2> で割った商を、そうでないなら  <name1> の  <val3> 倍に  <val4> を足した数を新しい  <name1> とする
+<name2> += <val6>	<name2> に  <val6> を足す
+<name1> += <val2>	<name1> に  <val2> を足す
 return <name5>	<name5> を返す
+return <name1>	<name1> を返す
+def <name1> ( <name6> , <name4> ) :	<name6> と  <name4> を引数とする関数  <name1> を定義
+def <name1> ( <name2> , <name3> ) :	<name2> と  <name3> を引数とする関数  <name1> を定義
+<name3> = [ ]	<name3> を空リストとする
+<name1> = [ ]	<name1> を空リストとする
+for i in range ( <name1> ) :	以下の処理を  <name1> 回繰り返す
+<name6> . append ( <name2> )	<name6> の末尾に  <name2> を追加する
+<name1> . append ( <name2> )	<name1> の末尾に  <name2> を追加する
+return <name1>	<name1> を返す
+def <name6> ( <name5> ) :	<name5> を引数とする関数  <name6> を定義
+def <name1> ( <name2> ) :	<name2> を引数とする関数  <name1> を定義
+<name1> = [ ]	<name1> を空リストとする
+for <name5> in range ( len ( <name4> ) ) :	<name4> の各要素の番号を順に  <name5> として
+for <name1> in range ( len ( <name2> ) ) :	<name2> の各要素の番号を順に  <name1> として
+<name2> . append ( ( <name6> , <name3> [ <name6> ] ) )	<name2> に  <name6> と  <name3> の  <name6> 番目からなる組を追加する
+<name1> . append ( ( <name2> , <name3> [ <name2> ] ) )	<name1> に  <name2> と  <name3> の  <name2> 番目からなる組を追加する
+return <name3>	<name3> を返す
+return <name1>	<name1> を返す
+def <name6> ( <name4> ) :	<name4> を引数とする関数  <name6> を定義
+def <name1> ( <name2> ) :	<name2> を引数とする関数  <name1> を定義
+<name4> = [ ]	<name4> を空リストとする
+<name1> = [ ]	<name1> を空リストとする
+for <name5> in reversed ( <name3> ) :	<name3> の末尾要素から順に  <name5> として
+for <name1> in reversed ( <name2> ) :	<name2> の末尾要素から順に  <name1> として
+<name1> . append ( <name4> )	<name1> の末尾に  <name4> を追加する
+<name1> . append ( <name2> )	<name1> の末尾に  <name2> を追加する
+return <name6>	<name6> を返す
+return <name1>	<name1> を返す
+def <name6> ( <name5> , <name4> ) :	<name5> と  <name4> を引数とする関数  <name6> を定義
+def <name1> ( <name2> , <name3> ) :	<name2> と  <name3> を引数とする関数  <name1> を定義
+<name6> = [ ]	<name6> を空とする
+<name1> = [ ]	<name1> を空とする
+for <name3> in range ( <name1> , <name4> ) :	<name1> 以上  <name4> 未満の整数を小さい方から  <name3> として
+for <name1> in range ( <name2> , <name3> ) :	<name2> 以上  <name3> 未満の整数を小さい方から  <name1> として
+<name3> . append ( <name1> )	<name3> の末尾に  <name1> を追加する
+<name1> . append ( <name2> )	<name1> の末尾に  <name2> を追加する
+return <name1>	<name1> を返す
+def <name5> ( ) :	関数  <name5> の定義
+def <name1> ( ) :	関数  <name1> の定義
+<name6> = [ <val4> ] * <val5>	<name6> を  <val5> 個の  <val4> からなるリストとする
+<name1> = [ <val2> ] * <val3>	<name1> を  <val3> 個の  <val2> からなるリストとする
+for <name3> in range ( <val1> ) :	<val1> 未満の非負整数を小さい方から順に  <name3> として
+for <name1> in range ( <val2> ) :	<val2> 未満の非負整数を小さい方から順に  <name1> として
+<name3> [ <name4> + <val2> ] = <name3> [ <name4> ] * ( <name4> + <val2> )	<name3> の  <name4> + <val2> 番目に  <name3> の  <name4> 番目と  <name4> + <val2> の積を代入
+<name1> [ <name2> + <val3> ] = <name1> [ <name2> ] * ( <name2> + <val3> )	<name1> の  <name2> + <val3> 番目に  <name1> の  <name2> 番目と  <name2> + <val3> の積を代入
+dinomials = [ <val5> ] * <val6>	dinominals を  <val5> が  <val6> 個並んだリストとする
+dinomials = [ <val1> ] * <val2>	dinominals を  <val1> が  <val2> 個並んだリストとする
+for <name1> in range ( <val5> ) :	<val5> 未満の非負整数を小さい方から順に  <name1> として
+for <name1> in range ( <val2> ) :	<val2> 未満の非負整数を小さい方から順に  <name1> として
+dinomials [ <name5> ] = int ( <name1> [ <val3> ] / ( <name1> [ <name5> ] * <name1> [ <val3> - <name5> ] ) )	<name1> の  <val3> 番目の要素を  <name5> 番目の要素と  <val3> - <name5> 番目の要素の積で割った結果を  dinominals の  <name5> 番目に格納する
+dinomials [ <name1> ] = int ( <name2> [ <val3> ] / ( <name2> [ <name1> ] * <name2> [ <val3> - <name1> ] ) )	<name2> の  <val3> 番目の要素を  <name1> 番目の要素と  <val3> - <name1> 番目の要素の積で割った結果を  dinominals の  <name1> 番目に格納する
+for <name1> in range ( <val5> ) :	<val5> 未満の非負整数  <name1> を小さい方から順に調べる
+for <name1> in range ( <val2> ) :	<val2> 未満の非負整数  <name1> を小さい方から順に調べる
+for <name3> in range ( <val4> ) :	<val4> 未満の非負整数  <name3> を小さい方から順に調べる
+for <name1> in range ( <val2> ) :	<val2> 未満の非負整数  <name1> を小さい方から順に調べる
+dinomials [ <name2> ] += dinomials [ <name2> + <val1> ]	dinominals の  <name2> 番目に  <name2> + <val1> 番目の要素を足す
+dinomials [ <name1> ] += dinomials [ <name1> + <val2> ]	dinominals の  <name1> 番目に  <name1> + <val2> 番目の要素を足す
+return dinomials [ 0 ]	dinominals の最初の要素を返す
+def <name1> ( <name5> , <name3> ) :	<name5> と  <name3> を引数とする関数  <name1> の定義
+def <name1> ( <name2> , <name3> ) :	<name2> と  <name3> を引数とする関数  <name1> の定義
+<name1> = [ <val4> ] * ( <name3> + <val4> )	<name1> を  <val4> が  <name3> + <val4> 個並んだリストとする
+<name1> = [ <val2> ] * ( <name3> + <val2> )	<name1> を  <val2> が  <name3> + <val2> 個並んだリストとする
+for x in range ( <name5> ) :	<name5> 未満の非負整数  <name5> を小さい方から順に
+for x in range ( <name1> ) :	<name1> 未満の非負整数  <name1> を小さい方から順に
+<name4> [ <name5> + <val6> ] = <name4> [ <name5> ] * ( <name5> + <val6> )	<name4> の  <name5> + <val6> 番目の要素に  <name5> 番目の要素と  <name5> + <val6> の積を代入
+<name1> [ <name2> + <val3> ] = <name1> [ <name2> ] * ( <name2> + <val3> )	<name1> の  <name2> + <val3> 番目の要素に  <name2> 番目の要素と  <name2> + <val3> の積を代入
+return int ( <name4> [ <name6> ] / ( <name4> [ <name3> ] * <name4> [ <name6> - <name3> ] ) )	<name4> の  <name6> 番目の要素を  <name3> 番目と  <name6> - <name3> 番目の要素の積で割った結果を返す
+return int ( <name1> [ <name2> ] / ( <name1> [ <name3> ] * <name1> [ <name2> - <name3> ] ) )	<name1> の  <name2> 番目の要素を  <name3> 番目と  <name2> - <name3> 番目の要素の積で割った結果を返す
+def <name6> ( <name3> ) :	<name3> を引数とする関数  <name6> の定義
+def <name1> ( <name2> ) :	<name2> を引数とする関数  <name1> の定義
+<name1> = [ <val6> ] * ( <name4> + <val6> )	<name1> に  <val6> が  <name4> + <val6> 個繋がったリストを格納
+<name1> = [ <val2> ] * ( <name3> + <val2> )	<name1> に  <val2> が  <name3> + <val2> 個繋がったリストを格納
+for <name5> in range ( <name3> ) :	<name3> 未満の非負整数  <name5> を小さい方から順に
+for <name1> in range ( <name2> ) :	<name2> 未満の非負整数  <name1> を小さい方から順に
+<name5> [ <name4> + <val1> ] = <name5> [ <name4> ] * ( <name4> + <val1> )	<name5> の  <name4> + <val1> 番目の要素に  <name4> 番目の要素と  <name4> + <val1> 積を代入する
+<name1> [ <name2> + <val3> ] = <name1> [ <name2> ] * ( <name2> + <val3> )	<name1> の  <name2> + <val3> 番目の要素に  <name2> 番目の要素と  <name2> + <val3> 積を代入する
+return <name5>	<name5> を返す
+return <name1>	<name1> を返す
+def <name6> ( <name5> ) :	<name5> を引数とする関数  <name6> の定義
+def <name1> ( <name2> ) :	<name2> を引数とする関数  <name1> の定義
+if <name5> == <val1> :	もし  <name5> が  <val1> と等しければ
+if <name1> == <val2> :	もし  <name1> が  <val2> と等しければ
+return [ <val3> ]	<val3> のみからなるリストを返す
+return [ <val1> ]	<val1> のみからなるリストを返す
+else :	そうでなければ
+<name3> = <name6> ( <name5> - 1 )	<name6> に  <name5> -1 を渡した結果を  <name3> とする
+<name1> = <name2> ( <name3> - 1 )	<name2> に  <name3> -1 を渡した結果を  <name1> とする
+<name5> = [ <name4> [ 0 ] , <name4> [ -1 ] ]	<name5> を  <name4> の最初の要素と末尾の要素からなるリストとする
+<name1> = [ <name2> [ 0 ] , <name2> [ -1 ] ]	<name1> を  <name2> の最初の要素と末尾の要素からなるリストとする
+for <name2> in range ( <name3> - 2 ) :	<name3> -2 未満の非負整数  <name2> を小さい方から順に調べる
+for <name1> in range ( <name2> - 2 ) :	<name2> -2 未満の非負整数  <name1> を小さい方から順に調べる
+<name2> . insert ( <name1> + <val4> , <name3> [ <name1> ] + <name3> [ <name1> + <val4> ] )	<name2> の  <name1> + <val4> 番目に  <name3> の  <name1> 番目と  <name1> + <val4> 番目の要素の和を追加する
+<name1> . insert ( <name2> + <val3> , <name4> [ <name2> ] + <name4> [ <name2> + <val3> ] )	<name1> の  <name2> + <val3> 番目に  <name4> の  <name2> 番目と  <name2> + <val3> 番目の要素の和を追加する
+return <name1>	<name1> を返す
+def <name1> ( ) :	関数  <name1> の定義
+<name3> = str ( <val5> ** <val1> )	<name3> に  <val5> の  <val1> 乗の文字列表現を格納
+<name1> = str ( <val2> ** <val3> )	<name1> に  <val2> の  <val3> 乗の文字列表現を格納
+<name1> = <val3>	<name1> に  <val3> を代入
+<name1> = <val2>	<name1> に  <val2> を代入
+for <name6> in <name2> :	<name2> の各要素を前から順に  <name6> として
+for <name1> in <name2> :	<name2> の各要素を前から順に  <name1> として
+<name1> += int ( <name4> )	<name1> に  <name4> を表す整数を足す
+<name1> += int ( <name2> )	<name1> に  <name2> を表す整数を足す
+return <name5>	<name5> を返す
+return <name1>	<name1> を返す
+def <name6> ( <name3> ) :	<name3> を引数とする関数  <name6> の定義
+def <name1> ( <name2> ) :	<name2> を引数とする関数  <name1> の定義
+<name6> = str ( <name5> )	<name6> に  <name5> の文字列表現を格納
+<name1> = str ( <name2> )	<name1> に  <name2> の文字列表現を格納
+<name2> = <val3>	<name2> に  <val3> を代入
+<name1> = <val2>	<name1> に  <val2> を代入
+for <name2> in <name1> :	<name1> の各要素を前から順に  <name2> として
+for <name1> in <name2> :	<name2> の各要素を前から順に  <name1> として
+<name2> += int ( <name4> )	<name2> に  <name4> の表す整数を足す
+<name1> += int ( <name2> )	<name1> に  <name2> の表す整数を足す
+return <name6>	<name6> を返す
+return <name1>	<name1> を返す
+def <name2> ( <name4> ) :	<name4> を引数とする関数  <name2> の定義
+def <name1> ( <name2> ) :	<name2> を引数とする関数  <name1> の定義
+<name3> = [ <name2> % <val1> ]	<name3> を  <name2> を  <val1> で割った余りのみからなるリストとする
+<name1> = [ <name2> % <val3> ]	<name1> を  <name2> を  <val3> で割った余りのみからなるリストとする
+while int ( <name4> / <val5> ) >   <val2> :	<name4> を  <val5> で割った整数部分が  <val2> でない間繰り返し
+while int ( <name1> / <val2> ) >   <val3> :	<name1> を  <val2> で割った整数部分が  <val3> でない間繰り返し
+<name1> = int ( <name1> / <val3> )	<name1> を  <val3> で割った整数部分を新しい  <name1> とする
+<name1> = int ( <name1> / <val2> )	<name1> を  <val2> で割った整数部分を新しい  <name1> とする
+<name5> . insert ( 0 , <name3> % <val4> )	<name5> の先頭に  <name3> を  <val4> で割った余りを追加する
+<name1> . insert ( 0 , <name2> % <val3> )	<name1> の先頭に  <name2> を  <val3> で割った余りを追加する
+return <name4>	<name4> を返す
+return <name1>	<name1> を返す
+def <name4> ( <name2> , <name3> ) :	<name2> と  <name3> を引数とする関数  <name4> の定義
+def <name1> ( <name2> , <name3> ) :	<name2> と  <name3> を引数とする関数  <name1> の定義
+<name2> = <val5>	<name2> を  <val5> とする
+<name1> = <val2>	<name1> を  <val2> とする
+<name5> = <val4>	<name5> を  <val4> とする
+<name1> = <val2>	<name1> を  <val2> とする
+while <name1> <   <name6> :	<name1> が  <name6> より小さい間
+while <name1> <   <name2> :	<name1> が  <name2> より小さい間
+<name3> *= <name2>	<name3> に  <name2> を掛ける
+<name1> *= <name2>	<name1> に  <name2> を掛ける
+<name4> += <val1>	<name4> に  <val1> を足す
+<name1> += <val2>	<name1> に  <val2> を足す
+return <name2>	<name2> を返す
+return <name1>	<name1> を返す
+def <name4> ( <name2> , <name1> ) :	<name2> と  <name1> を引数とする関数  <name4> の定義
+def <name1> ( <name2> , <name3> ) :	<name2> と  <name3> を引数とする関数  <name1> の定義
+return <name5> ** <name6>	<name5> の  <name6> 乗を返す
+return <name1> ** <name2>	<name1> の  <name2> 乗を返す
+def <name5> ( ) :	関数  <name5> の定義
+def <name1> ( ) :	関数  <name1> の定義
+<name4> = <val6>	<name4> に  <val6> を代入
+<name1> = <val2>	<name1> に  <val2> を代入
+for <name6> in range ( <val2> , <val3> ) :	<val2> から  <val3> 未満の数を順に  <name6> として
+for <name1> in range ( <val2> , <val3> ) :	<val2> から  <val3> 未満の数を順に  <name1> として
+if <name1> <= <val2> :	もし  <name1> が  <val2> 以下であれば
+<name5> += len ( <name1> [ <name6> ] )	<name5> に  <name1> の  <name6> 番目の要素の長さを足す
+<name1> += len ( <name2> [ <name3> ] )	<name1> に  <name2> の  <name3> 番目の要素の長さを足す
+elif len ( str ( <name2> ) ) == <val1> :	そうでなくて、もし  <name2> の文字列表現の長さが  <val1> であれば
+elif len ( str ( <name1> ) ) == <val2> :	そうでなくて、もし  <name1> の文字列表現の長さが  <val2> であれば
+<name6> += len ( twoword [ int ( <name2> / <val4> ) ] )	toword の  <name2> / <val4> 番目の要素の長さを  <name6> に足す
+<name1> += len ( twoword [ int ( <name2> / <val3> ) ] )	toword の  <name2> / <val3> 番目の要素の長さを  <name1> に足す
+<name6> += len ( <name4> [ <name1> % <val2> ] )	<name4> の  <name1> % <val2> 番目の要素の長さを  <name6> に足す
+<name1> += len ( <name2> [ <name3> % <val4> ] )	<name2> の  <name3> % <val4> 番目の要素の長さを  <name1> に足す
+elif len ( str ( <name2> ) ) == <val3> :	そうでなくて、もし  <name2> の文字列表現の長さが  <val3> であれば
+elif len ( str ( <name1> ) ) == <val2> :	そうでなくて、もし  <name1> の文字列表現の長さが  <val2> であれば
+<name4> += len ( <name2> [ int ( <name1> / <val5> ) ] )	<name2> の  <name1> / <val5> 番目の要素の長さを  <name4> に足す
+<name1> += len ( <name2> [ int ( <name3> / <val4> ) ] )	<name2> の  <name3> / <val4> 番目の要素の長さを  <name1> に足す
+<name1> += len ( 'hundredand'   )	hundredand の文字数を  <name1> に足す
+<name5> = <name6> % <val1>	<name5> に  <name6> を  <val1> で割った余りを代入
+<name1> = <name2> % <val3>	<name1> に  <name2> を  <val3> で割った余りを代入
+if <name4> != <val1> and <name4> <= <val6> :	もし  <name4> が  <val1> でなくて、かつ  <name4> が  <val6> 以下であれば
+if <name1> != <val2> and <name1> <= <val3> :	もし  <name1> が  <val2> でなくて、かつ  <name1> が  <val3> 以下であれば
+<name3> += len ( <name4> [ <name1> ] )	<name3> に  <name4> の  <name1> 番目の要素の長さを足す
+<name1> += len ( <name2> [ <name3> ] )	<name1> に  <name2> の  <name3> 番目の要素の長さを足す
+elif <name2> == <val4> :	そうでなくて、もし  <name2> が  <val4> であれば
+elif <name1> == <val2> :	そうでなくて、もし  <name1> が  <val2> であれば
+<name5> -= <val4>	<name5> から  <val4> を引く
+<name1> -= <val2>	<name1> から  <val2> を引く
+else :	いずれでもなければ
+<name5> += len ( twoword [ int ( <name4> / <val2> ) ] )	<name5> に  toword の  <name4> / <val2> 番目の要素の長さを足す
+<name1> += len ( twoword [ int ( <name2> / <val3> ) ] )	<name1> に  toword の  <name2> / <val3> 番目の要素の長さを足す
+<name2> += len ( <name3> [ <name6> % <val4> ] )	<name2> に  <name3> の  <name6> % <val4> 番目の要素の長さを足す
+<name1> += len ( <name2> [ <name3> % <val4> ] )	<name1> に  <name2> の  <name3> % <val4> 番目の要素の長さを足す
+else :	上記のいずれでもなければ
+<name2> += len ( <val1>   )	<name2> に  <val1>  の文字数を足す
+<name1> += len ( <val2>   )	<name1> に  <val2>  の文字数を足す
+return <name4>	<name4> を返す
+return <name1>	<name1> を返す
+def <name5> ( <name4> ) :	<name4> を引数とする関数  <name5> の定義
+def <name1> ( <name2> ) :	<name2> を引数とする関数  <name1> の定義
+<name4> = str ( <name5> )	<name4> を  <name5> の文字列表現とする
+<name1> = str ( <name2> )	<name1> を  <name2> の文字列表現とする
+<name5> = [ ]	<name5> を空リストとする
+<name1> = [ ]	<name1> を空リストとする
+for <name1> in <name6> :	<name6> の各要素を前から順に  <name1> として
+for <name1> in <name2> :	<name2> の各要素を前から順に  <name1> として
+<name3> . append ( int ( <name5> ) )	<name3> の末尾に  <name5> の表す整数を追加
+<name1> . append ( int ( <name2> ) )	<name1> の末尾に  <name2> の表す整数を追加
+return <name6>	<name6> を返す
+return <name1>	<name1> を返す
+def <name4> ( <name5> ) :	<name5> を引数とする関数  <name4> を定義
+def <name1> ( <name2> ) :	<name2> を引数とする関数  <name1> を定義
+<name3> = <val4>	<name3> に  <val4> を代入
+<name1> = <val2>	<name1> に  <val2> を代入
+while int ( <name5> / <val2> ) >   <val4> :	<name5> を  <val2> で割った整数部分が  <val4> より大きい間
+while int ( <name1> / <val2> ) >   <val3> :	<name1> を  <val2> で割った整数部分が  <val3> より大きい間
+<name3> /= <val5>	<name3> を  <val5> で割る
+<name1> /= <val2>	<name1> を  <val2> で割る
+<name3> += <val2>	<name3> に  <val2> を足す
+<name1> += <val2>	<name1> に  <val2> を足す
+return <name2>	<name2> を返す
+return <name1>	<name1> を返す
+def <name2> ( <name1> ) :	<name1> を引数とする関数  <name2> を定義
+def <name1> ( <name2> ) :	<name2> を引数とする関数  <name1> を定義
+return <name5> [ <name1> % <val6> ]	<name5> の  <name1> % <val6> 番目を返す
+return <name1> [ <name2> % <val3> ]	<name1> の  <name2> % <val3> 番目を返す
+def <name4> ( <name2> , <name1> ) :	<name2> と  <name1> を引数とする関数  <name4> の定義
+def <name1> ( <name2> , <name3> ) :	<name2> と  <name3> を引数とする関数  <name1> の定義
+return <name2> == <name1>	<name2> と  <name1> が等しければ  True 、そうでなければ  False を返す
+return <name1> == <name2>	<name1> と  <name2> が等しければ  True 、そうでなければ  False を返す
+def euler017_divid_integer_part ( <name3> , <name5> ) :	<name3> と  <name5> を引数とする関数  euler -17_ divid_inateger_part を定義
+def euler017_divid_integer_part ( <name1> , <name2> ) :	<name1> と  <name2> を引数とする関数  euler -17_ divid_inateger_part を定義
+return int ( <name4> / <name5> )	<name4> を  <name5> で割った整数部分を返す
+return int ( <name1> / <name2> )	<name1> を  <name2> で割った整数部分を返す
+def <name3> ( <name4> ) :	<name4> を引数とする関数  <name3> の定義
+def <name1> ( <name2> ) :	<name2> を引数とする関数  <name1> の定義
+<name4> = <val5>	<name4> に  <val5> を代入
+<name1> = <val2>	<name1> に  <val2> を代入
+for <name3> in <name6> :	<name6> 内の各要素を  <name3> として
+for <name1> in <name2> :	<name2> 内の各要素を  <name1> として
+<name3> += <val5>	<name3> に  <val5> を足す
+<name1> += <val2>	<name1> に  <val2> を足す
+return <name6>	<name6> を返す
+return <name1>	<name1> を返す
+def <name6> ( <name3> ) :	<name3> を引数とする関数  <name6> を定義
+def <name1> ( <name2> ) :	<name2> を引数とする関数  <name1> を定義
+return len ( <name1> )	<name1> の長さを返す
+def <name1> ( ) :	関数  <name1> の定義
+for <name1> in reversed ( range ( len ( <name5> ) - 1 ) ) :	<name5> の長さ  -1 未満の非負整数を大きい方から  <name1> として
+for <name1> in reversed ( range ( len ( <name2> ) - 1 ) ) :	<name2> の長さ  -1 未満の非負整数を大きい方から  <name1> として
+for <name6> in range ( len ( <name3> [ <name4> ] ) ) :	<name3> の  <name4> 番目の長さ未満の非負整数を小さい方から  <name6> として
+for <name1> in range ( len ( <name2> [ <name3> ] ) ) :	<name2> の  <name3> 番目の長さ未満の非負整数を小さい方から  <name1> として
+<name3> [ <name6> ] [ <name4> ] += max ( <name3> [ <name6> + <val1> ] [ <name4> ] , <name3> [ <name6> + <val1> ] [ <name4> + <val1> ] )	<name3> [ <name6> + <val1> ] [ <name4> ] と  <name3> [ <name6> + <val1> ] [ <name4> + <val1> ] の大きい方を  <name3> [ <name6> ] [ <name4> ] に足す
+<name1> [ <name2> ] [ <name3> ] += max ( <name1> [ <name2> + <val4> ] [ <name3> ] , <name1> [ <name2> + <val4> ] [ <name3> + <val4> ] )	<name1> [ <name2> + <val4> ] [ <name3> ] と  <name1> [ <name2> + <val4> ] [ <name3> + <val4> ] の大きい方を  <name1> [ <name2> ] [ <name3> ] に足す
+return <name1> [ 0 ] [ 0 ]	<name1> の先頭要素の先頭要素を返す
+def <name6> ( ) :	関数  <name6> の定義
+def <name1> ( ) :	関数  <name1> の定義
+<name1> = <val6>	<name1> に  <val6> を代入
+<name1> = <val2>	<name1> に  <val2> を代入
+<name4> = <val2>	<name4> に  <val2> を代入
+<name1> = <val2>	<name1> に  <val2> を代入
+for <name3> in range ( <val6> , <val5> ) :	<val6> 以上  <val5> 未満の整数を順に  <name3> として
+for <name1> in range ( <val2> , <val3> ) :	<val2> 以上  <val3> 未満の整数を順に  <name1> として
+for <name4> , <name5> in enumerate ( <name3> ) :	<name5> を  <name3> の各要素、  <name4> をその番号として
+for <name1> , <name2> in enumerate ( <name3> ) :	<name2> を  <name3> の各要素、  <name1> をその番号として
+if <name4> % <val3> == <val6> :	もし  <name4> を  <val3> で割った余りが  <val6> であれば
+if <name1> % <val2> == <val3> :	もし  <name1> を  <val2> で割った余りが  <val3> であれば
+<name1> += <val3>	<name1> に  <val3> を足す
+<name1> += <val2>	<name1> に  <val2> を足す
+<name1> += <name5>	<name1> に  <name5> を足す
+<name1> += <name2>	<name1> に  <name2> を足す
+if ( <name1> % <val5> == 0 or ( ( not <name1> % <val2> == 0 ) and <name1> % <val3> == 0 ) ) and <name4> == <val6> :	<name1> が  <val5> で割り切れるか、  <val2> で割り切れずに  <val3> で割り切れ、さらに  <name4> が  <val6> である場合、
+if ( <name1> % <val2> == 0 or ( ( not <name1> % <val3> == 0 ) and <name1> % <val4> == 0 ) ) and <name5> == <val6> :	<name1> が  <val2> で割り切れるか、  <val3> で割り切れずに  <val4> で割り切れ、さらに  <name5> が  <val6> である場合、
+<name4> += <val3>	<name4> に  <val3> を足す
+<name1> += <val2>	<name1> に  <val2> を足す
+return <name5>	<name5> を返す
+return <name1>	<name1> を返す
+def <name3> ( <name6> ) :	<name6> を引数とする関数  <name3> を定義
+def <name1> ( <name2> ) :	<name2> を引数とする関数  <name1> を定義
+return <name4> % <val1> == 0 or ( ( not <name4> % <val3> == 0 ) and <name4> % <val2> == 0 )	<name4> が  <val1> で割り切れるか、  <val3> で割り切れずに  <val2> で割り切れる場合  True 、そうでない場合  False を返す。
+return <name1> % <val2> == 0 or ( ( not <name1> % <val3> == 0 ) and <name1> % <val4> == 0 )	<name1> が  <val2> で割り切れるか、  <val3> で割り切れずに  <val4> で割り切れる場合  True 、そうでない場合  False を返す。
+def <name4> ( <name3> , <name2> , <name5> ) :	<name3> と  <name2> と  <name5> を引数とする関数  <name4> を定義
+def <name1> ( <name2> , <name3> , <name4> ) :	<name2> と  <name3> と  <name4> を引数とする関数  <name1> を定義
+if <name3> <= <val4> :	もし  <name3> が  <val4> 以下であれば
+if <name1> <= <val2> :	もし  <name1> が  <val2> 以下であれば
+<name6> += <val1>	<name6> に  <val1> を足す
+<name1> += <val2>	<name1> に  <val2> を足す
+<name4> -= <val6>	<name4> から  <val6> を引く
+<name1> -= <val2>	<name1> から  <val2> を引く
+<name1> = <val5>	<name1> に  <val5> を代入
+<name1> = <val2>	<name1> に  <val2> を代入
+if <val5> <= <name1> :	もし  <name1> が  <val5> 以上であれば
+if <val1> <= <name2> :	もし  <name2> が  <val1> 以上であれば
+<name2> = <val4> * int ( <name5> / <val6> ) + int ( int ( <name5> / <val6> ) / <val3> )	<name2> に  <name5> / <val6> の整数部分の  <val4> 倍と  <name5> / <val6> の整数部分を  <val3> で割った整数部分の和を代入
+<name1> = <val2> * int ( <name3> / <val4> ) + int ( int ( <name3> / <val4> ) / <val5> )	<name1> に  <name3> / <val4> の整数部分の  <val2> 倍と  <name3> / <val4> の整数部分を  <val5> で割った整数部分の和を代入
+else :	そうでなければ
+<name2> = <val6> * int ( <name5> / <val3> ) + <val4>	<name2> に  <name5> を  <val3> で割った整数部分の  <val6> 倍に  <val4> を足したものを代入
+<name1> = <val2> * int ( <name3> / <val4> ) + <val5>	<name1> に  <name3> を  <val4> で割った整数部分の  <val2> 倍に  <val5> を足したものを代入
+<name6> = ( <name1> + int ( <val3> * ( <name4> + <val5> ) / <val2> ) + ( <name6> % <val1> ) + int ( ( <name6> % <val1> ) / <val3> ) + <name4> ) % 7	<name6> に  <name1> 、  <val3> ( <name4> + <val5> ) / <val2> の整数部分、  yy を  <val1> で割った余り、  <name6> % <val1> / <val3> の整数部分、  <name4> を足した結果を代入
+<name1> = ( <name2> + int ( <val3> * ( <name4> + <val5> ) / <val6> ) + ( <name1> % <val2> ) + int ( ( <name1> % <val2> ) / <val3> ) + <name4> ) % 7	<name1> に  <name2> 、  <val3> ( <name4> + <val5> ) / <val6> の整数部分、  yy を  <val2> で割った余り、  <name1> % <val2> / <val3> の整数部分、  <name4> を足した結果を代入
+return <name6> [ <name5> ]	<name6> の  <name5> 番目を返す
+return <name1> [ <name2> ]	<name1> の  <name2> 番目を返す
+def <name1> ( ) :	関数  <name1> の定義
+<name1> = <val6>	<name1> に  <val6> を代入
+<name1> = <val2>	<name1> に  <val2> を代入
+for <name1> in range ( <val4> ) :	<val4> 未満の非負整数を小さい方から順に  <name1> として
+for <name1> in range ( <val2> ) :	<val2> 未満の非負整数を小さい方から順に  <name1> として
+<name5> *= ( <name4> + <val3> )	<name5> に  <name4> + <val3> を掛ける
+<name1> *= ( <name2> + <val3> )	<name1> に  <name2> + <val3> を掛ける
+<name2> = str ( <name6> )	<name2> に  <name6> の文字列表現を代入
+<name1> = str ( <name2> )	<name1> に  <name2> の文字列表現を代入
+<name3> = [ ]	<name3> に空リストを代入
+<name1> = [ ]	<name1> に空リストを代入
+for <name2> in <name5> :	<name5> の各要素を順に  <name2> として
+for <name1> in <name2> :	<name2> の各要素を順に  <name1> として
+<name2> . append ( int ( <name3> ) )	<name2> の末尾にに  <name3> の表す整数を追加
+<name1> . append ( int ( <name2> ) )	<name1> の末尾にに  <name2> の表す整数を追加
+return sum ( <name3> )	<name3> の全要素の総和を返す
+return sum ( <name1> )	<name1> の全要素の総和を返す
+def <name5> ( <name1> ) :	<name1> を引数とする関数  <name5> の定義
+def <name1> ( <name2> ) :	<name2> を引数とする関数  <name1> の定義
+<name1> = <val3>	<name1> に  <val3> を代入
+<name1> = <val2>	<name1> に  <val2> を代入
+for <name6> in range ( <name5> ) :	<name5> 未満の非負整数を小さい方から順に  <name6> として
+for <name1> in range ( <name2> ) :	<name2> 未満の非負整数を小さい方から順に  <name1> として
+<name1> *= ( <name4> + <val5> )	<name1> に  <name4> + <val5> を掛ける
+<name1> *= ( <name2> + <val3> )	<name1> に  <name2> + <val3> を掛ける
+return <name2>	<name2> を返す
+return <name1>	<name1> を返す
+def <name2> ( <name3> ) :	<name3> を引数とする関数  <name2> の定義
+def <name1> ( <name2> ) :	<name2> を引数とする関数  <name1> の定義
+<name3> = str ( <name6> )	<name3> に  <name6> の文字列表現を代入
+<name1> = str ( <name2> )	<name1> に  <name2> の文字列表現を代入
+<name3> = <val4>	<name3> に  <val4> を代入
+<name1> = <val2>	<name1> に  <val2> を代入
+for <name4> in <name1> :	<name1> の各要素を順に  <name4> として
+for <name1> in <name2> :	<name2> の各要素を順に  <name1> として
+<name5> += int ( <name6> )	<name5> に  <name6> の表す整数を足す
+<name1> += int ( <name2> )	<name1> に  <name2> の表す整数を足す
+return <name4>	<name4> を返す
+return <name1>	<name1> を返す
